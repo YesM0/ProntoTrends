@@ -1,0 +1,460 @@
+Year,ticket_geo_region_name,Service_type,Distribution
+2018,Baden-Württemberg,Braut Make Up,0.07
+2018,Baden-Württemberg,Musik Hochzeit,0.07
+2018,Baden-Württemberg,Hochzeitsringe,0.07
+2018,Baden-Württemberg,Hochzeitsfotos,0.08
+2018,Baden-Württemberg,Blumen Hochzeit,0.13
+2018,Baden-Württemberg,Hochzeitstorte,0.38
+2018,Baden-Württemberg,Hochzeitsdeko,0.19
+2018,Baden-Württemberg,Hochzeitscatering,0.01
+2018,Baden-Württemberg,Hochzeit Tanzkurs,0.02
+2018,Bayern,Braut Make Up,0.03
+2018,Bayern,Musik Hochzeit,0.04
+2018,Bayern,Hochzeitsringe,0.03
+2018,Bayern,Blumen Hochzeit,0.06
+2018,Bayern,Hochzeitsfotos,0.11
+2018,Bayern,Hochzeitstorte,0.45
+2018,Bayern,Hochzeitsdeko,0.23
+2018,Bayern,Hochzeitscatering,0.0
+2018,Bayern,Hochzeit Tanzkurs,0.03
+2018,Berlin,Braut Make Up,0.07
+2018,Berlin,Musik Hochzeit,0.07
+2018,Berlin,Hochzeitsringe,0.09
+2018,Berlin,Blumen Hochzeit,0.14
+2018,Berlin,Hochzeitsfotos,0.11
+2018,Berlin,Hochzeitstorte,0.35
+2018,Berlin,Hochzeitsdeko,0.18
+2018,Berlin,Hochzeitscatering,0.0
+2018,Berlin,Hochzeit Tanzkurs,0.0
+2018,Brandenburg,Braut Make Up,0.0
+2018,Brandenburg,Musik Hochzeit,0.06
+2018,Brandenburg,Hochzeitsringe,0.04
+2018,Brandenburg,Blumen Hochzeit,0.08
+2018,Brandenburg,Hochzeitsfotos,0.17
+2018,Brandenburg,Hochzeitstorte,0.43
+2018,Brandenburg,Hochzeitsdeko,0.23
+2018,Brandenburg,Hochzeitscatering,0.0
+2018,Brandenburg,Hochzeit Tanzkurs,0.0
+2018,Bremen,Braut Make Up,0.0
+2018,Bremen,Musik Hochzeit,0.0
+2018,Bremen,Hochzeitsringe,0.06
+2018,Bremen,Blumen Hochzeit,0.0
+2018,Bremen,Hochzeitsfotos,0.11
+2018,Bremen,Hochzeitstorte,0.47
+2018,Bremen,Hochzeitsdeko,0.37
+2018,Bremen,Hochzeitscatering,0.0
+2018,Bremen,Hochzeit Tanzkurs,0.0
+2018,Deutschland,Braut Make Up,0.02
+2018,Deutschland,Musik Hochzeit,0.02
+2018,Deutschland,Hochzeitsringe,0.02
+2018,Deutschland,Blumen Hochzeit,0.04
+2018,Deutschland,Hochzeitsfotos,0.11
+2018,Deutschland,Hochzeitstorte,0.51
+2018,Deutschland,Hochzeitsdeko,0.25
+2018,Deutschland,Hochzeitscatering,0.01
+2018,Deutschland,Hochzeit Tanzkurs,0.02
+2018,Hamburg,Braut Make Up,0.05
+2018,Hamburg,Musik Hochzeit,0.0
+2018,Hamburg,Hochzeitsringe,0.03
+2018,Hamburg,Blumen Hochzeit,0.09
+2018,Hamburg,Hochzeitsfotos,0.18
+2018,Hamburg,Hochzeitstorte,0.41
+2018,Hamburg,Hochzeitsdeko,0.25
+2018,Hamburg,Hochzeitscatering,0.0
+2018,Hamburg,Hochzeit Tanzkurs,0.0
+2018,Hessen,Braut Make Up,0.05
+2018,Hessen,Musik Hochzeit,0.06
+2018,Hessen,Hochzeitsringe,0.05
+2018,Hessen,Blumen Hochzeit,0.07
+2018,Hessen,Hochzeitsfotos,0.15
+2018,Hessen,Hochzeitstorte,0.41
+2018,Hessen,Hochzeitsdeko,0.21
+2018,Hessen,Hochzeitscatering,0.0
+2018,Hessen,Hochzeit Tanzkurs,0.0
+2018,Niedersachsen,Braut Make Up,0.04
+2018,Niedersachsen,Musik Hochzeit,0.04
+2018,Niedersachsen,Hochzeitsringe,0.04
+2018,Niedersachsen,Blumen Hochzeit,0.06
+2018,Niedersachsen,Hochzeitsfotos,0.15
+2018,Niedersachsen,Hochzeitstorte,0.45
+2018,Niedersachsen,Hochzeitsdeko,0.22
+2018,Niedersachsen,Hochzeitscatering,0.0
+2018,Niedersachsen,Hochzeit Tanzkurs,0.0
+2018,Mecklenburg-Vorpommern,Braut Make Up,0.0
+2018,Mecklenburg-Vorpommern,Musik Hochzeit,0.0
+2018,Mecklenburg-Vorpommern,Hochzeitsringe,0.07
+2018,Mecklenburg-Vorpommern,Blumen Hochzeit,0.0
+2018,Mecklenburg-Vorpommern,Hochzeitsfotos,0.12
+2018,Mecklenburg-Vorpommern,Hochzeitstorte,0.44
+2018,Mecklenburg-Vorpommern,Hochzeitsdeko,0.37
+2018,Mecklenburg-Vorpommern,Hochzeitscatering,0.0
+2018,Mecklenburg-Vorpommern,Hochzeit Tanzkurs,0.0
+2018,Nordrhein-Westfalen,Braut Make Up,0.03
+2018,Nordrhein-Westfalen,Musik Hochzeit,0.03
+2018,Nordrhein-Westfalen,Hochzeitsringe,0.03
+2018,Nordrhein-Westfalen,Blumen Hochzeit,0.05
+2018,Nordrhein-Westfalen,Hochzeitsfotos,0.13
+2018,Nordrhein-Westfalen,Hochzeitstorte,0.47
+2018,Nordrhein-Westfalen,Hochzeitsdeko,0.23
+2018,Nordrhein-Westfalen,Hochzeitscatering,0.01
+2018,Nordrhein-Westfalen,Hochzeit Tanzkurs,0.02
+2018,Rheinland-Pfalz,Braut Make Up,0.05
+2018,Rheinland-Pfalz,Musik Hochzeit,0.03
+2018,Rheinland-Pfalz,Hochzeitsringe,0.03
+2018,Rheinland-Pfalz,Blumen Hochzeit,0.07
+2018,Rheinland-Pfalz,Hochzeitsfotos,0.12
+2018,Rheinland-Pfalz,Hochzeitstorte,0.44
+2018,Rheinland-Pfalz,Hochzeitsdeko,0.27
+2018,Rheinland-Pfalz,Hochzeitscatering,0.0
+2018,Rheinland-Pfalz,Hochzeit Tanzkurs,0.0
+2018,Saarland,Braut Make Up,0.0
+2018,Saarland,Musik Hochzeit,0.0
+2018,Saarland,Hochzeitsringe,0.0
+2018,Saarland,Blumen Hochzeit,0.0
+2018,Saarland,Hochzeitsfotos,0.14
+2018,Saarland,Hochzeitstorte,0.59
+2018,Saarland,Hochzeitsdeko,0.27
+2018,Saarland,Hochzeitscatering,0.0
+2018,Saarland,Hochzeit Tanzkurs,0.0
+2018,Sachsen,Braut Make Up,0.05
+2018,Sachsen,Musik Hochzeit,0.1
+2018,Sachsen,Hochzeitsringe,0.09
+2018,Sachsen,Blumen Hochzeit,0.14
+2018,Sachsen,Hochzeitsfotos,0.14
+2018,Sachsen,Hochzeitstorte,0.32
+2018,Sachsen,Hochzeitsdeko,0.18
+2018,Sachsen,Hochzeitscatering,0.0
+2018,Sachsen,Hochzeit Tanzkurs,0.0
+2018,Sachsen-Anhalt,Braut Make Up,0.04
+2018,Sachsen-Anhalt,Musik Hochzeit,0.0
+2018,Sachsen-Anhalt,Hochzeitsringe,0.02
+2018,Sachsen-Anhalt,Blumen Hochzeit,0.08
+2018,Sachsen-Anhalt,Hochzeitsfotos,0.14
+2018,Sachsen-Anhalt,Hochzeitstorte,0.45
+2018,Sachsen-Anhalt,Hochzeitsdeko,0.28
+2018,Sachsen-Anhalt,Hochzeitscatering,0.0
+2018,Sachsen-Anhalt,Hochzeit Tanzkurs,0.0
+2018,Schleswig-Holstein,Braut Make Up,0.05
+2018,Schleswig-Holstein,Musik Hochzeit,0.06
+2018,Schleswig-Holstein,Hochzeitsringe,0.03
+2018,Schleswig-Holstein,Blumen Hochzeit,0.09
+2018,Schleswig-Holstein,Hochzeitsfotos,0.11
+2018,Schleswig-Holstein,Hochzeitstorte,0.4
+2018,Schleswig-Holstein,Hochzeitsdeko,0.25
+2018,Schleswig-Holstein,Hochzeitscatering,0.0
+2018,Schleswig-Holstein,Hochzeit Tanzkurs,0.0
+2018,Thüringen,Braut Make Up,0.0
+2018,Thüringen,Musik Hochzeit,0.07
+2018,Thüringen,Hochzeitsringe,0.05
+2018,Thüringen,Blumen Hochzeit,0.09
+2018,Thüringen,Hochzeitsfotos,0.13
+2018,Thüringen,Hochzeitstorte,0.42
+2018,Thüringen,Hochzeitsdeko,0.23
+2018,Thüringen,Hochzeitscatering,0.0
+2018,Thüringen,Hochzeit Tanzkurs,0.0
+2019,Baden-Württemberg,Braut Make Up,0.06
+2019,Baden-Württemberg,Musik Hochzeit,0.07
+2019,Baden-Württemberg,Hochzeitsringe,0.06
+2019,Baden-Württemberg,Hochzeitsfotos,0.08
+2019,Baden-Württemberg,Blumen Hochzeit,0.12
+2019,Baden-Württemberg,Hochzeitstorte,0.36
+2019,Baden-Württemberg,Hochzeitsdeko,0.2
+2019,Baden-Württemberg,Hochzeitscatering,0.02
+2019,Baden-Württemberg,Hochzeit Tanzkurs,0.03
+2019,Bayern,Braut Make Up,0.03
+2019,Bayern,Musik Hochzeit,0.04
+2019,Bayern,Hochzeitsringe,0.03
+2019,Bayern,Blumen Hochzeit,0.07
+2019,Bayern,Hochzeitsfotos,0.13
+2019,Bayern,Hochzeitstorte,0.42
+2019,Bayern,Hochzeitsdeko,0.23
+2019,Bayern,Hochzeitscatering,0.0
+2019,Bayern,Hochzeit Tanzkurs,0.04
+2019,Berlin,Braut Make Up,0.06
+2019,Berlin,Musik Hochzeit,0.08
+2019,Berlin,Hochzeitsringe,0.1
+2019,Berlin,Blumen Hochzeit,0.12
+2019,Berlin,Hochzeitsfotos,0.13
+2019,Berlin,Hochzeitstorte,0.34
+2019,Berlin,Hochzeitsdeko,0.17
+2019,Berlin,Hochzeitscatering,0.0
+2019,Berlin,Hochzeit Tanzkurs,0.0
+2019,Brandenburg,Braut Make Up,0.0
+2019,Brandenburg,Musik Hochzeit,0.04
+2019,Brandenburg,Hochzeitsringe,0.04
+2019,Brandenburg,Blumen Hochzeit,0.06
+2019,Brandenburg,Hochzeitsfotos,0.17
+2019,Brandenburg,Hochzeitstorte,0.39
+2019,Brandenburg,Hochzeitsdeko,0.29
+2019,Brandenburg,Hochzeitscatering,0.0
+2019,Brandenburg,Hochzeit Tanzkurs,0.0
+2019,Bremen,Braut Make Up,0.0
+2019,Bremen,Musik Hochzeit,0.0
+2019,Bremen,Hochzeitsringe,0.04
+2019,Bremen,Blumen Hochzeit,0.0
+2019,Bremen,Hochzeitsfotos,0.4
+2019,Bremen,Hochzeitstorte,0.37
+2019,Bremen,Hochzeitsdeko,0.18
+2019,Bremen,Hochzeitscatering,0.0
+2019,Bremen,Hochzeit Tanzkurs,0.0
+2019,Deutschland,Braut Make Up,0.02
+2019,Deutschland,Musik Hochzeit,0.02
+2019,Deutschland,Hochzeitsringe,0.02
+2019,Deutschland,Blumen Hochzeit,0.04
+2019,Deutschland,Hochzeitsfotos,0.13
+2019,Deutschland,Hochzeitstorte,0.49
+2019,Deutschland,Hochzeitsdeko,0.25
+2019,Deutschland,Hochzeitscatering,0.01
+2019,Deutschland,Hochzeit Tanzkurs,0.02
+2019,Hamburg,Braut Make Up,0.03
+2019,Hamburg,Musik Hochzeit,0.0
+2019,Hamburg,Hochzeitsringe,0.04
+2019,Hamburg,Blumen Hochzeit,0.07
+2019,Hamburg,Hochzeitsfotos,0.18
+2019,Hamburg,Hochzeitstorte,0.46
+2019,Hamburg,Hochzeitsdeko,0.23
+2019,Hamburg,Hochzeitscatering,0.0
+2019,Hamburg,Hochzeit Tanzkurs,0.0
+2019,Hessen,Braut Make Up,0.04
+2019,Hessen,Musik Hochzeit,0.06
+2019,Hessen,Hochzeitsringe,0.04
+2019,Hessen,Blumen Hochzeit,0.08
+2019,Hessen,Hochzeitsfotos,0.15
+2019,Hessen,Hochzeitstorte,0.4
+2019,Hessen,Hochzeitsdeko,0.22
+2019,Hessen,Hochzeitscatering,0.0
+2019,Hessen,Hochzeit Tanzkurs,0.0
+2019,Niedersachsen,Braut Make Up,0.03
+2019,Niedersachsen,Musik Hochzeit,0.05
+2019,Niedersachsen,Hochzeitsringe,0.03
+2019,Niedersachsen,Blumen Hochzeit,0.06
+2019,Niedersachsen,Hochzeitsfotos,0.18
+2019,Niedersachsen,Hochzeitstorte,0.42
+2019,Niedersachsen,Hochzeitsdeko,0.23
+2019,Niedersachsen,Hochzeitscatering,0.0
+2019,Niedersachsen,Hochzeit Tanzkurs,0.0
+2019,Mecklenburg-Vorpommern,Braut Make Up,0.0
+2019,Mecklenburg-Vorpommern,Musik Hochzeit,0.0
+2019,Mecklenburg-Vorpommern,Hochzeitsringe,0.07
+2019,Mecklenburg-Vorpommern,Blumen Hochzeit,0.0
+2019,Mecklenburg-Vorpommern,Hochzeitsfotos,0.19
+2019,Mecklenburg-Vorpommern,Hochzeitstorte,0.53
+2019,Mecklenburg-Vorpommern,Hochzeitsdeko,0.21
+2019,Mecklenburg-Vorpommern,Hochzeitscatering,0.0
+2019,Mecklenburg-Vorpommern,Hochzeit Tanzkurs,0.0
+2019,Nordrhein-Westfalen,Braut Make Up,0.03
+2019,Nordrhein-Westfalen,Musik Hochzeit,0.03
+2019,Nordrhein-Westfalen,Hochzeitsringe,0.03
+2019,Nordrhein-Westfalen,Blumen Hochzeit,0.05
+2019,Nordrhein-Westfalen,Hochzeitsfotos,0.13
+2019,Nordrhein-Westfalen,Hochzeitstorte,0.44
+2019,Nordrhein-Westfalen,Hochzeitsdeko,0.25
+2019,Nordrhein-Westfalen,Hochzeitscatering,0.02
+2019,Nordrhein-Westfalen,Hochzeit Tanzkurs,0.03
+2019,Rheinland-Pfalz,Braut Make Up,0.04
+2019,Rheinland-Pfalz,Musik Hochzeit,0.03
+2019,Rheinland-Pfalz,Hochzeitsringe,0.04
+2019,Rheinland-Pfalz,Blumen Hochzeit,0.06
+2019,Rheinland-Pfalz,Hochzeitsfotos,0.13
+2019,Rheinland-Pfalz,Hochzeitstorte,0.44
+2019,Rheinland-Pfalz,Hochzeitsdeko,0.26
+2019,Rheinland-Pfalz,Hochzeitscatering,0.0
+2019,Rheinland-Pfalz,Hochzeit Tanzkurs,0.0
+2019,Saarland,Braut Make Up,0.0
+2019,Saarland,Musik Hochzeit,0.0
+2019,Saarland,Hochzeitsringe,0.0
+2019,Saarland,Blumen Hochzeit,0.0
+2019,Saarland,Hochzeitsfotos,0.13
+2019,Saarland,Hochzeitstorte,0.55
+2019,Saarland,Hochzeitsdeko,0.32
+2019,Saarland,Hochzeitscatering,0.0
+2019,Saarland,Hochzeit Tanzkurs,0.0
+2019,Sachsen,Braut Make Up,0.06
+2019,Sachsen,Musik Hochzeit,0.09
+2019,Sachsen,Hochzeitsringe,0.08
+2019,Sachsen,Blumen Hochzeit,0.14
+2019,Sachsen,Hochzeitsfotos,0.1
+2019,Sachsen,Hochzeitstorte,0.31
+2019,Sachsen,Hochzeitsdeko,0.22
+2019,Sachsen,Hochzeitscatering,0.0
+2019,Sachsen,Hochzeit Tanzkurs,0.0
+2019,Sachsen-Anhalt,Braut Make Up,0.02
+2019,Sachsen-Anhalt,Musik Hochzeit,0.0
+2019,Sachsen-Anhalt,Hochzeitsringe,0.05
+2019,Sachsen-Anhalt,Blumen Hochzeit,0.1
+2019,Sachsen-Anhalt,Hochzeitsfotos,0.1
+2019,Sachsen-Anhalt,Hochzeitstorte,0.49
+2019,Sachsen-Anhalt,Hochzeitsdeko,0.23
+2019,Sachsen-Anhalt,Hochzeitscatering,0.0
+2019,Sachsen-Anhalt,Hochzeit Tanzkurs,0.0
+2019,Schleswig-Holstein,Braut Make Up,0.04
+2019,Schleswig-Holstein,Musik Hochzeit,0.07
+2019,Schleswig-Holstein,Hochzeitsringe,0.04
+2019,Schleswig-Holstein,Blumen Hochzeit,0.07
+2019,Schleswig-Holstein,Hochzeitsfotos,0.17
+2019,Schleswig-Holstein,Hochzeitstorte,0.35
+2019,Schleswig-Holstein,Hochzeitsdeko,0.25
+2019,Schleswig-Holstein,Hochzeitscatering,0.0
+2019,Schleswig-Holstein,Hochzeit Tanzkurs,0.0
+2019,Thüringen,Braut Make Up,0.0
+2019,Thüringen,Musik Hochzeit,0.12
+2019,Thüringen,Hochzeitsringe,0.06
+2019,Thüringen,Blumen Hochzeit,0.07
+2019,Thüringen,Hochzeitsfotos,0.22
+2019,Thüringen,Hochzeitstorte,0.32
+2019,Thüringen,Hochzeitsdeko,0.2
+2019,Thüringen,Hochzeitscatering,0.0
+2019,Thüringen,Hochzeit Tanzkurs,0.0
+2020,Baden-Württemberg,Braut Make Up,0.06
+2020,Baden-Württemberg,Musik Hochzeit,0.06
+2020,Baden-Württemberg,Hochzeitsringe,0.06
+2020,Baden-Württemberg,Hochzeitsfotos,0.07
+2020,Baden-Württemberg,Blumen Hochzeit,0.13
+2020,Baden-Württemberg,Hochzeitstorte,0.38
+2020,Baden-Württemberg,Hochzeitsdeko,0.21
+2020,Baden-Württemberg,Hochzeitscatering,0.01
+2020,Baden-Württemberg,Hochzeit Tanzkurs,0.02
+2020,Bayern,Braut Make Up,0.03
+2020,Bayern,Musik Hochzeit,0.04
+2020,Bayern,Hochzeitsringe,0.04
+2020,Bayern,Blumen Hochzeit,0.06
+2020,Bayern,Hochzeitsfotos,0.14
+2020,Bayern,Hochzeitstorte,0.44
+2020,Bayern,Hochzeitsdeko,0.22
+2020,Bayern,Hochzeitscatering,0.0
+2020,Bayern,Hochzeit Tanzkurs,0.03
+2020,Berlin,Braut Make Up,0.07
+2020,Berlin,Musik Hochzeit,0.07
+2020,Berlin,Hochzeitsringe,0.09
+2020,Berlin,Blumen Hochzeit,0.16
+2020,Berlin,Hochzeitsfotos,0.12
+2020,Berlin,Hochzeitstorte,0.31
+2020,Berlin,Hochzeitsdeko,0.18
+2020,Berlin,Hochzeitscatering,0.0
+2020,Berlin,Hochzeit Tanzkurs,0.0
+2020,Brandenburg,Braut Make Up,0.0
+2020,Brandenburg,Musik Hochzeit,0.09
+2020,Brandenburg,Hochzeitsringe,0.04
+2020,Brandenburg,Blumen Hochzeit,0.15
+2020,Brandenburg,Hochzeitsfotos,0.07
+2020,Brandenburg,Hochzeitstorte,0.41
+2020,Brandenburg,Hochzeitsdeko,0.25
+2020,Brandenburg,Hochzeitscatering,0.0
+2020,Brandenburg,Hochzeit Tanzkurs,0.0
+2020,Bremen,Braut Make Up,0.0
+2020,Bremen,Musik Hochzeit,0.0
+2020,Bremen,Hochzeitsringe,0.05
+2020,Bremen,Blumen Hochzeit,0.0
+2020,Bremen,Hochzeitsfotos,0.1
+2020,Bremen,Hochzeitstorte,0.45
+2020,Bremen,Hochzeitsdeko,0.4
+2020,Bremen,Hochzeitscatering,0.0
+2020,Bremen,Hochzeit Tanzkurs,0.0
+2020,Deutschland,Braut Make Up,0.02
+2020,Deutschland,Musik Hochzeit,0.02
+2020,Deutschland,Hochzeitsringe,0.02
+2020,Deutschland,Blumen Hochzeit,0.05
+2020,Deutschland,Hochzeitsfotos,0.1
+2020,Deutschland,Hochzeitstorte,0.5
+2020,Deutschland,Hochzeitsdeko,0.27
+2020,Deutschland,Hochzeitscatering,0.01
+2020,Deutschland,Hochzeit Tanzkurs,0.01
+2020,Hamburg,Braut Make Up,0.03
+2020,Hamburg,Musik Hochzeit,0.0
+2020,Hamburg,Hochzeitsringe,0.04
+2020,Hamburg,Blumen Hochzeit,0.09
+2020,Hamburg,Hochzeitsfotos,0.09
+2020,Hamburg,Hochzeitstorte,0.47
+2020,Hamburg,Hochzeitsdeko,0.29
+2020,Hamburg,Hochzeitscatering,0.0
+2020,Hamburg,Hochzeit Tanzkurs,0.0
+2020,Hessen,Braut Make Up,0.04
+2020,Hessen,Musik Hochzeit,0.07
+2020,Hessen,Hochzeitsringe,0.05
+2020,Hessen,Blumen Hochzeit,0.07
+2020,Hessen,Hochzeitsfotos,0.14
+2020,Hessen,Hochzeitstorte,0.4
+2020,Hessen,Hochzeitsdeko,0.23
+2020,Hessen,Hochzeitscatering,0.0
+2020,Hessen,Hochzeit Tanzkurs,0.0
+2020,Niedersachsen,Braut Make Up,0.04
+2020,Niedersachsen,Musik Hochzeit,0.05
+2020,Niedersachsen,Hochzeitsringe,0.04
+2020,Niedersachsen,Blumen Hochzeit,0.07
+2020,Niedersachsen,Hochzeitsfotos,0.1
+2020,Niedersachsen,Hochzeitstorte,0.44
+2020,Niedersachsen,Hochzeitsdeko,0.25
+2020,Niedersachsen,Hochzeitscatering,0.0
+2020,Niedersachsen,Hochzeit Tanzkurs,0.0
+2020,Mecklenburg-Vorpommern,Braut Make Up,0.0
+2020,Mecklenburg-Vorpommern,Musik Hochzeit,0.0
+2020,Mecklenburg-Vorpommern,Hochzeitsringe,0.08
+2020,Mecklenburg-Vorpommern,Blumen Hochzeit,0.0
+2020,Mecklenburg-Vorpommern,Hochzeitsfotos,0.05
+2020,Mecklenburg-Vorpommern,Hochzeitstorte,0.46
+2020,Mecklenburg-Vorpommern,Hochzeitsdeko,0.4
+2020,Mecklenburg-Vorpommern,Hochzeitscatering,0.0
+2020,Mecklenburg-Vorpommern,Hochzeit Tanzkurs,0.0
+2020,Nordrhein-Westfalen,Braut Make Up,0.03
+2020,Nordrhein-Westfalen,Musik Hochzeit,0.03
+2020,Nordrhein-Westfalen,Hochzeitsringe,0.04
+2020,Nordrhein-Westfalen,Blumen Hochzeit,0.06
+2020,Nordrhein-Westfalen,Hochzeitsfotos,0.13
+2020,Nordrhein-Westfalen,Hochzeitstorte,0.41
+2020,Nordrhein-Westfalen,Hochzeitsdeko,0.26
+2020,Nordrhein-Westfalen,Hochzeitscatering,0.02
+2020,Nordrhein-Westfalen,Hochzeit Tanzkurs,0.02
+2020,Rheinland-Pfalz,Braut Make Up,0.05
+2020,Rheinland-Pfalz,Musik Hochzeit,0.04
+2020,Rheinland-Pfalz,Hochzeitsringe,0.04
+2020,Rheinland-Pfalz,Blumen Hochzeit,0.07
+2020,Rheinland-Pfalz,Hochzeitsfotos,0.11
+2020,Rheinland-Pfalz,Hochzeitstorte,0.39
+2020,Rheinland-Pfalz,Hochzeitsdeko,0.3
+2020,Rheinland-Pfalz,Hochzeitscatering,0.0
+2020,Rheinland-Pfalz,Hochzeit Tanzkurs,0.0
+2020,Saarland,Braut Make Up,0.0
+2020,Saarland,Musik Hochzeit,0.0
+2020,Saarland,Hochzeitsringe,0.0
+2020,Saarland,Blumen Hochzeit,0.0
+2020,Saarland,Hochzeitsfotos,0.07
+2020,Saarland,Hochzeitstorte,0.56
+2020,Saarland,Hochzeitsdeko,0.37
+2020,Saarland,Hochzeitscatering,0.0
+2020,Saarland,Hochzeit Tanzkurs,0.0
+2020,Sachsen,Braut Make Up,0.07
+2020,Sachsen,Musik Hochzeit,0.06
+2020,Sachsen,Hochzeitsringe,0.05
+2020,Sachsen,Blumen Hochzeit,0.11
+2020,Sachsen,Hochzeitsfotos,0.08
+2020,Sachsen,Hochzeitstorte,0.38
+2020,Sachsen,Hochzeitsdeko,0.23
+2020,Sachsen,Hochzeitscatering,0.0
+2020,Sachsen,Hochzeit Tanzkurs,0.0
+2020,Sachsen-Anhalt,Braut Make Up,0.01
+2020,Sachsen-Anhalt,Musik Hochzeit,0.0
+2020,Sachsen-Anhalt,Hochzeitsringe,0.07
+2020,Sachsen-Anhalt,Blumen Hochzeit,0.08
+2020,Sachsen-Anhalt,Hochzeitsfotos,0.09
+2020,Sachsen-Anhalt,Hochzeitstorte,0.48
+2020,Sachsen-Anhalt,Hochzeitsdeko,0.26
+2020,Sachsen-Anhalt,Hochzeitscatering,0.0
+2020,Sachsen-Anhalt,Hochzeit Tanzkurs,0.0
+2020,Schleswig-Holstein,Braut Make Up,0.06
+2020,Schleswig-Holstein,Musik Hochzeit,0.06
+2020,Schleswig-Holstein,Hochzeitsringe,0.03
+2020,Schleswig-Holstein,Blumen Hochzeit,0.1
+2020,Schleswig-Holstein,Hochzeitsfotos,0.18
+2020,Schleswig-Holstein,Hochzeitstorte,0.34
+2020,Schleswig-Holstein,Hochzeitsdeko,0.24
+2020,Schleswig-Holstein,Hochzeitscatering,0.0
+2020,Schleswig-Holstein,Hochzeit Tanzkurs,0.0
+2020,Thüringen,Braut Make Up,0.0
+2020,Thüringen,Musik Hochzeit,0.11
+2020,Thüringen,Hochzeitsringe,0.02
+2020,Thüringen,Blumen Hochzeit,0.07
+2020,Thüringen,Hochzeitsfotos,0.07
+2020,Thüringen,Hochzeitstorte,0.45
+2020,Thüringen,Hochzeitsdeko,0.28
+2020,Thüringen,Hochzeitscatering,0.0
+2020,Thüringen,Hochzeit Tanzkurs,0.0

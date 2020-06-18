@@ -1,0 +1,11 @@
+
+from typing import NewType
+
+
+Country_Shortcode = NewType('Country_Shortcode', str)
+Country_Fullname = NewType('Country_Fullname', str)
+Region_Shortcode = Country_Shortcode
+Region_Fullname = Country_Fullname
+Filepath = str
+Folderpath = Filepath
+Column_Name = str

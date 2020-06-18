@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JsonSchemaMappingsProjectConfiguration">
+    <state>
+      <map>
+        <entry key="JSON Schema version 7">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="JSON Schema version 7" />
+              <option name="relativePathToSchema" value="http://json-schema.org/draft-07/schema" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="applicationDefined" value="true" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="Google_Trends/ProntoPro Trends_Questions_DE.json" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+        <entry key="geojson">
+          <value>
+            <SchemaInfo>
+              <option name="name" value="geojson" />
+              <option name="relativePathToSchema" value="http://json.schemastore.org/geojson" />
+              <option name="schemaVersion" value="JSON Schema version 7" />
+              <option name="patterns">
+                <list>
+                  <Item>
+                    <option name="path" value="*.geojson" />
+                  </Item>
+                  <Item>
+                    <option name="path" value="Google_Trends/ref-nuts-2016-10m.geojson/NUTS_BN_10M_2016_3035_LEVL_1.geojson" />
+                  </Item>
+                </list>
+              </option>
+            </SchemaInfo>
+          </value>
+        </entry>
+      </map>
+    </state>
+  </component>
+</project>

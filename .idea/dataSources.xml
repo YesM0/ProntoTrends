@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="ProntoPro Production DB" uuid="2a10b9c9-7925-490d-88a0-433f12449f89">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://prod-cluster-ro.data.prontopro.tech:3306</jdbc-url>
+    </data-source>
+  </component>
+</project>

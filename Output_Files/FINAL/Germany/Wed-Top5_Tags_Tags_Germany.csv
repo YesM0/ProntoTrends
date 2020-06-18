@@ -1,0 +1,256 @@
+ticket_geo_region_name,ticket_taxonomy_tag_name,year,Rank,Max,Min,Demand_factor_max_to_min
+Baden-Württemberg,Hochzeitstorte,2018,1,5.0,11.0,3.45
+Baden-Württemberg,Hochzeitsfotos,2018,2,5.0,10.0,3.77
+Baden-Württemberg,Blumen,2018,3,8.0,9.0,20.75
+Baden-Württemberg,Hochzeitsringe,2018,4,7.0,8.0,19.2
+Baden-Württemberg,Braut Make Up,2018,5,9.0,0.0,19.0
+Bayern,Hochzeitstorte,2018,1,5.0,10.0,3.91
+Bayern,Blumen,2018,2,8.0,9.0,20.75
+Bayern,Hochzeitsfotos,2018,3,5.0,11.0,3.05
+Bayern,Hochzeitsringe,2018,4,7.0,8.0,19.2
+Bayern,Braut Make Up,2018,5,9.0,0.0,19.0
+Berlin,Hochzeitstorte,2018,1,5.0,11.0,2.37
+Berlin,Hochzeitsfotos,2018,2,5.0,1.0,37.25
+Berlin,Blumen,2018,3,8.0,9.0,20.75
+Berlin,Hochzeitsringe,2018,4,7.0,8.0,19.2
+Berlin,Braut Make Up,2018,5,9.0,0.0,19.0
+Brandenburg,Tanzkurs,2018,1,2.0,7.0,2.63
+Brandenburg,Hochzeitstorte,2018,2,5.0,2.0,15.5
+Brandenburg,Hochzeitsringe,2018,3,7.0,1.0,13.8
+Brandenburg,Braut Make Up,2018,4,,,
+Brandenburg,Blumen,2018,5,,,
+Bremen,Hochzeitstorte,2018,1,8.0,9.0,42.0
+Bremen,Blumen,2018,2,8.0,9.0,20.75
+Bremen,Hochzeitsringe,2018,3,7.0,8.0,19.2
+Bremen,Braut Make Up,2018,4,9.0,0.0,19.0
+Bremen,Hochzeitsfotos,2018,5,5.0,0.0,16.75
+Deutschland,Hochzeitstorte,2018,1,5.0,11.0,2.75
+Deutschland,Hochzeitsfotos,2018,2,5.0,0.0,3.35
+Deutschland,Blumen,2018,3,8.0,9.0,20.75
+Deutschland,Hochzeitsringe,2018,4,7.0,8.0,19.2
+Deutschland,Braut Make Up,2018,5,9.0,0.0,19.0
+Hamburg,Hochzeitstorte,2018,1,6.0,10.0,3.55
+Hamburg,Hochzeitsfotos,2018,2,5.0,1.0,30.0
+Hamburg,Blumen,2018,3,8.0,9.0,20.75
+Hamburg,Hochzeitsringe,2018,4,7.0,8.0,19.2
+Hamburg,Braut Make Up,2018,5,9.0,0.0,19.0
+Hessen,Hochzeitstorte,2018,1,5.0,10.0,2.15
+Hessen,Hochzeitsfotos,2018,2,8.0,2.0,2.4
+Hessen,Blumen,2018,3,8.0,9.0,20.75
+Hessen,Hochzeitsringe,2018,4,7.0,8.0,19.2
+Hessen,Braut Make Up,2018,5,9.0,0.0,19.0
+Niedersachsen,Hochzeitstorte,2018,1,2.0,11.0,2.7
+Niedersachsen,Hochzeitsfotos,2018,2,5.0,9.0,5.04
+Niedersachsen,Blumen,2018,3,4.0,5.0,3.9
+Niedersachsen,Braut Make Up,2018,4,3.0,11.0,10.11
+Niedersachsen,Musik Hochzeit,2018,5,5.0,1.0,6.09
+Mecklenburg-Vorpommern,Braut Make Up,2018,1,,,
+Mecklenburg-Vorpommern,Blumen,2018,2,,,
+Mecklenburg-Vorpommern,Hochzeitsringe,2018,3,,,
+Mecklenburg-Vorpommern,Hochzeitscatering,2018,4,,,
+Mecklenburg-Vorpommern,Hochzeitstorte,2018,5,,,
+Nordrhein-Westfalen,Hochzeitstorte,2018,1,3.0,11.0,2.43
+Nordrhein-Westfalen,Hochzeitsfotos,2018,2,5.0,10.0,3.88
+Nordrhein-Westfalen,Blumen,2018,3,8.0,9.0,20.75
+Nordrhein-Westfalen,Hochzeitsringe,2018,4,7.0,8.0,19.2
+Nordrhein-Westfalen,Braut Make Up,2018,5,9.0,0.0,19.0
+Rheinland-Pfalz,Hochzeitstorte,2018,1,7.0,9.0,5.41
+Rheinland-Pfalz,Blumen,2018,2,8.0,9.0,20.75
+Rheinland-Pfalz,Hochzeitsringe,2018,3,7.0,8.0,19.2
+Rheinland-Pfalz,Braut Make Up,2018,4,9.0,0.0,19.0
+Rheinland-Pfalz,Hochzeitsfotos,2018,5,8.0,3.0,9.25
+Saarland,Hochzeitstorte,2018,1,5.0,10.0,6.3
+Saarland,Hochzeitsfotos,2018,2,5.0,1.0,26.0
+Saarland,Blumen,2018,3,8.0,9.0,20.75
+Saarland,Hochzeitsringe,2018,4,7.0,8.0,19.2
+Saarland,Braut Make Up,2018,5,9.0,0.0,19.0
+Sachsen,Musik Hochzeit,2018,1,5.0,1.0,46.25
+Sachsen,Hochzeitsfotos,2018,2,1.0,6.0,3.68
+Sachsen,Hochzeitstorte,2018,3,5.0,5.0,4.2
+Sachsen,Braut Make Up,2018,4,,,
+Sachsen,Blumen,2018,5,,,
+Sachsen-Anhalt,Musik Hochzeit,2018,1,4.0,5.0,27.2
+Sachsen-Anhalt,Tanzkurs,2018,2,3.0,0.0,16.5
+Sachsen-Anhalt,Braut Make Up,2018,3,,,
+Sachsen-Anhalt,Blumen,2018,4,,,
+Sachsen-Anhalt,Hochzeitsringe,2018,5,,,
+Schleswig-Holstein,Musik Hochzeit,2018,1,2.0,2.0,24.5
+Schleswig-Holstein,Tanzkurs,2018,2,3.0,1.0,18.25
+Schleswig-Holstein,Braut Make Up,2018,3,,,
+Schleswig-Holstein,Blumen,2018,4,,,
+Schleswig-Holstein,Hochzeitsringe,2018,5,,,
+Thüringen,Hochzeitsfotos,2018,1,7.0,1.0,11.6
+Thüringen,Braut Make Up,2018,2,,,
+Thüringen,Blumen,2018,3,,,
+Thüringen,Hochzeitsringe,2018,4,,,
+Thüringen,Hochzeitscatering,2018,5,,,
+Baden-Württemberg,Hochzeitstorte,2019,1,5.0,10.0,1.99
+Baden-Württemberg,Blumen,2019,2,4.0,9.0,29.75
+Baden-Württemberg,Musik Hochzeit,2019,3,2.0,11.0,6.64
+Baden-Württemberg,Hochzeitsringe,2019,4,5.0,1.0,17.5
+Baden-Württemberg,Hochzeitsfotos,2019,5,8.0,6.0,2.26
+Bayern,Hochzeitstorte,2019,1,5.0,11.0,3.05
+Bayern,Blumen,2019,2,4.0,9.0,29.75
+Bayern,Hochzeitsringe,2019,3,5.0,1.0,17.5
+Bayern,Hochzeitsfotos,2019,4,7.0,11.0,2.63
+Bayern,Braut Make Up,2019,5,2.0,7.0,13.5
+Berlin,Hochzeitstorte,2019,1,1.0,9.0,2.76
+Berlin,Blumen,2019,2,4.0,9.0,29.75
+Berlin,Hochzeitsfotos,2019,3,4.0,9.0,21.0
+Berlin,Hochzeitsringe,2019,4,5.0,1.0,17.5
+Berlin,Braut Make Up,2019,5,2.0,7.0,13.5
+Brandenburg,Tanzkurs,2019,1,5.0,11.0,4.33
+Brandenburg,Hochzeitstorte,2019,2,6.0,0.0,16.0
+Brandenburg,Hochzeitsringe,2019,3,7.0,10.0,15.75
+Brandenburg,Braut Make Up,2019,4,,,
+Brandenburg,Blumen,2019,5,,,
+Bremen,Hochzeitstorte,2019,1,4.0,11.0,7.34
+Bremen,Blumen,2019,2,4.0,9.0,29.75
+Bremen,Hochzeitsfotos,2019,3,1.0,5.0,28.0
+Bremen,Hochzeitsringe,2019,4,5.0,1.0,17.5
+Bremen,Braut Make Up,2019,5,2.0,7.0,13.5
+Deutschland,Hochzeitstorte,2019,1,4.0,10.0,2.41
+Deutschland,Blumen,2019,2,4.0,9.0,29.75
+Deutschland,Hochzeitsringe,2019,3,5.0,1.0,17.5
+Deutschland,Hochzeitsfotos,2019,4,4.0,11.0,2.54
+Deutschland,Braut Make Up,2019,5,2.0,7.0,13.5
+Hamburg,Hochzeitstorte,2019,1,5.0,10.0,7.85
+Hamburg,Blumen,2019,2,4.0,9.0,29.75
+Hamburg,Hochzeitsfotos,2019,3,8.0,4.0,22.5
+Hamburg,Hochzeitsringe,2019,4,5.0,1.0,17.5
+Hamburg,Braut Make Up,2019,5,2.0,7.0,13.5
+Hessen,Hochzeitstorte,2019,1,10.0,11.0,1.84
+Hessen,Blumen,2019,2,4.0,9.0,29.75
+Hessen,Hochzeitsfotos,2019,3,8.0,9.0,19.5
+Hessen,Musik Hochzeit,2019,4,5.0,6.0,5.2
+Hessen,Hochzeitsringe,2019,5,5.0,1.0,17.5
+Niedersachsen,Hochzeitstorte,2019,1,7.0,11.0,2.94
+Niedersachsen,Blumen,2019,2,7.0,11.0,6.81
+Niedersachsen,Hochzeitsfotos,2019,3,10.0,11.0,2.01
+Niedersachsen,Musik Hochzeit,2019,4,5.0,8.0,4.19
+Niedersachsen,Hochzeitsringe,2019,5,3.0,0.0,5.84
+Mecklenburg-Vorpommern,Braut Make Up,2019,1,,,
+Mecklenburg-Vorpommern,Blumen,2019,2,,,
+Mecklenburg-Vorpommern,Hochzeitsringe,2019,3,,,
+Mecklenburg-Vorpommern,Hochzeitscatering,2019,4,,,
+Mecklenburg-Vorpommern,Hochzeitstorte,2019,5,,,
+Nordrhein-Westfalen,Hochzeitstorte,2019,1,5.0,11.0,2.71
+Nordrhein-Westfalen,Blumen,2019,2,4.0,9.0,29.75
+Nordrhein-Westfalen,Hochzeitsfotos,2019,3,4.0,6.0,1.92
+Nordrhein-Westfalen,Hochzeitsringe,2019,4,5.0,1.0,17.5
+Nordrhein-Westfalen,Braut Make Up,2019,5,2.0,7.0,13.5
+Rheinland-Pfalz,Hochzeitstorte,2019,1,4.0,1.0,5.83
+Rheinland-Pfalz,Blumen,2019,2,4.0,9.0,29.75
+Rheinland-Pfalz,Hochzeitsringe,2019,3,5.0,1.0,17.5
+Rheinland-Pfalz,Musik Hochzeit,2019,4,4.0,0.0,15.0
+Rheinland-Pfalz,Braut Make Up,2019,5,2.0,7.0,13.5
+Saarland,Hochzeitstorte,2019,1,4.0,11.0,6.79
+Saarland,Blumen,2019,2,4.0,9.0,29.75
+Saarland,Hochzeitsfotos,2019,3,7.0,5.0,25.5
+Saarland,Hochzeitsringe,2019,4,5.0,1.0,17.5
+Saarland,Braut Make Up,2019,5,2.0,7.0,13.5
+Sachsen,Hochzeitsfotos,2019,1,8.0,11.0,40.25
+Sachsen,Musik Hochzeit,2019,2,9.0,0.0,30.8
+Sachsen,Hochzeitstorte,2019,3,3.0,0.0,6.13
+Sachsen,Braut Make Up,2019,4,,,
+Sachsen,Blumen,2019,5,,,
+Sachsen-Anhalt,Musik Hochzeit,2019,1,7.0,3.0,16.25
+Sachsen-Anhalt,Tanzkurs,2019,2,10.0,0.0,7.0
+Sachsen-Anhalt,Braut Make Up,2019,3,,,
+Sachsen-Anhalt,Blumen,2019,4,,,
+Sachsen-Anhalt,Hochzeitsringe,2019,5,,,
+Schleswig-Holstein,Musik Hochzeit,2019,1,3.0,0.0,23.0
+Schleswig-Holstein,Tanzkurs,2019,2,11.0,2.0,15.25
+Schleswig-Holstein,Braut Make Up,2019,3,,,
+Schleswig-Holstein,Blumen,2019,4,,,
+Schleswig-Holstein,Hochzeitsringe,2019,5,,,
+Thüringen,Hochzeitsfotos,2019,1,8.0,0.0,6.75
+Thüringen,Braut Make Up,2019,2,,,
+Thüringen,Blumen,2019,3,,,
+Thüringen,Hochzeitsringe,2019,4,,,
+Thüringen,Hochzeitscatering,2019,5,,,
+Baden-Württemberg,Hochzeitstorte,2020,1,1.0,4.0,55.5
+Baden-Württemberg,Blumen,2020,2,1.0,4.0,19.25
+Baden-Württemberg,Braut Make Up,2020,3,1.0,1.0,15.5
+Baden-Württemberg,Musik Hochzeit,2020,4,1.0,4.0,13.25
+Baden-Württemberg,Hochzeitsfotos,2020,5,1.0,4.0,9.75
+Bayern,Hochzeitstorte,2020,1,1.0,3.0,3.06
+Bayern,Blumen,2020,2,1.0,4.0,19.25
+Bayern,Braut Make Up,2020,3,1.0,1.0,15.5
+Bayern,Hochzeitsfotos,2020,4,4.0,4.0,11.25
+Bayern,Musik Hochzeit,2020,5,1.0,4.0,9.0
+Berlin,Hochzeitstorte,2020,1,1.0,4.0,38.5
+Berlin,Blumen,2020,2,1.0,4.0,19.25
+Berlin,Braut Make Up,2020,3,1.0,1.0,15.5
+Berlin,Hochzeitsfotos,2020,4,1.0,1.0,10.25
+Berlin,Hochzeitsringe,2020,5,1.0,4.0,7.75
+Brandenburg,Tanzkurs,2020,1,1.0,4.0,30.25
+Brandenburg,Hochzeitsringe,2020,2,3.0,4.0,9.6
+Brandenburg,Hochzeitstorte,2020,3,2.0,4.0,6.75
+Brandenburg,Braut Make Up,2020,4,,,
+Brandenburg,Blumen,2020,5,,,
+Bremen,Hochzeitstorte,2020,1,3.0,4.0,22.4
+Bremen,Blumen,2020,2,1.0,4.0,19.25
+Bremen,Braut Make Up,2020,3,1.0,1.0,15.5
+Bremen,Hochzeitsringe,2020,4,1.0,4.0,7.75
+Bremen,Hochzeitscatering,2020,5,1.0,0.0,0.0
+Deutschland,Hochzeitstorte,2020,1,1.0,3.0,3.25
+Deutschland,Blumen,2020,2,1.0,4.0,19.25
+Deutschland,Braut Make Up,2020,3,1.0,1.0,15.5
+Deutschland,Hochzeitsfotos,2020,4,2.0,4.0,8.0
+Deutschland,Hochzeitsringe,2020,5,1.0,4.0,7.75
+Hamburg,Hochzeitstorte,2020,1,2.0,4.0,45.0
+Hamburg,Blumen,2020,2,1.0,4.0,19.25
+Hamburg,Braut Make Up,2020,3,1.0,1.0,15.5
+Hamburg,Hochzeitsringe,2020,4,1.0,4.0,7.75
+Hamburg,Hochzeitsfotos,2020,5,2.0,2.0,6.5
+Hessen,Hochzeitstorte,2020,1,2.0,3.0,2.07
+Hessen,Blumen,2020,2,1.0,4.0,19.25
+Hessen,Braut Make Up,2020,3,1.0,1.0,15.5
+Hessen,Hochzeitsfotos,2020,4,2.0,4.0,14.25
+Hessen,Musik Hochzeit,2020,5,1.0,4.0,11.25
+Niedersachsen,Hochzeitstorte,2020,1,5.0,3.0,4.85
+Niedersachsen,Musik Hochzeit,2020,2,1.0,4.0,15.75
+Niedersachsen,Blumen,2020,3,1.0,4.0,14.5
+Niedersachsen,Hochzeitsfotos,2020,4,1.0,4.0,13.5
+Niedersachsen,Braut Make Up,2020,5,1.0,4.0,10.25
+Mecklenburg-Vorpommern,Braut Make Up,2020,1,,,
+Mecklenburg-Vorpommern,Blumen,2020,2,,,
+Mecklenburg-Vorpommern,Hochzeitsringe,2020,3,,,
+Mecklenburg-Vorpommern,Hochzeitscatering,2020,4,,,
+Mecklenburg-Vorpommern,Hochzeitstorte,2020,5,,,
+Nordrhein-Westfalen,Hochzeitstorte,2020,1,1.0,3.0,2.48
+Nordrhein-Westfalen,Blumen,2020,2,1.0,4.0,19.25
+Nordrhein-Westfalen,Braut Make Up,2020,3,1.0,1.0,15.5
+Nordrhein-Westfalen,Hochzeitsfotos,2020,4,2.0,4.0,11.5
+Nordrhein-Westfalen,Hochzeitsringe,2020,5,1.0,4.0,7.75
+Rheinland-Pfalz,Hochzeitstorte,2020,1,1.0,3.0,8.61
+Rheinland-Pfalz,Blumen,2020,2,1.0,4.0,19.25
+Rheinland-Pfalz,Braut Make Up,2020,3,1.0,1.0,15.5
+Rheinland-Pfalz,Hochzeitsfotos,2020,4,2.0,3.0,10.5
+Rheinland-Pfalz,Hochzeitsringe,2020,5,1.0,4.0,7.75
+Saarland,Hochzeitstorte,2020,1,1.0,3.0,31.25
+Saarland,Blumen,2020,2,1.0,4.0,19.25
+Saarland,Braut Make Up,2020,3,1.0,1.0,15.5
+Saarland,Hochzeitsfotos,2020,4,3.0,0.0,9.8
+Saarland,Hochzeitsringe,2020,5,1.0,4.0,7.75
+Sachsen,Hochzeitsfotos,2020,1,2.0,4.0,14.0
+Sachsen,Musik Hochzeit,2020,2,2.0,0.0,13.75
+Sachsen,Hochzeitstorte,2020,3,4.0,0.0,1.58
+Sachsen,Braut Make Up,2020,4,,,
+Sachsen,Blumen,2020,5,,,
+Sachsen-Anhalt,Musik Hochzeit,2020,1,2.0,2.0,19.5
+Sachsen-Anhalt,Tanzkurs,2020,2,2.0,0.0,6.25
+Sachsen-Anhalt,Braut Make Up,2020,3,,,
+Sachsen-Anhalt,Blumen,2020,4,,,
+Sachsen-Anhalt,Hochzeitsringe,2020,5,,,
+Schleswig-Holstein,Tanzkurs,2020,1,1.0,2.0,25.0
+Schleswig-Holstein,Musik Hochzeit,2020,2,2.0,4.0,9.75
+Schleswig-Holstein,Braut Make Up,2020,3,,,
+Schleswig-Holstein,Blumen,2020,4,,,
+Schleswig-Holstein,Hochzeitsringe,2020,5,,,
+Thüringen,Hochzeitsfotos,2020,1,3.0,1.0,7.6
+Thüringen,Braut Make Up,2020,2,,,
+Thüringen,Blumen,2020,3,,,
+Thüringen,Hochzeitsringe,2020,4,,,
+Thüringen,Hochzeitscatering,2020,5,,,

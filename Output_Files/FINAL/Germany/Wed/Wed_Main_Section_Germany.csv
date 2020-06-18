@@ -1,0 +1,307 @@
+Year,ticket_geo_region_name,Type,sub_type,Percentage
+2018,Baden-Württemberg,Spend,Kosten Hochzeit,0.42
+2018,Baden-Württemberg,Tags,Hochzeitstorte,0.41
+2018,Baden-Württemberg,Ceremony Type,standesamtlich,0.61
+2018,Baden-Württemberg,Reception Location,Schloss,0.55
+2018,Baden-Württemberg,Food,Essen,0.45
+2018,Baden-Württemberg,Wedding Style,Standesamtlich,0.48
+2018,Bayern,Spend,Kosten Hochzeit,0.42
+2018,Bayern,Tags,Hochzeitstorte,0.35
+2018,Bayern,Ceremony Type,standesamtlich,0.65
+2018,Bayern,Reception Location,Schloss,0.52
+2018,Bayern,Food,Essen,0.52
+2018,Bayern,Wedding Style,Standesamtlich,0.48
+2018,Berlin,Spend,Kosten Hochzeit,0.44
+2018,Berlin,Tags,Hochzeitstorte,0.36
+2018,Berlin,Ceremony Type,standesamtlich,1.0
+2018,Berlin,Reception Location,Hotel/ Restaurant,0.46
+2018,Berlin,Food,Essen,1.0
+2018,Berlin,Wedding Style,Standesamtlich,0.6
+2018,Brandenburg,Spend,Hochzeit Geld,0.61
+2018,Brandenburg,Tags,Tanzkurs,0.66
+2018,Brandenburg,Ceremony Type,NA,NA
+2018,Brandenburg,Reception Location,Schloss,0.59
+2018,Brandenburg,Food,NA,NA
+2018,Brandenburg,Wedding Style,Standesamtlich,1.0
+2018,Bremen,Spend,Kosten Hochzeit,1.0
+2018,Bremen,Tags,Hochzeitstorte,0.31
+2018,Bremen,Ceremony Type,NA,NA
+2018,Bremen,Reception Location,NA,NA
+2018,Bremen,Food,NA,NA
+2018,Bremen,Wedding Style,Standesamtlich,1.0
+2018,Deutschland,Spend,Kosten Hochzeit,0.42
+2018,Deutschland,Tags,Hochzeitstorte,0.39
+2018,Deutschland,Ceremony Type,standesamtlich,0.64
+2018,Deutschland,Reception Location,Schloss,0.52
+2018,Deutschland,Food,Essen,0.62
+2018,Deutschland,Wedding Style,Standesamtlich,0.56
+2018,Hamburg,Spend,Kosten Hochzeit,0.61
+2018,Hamburg,Tags,Hochzeitstorte,0.38
+2018,Hamburg,Ceremony Type,standesamtlich,1.0
+2018,Hamburg,Reception Location,Hotel/ Restaurant,0.56
+2018,Hamburg,Food,NA,NA
+2018,Hamburg,Wedding Style,Standesamtlich,0.61
+2018,Hessen,Spend,Kosten Hochzeit,0.41
+2018,Hessen,Tags,Hochzeitstorte,0.39
+2018,Hessen,Ceremony Type,standesamtlich,0.53
+2018,Hessen,Reception Location,Schloss,0.52
+2018,Hessen,Food,Bar,0.51
+2018,Hessen,Wedding Style,Standesamtlich,0.54
+2018,Mecklenburg-Vorpommern,Spend,Hochzeit Geld,0.61
+2018,Mecklenburg-Vorpommern,Tags,4,0.83
+2018,Mecklenburg-Vorpommern,Ceremony Type,NA,NA
+2018,Mecklenburg-Vorpommern,Reception Location,Schloss,1.0
+2018,Mecklenburg-Vorpommern,Food,NA,NA
+2018,Mecklenburg-Vorpommern,Wedding Style,Standesamtlich,1.0
+2018,Niedersachsen,Spend,Kosten Hochzeit,0.37
+2018,Niedersachsen,Tags,Hochzeitstorte,0.38
+2018,Niedersachsen,Ceremony Type,standesamtlich,0.57
+2018,Niedersachsen,Reception Location,Schloss,0.53
+2018,Niedersachsen,Food,Bar,0.5
+2018,Niedersachsen,Wedding Style,Standesamtlich,0.56
+2018,Nordrhein-Westfalen,Spend,Kosten Hochzeit,0.42
+2018,Nordrhein-Westfalen,Tags,Hochzeitstorte,0.4
+2018,Nordrhein-Westfalen,Ceremony Type,standesamtlich,0.54
+2018,Nordrhein-Westfalen,Reception Location,Schloss,0.54
+2018,Nordrhein-Westfalen,Food,Essen,0.58
+2018,Nordrhein-Westfalen,Wedding Style,Standesamtlich,0.53
+2018,Rheinland-Pfalz,Spend,Kosten Hochzeit,0.48
+2018,Rheinland-Pfalz,Tags,Hochzeitstorte,0.37
+2018,Rheinland-Pfalz,Ceremony Type,standesamtlich,1.0
+2018,Rheinland-Pfalz,Reception Location,Schloss,0.56
+2018,Rheinland-Pfalz,Food,Essen,1.0
+2018,Rheinland-Pfalz,Wedding Style,Standesamtlich,0.51
+2018,Saarland,Spend,Hochzeit Geld,1.0
+2018,Saarland,Tags,Hochzeitstorte,0.37
+2018,Saarland,Ceremony Type,NA,NA
+2018,Saarland,Reception Location,Schloss,1.0
+2018,Saarland,Food,NA,NA
+2018,Saarland,Wedding Style,Standesamtlich,0.54
+2018,Sachsen,Spend,Kosten Hochzeit,0.41
+2018,Sachsen,Tags,Dekorateur für Hochzeiten,0.5
+2018,Sachsen,Ceremony Type,standesamtlich,1.0
+2018,Sachsen,Reception Location,Schloss,0.67
+2018,Sachsen,Food,NA,NA
+2018,Sachsen,Wedding Style,Standesamtlich,0.56
+2018,Sachsen-Anhalt,Spend,Kosten Hochzeit,0.52
+2018,Sachsen-Anhalt,Tags,Musiker für Hochzeit,0.18
+2018,Sachsen-Anhalt,Ceremony Type,NA,NA
+2018,Sachsen-Anhalt,Reception Location,Schloss,0.72
+2018,Sachsen-Anhalt,Food,NA,NA
+2018,Sachsen-Anhalt,Wedding Style,Standesamtlich,1.0
+2018,Schleswig-Holstein,Spend,Kosten Hochzeit,0.45
+2018,Schleswig-Holstein,Tags,Musiker für Hochzeit,0.2
+2018,Schleswig-Holstein,Ceremony Type,standesamtlich,1.0
+2018,Schleswig-Holstein,Reception Location,Hotel/ Restaurant,0.54
+2018,Schleswig-Holstein,Food,NA,NA
+2018,Schleswig-Holstein,Wedding Style,Standesamtlich,0.54
+2018,Thüringen,Spend,Hochzeit Geld,0.53
+2018,Thüringen,Tags,Dekorateur für Hochzeiten,0.18
+2018,Thüringen,Ceremony Type,NA,NA
+2018,Thüringen,Reception Location,Schloss,0.55
+2018,Thüringen,Food,NA,NA
+2018,Thüringen,Wedding Style,Standesamtlich,1.0
+2019,Baden-Württemberg,Spend,Kosten Hochzeit,0.41
+2019,Baden-Württemberg,Tags,Hochzeitstorte,0.39
+2019,Baden-Württemberg,Ceremony Type,standesamtlich,0.65
+2019,Baden-Württemberg,Reception Location,Schloss,0.53
+2019,Baden-Württemberg,Food,Essen,0.49
+2019,Baden-Württemberg,Wedding Style,Standesamtlich,0.5
+2019,Bayern,Spend,Kosten Hochzeit,0.4
+2019,Bayern,Tags,Hochzeitstorte,0.37
+2019,Bayern,Ceremony Type,standesamtlich,0.65
+2019,Bayern,Reception Location,Schloss,0.51
+2019,Bayern,Food,Essen,0.59
+2019,Bayern,Wedding Style,Standesamtlich,0.5
+2019,Berlin,Spend,Kosten Hochzeit,0.49
+2019,Berlin,Tags,Hochzeitstorte,0.37
+2019,Berlin,Ceremony Type,standesamtlich,1.0
+2019,Berlin,Reception Location,Schloss,0.45
+2019,Berlin,Food,Essen,1.0
+2019,Berlin,Wedding Style,Standesamtlich,0.65
+2019,Brandenburg,Spend,Kosten Hochzeit,0.51
+2019,Brandenburg,Tags,Tanzkurs,0.6
+2019,Brandenburg,Ceremony Type,NA,NA
+2019,Brandenburg,Reception Location,Hotel/ Restaurant,0.51
+2019,Brandenburg,Food,NA,NA
+2019,Brandenburg,Wedding Style,Standesamtlich,1.0
+2019,Bremen,Spend,Kosten Hochzeit,1.0
+2019,Bremen,Tags,Hochzeitstorte,0.25
+2019,Bremen,Ceremony Type,NA,NA
+2019,Bremen,Reception Location,NA,NA
+2019,Bremen,Food,NA,NA
+2019,Bremen,Wedding Style,Standesamtlich,1.0
+2019,Deutschland,Spend,Kosten Hochzeit,0.46
+2019,Deutschland,Tags,Hochzeitstorte,0.37
+2019,Deutschland,Ceremony Type,standesamtlich,0.63
+2019,Deutschland,Reception Location,Schloss,0.51
+2019,Deutschland,Food,Essen,0.53
+2019,Deutschland,Wedding Style,Standesamtlich,0.57
+2019,Hamburg,Spend,Kosten Hochzeit,0.55
+2019,Hamburg,Tags,Hochzeitstorte,0.39
+2019,Hamburg,Ceremony Type,standesamtlich,1.0
+2019,Hamburg,Reception Location,Hotel/ Restaurant,0.62
+2019,Hamburg,Food,NA,NA
+2019,Hamburg,Wedding Style,Standesamtlich,0.59
+2019,Hessen,Spend,Kosten Hochzeit,0.49
+2019,Hessen,Tags,Hochzeitstorte,0.41
+2019,Hessen,Ceremony Type,standesamtlich,0.6
+2019,Hessen,Reception Location,Schloss,0.48
+2019,Hessen,Food,Bar,0.52
+2019,Hessen,Wedding Style,Standesamtlich,0.54
+2019,Mecklenburg-Vorpommern,Spend,Hochzeit Geld,0.57
+2019,Mecklenburg-Vorpommern,Tags,Dekorateur für Hochzeiten,0.12
+2019,Mecklenburg-Vorpommern,Ceremony Type,NA,NA
+2019,Mecklenburg-Vorpommern,Reception Location,Schloss,1.0
+2019,Mecklenburg-Vorpommern,Food,NA,NA
+2019,Mecklenburg-Vorpommern,Wedding Style,Standesamtlich,1.0
+2019,Niedersachsen,Spend,Hochzeit Geld,0.36
+2019,Niedersachsen,Tags,Hochzeitstorte,0.34
+2019,Niedersachsen,Ceremony Type,standesamtlich,0.64
+2019,Niedersachsen,Reception Location,Schloss,0.51
+2019,Niedersachsen,Food,Bar,0.6
+2019,Niedersachsen,Wedding Style,Standesamtlich,0.59
+2019,Nordrhein-Westfalen,Spend,Kosten Hochzeit,0.44
+2019,Nordrhein-Westfalen,Tags,Hochzeitstorte,0.38
+2019,Nordrhein-Westfalen,Ceremony Type,standesamtlich,0.59
+2019,Nordrhein-Westfalen,Reception Location,Schloss,0.53
+2019,Nordrhein-Westfalen,Food,Essen,0.64
+2019,Nordrhein-Westfalen,Wedding Style,Standesamtlich,0.54
+2019,Rheinland-Pfalz,Spend,Kosten Hochzeit,0.5
+2019,Rheinland-Pfalz,Tags,Hochzeitstorte,0.36
+2019,Rheinland-Pfalz,Ceremony Type,standesamtlich,1.0
+2019,Rheinland-Pfalz,Reception Location,Schloss,0.52
+2019,Rheinland-Pfalz,Food,Essen,1.0
+2019,Rheinland-Pfalz,Wedding Style,Standesamtlich,0.48
+2019,Saarland,Spend,Hochzeit Geld,1.0
+2019,Saarland,Tags,Hochzeitstorte,0.35
+2019,Saarland,Ceremony Type,NA,NA
+2019,Saarland,Reception Location,Schloss,1.0
+2019,Saarland,Food,NA,NA
+2019,Saarland,Wedding Style,Standesamtlich,0.6
+2019,Sachsen,Spend,Kosten Hochzeit,0.5
+2019,Sachsen,Tags,Dekorateur für Hochzeiten,0.52
+2019,Sachsen,Ceremony Type,standesamtlich,1.0
+2019,Sachsen,Reception Location,Schloss,0.61
+2019,Sachsen,Food,NA,NA
+2019,Sachsen,Wedding Style,Standesamtlich,0.55
+2019,Sachsen-Anhalt,Spend,Kosten Hochzeit,0.62
+2019,Sachsen-Anhalt,Tags,Musiker für Hochzeit,0.15
+2019,Sachsen-Anhalt,Ceremony Type,NA,NA
+2019,Sachsen-Anhalt,Reception Location,Schloss,0.56
+2019,Sachsen-Anhalt,Food,NA,NA
+2019,Sachsen-Anhalt,Wedding Style,Standesamtlich,1.0
+2019,Schleswig-Holstein,Spend,Kosten Hochzeit,0.52
+2019,Schleswig-Holstein,Tags,Musiker für Hochzeit,0.21
+2019,Schleswig-Holstein,Ceremony Type,standesamtlich,1.0
+2019,Schleswig-Holstein,Reception Location,Hotel/ Restaurant,0.58
+2019,Schleswig-Holstein,Food,NA,NA
+2019,Schleswig-Holstein,Wedding Style,Standesamtlich,0.59
+2019,Thüringen,Spend,Hochzeit Geld,0.53
+2019,Thüringen,Tags,Hochzeitsfotograf,0.1
+2019,Thüringen,Ceremony Type,NA,NA
+2019,Thüringen,Reception Location,Schloss,0.6
+2019,Thüringen,Food,NA,NA
+2019,Thüringen,Wedding Style,Standesamtlich,1.0
+2020,Baden-Württemberg,Spend,Kosten Hochzeit,0.55
+2020,Baden-Württemberg,Tags,Hochzeitstorte,0.38
+2020,Baden-Württemberg,Ceremony Type,standesamtlich,0.58
+2020,Baden-Württemberg,Reception Location,Schloss,0.51
+2020,Baden-Württemberg,Food,Essen,0.62
+2020,Baden-Württemberg,Wedding Style,Standesamtlich,0.62
+2020,Bayern,Spend,Kosten Hochzeit,0.5
+2020,Bayern,Tags,Hochzeitstorte,0.43
+2020,Bayern,Ceremony Type,kirchlich,0.55
+2020,Bayern,Reception Location,Schloss,0.53
+2020,Bayern,Food,Essen,0.54
+2020,Bayern,Wedding Style,Standesamtlich,0.59
+2020,Berlin,Spend,Kosten Hochzeit,0.42
+2020,Berlin,Tags,Hochzeitstorte,0.33
+2020,Berlin,Ceremony Type,standesamtlich,1.0
+2020,Berlin,Reception Location,Schloss,0.45
+2020,Berlin,Food,Essen,1.0
+2020,Berlin,Wedding Style,Standesamtlich,0.72
+2020,Brandenburg,Spend,Kosten Hochzeit,0.6
+2020,Brandenburg,Tags,Tanzkurs,0.61
+2020,Brandenburg,Ceremony Type,NA,NA
+2020,Brandenburg,Reception Location,Schloss,0.67
+2020,Brandenburg,Food,NA,NA
+2020,Brandenburg,Wedding Style,Standesamtlich,1.0
+2020,Bremen,Spend,Kosten Hochzeit,1.0
+2020,Bremen,Tags,Hochzeitstorte,0.38
+2020,Bremen,Ceremony Type,NA,NA
+2020,Bremen,Reception Location,NA,NA
+2020,Bremen,Food,NA,NA
+2020,Bremen,Wedding Style,Standesamtlich,1.0
+2020,Deutschland,Spend,Kosten Hochzeit,0.55
+2020,Deutschland,Tags,Hochzeitstorte,0.41
+2020,Deutschland,Ceremony Type,standesamtlich,0.54
+2020,Deutschland,Reception Location,Schloss,0.52
+2020,Deutschland,Food,Essen,0.58
+2020,Deutschland,Wedding Style,Standesamtlich,0.7
+2020,Hamburg,Spend,Kosten Hochzeit,0.63
+2020,Hamburg,Tags,Hochzeitstorte,0.41
+2020,Hamburg,Ceremony Type,standesamtlich,1.0
+2020,Hamburg,Reception Location,Hotel/ Restaurant,0.61
+2020,Hamburg,Food,NA,NA
+2020,Hamburg,Wedding Style,Standesamtlich,0.8
+2020,Hessen,Spend,Kosten Hochzeit,0.39
+2020,Hessen,Tags,Hochzeitstorte,0.4
+2020,Hessen,Ceremony Type,standesamtlich,0.59
+2020,Hessen,Reception Location,Schloss,0.51
+2020,Hessen,Food,Essen,0.8
+2020,Hessen,Wedding Style,Standesamtlich,0.57
+2020,Mecklenburg-Vorpommern,Spend,Kosten Hochzeit,0.67
+2020,Mecklenburg-Vorpommern,Tags,4,0.88
+2020,Mecklenburg-Vorpommern,Ceremony Type,NA,NA
+2020,Mecklenburg-Vorpommern,Reception Location,Schloss,1.0
+2020,Mecklenburg-Vorpommern,Food,NA,NA
+2020,Mecklenburg-Vorpommern,Wedding Style,Standesamtlich,1.0
+2020,Niedersachsen,Spend,Kosten Hochzeit,0.56
+2020,Niedersachsen,Tags,Hochzeitstorte,0.42
+2020,Niedersachsen,Ceremony Type,standesamtlich,0.66
+2020,Niedersachsen,Reception Location,Hotel/ Restaurant,0.5
+2020,Niedersachsen,Food,Essen,0.61
+2020,Niedersachsen,Wedding Style,Standesamtlich,0.65
+2020,Nordrhein-Westfalen,Spend,Kosten Hochzeit,0.47
+2020,Nordrhein-Westfalen,Tags,Hochzeitstorte,0.4
+2020,Nordrhein-Westfalen,Ceremony Type,kirchlich,0.64
+2020,Nordrhein-Westfalen,Reception Location,Schloss,0.54
+2020,Nordrhein-Westfalen,Food,Essen,0.74
+2020,Nordrhein-Westfalen,Wedding Style,Standesamtlich,0.69
+2020,Rheinland-Pfalz,Spend,Kosten Hochzeit,0.57
+2020,Rheinland-Pfalz,Tags,Hochzeitstorte,0.42
+2020,Rheinland-Pfalz,Ceremony Type,standesamtlich,1.0
+2020,Rheinland-Pfalz,Reception Location,Hotel/ Restaurant,0.52
+2020,Rheinland-Pfalz,Food,Essen,1.0
+2020,Rheinland-Pfalz,Wedding Style,Standesamtlich,0.67
+2020,Saarland,Spend,Hochzeit Geld,1.0
+2020,Saarland,Tags,Hochzeitstorte,0.28
+2020,Saarland,Ceremony Type,NA,NA
+2020,Saarland,Reception Location,NA,NA
+2020,Saarland,Food,NA,NA
+2020,Saarland,Wedding Style,Standesamtlich,0.7
+2020,Sachsen,Spend,Kosten Hochzeit,0.52
+2020,Sachsen,Tags,Dekorateur für Hochzeiten,0.67
+2020,Sachsen,Ceremony Type,standesamtlich,1.0
+2020,Sachsen,Reception Location,Schloss,0.57
+2020,Sachsen,Food,NA,NA
+2020,Sachsen,Wedding Style,Standesamtlich,0.72
+2020,Sachsen-Anhalt,Spend,Kosten Hochzeit,0.78
+2020,Sachsen-Anhalt,Tags,Dekorateur für Hochzeiten,0.23
+2020,Sachsen-Anhalt,Ceremony Type,NA,NA
+2020,Sachsen-Anhalt,Reception Location,Schloss,0.67
+2020,Sachsen-Anhalt,Food,NA,NA
+2020,Sachsen-Anhalt,Wedding Style,Standesamtlich,1.0
+2020,Schleswig-Holstein,Spend,Kosten Hochzeit,0.52
+2020,Schleswig-Holstein,Tags,Tanzkurs,0.17
+2020,Schleswig-Holstein,Ceremony Type,standesamtlich,1.0
+2020,Schleswig-Holstein,Reception Location,Hotel/ Restaurant,0.72
+2020,Schleswig-Holstein,Food,NA,NA
+2020,Schleswig-Holstein,Wedding Style,Standesamtlich,0.57
+2020,Thüringen,Spend,Kosten Hochzeit,0.62
+2020,Thüringen,Tags,Dekorateur für Hochzeiten,0.21
+2020,Thüringen,Ceremony Type,NA,NA
+2020,Thüringen,Reception Location,Schloss,0.58
+2020,Thüringen,Food,NA,NA
+2020,Thüringen,Wedding Style,Standesamtlich,1.0
