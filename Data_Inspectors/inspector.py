@@ -1,3 +1,7 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 import os
 import sys
 from pprint import pprint
@@ -5,15 +9,14 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 import utils.user_interaction_utils
-from utils.misc_utils import generateRegionIds, getRegions
-from utils.paramsGetter import readInLocales
+from utils.misc_utils import getRegions
+from utils.Countries import readInLocales, generateRegionIds
 from utils.Filesys import generic_FileServer
 
 FS = generic_FileServer
 
 
 def getFile(country, tag, dimension, region_shortcode):
-    cwd = os.getcwd()
     region_shortcode = region_shortcode.upper()
     expected_file_location = os.path.join(FS.Aggregated, country)
     for filename in os.listdir(expected_file_location):
@@ -30,7 +33,6 @@ def remap(value, maximum):
 
 
 def getAvailableTags(country, short_code, dimension):
-    cwd = os.getcwd()
     short_code = short_code.upper()
     expected_file_location = os.path.join(FS.Aggregated, country)
     tags = {}
@@ -109,7 +111,8 @@ def showGroupedByYear(df, *args, **kwargs):
         plt.show()
 
 
-if __name__ == '__main__':
+def dialog():
+    # global dimension
     while True:
         shortcode, country = utils.user_interaction_utils.getChosenCountry()
         if 'y' in input("Do you want to look at a region? (y/n)\n"):
@@ -129,7 +132,6 @@ if __name__ == '__main__':
             break
         else:
             print("\n\n\n\nNo file available\n\n\n")
-
     if dimension == 'Geo':
         displayFile(file, dimension)
         sys.exit()
@@ -140,3 +142,7 @@ if __name__ == '__main__':
         displayFile(file, dimension, displayGroupedByYear=displayGroupedByYear, df=df)
     else:
         displayFile(file, dimension, displayGroupedByYear=displayGroupedByYear)
+
+
+if __name__ == '__main__':
+    dialog()

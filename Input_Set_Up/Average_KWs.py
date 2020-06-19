@@ -1,3 +1,7 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 import json
 import os
 
@@ -32,7 +36,6 @@ def getMean(keyword, country_name, short_code):
 
 
 def findOutFile(keyword, country, region_code, dimension):
-    cwd = os.getcwd()
     expected_file_location = os.path.join(FS.Kwd_Level_Outs, keyword)
     expected_file_pattern = f"{dimension}_{country}_{region_code}_{keyword}_" if dimension == 'Time' else f"{dimension}_{country}_{keyword}_"
     for filename in os.listdir(expected_file_location):
@@ -43,7 +46,6 @@ def findOutFile(keyword, country, region_code, dimension):
 
 if __name__ == "__main__":
     ccs_todo = getChosenCountries()
-    cwd = os.getcwd()
     out = []
     prefix = input("What is the prefix?\n").strip() + "_" if binaryResponse("Do you have a prefix in your filename?") else ""
     for short, country in ccs_todo:

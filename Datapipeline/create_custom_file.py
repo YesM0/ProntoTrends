@@ -1,15 +1,24 @@
+if __name__ == '__main__':
+    import sys
+
+    sys.path.append('../')
+
 import os
-import pandas as pd
+
 import numpy as np
-from utils.misc_utils import lcol, reverseDict
-from utils.user_interaction_utils import binaryResponse, choose_from_dict, choose_multiple_from_dict, \
-    chooseFolder, chooseFile
-from Datapipeline.finalCSVgenerator import Sort
+import pandas as pd
 from matplotlib import pyplot as plt
+
+from Datapipeline.finalCSVgenerator import Sort
+from utils.misc_utils import lcol, reverseDict, getDirectory, rescale_comparison
+from utils.user_interaction_utils import binaryResponse, choose_from_dict, choose_multiple_from_dict, \
+    chooseFolder, chooseFile, choose_column
+from utils.Filesys import generic_FileServer as FS
 
 TESTING = True
 if TESTING:
-    print(f"{lcol.WARNING}You are in testing mode. If you don't want this, please change the setting in the file{lcol.ENDC}")
+    print(
+        f"{lcol.WARNING}You are in testing mode. If you don't want this, please change the setting in the file{lcol.ENDC}")
 
 
 def calculateScalar(row, tag_maxes):
@@ -23,7 +32,8 @@ def createBase():
         ["Dj per matrimoni", "Musica per matrimonio"],
         ["wedding planner", "organizzatore di matrimoni"]
     ]
-    df = pd.read_csv("../misc/Wedding_Tag_Requests_IT copy.csv", header=0, names=['Tag', 'Region', 'Year', 'Month', 'Count'])
+    df = pd.read_csv("../misc/Wedding_Tag_Requests_IT copy.csv", header=0,
+                     names=['Tag', 'Region', 'Year', 'Month', 'Count'])
     df = df[df.Year > 2017]
     for merge in merges:
         item1, item2 = merge
@@ -293,26 +303,26 @@ def fixNas():
 def convert_region_names_to_google(df: pd.DataFrame, is_geo=False):
     d_eng = {
         "Abruzzo": "IT-65",
-         "Aosta": "IT-23",
-         "Apulia": "IT-75",
-         "Basilicata": "IT-77",
-         "Calabria": "IT-78",
-         "Campania": "IT-72",
-         "Emilia-Romagna": "IT-45",
-         "Friuli-Venezia Giulia": "IT-36",
-         "Lazio":"IT-62",
-         "Liguria": "IT-42",
-         "Lombardy": "IT-25",
-         "Marche": "IT-57",
-         "Molise": "IT-67",
-         "Piedmont":"IT-21",
-         "Sardinia":"IT-88",
-         "Sicily": "IT-82",
-         "Trentino-Alto Adige/South Tyrol": "IT-32",
-         "Tuscany": "IT-52",
-         "Umbria": "IT-55",
-         "Veneto": "IT-34",
-         "Italy": "IT"
+        "Aosta": "IT-23",
+        "Apulia": "IT-75",
+        "Basilicata": "IT-77",
+        "Calabria": "IT-78",
+        "Campania": "IT-72",
+        "Emilia-Romagna": "IT-45",
+        "Friuli-Venezia Giulia": "IT-36",
+        "Lazio": "IT-62",
+        "Liguria": "IT-42",
+        "Lombardy": "IT-25",
+        "Marche": "IT-57",
+        "Molise": "IT-67",
+        "Piedmont": "IT-21",
+        "Sardinia": "IT-88",
+        "Sicily": "IT-82",
+        "Trentino-Alto Adige/South Tyrol": "IT-32",
+        "Tuscany": "IT-52",
+        "Umbria": "IT-55",
+        "Veneto": "IT-34",
+        "Italy": "IT"
     }
     regions_remap = {
         "Aosta": "Valle d'Aosta",
@@ -334,13 +344,25 @@ def convert_region_names_to_google(df: pd.DataFrame, is_geo=False):
         df = df.replace(to_replace=region_it_id)
     else:
         def remap(row, regions_remap):
-            row['ticket_geo_region_name'] = reverseDict(regions_remap).get(row['ticket_geo_region_name'], row['ticket_geo_region_name'])
+            row['ticket_geo_region_name'] = reverseDict(regions_remap).get(row['ticket_geo_region_name'],
+                                                                           row['ticket_geo_region_name'])
             return row
+
         df = df.apply(remap, args=(regions_remap,), axis=1)
     return df
 
 
 def make_uniform(df: pd.DataFrame, group_uniques: dict, index_column):
+    """
+    Ensures that the dataframe has sufficient rows to be "square"
+    Args:
+        df:
+        group_uniques:
+        index_column:
+
+    Returns:
+
+    """
     l = list(group_uniques.keys())
     df = df.set_index(keys=l, drop=True)
     df = df.reindex(pd.MultiIndex.from_product(list(group_uniques.values()), names=l))
@@ -355,14 +377,14 @@ def make_uniform(df: pd.DataFrame, group_uniques: dict, index_column):
             val = df[col].unique().tolist()[1]
         df[col] = df[col].fillna(val)
     if 'date' in df.columns:
-        df['date'] = pd.to_datetime(df[['year','month','day']])
+        df['date'] = pd.to_datetime(df[['year', 'month', 'day']])
     df = df.sort_values(by=l)
     mask = (df['date'] > '2017-12-31') & (df['date'] <= pd.Timestamp.today())
     df = df.loc[mask]
     return df
 
 
-def treat_and_safe(group, name, q, index_col, min_tickets, grouping_uniques, saving_folder, has_date):
+def treat_and_save(group, name, q, index_col, min_tickets, grouping_uniques, saving_folder, has_date):
     print(name, group.shape)
     # print(group)
     group_max = group[index_col].max()
@@ -475,7 +497,8 @@ def group_split_col(split_file_col: list):
                     if len(split_file_col) == num_groups - i - 1:
                         choices = split_file_col[0]
                     else:
-                        choices = choose_multiple_from_dict({i: x for i, x in enumerate(split_file_col)}, "Columns", request_description=f"Choose which of the columns you want to add to group {i + 1}?")
+                        choices = choose_multiple_from_dict({i: x for i, x in enumerate(split_file_col)}, "Columns",
+                                                            request_description=f"Choose which of the columns you want to add to group {i + 1}?")
                 if len(choices) + (num_groups - i - 1) < len(split_file_col):
                     print("The amount of chosen items is more than is possible. Please try again")
                 else:
@@ -486,29 +509,62 @@ def group_split_col(split_file_col: list):
 
 
 def treatDBData():
-    file = chooseFile(filetype="csv", testing=TESTING, test_return="/Users/chris/PycharmProjects/Google Trends/Google_Trends/Input_Files/IT_Wedding_Ticket_Counts.csv")
+    file = chooseFile(filetype="csv", testing=TESTING,
+                      test_return="/Users/chris/PycharmProjects/ProntoTrends/Input_Files/IT_Summer_Ticket_Counts.csv")
     df = pd.read_csv(file)
     print(f"Here are the columns in the selected file: {df.columns}")
     if binaryResponse("Do you want to rename them?", testing=TESTING, test_return=False):
         df = renameColumns(df, file)
     print(f"{lcol.OKGREEN}Please select the folder where the outputs should be saved{lcol.ENDC}")
-    saving_folder = chooseFolder(testing=True, test_return="/Users/chris/PycharmProjects/Google Trends/Google_Trends/Aggregated/Italy")
-    pivot_col = choose_from_dict({i: k for i, k in enumerate(df.columns)}, label='Columns',
-                                 request_description=f"{lcol.OKGREEN}Please choose the column to pivot file by from the following:{lcol.ENDC}",
-                                 testing=TESTING, test_return='ticket_taxonomy_tag_name')
-    grouping: list = choose_multiple_from_dict({i: k for i, k in enumerate(df.columns) if k != pivot_col},
-                                               label='Columns',
-                                               request_description='Please choose the columns used for grouping',
-                                               testing=TESTING, test_return=["year", 'month'])
-    if binaryResponse("Do you want to generate a pivot file (or individual files per Category)?", testing=TESTING, test_return=False):
+    saving_folder = chooseFolder(testing=True,
+                                 test_return=os.path.join(FS.Aggregated, 'Italy'))
+    pivot_col = choose_column(df,
+                              instruction_str=f"{lcol.OKGREEN}Please choose the column to pivot file by from the following:{lcol.ENDC}",
+                              testing=TESTING, test_return='ticket_taxonomy_tag_name')
+    grouping: list = choose_column(df, instruction_str='Please choose the columns used for grouping',
+                                   testing=TESTING, test_return=["year", 'month'], allow_multiple=True)
+    if binaryResponse("Do you want to generate a pivot file (or individual files per Category)?", testing=TESTING,
+                      test_return=True):
         # do pivot stuff
-        # TODO (P1): Create function to scale data
-        pass
+        category = input("What is the name of the category under which you want to save the files?\n").strip()
+        directory = getDirectory(['Output_Files', 'Comparisons', category])
+        to_drop = []
+        dimension = 'Time'
+        if binaryResponse("Does the file include date data?", testing=TESTING, test_return=True):
+            df, has_date = formatDate(df)
+            index = ['date']
+            index = index + choose_column(df,
+                                          instruction_str=f"Do you want to use another column next to {index} as the index for the new pivot table?\nIf so, select it or otherwise select End",
+                                          exclude=index, allow_multiple=True)
+            to_drop = ['year', 'month', 'day']
+        else:
+            index = choose_column(df, instruction_str='Please choose the index column to use')
+        to_drop = to_drop + choose_column(df, instruction_str="Which of the columns do you want to exclude from the pivot table?",
+                                          allow_multiple=True, exclude=to_drop + index)
+        df = df.drop(columns=to_drop)
+        pivot = df.pivot_table(index=index, columns=pivot_col, aggfunc=sum, fill_value=0)
+        pivot.reset_index()
+        grouped = pivot.groupby(index[-1])
+        for name, group in grouped:
+            print(group)
+            # group = group.rename(columns=lambda x: x.split("/")[1] if isinstance(x, str) else x[1])
+            group = rescale_comparison(group, scale=100)
+            group = group.reset_index()
+            group = convert_region_names_to_google(group)
+            region_id = group[index[-1]].unique().tolist()[0]
+            filename = f"{dimension}_Italy_{region_id}_{category}.csv"
+            group = group.drop(columns=[index[-1]])
+            cols = list(map(lambda col: col[0] if len(col[1]) == 0 else col[1],group.columns))
+            group.columns = cols
+            group.to_csv(os.path.join(directory, filename), index=False)
+
+
+        # print(pivot)
     else:
         # create individual files
-        split_file_col = choose_multiple_from_dict({i: k for i, k in enumerate(df.columns) if k != pivot_col}, label='Columns',
-                                          request_description=f"{lcol.OKGREEN}Please choose the column to break up the file by (i.e. pivot) from the following:{lcol.ENDC}",
-                                                   testing=TESTING, test_return=['tag_id','ticket_geo_region_name'])
+        split_file_col = choose_column(df,
+                                       instruction_str=f"{lcol.OKGREEN}Please choose the column to break up the file by (i.e. pivot) from the following:{lcol.ENDC}",
+                                       testing=TESTING, test_return=['tag_id', 'ticket_geo_region_name'])
         if split_file_col in grouping:
             grouping.pop(grouping.index(split_file_col))
         splits = []
@@ -525,15 +581,14 @@ def treatDBData():
         has_date = False
         if binaryResponse("Does the file include date data?", testing=TESTING, test_return=True):
             df, has_date = formatDate(df)
-        index_col = choose_from_dict({i: k for i, k in enumerate(df.columns) if k not in splits}, 'Columns',
-                                     request_description=f"{lcol.OKGREEN}Please choose the column that is the index:{lcol.ENDC}",
-                                     testing=TESTING, test_return='No_of_tickets')
+        index_col = choose_column(df, instruction_str=f"{lcol.OKGREEN}Please choose the column that is the index:{lcol.ENDC}",
+                                  testing=TESTING, test_return='No_of_tickets', exclude=splits)
         grouped = df.groupby(by=splits, as_index=True)
         # splits = group_split_col(splits)
         min_tickets = 30  # TODO (P3): Add possibility to choose min_tickets
         q = 0
         for name, group in grouped:
-            treat_and_safe(group, name, q, index_col, min_tickets, grouping_uniques, saving_folder, has_date)
+            treat_and_save(group, name, q, index_col, min_tickets, grouping_uniques, saving_folder, has_date)
 
         handle_Italy_data(df, grouping, grouping_uniques, has_date, index_col, min_tickets, pivot_col, q, saving_folder,
                           split_file_col)
@@ -552,12 +607,9 @@ def treatDBData():
                 summed = summed.rename(columns={'ticket_geo_region_name': 'geoName'})
                 tag_name = name if not "/" in name else name.replace("/", " o ")
                 filename = f"IT_{summed['tag_id'].unique().tolist()[0]}_{tag_name}_Geo.csv"
-                summed = summed[["geoName","means"]]
+                summed = summed[["geoName", "means"]]
                 summed.to_csv(os.path.join(saving_folder, filename))
                 print(f"Saved file {filename}")
-
-
-
 
 
 def handle_Italy_data(df, grouping, grouping_uniques, has_date, index_col, min_tickets, pivot_col, q, saving_folder,
@@ -585,14 +637,15 @@ def handle_Italy_data(df, grouping, grouping_uniques, has_date, index_col, min_t
                 group[c] = keep_cols[c].unique().tolist()[0]
         group = group.dropna()
         group, _ = formatDate(group)
-        treat_and_safe(group, name, q, index_col, min_tickets, grouping_uniques, saving_folder, has_date)
+        treat_and_save(group, name, q, index_col, min_tickets, grouping_uniques, saving_folder, has_date)
 
         # TODO (P3): Add possibility to design File Names: set_up pattern (e.g. what comes at what point?)
 
 
-if __name__ == '__main__':
-    choice = choose_from_dict({1: 'createBase', 2: "ensureEnoughRows", 3: 'Top5', 4: 'fixNas', 5: 'checkBase', 6: 'createFiles'},
-                              'Actions')
+def dialog():
+    choice = choose_from_dict(
+        {1: 'createBase', 2: "ensureEnoughRows", 3: 'Top5', 4: 'fixNas', 5: 'checkBase', 6: 'createFiles'},
+        'Actions')
     # choice = 'checkBase'
     if choice == 'createBase':
         createBase()
@@ -608,3 +661,7 @@ if __name__ == '__main__':
         treatDBData()
     else:
         pass
+
+
+if __name__ == '__main__':
+    dialog()

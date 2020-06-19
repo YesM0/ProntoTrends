@@ -1,3 +1,7 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 import os
 import getpass
 import pandas as pd
@@ -8,10 +12,14 @@ import pymysql.cursors
 from utils.misc_utils import lcol
 from utils.user_interaction_utils import binaryResponse, choose_from_dict, choose_multiple_from_dict, \
     chooseFolder, chooseFile, defineList
+from utils.Filesys import generic_FileServer
+from utils.custom_types import *
+
+FS = generic_FileServer
 
 
 def get_sql_login_data() -> dict:
-    path: str = os.path.join(os.getcwd(),'Input_File', 'Static', '.settings.yaml')
+    path: Filepath = FS.Settings_File
     create_file: bool = False
     if os.path.exists(path):
         with open(path, 'r') as f:
@@ -197,7 +205,7 @@ def generateComparisonsFile(df, country):
             cat_kwds[option] = list(set(option_kwds))
         final[cat] = cat_kwds
     s = json.dumps(final)
-    path = os.path.join(os.getcwd(), 'Input_Files', f'ProntoPro_Trends_Questions_{country.upper()}')
+    path = os.path.join(FS.Inputs, f'ProntoPro_Trends_Questions_{country.upper()}')
     with open(path, 'w+') as f:
         f.write(s)
         print(f"Saved file {path}")

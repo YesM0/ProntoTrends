@@ -1,9 +1,14 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 import os
 import sys
 from pprint import pprint
 from typing import Union, Dict, List
 
 from utils.custom_types import Country_Shortcode, Country_Fullname, Filepath
+import pandas as pd
 
 
 def getChosenCountry(action: str = 'scrape', testing: bool = False, test_return: Union[None, tuple] = None) -> (Country_Shortcode, Country_Fullname):
@@ -131,15 +136,17 @@ def choose_multiple_from_dict(dictionary: Dict[Union[str, int], str], label: str
         return selection
 
 
-def chooseFolder(testing: bool = False, test_return: str = "") -> Filepath:
+def chooseFolder(testing: bool = False, test_return: str = "", request_str: str = None) -> Filepath:
     if testing:
         print(test_return)
         return test_return
     else:
+        if request_str:
+            print(request_str)
         curr_path = os.getcwd()
         while True:
             contents = os.listdir(curr_path)
-            undesired = ['__pycache__', '.ipynb_checkpoints', 'venv', '.idea']
+            undesired = ['__pycache__', '.ipynb_checkpoints', 'venv', '.idea', '.DS-Store']
             folders = [item for item in contents if
                        os.path.isdir(os.path.join(curr_path, item)) and item not in undesired]
             choices = {i: item for i, item in enumerate(folders)}
@@ -226,3 +233,31 @@ def defineFilename(target_ending: str = '.json', target_folder: str = None) -> F
         filename = filename + target_ending
     path: Filepath = os.path.join(os.getcwd(), target_folder, filename) if target_folder else os.path.join(os.getcwd(), filename)
     return path
+
+
+def choose_column(df: pd.DataFrame, instruction_str: str = None, testing: bool = False, test_return: Union[str, List[str]] = None, allow_multiple: bool = False, exclude: list = None) -> Union[str, List[str]]:
+    """
+    Allows the user to select one or more columns
+    Args:
+        exclude:
+        allow_multiple:
+        df:
+        instruction_str:
+        testing:
+        test_return:
+
+    Returns:
+
+    """
+    if testing:
+        return test_return
+    if instruction_str:
+        print(instruction_str)
+    options = df.columns
+    if len(exclude) > 0:
+        options = list(filter(lambda x: x not in exclude, options))
+    d = {i: k for i, k in enumerate(options)}
+    if not allow_multiple:
+        return choose_from_dict(d, label='column')
+    else:
+        return choose_multiple_from_dict(d, label='column')

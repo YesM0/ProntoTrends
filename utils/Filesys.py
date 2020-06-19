@@ -1,9 +1,13 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 import os
 # import pandas as pd
-import yaml
 from utils.custom_types import *
 
 cwd = os.getcwd()
+cwd = os.path.split(cwd)[0]
 
 
 def makePath(*args) -> Filepath:
@@ -21,6 +25,7 @@ class Fileserver:
         Args:
             settings_file: str -- path to settings file
         """
+        self.cwd: Filepath = cwd
         self.Outfiles_general: Filepath = makePath(cwd, 'Output_Files')
         self.Aggregated: Filepath = makePath(cwd, 'Output_Files', 'Aggregated')
         self.Final: Filepath = makePath(cwd, 'Output_Files', 'FINAL')
@@ -29,6 +34,7 @@ class Fileserver:
         self.Inputs: Filepath = makePath(cwd, 'Input_Files')
         self.Statics: Filepath = makePath(cwd, 'Input_Files', 'Static')
         if settings_file and ".yaml" in settings_file:
+            import yaml
             with open(settings_file, "r") as f:
                 s = f.read()
             d: dict = yaml.safe_load(s)

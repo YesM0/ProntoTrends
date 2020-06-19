@@ -1,3 +1,7 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 import json
 import os
 from typing import Union, List
@@ -27,7 +31,6 @@ FS = generic_FileServer
 
 
 def file_finder():
-    cwd = os.getcwd()
     shortcode, country = getChosenCountry(action="inspect")
     a = os.listdir(FS.Comparisons)
     categories = {i: cat for i, cat in enumerate(os.listdir(FS.Comparisons))}
@@ -44,9 +47,9 @@ def file_finder():
 
 
 def analyze(file_path):
-    df = pd.read_csv(path)
+    df = pd.read_csv(file_path)
     print(df)
-    if 'Time' in path:
+    if 'Time' in file_path:
         df = deduplicateColumns(df, extra='isPartial')
         mean = df.mean(0)
         summe = mean.sum()
@@ -54,7 +57,7 @@ def analyze(file_path):
         print(mean.head())
         mean.plot.pie()
         plt.show()
-    elif 'Geo' in path:
+    elif 'Geo' in file_path:
         # df = df.drop('geoCode')
         df = df.iloc[:, 1:].set_index('geoCode')
         res = df.div(df.sum(1), axis=0).dropna(axis=0)
@@ -230,7 +233,8 @@ def displayData(df: pd.DataFrame, data_type, title=""):
         to_show_df = to_show_df.apply(rescaleRow, axis=1)
 
 
-if __name__ == '__main__':
+def dialog():
+    # global path, aggregations, inspection_type, category
     if binaryResponse(
             "Do you want to use the normal comparison inspector for investigating combined scraping results?",
             testing=TESTING, test_return=TEST_VALS.pop(0)):
@@ -255,12 +259,14 @@ if __name__ == '__main__':
             for i, f in enumerate(cc_files):
                 if len(f.split("_")) < 3 or f.startswith("."):
                     pop_list.append(i)
-                    print(f"The file: {f} does not adhere to the required format. Please change the naming or remove it from the folder")
+                    print(
+                        f"The file: {f} does not adhere to the required format. Please change the naming or remove it from the folder")
             for x in pop_list:
                 cc_files.pop(x)
             if inspection_type == 'Time':
                 cat_files = list(filter(lambda f: (
-                            'Adjusted' not in f and inspection_type.lower() in f.lower() and f.split("_")[2] in aggregations[category]), cc_files))
+                        'Adjusted' not in f and inspection_type.lower() in f.lower() and f.split("_")[2] in
+                        aggregations[category]), cc_files))
             else:
                 # Geo_Germany_DE_['Klimaanlage einbauen']_98
                 # DE_514_Schneider für die Braut_Geo.csv
@@ -300,4 +306,9 @@ if __name__ == '__main__':
                     else:
                         files = aggregations[chosen_cat][chosen_region]
                         df = readInFiles(files, folder)
-                        displayData(df, data_type=inspection_type, title=f"Category: {chosen_cat}\nRegion: {chosen_region}")
+                        displayData(df, data_type=inspection_type,
+                                    title=f"Category: {chosen_cat}\nRegion: {chosen_region}")
+
+
+if __name__ == '__main__':
+    dialog()

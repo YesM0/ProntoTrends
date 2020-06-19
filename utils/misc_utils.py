@@ -1,14 +1,20 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 import datetime
 import os
 import time
 import pandas as pd
 from random import randint
-from typing import Union, List
-from json import dumps, loads
+from typing import Union, Dict
+from json import dumps
 from utils.custom_types import *
 from utils.Filesys import generic_FileServer
 
+
 FS = generic_FileServer
+
 
 def getRandomDelay(minimum: int, maximum: int) -> int:
     r = randint(minimum, maximum)
@@ -74,7 +80,25 @@ def deepSearch(name: Union[Country_Fullname, Region_Fullname, str], obj: Union[d
                 return False
 
 
+# TODO (p1): DEPRECATE
 def getRegions(country_name: Country_Fullname, locales_obj: dict) -> Union[None, list]:
+    if country_name == 'France':
+        override_list = [
+            {"name": "Brittany", "id": "E"},
+            {'name': "Centre-Val de Loire", 'id': "F"},
+            {'name': "Corsica", 'id': "H"},
+            {'name': "Pays de la Loire", 'id': "R"},
+            {'name': "Provence-Alpes-Côte d'Azur", 'id': "U"},
+            {'name': "Île-de-France", 'id': "J"},
+            {'name': "Grand-est", 'id': 'GE'},
+            {'name': "Hauts-de-france", 'id': 'HF'},
+            {'name': "Normandie", 'id': "NO"},
+            {'name': "Bourgogne-Franche-Comté", 'id': "BFC"},
+            {'name': "Nouvelle-Aquitaine", 'id': "NA"},
+            {'name': "Occitanie", 'id': "OC"},
+            {'name': "Auvergne-Rhône-Alpes", 'id': "AR"}
+        ]
+        return override_list
     all_countries: list = locales_obj['children']
     for country in all_countries:
         if country['name'] == country_name:
@@ -83,34 +107,13 @@ def getRegions(country_name: Country_Fullname, locales_obj: dict) -> Union[None,
 
 
 def getDirectory(path_steps: list) -> str:
-    cwd = os.getcwd()
+    cwd = FS.cwd
     directory = cwd
     for step in path_steps:
         directory = os.path.join(directory, step)
     if not os.path.exists(directory):
         os.makedirs(directory)
     return directory
-
-
-def generateRegionIds(country_name: Country_Fullname, sort: bool = True) -> List[str]:
-    from utils import paramsGetter
-    ccInfo = paramsGetter.findLocale(country_name, includeChildren=True)
-    regionIds = [f"{ccInfo[0]}-{x}" for x in ccInfo[1]]
-    if sort:
-        regionIds = sortRegionIds(regionIds, ccInfo[0])
-    locales_list = [ccInfo[0]] + regionIds
-    return locales_list
-
-
-def sortRegionIds(regionIds: list, cc: Country_Shortcode) -> list:
-    with open(os.path.join(FS.Statics, "ordered_regions.json"), "r") as f:
-        dictionary = loads(f.read())
-    ids = dictionary.get(cc, False)
-    if ids:
-        return ids
-    else:
-        print(f'No presorted region-ids available for {cc}')
-        return regionIds
 
 
 def generateRegionPrioJSON():
@@ -128,7 +131,7 @@ def generateRegionPrioJSON():
         file.write(dumps(all))
 
 
-def reverseDict(obj: dict) -> dict:
+def reverseDict(obj: Dict[Union[str, int], Union[str,int]]) -> Dict[Union[str, int], Union[str,int]]:
     return {obj[key]: key for key in obj}
 
 
@@ -168,59 +171,6 @@ def deduplicateColumns(df: pd.DataFrame, extra: str = None) -> pd.DataFrame:
     return df
 
 
-regions_map_english_to_local = {
-    "Bavaria": 'Bayern',
-    'Hesse': 'Hessen',
-    'Lower Saxony': 'Niedersachsen',
-    'Mecklenburg-Vorpommern': 'Mecklenburg-Vorpommern',
-    'North Rhine-Westphalia': 'Nordrhein-Westfalen',
-    'Rhineland-Palatinate': 'Rheinland-Pfalz',
-    'Saxony': 'Sachsen',
-    'Saxony-Anhalt': 'Sachsen-Anhalt',
-    'Thuringia': 'Thüringen',
-    'Germany': 'Deutschland',
-    "Andalusia": "Andalucía",
-    "Aragon": "Aragón",
-    "Balearic Islands": "Illes Balears",
-    "Basque Country": "País Vasco",
-    "Canary Islands": "Islas Canarias",
-    "Castile and León": "Castilla y León",
-    "Castile-La Mancha": "Castilla-La Mancha",
-    "Catalonia": "Cataluña",
-    "Community of Madrid": "Madrid",
-    "Extremadura": "Extremadura",
-    "Navarre": "Navarra",
-    "Region of Murcia": "Murcia",
-    "Valencian Community": "Valencia",
-    "Spain": "España",
-    "Brittany": "Bretagne",
-    "Burgundy": "Bourgogne",
-    "Centre-Val de Loire": "Centre-Val de Loire",
-    "Corsica": "Corse",
-    "Lower Normandy": "Basse Normandie",
-    "Midi-Pyrénées": "Midi-Pyrénées",
-    "Picardy": "Picardie",
-    "Provence-Alpes-Côte d'Azur": "Provence-Alpes-Côte d'Azur",
-    "Rhone-Alpes": "Rhône-Alpes",
-    "Upper Normandy": "Haute Normandie",
-    "Aosta": "Valle d'Aosta",
-    "Tuscany": "Toscana",
-    "Trentino-Alto Adige/South Tyrol": "Trentino-Alto Adige",
-    "Sicily": "Sicilia",
-    "Apulia": "Puglia",
-    "Sardinia": "Sardegna",
-    "Piedmont": "Piemonte",
-    "Friuli-Venezia Giulia": "Friuli Venezia Giulia",
-    "Italy": "Italia",
-    "Lombardy": 'Lombardia'
-}
-
-if __name__ == '__main__':
-    # generateRegionPrioJSON()
-    parts = os.path.split(os.getcwd())
-    print(parts)
-
-
 def translate_item(item: str, translations: dict):
     return translations.get(item, item)
 
@@ -253,3 +203,14 @@ def translate_dict(dictionary: dict, translations: dict):
         new_key, new_val = translate_dict_entry(key, val, translations)
         new[new_key] = new_val
     return new
+
+
+if __name__ == '__main__':
+    # generateRegionPrioJSON()
+    parts = os.path.split(FS.cwd)
+    print(parts)
+
+
+def rescale_comparison(df: pd.DataFrame, scale: int = 1) -> pd.DataFrame:
+    df = df.apply(lambda s: (s / df.max(axis=0, numeric_only=True).max()) * scale)
+    return df

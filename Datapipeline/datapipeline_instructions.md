@@ -20,9 +20,9 @@ Generally, there are two distinct classes of data used in ProntoTrends:
 
 ## How to scrape
 1. Preparing input files:
-    - For **Individual**: Use [GSheet](https://docs.google.com/spreadsheets/d/1ZQufyEAPnQ3SLZk0HlZFBCfrGR_NKVre7iVaAM6REds/edit#gid=0) or [Input_Set-Up/prepareKeywordsFile](/Input_Set-Up/prepareKeywordsFile.py)
+    - For **Individual**: Use [GSheet](https://docs.google.com/spreadsheets/d/1ZQufyEAPnQ3SLZk0HlZFBCfrGR_NKVre7iVaAM6REds/edit#gid=0) or [Input_Set-Up/prepareKeywordsFile](/Input_Set_Up/prepareKeywordsFile.py)
         - CSV-File
-    - For **Comparisons**: Use [GSheet](https://docs.google.com/spreadsheets/d/1VC8zJ-nDKmqFz5ZJElBawym6WNe2_kqkNl4edVeHYNE/edit#gid=1763766041)  or [Input_Set-Up/prepareKeywordsFile](/Input_Set-Up/prepareKeywordsFile.py)
+    - For **Comparisons**: Use [GSheet](https://docs.google.com/spreadsheets/d/1VC8zJ-nDKmqFz5ZJElBawym6WNe2_kqkNl4edVeHYNE/edit#gid=1763766041)  or [Input_Set-Up/prepareKeywordsFile](/Input_Set_Up/prepareKeywordsFile.py)
         - JSON-File
     - Save in [Input_Files](/Input_Files)
 2. Scrape using [mainProxy.py](/Datapipeline/mainProxy.py)

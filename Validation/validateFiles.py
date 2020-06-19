@@ -1,3 +1,7 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 import os
 import sys
 import argparse
@@ -363,7 +367,8 @@ def getFixer(fixing_instructions, locs):
     return False
 
 
-if __name__ == '__main__':
+def dialog():
+    global args
     cc, country = getChosenCountry(action='validate')
     args = parser.parse_args()
     # args = vars(args)
@@ -472,3 +477,7 @@ if __name__ == '__main__':
                             print(f'Saved this:\n"file:/{filepath}"\n"file:/{alt_fp}"')
     print(f"Finished. Encountered {issues} issues and fixed {fixes} of them.")
     sys.exit()
+
+
+if __name__ == '__main__':
+    dialog()

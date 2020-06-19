@@ -1,11 +1,15 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 import os
 import pandas as pd
 import numpy as np
 from typing import List, Dict, Tuple, Union
 from utils.custom_types import *
-from utils.paramsGetter import readInLocales
+from utils.Countries import readInLocales, regions_map_english_to_local
 from utils.misc_utils import deduplicateColumns, lcol, \
-    reverseDict, regions_map_english_to_local, getRegions
+    reverseDict, getRegions
 from utils.user_interaction_utils import getChosenCountry, binaryResponse, choose_from_dict, \
     choose_multiple_from_dict, defineList
 from utils.Filesys import generic_FileServer
@@ -22,26 +26,39 @@ short_codes = {
 FS = generic_FileServer
 
 
-def file_finder():
-    cwd = os.getcwd()
-    a = os.listdir(FS.Comparisons)
-    categories = {i: cat for i, cat in enumerate(os.listdir(FS.Comparisons))}
-    chosen_cat = choose_from_dict(categories, 'categories')
-    chosen_dimension = choose_from_dict({1: 'Time', 2: 'Geo'}, 'dimensions')
-    if chosen_dimension == 'Geo':
-        return os.path.join(FS.Comparisons, chosen_cat, f"Geo_{country}_{chosen_cat}.csv")
-    else:
-        available_regions = {i: file.split('_')[2] for i, file in
-                             enumerate(os.listdir(os.path.join(FS.Comparisons, chosen_cat))) if
-                             file.split('_')[1] == country and len(file.split('_')[2]) < 6}
-        chosen_region = choose_from_dict(available_regions, 'regions')
-        return os.path.join(FS.Comparisons, chosen_cat, f"Time_{country}_{chosen_region}_{chosen_cat}.csv")
+def read_csv_utility(filepath: Filepath, country: Country_Fullname = 'Spain', **kwargs) -> pd.DataFrame:
+    """
+    Utility to cycle through possible encodings until successful
+    Args:
+        filepath:
+        country:
+        **kwargs:
+
+    Returns:
+
+    """
+    encodings = ['utf-8']
+    if country == 'Spain':
+        encodings = encodings + ['cp1252', 'latin_1']
+    for ecd in encodings:
+        try:
+            df = pd.read_csv(filepath, encoding=ecd, **kwargs)
+            if df:
+                return df
+        except FileNotFoundError as e:
+            print(e)
+            raise FileNotFoundError(e)
+        except Exception as e:
+            print(e)
+            print(f"Trying a different encoding")
+    raise Exception(f"Could not parse file: {filepath}")
+
 
 
 def createCategoryRegionYearFile(country, category, options_column_label='Type'):
     comparisons_path, regions = getSetUp(country)
-    initial_df = pd.read_csv(
-        os.path.join(comparisons_path, category, f"Time_{country}_{short_codes[country]}_{category}.csv"))
+    initial_df = read_csv_utility(
+        os.path.join(comparisons_path, category, f"Time_{country}_{short_codes[country]}_{category}.csv"), country)
     initial_df['date'] = pd.to_datetime(initial_df['date'])
     categories = [col for col in initial_df.columns if 'date' not in col and 'isPartial' not in col]
     years = list(set([val.year for val in initial_df['date'].array]))
@@ -55,7 +72,7 @@ def createCategoryRegionYearFile(country, category, options_column_label='Type')
                 f"{os.path.split(file)[1].split('_')[-2:]}", end=" ")
             if i == len(regions) - 1:
                 print("\n")
-            df = pd.read_csv(file)
+            df = read_csv_utility(file, country=country)
             # print(df)
             df = deduplicateColumns(df, extra='isPartial')
             df['date'] = pd.to_datetime(df['date'])
@@ -113,8 +130,8 @@ def createTop5Csv(country: Country_Fullname, category: str, category_combination
     comparisons_path, regions = getSetUp(country)
     # select only cc level
     regions = [regions[0]]
-    initial_df = pd.read_csv(
-        os.path.join(comparisons_path, category, f"Time_{country}_{short_codes[country]}_{category}.csv"))
+    initial_df = read_csv_utility(
+        os.path.join(comparisons_path, category, f"Time_{country}_{short_codes[country]}_{category}.csv"), country)
     if category_combinations and isinstance(category_combinations, dict):
         for combination in category_combinations:
             initial_df = combineColumns(initial_df, category_combinations[combination], combination)
@@ -127,7 +144,7 @@ def createTop5Csv(country: Country_Fullname, category: str, category_combination
         region_id = f"{short_codes[country]}-{r['id']}" if i > 0 else r['id']
         file = os.path.join(comparisons_path, category, f"Time_{country}_{region_id}_{category}.csv")
         if os.path.exists(file):
-            df = pd.read_csv(file)
+            df = read_csv_utility(file, country)
             if category_combinations and isinstance(category_combinations, dict):
                 for combination in category_combinations:
                     df = combineColumns(df, category_combinations[combination], combination)
@@ -212,7 +229,7 @@ def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
             if do_skip:
                 continue
             else:
-                df = pd.read_csv(filepath, usecols=[1, 2])
+                df = read_csv_utility(filepath, country,usecols=[1, 2])
                 df['date'] = pd.to_datetime(df['date'])
                 df = df.resample("M", on="date").mean()
                 grouped = df.groupby(df.index.year)
@@ -234,13 +251,13 @@ def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
 
 
 def createMainSectionCsv(country: Country_Fullname, types: list, campaign_shortname: str = 'Wed'):
-    final_folder = os.path.join(FS.Final, country, campaign_short_code)
+    final_folder = os.path.join(FS.Final, country, campaign_shortname)
     comparisons_path, regions = getSetUp(country)
     out = []
     for typ in types:
         filepath = os.path.join(final_folder, f'{campaign_shortname}-{typ}_{regions[0]["name"]}.csv')
         if os.path.exists(filepath):
-            df = pd.read_csv(filepath)
+            df = read_csv_utility(filepath, country)
             df['Distribution'] = pd.to_numeric(df['Distribution'], errors='coerce')
             y = 'Year' if 'Year' in df.columns else 'year'
             years = df[y].unique().tolist()
@@ -270,7 +287,7 @@ def getSetUp(country: Country_Fullname) -> Tuple[Filepath, List[Dict[str, Union[
 
 
 def getMonths(filepath):
-    df = pd.read_csv(filepath)
+    df = read_csv_utility(filepath)
     df['date'] = pd.to_datetime(df['date'])
     df = df.resample('M', on='date').mean()
     return [(i.month - 1, i.year) for i, row in df.iterrows()]
@@ -412,7 +429,7 @@ def gather_base_data_chart(country: Country_Fullname, min_regions: int, region_i
             adjusted = '_Adjusted' if len(region_code) > 2 else ''
             file = os.path.join(folder, f"{region_code}_{tag_id}_{tag}_Time{adjusted}.csv")
             if os.path.exists(file):
-                df = pd.read_csv(os.path.join(folder, file))
+                df = read_csv_utility(os.path.join(folder, file), country)
                 df['date'] = pd.to_datetime(df['date'])
                 df = df.resample('M', on='date').mean()
                 for i, row in df.iterrows():
@@ -471,7 +488,7 @@ def createTableData(country, campaign_short_code):
     if not os.path.exists(filepath):
         raise FileNotFoundError(f"The file {filepath} could not be found. Ensure that it exists.")
     else:
-        df = pd.read_csv(filepath)
+        df = read_csv_utility(filepath, country)
         translate = ccs.get(country, country)
         df = df.query('Country_chosen == 0 | ticket_geo_region_name == @translate | ticket_geo_region_name == @country')
         grouped = df.groupby(['ticket_taxonomy_tag_name', 'ticket_geo_region_name', 'Year'])
@@ -495,7 +512,7 @@ def createMapData(country, campaign_short_code, useChart=True):
         if not os.path.exists(filepath):
             raise FileNotFoundError(f"The file {filepath} could not be found. Ensure that it exists.")
         # group by tag, year & region
-        df = pd.read_csv(filepath)
+        df = read_csv_utility(filepath, country)
         ccs = {
             "Germany": 'Deutschland',
             "France": "France",
@@ -527,7 +544,7 @@ def createMapData(country, campaign_short_code, useChart=True):
         geo_files = filter(lambda f: 'Geo' in f, files)
         overall = False
         for file in geo_files:
-            df = pd.read_csv(os.path.join(folder, file), usecols=[1, 2])
+            df = read_csv_utility(os.path.join(folder, file), country, usecols=[1, 2])
             if not df.empty:
                 df['ticket_taxonomy_tag_name'] = file.split("_")[2]
                 df['means'] = df['means'].apply(lambda x: x / 10)
@@ -562,7 +579,7 @@ def get_category_overview_settings():
         overview_cat_cols = ['Spend_type', 'Loc_type', 'Prof_type', 'Prof_type', 'Food_type', 'Style_type']
     else:
         print(
-            f"{lcol.OKGREEN}Please define the corresponding category column names for the following categories:\n{overview_cats}\nThey usually contain '_type'{lcol.ENDC}")
+            f"{lcol.OKGREEN}Please define the corresponding category column names which will be used in the final CSV for the following categories:\n{overview_cats}\nThey usually contain '_type'{lcol.ENDC}")
         while True:
             overview_cat_cols = defineList()
             if len(overview_cat_cols) == len(overview_cats):
@@ -572,7 +589,8 @@ def get_category_overview_settings():
     return overview_cats, overview_cat_cols
 
 
-if __name__ == '__main__':
+def dialog():
+    # global country, campaign_short_code
     s, country = getChosenCountry(action='create files')
     col_remap = {
         'Spend_type': {
@@ -712,3 +730,7 @@ if __name__ == '__main__':
             result.to_csv(os.path.join(final_folder, f'{campaign_short_code}_Map_Data_{country}.csv'), index=False)
         print(f'FINISHED {chosenAction}')
     print('FINISHED ALL')
+
+
+if __name__ == '__main__':
+    dialog()

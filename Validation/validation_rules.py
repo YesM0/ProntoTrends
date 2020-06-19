@@ -1,3 +1,7 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 from utils.misc_utils import lcol
 
 # TODO (p2): Add validation rules for all CCs for Table and Map

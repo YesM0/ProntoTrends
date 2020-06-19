@@ -1,10 +1,14 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 import pandas as pd
 import os
 from typing import Union
-from utils.paramsGetter import getRegionIdToName
+from utils.Countries import get_region_id_to_name_dict, generateRegionIds
 from Data_Inspectors.inspector import getAvailableTags, getFile
 
-from utils.misc_utils import getDirectory, generateRegionIds, saveData, reverseDict, lcol
+from utils.misc_utils import getDirectory, saveData, reverseDict, lcol
 from utils.user_interaction_utils import binaryResponse, choose_from_dict
 from Datapipeline.mainProxy import getChosenCountries
 from utils.Filesys import generic_FileServer
@@ -21,7 +25,6 @@ def readMergeInfo(country_short_code, prefix=""):
 
 
 def findOutFile(keyword, country, region_code, dimension, folder=FS.Kwd_Level_Outs):
-    cwd = os.getcwd()
     not_dimension = list(filter(lambda x: x != dimension, ['Time', 'Geo']))
 
     expected_file_location = os.path.join(folder, keyword)
@@ -170,7 +173,7 @@ def read_in_scaling_factor(country_name, county_shortcode, tag_id):
             break
     if filepath:
         df = pd.read_csv(filepath, usecols=[1,2])
-        region_id_to_region_name = getRegionIdToName(country_name)
+        region_id_to_region_name = get_region_id_to_name_dict(country_name)
         region_name_to_region_id = reverseDict(region_id_to_region_name)
         df['geoName'] = df['geoName'].map(region_name_to_region_id)
         obj = df.set_index('geoName').to_dict(orient='dict')
@@ -194,20 +197,25 @@ def correct_values(country_name, short_code):
                 continue
     return
 
-if __name__ == '__main__':
+
+def dialog():
     choice = choose_from_dict({1: 'merge Data', 2: 'create Adjusted Files'}, label='actions')
     ccs_todo = getChosenCountries()
     if choice == 'merge Data':
-        prefix = input("What is the prefix to your file? e.g. '[All]_Tags_Keywords_DE.csv'\n").strip() if binaryResponse("Do you have a prefix to your file_name?") else ""
+        prefix = input(
+            "What is the prefix to your file? e.g. '[All]_Tags_Keywords_DE.csv'\n").strip() if binaryResponse(
+            "Do you have a prefix to your file_name?") else ""
         diff_folder = binaryResponse("Do you want to aggregate a different folder than 'out'?")
         only_country = binaryResponse("Do you want to only work on the country level?")
         if diff_folder:
             save_folder = input(f"What is the folder to {lcol.UNDERLINE}save into?{lcol.ENDC}\n").strip()
-        source_folder = 'out' if not diff_folder else input("What is the name of your folder to source the data from?\n").strip()
+        source_folder = 'out' if not diff_folder else input(
+            "What is the name of your folder to source the data from?\n").strip()
         for short, country in ccs_todo:
             mergeInfo = readMergeInfo(short, prefix=prefix)
             other_save_location = None if not diff_folder else [save_folder, country]
-            jobs = buildJobs(mergeInfo=mergeInfo, country=country, is_other_folder=diff_folder, only_country_level=only_country, source_folder=source_folder)
+            jobs = buildJobs(mergeInfo=mergeInfo, country=country, is_other_folder=diff_folder,
+                             only_country_level=only_country, source_folder=source_folder)
             execute_and_save(country=country, all_jobs=jobs, adjusted_directory=other_save_location)
         print(
             f"{lcol.OKBLUE}Merging data is done. To continue the pipeline, rerun the script and choose to create Adjusted Files{lcol.ENDC}")
@@ -219,3 +227,7 @@ if __name__ == '__main__':
     else:
         pass
     print("_" * 10 + "Done" + "_" * 10)
+
+
+if __name__ == '__main__':
+    dialog()

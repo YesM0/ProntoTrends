@@ -3,6 +3,8 @@ import logging
 import os
 import random
 import sys
+if __name__ == '__main__':
+    sys.path.append('../')
 import time
 from pprint import pprint
 from queue import Queue
@@ -14,10 +16,13 @@ from matplotlib import pyplot as plt
 from pytrends.request import TrendReq
 
 from utils.custom_types import *
-from utils.misc_utils import getToday, saveData, sleep, getDirectory, generateRegionIds, lcol, \
-    deduplicateColumns
+from utils.misc_utils import getToday, saveData, sleep, getDirectory, lcol, \
+    deduplicateColumns, reverseDict
 from utils.user_interaction_utils import binaryResponse, choose_from_dict, chooseFile, defineFilename
 from utils.Filesys import generic_FileServer
+from utils.Countries import countries_dict_eng, generateRegionIds
+
+from Datapipeline.mergeRegions import merge_for_scraper
 
 FS = generic_FileServer
 
@@ -237,7 +242,8 @@ def scaleItem(item: Union[int, float], scalar: Union[int, float]):
         return item * scalar
 
 
-def preparePayloads(comparisons_dict: Dict[str, Dict[str, List[str]]], cc, pytrends: TrendReq) -> List[Tuple[str, List[str]]]:
+def preparePayloads(comparisons_dict: Dict[str, Dict[str, List[str]]], cc, pytrends: TrendReq) -> List[
+    Tuple[str, List[str]]]:
     """
     Creates the final payloads chosen from the possible keyword possibilities (based on highest search volume)
     Args:
@@ -262,8 +268,9 @@ def preparePayloads(comparisons_dict: Dict[str, Dict[str, List[str]]], cc, pytre
             logging.info(f'Checking for best keyword for option: {lcol.OKBLUE}{option}{lcol.ENDC}')
             kwds: List[str] = options[option]
             if len(kwds) > 1:
-                most_popular_kwd, results, highest_result_timeline, dimension = comparisonRequest(kwds, cc, pytrends, dimension='time',
-                                                          desiredReturn='most_popular_keyword')
+                most_popular_kwd, results, highest_result_timeline, dimension = comparisonRequest(kwds, cc, pytrends,
+                                                                                                  dimension='time',
+                                                                                                  desiredReturn='most_popular_keyword')
                 logging.info(f"Found most popular KWD: {lcol.OKGREEN}{most_popular_kwd}{lcol.ENDC}")
                 if show_graph:
                     merged = mergeResults(results, highest_result_timeline, dimension)
@@ -288,7 +295,7 @@ def preparePayloads(comparisons_dict: Dict[str, Dict[str, List[str]]], cc, pytre
 
 def showAverages(df: pd.DataFrame, option_name: str = ''):
     means = df.mean(axis=0)
-    means.plot.bar(title=f'Average interest for keywords of option: {option_name}', width=len(df.columns) * 0.5)
+    means.plot.bar(title=f'Average interest for keywords of option: {option_name}', figsize=(len(df.columns) * 0.5, 10))
     plt.show()
 
 
@@ -360,7 +367,7 @@ def requestManager_Thread(taskQueue: Queue):
 
 
 def scrape_all_regions(keyword: Union[str, List[str]], country_name: Country_Fullname, pytrends: TrendReq,
-                       keyword_id: Union[str, int] = '', folder: Union[List[str], str] = ['Output_Files', 'out'],
+                       keyword_id: Union[str, int] = '', folder: Union[List[str], str] = ('Output_Files', 'out'),
                        comparison_label: str = '', num_threads: int = NUM_THREADS):
     """
     Scrapes time and geo data for a country and keyword/keywords. Goes through all regions for Time and country level for Geo
@@ -379,7 +386,7 @@ def scrape_all_regions(keyword: Union[str, List[str]], country_name: Country_Ful
     t1 = time.time()
     isList = isinstance(keyword, list)
     kwd = keyword if isList else [keyword]
-    locales_list = generateRegionIds(country_name)
+    locales_list = generateRegionIds(country_name, override=False)
     path_steps = resolvePathSteps(folder, keyword, isList)
     directory = getDirectory(path_steps)
 
@@ -427,10 +434,12 @@ def scrape_all_regions(keyword: Union[str, List[str]], country_name: Country_Ful
         t.join()
     t2 = time.time()
     logging.info(f"Scraping {keyword} took {t2 - t1} sec")
+    merge_for_scraper(directory, country_shortcode=reverseDict(countries_dict_eng).get(country_name, country_name[:2]).upper())
 
 
 def scrape_shallow(keywords_df: pd.DataFrame, country_name: Country_Fullname, pytrends: TrendReq,
-                   folder: Union[str, List[str]] = ["Output_Files", 'out'], comparison_label: str = '', num_threads: int = NUM_THREADS):
+                   folder: Union[str, List[str]] = ("Output_Files", 'out'), comparison_label: str = '',
+                   num_threads: int = NUM_THREADS):
     """
     Scrapes time and geo data for a country and keyword/keywords. Goes through all regions for Time and country level for Geo
     Args:
@@ -570,19 +579,11 @@ def getChosenCountries() -> List[Tuple[Country_Shortcode, Country_Fullname]]:
     """
     chosen_ccs = []
     while True:
-        allowed_ccs = {
-            "de": "Germany",
-            "es": "Spain",
-            "fr": "France",
-            "it": "Italy",
-            "at": "Austria",
-            "ch": "Switzerland"
-        }
-        pprint(allowed_ccs)
+        pprint(countries_dict_eng)
         chosen = input(
             "What countries do you want to scrape for? Please put in the shortcodes (separated by commas)\n").strip().lower()
         for i in chosen.split(","):
-            res = allowed_ccs.get(i.strip(), None)
+            res = countries_dict_eng.get(i.strip(), None)
             if res:
                 chosen_ccs.append((Country_Shortcode(i.strip()), Country_Fullname(res)))
         if len(chosen_ccs) > 0:
@@ -624,7 +625,8 @@ def dialog():
     doDeduplicateKeywords = False
     prefix = False
     choose_file = binaryResponse("Do you want to specify the file to use?")
-    if not choose_file and (choice == 'Individual Keywords ("Keywords_CC.csv) - All Regions' or choice == 'Individual Keywords ("Keywords_CC.csv) - Only Country'):
+    if not choose_file and (
+            choice == 'Individual Keywords ("Keywords_CC.csv) - All Regions' or choice == 'Individual Keywords ("Keywords_CC.csv) - Only Country'):
         prefix = input(
             "What is the prefix to your file? e.g. '[All]_Keywords_DE.csv'\n").strip() if binaryResponse(
             "Do you have a prefix to your file_name?") else ""
@@ -636,7 +638,8 @@ def dialog():
             ft = ".csv" if "Individual Keywords" in choice else ".json"
             file: Filepath = chooseFile(filetype=ft, other_only_if_contains_selections=[short, country])
         if choice == 'Individual Keywords ("Keywords_CC.csv) - All Regions':
-            keywords = readInKeywords(short, prefix=prefix) if not file else readInKeywords(short, prefix=prefix, file_path=file)
+            keywords = readInKeywords(short, prefix=prefix) if not file else readInKeywords(short, prefix=prefix,
+                                                                                            file_path=file)
             if doDeduplicateKeywords:
                 keywords = deduplicateKeywords(keywords)
             failedScrapes = []
@@ -668,14 +671,5 @@ def dialog():
         logging.info("_" * 10 + "FINISHED" + "_" * 10)
 
 
-def manual():
-    tr = prepareTrendReqObj(1)
-    keyword = ["google"]
-    cc = "IT"
-    geo_result = comparisonRequest(keyword, cc, tr, dimension='geo', desiredReturn='data')
-    geo_result.to_csv(f"GEO_{cc}_{keyword}.csv")
-
-
 if __name__ == '__main__':
     dialog()
-    # manual()
