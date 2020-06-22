@@ -1,5 +1,6 @@
 if __name__ == '__main__':
     import sys
+
     sys.path.append('../')
 
 import os
@@ -51,7 +52,6 @@ def read_csv_utility(filepath: Filepath, country: Country_Fullname = 'Spain', **
             print(e)
             print(f"Trying a different encoding")
     raise Exception(f"Could not parse file: {filepath}")
-
 
 
 def createCategoryRegionYearFile(country, category, options_column_label='Type'):
@@ -211,7 +211,8 @@ def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
                 do_skip = False
                 while True:
                     files: list = list(filter(
-                        lambda x: tag_name in x and country_shortcode in x and '-' not in x[:4] and 'geo' not in x.lower(),
+                        lambda x: tag_name in x and country_shortcode in x and '-' not in x[
+                                                                                          :4] and 'geo' not in x.lower(),
                         files_in_folder))
                     num_try += 1
                     if len(files) > 0:
@@ -229,7 +230,7 @@ def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
                 if do_skip:
                     continue
                 else:
-                    df = read_csv_utility(filepath, country,usecols=[1, 2])
+                    df = read_csv_utility(filepath, country, usecols=[1, 2])
                     df['date'] = pd.to_datetime(df['date'])
                     df = df.resample("M", on="date").mean()
                     grouped = df.groupby(df.index.year)
@@ -247,7 +248,8 @@ def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
                             final_df.loc[ind, 'Demand_factor_max_to_min'] = seasonality
                             fixed += 1
             except Exception as e:
-                print(f"{lcol.WARNING}There occurred an error in adjust_Top5_Data. This may not be important as this is an optional function.\n{'-' * 6}Error Message{'-' * 6}\n{e}{lcol.ENDC}")
+                print(
+                    f"{lcol.WARNING}There occurred an error in adjust_Top5_Data. This may not be important as this is an optional function.\n{'-' * 6}Error Message{'-' * 6}\n{e}{lcol.ENDC}")
     print(f"Fixed {fixed} entries by looking up the Tag-Level data")
     return final_df
 
@@ -673,9 +675,11 @@ def dialog():
                     try:
                         result = createCategoryRegionYearFile(country, category, category_col_name)
                         result = remapColumns(result, col_remap)
+                        fname = os.path.join(final_folder, f"{campaign_short_code}-{category}_{country}.csv")
                         result.to_csv(
-                            os.path.join(final_folder, f"{campaign_short_code}-{category}_{country}.csv"),
+                            fname,
                             index=False)
+                        print(f'Saved: "file://{fname}"')
                         if country == 'Italy':
                             with pd.ExcelWriter(
                                     os.path.join(final_folder, f"{campaign_short_code}-{category}_{country}.xlsx"),
@@ -717,19 +721,27 @@ def dialog():
                                           ['Spend', 'Services', 'Reception Location', 'Food',
                                            'Wedding Style'], campaign_shortname=campaign_short_code)
             result = remapColumns(result, col_remap)
-            result.to_csv(os.path.join(final_folder, f'{campaign_short_code}_Main_Section_{country}.csv'), index=False)
+            fname = os.path.join(final_folder, f'{campaign_short_code}_Main_Section_{country}.csv')
+            result.to_csv(fname, index=False)
+            print(f'Saved: "file://{fname}"')
         elif chosenAction == 'create Chart Data':
             result = createTagChartData(country, min_regions=min_region_count, select_tags=select_tags_manually)
             result = remapColumns(result, col_remap)
-            result.to_csv(os.path.join(final_folder, f'{campaign_short_code}_Chart_Data_{country}.csv'), index=False)
+            fname = os.path.join(final_folder, f'{campaign_short_code}_Chart_Data_{country}.csv')
+            result.to_csv(fname, index=False)
+            print(f'Saved: "file://{fname}"')
         elif chosenAction == 'create Table Data':
             result = createTableData(country, campaign_short_code)
             result = result.fillna('NA')
-            result.to_csv(os.path.join(final_folder, f'{campaign_short_code}_Table_Data_{country}.csv'), index=False)
+            fname = os.path.join(final_folder, f'{campaign_short_code}_Table_Data_{country}.csv')
+            result.to_csv(fname, index=False)
+            print(f'Saved: "file://{fname}"')
         elif chosenAction == 'create Map Data':
             result = createMapData(country, campaign_short_code, useChart=useChartData)
             result = result.fillna('NA')
-            result.to_csv(os.path.join(final_folder, f'{campaign_short_code}_Map_Data_{country}.csv'), index=False)
+            fname = os.path.join(final_folder, f'{campaign_short_code}_Map_Data_{country}.csv')
+            result.to_csv(fname, index=False)
+            print(f'Saved: "file://{fname}"')
         print(f'FINISHED {chosenAction}')
     print('FINISHED ALL')
 

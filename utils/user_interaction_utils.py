@@ -115,7 +115,7 @@ def choose_from_dict(dictionary: Dict[Union[str, int], str], label: str = 'items
                 return ret
 
 
-def choose_multiple_from_dict(dictionary: Dict[Union[str, int], str], label: str = 'items',
+def choose_multiple_from_dict(dictionary: Union[Dict[Union[str, int], str], List[str]], label: str = 'items',
                                testing: bool = False, test_return: str = "", request_description: str = ""):
     if isinstance(dictionary, list):
         dictionary = {i: k for i, k in enumerate(dictionary)}

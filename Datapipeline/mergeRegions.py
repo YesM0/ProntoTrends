@@ -7,7 +7,7 @@ from typing import Union, Dict, List, Tuple
 import os
 import pandas as pd
 from utils.misc_utils import reverseDict, translate_dict, deduplicateColumns, rescale_comparison
-from utils.user_interaction_utils import choose_from_dict
+from utils.user_interaction_utils import choose_from_dict, choose_multiple_from_dict
 from utils.custom_types import *
 from utils.Countries import region_merges, regions_map_english_to_local, getCountry
 from utils.Filesys import generic_FileServer as FS
@@ -118,10 +118,16 @@ def do_merges_Time(folder: Folderpath,
                         merge_region_df = df.copy()
                     else:
                         col_merge_on = 'date'
-                        merge_region_df = merge_region_df.combine(df, func=avg, overwrite=False)
-            merge_region_df = rescale_comparison(merge_region_df)
-            new_name = file.replace(rg, rg_short)
-            merge_region_df.to_csv(new_name, index=False)
+                        try:
+                            merge_region_df = merge_region_df.combine(df, func=avg, overwrite=False)
+                        except Exception as e:
+                            print(f"Something went wrong trying to combine {file} with the merged df")
+                            print(e)
+            if merge_region_df is not None:
+                merge_region_df = rescale_comparison(merge_region_df)
+                new_name = file.replace(rg, rg_short)
+                merge_region_df.to_csv(new_name)
+                new_files.append(new_name)
     return new_files, unnecessary_files
 
 
@@ -135,7 +141,7 @@ def merge_for_scraper(directory: Filepath, country_shortcode: Country_Shortcode 
     Returns:
 
     """
-    cc_merges = region_merges.get(country_shortcode, False)
+    cc_merges = region_merges.get(country_shortcode.upper(), False)
     if cc_merges:
         print("Merging region-files")
         t = translate_dict(translate_dict(cc_merges, reverseDict(regions_map_english_to_local)),
@@ -170,8 +176,10 @@ if __name__ == '__main__':
     if choice == 'Comparisons':
         directories = []
         for item in os.listdir(FS.Comparisons):
-            if os.path.isdir(item) and not item.startswith("."):
-                directories.append(item)
+            full_path = os.path.join(FS.Comparisons, item)
+            if os.path.isdir(full_path) and not item.startswith("."):
+                directories.append(full_path)
+        directories = list(map(lambda x: os.path.join(FS.Comparisons, x), choose_multiple_from_dict(list(map(lambda x: os.path.split(x)[1], directories)), 'Groups', request_description='Which of these groups do you want to merge the regions in?')))
     elif 'Aggregated':
         directories = [os.path.join(FS.Aggregated, country.Full_name)]
     for directory in directories:
