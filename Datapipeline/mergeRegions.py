@@ -125,7 +125,7 @@ def do_merges_Time(folder: Folderpath,
                             print(e)
             if merge_region_df is not None:
                 merge_region_df = rescale_comparison(merge_region_df)
-                new_name = file.replace(rg, rg_short)
+                new_name = unnecessary_files[0].replace(rg, rg_short)
                 merge_region_df.to_csv(new_name)
                 new_files.append(new_name)
     return new_files, unnecessary_files
