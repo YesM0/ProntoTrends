@@ -16,7 +16,7 @@ from utils.user_interaction_utils import binaryResponse, choose_from_dict, choos
     chooseFolder, chooseFile, choose_column
 from utils.Filesys import generic_FileServer as FS
 
-TESTING = True
+TESTING = False
 if TESTING:
     print(
         f"{lcol.WARNING}You are in testing mode. If you don't want this, please change the setting in the file{lcol.ENDC}")
@@ -399,6 +399,8 @@ def treat_and_save(group, name, q, index_col, min_tickets, grouping_uniques, sav
     print(group)
     file_name, group, q = make_file_name(group, has_date, q)
     further_to_drop = ['No_of_tickets'] if not has_date else ['No_of_tickets', 'year', 'month', 'day']
+    if 'Unnamed' in group.columns:
+        further_to_drop.append('Unnamed')
     group = group.drop(columns=further_to_drop)
     group.to_csv(os.path.join(saving_folder, file_name), index=False)
     print(f"Saved {file_name}")
@@ -508,24 +510,23 @@ def group_split_col(split_file_col: list):
             out.append(choices)
     return out
 
-
 def treatDBData():
-    file = chooseFile(filetype="csv", testing=TESTING,
+    file = chooseFile(filetype="csv", testing=True,
                       test_return="/Users/chris/PycharmProjects/ProntoTrends/Input_Files/IT_Summer_Ticket_Counts.csv")
     df = pd.read_csv(file)
     print(f"Here are the columns in the selected file: {df.columns}")
-    if binaryResponse("Do you want to rename them?", testing=TESTING, test_return=False):
+    if binaryResponse("Do you want to rename them?", testing=False, test_return=False):
         df = renameColumns(df, file)
     print(f"{lcol.OKGREEN}Please select the folder where the outputs should be saved{lcol.ENDC}")
     saving_folder = chooseFolder(testing=True,
                                  test_return=os.path.join(FS.Aggregated, 'Italy'))
     pivot_col = choose_column(df,
                               instruction_str=f"{lcol.OKGREEN}Please choose the column to pivot file by from the following:{lcol.ENDC}",
-                              testing=TESTING, test_return='ticket_taxonomy_tag_name')
+                              testing=True, test_return='ticket_taxonomy_tag_name')
     grouping: list = choose_column(df, instruction_str='Please choose the columns used for grouping',
-                                   testing=TESTING, test_return=["year", 'month'], allow_multiple=True)
-    if binaryResponse("Do you want to generate a pivot file (or individual files per Category)?", testing=TESTING,
-                      test_return=True):
+                                   testing=True, test_return=["year", 'month'], allow_multiple=True)
+    if binaryResponse("Do you want to generate a pivot file (or individual files per Category)?", testing=True,
+                      test_return=False):
         # do pivot stuff
         category = input("What is the name of the category under which you want to save the files?\n").strip()
         directory = getDirectory(['Output_Files', 'Comparisons', category])
@@ -540,27 +541,37 @@ def treatDBData():
             to_drop = ['year', 'month', 'day']
         else:
             index = choose_column(df, instruction_str='Please choose the index column to use')
-        to_drop = to_drop + choose_column(df, instruction_str="Which of the columns do you want to exclude from the pivot table?",
+        to_drop = to_drop + choose_column(df,
+                                          instruction_str="Which of the columns do you want to exclude from the pivot table?",
                                           allow_multiple=True, exclude=to_drop + index)
         df = df.drop(columns=to_drop)
-        pivot = df.pivot_table(index=index, columns=pivot_col, aggfunc=sum, fill_value=0)
-        pivot.reset_index()
-        grouped = pivot.groupby(index[-1])
-        for name, group in grouped:
-            print(group)
-            # group = group.rename(columns=lambda x: x.split("/")[1] if isinstance(x, str) else x[1])
-            group = rescale_comparison(group, scale=100)
-            group = group.reset_index()
-            group = convert_region_names_to_google(group)
-            region_id = group[index[-1]].unique().tolist()[0]
+        for category, items in selections.items():
+            df_new = df.query(form_pandas_query(pivot_col, items))
+            directory = getDirectory(['Output_Files', 'Comparisons', category])
+            pivot = df_new.pivot_table(index=index, columns=pivot_col, aggfunc=sum, fill_value=0)
+            pivot.reset_index()
+            grouped = pivot.groupby(index[-1])
+            for name, group in grouped:
+                print(group)
+                # group = group.rename(columns=lambda x: x.split("/")[1] if isinstance(x, str) else x[1])
+                group = rescale_comparison(group, scale=100)
+                group = group.reset_index()
+                group = convert_region_names_to_google(group)
+                region_id = group[index[-1]].unique().tolist()[0]
+                filename = f"{dimension}_Italy_{region_id}_{category}.csv"
+                group = group.drop(columns=[index[-1]])
+                cols = list(map(lambda col: col[0] if len(col[1]) == 0 else col[1], group.columns))
+                group.columns = cols
+                group.to_csv(os.path.join(directory, filename), index=False)
+            # create Italy
+            italy = pivot.groupby(index[0]).sum()
+            italy = rescale_comparison(italy, scale=100)
+            italy = italy.reset_index()
+            cols = list(map(lambda col: col[0] if len(col[1]) == 0 else col[1], italy.columns))
+            italy.columns = cols
+            region_id = 'IT'
             filename = f"{dimension}_Italy_{region_id}_{category}.csv"
-            group = group.drop(columns=[index[-1]])
-            cols = list(map(lambda col: col[0] if len(col[1]) == 0 else col[1],group.columns))
-            group.columns = cols
-            group.to_csv(os.path.join(directory, filename), index=False)
-
-
-        # print(pivot)
+            italy.to_csv(os.path.join(directory, filename), index=False)
     else:
         # create individual files
         split_file_col = choose_column(df,
@@ -582,7 +593,8 @@ def treatDBData():
         has_date = False
         if binaryResponse("Does the file include date data?", testing=TESTING, test_return=True):
             df, has_date = formatDate(df)
-        index_col = choose_column(df, instruction_str=f"{lcol.OKGREEN}Please choose the column that is the index:{lcol.ENDC}",
+        index_col = choose_column(df,
+                                  instruction_str=f"{lcol.OKGREEN}Please choose the column that shows the distribution:{lcol.ENDC}",
                                   testing=TESTING, test_return='No_of_tickets', exclude=splits)
         grouped = df.groupby(by=splits, as_index=True)
         # splits = group_split_col(splits)

@@ -19,7 +19,7 @@ class Fileserver:
     Represents the filesystem structure and implements utilities for opening and retrieving files
     """
 
-    def __init__(self, settings_file: str = None):
+    def __init__(self, settings_file: str = os.path.join(cwd, 'Input_Files', 'Static', '.settings.yaml')):
         """
         Sets up the main folders and file-locations
         Args:

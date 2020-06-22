@@ -201,51 +201,54 @@ def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
     fixed = 0
     for ind, row in final_df.iterrows():
         if row['Demand_factor_max_to_min'] <= 2:
-            tag_name: str = cache.get(row['ticket_taxonomy_tag_name'], row['ticket_taxonomy_tag_name'])
-            original_tag_name = tag_name
-            country_shortcode = short_codes.get(country, country[:2])
-            folder: Filepath = os.path.join(FS.Aggregated, country)
-            files_in_folder: list = os.listdir(folder)
-            files_in_folder: list = list(filter(lambda f: len(f.split("_")) > 2, files_in_folder))
-            num_try = 0
-            do_skip = False
-            while True:
-                files: list = list(filter(
-                    lambda x: tag_name in x and country_shortcode in x and '-' not in x[:4] and 'geo' not in x.lower(),
-                    files_in_folder))
-                num_try += 1
-                if len(files) > 0:
-                    filepath = os.path.join(folder, files[0])
-                    cache[original_tag_name] = tag_name
-                    break
+            try:
+                tag_name: str = cache.get(row['ticket_taxonomy_tag_name'], row['ticket_taxonomy_tag_name'])
+                original_tag_name = tag_name
+                country_shortcode = short_codes.get(country, country[:2])
+                folder: Filepath = os.path.join(FS.Aggregated, country)
+                files_in_folder: list = os.listdir(folder)
+                files_in_folder: list = list(filter(lambda f: len(f.split("_")) > 2, files_in_folder))
+                num_try = 0
+                do_skip = False
+                while True:
+                    files: list = list(filter(
+                        lambda x: tag_name in x and country_shortcode in x and '-' not in x[:4] and 'geo' not in x.lower(),
+                        files_in_folder))
+                    num_try += 1
+                    if len(files) > 0:
+                        filepath = os.path.join(folder, files[0])
+                        cache[original_tag_name] = tag_name
+                        break
+                    else:
+                        if num_try > 1:
+                            if binaryResponse('Do you want to skip this item?'):
+                                do_skip = True
+                                break
+                        all_tags = list(set(map(lambda x: x.split("_")[2], files_in_folder)))
+                        tag_name = choose_from_dict(dictionary={i: tag for i, tag in enumerate(all_tags)}, label='Tags',
+                                                    request_description=f"Which of these tags is the same as {lcol.OKGREEN}{original_tag_name}{lcol.ENDC}?")
+                if do_skip:
+                    continue
                 else:
-                    if num_try > 1:
-                        if binaryResponse('Do you want to skip this item?'):
-                            do_skip = True
-                            break
-                    all_tags = list(set(map(lambda x: x.split("_")[2], files_in_folder)))
-                    tag_name = choose_from_dict(dictionary={i: tag for i, tag in enumerate(all_tags)}, label='Tags',
-                                                request_description=f"Which of these tags is the same as {lcol.OKGREEN}{original_tag_name}{lcol.ENDC}?")
-            if do_skip:
-                continue
-            else:
-                df = read_csv_utility(filepath, country,usecols=[1, 2])
-                df['date'] = pd.to_datetime(df['date'])
-                df = df.resample("M", on="date").mean()
-                grouped = df.groupby(df.index.year)
-                for year, group in grouped:
-                    if year == row['year']:
-                        max_id = group['means'].idxmax()
-                        min_id = group['means'].idxmin()
-                        max_val = group.loc[max_id, 'means']
-                        min_val = group.loc[min_id, 'means']
-                        seasonality = round(max_val / min_val, 2) if min_val > 0 else round(max_val / 1, 2)
-                        maxi = max_id.month - 1
-                        mini = min_id.month - 1
-                        final_df.loc[ind, 'Max'] = maxi
-                        final_df.loc[ind, 'Min'] = mini
-                        final_df.loc[ind, 'Demand_factor_max_to_min'] = seasonality
-                        fixed += 1
+                    df = read_csv_utility(filepath, country,usecols=[1, 2])
+                    df['date'] = pd.to_datetime(df['date'])
+                    df = df.resample("M", on="date").mean()
+                    grouped = df.groupby(df.index.year)
+                    for year, group in grouped:
+                        if year == row['year']:
+                            max_id = group['means'].idxmax()
+                            min_id = group['means'].idxmin()
+                            max_val = group.loc[max_id, 'means']
+                            min_val = group.loc[min_id, 'means']
+                            seasonality = round(max_val / min_val, 2) if min_val > 0 else round(max_val / 1, 2)
+                            maxi = max_id.month - 1
+                            mini = min_id.month - 1
+                            final_df.loc[ind, 'Max'] = maxi
+                            final_df.loc[ind, 'Min'] = mini
+                            final_df.loc[ind, 'Demand_factor_max_to_min'] = seasonality
+                            fixed += 1
+            except Exception as e:
+                print(f"{lcol.WARNING}There occurred an error in adjust_Top5_Data. This may not be important as this is an optional function.\n{'-' * 6}Error Message{'-' * 6}\n{e}{lcol.ENDC}")
     print(f"Fixed {fixed} entries by looking up the Tag-Level data")
     return final_df
 

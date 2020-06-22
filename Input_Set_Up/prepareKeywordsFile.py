@@ -1,118 +1,18 @@
+from utils.sql_utils import selectTagsFromDB
+
 if __name__ == '__main__':
     import sys
     sys.path.append('../')
 
 import os
-import getpass
 import pandas as pd
 import phpserialize as ps  # pip install phpserialize
 import json
-import yaml
-import pymysql.cursors
-from utils.misc_utils import lcol
 from utils.user_interaction_utils import binaryResponse, choose_from_dict, choose_multiple_from_dict, \
-    chooseFolder, chooseFile, defineList
+    chooseFile, defineList
 from utils.Filesys import generic_FileServer
-from utils.custom_types import *
 
 FS = generic_FileServer
-
-
-def get_sql_login_data() -> dict:
-    path: Filepath = FS.Settings_File
-    create_file: bool = False
-    if os.path.exists(path):
-        with open(path, 'r') as f:
-            s = f.read()
-        d: dict = yaml.safe_load(s)
-        if isinstance(d, dict):
-            if 'host' not in d or 'password' not in d or 'user' not in d:
-                create_file = True
-            else:
-                return {key: val for key, val in d.items() if key in ['host', 'user', 'password']}
-        else:
-            create_file = True
-    else:
-        create_file = True
-    if create_file:
-        print(f"{lcol.OKGREEN}We don't seem to find your login details for the database. Let's set them up!{lcol.ENDC}")
-        while True:
-            host = input("What is the host (db link) you want to connect to?\n").strip()
-            user = input("What is your user name? ").strip()
-            password = getpass.getpass("Please pass in your password: ")
-            try:
-                connection = pymysql.connect(host=host,
-                                             user=user,
-                                             password=password,
-                                             cursorclass=pymysql.cursors.DictCursor)
-                connection.close()
-                break
-            except Exception as e:
-                print(e)
-                print("It seems like your login-data was not correct\nPlease also check that you're on company WIFI or connected via VPN")
-        d = {'host': host, 'user': user, 'password': password}
-        with open(path, "a+") as f:
-            f.write(yaml.dump(d))
-        return d
-
-
-def establish_SQL_cursor():
-    login_data: dict = get_sql_login_data()
-    connection = pymysql.connect(host=login_data['host'],
-                                 user=login_data['user'],
-                                 password=login_data['password'],
-                                 cursorclass=pymysql.cursors.DictCursor)
-    return connection
-
-
-def selectTagsFromDB(cc_short, kwds=None, tag_ids=None):
-    sql = construct_query(cc_short, kwds, tag_ids)
-    connection = establish_SQL_cursor()
-    df = pd.read_sql(sql, connection)
-    connection.close()
-    print(df.head())
-    if binaryResponse("Do you want to save the data to a file?"):
-        folder = chooseFolder()
-        filename = input("What filename do you want?\n").strip()
-        if not '.csv' in filename:
-            filename += '.csv'
-        path = os.path.join(folder, filename)
-        df.to_csv(path, index=False)
-    return df
-
-
-def construct_query(cc_short, kwds=None, tag_ids=None):
-    sql = f"SELECT t.id as 'tag_id', t.name as 'tag_name', s.name as 'service_name', b.name as 'bc_name', b.elite_keywords as 'elite_keywords', b.top_keywords as 'top_keywords'" \
-          f"FROM prontopro_{cc_short.lower()}.tag t" \
-          f" RIGHT OUTER JOIN prontopro_{cc_short.lower()}.service s on s.id = t.service_id" \
-          f" LEFT OUTER JOIN prontopro_{cc_short.lower()}.business_service bs on s.id = bs.service_id" \
-          f" LEFT OUTER JOIN prontopro_{cc_short.lower()}.business b on bs.business_id = b.id"
-    if kwds is not None or tag_ids is not None:
-        sql += " WHERE "
-        conditions = 0
-    if kwds is not None:
-        if isinstance(kwds, str):
-            kwds = [kwds]
-
-        for kwd in kwds:
-            if not conditions == 0:
-                sql += "or "
-            sql += f"t.name like '%{kwd}%' or b.name like '%{kwd}%' or s.name like '%{kwd}%' or b.elite_keywords like '%{kwd}%' or b.top_keywords like '%{kwd}%'"
-            conditions += 1
-    if tag_ids is not None:
-        if isinstance(tag_ids, str) or isinstance(tag_ids, int):
-            tag_ids = [tag_ids]
-        if conditions > 0:
-            sql += "or "
-        in_statement = "("
-        for i, tid in enumerate(tag_ids):
-            in_statement += f"{str(tid)}"
-            if i != len(tag_ids) - 1:
-                in_statement += ", "
-        in_statement += ")"
-        sql += f"t.id IN {in_statement}"
-    print(sql)
-    return sql
 
 
 def deserializeItem(x):

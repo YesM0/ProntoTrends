@@ -8,6 +8,7 @@ from pprint import pprint
 from typing import Union, Dict, List
 
 from utils.custom_types import Country_Shortcode, Country_Fullname, Filepath
+from utils.misc_utils import lcol
 import pandas as pd
 
 
@@ -162,15 +163,17 @@ def chooseFolder(testing: bool = False, test_return: str = "", request_str: str 
                     return curr_path
 
 
-def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = None, testing: bool = False, test_return: str = "") -> Filepath:
+def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = None, testing: bool = False, test_return: str = "", request_prompt: str = None) -> Filepath:
     if testing:
         print(test_return)
         return test_return
     else:
+        if request_prompt:
+            print(request_prompt)
         curr_path = os.getcwd()
         do_selection = isinstance(other_only_if_contains_selections, list)
         if not do_selection:
-            print(f"To make selection easier, you can set up selection presets.\n")
+            print(f"To make file-selection easier, you can set up selection presets.\n")
             do_selection = binaryResponse("Do you want to set these?")
         if do_selection:
             if isinstance(other_only_if_contains_selections, list):
@@ -235,14 +238,14 @@ def defineFilename(target_ending: str = '.json', target_folder: str = None) -> F
     return path
 
 
-def choose_column(df: pd.DataFrame, instruction_str: str = None, testing: bool = False, test_return: Union[str, List[str]] = None, allow_multiple: bool = False, exclude: list = None) -> Union[str, List[str]]:
+def choose_column(df: pd.DataFrame, instruction_str: str = None, testing: bool = False, test_return: Union[str, List[str]] = None, allow_multiple: bool = False, exclude: list = ()) -> Union[str, List[str]]:
     """
     Allows the user to select one or more columns
     Args:
-        exclude:
-        allow_multiple:
         df:
         instruction_str:
+        allow_multiple:
+        exclude:
         testing:
         test_return:
 
