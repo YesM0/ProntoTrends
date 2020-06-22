@@ -69,6 +69,8 @@ def choose_from_dict(dictionary: Dict[Union[str, int], str], label: str = 'items
         print(test_return)
         return test_return
     else:
+        if isinstance(dictionary, list):
+            dictionary = {i: k for i, k in enumerate(dictionary)}
         if len(request_description) > 0:
             print(request_description)
         if len(dictionary.keys()) == 1:
@@ -115,6 +117,8 @@ def choose_from_dict(dictionary: Dict[Union[str, int], str], label: str = 'items
 
 def choose_multiple_from_dict(dictionary: Dict[Union[str, int], str], label: str = 'items',
                                testing: bool = False, test_return: str = "", request_description: str = ""):
+    if isinstance(dictionary, list):
+        dictionary = {i: k for i, k in enumerate(dictionary)}
     if testing is True:
         return test_return
     else:

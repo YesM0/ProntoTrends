@@ -43,8 +43,7 @@ def read_csv_utility(filepath: Filepath, country: Country_Fullname = 'Spain', **
     for ecd in encodings:
         try:
             df = pd.read_csv(filepath, encoding=ecd, **kwargs)
-            if df:
-                return df
+            return df
         except FileNotFoundError as e:
             print(e)
             raise FileNotFoundError(e)

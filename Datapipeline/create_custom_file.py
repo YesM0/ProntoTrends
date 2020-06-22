@@ -13,7 +13,7 @@ from matplotlib import pyplot as plt
 from Datapipeline.finalCSVgenerator import Sort
 from utils.misc_utils import lcol, reverseDict, getDirectory, rescale_comparison
 from utils.user_interaction_utils import binaryResponse, choose_from_dict, choose_multiple_from_dict, \
-    chooseFolder, chooseFile, choose_column
+    chooseFolder, chooseFile, choose_column, defineList
 from utils.Filesys import generic_FileServer as FS
 
 TESTING = False
@@ -510,6 +510,14 @@ def group_split_col(split_file_col: list):
             out.append(choices)
     return out
 
+
+def form_pandas_query(column: str, options: List[str]) -> str:
+    subqueries = []
+    for option in options:
+        subqueries.append(f"{column} == '{option}'")
+    return " | ".join(subqueries)
+
+
 def treatDBData():
     file = chooseFile(filetype="csv", testing=True,
                       test_return="/Users/chris/PycharmProjects/ProntoTrends/Input_Files/IT_Summer_Ticket_Counts.csv")
@@ -528,8 +536,15 @@ def treatDBData():
     if binaryResponse("Do you want to generate a pivot file (or individual files per Category)?", testing=True,
                       test_return=False):
         # do pivot stuff
-        category = input("What is the name of the category under which you want to save the files?\n").strip()
-        directory = getDirectory(['Output_Files', 'Comparisons', category])
+
+        categories = defineList(['Homecare', 'Outdoor', 'Wellness'])  # TODO: Allow json input
+        selections = {}
+        tags = df[pivot_col].unique().tolist()
+        for cat in categories:
+            selected_tags = choose_multiple_from_dict(tags, 'tags',
+                                                      request_description=f'Please select the Tags you want to add to the category {cat}')
+            selections[cat] = selected_tags
+            tags = [tag for tag in tags if tag not in selected_tags]
         to_drop = []
         dimension = 'Time'
         if binaryResponse("Does the file include date data?", testing=TESTING, test_return=True):
