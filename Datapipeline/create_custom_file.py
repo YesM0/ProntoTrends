@@ -4,6 +4,7 @@ if __name__ == '__main__':
     sys.path.append('../')
 
 import os
+from typing import Union, Tuple, Dict, List, Any
 
 import numpy as np
 import pandas as pd
@@ -352,7 +353,7 @@ def convert_region_names_to_google(df: pd.DataFrame, is_geo=False):
     return df
 
 
-def make_uniform(df: pd.DataFrame, group_uniques: dict, index_column):
+def make_uniform(df: pd.DataFrame, group_uniques: Dict[str, List[Any]], index_column):
     """
     Ensures that the dataframe has sufficient rows to be "square"
     Args:
