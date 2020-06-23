@@ -526,8 +526,7 @@ def treatDBData():
     if binaryResponse("Do you want to rename them?", testing=False, test_return=False):
         df = renameColumns(df, file)
     print(f"{lcol.OKGREEN}Please select the folder where the outputs should be saved{lcol.ENDC}")
-    saving_folder = chooseFolder(testing=True,
-                                 test_return=os.path.join(FS.Aggregated, 'Italy'))
+    saving_folder = chooseFolder(testing=True, test_return=os.path.join(FS.Aggregated, 'Italy'))
     pivot_col = choose_column(df,
                               instruction_str=f"{lcol.OKGREEN}Please choose the column to pivot file by from the following:{lcol.ENDC}",
                               testing=True, test_return='ticket_taxonomy_tag_name')

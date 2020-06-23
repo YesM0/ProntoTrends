@@ -12,7 +12,7 @@ from utils.Countries import readInLocales, regions_map_english_to_local
 from utils.misc_utils import deduplicateColumns, lcol, \
     reverseDict, getRegions
 from utils.user_interaction_utils import getChosenCountry, binaryResponse, choose_from_dict, \
-    choose_multiple_from_dict, defineList
+    choose_multiple_from_dict, defineList, int_input
 from utils.Filesys import generic_FileServer
 
 short_codes = {
@@ -25,6 +25,46 @@ short_codes = {
 }
 
 FS = generic_FileServer
+
+
+# Used for adapting value names
+col_remap = {
+        'Spend_type': {
+            'hochzeit günstig': 'standard',
+            'hochzeit premium': 'premium'
+        },
+        'ticket_geo_region_name': regions_map_english_to_local,
+        'Wed_type': {
+            'standesamtliche Hochzeit': 'standesamtlich',
+            "Heiraten kirchlich": 'kirchlich'
+        },
+        'Loc_type': {
+            'hochzeit hotel': 'Hotel/ Restaurant',
+            'hochzeit villa': 'Villa',
+            'hochzeit schloss': 'Schloss',
+            'hochzeit landhaus': 'Landhaus'
+        },
+        'Prof_type': {
+            'Hochzeitsdeko': 'Dekorateur für Hochzeiten',
+            'Hochzeitsfotos': 'Hochzeitsfotograf',
+            'Hochzeit Tanzkurs': 'Tanzkurs',
+            'Musik Hochzeit': 'Musiker für Hochzeit'
+        },
+        'ticket_taxonomy_tag_name': {
+            "ORIGINAL": "REPLACEMENT"
+        },
+        'sub_type': {
+            'Hochzeit günstig': 'Günstige Hochzeit',
+            'Hochzeit Kosten': 'Normale Hochzeit',
+            'Musik Hochzeit': 'Musiker für Hochzeit',
+            'Hochzeit Buffet': 'Buffet',
+            'Hochzeit Essen': 'Catering',
+            'Hochzeit Bar': 'Bar',
+            'hochzeit hotel': 'Hotel',
+            'hochzeit schloss': 'Schloss',
+            'hochzeit villa': 'Villa'
+        }
+    }
 
 
 def read_csv_utility(filepath: Filepath, country: Country_Fullname = 'Spain', **kwargs) -> pd.DataFrame:
@@ -405,14 +445,14 @@ def scale_within_ticket_cc_selected(final_df: pd.DataFrame) -> pd.DataFrame:
     return final_df
 
 
-def gather_base_data_chart(country: Country_Fullname, min_regions: int, region_ids: dict, regions: list,
+def gather_base_data_chart(country: Country_Fullname, min_regions: int, region_ids_to_name: dict, regions: list,
                            select_tags: bool) -> pd.DataFrame:
     """
     Access all tag-Time-files in Aggregated, resamples to Months and puts them into one df
     Args:
         country: Country_Fullname
         min_regions: int -- minimum number of regions needed for a tag to be considered -> passed into filter_tags
-        region_ids: dict -- dict of region_id to region_name (ENG)
+        region_ids_to_name: dict -- dict of region_id to region_name (ENG)
         regions: List[str] -- list of region ids (only respective id)
         select_tags: bool -- whether the user wants to select the tags themselves
 
@@ -428,7 +468,7 @@ def gather_base_data_chart(country: Country_Fullname, min_regions: int, region_i
                'Country_chosen']
     out = []
     for tag_id, tag in tags.items():
-        for ind, region_id in enumerate(region_ids):
+        for ind, region_id in enumerate(list(region_ids_to_name.keys())):
             region_code = f"{regions[0]['id']}-{region_id}" if ind > 0 else region_id  # regions[0] => Country
             adjusted = '_Adjusted' if len(region_code) > 2 else ''
             file = os.path.join(folder, f"{region_code}_{tag_id}_{tag}_Time{adjusted}.csv")
@@ -442,15 +482,15 @@ def gather_base_data_chart(country: Country_Fullname, min_regions: int, region_i
                     val = row['means']
                     country_chosen = 0 if len(
                         region_code) > 2 else 1  # if region code like "CC-AA" -> region else if "CC" -> country
-                    out.append([tag, region_ids[region_id], year, month, val / 100, country_chosen])
+                    out.append([tag, region_ids_to_name[region_id], year, month, val / 100, country_chosen])
             else:
                 for month, year in months:
-                    out.append([tag, region_ids[region_id], year, month, None, 0])
+                    out.append([tag, region_ids_to_name[region_id], year, month, None, 0])
     final_df = pd.DataFrame(out, columns=columns)
     return final_df
 
 
-def filter_tags(all_files, min_regions, select_tags):
+def filter_tags(all_files: List[str], min_regions: int, select_tags: bool) -> Dict[int, str]:
     tags = {int(file.split('_')[1]): file.split('_')[2] for file in all_files}
     tag_ids = [int(file.split("_")[1]) for file in all_files if 'Adjusted' in file]
     tag_counts = {tag: tag_ids.count(tag) for tag in tags}
@@ -477,7 +517,7 @@ def filter_tags(all_files, min_regions, select_tags):
     return tags
 
 
-def createTableData(country, campaign_short_code):
+def createTableData(country: Country_Fullname, campaign_short_code: str) -> pd.DataFrame:
     ccs = {
         "Germany": 'Deutschland',
         "France": "France",
@@ -508,7 +548,7 @@ def createTableData(country, campaign_short_code):
         return df
 
 
-def createMapData(country, campaign_short_code, useChart=True):
+def createMapData(country: Country_Fullname, campaign_short_code: str, useChart: bool = True) -> pd.DataFrame:
     if useChart:
         # find Chart Data
         filepath = os.path.join(FS.Final, country, campaign_short_code,
@@ -563,7 +603,7 @@ def createMapData(country, campaign_short_code, useChart=True):
         return overall
 
 
-def remapColumns(df, column_remappings: dict):
+def remapColumns(df: pd.DataFrame, column_remappings: dict) -> pd.DataFrame:
     for col_name in column_remappings:
         obj = column_remappings[col_name]
         if col_name in df.columns:
@@ -574,7 +614,7 @@ def remapColumns(df, column_remappings: dict):
     return df
 
 
-def get_category_overview_settings():
+def get_category_overview_settings() -> Tuple[List[str], List[str]]:
     print(
         f"{lcol.OKGREEN}Please define the categories for which to create overviews. The names need to match folders in the 'comparisons' folder{lcol.ENDC}")
     overview_cats = defineList(
@@ -593,66 +633,23 @@ def get_category_overview_settings():
     return overview_cats, overview_cat_cols
 
 
-def dialog():
-    # global country, campaign_short_code
-    s, country = getChosenCountry(action='create files')
-    col_remap = {
-        'Spend_type': {
-            'hochzeit günstig': 'standard',
-            'hochzeit premium': 'premium'
-        },
-        'ticket_geo_region_name': regions_map_english_to_local,
-        'Wed_type': {
-            'standesamtliche Hochzeit': 'standesamtlich',
-            "Heiraten kirchlich": 'kirchlich'
-        },
-        'Loc_type': {
-            'hochzeit hotel': 'Hotel/ Restaurant',
-            'hochzeit villa': 'Villa',
-            'hochzeit schloss': 'Schloss',
-            'hochzeit landhaus': 'Landhaus'
-        },
-        'Prof_type': {
-            'Hochzeitsdeko': 'Dekorateur für Hochzeiten',
-            'Hochzeitsfotos': 'Hochzeitsfotograf',
-            'Hochzeit Tanzkurs': 'Tanzkurs',
-            'Musik Hochzeit': 'Musiker für Hochzeit'
-        },
-        'ticket_taxonomy_tag_name': {
-            "ORIGINAL": "REPLACEMENT"
-        },
-        'sub_type': {
-            'Hochzeit günstig': 'Günstige Hochzeit',
-            'Hochzeit Kosten': 'Normale Hochzeit',
-            'Musik Hochzeit': 'Musiker für Hochzeit',
-            'Hochzeit Buffet': 'Buffet',
-            'Hochzeit Essen': 'Catering',
-            'Hochzeit Bar': 'Bar',
-            'hochzeit hotel': 'Hotel',
-            'hochzeit schloss': 'Schloss',
-            'hochzeit villa': 'Villa'
-        }
-    }
+def get_user_settings() -> Tuple[Country_Shortcode, Country_Fullname, str, Union[List[str], None], int, Union[None, List[str]], Union[None, List[str]], bool, Union[None, List[str]], bool]:
     campaign_short_code = 'Wed'
+    min_region_count = 0
+    overview_cat_cols = None
+    overview_cats = None
+    select_tags_manually = False
+    top_5_cats = None
+    useChartData = None
+    s, country = getChosenCountry(action='create files')
     if binaryResponse(f"Do you have a different campaign short code than '{campaign_short_code}'?"):
         campaign_short_code = input("What is the short code of the current campaign?\n").strip()
-    if binaryResponse("Do you want to do all actions?"):
-        chosenActions = ['Create Category Overviews', 'Create Top5', 'create Main Section', 'create Chart Data',
-                         'create Table Data', 'create Map Data']
-    else:
-        chosenActions = choose_multiple_from_dict(
-            {1: 'Create Category Overviews', 2: 'Create Top5', 3: 'create Main Section', 4: 'create Chart Data',
-             5: 'create Table Data', 6: 'create Map Data'}, label='actions')
-    min_region_count = 0
-    select_tags_manually = False
+    chosenActions = choose_multiple_from_dict(
+        {1: 'Create Category Overviews', 2: 'Create Top5', 3: 'create Main Section', 4: 'create Chart Data',
+         5: 'create Table Data', 6: 'create Map Data'}, label='actions')
     if 'create Chart Data' in chosenActions:
         if binaryResponse("Do you want to set a minimum region count for the Chart?"):
-            while True:
-                try:
-                    min_region_count = int(input("What is the limit you choose?\n"))
-                    break
-                except:
-                    print("Could not parse input. Make sure you type a number")
+            min_region_count = int_input("What is the limit you choose?\n")
         select_tags_manually = binaryResponse("Do you want to manually select the tags to be included?")
     if 'create Map Data' in chosenActions:
         useChartData = binaryResponse('Do you want to calculate the scores based on Chart Data?')
@@ -662,6 +659,12 @@ def dialog():
         print(
             f"{lcol.OKGREEN}Please define the categories to source data for the Top 5 for. The names need to match folders in the 'comparisons' folder{lcol.ENDC}")
         top_5_cats = defineList(['Tags', 'Services'])
+    return s, country, campaign_short_code, chosenActions, min_region_count, overview_cat_cols, overview_cats, select_tags_manually, top_5_cats, useChartData
+
+
+def dialog():
+    # global country, campaign_short_code
+    s, country, campaign_short_code, chosenActions, min_region_count, overview_cat_cols, overview_cats, select_tags_manually, top_5_cats, useChartData = get_user_settings()
     final_folder = os.path.join(FS.Final, country, campaign_short_code)
     if not os.path.exists(final_folder):
         os.makedirs(final_folder)

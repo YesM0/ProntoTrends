@@ -9,6 +9,10 @@ from utils.custom_types import Country_Fullname, Region_Fullname, Region_Shortco
 from utils.Filesys import generic_FileServer as FS
 from utils.user_interaction_utils import choose_from_dict
 
+# TODO (p1): Align the ways region ids are used!
+
+
+
 countries_dict_eng: Dict[Country_Shortcode, Country_Fullname] = {
     "de": "Germany",
     "es": "Spain",
@@ -115,7 +119,7 @@ class Country:
         self.Local_Name: Country_Fullname = countries_dict_local.get(self.Shortcode.lower())
         self.has_merged_regions: bool = isinstance(region_merges.get(self.Shortcode, False), dict)
 
-    def get_regions(self) -> Union[List[Dict[str, str]], None]:
+    def get_regions(self, include_self: bool = False) -> Union[List[Dict[str, str]], None]:
         """
         Mirrors getRegions function in misc_utils.py
         Returns:
@@ -126,16 +130,35 @@ class Country:
         all_countries: list = locales_obj['children']
         for country in all_countries:
             if country['name'] == self.Full_name:
-                return country['children']
+                if include_self:
+                    return [{'name': self.Full_name, 'id': country['id']}].extend(country['children'])
+                else:
+                    return country['children']
         return None
 
+    @property
+    def bare_region_ids(self) -> List[str]:
+        regs = self.get_regions()
+        return [x['id'] for x in regs]
 
-def getCountry() -> Country:
+    @property
+    def region_ids(self) -> List[str]:
+        bare = self.bare_region_ids
+        return [f"{self.Shortcode.upper()}-{bare_id}" for bare_id in bare]
+
+    @property
+    def region_ids_to_names(self) -> Dict[str, str]:
+        return get_region_id_to_name_dict(self.Full_name)
+
+
+def getCountry(prompt: str = None) -> Country:
     """
     Handles user interaction to select a Country object
     Returns:
 
     """
+    if prompt:
+        print(prompt)
     while True:
         try:
             c = Country(full_name=choose_from_dict(countries_dict_eng))
@@ -169,6 +192,11 @@ def get_region_id_to_name_dict(country_name: Country_Fullname):
     locales: dict = readInLocales()
     cc_id, region_ids_dict = deepSearch(country_name, locales, return_children=True, include_children_names=True)
     return region_ids_dict
+
+
+def make_region_id_name_dict(regions_dict: List[Dict[str, str]]) -> Dict[str, str]:
+    region_ids = {r['id']: r['name'] for r in regions_dict}
+    return region_ids
 
 
 def generateRegionIds(country_name: Country_Fullname, sort: bool = True, override: bool = True) -> List[str]:
@@ -253,3 +281,7 @@ regions_map_english_to_local = {
     "Italy": "Italia",
     "Lombardy": 'Lombardia'
 }
+
+
+if __name__ == '__main__':
+    print(get_region_id_to_name_dict(Country('de').Full_name))

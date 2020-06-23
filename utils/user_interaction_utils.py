@@ -12,6 +12,15 @@ from utils.misc_utils import lcol
 import pandas as pd
 
 
+def user_input(prompt: str) -> str:
+    res = input(prompt)
+    if res.lower() == 'stop' or res.lower() == 'break':
+        print("Exiting")
+        sys.exit()
+    else:
+        return res
+
+
 def getChosenCountry(action: str = 'scrape', testing: bool = False, test_return: Union[None, tuple] = None) -> (Country_Shortcode, Country_Fullname):
     if testing:
         print(test_return)
@@ -29,7 +38,7 @@ def getChosenCountry(action: str = 'scrape', testing: bool = False, test_return:
         }
         while True:
             pprint(allowed_ccs)
-            chosen: str = input(f"What country do you want to {action} for? Please put in the shortcode:\n").strip().lower()
+            chosen: str = user_input(f"What country do you want to {action} for? Please put in the shortcode:\n").strip().lower()
             res: Union[str, bool] = allowed_ccs.get(chosen, False)
             if res:
                 return Country_Shortcode(chosen.upper()), Country_Fullname(res)
@@ -51,13 +60,11 @@ def binaryResponse(question_string: str, testing: bool = False, test_return: boo
         return test_return
     else:
         while True:
-            response = input(f"{question_string} (y/n)\n")
+            response = user_input(f"{question_string} (y/n)\n")
             if 'y' in response.lower():
                 return True
             elif 'n' in response.lower():
                 return False
-            elif 'stop' in response.lower():
-                sys.exit('Stopped upon user request')
             else:
                 continue
 
@@ -84,7 +91,7 @@ def choose_from_dict(dictionary: Dict[Union[str, int], str], label: str = 'items
             print(f"\nWhich of the {label} do you choose?") if not allow_multiple_answers else print(
                 f"\n Which of the {label} do you choose? You can select multiple by seperating them by ','")
             pprint(dictionary)
-            response = input("\n")
+            response = user_input("\n")
             invalids = []
             if "," in response and allow_multiple_answers:
                 response = map(lambda x: x.strip(), response.split(","))
@@ -141,14 +148,17 @@ def choose_multiple_from_dict(dictionary: Union[Dict[Union[str, int], str], List
         return selection
 
 
-def chooseFolder(testing: bool = False, test_return: str = "", request_str: str = None) -> Filepath:
+def chooseFolder(request_str: str = None, base_folder=None, testing: bool = False, test_return: str = "") -> Filepath:
     if testing:
         print(test_return)
         return test_return
     else:
         if request_str:
             print(request_str)
-        curr_path = os.getcwd()
+        if base_folder:
+            curr_path = base_folder
+        else:
+            curr_path = os.getcwd()
         while True:
             contents = os.listdir(curr_path)
             undesired = ['__pycache__', '.ipynb_checkpoints', 'venv', '.idea', '.DS-Store']
@@ -210,7 +220,7 @@ def defineList(initial_selection: list = (), label: str = "categories") -> list:
     run = 0 if len(chosen) > 0 else 1
     while True:
         if run > 0:
-            cats = input(f"Please declare the {label} you want to use:\n")
+            cats = user_input(f"Please declare the {label} you want to use:\n")
             if "," in cats:
                 cats = cats.split(",")
                 cats = map(lambda x: x.strip(), cats)
@@ -230,7 +240,7 @@ def defineList(initial_selection: list = (), label: str = "categories") -> list:
 
 def defineFilename(target_ending: str = '.json', target_folder: str = None) -> Filepath:
     while True:
-        filename = input(
+        filename = user_input(
             "What is the name of the file under which you want to save it? (it will automatically be saved in Input_Files)").strip()
         if "/" in filename:
             print("You have the invalid character '/' in your filename, please try again")
@@ -268,3 +278,17 @@ def choose_column(df: pd.DataFrame, instruction_str: str = None, testing: bool =
         return choose_from_dict(d, label='column')
     else:
         return choose_multiple_from_dict(d, label='column')
+
+
+def int_input(prompt: str) -> int:
+    while True:
+        try:
+            inn = user_input(f"{prompt.strip()}\n")
+            if inn.lower() == 'end' or inn.lower() == 'stop':
+                sys.exit()
+            integer = int(inn)
+            return integer
+        except ValueError:
+            print("Could not parse input. Make sure you type a number")
+
+
