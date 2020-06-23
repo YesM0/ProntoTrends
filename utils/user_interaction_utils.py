@@ -292,3 +292,31 @@ def int_input(prompt: str) -> int:
             print("Could not parse input. Make sure you type a number")
 
 
+
+
+def int_input(prompt: str) -> int:
+    while True:
+        try:
+            inn = user_input(f"{prompt.strip()}\n")
+            if inn.lower() == 'end' or inn.lower() == 'stop':
+                sys.exit()
+            integer = int(inn)
+            return integer
+        except ValueError:
+            print("Could not parse input. Make sure you type a number")
+
+
+
+
+def int_input(prompt: str) -> int:
+    while True:
+        try:
+            inn = user_input(f"{prompt.strip()}\n")
+            if inn.lower() == 'end' or inn.lower() == 'stop':
+                sys.exit()
+            integer = int(inn)
+            return integer
+        except ValueError:
+            print("Could not parse input. Make sure you type a number")
+
+

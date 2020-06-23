@@ -150,6 +150,15 @@ class Country:
     def region_ids_to_names(self) -> Dict[str, str]:
         return get_region_id_to_name_dict(self.Full_name)
 
+    @property
+    def bare_region_ids(self):
+        regs = self.get_regions()
+        return [x['id'] for x in regs]
+
+    @property
+    def region_ids(self):
+        bare = self.bare_region_ids
+        return [f"{self.Shortcode}-{bare_id}" for bare_id in bare]
 
 def getCountry(prompt: str = None) -> Country:
     """
@@ -166,6 +175,15 @@ def getCountry(prompt: str = None) -> Country:
         except Exception as e:
             print(e)
 
+    @property
+    def bare_region_ids(self):
+        regs = self.get_regions()
+        return [x['id'] for x in regs]
+
+    @property
+    def region_ids(self):
+        bare = self.bare_region_ids
+        return [f"{self.Shortcode}-{bare_id}" for bare_id in bare]
 
 def readInLocales() -> Dict[str, Union[str, List[Dict[str, Union[List[Dict[str, str]], str]]]]]:
     with open(FS.All_Google_Locales, "r") as f:
@@ -173,6 +191,15 @@ def readInLocales() -> Dict[str, Union[str, List[Dict[str, Union[List[Dict[str, 
     allLocales = json.loads(allLocales)
     return allLocales
 
+    @property
+    def bare_region_ids(self):
+        regs = self.get_regions()
+        return [x['id'] for x in regs]
+
+    @property
+    def region_ids(self):
+        bare = self.bare_region_ids
+        return [f"{self.Shortcode}-{bare_id}" for bare_id in bare]
 
 def findLocale(name: Union[Country_Fullname, Region_Fullname, str], isRegion: bool = False,
                includeChildren: bool = False):
@@ -187,6 +214,15 @@ def findLocale(name: Union[Country_Fullname, Region_Fullname, str], isRegion: bo
         result: Union[tuple, str, bool] = deepSearch(name, locales)
     return result
 
+    @property
+    def bare_region_ids(self):
+        regs = self.get_regions()
+        return [x['id'] for x in regs]
+
+    @property
+    def region_ids(self):
+        bare = self.bare_region_ids
+        return [f"{self.Shortcode}-{bare_id}" for bare_id in bare]
 
 def get_region_id_to_name_dict(country_name: Country_Fullname):
     locales: dict = readInLocales()
@@ -281,6 +317,26 @@ regions_map_english_to_local = {
     "Italy": "Italia",
     "Lombardy": 'Lombardia'
 }
+
+
+def make_region_id_name_dict(regions_dict: List[Dict[str, str]]) -> Dict[str, str]:
+    region_ids = {r['id']: r['name'] for r in regions_dict}
+    return region_ids
+
+
+def make_region_id_name_dict(regions_dict: List[Dict[str, str]]) -> Dict[str, str]:
+    region_ids = {r['id']: r['name'] for r in regions_dict}
+    return region_ids
+
+
+def make_region_id_name_dict(regions_dict: List[Dict[str, str]]) -> Dict[str, str]:
+    region_ids = {r['id']: r['name'] for r in regions_dict}
+    return region_ids
+
+
+def make_region_id_name_dict(regions_dict: List[Dict[str, str]]) -> Dict[str, str]:
+    region_ids = {r['id']: r['name'] for r in regions_dict}
+    return region_ids
 
 
 if __name__ == '__main__':
