@@ -1,9 +1,9 @@
-if __name__ == '__main__':
-    import sys
+import os
+import sys
 
+if __name__ == '__main__':
     sys.path.append('../')
 
-import os
 import pandas as pd
 import numpy as np
 from typing import List, Dict, Tuple, Union
@@ -462,7 +462,12 @@ def gather_base_data_chart(country: Country_Fullname, min_regions: int, region_i
     folder = os.path.join(FS.Aggregated, country)
     all_files = os.listdir(folder)
     all_files = list(filter(lambda x: len(x.split("_")) > 2, all_files))
-    print(f"In the folder {folder} there are {len(all_files)} files")
+    hasSufficientFiles: bool = check_sufficient_files(all_files)
+    print(f"In the folder {folder} there are {len(all_files)} files.")
+    if not hasSufficientFiles:
+        print(f"{lcol.FAIL}There are too few adjusted files. Please make sure you have run the adjust files function in file://{os.path.join(FS.cwd, 'Datapipeline', 'generateSummaries.py')}{lcol.ENDC}")
+        if not binaryResponse("Is this on purpose?"):
+            sys.exit()
     tags = filter_tags(all_files, min_regions, select_tags)
     months = getMonths(os.path.join(folder, list(filter(lambda x: ('Time' in x and 'Adjusted' in x), all_files))[0]))
     columns = ['ticket_taxonomy_tag_name', 'ticket_geo_region_name', 'Year', 'Month', 'Index',
@@ -490,6 +495,13 @@ def gather_base_data_chart(country: Country_Fullname, min_regions: int, region_i
     final_df = pd.DataFrame(out, columns=columns)
     return final_df
 
+
+def check_sufficient_files(list_of_files: List[str]) -> bool:
+    num_adjusted = len([file for file in list_of_files if 'Adjusted' in file])
+    if num_adjusted < 5:
+        return False
+    else:
+        return True
 
 def filter_tags(all_files: List[str], min_regions: int, select_tags: bool) -> Dict[int, str]:
     tags = {int(file.split('_')[1]): file.split('_')[2] for file in all_files}
@@ -752,3 +764,5 @@ def dialog():
 
 if __name__ == '__main__':
     dialog()
+
+# TODO (p0): Write tutorial function which displays requirements for each type of function
