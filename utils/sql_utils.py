@@ -180,7 +180,8 @@ def construct_query_tickets(cc_short: Country_Shortcode = 'IT',
         sql.append("t2.name as 'ticket_taxonomy_tag_name',\n")
     else:
         sql.extend(
-            [construct_switch(tag_name_merges, 't2.name', comparison_operator='='), " as 'ticket_taxonomy_tag_name',\n"])
+            [construct_switch(tag_name_merges, 't2.name', comparison_operator='='),
+             " as 'ticket_taxonomy_tag_name',\n"])
     if ticket_field_likes:
         sql.extend([construct_switch(ticket_field_likes, 't.fields', comparison_operator='LIKE'), "as 'Options',\n"])
     sql.append("COUNT(t.fields) as 'No_of_tickets'\n")
@@ -231,21 +232,31 @@ if __name__ == '__main__':
     tags_included: dict = {'IN': [927, 792, 143, 122, 634, 132, 129, 891, 75, 646, 1, 8, 179, 309, 310, 451, 325, 299]}
     merge_tags = True
     incl_tag_id = False
+    # tag_name_merges = {
+    #     "Installazione barbecue": ["Installazione o sostituzione barbecue"],
+    #     "Installazione pannelli solari": ["Installazione o sostituzione pannelli fotovoltaici",
+    #                                       "Installazione o sostituzione pannelli solari"],
+    #     'Installazione tende da sole': ['Installazione tende da sole', 'Manutenzione o riparazione tende da sole'],
+    #     'Installazione piscina': ['Installazione piscine fuori terra', 'Costruzione piscina interrata'],
+    #     'Riparazione console videogiochi': ['Riparazione console videogiochi'],
+    #     'Installazione zanzariera': ['Installazione zanzariera'],
+    #     'Sgombero cantine e soffitte': ['Sgombero cantine e soffitte'],
+    #     'Aria Condizionata': ['Installazione aria condizionata', 'Manutenzione aria condizionata'],
+    #     'Cura giardino': ['Cura giardino ed erba'],
+    #     'Imbianchino': ['Imbiancatura o tinteggiatura pareti interne', 'Imbiancatura o tinteggiatura esterno'],
+    #     'Psicologo': ['Psicologo'],
+    #     'Lezioni di inglese': ['Lezioni di inglese'],
+    #     'Personal trainer': ['Personal trainer']
+    # }
     tag_name_merges = {
-        "Installazione barbecue": ["Installazione o sostituzione barbecue"],
-        "Installazione pannelli solari": ["Installazione o sostituzione pannelli fotovoltaici",
-                                          "Installazione o sostituzione pannelli solari"],
-        'Installazione tende da sole': ['Installazione tende da sole', 'Manutenzione o riparazione tende da sole'],
-        'Installazione piscina': ['Installazione piscine fuori terra', 'Costruzione piscina interrata'],
-        'Riparazione console videogiochi': ['Riparazione console videogiochi'],
-        'Installazione zanzariera': ['Installazione zanzariera'],
-        'Sgombero cantine e soffitte': ['Sgombero cantine e soffitte'],
-        'Aria Condizionata': ['Installazione aria condizionata', 'Manutenzione aria condizionata'],
-        'Cura giardino': ['Cura giardino ed erba'],
-        'Imbianchino': ['Imbiancatura o tinteggiatura pareti interne', 'Imbiancatura o tinteggiatura esterno'],
-        'Psicologo': ['Psicologo'],
-        'Lezioni di inglese': ['Lezioni di inglese'],
-        'Personal trainer': ['Personal trainer']
+        "Outdoor": ["Installazione o sostituzione barbecue", "Installazione o sostituzione pannelli fotovoltaici",
+                    "Installazione o sostituzione pannelli solari", 'Installazione tende da sole',
+                    'Manutenzione o riparazione tende da sole', 'Installazione piscine fuori terra',
+                    'Costruzione piscina interrata', 'Cura giardino ed erba'],
+        'Wellness': ['Riparazione console videogiochi', 'Psicologo', 'Lezioni di inglese', 'Personal trainer'],
+        'Homecare': ['Installazione zanzariera', 'Sgombero cantine e soffitte', 'Installazione aria condizionata',
+                     'Manutenzione aria condizionata', 'Imbiancatura o tinteggiatura pareti interne',
+                     'Imbiancatura o tinteggiatura esterno']
     }
     ticket_field_likes = None
     min_date_cutoff = '2018-01-01'
@@ -257,7 +268,9 @@ if __name__ == '__main__':
     try:
         df = pd.read_sql(query, connection)
         print(df)
-        df.to_csv(os.path.join(FS.Inputs, 'IT_Summer_Ticket_Counts.csv'), index=False)
+        fname = os.path.join(FS.Inputs, 'IT_Summer_Ticket_Counts_Categories.csv')
+        df.to_csv(fname, index=False)
+        print(f"Saved file: file://{fname}")
     except Exception as e:
         print(e)
     finally:
