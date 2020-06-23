@@ -47,7 +47,10 @@ def readFile(filepath, dimension):
 
 
 def remap(value, maximum):
-    v = round((value / maximum) * 100)
+    if pd.isna(value) or pd.isna(max):
+        return 0
+    else:
+        v = round((value / maximum) * 100)
     return v
 
 
@@ -96,8 +99,8 @@ class AnalysisJob:
                 df = df.merge(df2, how='outer', on=merge_col)
                 # print(df.head)
             df['means'] = df.mean(1, skipna=True, numeric_only=True)
-            max = df['means'].max()
-            df['means'] = df['means'].apply(remap, maximum=max)
+            maximum = df['means'].max()
+            df['means'] = df['means'].apply(remap, maximum=maximum)
             endResult = df[[merge_col, 'means']]
             self.result = endResult
             return endResult
@@ -209,11 +212,12 @@ def dialog():
         only_country = binaryResponse("Do you want to only work on the country level?")
         if diff_folder:
             save_folder = input(f"What is the folder to {lcol.UNDERLINE}save into?{lcol.ENDC}\n").strip()
-        source_folder = 'out' if not diff_folder else input(
+        source_folder = FS.Kwd_Level_Outs if not diff_folder else input(
             "What is the name of your folder to source the data from?\n").strip()
         for short, country in ccs_todo:
             mergeInfo = readMergeInfo(short, prefix=prefix)
             other_save_location = None if not diff_folder else [save_folder, country]
+            print(f"Building merge jobs...")
             jobs = buildJobs(mergeInfo=mergeInfo, country=country, is_other_folder=diff_folder,
                              only_country_level=only_country, source_folder=source_folder)
             execute_and_save(country=country, all_jobs=jobs, adjusted_directory=other_save_location)
