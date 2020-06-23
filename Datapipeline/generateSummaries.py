@@ -218,7 +218,12 @@ def dialog():
                              only_country_level=only_country, source_folder=source_folder)
             execute_and_save(country=country, all_jobs=jobs, adjusted_directory=other_save_location)
         print(
-            f"{lcol.OKBLUE}Merging data is done. To continue the pipeline, rerun the script and choose to create Adjusted Files{lcol.ENDC}")
+            f"{lcol.OKBLUE}Merging data is done. Normally you'd want to run the data adjustments too{lcol.ENDC}")
+        if binaryResponse("Do you want to create Adjusted Files too?"):
+            for short, country in ccs_todo:
+                correct_values(country, short)
+            print(
+                f"{lcol.OKBLUE}Adjusting data is done. To continue the pipeline, use finalCSVgenerator.py to generate files like the chart, table or map{lcol.ENDC}")
     elif choice == 'create Adjusted Files':
         for short, country in ccs_todo:
             correct_values(country, short)

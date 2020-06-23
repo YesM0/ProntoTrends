@@ -11,7 +11,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 from Datapipeline.finalCSVgenerator import Sort
-from utils.misc_utils import lcol, reverseDict, getDirectory, rescale_comparison
+from utils.misc_utils import lcol, reverseDict, getDirectory, rescale_comparison, save_csv
 from utils.user_interaction_utils import binaryResponse, choose_from_dict, choose_multiple_from_dict, \
     chooseFolder, chooseFile, choose_column, defineList
 from utils.Filesys import generic_FileServer as FS
@@ -20,6 +20,9 @@ TESTING = False
 if TESTING:
     print(
         f"{lcol.WARNING}You are in testing mode. If you don't want this, please change the setting in the file{lcol.ENDC}")
+
+
+# TODO: Create presets
 
 
 def calculateScalar(row, tag_maxes):
@@ -366,7 +369,8 @@ def make_uniform(df: pd.DataFrame, group_uniques: Dict[str, List[Any]], index_co
     """
     l = list(group_uniques.keys())
     df = df.set_index(keys=l, drop=True)
-    df = df.reindex(pd.MultiIndex.from_product(list(group_uniques.values()), names=l))
+    new_index = pd.MultiIndex.from_product(list(group_uniques.values()), names=l)
+    df = df.reindex(new_index)
     df.reset_index(inplace=True)
     for x in [index_column, 'means']:
         df[x] = df[x].fillna(0)
@@ -402,8 +406,7 @@ def treat_and_save(group, name, q, index_col, min_tickets, grouping_uniques, sav
     if 'Unnamed' in group.columns:
         further_to_drop.append('Unnamed')
     group = group.drop(columns=further_to_drop)
-    group.to_csv(os.path.join(saving_folder, file_name), index=False)
-    print(f"Saved {file_name}")
+    save_csv(group, os.path.join(saving_folder, file_name), index=False)
 
 
 def make_file_name(group, has_date, q, type_data='Time'):
@@ -520,7 +523,7 @@ def form_pandas_query(column: str, options: List[str]) -> str:
 
 def treatDBData():
     file = chooseFile(filetype="csv", testing=True,
-                      test_return="/Users/chris/PycharmProjects/ProntoTrends/Input_Files/IT_Summer_Ticket_Counts.csv")
+                      test_return="/Users/chris/PycharmProjects/ProntoTrends/Input_Files/IT_Summer_Ticket_Counts_Categories.csv")
     df = pd.read_csv(file)
     print(f"Here are the columns in the selected file: {df.columns}")
     if binaryResponse("Do you want to rename them?", testing=False, test_return=False):
@@ -532,18 +535,20 @@ def treatDBData():
                               testing=True, test_return='ticket_taxonomy_tag_name')
     grouping: list = choose_column(df, instruction_str='Please choose the columns used for grouping',
                                    testing=True, test_return=["year", 'month'], allow_multiple=True)
-    if binaryResponse("Do you want to generate a pivot file (or individual files per Category)?", testing=True,
-                      test_return=False):
+    if binaryResponse("Do you want to generate a pivot file (or individual files per Category)?"):
         # do pivot stuff
 
-        categories = defineList(['Homecare', 'Outdoor', 'Wellness'])  # TODO: Allow json input
+        categories = defineList(['Sum'])  # TODO (p1): Allow json input
         selections = {}
         tags = df[pivot_col].unique().tolist()
         for cat in categories:
-            selected_tags = choose_multiple_from_dict(tags, 'tags',
-                                                      request_description=f'Please select the Tags you want to add to the category {cat}')
-            selections[cat] = selected_tags
-            tags = [tag for tag in tags if tag not in selected_tags]
+            if len(categories) == 1:
+                selections[cat] = tags
+            else:
+                selected_tags = choose_multiple_from_dict(tags, 'tags',
+                                                          request_description=f'Please select the Tags you want to add to the category {cat}')
+                selections[cat] = selected_tags
+                tags = [tag for tag in tags if tag not in selected_tags]
         to_drop = []
         dimension = 'Time'
         if binaryResponse("Does the file include date data?", testing=TESTING, test_return=True):
@@ -561,7 +566,7 @@ def treatDBData():
         df = df.drop(columns=to_drop)
         for category, items in selections.items():
             df_new = df.query(form_pandas_query(pivot_col, items))
-            directory = getDirectory(['Output_Files', 'Comparisons', category])
+            directory = getDirectory(['Output_Files', 'comparisons', category])
             pivot = df_new.pivot_table(index=index, columns=pivot_col, aggfunc=sum, fill_value=0)
             pivot.reset_index()
             grouped = pivot.groupby(index[-1])
@@ -576,7 +581,7 @@ def treatDBData():
                 group = group.drop(columns=[index[-1]])
                 cols = list(map(lambda col: col[0] if len(col[1]) == 0 else col[1], group.columns))
                 group.columns = cols
-                group.to_csv(os.path.join(directory, filename), index=False)
+                save_csv(group, os.path.join(directory, filename), index=False)
             # create Italy
             italy = pivot.groupby(index[0]).sum()
             italy = rescale_comparison(italy, scale=100)
@@ -585,7 +590,7 @@ def treatDBData():
             italy.columns = cols
             region_id = 'IT'
             filename = f"{dimension}_Italy_{region_id}_{category}.csv"
-            italy.to_csv(os.path.join(directory, filename), index=False)
+            save_csv(italy, os.path.join(directory, filename), index=False)
     else:
         # create individual files
         split_file_col = choose_column(df,
@@ -632,7 +637,7 @@ def treatDBData():
                 summed = summed.reset_index()
                 summed = convert_region_names_to_google(summed, is_geo=True)
                 summed = summed.rename(columns={'ticket_geo_region_name': 'geoName'})
-                tag_name = name if not "/" in name else name.replace("/", " o ")
+                tag_name = name if "/" not in name else name.replace("/", " o ")
                 filename = f"IT_{summed['tag_id'].unique().tolist()[0]}_{tag_name}_Geo.csv"
                 summed = summed[["geoName", "means"]]
                 summed.to_csv(os.path.join(saving_folder, filename))

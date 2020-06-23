@@ -462,6 +462,7 @@ def gather_base_data_chart(country: Country_Fullname, min_regions: int, region_i
     folder = os.path.join(FS.Aggregated, country)
     all_files = os.listdir(folder)
     all_files = list(filter(lambda x: len(x.split("_")) > 2, all_files))
+    print(f"In the folder {folder} there are {len(all_files)} files")
     tags = filter_tags(all_files, min_regions, select_tags)
     months = getMonths(os.path.join(folder, list(filter(lambda x: ('Time' in x and 'Adjusted' in x), all_files))[0]))
     columns = ['ticket_taxonomy_tag_name', 'ticket_geo_region_name', 'Year', 'Month', 'Index',

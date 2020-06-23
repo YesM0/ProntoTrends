@@ -22,7 +22,7 @@ def prepare_budget_file(country: Country) -> pd.DataFrame:
     # 1. Determine where to find the comparisons file
     folder: Folderpath = chooseFolder(request_str="Please choose the folder where to take the data from.", base_folder=FS.Comparisons)
     # 2. read in files
-    country_files: List[str] = list(filter(lambda filename: country.Full_name in filename, os.listdir(folder)))
+    country_files: List[str] = list(filter(lambda filename: country.Full_name in filename and 'geo' not in filename.lower(), os.listdir(folder)))
     eligible_files: List[str] = list(filter(lambda filename: filename.split("_")[2] in (country.region_ids + [country.Shortcode.upper()]), country_files))
     region_id_to_name: Dict[Region_Shortcode, Region_Fullname] = country.region_ids_to_names
     region_id_to_name[country.Shortcode.upper()] = country.Full_name

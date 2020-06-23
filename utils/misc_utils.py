@@ -25,8 +25,9 @@ def getToday() -> str:
     return datetime.datetime.now().strftime("%Y-%m-%d")
 
 
+# TODO (p1): DEPRECATE
 def saveData(data: pd.DataFrame, name: str):
-    data.to_csv(name)
+    save_csv(data, name)
 
 
 def sleep(seconds: Union[None, int, float]):
@@ -203,6 +204,11 @@ def translate_dict(dictionary: dict, translations: dict):
         new_key, new_val = translate_dict_entry(key, val, translations)
         new[new_key] = new_val
     return new
+
+
+def save_csv(df: pd.DataFrame, filepath: Filepath, **kwargs):
+    df.to_csv(filepath, **kwargs)
+    print(f"Saved file: file://{filepath}")
 
 
 if __name__ == '__main__':
