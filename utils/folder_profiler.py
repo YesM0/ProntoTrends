@@ -1,11 +1,12 @@
+import json
 import os
 import shutil
 from typing import Dict, List, Union
+
+from utils.Countries import Country, getCountry  # Country is a class that represents a country with properties like a shortcode (e.g. "fr") and the english full_name (e.g. 'France')
+from utils.Filesys import generic_FileServer as FS  # FS is a class to save data about the different folders in the project
 from utils.custom_types import *
-from utils.Filesys import generic_FileServer as FS
-from utils.user_interaction_utils import chooseFolder, choose_from_dict, defineFilename, user_input
-from utils.Countries import Country, getCountry
-import json
+from utils.user_interaction_utils import chooseFolder, choose_from_dict, user_input  # chooseFolder -> utility to select a folder by traversing the file system, choose_from_dict -> handles user choice from a dict of choices, user_input -> convenience method for input() that stops execution on keywords
 
 
 def explore_directory(directory_path: Folderpath) -> List[Dict[str, List[Union[dict, str]]]]:
@@ -32,7 +33,7 @@ def gather_all_country_files(country: Country, dest_folder: Folderpath, base_fol
             # enter dir
             # if cc file in dir: create dirs and copy file to dest
             gather_all_country_files(country, dest_folder, base_folder, curr_dir=path)
-        elif os.path.isfile(path) and (f"{country.Shortcode.upper()}" in item or country.Full_name.lower() in item.lower()):
+        elif os.path.isfile(path) and (f"{country.Shortcode.upper()}" in item or country.Full_name.lower() in item.lower()):  # can edit the (conditions) for alternative filters
             # copy file using the parent folder copied
             relpath = os.path.relpath(curr_dir, start=base_folder)
             new_folder = os.path.join(dest_folder, relpath)
