@@ -69,7 +69,7 @@ def binaryResponse(question_string: str, testing: bool = False, test_return: boo
                 continue
 
 
-def choose_from_dict(dictionary: Dict[Union[str, int], str], label: str = 'items', incl_end_option: bool = False,
+def choose_from_dict(dictionary: Union[Dict[Union[str, int], str], List[str]], label: str = 'items', incl_end_option: bool = False,
                      end_description: str = "End Selection", allow_multiple_answers: bool = False,
                      testing: bool = False, test_return: str = "", request_description: str = "") -> Union[str, List[str]]:
     if testing:
