@@ -1,19 +1,23 @@
 if __name__ == '__main__':
     import sys
+
     sys.path.append('../')
 
 import pandas as pd
+from tqdm import tqdm as progressbar
 import os
-from typing import Union
+from typing import Union, Dict, List
 from utils.Countries import get_region_id_to_name_dict, generateRegionIds
 from Data_Inspectors.inspector import getAvailableTags, getFile
 
 from utils.misc_utils import getDirectory, saveData, reverseDict, lcol
 from utils.user_interaction_utils import binaryResponse, choose_from_dict
+from utils.custom_types import *
 from Datapipeline.mainProxy import getChosenCountries
 from utils.Filesys import generic_FileServer
 
 FS = generic_FileServer
+
 
 def readMergeInfo(country_short_code, prefix=""):
     country_short_code = country_short_code.upper()
@@ -41,13 +45,20 @@ def findOutFile(keyword, country, region_code, dimension, folder=FS.Kwd_Level_Ou
 
 
 def readFile(filepath, dimension):
-    cols = [0, 2] if dimension == 'Geo' else [0, 1]
+    cols = None if dimension == 'Geo' else [0, 1]
     df = pd.read_csv(filepath, usecols=cols)
+    to_drop = []
+    if 'geoCode' in df.columns:
+        to_drop.append('geoCode')
+    if any([True for x in df.columns if "Unnamed" in x]):
+        to_drop.extend([x for x in df.columns if 'unnamed' in x.lower()])
+    if len(to_drop) > 0:
+        df = df.drop(columns=to_drop)
     return df
 
 
 def remap(value, maximum):
-    if pd.isna(value) or pd.isna(max):
+    if pd.isna(value) or pd.isna(maximum) or isinstance(maximum, str):
         return 0
     else:
         v = round((value / maximum) * 100)
@@ -55,7 +66,7 @@ def remap(value, maximum):
 
 
 class AnalysisJob:
-    instances = []
+    instances = {}
 
     def __init__(self, tag_id, tag_name, keywords, country_name, region_code, dimension, folder=FS.Kwd_Level_Outs):
         if (isinstance(keywords, str)):
@@ -66,14 +77,15 @@ class AnalysisJob:
         except:
             print(f"The tag Id '{tag_id}' could not be coerced to an Int")
         self.tag_id = tag_id
-        self.tag_name = tag_name if "/" not in tag_name else tag_name.replace("/"," ")
+        self.tag_name = tag_name if "/" not in tag_name else tag_name.replace("/", " ")
         self.keywords = keywords
         self.country_name = country_name
         self.region_code = region_code
         self.dimension = dimension
         self.result = None
         self.folder = folder
-        AnalysisJob.instances.append(self)
+        self.id = f"{self.tag_id}-{self.region_code}-{self.dimension}"
+        AnalysisJob.instances[self.id] = self
 
     def addKeyword(self, keyword):
         self.keywords.append(keyword)
@@ -96,24 +108,35 @@ class AnalysisJob:
             # print(df.head)
             for i in range(1, len(files)):
                 df2 = readFile(files[i], self.dimension)
-                df = df.merge(df2, how='outer', on=merge_col)
+                try:
+                    df = df.merge(df2, how='outer', on=merge_col)
+                except KeyError as e:
+                    print(e)
+                    print(f"The key {merge_col} could not be found in the df of file: file://{files[i]}")
+                    print(f"{lcol.OKGREEN}Here's the merge df{lcol.ENDC}")
+                    print(df.head())
+                    print(f"{lcol.OKGREEN}Here's the new dataframe that should be added{lcol.ENDC}")
+                    print(df2.head())
+                    continue
                 # print(df.head)
-            df['means'] = df.mean(1, skipna=True, numeric_only=True)
-            maximum = df['means'].max()
-            df['means'] = df['means'].apply(remap, maximum=maximum)
-            endResult = df[[merge_col, 'means']]
-            self.result = endResult
-            return endResult
+            try:
+                df['means'] = df.mean(1, skipna=True, numeric_only=True)
+                maximum = df['means'].max()
+                df['means'] = df['means'].apply(remap, maximum=maximum)
+                endResult = df[[merge_col, 'means']]
+                self.result = endResult
+                return endResult
+            except KeyError as e:
+                print(f"{lcol.WARNING}{e}{lcol.ENDC}")
+                return None
         else:
             return None
 
     # class method to access the get method without any instance
     @classmethod
     def get(cls, tag_id, region_code, dimension, fallback_val=False):
-        for inst in cls.instances:
-            if inst.tag_id == tag_id and inst.region_code == region_code and inst.dimension == dimension:
-                return inst
-        return fallback_val
+        return cls.instances.get(f"{tag_id}-{region_code}-{dimension}", fallback_val)
+
 
 
 def buildJobs(mergeInfo, country, is_other_folder=False, only_country_level=False, source_folder=FS.Kwd_Level_Outs):
@@ -124,7 +147,7 @@ def buildJobs(mergeInfo, country, is_other_folder=False, only_country_level=Fals
     all_jobs = []
     folder = source_folder
     for dimension in dimensions:
-        for index, row in mergeInfo.iterrows():
+        for index, row in progressbar(mergeInfo.iterrows(), total=mergeInfo.shape[0]):
             tag_id = row['tag_id']
             tag_name = row['tag_name']
             if tag_name != tag_name:
@@ -134,8 +157,9 @@ def buildJobs(mergeInfo, country, is_other_folder=False, only_country_level=Fals
                 if dimension == 'Geo' and ind > 0:
                     continue
                 else:
-                    job: Union[bool, AnalysisJob] = AnalysisJob.get(tag_id=tag_id, region_code=region_code, dimension=dimension,
-                                          fallback_val=False)
+                    job: Union[bool, AnalysisJob] = AnalysisJob.get(tag_id=tag_id, region_code=region_code,
+                                                                    dimension=dimension,
+                                                                    fallback_val=False)
                     if job:
                         job.addKeyword(keyword)
                     else:
@@ -145,10 +169,11 @@ def buildJobs(mergeInfo, country, is_other_folder=False, only_country_level=Fals
 
 
 def execute_and_save(country: str, all_jobs: list, adjusted_directory=None):
-    directory = getDirectory(["Output_Files", 'Aggregated', country]) if not adjusted_directory else getDirectory(adjusted_directory)
+    directory = getDirectory(["Output_Files", 'Aggregated', country]) if not adjusted_directory else getDirectory(
+        adjusted_directory)
     count_saved = 0
     count_failes = 0
-    for job in all_jobs:
+    for job in progressbar(all_jobs):
         result = job.aggregate()
         if result is not None:
             file_path = os.path.join(directory, f"{job.region_code}_{job.tag_id}_{job.tag_name}_{job.dimension}.csv")
@@ -161,7 +186,7 @@ def execute_and_save(country: str, all_jobs: list, adjusted_directory=None):
     print(f"{lcol.WARNING}Saved {count_saved} files. Failed: {count_failes}{lcol.ENDC}")
 
 
-def read_in_scaling_factor(country_name, county_shortcode, tag_id):
+def read_in_scaling_factor(country_name: Country_Fullname, county_shortcode: Country_Shortcode, tag_id: Union[str, int] = None, tag_name: str = None):
     tag_id = str(tag_id) if not isinstance(tag_id, str) else tag_id
     expected_file_location = os.path.join(FS.Aggregated, country_name)
     filepath = ''
@@ -170,31 +195,34 @@ def read_in_scaling_factor(country_name, county_shortcode, tag_id):
         # if i % 10 == 0:
         #     print(f'Checking file {i + 1} of {len(poss_files)}\n{filename}')
         components = filename.split("_")
-        if components[0] == county_shortcode.upper() and components[3] == "Geo.csv" and components[1] == tag_id:
+        if components[0] == county_shortcode.upper() and components[3] == "Geo.csv" and (components[1] == tag_id or components[2] == tag_name):
             # print("Found file")
             filepath = os.path.join(expected_file_location, filename)
             break
     if filepath:
-        df = pd.read_csv(filepath, usecols=[1,2])
-        region_id_to_region_name = get_region_id_to_name_dict(country_name)
+        df = pd.read_csv(filepath, usecols=[1, 2])
+        region_id_to_region_name = get_region_id_to_name_dict(country_name, allow_override=True)
         region_name_to_region_id = reverseDict(region_id_to_region_name)
         df['geoName'] = df['geoName'].map(region_name_to_region_id)
         obj = df.set_index('geoName').to_dict(orient='dict')
         return obj['means']
 
 
-def correct_values(country_name, short_code):
-    all_tags = getAvailableTags(country_name, short_code, 'Geo')
-    for i, tag_id in enumerate(all_tags):
-        print(f"Working on tag {tag_id} ({i+1}/{len(all_tags)})")
-        scaling_factors = read_in_scaling_factor(country_name, short_code, tag_id)
+def correct_values(country_name: Country_Fullname, short_code: Country_Shortcode):
+    all_tags: Dict[Union[str, int], str] = getAvailableTags(country_name, short_code, 'Geo')
+    for i, (tag_name, tag_id) in enumerate(all_tags.items()):
+        print(f"Working on tag {tag_name} ({i + 1}/{len(all_tags)})")
+        scaling_factors = read_in_scaling_factor(country_name, short_code, tag_id=tag_id, tag_name=tag_name)
         for region_id in scaling_factors:
+            if pd.isna(region_id):
+                continue
             print(f"Adjusting the file for region {region_id}")
-            file = getFile(country_name, tag_id, 'Time', region_id)
+            file = getFile(country_name, tag_name, 'Time', region_id)
             if file:
                 df = pd.read_csv(file)
                 df['means'] = df['means'].apply(lambda x: x * (scaling_factors[region_id] / 100))
-                df.to_csv(os.path.join(FS.Aggregated, country_name, f"{region_id}_{tag_id}_{all_tags[tag_id]}_Time_Adjusted.csv"))
+                df.to_csv(os.path.join(FS.Aggregated, country_name,
+                                       f"{region_id}_{tag_id}_{tag_name}_Time_Adjusted.csv"))
                 print(f"{lcol.OKGREEN}Saved file{lcol.ENDC}")
             else:
                 continue

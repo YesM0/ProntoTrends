@@ -17,7 +17,8 @@ def explore_directory(directory_path: Folderpath) -> List[Dict[str, List[Union[d
         ".")]
     cont.extend(files)
     folders = {folder: explore_directory(os.path.join(directory_path, folder)) for folder in folders}
-    cont.append(folders)
+    if len(list(folders.keys())) > 0:
+        cont.append(folders)
     return cont
 
 

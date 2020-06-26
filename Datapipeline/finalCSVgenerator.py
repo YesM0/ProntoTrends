@@ -26,45 +26,44 @@ short_codes = {
 
 FS = generic_FileServer
 
-
 # Used for adapting value names
 col_remap = {
-        'Spend_type': {
-            'hochzeit günstig': 'standard',
-            'hochzeit premium': 'premium'
-        },
-        'ticket_geo_region_name': regions_map_english_to_local,
-        'Wed_type': {
-            'standesamtliche Hochzeit': 'standesamtlich',
-            "Heiraten kirchlich": 'kirchlich'
-        },
-        'Loc_type': {
-            'hochzeit hotel': 'Hotel/ Restaurant',
-            'hochzeit villa': 'Villa',
-            'hochzeit schloss': 'Schloss',
-            'hochzeit landhaus': 'Landhaus'
-        },
-        'Prof_type': {
-            'Hochzeitsdeko': 'Dekorateur für Hochzeiten',
-            'Hochzeitsfotos': 'Hochzeitsfotograf',
-            'Hochzeit Tanzkurs': 'Tanzkurs',
-            'Musik Hochzeit': 'Musiker für Hochzeit'
-        },
-        'ticket_taxonomy_tag_name': {
-            "ORIGINAL": "REPLACEMENT"
-        },
-        'sub_type': {
-            'Hochzeit günstig': 'Günstige Hochzeit',
-            'Hochzeit Kosten': 'Normale Hochzeit',
-            'Musik Hochzeit': 'Musiker für Hochzeit',
-            'Hochzeit Buffet': 'Buffet',
-            'Hochzeit Essen': 'Catering',
-            'Hochzeit Bar': 'Bar',
-            'hochzeit hotel': 'Hotel',
-            'hochzeit schloss': 'Schloss',
-            'hochzeit villa': 'Villa'
-        }
+    'Spend_type': {
+        'hochzeit günstig': 'standard',
+        'hochzeit premium': 'premium'
+    },
+    'ticket_geo_region_name': regions_map_english_to_local,
+    'Wed_type': {
+        'standesamtliche Hochzeit': 'standesamtlich',
+        "Heiraten kirchlich": 'kirchlich'
+    },
+    'Loc_type': {
+        'hochzeit hotel': 'Hotel/ Restaurant',
+        'hochzeit villa': 'Villa',
+        'hochzeit schloss': 'Schloss',
+        'hochzeit landhaus': 'Landhaus'
+    },
+    'Prof_type': {
+        'Hochzeitsdeko': 'Dekorateur für Hochzeiten',
+        'Hochzeitsfotos': 'Hochzeitsfotograf',
+        'Hochzeit Tanzkurs': 'Tanzkurs',
+        'Musik Hochzeit': 'Musiker für Hochzeit'
+    },
+    'ticket_taxonomy_tag_name': {
+        "ORIGINAL": "REPLACEMENT"
+    },
+    'sub_type': {
+        'Hochzeit günstig': 'Günstige Hochzeit',
+        'Hochzeit Kosten': 'Normale Hochzeit',
+        'Musik Hochzeit': 'Musiker für Hochzeit',
+        'Hochzeit Buffet': 'Buffet',
+        'Hochzeit Essen': 'Catering',
+        'Hochzeit Bar': 'Bar',
+        'hochzeit hotel': 'Hotel',
+        'hochzeit schloss': 'Schloss',
+        'hochzeit villa': 'Villa'
     }
+}
 
 
 def read_csv_utility(filepath: Filepath, country: Country_Fullname = 'Spain', **kwargs) -> pd.DataFrame:
@@ -236,6 +235,7 @@ def createTop5Csv(country: Country_Fullname, category: str, category_combination
 
 
 def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
+    print(f"Working on making the Top5 Data even more precise")
     cache = {}
     fixed = 0
     for ind, row in final_df.iterrows():
@@ -265,8 +265,13 @@ def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
                                 do_skip = True
                                 break
                         all_tags = list(set(map(lambda x: x.split("_")[2], files_in_folder)))
-                        tag_name = choose_from_dict(dictionary={i: tag for i, tag in enumerate(all_tags)}, label='Tags',
+                        tags_available = {i: tag for i, tag in enumerate(all_tags)}
+                        tags_available["Skip"] = "Skip"
+                        tag_name = choose_from_dict(dictionary=tags_available, label='Tags',
                                                     request_description=f"Which of these tags is the same as {lcol.OKGREEN}{original_tag_name}{lcol.ENDC}?")
+                        if tag_name == 'Skip':
+                            do_skip = True
+                            break
                 if do_skip:
                     continue
                 else:
@@ -294,29 +299,35 @@ def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
     return final_df
 
 
-def createMainSectionCsv(country: Country_Fullname, types: list, campaign_shortname: str = 'Wed'):
-    final_folder = os.path.join(FS.Final, country, campaign_shortname)
+def createMainSectionCsv(country: Country_Fullname, files: list, campaign_shortname: str = 'Wed') -> pd.DataFrame:
+    final_folder: Folderpath = os.path.join(FS.Final, country, campaign_shortname)
     comparisons_path, regions = getSetUp(country)
     out = []
-    for typ in types:
-        filepath = os.path.join(final_folder, f'{campaign_shortname}-{typ}_{regions[0]["name"]}.csv')
-        if os.path.exists(filepath):
-            df = read_csv_utility(filepath, country)
+    for file in files:
+        filepath = os.path.join(final_folder, file)
+        df = read_csv_utility(filepath, country)
+        typ = file.split("-")[1].split("_")[0]
+        try:
             df['Distribution'] = pd.to_numeric(df['Distribution'], errors='coerce')
-            y = 'Year' if 'Year' in df.columns else 'year'
-            years = df[y].unique().tolist()
-            t = [item for item in df.columns if 'type' in item.lower()][0]
-            categories = df[t].unique().tolist()
-            g = [item for item in df.columns if '_geo' in item.lower()][0]
-            grouped = df.groupby([y, g])
-            for name, group in grouped:
-                year, region = name
-                # print(grouped)
-                mx = group['Distribution'].max(skipna=True)
-                mxidx = group['Distribution'].idxmax()
-                maxVal = mx if mx > 0 else np.NaN
-                maxType = group.loc[mxidx, t] if pd.notna(maxVal) else np.NaN
-                out.append([year, region, typ, maxType, maxVal])
+        except KeyError as e:
+            print(e)
+            print(
+                f"{lcol.OKGREEN}Probably, In the file file://{file} no header called 'Distribution' exists. Please check!\nThe category will be skipped now.{lcol.ENDC}")
+            continue
+        y = 'Year' if 'Year' in df.columns else 'year'
+        years = df[y].unique().tolist()
+        t = [item for item in df.columns if 'type' in item.lower()][0]
+        categories = df[t].unique().tolist()
+        g = [item for item in df.columns if '_geo' in item.lower()][0]
+        grouped = df.groupby([y, g])
+        for name, group in grouped:
+            year, region = name
+            # print(grouped)
+            mx = group['Distribution'].max(skipna=True)
+            mxidx = group['Distribution'].idxmax()
+            maxVal = mx if mx > 0 else np.NaN
+            maxType = group.loc[mxidx, t] if pd.notna(maxVal) else np.NaN
+            out.append([year, region, typ, maxType, maxVal])
     final_df = pd.DataFrame(out,
                             columns=['Year', "ticket_geo_region_name", 'Type', 'sub_type', 'Percentage'])
     print(final_df)
@@ -357,7 +368,7 @@ def createTagChartData(country: Country_Fullname, min_regions: int = 0, select_t
     final_df = scale_within_ticket_cc_selected(final_df)
     other = final_df.copy(deep=True)
     other = other[other.Country_chosen == 0]
-    other = calculate_cc_chosen_regions(final_df, other, scale_by='sum-regions-normalized-to-country')
+    other = calculate_cc_chosen_regions(final_df, other, country=country, scale_by='sum-regions-normalized-to-country')
     final_df = pd.concat([final_df, other], ignore_index=True)
     # final_df = final_df.sort_values(by=['Country_chosen', 'ticket_taxonomy_tag_name']).round(2)
     # print(final_df)
@@ -368,11 +379,12 @@ def createTagChartData(country: Country_Fullname, min_regions: int = 0, select_t
     return final_df
 
 
-def calculate_cc_chosen_regions(final_df: pd.DataFrame, other: pd.DataFrame,
+def calculate_cc_chosen_regions(final_df: pd.DataFrame, other: pd.DataFrame, country: Country_Fullname,
                                 scale_by: str = 'sum-regions') -> pd.DataFrame:
     """
     Re-Calculates the index for region data when CC chosen
     Args:
+        country:
         final_df: pd.DataFrame -- the original DataFrame to use as reference
         other: pd.DataFrame -- to be adjusted DataFrame
         scale_by: str -- "sum-regions" or "country-value" -> chooses which value to scale data by
@@ -465,20 +477,24 @@ def gather_base_data_chart(country: Country_Fullname, min_regions: int, region_i
     hasSufficientFiles: bool = check_sufficient_files(all_files)
     print(f"In the folder {folder} there are {len(all_files)} files.")
     if not hasSufficientFiles:
-        print(f"{lcol.FAIL}There are too few adjusted files. Please make sure you have run the adjust files function in file://{os.path.join(FS.cwd, 'Datapipeline', 'generateSummaries.py')}{lcol.ENDC}")
+        print(
+            f"{lcol.FAIL}There are too few adjusted files. Please make sure you have run the adjust files function in file://{os.path.join(FS.cwd, 'Datapipeline', 'generateSummaries.py')}{lcol.ENDC}")
         if not binaryResponse("Is this on purpose?"):
             sys.exit()
-    tags = filter_tags(all_files, min_regions, select_tags)
+    tags: Dict[str, int] = filter_tags(all_files, min_regions, select_tags)
     months = getMonths(os.path.join(folder, list(filter(lambda x: ('Time' in x and 'Adjusted' in x), all_files))[0]))
     columns = ['ticket_taxonomy_tag_name', 'ticket_geo_region_name', 'Year', 'Month', 'Index',
                'Country_chosen']
     out = []
-    for tag_id, tag in tags.items():
+    for tag, tag_id in tags.items():
         for ind, region_id in enumerate(list(region_ids_to_name.keys())):
             region_code = f"{regions[0]['id']}-{region_id}" if ind > 0 else region_id  # regions[0] => Country
             adjusted = '_Adjusted' if len(region_code) > 2 else ''
-            file = os.path.join(folder, f"{region_code}_{tag_id}_{tag}_Time{adjusted}.csv")
-            if os.path.exists(file):
+            eligible_files = [f for f in all_files if
+                              f"{region_code}_" in f and tag in f and str(
+                                  tag_id) in f and 'Time' in f and adjusted in f]
+            file = os.path.join(folder, eligible_files[0]) if len(eligible_files) > 0 else False
+            if file:
                 df = read_csv_utility(os.path.join(folder, file), country)
                 df['date'] = pd.to_datetime(df['date'])
                 df = df.resample('M', on='date').mean()
@@ -503,10 +519,11 @@ def check_sufficient_files(list_of_files: List[str]) -> bool:
     else:
         return True
 
-def filter_tags(all_files: List[str], min_regions: int, select_tags: bool) -> Dict[int, str]:
-    tags = {int(file.split('_')[1]): file.split('_')[2] for file in all_files}
-    tag_ids = [int(file.split("_")[1]) for file in all_files if 'Adjusted' in file]
-    tag_counts = {tag: tag_ids.count(tag) for tag in tags}
+
+def filter_tags(all_files: List[str], min_regions: int, select_tags: bool) -> Dict[str, int]:
+    tags = {file.split('_')[2]: int(file.split('_')[1]) for file in all_files}
+    tag_names = [file.split("_")[2] for file in all_files if 'Adjusted' in file]
+    tag_counts = {tag: tag_names.count(tag) for tag in tags}
     if min_regions > 0 or select_tags:
         to_drop = []
         if min_regions > 0:
@@ -514,19 +531,20 @@ def filter_tags(all_files: List[str], min_regions: int, select_tags: bool) -> Di
         if select_tags:
             if binaryResponse(
                     "Do you want to input a list of allowed tags (by Id) (y) or do you want to select individualy (n)?"):
-                choices = choose_multiple_from_dict(tags, 'Tags')
+                choices = choose_multiple_from_dict([tag for tag in list(tags.keys()) if tag in to_drop], 'Tags')
                 rev = reverseDict(tags)
-                tag_ids_to_keep = [rev[c] for c in choices]
-                to_drop = to_drop + list(set([tid for tid in tag_ids if tid not in tag_ids_to_keep]))
+                tag_names_to_keep = choices
+                to_drop = to_drop.extend(list(set([tname for tname in tag_names if tname not in tag_names_to_keep])))
             else:
-                for tag_id, tag_name in tags.items():
-                    if tag_id not in to_drop:
+                for tag_name, tag_id in tags.items():
+                    if tag_name not in to_drop:
                         if binaryResponse(f"Do you want to {lcol.UNDERLINE}drop{lcol.ENDC} the tag '{tag_name}'?"):
-                            to_drop.append(tag_id)
+                            to_drop.append(tag_name)
             print(f"Gonna drop {len(to_drop)} tags out of {len(tags)}")
         for tag in to_drop:
             tags.pop(tag)
-            print(f"Dropped {tag} from Chart because we only had {tag_counts[tag]} regions for it")
+            print(
+                f"Dropped {lcol.OKGREEN}'{tag}'{lcol.ENDC} from Chart because we only had {lcol.OKGREEN}{tag_counts[tag]}{lcol.ENDC} regions for it")
     return tags
 
 
@@ -646,7 +664,9 @@ def get_category_overview_settings() -> Tuple[List[str], List[str]]:
     return overview_cats, overview_cat_cols
 
 
-def get_user_settings() -> Tuple[Country_Shortcode, Country_Fullname, str, Union[List[str], None], int, Union[None, List[str]], Union[None, List[str]], bool, Union[None, List[str]], bool]:
+def get_user_settings() -> Tuple[
+    Country_Shortcode, Country_Fullname, str, Union[List[str], None], int, Union[None, List[str]], Union[
+        None, List[str]], bool, Union[None, List[str]], bool]:
     campaign_short_code = 'Wed'
     min_region_count = 0
     overview_cat_cols = None
@@ -733,9 +753,12 @@ def dialog():
                 except FileNotFoundError as e:
                     print(e)
         elif chosenAction == 'create Main Section':
+            chosen_files = choose_multiple_from_dict(
+                [x for x in os.listdir(os.path.join(FS.Final, country, campaign_short_code)) if not x.startswith(".")],
+                request_description='Which of these categories do you want to include in the Main.csv?', label='Files')
+            # choices = [x.split("-")[1].split("_")[0] for x in choices]
             result = createMainSectionCsv(country,
-                                          ['Spend', 'Services', 'Reception Location', 'Food',
-                                           'Wedding Style'], campaign_shortname=campaign_short_code)
+                                          chosen_files, campaign_shortname=campaign_short_code)
             result = remapColumns(result, col_remap)
             fname = os.path.join(final_folder, f'{campaign_short_code}_Main_Section_{country}.csv')
             result.to_csv(fname, index=False)
