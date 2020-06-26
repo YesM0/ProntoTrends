@@ -115,7 +115,7 @@ class Country:
                 raise KeyError(f"The full name {short_name} is invalid")
         else:
             raise KeyError(f"No short_name or full_name were given")
-
+        self.Database: str = f"prontopro" if self.Shortcode.lower() == 'it' else f"prontopro_{self.Shortcode.lower()}"
         self.Local_Name: Country_Fullname = countries_dict_local.get(self.Shortcode.lower())
         self.has_merged_regions: bool = isinstance(region_merges.get(self.Shortcode, False), dict)
 
@@ -188,21 +188,25 @@ def findLocale(name: Union[Country_Fullname, Region_Fullname, str], isRegion: bo
     return result
 
 
-def get_region_id_to_name_dict(country_name: Country_Fullname):
-    locales: dict = readInLocales()
-    cc_id, region_ids_dict = deepSearch(country_name, locales, return_children=True, include_children_names=True)
-    return region_ids_dict
+def get_region_id_to_name_dict(country_name: Country_Fullname, allow_override: bool = False):
+    if allow_override and country_name == 'France':
+        return reverseDict(merged_regions_override)
+    else:
+        locales: dict = readInLocales()
+        cc_id, region_ids_dict = deepSearch(country_name, locales, return_children=True, include_children_names=True)
+        return region_ids_dict
 
 
-def make_region_id_name_dict(regions_dict: List[Dict[str, str]]) -> Dict[str, str]:
+def make_region_id_name_dict(regions_dict: List[Dict[str, str]]) -> Dict[Region_Shortcode, Region_Fullname]:
     region_ids = {r['id']: r['name'] for r in regions_dict}
     return region_ids
 
 
-def generateRegionIds(country_name: Country_Fullname, sort: bool = True, override: bool = True) -> List[str]:
+def generateRegionIds(country_name: Country_Fullname, sort: bool = True, override: bool = True) -> List[Region_Shortcode]:
     """
     Called by generateSummaries.py
     Args:
+        override:
         country_name:
         sort:
 

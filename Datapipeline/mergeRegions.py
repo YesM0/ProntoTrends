@@ -61,32 +61,55 @@ override_list = [
 ]
 
 
-def doMerges_Geo(df: pd.DataFrame, cc_merges: dict, index_col='means'):
-    for col_name, items in cc_merges.items():
-        if col_name in df.columns:
-            non_index_cols = [col for col in df.columns if col not in [index_col, col_name]]
-            exclude_subqueries = []
-            for label, subitems in items.items():
-                query = "|"
-                subqueries = []
-                for item in subitems:
-                    query_col_name = col_name if not ' ' in col_name else f"`{col_name}`"
-                    subqueries.append(f"{query_col_name} == '{item}'")
-                    exclude_subqueries.append(f"{query_col_name} != '{item}'")
-                query = query.join(subqueries)
-                selection = df.query(query)
-                if len(non_index_cols) > 0:
-                    averaged = selection.groupby(non_index_cols).mean()
-                else:
-                    averaged = selection.mean()
-                averaged[col_name] = label
-                print(averaged)
-                df = df.append(averaged, ignore_index=True)
-            df = df.query(" & ".join(exclude_subqueries))
-            print(df)
-    maximum = df[index_col].max()
-    if not maximum == 100:
-        df[index_col] = df[index_col].apply(lambda x: (x / maximum) * 100)
+def doMerges_Geo(df: pd.DataFrame, cc_merges: Dict[Column_Name, Dict[Region_Fullname, List[Region_Fullname]]],
+                 index_col='means', add_geo_code: bool = False):
+    global eng_code
+    if 'geoCode' in df.columns:
+        df = df.drop(columns=['geoCode'])
+    if index_col == -1:
+        index_col = df.columns[-1]
+    elif index_col is None:
+        index_col = [col for col in df.columns if col != 'geoCode' and col != 'geoName']
+    existent_cols = [col_name for col_name in cc_merges if col_name in df.columns]
+    for col_name in existent_cols:
+        items = cc_merges[col_name]
+        ixcols = [index_col, col_name] if isinstance(index_col, str) else index_col.append(col_name)
+        non_index_cols = [col for col in df.columns if col not in ixcols]
+        exclude_subqueries = []
+        for label, subitems in items.items():
+            query = "|"
+            subqueries = []
+            for item in subitems:
+                query_col_name = col_name if not ' ' in col_name else f"`{col_name}`"
+                subqueries.append(f"{query_col_name} == '{item}'")
+                exclude_subqueries.append(f"{query_col_name} != '{item}'")
+            query = query.join(subqueries)
+            selection = df.query(query)
+            if len(non_index_cols) > 0:
+                averaged = selection.groupby(non_index_cols).mean()
+            else:
+                averaged = selection.mean()
+            averaged[col_name] = label
+            # print(averaged)
+            df = df.append(averaged, ignore_index=True)
+        df = df.query(" & ".join(exclude_subqueries))
+            # print(df)
+    if isinstance(index_col, str):
+        maximum = df[index_col].max()
+        if not maximum == 100:
+            df[index_col] = df[index_col].apply(lambda x: (x / maximum) * 100)
+    else:
+        maximum = df[index_col].max().max()
+        if not maximum == 100:
+            for col in index_col:
+                df[col] = df[col].apply(lambda x: (x / maximum) * 100)
+    if add_geo_code and len(existent_cols) > 0:
+        df['geoCode'] = df[existent_cols[0]].apply(lambda x: eng_code.get(x, x))
+        if isinstance(index_col, str):
+            df = df[[existent_cols[0], 'geoCode', index_col]]
+        else:
+            order = [existent_cols[0], 'geoCode'].extend(index_col)
+            df = df[order]
     return df
 
 
@@ -100,8 +123,12 @@ def do_merges_Time(folder: Folderpath,
             merge_region_df: Union[pd.DataFrame, None] = None
             for rg in combis:
                 try:
-                    files = os.listdir(folder)
-                    file: Filepath = os.path.join(folder, list(filter(lambda x: rg in x.split("_"), files))[0])
+                    all_files = os.listdir(folder)
+                    files: Union[bool, List[str]] = list(filter(lambda x: rg in x.split("_"), all_files))
+                    if len(files) == 0:
+                        file: Union[bool, str] = False
+                    else:
+                        file = os.path.join(folder, files[0])
                 except Exception as e:
                     print(e)
                     file: bool = False
@@ -125,13 +152,13 @@ def do_merges_Time(folder: Folderpath,
                             print(e)
             if merge_region_df is not None:
                 merge_region_df = rescale_comparison(merge_region_df)
-                new_name = unnecessary_files[0].replace(rg, rg_short)
+                new_name = unnecessary_files[-1].replace(rg, rg_short)
                 merge_region_df.to_csv(new_name)
                 new_files.append(new_name)
     return new_files, unnecessary_files
 
 
-def merge_for_scraper(directory: Filepath, country_shortcode: Country_Shortcode = 'FR'):
+def merge_for_scraper(directory: Folderpath, country_shortcode: Country_Shortcode = 'FR'):
     """
     Conducts all merges for the scraper. Takes an directory and cycles through everything
     Args:
@@ -144,20 +171,41 @@ def merge_for_scraper(directory: Filepath, country_shortcode: Country_Shortcode 
     cc_merges = region_merges.get(country_shortcode.upper(), False)
     if cc_merges:
         print("Merging region-files")
-        t = translate_dict(translate_dict(cc_merges, reverseDict(regions_map_english_to_local)),
+        cc_merges_region_codes = translate_dict(translate_dict(cc_merges, reverseDict(regions_map_english_to_local)),
                            eng_code)  # translates from French to English to Code
-        new_files, unnecessary_files = do_merges_Time(directory, t)
+        new_files, unnecessary_files = do_merges_Time(directory, cc_merges_region_codes)
         print(f"Created new files: {new_files}\nThese files are not necessary anymore: {unnecessary_files}")
         geoFiles: List[str] = list(
-            filter(lambda x: country_shortcode in x and "geo" in x.lower(), os.listdir(directory)))
+            filter(lambda x: country_shortcode.lower() in x.lower() and "geo" in x.lower(), os.listdir(directory)))
         for geoFile in geoFiles:
             try:
                 path = os.path.join(directory, geoFile)
-                df = pd.read_csv(path, usecols=[1, 2])
-                t = translate_dict(cc_merges, reverseDict(regions_map_english_to_local))
-                new = doMerges_Geo(df, t, 'means')
-                new.to_csv(path)
-                print(f"Updated file: {path}")
+                if 'Aggregated' in directory:
+                    usecols = [1, 2]
+                    merge_col = 'means'
+                    add_geo_code = False
+                    keep_index = True
+                elif 'out' in directory:
+                    usecols = [0, 2]  # drops geoCode pos 1 -> add
+                    merge_col = -1
+                    add_geo_code = True
+                    keep_index = False
+                elif 'comparisons' in directory:
+                    usecols = None
+                    merge_col = None
+                    add_geo_code = True
+                    keep_index = False
+                else:
+                    usecols = [0, 2]  # drops geoCode pos 1 -> add
+                    merge_col = -1
+                    add_geo_code = True
+                    keep_index = False
+                df = pd.read_csv(path, usecols=usecols)
+                cc_merges_eng_region_names = translate_dict(cc_merges, reverseDict(regions_map_english_to_local))
+                new = doMerges_Geo(df, cc_merges_eng_region_names, merge_col, add_geo_code=add_geo_code)
+                new = new.fillna(0)
+                new.to_csv(path, index=keep_index)
+                print(f"Updated file: file://{path}")
             except Exception as e:
                 print(e)
 
@@ -170,7 +218,7 @@ def avg(s1: pd.Series, s2: pd.Series) -> pd.Series:
 
 if __name__ == '__main__':
     country = getCountry()
-    choice = choose_from_dict({i: k for i, k in enumerate(['Comparisons', 'Aggregated'])}, label="Folders",
+    choice = choose_from_dict({i: k for i, k in enumerate(['Comparisons', 'Aggregated', 'Out'])}, label="Folders",
                               request_description="In which of the following Folders do you want to merge regions?")
     directories = FS.Comparisons
     if choice == 'Comparisons':
@@ -180,8 +228,10 @@ if __name__ == '__main__':
             if os.path.isdir(full_path) and not item.startswith("."):
                 directories.append(full_path)
         directories = list(map(lambda x: os.path.join(FS.Comparisons, x), choose_multiple_from_dict(list(map(lambda x: os.path.split(x)[1], directories)), 'Groups', request_description='Which of these groups do you want to merge the regions in?')))
-    elif 'Aggregated':
+    elif choice == 'Aggregated':
         directories = [os.path.join(FS.Aggregated, country.Full_name)]
+    elif choice == 'Out':
+        directories = [os.path.join(FS.Kwd_Level_Outs, x) for x in os.listdir(FS.Kwd_Level_Outs) if os.path.isdir(os.path.join(FS.Kwd_Level_Outs, x)) and not x.startswith(".")]
     for directory in directories:
         print(f"Working on directory: {directory}")
         merge_for_scraper(directory, country.Shortcode)

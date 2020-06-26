@@ -79,7 +79,7 @@ def choose_from_dict(dictionary: Dict[Union[str, int], str], label: str = 'items
         if isinstance(dictionary, list):
             dictionary = {i: k for i, k in enumerate(dictionary)}
         if len(request_description) > 0:
-            print(request_description)
+            print(f"{lcol.OKGREEN}{request_description}{lcol.ENDC}")
         if len(dictionary.keys()) == 1:
             single_choice = dictionary[list(dictionary.keys())[0]]
             print(f"Only a single choice can be made, thus it was chosen: {single_choice}")
@@ -214,19 +214,37 @@ def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = No
                 elif os.path.isfile(poss_path):
                     return poss_path
 
-
-def defineList(initial_selection: list = (), label: str = "categories") -> list:
+# TODO (p1): Add unit test -> single input, multi input
+def defineList(initial_selection: list = (), label: str = "categories", wanted_type: str = None) -> list:
     chosen = initial_selection.copy() if len(initial_selection) > 0 else []
     run = 0 if len(chosen) > 0 else 1
     while True:
         if run > 0:
-            cats = user_input(f"Please declare the {label} you want to use:\n")
-            if "," in cats:
-                cats = cats.split(",")
-                cats = map(lambda x: x.strip(), cats)
-                chosen += cats
-            else:
-                chosen.append(cats.strip())
+            while True:
+                cats = user_input(f"Please declare the {label} you want to use:\n")
+                if "," in cats:
+                    cats = cats.split(",")
+                    cats = [x.strip() for x in cats]
+                    if wanted_type is not None:
+                        try:
+                            if wanted_type == 'int':
+                                cats = list(map(lambda x: int(x), cats))
+                        except ValueError as e:
+                            print(f"Invalid type of items: {type(cats[0])} should be {wanted_type}")
+                    chosen += cats
+                    break
+                else:
+                    if wanted_type is not None:
+                        try:
+                            if wanted_type == 'int':
+                                cats = int(cats.strip())
+                                chosen.append(cats)
+                                break
+                        except ValueError as e:
+                            print(f"Invalid type of items: {type(cats[0])} should be {wanted_type}")
+                    else:
+                        chosen.append(cats.strip())
+                        break
         run += 1
         print(f"You have selected the following {label}: {chosen}\nDo you want to end?")
         choice = choose_from_dict({1: 'Add more', 2: 'Finished', 3: 'Clear - Start over'})
@@ -290,33 +308,4 @@ def int_input(prompt: str) -> int:
             return integer
         except ValueError:
             print("Could not parse input. Make sure you type a number")
-
-
-
-
-def int_input(prompt: str) -> int:
-    while True:
-        try:
-            inn = user_input(f"{prompt.strip()}\n")
-            if inn.lower() == 'end' or inn.lower() == 'stop':
-                sys.exit()
-            integer = int(inn)
-            return integer
-        except ValueError:
-            print("Could not parse input. Make sure you type a number")
-
-
-
-
-def int_input(prompt: str) -> int:
-    while True:
-        try:
-            inn = user_input(f"{prompt.strip()}\n")
-            if inn.lower() == 'end' or inn.lower() == 'stop':
-                sys.exit()
-            integer = int(inn)
-            return integer
-        except ValueError:
-            print("Could not parse input. Make sure you type a number")
-
 

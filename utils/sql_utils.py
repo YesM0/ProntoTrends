@@ -14,7 +14,7 @@ import yaml
 from utils.Filesys import generic_FileServer as FS
 from utils.custom_types import *
 from utils.misc_utils import lcol
-from utils.user_interaction_utils import binaryResponse, chooseFolder
+from utils.user_interaction_utils import binaryResponse, chooseFolder, user_input
 
 
 def get_sql_login_data() -> dict:
@@ -56,13 +56,34 @@ def get_sql_login_data() -> dict:
         return d
 
 
-def establish_SQL_cursor():
-    login_data: dict = get_sql_login_data()
+def establish_SQL_cursor(login_data: Dict[str, str] = None):
+    login_data: dict = get_sql_login_data() if not login_data or not (
+                'host' in login_data and 'user' in login_data and 'password' in login_data) else login_data
     connection = pymysql.connect(host=login_data['host'],
                                  user=login_data['user'],
                                  password=login_data['password'],
                                  cursorclass=pymysql.cursors.DictCursor)
     return connection
+
+
+def define_sql_date(request_str: str = None):
+    expected_lengths = [4, 2, 2]
+    if request_str:
+        print(f"{lcol.OKGREEN}{request_str}{lcol.ENDC}")
+    while True:
+        result = user_input("What date do you choose?")
+        try:
+            split = result.split("-")
+            if len(split) != 3:
+                raise ValueError("Not enough elements in input")
+            for item, ex in zip(split, expected_lengths):
+                if len(item.strip("'\"")) != ex:
+                    raise ValueError(f"The subpart {item} is not {ex} characters long")
+            if not result.count('"') == 2 or result.count("'") == 2:
+                result = f"'{result}'"
+                return result
+        except ValueError as e:
+            print(e)
 
 
 def selectTagsFromDB(cc_short: Country_Shortcode, kwds: list = None, tag_ids: list = None) -> pd.DataFrame:
@@ -225,6 +246,54 @@ def construct_query_tickets(cc_short: Country_Shortcode = 'IT',
     final_str = " ".join(sql)
     print(final_str)
     return final_str
+
+
+def assemble_where(settings: Dict[str, Dict[str,Dict[str, Union[str, int, List[Union[str, int]]]]]]) -> List[str]:
+    """
+    Expected structure of the settings: {"or/and": {'field': {'operator': [items]}}}
+    Args:
+        settings:
+
+    Returns:
+
+    """
+    l = []
+    if len(settings) > 0:
+        l.append("WHERE")
+        l.extend(resolve_where_dict(settings))
+
+
+def resolve_where_dict(settings: Dict[str, Union[str, int, list, dict]], joiner: str = 'OR'):
+    res = []
+    for i, key in enumerate(settings):
+        if key.lower() != 'and' and key.lower() != 'or':
+            operator = key
+            fields = settings[key]
+            for ind, (field, conditions) in enumerate(fields.items()):
+                if not isinstance(conditions, list):
+                    conditions = [conditions]
+                if 'LIKE' in operator.upper():
+                    conditions = [format_like(condition) for condition in conditions]
+                if 'IN' in operator.upper():
+                    if any([isinstance(x, str) for x in conditions]):
+                        conditions = [f"'{x}'" for x in conditions]
+                    else:
+                        conditions = [str(x) for x in conditions]
+                    join = ','.join(conditions)
+                    res.append(f"{field} {operator} ({join})")
+                else:
+                    alternatives = []
+                    for condition in conditions:
+                        alternatives.append(f"{field} {operator} {condition}")
+                    res.append(" OR ".join(alternatives))
+                if ind < len(fields) - 1 and res[-1] != joiner:
+                    res.append(joiner)
+        else:
+            res.append(f'({" ".join(resolve_where_dict(settings[key], joiner=key))})')
+        if i < len(settings) - 1 and res[-1] != joiner:
+            res.append(joiner)
+    return res
+
 
 
 if __name__ == '__main__':

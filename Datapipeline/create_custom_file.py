@@ -16,7 +16,7 @@ from utils.user_interaction_utils import binaryResponse, choose_from_dict, choos
     chooseFolder, chooseFile, choose_column, defineList
 from utils.Filesys import generic_FileServer as FS
 
-TESTING = False
+TESTING = True
 if TESTING:
     print(
         f"{lcol.WARNING}You are in testing mode. If you don't want this, please change the setting in the file{lcol.ENDC}")
@@ -400,11 +400,11 @@ def treat_and_save(group, name, q, index_col, min_tickets, grouping_uniques, sav
     print("Adjusting number of rows based on grouping")
     group = make_uniform(group, grouping_uniques, index_col)
     group = convert_region_names_to_google(group)
-    print(group)
+    print(group.head())
     file_name, group, q = make_file_name(group, has_date, q)
     further_to_drop = ['No_of_tickets'] if not has_date else ['No_of_tickets', 'year', 'month', 'day']
-    if 'Unnamed' in group.columns:
-        further_to_drop.append('Unnamed')
+    if 'Unnamed: 0' in group.columns:
+        further_to_drop.append('Unnamed: 0')
     group = group.drop(columns=further_to_drop)
     save_csv(group, os.path.join(saving_folder, file_name), index=False)
 
@@ -594,8 +594,8 @@ def treatDBData():
     else:
         # create individual files
         split_file_col = choose_column(df,
-                                       instruction_str=f"{lcol.OKGREEN}Please choose the column to break up the file by (i.e. pivot) from the following:{lcol.ENDC}",
-                                       testing=TESTING, test_return=['tag_id', 'ticket_geo_region_name'])
+                                       instruction_str=f"{lcol.OKGREEN}Please choose the column to break up the file by from the following:{lcol.ENDC}",
+                                       testing=TESTING, test_return=['ticket_geo_region_name'])
         if split_file_col in grouping:
             grouping.pop(grouping.index(split_file_col))
         splits = []
@@ -627,18 +627,21 @@ def treatDBData():
 
         # create geo data
         if "ticket_geo_region_name" in df.columns:
+            has_tag_id = 'tag_id' in df.columns
             grouped = df[df.year == 2019].groupby(["ticket_taxonomy_tag_name"])
             for name, group in grouped:
                 group = group.drop(columns=['year', 'month', 'day', 'date'])
                 summed = group.groupby(['ticket_geo_region_name']).sum()
                 summed['means'] = summed[index_col].apply(lambda x: x * 100 / summed[index_col].max())
-                summed['tag_id'] = group['tag_id'].unique().tolist()[0]
+                if has_tag_id:
+                    summed['tag_id'] = group['tag_id'].unique().tolist()[0]
                 summed = summed.drop(columns=['No_of_tickets'])
                 summed = summed.reset_index()
                 summed = convert_region_names_to_google(summed, is_geo=True)
                 summed = summed.rename(columns={'ticket_geo_region_name': 'geoName'})
                 tag_name = name if "/" not in name else name.replace("/", " o ")
-                filename = f"IT_{summed['tag_id'].unique().tolist()[0]}_{tag_name}_Geo.csv"
+                tag_id = summed['tag_id'].unique().tolist()[0] if has_tag_id else "-0"
+                filename = f"IT_{tag_id}_{tag_name}_Geo.csv"
                 summed = summed[["geoName", "means"]]
                 summed.to_csv(os.path.join(saving_folder, filename))
                 print(f"Saved file {filename}")
@@ -656,12 +659,15 @@ def handle_Italy_data(df, grouping, grouping_uniques, has_date, index_col, min_t
         group = group.groupby(grouping, as_index=True).sum()
         group = group.reset_index()
         diff = [kc for kc in keep_cols.columns if kc not in group.columns]
-        diff.append('tag_id')
+        has_tag_id = False
+        if 'tag_id' in df.columns:
+            has_tag_id = True
+            diff.append('tag_id')
         keep_cols = keep_cols[diff]
         # keep_cols = keep_cols.set_index(grouping)  # np.arange(0, group.shape[0]))
         # group = group.set_index(grouping)
         # group = pd.concat([keep_cols, group], axis=1)
-        split_file_col = ["ticket_geo_region_name", "ticket_taxonomy_tag_name", 'tag_id']
+        split_file_col = ["ticket_geo_region_name", "ticket_taxonomy_tag_name", 'tag_id'] if has_tag_id else ["ticket_geo_region_name", "ticket_taxonomy_tag_name"]
         for c in split_file_col:
             if c == 'ticket_geo_region_name':
                 group[c] = "Italia"

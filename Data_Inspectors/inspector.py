@@ -39,7 +39,7 @@ def getAvailableTags(country, short_code, dimension):
     for filename in os.listdir(expected_file_location):
         components = filename.split("_")
         if components[0] == short_code and components[3] == f"{dimension}.csv":
-            tags[components[1]] = components[2]
+            tags[components[2]] = components[1]
     return tags
 
 

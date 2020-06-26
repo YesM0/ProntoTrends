@@ -645,10 +645,10 @@ def dialog():
             failedScrapes = []
             for row_index, row in keywords.iterrows():
                 logging.info(f"{row_index} of {keywords.shape[0]}")
-                keyword = row['Keyword']
+                keyword = row['Keyword'].strip()
                 kwd_id = row['kwd_id']
                 logging.info(f"Working on keyword {keyword}")
-                scrape_all_regions(keyword, country, tr, keyword_id=kwd_id, folder='out')
+                scrape_all_regions(keyword, country, tr, keyword_id=kwd_id, folder=['Output_Files', 'out'])
                 sleep(SLEEPTIME)
             print(
                 f"{lcol.OKBLUE}Scraping is finished. To continue the pipeline, use generateSummaries.py and merge the keyword level data to tags{lcol.ENDC}")
@@ -658,7 +658,7 @@ def dialog():
             payloads = preparePayloads(comparisonItems, short, tr)
             for category, keywords in payloads:
                 logging.info(f'Working on comparison for {category}')
-                scrape_all_regions(keywords, country, tr, folder=['comparisons', category], comparison_label=category)
+                scrape_all_regions(keywords, country, tr, folder=['Output_Files', 'comparisons', category], comparison_label=category)
                 sleep(SLEEPTIME)
             print(
                 f"{lcol.OKBLUE}Scraping is finished. To continue the pipeline, use finalCSVgenerator.py{lcol.ENDC}")

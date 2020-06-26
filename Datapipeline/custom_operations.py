@@ -1,5 +1,6 @@
 if __name__ == '__main__':
     import sys
+
     sys.path.append('../')
 
 import os
@@ -20,10 +21,14 @@ def prepare_budget_file(country: Country) -> pd.DataFrame:
 
     """
     # 1. Determine where to find the comparisons file
-    folder: Folderpath = chooseFolder(request_str="Please choose the folder where to take the data from.", base_folder=FS.Comparisons)
+    folder: Folderpath = chooseFolder(request_str="Please choose the folder where to take the data from.",
+                                      base_folder=FS.Comparisons)
     # 2. read in files
-    country_files: List[str] = list(filter(lambda filename: country.Full_name in filename and 'geo' not in filename.lower(), os.listdir(folder)))
-    eligible_files: List[str] = list(filter(lambda filename: filename.split("_")[2] in (country.region_ids + [country.Shortcode.upper()]), country_files))
+    country_files: List[str] = list(
+        filter(lambda filename: country.Full_name in filename and 'geo' not in filename.lower(), os.listdir(folder)))
+    eligible_files: List[str] = list(
+        filter(lambda filename: filename.split("_")[2] in (country.region_ids + [country.Shortcode.upper()]),
+               country_files))
     region_id_to_name: Dict[Region_Shortcode, Region_Fullname] = country.region_ids_to_names
     region_id_to_name[country.Shortcode.upper()] = country.Full_name
     merged_df = None
@@ -31,6 +36,8 @@ def prepare_budget_file(country: Country) -> pd.DataFrame:
         filepath: Filepath = os.path.join(folder, file)
         region: Region_Fullname = region_id_to_name.get(file.split("_")[2], file.split("_")[2])
         df = pd.read_csv(filepath)
+        if 'date' not in df.columns:
+            continue
         # 3. Group by Year
         df['date'] = pd.to_datetime(df['date'])
         df = df.resample('Y', on='date').mean()
@@ -43,7 +50,8 @@ def prepare_budget_file(country: Country) -> pd.DataFrame:
     # 3. Melt from broad to narrow df
     if merged_df is not None and not merged_df.empty:
         # merged_df = merged_df.reset_index()
-        merged_df = merged_df.melt(id_vars=['date', 'ticket_geo_region_name'], value_name='Index', var_name='ticket_taxonomy_tag_name')
+        merged_df = merged_df.melt(id_vars=['date', 'ticket_geo_region_name'], value_name='Index',
+                                   var_name='ticket_taxonomy_tag_name')
         # 4. Scale Data
         year_sums = merged_df.resample('Y', on='date').sum()
         year_sums['year'] = year_sums.index.year
@@ -60,11 +68,11 @@ def prepare_budget_file(country: Country) -> pd.DataFrame:
     return merged_df
 
 
-
-
 if __name__ == '__main__':
     country: Country = getCountry("What country do you want to work on?")
     final_df = prepare_budget_file(country)
-    fn = defineFilename(target_ending='.csv', target_folder=chooseFolder(request_str="Where do you want the output to be saved?", base_folder=FS.Outfiles_general))
+    fn = defineFilename(target_ending='.csv',
+                        target_folder=chooseFolder(request_str="Where do you want the output to be saved?",
+                                                   base_folder=FS.Outfiles_general))
     final_df.to_csv(fn, index=False)
     print(f"Saved file: file://{fn}")
