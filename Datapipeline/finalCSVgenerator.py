@@ -235,6 +235,7 @@ def createTop5Csv(country: Country_Fullname, category: str, category_combination
 
 
 def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
+    print(f"Working on making the Top5 Data even more precise")
     cache = {}
     fixed = 0
     for ind, row in final_df.iterrows():
@@ -264,8 +265,13 @@ def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
                                 do_skip = True
                                 break
                         all_tags = list(set(map(lambda x: x.split("_")[2], files_in_folder)))
-                        tag_name = choose_from_dict(dictionary={i: tag for i, tag in enumerate(all_tags)}, label='Tags',
+                        tags_available = {i: tag for i, tag in enumerate(all_tags)}
+                        tags_available["Skip"] = "Skip"
+                        tag_name = choose_from_dict(dictionary=tags_available, label='Tags',
                                                     request_description=f"Which of these tags is the same as {lcol.OKGREEN}{original_tag_name}{lcol.ENDC}?")
+                        if tag_name == 'Skip':
+                            do_skip = True
+                            break
                 if do_skip:
                     continue
                 else:
@@ -362,7 +368,7 @@ def createTagChartData(country: Country_Fullname, min_regions: int = 0, select_t
     final_df = scale_within_ticket_cc_selected(final_df)
     other = final_df.copy(deep=True)
     other = other[other.Country_chosen == 0]
-    other = calculate_cc_chosen_regions(final_df, other, scale_by='sum-regions-normalized-to-country')
+    other = calculate_cc_chosen_regions(final_df, other, country=country, scale_by='sum-regions-normalized-to-country')
     final_df = pd.concat([final_df, other], ignore_index=True)
     # final_df = final_df.sort_values(by=['Country_chosen', 'ticket_taxonomy_tag_name']).round(2)
     # print(final_df)
@@ -373,11 +379,12 @@ def createTagChartData(country: Country_Fullname, min_regions: int = 0, select_t
     return final_df
 
 
-def calculate_cc_chosen_regions(final_df: pd.DataFrame, other: pd.DataFrame,
+def calculate_cc_chosen_regions(final_df: pd.DataFrame, other: pd.DataFrame, country: Country_Fullname,
                                 scale_by: str = 'sum-regions') -> pd.DataFrame:
     """
     Re-Calculates the index for region data when CC chosen
     Args:
+        country:
         final_df: pd.DataFrame -- the original DataFrame to use as reference
         other: pd.DataFrame -- to be adjusted DataFrame
         scale_by: str -- "sum-regions" or "country-value" -> chooses which value to scale data by

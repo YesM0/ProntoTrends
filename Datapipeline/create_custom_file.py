@@ -523,10 +523,10 @@ def form_pandas_query(column: str, options: List[str]) -> str:
 
 def treatDBData():
     file = chooseFile(filetype="csv", testing=True,
-                      test_return="/Users/chris/PycharmProjects/ProntoTrends/Input_Files/IT_Summer_Ticket_Counts_Categories.csv")
+                      test_return="/Users/chris/PycharmProjects/ProntoTrends/Input_Files/IT_Summer_Ticket_Counts.csv")
     df = pd.read_csv(file)
     print(f"Here are the columns in the selected file: {df.columns}")
-    if binaryResponse("Do you want to rename them?", testing=False, test_return=False):
+    if binaryResponse("Do you want to rename them?", testing=True, test_return=False):
         df = renameColumns(df, file)
     print(f"{lcol.OKGREEN}Please select the folder where the outputs should be saved{lcol.ENDC}")
     saving_folder = chooseFolder(testing=True, test_return=os.path.join(FS.Aggregated, 'Italy'))

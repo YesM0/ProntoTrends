@@ -1,3 +1,7 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.append('../')
+
 import json
 import os
 from json import loads
@@ -215,7 +219,7 @@ def generateRegionIds(country_name: Country_Fullname, sort: bool = True, overrid
     """
     if country_name == 'France' and override:
         override_list = [
-            "F", "FR-E", "FR-F", "FR-H", "FR-R", "FR-U", "FR-J",
+            "FR", "FR-E", "FR-F", "FR-H", "FR-R", "FR-U", "FR-J",
             'FR-GE', 'FR-HF', "FR-NO", "FR-BFC", "FR-NA",
             "FR-OC", "FR-AR"
         ]
