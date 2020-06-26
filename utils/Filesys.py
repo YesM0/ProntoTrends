@@ -17,9 +17,10 @@ def makePath(*args) -> Filepath:
 class Fileserver:
     """
     Represents the filesystem structure and implements utilities for opening and retrieving files
+    typically settings should be found here: os.path.join(cwd, 'Input_Files', 'Static', '.settings.yaml')
     """
 
-    def __init__(self, settings_file: str = os.path.join(cwd, 'Input_Files', 'Static', '.settings.yaml')):
+    def __init__(self, settings_file: str = None):
         """
         Sets up the main folders and file-locations
         Args:
@@ -56,6 +57,8 @@ class Fileserver:
 
 
 generic_FileServer = Fileserver()
+
+GDrive_FileServer = Fileserver(os.path.join(cwd, 'Input_Files', 'Static', '.settings.yaml'))
 
 # TODO (p1): Add functions to find files / get subfolders
 # TODO (p2): consider smaller classes: e.g. Aggregated_Folder class with custom utilities

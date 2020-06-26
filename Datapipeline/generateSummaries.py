@@ -213,19 +213,23 @@ def correct_values(country_name: Country_Fullname, short_code: Country_Shortcode
     for i, (tag_name, tag_id) in enumerate(all_tags.items()):
         print(f"Working on tag {tag_name} ({i + 1}/{len(all_tags)})")
         scaling_factors = read_in_scaling_factor(country_name, short_code, tag_id=tag_id, tag_name=tag_name)
+        corrected_count = 0
         for region_id in scaling_factors:
             if pd.isna(region_id):
                 continue
-            print(f"Adjusting the file for region {region_id}")
+            print(f"Trying to find the file for {region_id}")
             file = getFile(country_name, tag_name, 'Time', region_id)
             if file:
+                print(f"Adjusting the file for region {region_id}")
                 df = pd.read_csv(file)
                 df['means'] = df['means'].apply(lambda x: x * (scaling_factors[region_id] / 100))
                 df.to_csv(os.path.join(FS.Aggregated, country_name,
                                        f"{region_id}_{tag_id}_{tag_name}_Time_Adjusted.csv"))
                 print(f"{lcol.OKGREEN}Saved file{lcol.ENDC}")
+                corrected_count += 1
             else:
                 continue
+        print(f"{lcol.OKBLUE}Adjusted {corrected_count} files for {tag_name} {lcol.ENDC}")
     return
 
 

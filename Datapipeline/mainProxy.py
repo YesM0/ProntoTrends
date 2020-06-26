@@ -20,11 +20,19 @@ from utils.misc_utils import getToday, saveData, sleep, getDirectory, lcol, \
     deduplicateColumns, reverseDict
 from utils.user_interaction_utils import binaryResponse, choose_from_dict, chooseFile, defineFilename
 from utils.Filesys import generic_FileServer
+try:
+    from utils.Filesys import GDrive_FileServer
+except ImportError:
+    pass
 from utils.Countries import countries_dict_eng, generateRegionIds
 
 from Datapipeline.mergeRegions import merge_for_scraper
 
-FS = generic_FileServer
+if __name__ == '__main__' and locals().get("GDrive_FileServer", False):
+    c = choose_from_dict(['Save locally', 'Save to GDrive'])
+    FS = generic_FileServer if c == 'Save locally' else GDrive_FileServer
+else:
+    FS = generic_FileServer
 
 SLEEPTIME: int = 0
 ABORT_EARLY: bool = False
