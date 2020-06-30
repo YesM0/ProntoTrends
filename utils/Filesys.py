@@ -47,7 +47,8 @@ class Fileserver:
             self.Inputs: Filepath = d.get("Inputs_path", self.Inputs)
             self.Statics: Filepath = d.get("Statics_path", self.Statics)
 
-        self.Settings_File = settings_file
+        self.Settings_File = makePath(self.Statics, '.settings.yaml') if os.path.exists(
+            makePath(self.Statics, '.settings.yaml')) else None
         self.Ordered_Regions = makePath(self.Statics, "ordered_regions.json") if os.path.exists(
             makePath(self.Statics, "ordered_regions.json")) else FileNotFoundError(
             f"The file 'ordered_regions' does not exist. Ensure that it is located in: {self.Statics}")

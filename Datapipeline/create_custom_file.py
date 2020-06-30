@@ -17,7 +17,7 @@ from utils.user_interaction_utils import binaryResponse, choose_from_dict, choos
 from utils.Filesys import generic_FileServer as FS
 
 TESTING = True
-if TESTING:
+if TESTING and __name__ == '__main__':
     print(
         f"{lcol.WARNING}You are in testing mode. If you don't want this, please change the setting in the file{lcol.ENDC}")
 

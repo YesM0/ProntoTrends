@@ -16,8 +16,6 @@ from utils.Filesys import generic_FileServer
 
 FS = generic_FileServer
 
-# TODO: Add other filetypes
-# TODO: Add other countries
 parser = argparse.ArgumentParser(description='Validate files for ProntoTrends')
 parser.add_argument('-folder', help="The folder to validate files in", default=False, metavar='folder_path',
                     nargs='*')
@@ -210,10 +208,15 @@ def fixLabels(df: pd.DataFrame, expected_labels_in: dict):
                 exp_col_labels = expected_labels_in[col].copy()
                 curr_labels = df[col].unique().tolist()
                 if len(exp_col_labels) < len(curr_labels):
+                    print(f"Expected  labels: {exp_col_labels}")
+                    print(f"Actual labels: {curr_labels}")
                     if binaryResponse(
                             "It seems like there is more labels than expected. Do you want to solve this by excluding some rows with labels?"):
                         df = dropLabels(df, curr_labels=curr_labels, exp_col_labels=exp_col_labels, col=col)
+                    do_rename = binaryResponse("Do you want to rename any labels?")
                 else:
+                    do_rename = True
+                if do_rename:
                     to_rename = {}
                     isMonthType = True if col == 'Month' else binaryResponse(
                         f'Is {lcol.UNDERLINE} "{col}" {lcol.ENDC} a {lcol.UNDERLINE}"month"-type{lcol.ENDC} column?')
@@ -367,17 +370,17 @@ def getFixer(fixing_instructions, locs):
     return False
 
 
-def dialog():
+def dialog(lcls: dict = locals()):
     global args
     cc, country = getChosenCountry(action='validate')
     args = parser.parse_args()
     # args = vars(args)
     if args.folder:
         args.folder = " ".join(args.folder)
-    print(f"Using {vars(args)}")
+        print(f"Using {vars(args)}")
     if args.folder is False:
         print("What folder do you want to run validation for?")
-        folder = chooseFolder()
+        folder = chooseFolder(base_folder=FS.cwd)
     else:
         folder = args.folder
     files = os.listdir(folder)
@@ -430,7 +433,7 @@ def dialog():
                     df = pd.read_csv(filepath)
                     for r in rule_types:
                         handling_instructions = availableRules[r]
-                        validator = locals().get(handling_instructions['validator'], False)
+                        validator = lcls.get(handling_instructions['validator'], False)
                         if validator is not False:
                             if r == 'separators':
                                 valid, reason = validator(filepath, rule[r], len(rule.get('columns', [1, 2])))
@@ -440,7 +443,7 @@ def dialog():
                                 issues += 1
                                 print(Exception(reason))
                                 fixing_instructions = handling_instructions.get('fixer', {})
-                                fixer = getFixer(fixing_instructions, locals())
+                                fixer = getFixer(fixing_instructions, lcls)
                                 if fixer is not False:
                                     if binaryResponse(
                                             f"{lcol.UNDERLINE}Do you want to attempt to fix this {r} issue?{lcol.ENDC}"):
@@ -480,4 +483,4 @@ def dialog():
 
 
 if __name__ == '__main__':
-    dialog()
+    dialog(locals())

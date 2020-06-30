@@ -20,7 +20,7 @@ from utils.user_interaction_utils import binaryResponse, chooseFolder, user_inpu
 def get_sql_login_data() -> dict:
     path: Filepath = FS.Settings_File
     create_file: bool = False
-    if os.path.exists(path):
+    if path is not None and os.path.exists(path):
         with open(path, 'r') as f:
             s = f.read()
         d: dict = yaml.safe_load(s)
@@ -155,7 +155,7 @@ def construct_switch(
             new[combi[0]] = combi[1]
     if comparison_operator == '==':
         raise ValueError(f"The comparison operator is invalid: '{comparison_operator}'. You probably want to use '='")
-    s = 'CASE '
+    s = 'CASE\n'
     for new_name, items in switch_dict.items():
         for item in items:
             s += f"WHEN {column_name} {comparison_operator} "
@@ -248,9 +248,9 @@ def construct_query_tickets(cc_short: Country_Shortcode = 'IT',
     return final_str
 
 
-def assemble_where(settings: Dict[str, Dict[str,Dict[str, Union[str, int, List[Union[str, int]]]]]]) -> List[str]:
+def assemble_where(settings: Dict[str, Dict[str,Dict[str, Union[str, int, List[Union[str, int]]]]]]) -> str:
     """
-    Expected structure of the settings: {"or/and": {'field': {'operator': [items]}}}
+    Expected structure of the settings: {"or/and": {'operator': {'field': [items]}}}
     Args:
         settings:
 
@@ -261,6 +261,9 @@ def assemble_where(settings: Dict[str, Dict[str,Dict[str, Union[str, int, List[U
     if len(settings) > 0:
         l.append("WHERE")
         l.extend(resolve_where_dict(settings))
+        return " ".join(l) if isinstance(l, list) else l
+    else:
+        return ""
 
 
 def resolve_where_dict(settings: Dict[str, Union[str, int, list, dict]], joiner: str = 'OR'):

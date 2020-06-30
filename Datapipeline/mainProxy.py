@@ -25,8 +25,7 @@ try:
 except ImportError:
     pass
 from utils.Countries import countries_dict_eng, generateRegionIds
-
-from Datapipeline.mergeRegions import merge_for_scraper
+from utils.mergeRegions import merge_for_scraper
 
 if __name__ == '__main__' and locals().get("GDrive_FileServer", False):
     c = choose_from_dict(['Save locally', 'Save to GDrive'])
