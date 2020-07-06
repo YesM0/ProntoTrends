@@ -6,6 +6,8 @@ import {
     NavLink,
     HashRouter
 } from 'react-router-dom'
+import { ToastContainer, toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css'
 import './App.css';
 import Home from './pages/Home'
 import DatapipelineStart from "./pages/DatapipelineStart";
@@ -18,6 +20,11 @@ import NavSideBar from "./components/NavBar";
 export const eel = window.eel
 eel.set_host('ws://localhost:8080')
 
+window.eel.expose(show_log)
+function show_log(msg) {
+    console.log("got message " + msg)
+    window.AppComponent.showLog(msg)
+}
 
 const navItems = [
     {
@@ -91,10 +98,17 @@ const navItems = [
 export class App extends Component {
     constructor(props) {
         super(props);
+        this.showLog = this.showLog.bind(this)
+        window.AppComponent = this;
+    }
+
+    showLog(msg) {
+        toast(msg, {
+            position: toast.POSITION.BOTTOM_RIGHT,
+        });
     }
 
     render() {
-        console.log(navItems)
         return (
             <div className="App">
                 <Header/>
@@ -102,6 +116,7 @@ export class App extends Component {
                     <div style={{display: 'flex', alignItems: 'stretch', height: '100%'}}>
                         <div style={{flex: 1, minWidth: '10%', maxWidth: '18%', height: '100%'}}>
                             <NavSideBar items={navItems}/>
+                            <button onClick={() => eel.getLog()}>Get Log from Python</button>
                         </div>
                         <div style={{flex: 1, backgroundColor: '#315c80'}}>
                             <Switch >
@@ -121,9 +136,10 @@ export class App extends Component {
                                     <ValidationSetup/>
                                 </Route>
                                 <Route>
-                                    <div>NO MATCH</div>
+                                    <h1>NO MATCH</h1>
                                 </Route>
                             </Switch>
+                            <ToastContainer/>
                         </div>
                     </div>
                 </HashRouter>

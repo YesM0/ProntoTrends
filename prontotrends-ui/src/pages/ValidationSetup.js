@@ -1,6 +1,10 @@
 import React, {Component} from "react";
 import EditableTable from "../components/EditableTable";
+import CountrySelector from "../components/CountrySelector";
 
+
+// TODO: Add validation before submit
+// TODO: Combine Finished and Save button
 
 export const eel = window.eel
 eel.set_host('ws://localhost:8080')
@@ -10,6 +14,7 @@ class ValidationSetup extends Component {
         super(props);
 
         this.state = {
+            country: 'Germany',
             title: '',
             colNames: ["year", "month"],
             separators: ',',
@@ -23,13 +28,14 @@ class ValidationSetup extends Component {
         this.handleSeparatorChange = this.handleSeparatorChange.bind(this)
         this.handleTitleInput = this.handleTitleInput.bind(this)
         this.handleTableDataSubmit = this.handleTableDataSubmit.bind(this)
+        this.handleCountryChange = this.handleCountryChange.bind(this)
     }
 
     handleSubmit(event) {
         event.preventDefault();
         console.log(this.state)
         console.log("submission is not implemented yet")
-        eel.receive_data(this.state)
+        eel.receive_data({destination: 'ValidationSetUp', data: this.state})((res)=> console.log(res))
     }
 
     handleSeparatorChange(event) {
@@ -39,6 +45,10 @@ class ValidationSetup extends Component {
             val = (val === 'TAB') ? '\t' : val
             this.setState({separators: val, separators_visible: val_translated})
         }
+    }
+
+    handleCountryChange(event) {
+        this.setState({country: event.target.value})
     }
 
     handleTitleInput(event) {
@@ -95,7 +105,10 @@ class ValidationSetup extends Component {
                 }}>
                     <div>
                         <h2>Let's set up some new validation rules.</h2>
-
+                        <label className={'label'}>
+                            Country
+                            <CountrySelector value={this.state.country} handleCountryChange={this.handleCountryChange}/>
+                        </label>
                         <label className={'label'}>
                             Filename
                             <input className={'input'} type={'text'} onChange={this.handleTitleInput}
@@ -140,6 +153,7 @@ class ValidationSetup extends Component {
                 <button onClick={this.handleSubmit}>
                     Finish
                 </button>
+
             </div>
         )
     }

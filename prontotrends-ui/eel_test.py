@@ -1,6 +1,10 @@
 import os
 import platform
 import sys
+if __name__ == '__main__':
+    sys.path.extend(['../', '.../', './'])
+from typing import List, Dict, Union, Optional, Any
+from Validation.validationSetup import handleGUIData
 
 sys.path.extend(['../../', '../', './'])
 import eel
@@ -17,10 +21,32 @@ def process_input(x):
         return 'Try again'
 
 
+def send_logs_to_frontend(string):
+    eel.show_log(string)
+
 @eel.expose
-def receive_data(data):
+def receive_data(data: Dict[str, Union[Dict[str, Any], str]]):
+    """
+    Universal receiver for data. Takes a dict of {destination: 'function', data: {DATA}}
+    Args:
+        data:
+
+    Returns:
+
+    """
     print(data)
     print(f"Type of data: {type(data)}")
+    if data.get('destination', False) == 'ValidationSetUp':
+        print('Matched destination')
+        res = handleGUIData(data.get('data', {}), send_logs_to_frontend)
+        return res
+
+
+@eel.expose
+def getLog():
+    print("Got prompted for Log")
+    eel.show_log('HI FROM PYTHON')
+
 
 
 def start_eel(develop):

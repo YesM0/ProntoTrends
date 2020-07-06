@@ -359,3 +359,7 @@ a:hover.yellow900 {
     background-color: #315c80;
     flex-grow: 3;
 }
+
+.Toastify__toast .Toastify__toast--default {
+    background-color: #274964;
+}
