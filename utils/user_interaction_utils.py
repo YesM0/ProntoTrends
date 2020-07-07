@@ -11,6 +11,9 @@ from utils.custom_types import *
 from utils.misc_utils import lcol
 import pandas as pd
 
+CWD = os.getcwd()
+if 'utils' in CWD:
+    CWD = os.path.split(CWD)[0]
 
 def user_input(prompt: str, blocked_contents: List[str] = None) -> str:
     while True:
@@ -270,7 +273,7 @@ def defineFilename(target_ending: str = '.json', target_folder: str = None) -> F
             break
     if target_ending not in filename:
         filename = filename + target_ending
-    path: Filepath = os.path.join(os.getcwd(), target_folder, filename) if target_folder else os.path.join(os.getcwd(), filename)
+    path: Filepath = os.path.join(target_folder, filename) if target_folder else os.path.join(CWD, filename)
     return path
 
 

@@ -265,7 +265,7 @@ def preparePayloads(comparisons_dict: Dict[str, Dict[str, List[str]]], cc, pytre
     payloads = []
     cache = {}
     save_findings = binaryResponse("Do you want to save the findings of the keyword selection in a separate json file?")
-    filepath = defineFilename(target_ending=".json", target_folder="Input_Files") if save_findings else None
+    filepath = defineFilename(target_ending=".json", target_folder=FS.Inputs) if save_findings else None
     show_graph = binaryResponse("Do you want to view the relative averages for the keywords within the options?")
     for category, options in comparisons_dict.items():
         cat_cache = {}
