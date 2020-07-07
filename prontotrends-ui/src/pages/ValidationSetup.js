@@ -3,8 +3,8 @@ import EditableTable from "../components/EditableTable";
 import CountrySelector from "../components/CountrySelector";
 
 
-// TODO: Add validation before submit
-// TODO: Combine Finished and Save button
+
+// TODO: Combine Finished and Save button -> requires rewriting the Table Component to a class component or use this: https://stackoverflow.com/questions/27864951/how-to-access-childs-state-in-react
 
 export const eel = window.eel
 eel.set_host('ws://localhost:8080')
@@ -16,12 +16,13 @@ class ValidationSetup extends Component {
         this.state = {
             country: 'Germany',
             title: '',
-            colNames: ["year", "month"],
+            colNames: [],
             separators: ',',
             separators_visible: ',',
             labels: {},
             variableTypes: {},
-            labelCounts: {}
+            labelCounts: {},
+            table_submitted: false
         }
 
         this.handleSubmit = this.handleSubmit.bind(this)
@@ -29,13 +30,25 @@ class ValidationSetup extends Component {
         this.handleTitleInput = this.handleTitleInput.bind(this)
         this.handleTableDataSubmit = this.handleTableDataSubmit.bind(this)
         this.handleCountryChange = this.handleCountryChange.bind(this)
+        this.submittable = this.submittable.bind(this)
+    }
+
+    submittable(state) {
+        // check: hasCountry, hasTitle, hasColumnNames
+        return (state.country.length > 0 && state.title.length > 0 && state.colNames.length > 0)
     }
 
     handleSubmit(event) {
         event.preventDefault();
-        console.log(this.state)
-        console.log("submission is not implemented yet")
-        eel.receive_data({destination: 'ValidationSetUp', data: this.state})((res)=> console.log(res))
+        if (!this.state.table_submitted) {
+            alert('Please save the column data in the table first')
+        } else {
+            if (!this.submittable(this.state)) {
+                alert("The data you filled is insufficient. Make sure that you added a Filename and Column Names")
+            } else {
+                eel.receive_data({destination: 'ValidationSetUp', data: this.state})((res) => console.log(res))
+            }
+        }
     }
 
     handleSeparatorChange(event) {
@@ -73,7 +86,8 @@ class ValidationSetup extends Component {
             colNames: columnNames,
             labels: labels,
             variableTypes: dataTypes,
-            labelCounts: distribution
+            labelCounts: distribution,
+            table_submitted: true,
         }, () => console.log(this.state))
     }
 
@@ -124,7 +138,13 @@ class ValidationSetup extends Component {
                                 <option value="TAB">TAB</option>
                             </select>
                         </label>
-                        <br/>
+                        <small style={{margin: '1rem'}}>
+                            Use the following table to set up rules for the columns. Please ensure that the order of the
+                            rows in the table corresponds to the order of the columns in the final file.
+                            <br/>
+                            For the labels you can use the following constants to avoid having to type too much:
+                            REGIONS_SPAIN, REGIONS_GERMANY, REGIONS_ITALY, REGIONS_FRANCE. Ensure proper spelling!
+                        </small>
                         <EditableTable initial_columns={[
                             {
                                 title: 'Column Name (capitalization is important)',
@@ -150,8 +170,8 @@ class ValidationSetup extends Component {
                         />
                     </div>
                 </div>
-                <button onClick={this.handleSubmit}>
-                    Finish
+                <button onClick={this.handleSubmit} className={'button'}>
+                    Finish and Create File
                 </button>
 
             </div>

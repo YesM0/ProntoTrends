@@ -1,10 +1,16 @@
 if __name__ == '__main__':
     import sys
-    sys.path.append('../')
 
+    sys.path.append('../')
+import os
+import json
+
+from utils.Filesys import generic_FileServer as FS
 from utils.misc_utils import lcol
 
 # TODO (p2): Add validation rules for all CCs for Table and Map
+# TODO (p0): Add validation from json files
+
 
 static = {
     'cc-specific': {
@@ -690,7 +696,7 @@ rules = {
             "separators": ",",
             "var_types": {
                 "Distribution_of_tickets": "dec|0-1"
-              }
+            }
         },
         'Map': {
             "columns": static['File-specific']['Map']['columns'],
@@ -1025,6 +1031,17 @@ rules = {
         },
     }
 }
+
+for cc in rules:
+    folder = os.path.join(FS.Validation, cc)
+    if os.path.exists(folder):
+        for file in os.listdir(folder):
+            if ".json" in file:
+                type_name = file.split(".jso")[0]
+                with open(os.path.join(folder, file), "r") as f:
+                    j = json.loads(f.read())
+                rules[cc][type_name] = j
+
 
 ccs = []
 cc_file_type_counts = []

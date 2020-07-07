@@ -90,8 +90,8 @@ function EditableTable({initial_columns, title, dataHandler}) {
                         }),
                 }}
             />
-            <button onClick={() => dataHandler(data)}>
-                Save
+            <button onClick={() => dataHandler(data)} className={'button'}>
+                Save Table Data
             </button>
         </div>
     )
