@@ -268,15 +268,17 @@ class Ticket_Count_Inquiry(Inquiry):
     --> ONLY Handles Time Information (no geo - as needs comparison with all tags in region in timeframe)
     """
 
-    def __init__(self, country: Country = None, db_login_data: Dict[str, str] = None):
+    def __init__(self, country: Country = None, db_login_data: Dict[str, str] = None, name: str = None):
         super().__init__(country, db_login_data)
+        self.name = None
         self.query = None
         self.tags_included = None
         self.min_date = None
         self.tag_merges = None  # to be a dict of New Name and previous name
+        self.id_merges = None
 
     def __repr__(self):
-        s: str = f"Ticket_Count-Inquiry [{self.country.Shortcode.upper()}]"
+        s: str = f"Ticket_Count-Inquiry [{self.country.Shortcode.upper()}]: {self.name}"
         if self.data is not None:
             s += f" Data gathered: {len(list(self.data.keys()))}"
         return s
@@ -300,6 +302,8 @@ class Ticket_Count_Inquiry(Inquiry):
         if binaryResponse("Do you have a file with the settings prefilled?"):
             # TODO (p1): use a file to replace the data - add where the file is missing fields
             pass
+        if self.name is None:
+            self.name = user_input("What is the subject of this inquiry? (e.g. Wedding)")
         # define tags_included
         if self.tags_included is None and binaryResponse("Do you want to limit the list of tags included?"):
             way = choose_from_dict({0: 'Tag_Id', 1: 'Tag Name'}, label="way",
@@ -330,8 +334,11 @@ class Ticket_Count_Inquiry(Inquiry):
             counter = 0
             for merge_name, merge_items in merge_dict.items():
                 new_id = 9900 + counter
-
-
+                id_merge_items = [id_merges.get(item, None) for item in merge_items if
+                                  id_merges.get(item, None) is not None]
+                id_merges[new_id] = id_merge_items
+            self.tag_merges = merge_dict
+            self.id_merges = id_merges
 
     def construct_query(self):
         """
@@ -340,9 +347,10 @@ class Ticket_Count_Inquiry(Inquiry):
 
         """
         columns = "SELECT\nYEAR(t.status_new_at) as 'year',\nMONTH(t.status_new_at) as 'month',\nr.name as 'ticket_geo_region_name',\n"
-        if self.group_by_tag_name:
-            columns += "t2.name as 'ticket_taxonomy_tag_name',\n"
-        columns += construct_switch(self.switch_dict, "t.fields", 'LIKE') + " as 'Options',\ncount(t.id)"
+        # \nt2.id as 'tag_id'\nt2.name as 'ticket_taxonomy_tag_name',\n"
+        columns += construct_switch(self.id_merges, "t2.id", '=') + " as 'tag_id',\n"
+        columns += construct_switch(self.tag_merges, 't2.name',
+                                    '=') + " as 'ticket_taxonomy_tag_name',\ncount(t.id) as 'Index'"
         tables = "FROM prontopro.ticket t\nLEFT JOIN prontopro.tag t2 on t.tag_id = t2.id\nLEFT JOIN prontopro.locality l on t.locality_id = l.id\nLEFT JOIN prontopro.province p on l.province_id = p.id\nLEFT JOIN prontopro.region r on p.region_id = r.id"
         tag_selector = ("t2.id", 'IN') if any(list(map(lambda x: isinstance(x, int), self.tags_included))) else (
             "t2.name", 'LIKE')
@@ -354,7 +362,7 @@ class Ticket_Count_Inquiry(Inquiry):
             }
         }
         where = assemble_where(where_settings)
-        groupby = "GROUP BY 1,2,3,4,5" if self.group_by_tag_name else "GROUP BY 1,2,3,4"
+        groupby = "GROUP BY 1,2,3,4,5"
         self.query = "\n".join([columns, tables, where, groupby])
         print(self.query)
 
@@ -367,6 +375,8 @@ class Ticket_Count_Inquiry(Inquiry):
         return result
 
     def treat_data(self):
+        # TODO: Implement!
+        # TODO: Implement Data normalization for GEO data
         for k, df in self.data.items():
             saving_folder = os.path.join(FS.Comparisons, self.country.Full_name, self.name)
             pivot_col = 'Options'

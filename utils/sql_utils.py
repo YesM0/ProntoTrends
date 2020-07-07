@@ -248,7 +248,7 @@ def construct_query_tickets(cc_short: Country_Shortcode = 'IT',
     return final_str
 
 
-def assemble_where(settings: Dict[str, Dict[str,Dict[str, Union[str, int, List[Union[str, int]]]]]]) -> str:
+def assemble_where(settings: Dict[str, Union[str,int,dict,List[str, int]]]) -> str:
     """
     Expected structure of the settings: {"or/and": {'operator': {'field': [items]}}}
     Args:
