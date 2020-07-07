@@ -176,9 +176,9 @@ static = {
                 'Years': {
                     'type': "unequal",
                     "options": {
-                        2018: 12 / 4,
-                        2019: 12 / 4,
-                        2020: 4 / 4
+                        2018: 12 / 6,
+                        2019: 12 / 6,
+                        2020: 6 / 6
                     }
                 },
                 'Months': {
@@ -188,8 +188,8 @@ static = {
                         1: 3 / 2,
                         2: 3 / 2,
                         3: 3 / 2,
-                        4: 2 / 2,
-                        5: 2 / 2,
+                        4: 3 / 2,
+                        5: 3 / 2,
                         6: 2 / 2,
                         7: 2 / 2,
                         8: 2 / 2,
@@ -323,7 +323,35 @@ static = {
             "var_types": {
                 "Score": "dec|0-10"
             }
-        }
+        },
+        'Summer': {
+            "columns": ["Year", "ticket_geo_region_name", 'Prof_type', 'Distribution'],
+            "label_counts": {
+                'ticket_geo_region_name': {
+                    "type": "equal"
+                },
+                'Year': {
+                    'type': "equal"
+                },
+                'Prof_type': {
+                    'type': 'equal'
+                }
+            },
+        },
+        'Budget': {
+            "columns": ["Year", "ticket_geo_region_name", 'Category_type', 'Distribution'],
+            "label_counts": {
+                'ticket_geo_region_name': {
+                    "type": "equal"
+                },
+                'Year': {
+                    'type': "equal"
+                },
+                'Category_type': {
+                    'type': 'equal'
+                }
+            },
+        },
     },
     'File-type-specific': {
         'comparison': {
@@ -343,7 +371,8 @@ static = {
                 }
             }
         }
-    }
+    },
+
 }
 
 rules = {
@@ -671,6 +700,46 @@ rules = {
             "label_counts": static['File-specific']['Map']['label_counts'],
             "separators": ",",
             "var_types": static['File-specific']['Map']['var_types']
+        },
+        'Budget': {
+            "columns": static['File-specific']['Budget']['columns'],
+            "labels": {
+                "ticket_geo_region_name": static['cc-specific']['France']['regions'],
+                "Year": static['general']['Years']
+            },
+            "label_counts": static['File-specific']['Budget']['label_counts'],
+            "separators": ",",
+            "var_types": static['File-type-specific']['comparison']['var_types']
+        },
+        'Wellness': {
+            "columns": static['File-specific']['Summer']['columns'],
+            "labels": {
+                "ticket_geo_region_name": static['cc-specific']['France']['regions'],
+                "Year": static['general']['Years']
+            },
+            "label_counts": static['File-specific']['Summer']['label_counts'],
+            "separators": ",",
+            "var_types": static['File-type-specific']['comparison']['var_types']
+        },
+        'Outdoors': {
+            "columns": static['File-specific']['Summer']['columns'],
+            "labels": {
+                "ticket_geo_region_name": static['cc-specific']['France']['regions'],
+                "Year": static['general']['Years']
+            },
+            "label_counts": static['File-specific']['Summer']['label_counts'],
+            "separators": ",",
+            "var_types": static['File-type-specific']['comparison']['var_types']
+        },
+        'Homecare': {
+            "columns": static['File-specific']['Summer']['columns'],
+            "labels": {
+                "ticket_geo_region_name": static['cc-specific']['France']['regions'],
+                "Year": static['general']['Years']
+            },
+            "label_counts": static['File-specific']['Summer']['label_counts'],
+            "separators": ",",
+            "var_types": static['File-type-specific']['comparison']['var_types']
         },
     },
     'Spain': {

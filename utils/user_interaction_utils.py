@@ -7,18 +7,22 @@ import sys
 from pprint import pprint
 from typing import Union, Dict, List
 
-from utils.custom_types import Country_Shortcode, Country_Fullname, Filepath
+from utils.custom_types import *
 from utils.misc_utils import lcol
 import pandas as pd
 
 
-def user_input(prompt: str) -> str:
-    res = input(prompt)
-    if res.lower() == 'stop' or res.lower() == 'break':
-        print("Exiting")
-        sys.exit()
-    else:
-        return res
+def user_input(prompt: str, blocked_contents: List[str] = None) -> str:
+    while True:
+        res = input(prompt)
+        if res.lower() == 'stop' or res.lower() == 'break':
+            print("Exiting")
+            sys.exit()
+        elif isinstance(blocked_contents, list) and any([x in res for x in blocked_contents]):
+            print(f"The value {res} is invalid. Please ensure that it doesn't contain {blocked_contents}")
+            continue
+        else:
+            return res
 
 
 def getChosenCountry(action: str = 'scrape', testing: bool = False, test_return: Union[None, tuple] = None) -> (Country_Shortcode, Country_Fullname):
@@ -69,7 +73,7 @@ def binaryResponse(question_string: str, testing: bool = False, test_return: boo
                 continue
 
 
-def choose_from_dict(dictionary: Dict[Union[str, int], str], label: str = 'items', incl_end_option: bool = False,
+def choose_from_dict(dictionary: Union[Dict[Union[str, int], str], List[str]], label: str = 'items', incl_end_option: bool = False,
                      end_description: str = "End Selection", allow_multiple_answers: bool = False,
                      testing: bool = False, test_return: str = "", request_description: str = "") -> Union[str, List[str]]:
     if testing:
@@ -177,14 +181,14 @@ def chooseFolder(request_str: str = None, base_folder=None, testing: bool = Fals
                     return curr_path
 
 
-def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = None, testing: bool = False, test_return: str = "", request_prompt: str = None) -> Filepath:
+def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = None, testing: bool = False, test_return: str = "", request_prompt: str = None, base_path: Folderpath = None) -> Filepath:
     if testing:
         print(test_return)
         return test_return
     else:
         if request_prompt:
             print(request_prompt)
-        curr_path = os.getcwd()
+        curr_path = os.getcwd() if base_path is None else base_path
         do_selection = isinstance(other_only_if_contains_selections, list)
         if not do_selection:
             print(f"To make file-selection easier, you can set up selection presets.\n")

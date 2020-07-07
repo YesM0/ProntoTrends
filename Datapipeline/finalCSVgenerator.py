@@ -213,6 +213,11 @@ def createTop5Csv(country: Country_Fullname, category: str, category_combination
                         seasonality = None
                         year_highs.append((possibility, 0))
                     year_entries[possibility] = [region_name, possibility, year, 0, max, min, seasonality]
+                print(f"{lcol.WARNING}Here are the summaries we found. First the list of possibilities for the current year {year} with their respective highest value")
+                print(year_highs)
+                print(f"These would be the top5 entries for each option")
+                print(year_entries)
+                print(lcol.ENDC)
                 for i, item in enumerate(Sort(year_highs, True)):
                     if i < 5:
                         poss = item[0]

@@ -83,7 +83,6 @@ def generateComparisonsFile(df, country):
     tags = deduplicatedTagsByName(df)
     for cat in cats:
         selections[cat] = choose_multiple_from_dict(tags, 'tags', request_description=f'Please select the Tags you want to add to the category {cat}')
-    # TODO (P0): Add resolution from TagName to unique Keyword list
     final = {}
     for cat, options in selections.items():
         cat_kwds = {}
