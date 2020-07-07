@@ -2,8 +2,6 @@ import React, {Component} from "react";
 import EditableTable from "../components/EditableTable";
 import CountrySelector from "../components/CountrySelector";
 
-
-
 // TODO: Combine Finished and Save button -> requires rewriting the Table Component to a class component or use this: https://stackoverflow.com/questions/27864951/how-to-access-childs-state-in-react
 
 export const eel = window.eel
@@ -138,7 +136,8 @@ class ValidationSetup extends Component {
                                 <option value="TAB">TAB</option>
                             </select>
                         </label>
-                        <small style={{margin: '1rem'}}>
+                        <br/>
+                        <small style={{lineHeight: '0.2rem', fontWeight: '100', fontStyle: 'italic'}}>
                             Use the following table to set up rules for the columns. Please ensure that the order of the
                             rows in the table corresponds to the order of the columns in the final file.
                             <br/>
@@ -170,7 +169,7 @@ class ValidationSetup extends Component {
                         />
                     </div>
                 </div>
-                <button onClick={this.handleSubmit} className={'button'}>
+                <button onClick={this.handleSubmit} className={'button'} style={{marginBottom: '2rem'}}>
                     Finish and Create File
                 </button>
 

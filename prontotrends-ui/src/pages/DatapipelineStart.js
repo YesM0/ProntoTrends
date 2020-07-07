@@ -2,9 +2,6 @@ import React, {Component} from "react";
 import NavigationPage from "../components/NavigationPage";
 
 class DatapipelineStart extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     items = [
         {

@@ -97,11 +97,10 @@ textarea {
     justify-content: center;
     min-height: 0;
     min-width: 0;
-    transition: background-color .1s cubic-bezier(.23, 1, .32, 1), opacity .1s cubic-bezier(.23, 1, .32, 1);
-    will-change: background-color, opacity;
     padding: 1rem;
     background-color: #48bfcc;
-    border-radius: 0px;
+    border-radius: 0;
+    border: none;
     margin-top: 2rem;
     margin-left: 2rem;
     margin-right: 2rem;
@@ -362,4 +361,9 @@ a:hover.yellow900 {
 
 .Toastify__toast .Toastify__toast--default {
     background-color: #274964;
+}
+
+small {
+    font-size: 0.65rem;
+    line-height: 100%;
 }

@@ -41,7 +41,7 @@ const tableIcons = {
 function EditableTable({initial_columns, title, dataHandler}) {
     const {useState} = React;
 
-    const [columns, setColumns] = useState(initial_columns);
+    //const [columns, setColumns] = useState(initial_columns);
 
     const [data, setData] = useState([]);
 
@@ -50,7 +50,7 @@ function EditableTable({initial_columns, title, dataHandler}) {
             <MaterialTable
                 style={{fontSize: '1rem', fontFamily: 'inherit'}}
                 title={title}
-                columns={columns}
+                columns={initial_columns}
                 data={data}
                 icons={tableIcons}
                 options={{

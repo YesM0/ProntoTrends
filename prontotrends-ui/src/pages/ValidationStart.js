@@ -2,9 +2,6 @@ import React, {Component} from "react";
 import NavigationPage from "../components/NavigationPage";
 
 class ValidationStart extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     items = [
         {

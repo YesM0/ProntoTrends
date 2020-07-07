@@ -3,7 +3,6 @@ import Header from './components/header'
 import {
     Route,
     Switch,
-    NavLink,
     HashRouter
 } from 'react-router-dom'
 import { ToastContainer, toast } from "react-toastify";
@@ -116,7 +115,6 @@ export class App extends Component {
                     <div style={{display: 'flex', alignItems: 'stretch', height: '100%'}}>
                         <div style={{flex: 1, minWidth: '10%', maxWidth: '18%', height: '100%'}}>
                             <NavSideBar items={navItems}/>
-                            <button onClick={() => eel.getLog()}>Get Log from Python</button>
                         </div>
                         <div style={{flex: 1, backgroundColor: '#315c80'}}>
                             <Switch >

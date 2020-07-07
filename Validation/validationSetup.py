@@ -44,7 +44,7 @@ def handleGUIData(data, logging_func):
                     labels[col] = template_constants.get(token, label_list)  # tries to match a label to a constant for faster addition of repetitive labels
             dictionary['labels'] = labels
         if isinstance(label_counts, dict):
-            dictionary['label_counts'] = {'type': label_counts}
+            dictionary['label_counts'] = [{'type': val} for val in label_counts]
         if isinstance(var_types, dict):
             dictionary['var_types'] = var_types
         fname = fileName if fileName.endswith('.json') else f"{fileName}.json"

@@ -2,9 +2,6 @@ import React, {Component} from "react";
 import {NavLink} from "react-router-dom";
 
 class NavigationPage extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     styles = {
     row: {

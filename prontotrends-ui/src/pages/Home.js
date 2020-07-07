@@ -2,9 +2,6 @@ import React, {Component} from "react";
 import {NavLink} from "react-router-dom";
 
 class Home extends Component {
-    constructor(props) {
-        super(props);
-    }
 
     render() {
         return (
@@ -50,18 +47,5 @@ class Home extends Component {
     }
 }
 
-const styles = {
-    button: {
-        padding: '1rem',
-        backgroundColor: '#48bfcc',
-        borderRadius: '0px',
-        marginTop: '2rem',
-        marginLeft: '2rem',
-        marginRight: '2rem',
-        color: '#274964',
-        fontWeight: '700',
-        textDecoration: 'none',
-    }
-}
 
 export default Home;
