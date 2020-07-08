@@ -7,7 +7,8 @@ import os
 from utils.custom_types import *
 
 cwd = os.getcwd()
-cwd = os.path.split(cwd)[0]
+if os.path.split(cwd)[1] != 'ProntoTrends' or 'utils' in cwd:
+    cwd = os.path.split(cwd)[0]
 
 
 def makePath(*args) -> Filepath:
@@ -27,14 +28,14 @@ class Fileserver:
             settings_file: str -- path to settings file
         """
         self.cwd: Folderpath = cwd
-        self.Outfiles_general: Folderpath = makePath(cwd, 'Output_Files')
-        self.Aggregated: Folderpath = makePath(cwd, 'Output_Files', 'Aggregated')
-        self.Final: Folderpath = makePath(cwd, 'Output_Files', 'FINAL')
-        self.Kwd_Level_Outs: Filepath = makePath(cwd, 'Output_Files', 'out')
-        self.Comparisons: Folderpath = makePath(cwd, 'Output_Files', 'comparisons')
-        self.Inputs: Folderpath = makePath(cwd, 'Input_Files')
-        self.Statics: Folderpath = makePath(cwd, 'Input_Files', 'Static')
-        self.Validation: Folderpath = makePath(cwd, 'Validation')
+        self.Outfiles_general: Folderpath = makePath(self.cwd, 'Output_Files')
+        self.Aggregated: Folderpath = makePath(self.cwd, 'Output_Files', 'Aggregated')
+        self.Final: Folderpath = makePath(self.cwd, 'Output_Files', 'FINAL')
+        self.Kwd_Level_Outs: Filepath = makePath(self.cwd, 'Output_Files', 'out')
+        self.Comparisons: Folderpath = makePath(self.cwd, 'Output_Files', 'comparisons')
+        self.Inputs: Folderpath = makePath(self.cwd, 'Input_Files')
+        self.Statics: Folderpath = makePath(self.cwd, 'Input_Files', 'Static')
+        self.Validation: Folderpath = makePath(self.cwd, 'Validation')
         if settings_file and ".yaml" in settings_file:
             import yaml
             try:
