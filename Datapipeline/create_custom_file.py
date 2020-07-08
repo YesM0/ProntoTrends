@@ -445,7 +445,7 @@ def renameColumns(df, file):
     return df
 
 
-def formatDate(df):
+def formatDate(df: pd.DataFrame):
     has_date = True
     if not 'date' in df.columns:
         options = {i: k for i, k in enumerate(df.columns)}
