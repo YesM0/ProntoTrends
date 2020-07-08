@@ -4,7 +4,7 @@ import os
 import random
 import sys
 if __name__ == '__main__':
-    sys.path.append('../')
+    sys.path.extend(['../', './'])
 import time
 from pprint import pprint
 from queue import Queue

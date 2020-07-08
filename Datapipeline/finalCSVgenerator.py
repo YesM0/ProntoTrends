@@ -1,8 +1,7 @@
 import os
 import sys
 
-if __name__ == '__main__':
-    sys.path.append('../')
+
 
 import pandas as pd
 import numpy as np

@@ -37,17 +37,20 @@ class Fileserver:
         self.Validation: Folderpath = makePath(cwd, 'Validation')
         if settings_file and ".yaml" in settings_file:
             import yaml
-            with open(settings_file, "r") as f:
-                s = f.read()
-            d: dict = yaml.safe_load(s)
-            self.Outfiles_general: Folderpath = d.get("Out_files_path", self.Outfiles_general)
-            self.Aggregated: Folderpath = d.get("Aggregated_path", self.Aggregated)
-            self.Final: Folderpath = d.get("Final_path", self.Final)
-            self.Kwd_Level_Outs: Folderpath = d.get("Tag_out_path", self.Kwd_Level_Outs)
-            self.Comparisons: Folderpath = d.get("Comparisons_path", self.Comparisons)
-            self.Inputs: Folderpath = d.get("Inputs_path", self.Inputs)
-            self.Statics: Folderpath = d.get("Statics_path", self.Statics)
-            self.Validation: Folderpath = d.get('Validation_path', self.Validation)
+            try:
+                with open(settings_file, "r") as f:
+                    s = f.read()
+                d: dict = yaml.safe_load(s)
+                self.Outfiles_general: Folderpath = d.get("Out_files_path", self.Outfiles_general)
+                self.Aggregated: Folderpath = d.get("Aggregated_path", self.Aggregated)
+                self.Final: Folderpath = d.get("Final_path", self.Final)
+                self.Kwd_Level_Outs: Folderpath = d.get("Tag_out_path", self.Kwd_Level_Outs)
+                self.Comparisons: Folderpath = d.get("Comparisons_path", self.Comparisons)
+                self.Inputs: Folderpath = d.get("Inputs_path", self.Inputs)
+                self.Statics: Folderpath = d.get("Statics_path", self.Statics)
+                self.Validation: Folderpath = d.get('Validation_path', self.Validation)
+            except FileNotFoundError as e:
+                print('No settings file could be found')
 
         self.Settings_File: Filepath = makePath(self.Statics, '.settings.yaml') if os.path.exists(
             makePath(self.Statics, '.settings.yaml')) else None
@@ -61,7 +64,11 @@ class Fileserver:
 
 generic_FileServer = Fileserver()
 
-GDrive_FileServer = Fileserver(os.path.join(cwd, 'Input_Files', 'Static', '.settings.yaml'))
+try:
+    GDrive_FileServer = Fileserver(os.path.join(cwd, 'Input_Files', 'Static', '.settings.yaml'))
+except Exception:
+    print("No GDrive Saving Location could be found")
+    GDrive_FileServer = generic_FileServer
 
 # TODO (p1): Add functions to find files / get subfolders
 # TODO (p2): consider smaller classes: e.g. Aggregated_Folder class with custom utilities
