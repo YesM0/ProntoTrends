@@ -1,12 +1,19 @@
+if __name__ == '__main__':
+    import sys
+    sys.path.extend(['../', './'])
+
 import json
 import os
 import shutil
 from typing import Dict, List, Union
 
-from utils.Countries import Country, getCountry  # Country is a class that represents a country with properties like a shortcode (e.g. "fr") and the english full_name (e.g. 'France')
-from utils.Filesys import generic_FileServer as FS  # FS is a class to save data about the different folders in the project
+from utils.Countries import Country, \
+    getCountry  # Country is a class that represents a country with properties like a shortcode (e.g. "fr") and the english full_name (e.g. 'France')
+from utils.Filesys import \
+    generic_FileServer as FS  # FS is a class to save data about the different folders in the project
 from utils.custom_types import *
-from utils.user_interaction_utils import chooseFolder, choose_from_dict, user_input  # chooseFolder -> utility to select a folder by traversing the file system, choose_from_dict -> handles user choice from a dict of choices, user_input -> convenience method for input() that stops execution on keywords
+from utils.user_interaction_utils import chooseFolder, choose_from_dict, \
+    user_input  # chooseFolder -> utility to select a folder by traversing the file system, choose_from_dict -> handles user choice from a dict of choices, user_input -> convenience method for input() that stops execution on keywords
 
 
 def explore_directory(directory_path: Folderpath) -> List[Dict[str, List[Union[dict, str]]]]:
@@ -25,7 +32,8 @@ def explore_directory(directory_path: Folderpath) -> List[Dict[str, List[Union[d
     return cont
 
 
-def gather_all_country_files(country: Country, dest_folder: Folderpath, base_folder: Folderpath, curr_dir: Folderpath = FS.cwd):
+def gather_all_country_files(country: Country, dest_folder: Folderpath, base_folder: Folderpath,
+                             curr_dir: Folderpath = FS.cwd):
     items = os.listdir(curr_dir)
     for item in items:
         path = os.path.join(curr_dir, item)
@@ -33,7 +41,8 @@ def gather_all_country_files(country: Country, dest_folder: Folderpath, base_fol
             # enter dir
             # if cc file in dir: create dirs and copy file to dest
             gather_all_country_files(country, dest_folder, base_folder, curr_dir=path)
-        elif os.path.isfile(path) and (f"{country.Shortcode.upper()}" in item or country.Full_name.lower() in item.lower()):  # can edit the (conditions) for alternative filters
+        elif os.path.isfile(path) and (
+                f"{country.Shortcode.upper()}" in item or country.Full_name.lower() in item.lower()):  # can edit the (conditions) for alternative filters
             # copy file using the parent folder copied
             relpath = os.path.relpath(curr_dir, start=base_folder)
             new_folder = os.path.join(dest_folder, relpath)
@@ -45,7 +54,8 @@ def gather_all_country_files(country: Country, dest_folder: Folderpath, base_fol
 
 
 if __name__ == '__main__':
-    action = choose_from_dict(["Make list of files", "Create a country-specific copy of files"], "actions", request_description="What do you want to do?")
+    action = choose_from_dict(["Make list of files", "Create a country-specific copy of files"], "actions",
+                              request_description="What do you want to do?")
     if action == 'Make list of files':
         start_folder = chooseFolder(base_folder=FS.cwd, request_str="Where do you want to start exploring the files?")
         result = explore_directory(start_folder)

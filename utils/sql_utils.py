@@ -58,7 +58,7 @@ def get_sql_login_data() -> dict:
 
 def establish_SQL_cursor(login_data: Dict[str, str] = None):
     login_data: dict = get_sql_login_data() if not login_data or not (
-                'host' in login_data and 'user' in login_data and 'password' in login_data) else login_data
+            'host' in login_data and 'user' in login_data and 'password' in login_data) else login_data
     connection = pymysql.connect(host=login_data['host'],
                                  user=login_data['user'],
                                  password=login_data['password'],
@@ -148,23 +148,27 @@ def construct_in(items: List[Union[int, str]]) -> str:
 
 def construct_switch(
         switch_dict: Union[Dict[Union[str, int], List[Union[str, int]]], List[Union[str, int, float, Tuple[str, str]]]],
-        column_name, comparison_operator: str = 'LIKE'):
-    if isinstance(switch_dict, list):
-        new = {}
-        for combi in switch_dict:
-            new[combi[0]] = combi[1]
-    if comparison_operator == '==':
-        raise ValueError(f"The comparison operator is invalid: '{comparison_operator}'. You probably want to use '='")
-    s = 'CASE\n'
-    for new_name, items in switch_dict.items():
-        for item in items:
-            s += f"WHEN {column_name} {comparison_operator} "
-            if comparison_operator.upper() == 'LIKE':
-                s += format_like(item)
-            else:
-                s += f'"{item}"'
-            s += f" THEN '{new_name}'\n"
-    s += f"ELSE {column_name}\nEND"
+        column_name: str, comparison_operator: str = 'LIKE'):
+    if switch_dict is not None:
+        if isinstance(switch_dict, list):
+            new = {}
+            for combi in switch_dict:
+                new[combi[0]] = combi[1]
+        if comparison_operator == '==':
+            raise ValueError(
+                f"The comparison operator is invalid: '{comparison_operator}'. You probably want to use '='")
+        s = 'CASE\n'
+        for new_name, items in switch_dict.items():
+            for item in items:
+                s += f"WHEN {column_name} {comparison_operator} "
+                if comparison_operator.upper() == 'LIKE':
+                    s += format_like(item)
+                else:
+                    s += f'"{item}"'
+                s += f" THEN '{new_name}'\n"
+        s += f"ELSE {column_name}\nEND"
+    else:
+        s = column_name
     return s
 
 
@@ -248,7 +252,7 @@ def construct_query_tickets(cc_short: Country_Shortcode = 'IT',
     return final_str
 
 
-def assemble_where(settings: Dict[str, Union[str,int,dict,List[str, int]]]) -> str:
+def assemble_where(settings: Dict[str, Union[str, int, dict, List[Union[str, int]]]]) -> str:
     """
     Expected structure of the settings: {"or/and": {'operator': {'field': [items]}}}
     Args:
@@ -296,7 +300,6 @@ def resolve_where_dict(settings: Dict[str, Union[str, int, list, dict]], joiner:
         if i < len(settings) - 1 and res[-1] != joiner:
             res.append(joiner)
     return res
-
 
 
 if __name__ == '__main__':

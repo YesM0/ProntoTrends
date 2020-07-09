@@ -4,16 +4,18 @@ if __name__ == '__main__':
     sys.path.append('../')
 
 import os
+import logging
 from typing import List, Dict, Union, Tuple, Optional
 
 from utils.custom_types import *
-from utils.sql_utils import establish_SQL_cursor, get_sql_login_data, construct_query_tags_keywords, define_sql_date, \
-    construct_switch, resolve_where_dict, assemble_where
-from utils.user_interaction_utils import binaryResponse, chooseFolder, chooseFile, choose_from_dict, \
-    choose_multiple_from_dict, defineList, user_input, int_input
+from utils.sql_utils import establish_SQL_cursor, get_sql_login_data, define_sql_date, \
+    construct_switch, assemble_where
+from utils.user_interaction_utils import binaryResponse, chooseFile, choose_from_dict, \
+    choose_multiple_from_dict, defineList, user_input
 from utils.Filesys import generic_FileServer as FS
-from utils.Countries import getCountry, Country
-from utils.misc_utils import lcol, save_csv, rescale_comparison
+from utils.Countries import getCountry, Country, regions_map_english_to_local
+from utils.misc_utils import lcol, save_csv, rescale_comparison, reverseDict
+from utils.routines_loader import get_routine_settings
 from Datapipeline.create_custom_file import formatDate, convert_region_names_to_google, form_pandas_query
 
 import pandas as pd
@@ -63,6 +65,12 @@ class Inquiry:
         self.connection.close()
         self.isConnected = False
 
+    def get_settings_from_routine(self):
+        to_fill = [key for key, val in self.__dict__.items() if val is None]
+        settings = get_routine_settings()
+        for attr in to_fill:
+            setattr(self, attr, settings.get(attr, None))
+
     def execute(self, statement: str, statement_title: str = None) -> Optional[pd.DataFrame]:
         while not self.isConnected:
             print("Trying to establish connection")
@@ -78,8 +86,6 @@ class Inquiry:
             return result
         except Exception as e:
             print(e)
-        finally:
-            self.close()
 
     def save_data(self):
         """
@@ -149,8 +155,7 @@ class Ticket_Detail_Inquiry(Inquiry):
             self.name = user_input("What is the name of the category this inquiry is for? (e.g. wedding location)",
                                    blocked_contents=["/"]).strip()
         if binaryResponse("Do you have a file with the settings prefilled?"):
-            # TODO (p1): use a file to replace the data - add where the file is missing fields
-            pass
+            super().get_settings_from_routine()
         # define tags_included
         if self.tags_included is None and binaryResponse("Do you want to limit the list of tags included?"):
             way = choose_from_dict({0: 'Tag_Id', 1: 'Tag Name'}, label="way",
@@ -212,11 +217,11 @@ class Ticket_Detail_Inquiry(Inquiry):
         print(self.query)
 
     def execute(self, statement: str = None, statement_name: str = None, do_retain_data: bool = True):
-        title = self.name if do_retain_data else None
+        title = statement_name if statement_name else self.name
         statement = statement if statement else self.query
         result = super().execute(statement, statement_title=title)
         if do_retain_data:
-            self.data[self.name] = result
+            self.data[title] = result
         return result
 
     def treat_data(self):
@@ -260,7 +265,7 @@ class Ticket_Detail_Inquiry(Inquiry):
             save_csv(italy, os.path.join(saving_folder, filename), index=False)
 
 
-def process_tag_time_data(group, droppable_cols: List[str] = ('year', 'month', 'tag_id', 'ticket_taxonomy_tag_name',
+def process_tag_time_data(group, droppable_cols: List[str] = ('year', 'month', 'day', 'tag_id', 'ticket_taxonomy_tag_name',
                                                               'ticket_geo_region_name',
                                                               'Index')):
     """
@@ -280,7 +285,7 @@ def process_tag_time_data(group, droppable_cols: List[str] = ('year', 'month', '
     # convert to dates
     group, _ = formatDate(group)
     # fill missing months
-    group = group.resample('M', on='date').mean()
+    group = group.resample('M', on='date').mean().reset_index()
     # remove cols: final: ['date', 'means']
     cleaned = group.drop(columns=[col for col in
                                   droppable_cols if col in group.columns])
@@ -325,8 +330,7 @@ class Ticket_Count_Inquiry(Inquiry):
         self.tags_included: Union[List[int, str], None] = tags_included
         self.min_date: Union[None, str] = min_date  # ensure formatting with extra quotation marks
         if binaryResponse("Do you have a file with the settings prefilled?"):
-            # TODO (p1): use a file to replace the data - add where the file is missing fields
-            pass
+            super().get_settings_from_routine()
         if self.name is None:
             self.name = user_input("What is the subject of this inquiry? (e.g. Wedding)")
         # define tags_included
@@ -399,7 +403,9 @@ class Ticket_Count_Inquiry(Inquiry):
         # \nt2.id as 'tag_id'\nt2.name as 'ticket_taxonomy_tag_name',\n"
         where_settings = {
             "AND": {
-                '>=': self.min_date
+                '>=': {
+                    't.status_new_at': self.min_date
+                }
             }
         }
         if tag_level:
@@ -424,11 +430,12 @@ class Ticket_Count_Inquiry(Inquiry):
         return q
 
     def execute(self, statement: str = None, statement_name: str = None, do_retain_data: bool = True) -> pd.DataFrame:
-        title = self.name if do_retain_data else None
+        title = statement_name if statement_name else self.name
         statement = statement if statement else self.query
         result = super().execute(statement, statement_title=title)
+        print(f"Received data: {result.shape}")
         if do_retain_data:
-            self.data[self.name] = result
+            self.data[title] = result
         return result
 
     def get_geo_data(self):
@@ -437,6 +444,7 @@ class Ticket_Count_Inquiry(Inquiry):
         df_restricted: pd.DataFrame = self.execute(restricted_query, statement_name=f"Geo-Data")
         region_totals: pd.DataFrame = self.execute(unrestricted_query, statement_name=f"Geo-Data All_Tags").set_index(
             'ticket_geo_region_name')
+        engl_to_region_id: Dict[str, str] = reverseDict(self.country.region_ids_to_names)
         split_groups: pd.DataFrameGroupBy = df_restricted.groupby(['ticket_taxonomy_tag_name', 'tag_id'])
 
         def scale_region_level(row, region_level_df):
@@ -449,37 +457,48 @@ class Ticket_Count_Inquiry(Inquiry):
             group_percentages_of_all_tickets_in_region: pd.DataFrame = group.apply(scale_region_level,
                                                                                    args=(region_totals,), axis=1)
             index_max: float = group_percentages_of_all_tickets_in_region['Index'].max()
-            final_scaled: pd.DataFrame = group_percentages_of_all_tickets_in_region['Index'].apply(
+            group_percentages_of_all_tickets_in_region['Index']: pd.DataFrame = group_percentages_of_all_tickets_in_region['Index'].apply(
                 lambda x: (x / index_max) * 100)
+            final_scaled = group_percentages_of_all_tickets_in_region.drop(columns=['tag_id', 'ticket_taxonomy_tag_name'])
+            final_scaled = final_scaled.replace(to_replace=reverseDict(regions_map_english_to_local)).rename(columns={'ticket_geo_region_name': 'geoName', 'Index': 'means'})
             save_csv(final_scaled, os.path.join(FS.Aggregated, self.country.Full_name,
                                                 f"{self.country.Shortcode.upper()}_{tag_id}_{tag_name}_Geo.csv"))
-            self.region_scaling_factors[tag_name] = {row['ticket_geo_region_name']: row['Index'] for _, row in
+            final_scaled['region_id'] = final_scaled['geoName'].apply(lambda eng_name: engl_to_region_id.get(eng_name, eng_name))
+            self.region_scaling_factors[tag_name] = {row['region_id']: row['means'] for _, row in
                                                      final_scaled.iterrows()}
 
     def treat_data(self):
         self.get_geo_data()
         for k, df in self.data.items():
-            if 'day' not in df.columns:
-                df['day'] = 1
-            saving_folder: Folderpath = os.path.join(FS.Comparisons, self.country.Full_name)
-            grouping_cols: List[str] = ['ticket_geo_region_name', 'tag_id', 'ticket_taxonomy_tag_name']
-            df = convert_region_names_to_google(df)
-            groups = df.groupby(grouping_cols)
-            for (region_id, tag_id, tag_name), group in groups:
-                cleaned: pd.DataFrame = process_tag_time_data(group)
-                # save
-                save_csv(cleaned, os.path.join(saving_folder, f"{region_id}_{tag_id}_{tag_name}_Time.csv"), index=False)
-                cleaned['means'] = cleaned['means'].apply(
-                    lambda x: x * (self.region_scaling_factors.get(tag_name, {}).get(region_id, 1)))
-                save_csv(cleaned, os.path.join(saving_folder, f"{region_id}_{tag_id}_{tag_name}_Time_Adjusted.csv"),
-                         index=False)
-            italy_grouped = df.groupby(grouping_cols[1:]).sum()
-            for (tag_id, tag_name), group in italy_grouped:
-                cleaned = process_tag_time_data(group)
-                # save
-                save_csv(cleaned,
-                         os.path.join(saving_folder, f"{self.country.Shortcode.upper()}_{tag_id}_{tag_name}_Time.csv"),
-                         index=False)
+            if "Geo" not in k:
+                if 'day' not in df.columns:
+                    df['day'] = 1
+                saving_folder: Folderpath = os.path.join(FS.Aggregated, self.country.Full_name)
+                grouping_cols: List[str] = ['ticket_geo_region_name', 'tag_id', 'ticket_taxonomy_tag_name']
+                df = convert_region_names_to_google(df)
+                groups = df.groupby(grouping_cols)
+                for (region_id, tag_id, tag_name), group in groups:
+                    cleaned: pd.DataFrame = process_tag_time_data(group)
+                    # save
+                    save_csv(cleaned, os.path.join(saving_folder, f"{region_id}_{tag_id}_{tag_name}_Time.csv"), index=False)
+                    cleaned['means'] = cleaned['means'].apply(
+                        lambda x: x * ((self.region_scaling_factors.get(tag_name, {}).get(region_id, 1)) / 100))
+                    save_csv(cleaned, os.path.join(saving_folder, f"{region_id}_{tag_id}_{tag_name}_Time_Adjusted.csv"),
+                             index=False)
+                cc_grouped = df.groupby(grouping_cols[1:])
+                for (tag_id, tag_name), group in cc_grouped:
+                    group_dropped = group.drop(columns=[col for col in ['tag_id', 'ticket_taxonomy_tag_name', 'ticket_geo_region_name'] if col in group.columns])
+                    country_lvl: pd.DataFrame = formatDate(group_dropped)[
+                        0].resample(
+                        'M', on='date').sum().reset_index()
+                    # get max
+                    maximum: float = country_lvl['Index'].max()
+                    country_lvl['means'] = country_lvl['Index'].apply(lambda x: (x / maximum) * 100)
+                    country_lvl = country_lvl.drop(columns=[col for col in ['year', 'month', 'day', 'tag_id', 'ticket_taxonomy_tag_name','Index'] if col in country_lvl.columns])
+                    # save
+                    save_csv(country_lvl,
+                             os.path.join(saving_folder, f"{self.country.Shortcode.upper()}_{tag_id}_{tag_name}_Time.csv"),
+                             index=False)
 
 
 class Ticket_Count_Inquiry_Comparison(Ticket_Count_Inquiry):
@@ -524,24 +543,38 @@ class Ticket_Count_Inquiry_Comparison(Ticket_Count_Inquiry):
                 cat_df = convert_region_names_to_google(cat_df)
                 groups = cat_df.groupby(grouping_cols)
                 for region_id, group in groups:
-                    cleaned: pd.DataFrame = process_tag_time_data(group, droppable_cols=['year', 'month', 'ticket_geo_region_name', 'Index'])
+                    cleaned: pd.DataFrame = process_tag_time_data(group, droppable_cols=['year', 'month',
+                                                                                         'ticket_geo_region_name',
+                                                                                         'Index'])
                     # save
-                    pivot = cleaned.pivot_table(index=['date'], columns='ticket_taxonomy_tag_name', aggfunc=sum, fill_value=0)
-                    save_csv(pivot, os.path.join(saving_folder, f"Time_{self.country.Full_name}_{region_id}_{category}.csv"),
+                    pivot = cleaned.pivot_table(index=['date'], columns='ticket_taxonomy_tag_name', aggfunc=sum,
+                                                fill_value=0)
+                    save_csv(pivot,
+                             os.path.join(saving_folder, f"Time_{self.country.Full_name}_{region_id}_{category}.csv"),
                              index=False)
-                cat_country_lvl: pd.DataFrame = formatDate(cat_df.drop(columns='ticket_geo_region_name'))[0].resample('M', on='date').sum()
+                cat_country_lvl: pd.DataFrame = formatDate(cat_df.drop(columns='ticket_geo_region_name'))[0].resample(
+                    'M', on='date').sum()
                 # get max
                 maximum: float = cat_country_lvl['Index'].max()
                 # rescale values
                 cat_country_lvl['means'] = cat_country_lvl['Index'].apply(lambda x: (x / maximum) * 100)
                 cat_country_lvl: pd.DataFrame = cat_country_lvl.drop(columns='Index')
-                country_pivot = cat_country_lvl.pivot_table(index='date', columns='ticket_taxonomy_tag_name', aggfunc=sum, fill_value=0)
-                save_csv(country_pivot, os.path.join(saving_folder, f"Time_{self.country.Full_name}_{self.country.Shortcode.upper()}_{category}.csv"),
-                             index=False)
+                country_pivot = cat_country_lvl.pivot_table(index='date', columns='ticket_taxonomy_tag_name',
+                                                            aggfunc=sum, fill_value=0)
+                save_csv(country_pivot, os.path.join(saving_folder,
+                                                     f"Time_{self.country.Full_name}_{self.country.Shortcode.upper()}_{category}.csv"),
+                         index=False)
 
 
 if __name__ == '__main__':
-    t = Ticket_Detail_Inquiry(country=Country(short_name='it'), db_login_data=None)
+    choice = choose_from_dict(['Ticket_Detail_Inquiry', 'Ticket_Count_Inquiry', 'Ticket_Count_Inquiry_Comparison'],
+                              label='Inquiries', request_description='What kind of inquiry do you want to conduct?')
+    c: type = {
+        'Ticket_Detail_Inquiry': Ticket_Detail_Inquiry,
+        'Ticket_Count_Inquiry': Ticket_Count_Inquiry,
+        'Ticket_Count_Inquiry_Comparison': Ticket_Count_Inquiry_Comparison
+    }.get(choice, Ticket_Count_Inquiry)
+    t = c(country=Country(short_name='it'), db_login_data=None)
     try:
         t.define_query_settings()
         t.construct_query()
@@ -549,7 +582,7 @@ if __name__ == '__main__':
         t.treat_data()
         print(t)
     except Exception as e:
-        print(e)
+        logging.exception('Message')
     finally:
         try:
             t.close()
