@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/../ProntoTrends/ticket_counts.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ticket_counts.sql" dialect="MySQL" />
     <file url="PROJECT" dialect="MySQL" />
+  </component>
+  <component name="SqlResolveMappings">
+    <file url="file://$PROJECT_DIR$/Datapipeline/database_requests.py" scope="{&quot;node&quot;:{  &quot;@negative&quot;:&quot;1&quot;,  &quot;group&quot;:{   &quot;@kind&quot;:&quot;root&quot;,   &quot;node&quot;:{    &quot;name&quot;:{     &quot;@qname&quot;:&quot;2a10b9c9-7925-490d-88a0-433f12449f89&quot;    },    &quot;group&quot;:{     &quot;@kind&quot;:&quot;schema&quot;,     &quot;node&quot;:{      &quot;name&quot;:{       &quot;@qname&quot;:&quot;prontopro&quot;      },      &quot;name&quot;:{       &quot;@qname&quot;:&quot;prontopro_at&quot;      },      &quot;name&quot;:{       &quot;@qname&quot;:&quot;prontopro_ch&quot;      },      &quot;name&quot;:{       &quot;@qname&quot;:&quot;prontopro_de&quot;      },      &quot;name&quot;:{       &quot;@qname&quot;:&quot;prontopro_es&quot;      },      &quot;name&quot;:{       &quot;@qname&quot;:&quot;prontopro_fr&quot;      }     }    }   }  } }}" />
   </component>
 </project>
