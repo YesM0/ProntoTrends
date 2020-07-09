@@ -207,6 +207,9 @@ def translate_dict(dictionary: dict, translations: dict):
 
 
 def save_csv(df: pd.DataFrame, filepath: Filepath, **kwargs):
+    base_dir = os.path.split(filepath)[0]
+    if not os.path.exists(base_dir):
+        os.makedirs(base_dir)
     df.to_csv(filepath, **kwargs)
     print(f"Saved file: file://{filepath}")
 
