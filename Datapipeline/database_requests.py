@@ -45,6 +45,7 @@ class Inquiry:
         self.connection: Union[pymysql.Connection, bool] = False
         self.isConnected: bool = False
         self.data: Union[Dict[str, pd.DataFrame], None] = {}
+        self.file_settings: Optional[dict] = None
 
     def __repr__(self) -> str:
         s: str = f"Generic Inquiry [{self.country.Shortcode.upper()}]"
@@ -64,12 +65,14 @@ class Inquiry:
     def close(self):
         self.connection.close()
         self.isConnected = False
+        print("Closed connection")
 
     def get_settings_from_routine(self):
         to_fill = [key for key, val in self.__dict__.items() if val is None]
         settings = get_routine_settings()
         for attr in to_fill:
             setattr(self, attr, settings.get(attr, None))
+        self.file_settings = settings
 
     def execute(self, statement: str, statement_title: str = None) -> Optional[pd.DataFrame]:
         while not self.isConnected:
@@ -265,9 +268,10 @@ class Ticket_Detail_Inquiry(Inquiry):
             save_csv(italy, os.path.join(saving_folder, filename), index=False)
 
 
-def process_tag_time_data(group, droppable_cols: List[str] = ('year', 'month', 'day', 'tag_id', 'ticket_taxonomy_tag_name',
-                                                              'ticket_geo_region_name',
-                                                              'Index')):
+def process_tag_time_data(group: pd.DataFrame,
+                          droppable_cols: List[str] = ('year', 'month', 'day', 'tag_id', 'ticket_taxonomy_tag_name',
+                                                       'ticket_geo_region_name',
+                                                       'Index'), min_date: str = '2018-01-01'):
     """
     Used by Ticket_Count_Inquiry
 
@@ -278,17 +282,19 @@ def process_tag_time_data(group, droppable_cols: List[str] = ('year', 'month', '
     Returns:
 
     """
+    df = group.copy()
     # get max
-    maximum: float = group['Index'].max()
+    maximum: float = df['Index'].max()
     # rescale values
-    group['means'] = group['Index'].apply(lambda x: (x / maximum) * 100)
+    df['means'] = df['Index'].apply(lambda x: (x / maximum) * 100)
     # convert to dates
-    group, _ = formatDate(group)
+    df, _ = formatDate(df)
     # fill missing months
-    group = group.resample('M', on='date').mean().reset_index()
+
+    df = df.groupby(['ticket_taxonomy_tag_name', 'date']).mean().reset_index()
     # remove cols: final: ['date', 'means']
-    cleaned = group.drop(columns=[col for col in
-                                  droppable_cols if col in group.columns])
+    cleaned = df.drop(columns=[col for col in
+                               droppable_cols if col in df.columns])
     return cleaned
 
 
@@ -457,13 +463,17 @@ class Ticket_Count_Inquiry(Inquiry):
             group_percentages_of_all_tickets_in_region: pd.DataFrame = group.apply(scale_region_level,
                                                                                    args=(region_totals,), axis=1)
             index_max: float = group_percentages_of_all_tickets_in_region['Index'].max()
-            group_percentages_of_all_tickets_in_region['Index']: pd.DataFrame = group_percentages_of_all_tickets_in_region['Index'].apply(
+            group_percentages_of_all_tickets_in_region['Index']: pd.DataFrame = \
+            group_percentages_of_all_tickets_in_region['Index'].apply(
                 lambda x: (x / index_max) * 100)
-            final_scaled = group_percentages_of_all_tickets_in_region.drop(columns=['tag_id', 'ticket_taxonomy_tag_name'])
-            final_scaled = final_scaled.replace(to_replace=reverseDict(regions_map_english_to_local)).rename(columns={'ticket_geo_region_name': 'geoName', 'Index': 'means'})
+            final_scaled = group_percentages_of_all_tickets_in_region.drop(
+                columns=['tag_id', 'ticket_taxonomy_tag_name'])
+            final_scaled = final_scaled.replace(to_replace=reverseDict(regions_map_english_to_local)).rename(
+                columns={'ticket_geo_region_name': 'geoName', 'Index': 'means'})
             save_csv(final_scaled, os.path.join(FS.Aggregated, self.country.Full_name,
                                                 f"{self.country.Shortcode.upper()}_{tag_id}_{tag_name}_Geo.csv"))
-            final_scaled['region_id'] = final_scaled['geoName'].apply(lambda eng_name: engl_to_region_id.get(eng_name, eng_name))
+            final_scaled['region_id'] = final_scaled['geoName'].apply(
+                lambda eng_name: engl_to_region_id.get(eng_name, eng_name))
             self.region_scaling_factors[tag_name] = {row['region_id']: row['means'] for _, row in
                                                      final_scaled.iterrows()}
 
@@ -480,24 +490,30 @@ class Ticket_Count_Inquiry(Inquiry):
                 for (region_id, tag_id, tag_name), group in groups:
                     cleaned: pd.DataFrame = process_tag_time_data(group)
                     # save
-                    save_csv(cleaned, os.path.join(saving_folder, f"{region_id}_{tag_id}_{tag_name}_Time.csv"), index=False)
+                    save_csv(cleaned, os.path.join(saving_folder, f"{region_id}_{tag_id}_{tag_name}_Time.csv"),
+                             index=False)
                     cleaned['means'] = cleaned['means'].apply(
                         lambda x: x * ((self.region_scaling_factors.get(tag_name, {}).get(region_id, 1)) / 100))
                     save_csv(cleaned, os.path.join(saving_folder, f"{region_id}_{tag_id}_{tag_name}_Time_Adjusted.csv"),
                              index=False)
                 cc_grouped = df.groupby(grouping_cols[1:])
                 for (tag_id, tag_name), group in cc_grouped:
-                    group_dropped = group.drop(columns=[col for col in ['tag_id', 'ticket_taxonomy_tag_name', 'ticket_geo_region_name'] if col in group.columns])
+                    group_dropped = group.drop(
+                        columns=[col for col in ['tag_id', 'ticket_taxonomy_tag_name', 'ticket_geo_region_name'] if
+                                 col in group.columns])
                     country_lvl: pd.DataFrame = formatDate(group_dropped)[
                         0].resample(
                         'M', on='date').sum().reset_index()
                     # get max
                     maximum: float = country_lvl['Index'].max()
                     country_lvl['means'] = country_lvl['Index'].apply(lambda x: (x / maximum) * 100)
-                    country_lvl = country_lvl.drop(columns=[col for col in ['year', 'month', 'day', 'tag_id', 'ticket_taxonomy_tag_name','Index'] if col in country_lvl.columns])
+                    country_lvl = country_lvl.drop(
+                        columns=[col for col in ['year', 'month', 'day', 'tag_id', 'ticket_taxonomy_tag_name', 'Index']
+                                 if col in country_lvl.columns])
                     # save
                     save_csv(country_lvl,
-                             os.path.join(saving_folder, f"{self.country.Shortcode.upper()}_{tag_id}_{tag_name}_Time.csv"),
+                             os.path.join(saving_folder,
+                                          f"{self.country.Shortcode.upper()}_{tag_id}_{tag_name}_Time.csv"),
                              index=False)
 
 
@@ -512,7 +528,7 @@ class Ticket_Count_Inquiry_Comparison(Ticket_Count_Inquiry):
         super().__init__(country, db_login_data)
         self.name: Optional[str] = None
         self.query: Optional[str] = None
-        self.tag_categories: Dict[str, List[str]] = {}
+        self.tag_categories: Optional[Dict[str, List[str]]] = None
 
     def __repr__(self):
         s: str = f"Ticket_Count-Inquiry (Comparison) [{self.country.Shortcode.upper()}]: {self.name}"
@@ -521,10 +537,11 @@ class Ticket_Count_Inquiry_Comparison(Ticket_Count_Inquiry):
         return s
 
     def define_query_settings(self, tags_included: Union[List[Union[int, str]], None] = None,
-                              min_date: Union[None, str] = "'2018-01-01'", tag_categories: Dict[str, List[str]] = {}):
-        super().define_query_settings(tags_included, min_date)
+                              min_date: Union[None, str] = "'2018-01-01'",
+                              tag_categories: Optional[Dict[str, List[str]]] = None):
         self.tag_categories = tag_categories
-        if len(self.tag_categories) < 0:
+        super().define_query_settings(tags_included, min_date)
+        if self.tag_categories is None or len(self.tag_categories) == 0:
             print("To group the tags, please define the categories to be used (there can also be only 1)")
             categories = defineList(label='categories to use')
             for category in categories:
@@ -545,22 +562,33 @@ class Ticket_Count_Inquiry_Comparison(Ticket_Count_Inquiry):
                 for region_id, group in groups:
                     cleaned: pd.DataFrame = process_tag_time_data(group, droppable_cols=['year', 'month',
                                                                                          'ticket_geo_region_name',
-                                                                                         'Index'])
+                                                                                         'tag_id', 'Index', 'day'])
                     # save
                     pivot = cleaned.pivot_table(index=['date'], columns='ticket_taxonomy_tag_name', aggfunc=sum,
-                                                fill_value=0)
+                                                fill_value=0).reset_index()
+                    cols = list(map(lambda col: col[0] if len(col[1]) == 0 else col[1], pivot.columns))
+                    pivot.columns = cols
                     save_csv(pivot,
                              os.path.join(saving_folder, f"Time_{self.country.Full_name}_{region_id}_{category}.csv"),
                              index=False)
-                cat_country_lvl: pd.DataFrame = formatDate(cat_df.drop(columns='ticket_geo_region_name'))[0].resample(
-                    'M', on='date').sum()
+                cat_country_lvl: pd.DataFrame = formatDate(cat_df.drop(columns='ticket_geo_region_name'))[0].groupby(
+                    ['ticket_taxonomy_tag_name', 'date']).sum()
                 # get max
                 maximum: float = cat_country_lvl['Index'].max()
                 # rescale values
                 cat_country_lvl['means'] = cat_country_lvl['Index'].apply(lambda x: (x / maximum) * 100)
                 cat_country_lvl: pd.DataFrame = cat_country_lvl.drop(columns='Index')
                 country_pivot = cat_country_lvl.pivot_table(index='date', columns='ticket_taxonomy_tag_name',
-                                                            aggfunc=sum, fill_value=0)
+                                                            aggfunc=sum, fill_value=0).reset_index().drop(
+                    columns=[col for col in
+                             ['year',
+                                 'month',
+                                 'ticket_geo_region_name',
+                                 'tag_id',
+                                 'Index',
+                                 'day'] if col in cat_country_lvl.columns])
+                cols = list(map(lambda col: col[0] if len(col[1]) == 0 else col[1], country_pivot.columns))
+                country_pivot.columns = cols
                 save_csv(country_pivot, os.path.join(saving_folder,
                                                      f"Time_{self.country.Full_name}_{self.country.Shortcode.upper()}_{category}.csv"),
                          index=False)
@@ -580,6 +608,7 @@ if __name__ == '__main__':
         t.construct_query()
         t.execute()
         t.treat_data()
+        t.close()
         print(t)
     except Exception as e:
         logging.exception('Message')

@@ -1,0 +1,71 @@
+name: Renovation
+tags_included:
+    - Cronotermostato e termostato
+    - Installazione impianto di domotica
+    - Installazione impianto wifi
+    - Automazione cancelli
+    - Motorizzazione tapparelle
+    - Finestre blindate
+    - Installazione o sostituzione vetro antisfondamento
+    - Installazione o sostituzione inferriate
+    - Impianto di allarme
+    - Installazione o sostituzione impianto di videosorveglianza
+    - Installazione o sostituzione porte blindate
+    - Certificato conformità impianto elettrico
+    - Rifacimento facciata
+    - Installazione o sostituzione pannelli fotovoltaici
+    - Riparazione o manutenzione tetto
+    - Costruzione o sostituzione tetto
+    - Installazione o sostituzione finestre
+    - Installazione o sostituzione doppi vetri
+    - Certificazione energetica
+    - Riqualificazione energetic
+    - Installazione o sostituzione serrature
+group_by_tag_name: True
+min_date: '2018-01-01'
+tag_categories:
+    Smart home:
+        - Cronotermostato e termostato
+        - Installazione impianto di domotica
+        - Installazione impianto wifi
+        - Automazione cancelli
+        - Motorizzazione tapparelle
+    Security:
+        - Finestre blindate
+        - Installazione o sostituzione vetro antisfondamento
+        - Installazione o sostituzione inferriate
+        - Impianto di allarme
+        - Installazione o sostituzione impianto di videosorveglianza
+        - Installazione o sostituzione porte blindate
+        - Certificato conformità impianto elettrico
+    Energy efficiency:
+        - Rifacimento facciata
+        - Installazione o sostituzione pannelli fotovoltaici
+        - Riparazione o manutenzione tetto
+        - Costruzione o sostituzione tetto
+        - Installazione o sostituzione finestre
+        - Installazione o sostituzione doppi vetri
+        - Certificazione energetica
+        - Riqualificazione energetica
+    All_Renovation:
+        - Cronotermostato e termostato
+        - Installazione impianto di domotica
+        - Installazione impianto wifi
+        - Automazione cancelli
+        - Motorizzazione tapparelle
+        - Finestre blindate
+        - Installazione o sostituzione vetro antisfondamento
+        - Installazione o sostituzione inferriate
+        - Impianto di allarme
+        - Installazione o sostituzione impianto di videosorveglianza
+        - Installazione o sostituzione porte blindate
+        - Certificato conformità impianto elettrico
+        - Rifacimento facciata
+        - Installazione o sostituzione pannelli fotovoltaici
+        - Riparazione o manutenzione tetto
+        - Costruzione o sostituzione tetto
+        - Installazione o sostituzione finestre
+        - Installazione o sostituzione doppi vetri
+        - Certificazione energetica
+        - Riqualificazione energetic
+        - Installazione o sostituzione serrature

@@ -184,7 +184,7 @@ def chooseFolder(request_str: str = None, base_folder=None, testing: bool = Fals
                     return curr_path
 
 
-def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = None, testing: bool = False, test_return: str = "", request_prompt: str = None, base_path: Folderpath = None) -> Filepath:
+def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = None, testing: bool = False, test_return: str = "", request_prompt: str = None, base_path: Folderpath = None, give_filter_option: bool = True) -> Filepath:
     if testing:
         print(test_return)
         return test_return
@@ -193,10 +193,10 @@ def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = No
             print(request_prompt)
         curr_path = os.getcwd() if base_path is None else base_path
         do_selection = isinstance(other_only_if_contains_selections, list)
-        if not do_selection:
+        if not do_selection and give_filter_option:
             print(f"To make file-selection easier, you can set up selection presets.\n")
             do_selection = binaryResponse("Do you want to set these?")
-        if do_selection:
+        if do_selection and give_filter_option:
             if isinstance(other_only_if_contains_selections, list):
                 print(f"Currently the following are already chosen: {other_only_if_contains_selections}")
             other_only_if_contains_selections = defineList(initial_selection=other_only_if_contains_selections, label="Items (applied as keep if contains item)")

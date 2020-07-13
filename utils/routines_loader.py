@@ -14,7 +14,7 @@ def get_routine_settings(filename: str = None) -> dict:
     file = None
     if not filename:
         file = chooseFile(filetype='.yaml', request_prompt='Choose the file to get the routine from',
-                          base_path=FS.Routines)
+                          base_path=FS.Routines, give_filter_option=False)
     else:
         for x in os.listdir(FS.Routines):
             if filename in x:

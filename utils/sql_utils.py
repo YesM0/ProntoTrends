@@ -292,7 +292,8 @@ def resolve_where_dict(settings: Dict[str, Union[str, int, list, dict]], joiner:
                     alternatives = []
                     for condition in conditions:
                         alternatives.append(f"{field} {operator} {condition}")
-                    res.append(" OR ".join(alternatives))
+                    or_join = " OR ".join(alternatives)
+                    res.append(f"({or_join})")
                 if ind < len(fields) - 1 and res[-1] != joiner:
                     res.append(joiner)
         else:
