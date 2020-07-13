@@ -1,5 +1,6 @@
 if __name__ == '__main__':
     import sys
+
     sys.path.append('../')
 
 import os
@@ -15,6 +16,7 @@ CWD = os.getcwd()
 if 'utils' in CWD:
     CWD = os.path.split(CWD)[0]
 
+
 def user_input(prompt: str, blocked_contents: List[str] = None) -> str:
     while True:
         res = input(prompt)
@@ -28,7 +30,8 @@ def user_input(prompt: str, blocked_contents: List[str] = None) -> str:
             return res
 
 
-def getChosenCountry(action: str = 'scrape', testing: bool = False, test_return: Union[None, tuple] = None) -> (Country_Shortcode, Country_Fullname):
+def getChosenCountry(action: str = 'scrape', testing: bool = False, test_return: Union[None, tuple] = None) -> (
+Country_Shortcode, Country_Fullname):
     if testing:
         print(test_return)
         if not isinstance(test_return, tuple):
@@ -45,7 +48,8 @@ def getChosenCountry(action: str = 'scrape', testing: bool = False, test_return:
         }
         while True:
             pprint(allowed_ccs)
-            chosen: str = user_input(f"What country do you want to {action} for? Please put in the shortcode:\n").strip().lower()
+            chosen: str = user_input(
+                f"What country do you want to {action} for? Please put in the shortcode:\n").strip().lower()
             res: Union[str, bool] = allowed_ccs.get(chosen, False)
             if res:
                 return Country_Shortcode(chosen.upper()), Country_Fullname(res)
@@ -76,9 +80,11 @@ def binaryResponse(question_string: str, testing: bool = False, test_return: boo
                 continue
 
 
-def choose_from_dict(dictionary: Union[Dict[Union[str, int], str], List[str]], label: str = 'items', incl_end_option: bool = False,
+def choose_from_dict(dictionary: Union[Dict[Union[str, int], str], List[str]], label: str = 'items',
+                     incl_end_option: bool = False,
                      end_description: str = "End Selection", allow_multiple_answers: bool = False,
-                     testing: bool = False, test_return: str = "", request_description: str = "") -> Union[str, List[str]]:
+                     testing: bool = False, test_return: str = "", request_description: str = "") -> Union[
+    str, List[str]]:
     if testing:
         print(test_return)
         return test_return
@@ -130,7 +136,7 @@ def choose_from_dict(dictionary: Union[Dict[Union[str, int], str], List[str]], l
 
 
 def choose_multiple_from_dict(dictionary: Union[Dict[Union[str, int], str], List[str]], label: str = 'items',
-                               testing: bool = False, test_return: str = "", request_description: str = ""):
+                              testing: bool = False, test_return: str = "", request_description: str = ""):
     if isinstance(dictionary, list):
         dictionary = {i: k for i, k in enumerate(dictionary)}
     if testing is True:
@@ -184,7 +190,9 @@ def chooseFolder(request_str: str = None, base_folder=None, testing: bool = Fals
                     return curr_path
 
 
-def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = None, testing: bool = False, test_return: str = "", request_prompt: str = None, base_path: Folderpath = None, give_filter_option: bool = True) -> Filepath:
+def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = None, testing: bool = False,
+               test_return: str = "", request_prompt: str = None, base_path: Folderpath = None,
+               give_filter_option: bool = True) -> Filepath:
     if testing:
         print(test_return)
         return test_return
@@ -199,7 +207,8 @@ def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = No
         if do_selection and give_filter_option:
             if isinstance(other_only_if_contains_selections, list):
                 print(f"Currently the following are already chosen: {other_only_if_contains_selections}")
-            other_only_if_contains_selections = defineList(initial_selection=other_only_if_contains_selections, label="Items (applied as keep if contains item)")
+            other_only_if_contains_selections = defineList(initial_selection=other_only_if_contains_selections,
+                                                           label="Items (applied as keep if contains item)")
         while True:
             contents = os.listdir(curr_path)
             undesired = ['__pycache__', '.ipynb_checkpoints', 'venv', '.idea']
@@ -221,14 +230,16 @@ def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = No
                 elif os.path.isfile(poss_path):
                     return poss_path
 
+
 # TODO (p1): Add unit test -> single input, multi input
-def defineList(initial_selection: list = (), label: str = "categories", wanted_type: str = None) -> list:
+def defineList(initial_selection: list = (), label: str = "categories", wanted_type: str = None, request_text: str = None) -> list:
     chosen = initial_selection.copy() if len(initial_selection) > 0 else []
     run = 0 if len(chosen) > 0 else 1
     while True:
         if run > 0:
             while True:
-                cats = user_input(f"Please declare the {label} you want to use:\n")
+                question = f"Please declare the {label} you want to use:\n" if not request_text else f"{request_text}\n"
+                cats = user_input(question)
                 if "," in cats:
                     cats = cats.split(",")
                     cats = [x.strip() for x in cats]
@@ -277,7 +288,9 @@ def defineFilename(target_ending: str = '.json', target_folder: str = None) -> F
     return path
 
 
-def choose_column(df: pd.DataFrame, instruction_str: str = None, testing: bool = False, test_return: Union[str, List[str]] = None, allow_multiple: bool = False, exclude: list = ()) -> Union[str, List[str]]:
+def choose_column(df: pd.DataFrame, instruction_str: str = None, testing: bool = False,
+                  test_return: Union[str, List[str]] = None, allow_multiple: bool = False, exclude: list = ()) -> Union[
+    str, List[str]]:
     """
     Allows the user to select one or more columns
     Args:
@@ -315,4 +328,3 @@ def int_input(prompt: str) -> int:
             return integer
         except ValueError:
             print("Could not parse input. Make sure you type a number")
-

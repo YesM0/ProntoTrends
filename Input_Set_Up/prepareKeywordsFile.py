@@ -1,4 +1,3 @@
-from utils.sql_utils import selectTagsFromDB
 
 if __name__ == '__main__':
     import sys
@@ -8,6 +7,7 @@ import os
 import pandas as pd
 import phpserialize as ps  # pip install phpserialize
 import json
+from utils.sql_utils import selectTagsFromDB
 from utils.user_interaction_utils import binaryResponse, choose_from_dict, choose_multiple_from_dict, \
     chooseFile, defineList
 from utils.Filesys import generic_FileServer
@@ -127,24 +127,6 @@ def deduplicatedTagsByName(df):
     return tags
 
 
-def inputList(request_text="",item_type='str'):
-    while True:
-        inp = input(f"{request_text} (seperate by comma)\n").strip()
-        try:
-            if "," in inp:
-                if item_type == 'str':
-                    inp = map(lambda x: x.strip(), inp.split(","))
-                elif item_type == 'int':
-                    inp = map(lambda x: int(x), inp.split(","))
-            else:
-                if item_type == 'str':
-                    inp = [inp]
-                elif item_type == 'int':
-                    inp = [int(inp)]
-            return inp
-        except Exception as e:
-            print(e)
-
 if __name__ == '__main__':
     country = choose_from_dict({1: 'IT', 2: 'DE', 3: 'ES', 4: 'FR', 5: 'AT', 6: 'CH'}, 'Countries')
     if binaryResponse("Do you have a sourcefile to get Tag information from?"):
@@ -158,9 +140,9 @@ if __name__ == '__main__':
         kwds = False
         tag_ids = False
         if use_ids:
-            tag_ids = inputList(request_text="Please input the tag ids to use", item_type='int')
+            tag_ids = defineList(request_text="Please input the tag ids to use", wanted_type='int')
         else:
-            kwds = inputList(request_text="Please input the Contains-Match keywords to use", item_type='str')
+            kwds = defineList(wanted_type='str', request_text="Please input the Contains-Match keywords to use")
         df = selectTagsFromDB(country.lower(), kwds=kwds, tag_ids=tag_ids)
         df = apply_php_deserialization(df)
     if binaryResponse("Do you want to create the CSV's to scrape keywords individually (y) or do you want to create the json files to scrape them in comparison (n)?"):
