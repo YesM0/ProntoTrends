@@ -1,5 +1,5 @@
 name: Renovation
-tags_included:
+tags_included:  # choose either of Tag ID or Tag Name
     - Cronotermostato e termostato
     - Installazione impianto di domotica
     - Installazione impianto wifi

@@ -233,7 +233,7 @@ def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = No
 
 # TODO (p1): Add unit test -> single input, multi input
 def defineList(initial_selection: list = (), label: str = "categories", wanted_type: str = None, request_text: str = None) -> list:
-    chosen = initial_selection.copy() if len(initial_selection) > 0 else []
+    chosen = initial_selection.copy() if initial_selection is not None and len(initial_selection) > 0 else []
     run = 0 if len(chosen) > 0 else 1
     while True:
         if run > 0:

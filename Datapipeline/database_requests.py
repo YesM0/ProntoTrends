@@ -360,9 +360,9 @@ class Ticket_Count_Inquiry(Inquiry):
                 tags_involved_in_merges.extend(selection)
             # get the associated tag ids and select one per new tags
             where = assemble_where(settings={'IN': {
-                't.id': tags_involved_in_merges
+                't.name': tags_involved_in_merges
             }})
-            q = f"SELECT t.id as 'id', t.name as 'name' FROM {self.db}.tag {where}"
+            q = f"SELECT t.id as 'id', t.name as 'name' FROM {self.db}.tag t {where}"
             lst: pd.DataFrame = self.execute(q, do_retain_data=False)
             lookup: Dict[str, int] = {row[1]: row[0] for i, row in lst.iterrows()}  # converts df to Dict[name: id]
             id_merges: Dict[int, List[int]] = {}
@@ -438,11 +438,14 @@ class Ticket_Count_Inquiry(Inquiry):
     def execute(self, statement: str = None, statement_name: str = None, do_retain_data: bool = True) -> pd.DataFrame:
         title = statement_name if statement_name else self.name
         statement = statement if statement else self.query
-        result = super().execute(statement, statement_title=title)
-        print(f"Received data: {result.shape}")
-        if do_retain_data:
-            self.data[title] = result
-        return result
+        result: pd.DataFrame = super().execute(statement, statement_title=title)
+        if result is not None and not result.empty:
+            print(f"Received data: {result.shape}")
+            if do_retain_data:
+                self.data[title] = result
+            return result
+        else:
+            print("Error: Did not receive data")
 
     def get_geo_data(self):
         restricted_query: str = self.construct_geo_query()
@@ -471,7 +474,7 @@ class Ticket_Count_Inquiry(Inquiry):
             final_scaled = final_scaled.replace(to_replace=reverseDict(regions_map_english_to_local)).rename(
                 columns={'ticket_geo_region_name': 'geoName', 'Index': 'means'})
             save_csv(final_scaled, os.path.join(FS.Aggregated, self.country.Full_name,
-                                                f"{self.country.Shortcode.upper()}_{tag_id}_{tag_name}_Geo.csv"))
+                                                f"{self.country.Shortcode.upper()}_{tag_id}_{tag_name.replace('/', '-')}_Geo.csv"))
             final_scaled['region_id'] = final_scaled['geoName'].apply(
                 lambda eng_name: engl_to_region_id.get(eng_name, eng_name))
             self.region_scaling_factors[tag_name] = {row['region_id']: row['means'] for _, row in
@@ -490,11 +493,11 @@ class Ticket_Count_Inquiry(Inquiry):
                 for (region_id, tag_id, tag_name), group in groups:
                     cleaned: pd.DataFrame = process_tag_time_data(group)
                     # save
-                    save_csv(cleaned, os.path.join(saving_folder, f"{region_id}_{tag_id}_{tag_name}_Time.csv"),
+                    save_csv(cleaned, os.path.join(saving_folder, f"{region_id}_{tag_id}_{tag_name.replace('/', '-')}_Time.csv"),
                              index=False)
                     cleaned['means'] = cleaned['means'].apply(
                         lambda x: x * ((self.region_scaling_factors.get(tag_name, {}).get(region_id, 1)) / 100))
-                    save_csv(cleaned, os.path.join(saving_folder, f"{region_id}_{tag_id}_{tag_name}_Time_Adjusted.csv"),
+                    save_csv(cleaned, os.path.join(saving_folder, f"{region_id}_{tag_id}_{tag_name.replace('/', '-')}_Time_Adjusted.csv"),
                              index=False)
                 cc_grouped = df.groupby(grouping_cols[1:])
                 for (tag_id, tag_name), group in cc_grouped:
@@ -513,7 +516,7 @@ class Ticket_Count_Inquiry(Inquiry):
                     # save
                     save_csv(country_lvl,
                              os.path.join(saving_folder,
-                                          f"{self.country.Shortcode.upper()}_{tag_id}_{tag_name}_Time.csv"),
+                                          f"{self.country.Shortcode.upper()}_{tag_id}_{tag_name.replace('/', '-')}_Time.csv"),
                              index=False)
 
 
@@ -550,6 +553,7 @@ class Ticket_Count_Inquiry_Comparison(Ticket_Count_Inquiry):
                 self.tag_categories[category] = defineList(label='tags to be added to the category')
 
     def treat_data(self):
+        # possibility to save the raw data
         for k, df in self.data.items():
             if 'day' not in df.columns:
                 df['day'] = 1
@@ -597,12 +601,12 @@ class Ticket_Count_Inquiry_Comparison(Ticket_Count_Inquiry):
 if __name__ == '__main__':
     choice = choose_from_dict(['Ticket_Detail_Inquiry', 'Ticket_Count_Inquiry', 'Ticket_Count_Inquiry_Comparison'],
                               label='Inquiries', request_description='What kind of inquiry do you want to conduct?')
-    c: type = {
+    cls: type = {
         'Ticket_Detail_Inquiry': Ticket_Detail_Inquiry,
         'Ticket_Count_Inquiry': Ticket_Count_Inquiry,
         'Ticket_Count_Inquiry_Comparison': Ticket_Count_Inquiry_Comparison
     }.get(choice, Ticket_Count_Inquiry)
-    t = c(country=Country(short_name='it'), db_login_data=None)
+    t = cls(country=getCountry('What country do you want to retrieve data for?'), db_login_data=None)
     try:
         t.define_query_settings()
         t.construct_query()

@@ -11,6 +11,7 @@ from utils.sql_utils import selectTagsFromDB
 from utils.user_interaction_utils import binaryResponse, choose_from_dict, choose_multiple_from_dict, \
     chooseFile, defineList
 from utils.Filesys import generic_FileServer
+from utils.misc_utils import save_csv
 
 FS = generic_FileServer
 
@@ -57,10 +58,9 @@ def generateKeywordsFile(df, prefix_out='', cc='IT'):
     keywords_df = pd.DataFrame(keyword_ids, columns=['kwd_id', 'Keyword'])
     tag_kwd_df = pd.DataFrame(tag_kwd, columns=["tag_id", "kwd_id", "tag", "keyword"])
     prefix_out = f"{prefix_out}_" if len(prefix_out) > 0 else ''
-    saveLocation = os.path.join('Input_Files', f"{prefix_out}Keywords_{cc}.csv")
-    keywords_df.to_csv(saveLocation, index=False)
-    tag_kwd_df.to_csv(os.path.join('Input_Files', f"{prefix_out}Tag_Keyword_{cc}.csv"), index=False)
-    print(f"SAVED FILES: {saveLocation}")
+    saveLocation = os.path.join(FS.Inputs, f"{prefix_out}Keywords_{cc}.csv")
+    save_csv(keywords_df, saveLocation, index=False)
+    save_csv(tag_kwd_df, os.path.join(FS.Inputs, f"{prefix_out}Tag_Keyword_{cc}.csv"), index=False)
 
 
 def read_php_csv(filename):
@@ -104,7 +104,7 @@ def generateComparisonsFile(df, country):
             cat_kwds[option] = list(set(option_kwds))
         final[cat] = cat_kwds
     s = json.dumps(final)
-    path = os.path.join(FS.Inputs, f'ProntoPro_Trends_Questions_{country.upper()}')
+    path = os.path.join(FS.Inputs, f'ProntoPro_Trends_Questions_{country.upper()}.json')
     with open(path, 'w+') as f:
         f.write(s)
         print(f"Saved file {path}")
@@ -137,19 +137,21 @@ if __name__ == '__main__':
             use_ids = True
         else:
             use_ids = False
-        kwds = False
-        tag_ids = False
+        kwds = None
+        tag_ids = None
         if use_ids:
             tag_ids = defineList(request_text="Please input the tag ids to use", wanted_type='int')
         else:
             kwds = defineList(wanted_type='str', request_text="Please input the Contains-Match keywords to use")
         df = selectTagsFromDB(country.lower(), kwds=kwds, tag_ids=tag_ids)
         df = apply_php_deserialization(df)
-    if binaryResponse("Do you want to create the CSV's to scrape keywords individually (y) or do you want to create the json files to scrape them in comparison (n)?"):
+    c = choose_from_dict(['CSV to scrape Keywords individually', 'JSON file for Comparison', 'Both'], request_description='What type of files do you want to create?', label='actions')
+
+    if c == 'CSV to scrape Keywords individually' or c == 'Both':
         prefix = ""
         if binaryResponse("Do you want to add a prefix to the filename?"):
             prefix = input("Please type the prefix:\n").strip()
         generateKeywordsFile(df, prefix_out=prefix, cc=country)
-    else:
+    if c == 'JSON file for Comparison' or c == 'Both':
         generateComparisonsFile(df, country)
 

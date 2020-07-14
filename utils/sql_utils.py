@@ -114,7 +114,6 @@ def construct_query_tags_keywords(cc_short: Country_Shortcode, kwds=None, tag_id
     if kwds is not None:
         if isinstance(kwds, str):
             kwds = [kwds]
-
         for kwd in kwds:
             if not conditions == 0:
                 sql += "or "

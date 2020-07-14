@@ -138,7 +138,6 @@ class AnalysisJob:
         return cls.instances.get(f"{tag_id}-{region_code}-{dimension}", fallback_val)
 
 
-
 def buildJobs(mergeInfo, country, is_other_folder=False, only_country_level=False, source_folder=FS.Kwd_Level_Outs):
     dimensions = ['Time', 'Geo']
     region_codes = generateRegionIds(country)

@@ -643,7 +643,7 @@ def dialog():
         file: None = None
         if choose_file:
             ft = ".csv" if "Individual Keywords" in choice else ".json"
-            file: Filepath = chooseFile(filetype=ft, other_only_if_contains_selections=[short, country])
+            file: Filepath = chooseFile(filetype=ft, other_only_if_contains_selections=[short, country], base_path=FS.cwd)
         if choice == 'Individual Keywords ("Keywords_CC.csv) - All Regions':
             keywords = readInKeywords(short, prefix=prefix) if not file else readInKeywords(short, prefix=prefix,
                                                                                             file_path=file)
