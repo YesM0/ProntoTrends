@@ -1,6 +1,6 @@
 import os
 import sys
-from typing import List, Dict
+from typing import List, Dict, Union
 
 sys.path.extend(["../", "./"])
 
@@ -24,17 +24,24 @@ def get_available_category_overviews(country: Country, campaign_name: str) -> Li
         '.') and 'Main_Section' not in f and 'Top5_Tags' not in f and 'Main_Section' not in f and 'Chart_Data' not in f and 'Table_Data' not in f and 'Map_Data' not in f]
 
 
-def get_available_tags(country: Country) -> Dict[str, int]:
+def get_available_tags(country: Country) -> List[Dict[str, Union[int, str, bool]]]:
     all_files: List[str] = os.listdir(os.path.join(FS.Aggregated, country.Full_name))
     tags = {}
     for file in all_files:
         if 'Adjusted' in file or (not file.startswith('.') and not file.startswith(f"{country.Shortcode.upper()}-")):
             try:
                 tag_name = file.split('_')[2]
+                tags[tag_name] = tags.get(tag_name, 0) + 1
             except Exception as e:
                 print(e)
-            tags[tag_name] = tags.get(tag_name, 0) + 1
-    return tags
+    array_form = []
+    for key, val in tags.items():
+        array_form.append({
+            'tag_name': key,
+            'count': val,
+            'chosen': False
+        })
+    return array_form
 
 
 if __name__ == '__main__':

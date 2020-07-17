@@ -6,6 +6,7 @@ import Collapsible from "react-collapsible";
 import {eel} from '../App'
 import CategoryOverviewSection from '../components/CategoryOverviewSection'
 import Top5Section from '../components/Top5Section'
+import ChartDataSection from "../components/ChartDataSection";
 
 export interface CategoryOverviewsSettings {
     category_names: Array<string>,
@@ -14,7 +15,6 @@ export interface CategoryOverviewsSettings {
 
 interface ChartDataSettings {
     min_region_count: number,
-    manual_tag_selection: boolean,
     tags_selected: Array<string>
 }
 
@@ -69,7 +69,6 @@ class FinalCsvGenerationSetup extends Component<{}, UserSettings> {
                 category_names: []
             },
             chart_settings: {
-                manual_tag_selection: true,
                 min_region_count: 0,
                 tags_selected: []
             },
@@ -192,8 +191,7 @@ class FinalCsvGenerationSetup extends Component<{}, UserSettings> {
                     </Collapsible>
                     <Collapsible trigger={'chart-data'} triggerStyle={styles.subsection_headers} transitionTime={200}
                                  triggerTagName={'div'}>
-                        <div>Min Region Count</div>
-                        <div>Manual Tag Selection</div>
+                        <ChartDataSection globalStateSetter={this.handleComponentSubmit} country_short_code={this.state.country_short_name || 'DE'} key={this.state.country_short_name}/>
                     </Collapsible>
                     <Collapsible trigger={'Table'} triggerStyle={styles.subsection_headers} transitionTime={200}
                                  triggerTagName={'div'}>

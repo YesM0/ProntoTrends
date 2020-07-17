@@ -1,6 +1,7 @@
 import os
 import platform
 import sys
+
 if __name__ == '__main__':
     sys.path.extend(['../', '.../', './'])
 from typing import List, Dict, Union, Optional, Any
@@ -23,14 +24,20 @@ def process_input(x):
     else:
         return 'Try again'
 
+
 @eel.expose
 def get_comparisons(country_short_code: Country_Shortcode):
     return get_available_comparisons(Country(short_name=country_short_code))
 
 
+@eel.expose
+def get_tags(country_short_code: Country_Shortcode) -> List[Dict[str, Union[int, str, bool]]]:
+    return get_available_tags(Country(short_name=country_short_code))
+
 
 def send_logs_to_frontend(string):
     eel.show_log(string)
+
 
 @eel.expose
 def receive_data(data: Dict[str, Union[Dict[str, Any], str]]):
@@ -56,7 +63,6 @@ def getLog():
     eel.show_log('HI FROM PYTHON')
 
 
-
 def start_eel(develop):
     """Start Eel with either production or development configuration."""
 
@@ -64,8 +70,10 @@ def start_eel(develop):
         directory = 'src'
         app = None
         page = {'port': 3000}
+
         def close_callback(page, sockets):
             pass
+
         print("Starting eel")
     else:
         directory = 'build'
@@ -74,7 +82,6 @@ def start_eel(develop):
         close_callback = None
 
     eel.init(directory, ['.tsx', '.ts', '.jsx', '.js', '.html'])
-
 
     eel_kwargs = dict(
         host='localhost',
