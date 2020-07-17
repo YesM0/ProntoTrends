@@ -21,7 +21,7 @@ def getFile(country, tag, dimension, region_shortcode):
     expected_file_location = os.path.join(FS.Aggregated, country)
     for filename in os.listdir(expected_file_location):
         components = filename.split("_")
-        if components[0] == region_shortcode and components[3] == f"{dimension}.csv" and (
+        if len(components) >= 4 and components[0] == region_shortcode and components[3] == f"{dimension}.csv" and (
                 components[1] == tag or components[2] == tag):
             return os.path.join(expected_file_location, filename)
     return None
@@ -38,7 +38,7 @@ def getAvailableTags(country, short_code, dimension):
     tags = {}
     for filename in os.listdir(expected_file_location):
         components = filename.split("_")
-        if components[0] == short_code and components[3] == f"{dimension}.csv":
+        if len(components) >= 4 and components[0] == short_code and components[3] == f"{dimension}.csv":
             tags[components[2]] = components[1]
     return tags
 

@@ -5,6 +5,9 @@ if __name__ == '__main__':
     sys.path.extend(['../', '.../', './'])
 from typing import List, Dict, Union, Optional, Any
 from Validation.validationSetup import handleGUIData
+from utils.custom_types import *
+from utils.Countries import getCountry, Country
+from api.api_resolvers import get_available_comparisons, get_available_tags, get_available_category_overviews
 
 sys.path.extend(['../../', '../', './'])
 import eel
@@ -19,6 +22,11 @@ def process_input(x):
         return 'This is false'
     else:
         return 'Try again'
+
+@eel.expose
+def get_comparisons(country_short_code: Country_Shortcode):
+    return get_available_comparisons(Country(short_name=country_short_code))
+
 
 
 def send_logs_to_frontend(string):
@@ -56,11 +64,14 @@ def start_eel(develop):
         directory = 'src'
         app = None
         page = {'port': 3000}
+        def close_callback(page, sockets):
+            pass
         print("Starting eel")
     else:
         directory = 'build'
         app = 'chrome-app'
         page = 'index.html'
+        close_callback = None
 
     eel.init(directory, ['.tsx', '.ts', '.jsx', '.js', '.html'])
 
@@ -71,7 +82,7 @@ def start_eel(develop):
         size=(1280, 800),
     )
     try:
-        eel.start(page, mode=app, **eel_kwargs)
+        eel.start(page, mode=app, close_callback=close_callback, **eel_kwargs)
         print("Started eel")
     except EnvironmentError as e:
         # If Chrome isn't found, fallback to Microsoft Edge on Win10 or greater

@@ -1,6 +1,7 @@
 import os
 import sys
-
+if __name__ == '__main__':
+    sys.path.extend(['../', './'])
 
 
 import pandas as pd
@@ -303,12 +304,12 @@ def adjust_Top5_Data(final_df: pd.DataFrame, country: Country_Fullname):
     return final_df
 
 
-def createMainSectionCsv(country: Country_Fullname, files: list, campaign_shortname: str = 'Wed') -> pd.DataFrame:
+def createMainSectionCsv(country: Country_Fullname, files: List[str], campaign_shortname: str = 'Wed') -> pd.DataFrame:
     final_folder: Folderpath = os.path.join(FS.Final, country, campaign_shortname)
-    comparisons_path, regions = getSetUp(country)
+    # comparisons_path, regions = getSetUp(country)
     out = []
     for file in files:
-        filepath = os.path.join(final_folder, file)
+        filepath: Filepath = os.path.join(final_folder, file)  # file is only the filename
         df = read_csv_utility(filepath, country)
         typ = file.split("-")[1].split("_")[0]
         try:
@@ -319,9 +320,9 @@ def createMainSectionCsv(country: Country_Fullname, files: list, campaign_shortn
                 f"{lcol.OKGREEN}Probably, In the file file://{file} no header called 'Distribution' exists. Please check!\nThe category will be skipped now.{lcol.ENDC}")
             continue
         y = 'Year' if 'Year' in df.columns else 'year'
-        years = df[y].unique().tolist()
+        # years = df[y].unique().tolist()
         t = [item for item in df.columns if 'type' in item.lower()][0]
-        categories = df[t].unique().tolist()
+        # categories = df[t].unique().tolist()
         g = [item for item in df.columns if '_geo' in item.lower()][0]
         grouped = df.groupby([y, g])
         for name, group in grouped:
@@ -757,7 +758,7 @@ def dialog():
                 except FileNotFoundError as e:
                     print(e)
         elif chosenAction == 'create Main Section':
-            chosen_files = choose_multiple_from_dict(
+            chosen_files: List[str] = choose_multiple_from_dict(
                 [x for x in os.listdir(os.path.join(FS.Final, country, campaign_short_code)) if not x.startswith(".")],
                 request_description='Which of these categories do you want to include in the Main.csv?', label='Files')
             # choices = [x.split("-")[1].split("_")[0] for x in choices]

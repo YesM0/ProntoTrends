@@ -1,5 +1,5 @@
-import React from 'react'
-import MaterialTable from "material-table";
+import React, {ReactNode} from 'react'
+import MaterialTable, {Column} from "material-table";
 import {forwardRef} from 'react';
 
 import AddBox from '@material-ui/icons/AddBox';
@@ -18,7 +18,10 @@ import SaveAlt from '@material-ui/icons/SaveAlt';
 import Search from '@material-ui/icons/Search';
 import ViewColumn from '@material-ui/icons/ViewColumn';
 
-const tableIcons = {
+// icon types
+import {Icons} from "material-table";
+
+const tableIcons: Icons = {
     Add: forwardRef((props, ref) => <AddBox {...props} ref={ref}/>),
     Check: forwardRef((props, ref) => <Check {...props} ref={ref}/>),
     Clear: forwardRef((props, ref) => <Clear {...props} ref={ref}/>),
@@ -38,15 +41,20 @@ const tableIcons = {
     ViewColumn: forwardRef((props, ref) => <ViewColumn {...props} ref={ref}/>)
 };
 
-function EditableTable({initial_columns, title, dataHandler}) {
+
+interface EditableTableProps<RowData extends object> {
+    initial_columns: Array<Column<RowData>>,
+    title: string,
+    dataHandler: (data: RowData[]) => void,
+    initialData?: Array<object>
+}
+
+function EditableTable({initial_columns, title, dataHandler}: EditableTableProps<any>) {
     const {useState} = React;
-
     //const [columns, setColumns] = useState(initial_columns);
-
     const [data, setData] = useState([]);
-
     return (
-        <div>
+        <>
             <MaterialTable
                 style={{fontSize: '1rem', fontFamily: 'inherit'}}
                 title={title}
@@ -61,6 +69,7 @@ function EditableTable({initial_columns, title, dataHandler}) {
                     onRowAdd: newData =>
                         new Promise((resolve, reject) => {
                             setTimeout(() => {
+                                // @ts-ignore
                                 setData([...data, newData]);
 
                                 resolve();
@@ -71,6 +80,7 @@ function EditableTable({initial_columns, title, dataHandler}) {
                             setTimeout(() => {
                                 const dataUpdate = [...data];
                                 const index = oldData.tableData.id;
+                                // @ts-ignore
                                 dataUpdate[index] = newData;
                                 setData([...dataUpdate]);
 
@@ -93,7 +103,7 @@ function EditableTable({initial_columns, title, dataHandler}) {
             <button onClick={() => dataHandler(data)} className={'button'}>
                 Save Table Data
             </button>
-        </div>
+        </>
     )
 }
 

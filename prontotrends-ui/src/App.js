@@ -14,6 +14,7 @@ import InspectionStart from "./pages/InspectionStart";
 import ValidationStart from "./pages/ValidationStart";
 import ValidationSetup from "./pages/ValidationSetup";
 import NavSideBar from "./components/NavBar";
+import FinalCsvGeneration from './pages/FinalCsvGeneration'
 
 
 export const eel = window.eel
@@ -123,6 +124,10 @@ export class App extends Component {
                                 </Route>
                                 <Route exact path={'/DataPipeline'}>
                                     <DatapipelineStart/>
+                                </Route>
+                                <Route
+                                    exact path={'/DataPipeline-FinalCsvGeneration'}>
+                                    <FinalCsvGeneration/>
                                 </Route>
                                 <Route exact path={'/Inspect'}>
                                     <InspectionStart/>

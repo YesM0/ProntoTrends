@@ -3,6 +3,8 @@ import EditableTable from "../components/EditableTable";
 import CountrySelector from "../components/CountrySelector";
 
 // TODO: Combine Finished and Save button -> requires rewriting the Table Component to a class component or use this: https://stackoverflow.com/questions/27864951/how-to-access-childs-state-in-react
+// THIS USES A OLDER VERSION OF EDITABLE TABLE -> THE EDITABLETABLECLASS COMPONENT HAS BEEN CONVERTED TO A FULLY CONTROLLED COMPONENT
+
 
 export const eel = window.eel
 eel.set_host('ws://localhost:8080')

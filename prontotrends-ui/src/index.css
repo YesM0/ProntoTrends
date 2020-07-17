@@ -367,3 +367,10 @@ small {
     font-size: 0.65rem;
     line-height: 100%;
 }
+
+.Collapsible__trigger::after {
+    height: 1px;
+    display: block;
+    width: 100%;
+    background: white;
+}

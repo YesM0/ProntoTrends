@@ -212,10 +212,10 @@ def chooseFile(filetype: str = ".", other_only_if_contains_selections: list = No
         while True:
             contents = os.listdir(curr_path)
             undesired = ['__pycache__', '.ipynb_checkpoints', 'venv', '.idea']
-            filtered = filter(lambda f: f not in undesired and (os.path.isdir(f) or filetype in f), contents)
+            filtered = filter(lambda f: f not in undesired and (os.path.isdir(os.path.join(curr_path, f)) or filetype in f), contents)
             items = list(filtered)
-            if other_only_if_contains_selections:
-                items = list(filter(lambda f: any(map(lambda y: y in f, other_only_if_contains_selections)), items))
+            if other_only_if_contains_selections is not None and len(other_only_if_contains_selections) > 0:
+                items = list(filter(lambda f: any(map(lambda y: y.lower() in f.lower() or os.path.isdir(os.path.join(curr_path, f)), other_only_if_contains_selections)), items))
             choices = {i: item for i, item in enumerate(items)}
             if len(items) == 0:
                 print(f"No files in curr directory: {curr_path}")

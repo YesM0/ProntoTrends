@@ -194,7 +194,7 @@ def read_in_scaling_factor(country_name: Country_Fullname, county_shortcode: Cou
         # if i % 10 == 0:
         #     print(f'Checking file {i + 1} of {len(poss_files)}\n{filename}')
         components = filename.split("_")
-        if components[0] == county_shortcode.upper() and components[3] == "Geo.csv" and (components[1] == tag_id or components[2] == tag_name):
+        if len(components) >= 4 and components[0] == county_shortcode.upper() and components[3] == "Geo.csv" and (components[1] == tag_id or components[2] == tag_name):
             # print("Found file")
             filepath = os.path.join(expected_file_location, filename)
             break
