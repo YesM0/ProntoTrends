@@ -46,7 +46,7 @@ class ChartDataSection extends Component<ChartDataProps, ChartData_State> {
         let name = e.currentTarget.name
         let checked = e.currentTarget.checked
         let new_data = this.state.data.map(item => {
-            if (item.tag_name == name) {
+            if (item.tag_name === name) {
                 return {
                     tag_name: item.tag_name,
                     count: item.count,

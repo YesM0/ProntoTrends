@@ -1,12 +1,12 @@
 import os
 import sys
+
 if __name__ == '__main__':
     sys.path.extend(['../', './'])
 
-
 import pandas as pd
 import numpy as np
-from typing import List, Dict, Tuple, Union
+from typing import List, Dict, Tuple, Union, Callable
 from utils.custom_types import *
 from utils.Countries import readInLocales, regions_map_english_to_local
 from utils.misc_utils import deduplicateColumns, lcol, \
@@ -213,7 +213,8 @@ def createTop5Csv(country: Country_Fullname, category: str, category_combination
                         seasonality = None
                         year_highs.append((possibility, 0))
                     year_entries[possibility] = [region_name, possibility, year, 0, max, min, seasonality]
-                print(f"{lcol.WARNING}Here are the summaries we found. First the list of possibilities for the current year {year} with their respective highest value")
+                print(
+                    f"{lcol.WARNING}Here are the summaries we found. First the list of possibilities for the current year {year} with their respective highest value")
                 print(year_highs)
                 print(f"These would be the top5 entries for each option")
                 print(year_entries)
@@ -353,10 +354,12 @@ def getMonths(filepath):
     return [(i.month - 1, i.year) for i, row in df.iterrows()]
 
 
-def createTagChartData(country: Country_Fullname, min_regions: int = 0, select_tags: bool = False):
+def createTagChartData(country: Country_Fullname, min_regions: int = 0, select_tags: bool = False,
+                       selected_tags: List[str] = None):
     """
     Creates data for requests-trend.csv / Chart_Data.csv. A yearly
     Args:
+        selected_tags:
         country:
         min_regions:
         select_tags:
@@ -367,7 +370,7 @@ def createTagChartData(country: Country_Fullname, min_regions: int = 0, select_t
     comparisons_path, regions = getSetUp(country)
     region_ids = {r['id']: r['name'] for r in regions}
 
-    final_df = gather_base_data_chart(country, min_regions, region_ids, regions, select_tags)
+    final_df = gather_base_data_chart(country, min_regions, region_ids, regions, select_tags, selected_tags)
     final_df = final_df[final_df.Year >= 2019]
 
     final_df = scale_within_ticket_cc_selected(final_df)
@@ -463,10 +466,11 @@ def scale_within_ticket_cc_selected(final_df: pd.DataFrame) -> pd.DataFrame:
 
 
 def gather_base_data_chart(country: Country_Fullname, min_regions: int, region_ids_to_name: dict, regions: list,
-                           select_tags: bool) -> pd.DataFrame:
+                           select_tags: bool, selected_tags: List[str] = None) -> pd.DataFrame:
     """
     Access all tag-Time-files in Aggregated, resamples to Months and puts them into one df
     Args:
+        selected_tags:
         country: Country_Fullname
         min_regions: int -- minimum number of regions needed for a tag to be considered -> passed into filter_tags
         region_ids_to_name: dict -- dict of region_id to region_name (ENG)
@@ -486,7 +490,7 @@ def gather_base_data_chart(country: Country_Fullname, min_regions: int, region_i
             f"{lcol.FAIL}There are too few adjusted files. Please make sure you have run the adjust files function in file://{os.path.join(FS.cwd, 'Datapipeline', 'generateSummaries.py')}{lcol.ENDC}")
         if not binaryResponse("Is this on purpose?"):
             sys.exit()
-    tags: Dict[str, int] = filter_tags(all_files, min_regions, select_tags)
+    tags: Dict[str, int] = filter_tags(all_files, min_regions, select_tags, selected_tags)
     months = getMonths(os.path.join(folder, list(filter(lambda x: ('Time' in x and 'Adjusted' in x), all_files))[0]))
     columns = ['ticket_taxonomy_tag_name', 'ticket_geo_region_name', 'Year', 'Month', 'Index',
                'Country_chosen']
@@ -525,7 +529,8 @@ def check_sufficient_files(list_of_files: List[str]) -> bool:
         return True
 
 
-def filter_tags(all_files: List[str], min_regions: int, select_tags: bool) -> Dict[str, int]:
+def filter_tags(all_files: List[str], min_regions: int, select_tags: bool, selected_tags: List[str] = None) -> Dict[
+    str, int]:
     tags = {file.split('_')[2]: int(file.split('_')[1]) for file in all_files}
     tag_names = [file.split("_")[2] for file in all_files if 'Adjusted' in file]
     tag_counts = {tag: tag_names.count(tag) for tag in tags}
@@ -533,6 +538,8 @@ def filter_tags(all_files: List[str], min_regions: int, select_tags: bool) -> Di
         to_drop = []
         if min_regions > 0:
             to_drop = [tag for tag in tags if tag_counts[tag] < min_regions] if min_regions > 0 else []
+        if selected_tags is not None:
+            to_drop.extend([t for t in tag_names if t not in selected_tags])
         if select_tags:
             if binaryResponse(
                     "Do you want to input a list of allowed tags (by Id) (y) or do you want to select individualy (n)?"):
@@ -788,6 +795,82 @@ def dialog():
             print(f'Saved: "file://{fname}"')
         print(f'FINISHED {chosenAction}')
     print('FINISHED ALL')
+
+
+def api_start(settings: Dict, logging_func: Callable):
+    print(settings)
+    # min_region_count, overview_cat_cols, overview_cats, select_tags_manually, top_5_cats, useChartData
+    country = settings.get("country_full_name", None)
+    campaign_short_code = settings.get("campaign_shortcode", None)
+    chosenActions = settings.get("chosenActions", None)
+    final_folder = os.path.join(FS.Final, country, campaign_short_code)
+    if not os.path.exists(final_folder):
+        os.makedirs(final_folder)
+    for chosenAction in chosenActions:
+        print(f"DOING: {chosenAction}")
+        if chosenAction == 'Create Category Overviews':
+            for category, category_col_name in zip(
+                    settings.get('category_overview_settings', {}).get('category_names', None),
+                    settings.get('category_overview_settings', {}).get('category_column_names', None)):
+                try:
+                    result = createCategoryRegionYearFile(country, category, category_col_name)
+                    result = remapColumns(result, col_remap)
+                    fname = os.path.join(final_folder, f"{campaign_short_code}-{category}_{country}.csv")
+                    result.to_csv(
+                        fname,
+                        index=False)
+                    logging_func(f"Saved category overview for {category}")
+                    logging_func(fname)
+                except Exception as e:
+                    logging_func(f"ERROR: {e}")
+        elif chosenAction == 'Create Top5':
+            for category in settings.get('top5_settings', {}).get("folders_to_use", None):
+                try:
+                    category_combinations = None
+                    result = createTop5Csv(country, category, category_combinations=category_combinations)
+                    result = remapColumns(result, col_remap)
+                    fname = os.path.join(final_folder, f"{campaign_short_code}-Top5_Tags_{category}_{country}.csv")
+                    result.to_csv(
+                        fname,
+                        index=False)
+                    logging_func(f"Saved Top5 for {category}")
+                except FileNotFoundError as e:
+                    logging_func(f"ERROR: {e}")
+        elif chosenAction == 'create Main Section':
+            chosen_files: List[str] = [x for x in os.listdir(os.path.join(FS.Final, country, campaign_short_code)) if
+                                       not x.startswith(".") and any(map(lambda y: y in x,
+                                                                         settings.get("main_section_settings", {}).get(
+                                                                             "categories_to_include", None)))]
+            result = createMainSectionCsv(country,
+                                          chosen_files, campaign_shortname=campaign_short_code)
+            result = remapColumns(result, col_remap)
+            fname = os.path.join(final_folder, f'{campaign_short_code}_Main_Section_{country}.csv')
+            result.to_csv(fname, index=False)
+            logging_func(f"Saved Main Section")
+        elif chosenAction == 'create Chart Data':
+            result = createTagChartData(country,
+                                        min_regions=settings.get("chart_settings", {}).get("min_region_count", None),
+                                        select_tags=False,
+                                        selected_tags=settings.get("chart_settings", {}).get("tags_selected", None))
+            result = remapColumns(result, col_remap)
+            fname = os.path.join(final_folder, f'{campaign_short_code}_Chart_Data_{country}.csv')
+            result.to_csv(fname, index=False)
+            logging_func(f"Saved Chart Data")
+        elif chosenAction == 'create Table Data':
+            result = createTableData(country, campaign_short_code)
+            result = result.fillna('NA')
+            fname = os.path.join(final_folder, f'{campaign_short_code}_Table_Data_{country}.csv')
+            result.to_csv(fname, index=False)
+            logging_func(f"Saved Table Data")
+        elif chosenAction == 'create Map Data':
+            result = createMapData(country, campaign_short_code,
+                                   useChart=settings.get("map_settings", {}).get("use_chart_data", True))
+            result = result.fillna('NA')
+            fname = os.path.join(final_folder, f'{campaign_short_code}_Map_Data_{country}.csv')
+            result.to_csv(fname, index=False)
+            logging_func(f"Saved Map Data")
+        logging_func(f'FINISHED {chosenAction}')
+    logging_func('FINISHED ALL')
 
 
 if __name__ == '__main__':

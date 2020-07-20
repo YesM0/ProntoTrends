@@ -1,4 +1,4 @@
-import React, {Component, ReactNode} from 'react'
+import React, {Component} from 'react'
 import MaterialTable, {Column} from "material-table";
 import {forwardRef} from 'react';
 
@@ -51,9 +51,6 @@ interface EditableTableProps<RowData extends object> {
 
 
 class EditableTableClass extends Component<EditableTableProps<any>, Readonly<any>> {
-    constructor(props: EditableTableProps<Array<object>>) {
-        super(props);
-    }
     
     render() {
         return (

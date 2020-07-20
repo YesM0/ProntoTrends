@@ -1,12 +1,12 @@
 import * as React from 'react'
 import {ChangeEvent, Component} from 'react'
 import CountrySelector from "../components/CountrySelector";
-import EditableTableClass from "../components/EditableTable-Class";
 import Collapsible from "react-collapsible";
 import {eel} from '../App'
 import CategoryOverviewSection from '../components/CategoryOverviewSection'
 import Top5Section from '../components/Top5Section'
 import ChartDataSection from "../components/ChartDataSection";
+import MainSectionSection from "../components/MainSection_Section";
 
 export interface CategoryOverviewsSettings {
     category_names: Array<string>,
@@ -105,7 +105,7 @@ class FinalCsvGenerationSetup extends Component<{}, UserSettings> {
 
     handleComponentSubmit(stateUpdate: Partial<UserSettings>, emitter: string) {
         let current_chosen_actions = this.state.chosenActions || []
-        this.setState({...stateUpdate, chosenActions: [...current_chosen_actions, emitter] })
+        this.setState({...stateUpdate, chosenActions: [...current_chosen_actions, emitter]})
     }
 
     render() {
@@ -165,52 +165,81 @@ class FinalCsvGenerationSetup extends Component<{}, UserSettings> {
                 justifyContent: 'space-between',
                 alignContent: 'space-between'
             }}>
+                <h2>Set-Up</h2>
                 <div>
-                    <h2>Set-Up</h2>
-                    <label className={'label'}>
-                        Country
-                        <CountrySelector value={this.state.country_full_name}
-                                         handleCountryChange={this.handleCountryChange}/>
-                    </label>
-                    <label className={'label'}>
-                        Campaign shortcode
-                        <input className={'input'} type={'text'} value={this.state.campaign_shortcode}
-                               onChange={(e: ChangeEvent<HTMLInputElement>) => {
-                                   this.setState({campaign_shortcode: e.target.value})
-                               }}/>
-                    </label>
-                    <br/>
-                    <Collapsible trigger={'Category overviews'} triggerStyle={styles.subsection_headers}
-                                 transitionTime={200} triggerTagName={'div'}>
-                        <CategoryOverviewSection country_short_code={this.state.country_short_name || 'DE'}
-                                                 globalStateSetter={this.handleComponentSubmit}/>
-                    </Collapsible>
-                    <Collapsible trigger={'Top 5'} triggerStyle={styles.subsection_headers} transitionTime={200}
-                                 triggerTagName={'div'}>
-                        <Top5Section country_short_code={this.state.country_short_name || 'DE'} globalStateSetter={this.handleComponentSubmit} key={this.state.country_short_name}/>
-                    </Collapsible>
-                    <Collapsible trigger={'chart-data'} triggerStyle={styles.subsection_headers} transitionTime={200}
-                                 triggerTagName={'div'}>
-                        <ChartDataSection globalStateSetter={this.handleComponentSubmit} country_short_code={this.state.country_short_name || 'DE'} key={this.state.country_short_name}/>
-                    </Collapsible>
-                    <Collapsible trigger={'Table'} triggerStyle={styles.subsection_headers} transitionTime={200}
-                                 triggerTagName={'div'}>
-                        <div>Selection</div>
-                    </Collapsible>
-                    <Collapsible trigger={'Main Section'} triggerStyle={styles.subsection_headers} transitionTime={200}
-                                 triggerTagName={'div'}>
-                        <div>Folders/ Cats to use</div>
-                    </Collapsible>
-                    <Collapsible trigger={'Map'} triggerStyle={styles.subsection_headers} transitionTime={200}
-                                 triggerTagName={'div'}>
-                        <div>Use chart Data toggle</div>
-                    </Collapsible>
-
+                <label className={'label'}>
+                    Country
+                    <CountrySelector value={this.state.country_full_name}
+                                     handleCountryChange={this.handleCountryChange}/>
+                </label>
+                <label className={'label'}>
+                    Campaign shortcode
+                    <input className={'input'} type={'text'} value={this.state.campaign_shortcode}
+                           onChange={(e: ChangeEvent<HTMLInputElement>) => {
+                               this.setState({campaign_shortcode: e.target.value})
+                           }} required={true}/>
+                </label>
+                <br/>
                 </div>
+                <Collapsible trigger={`Category overviews  ${(this.state.chosenActions?.filter(item => (item.indexOf('Category') !== -1)).length || -1 > 0) ? ' ✅' : ""}`} triggerStyle={styles.subsection_headers}
+                             transitionTime={200} triggerTagName={'div'}>
+                    <CategoryOverviewSection country_short_code={this.state.country_short_name || 'DE'}
+                                             globalStateSetter={this.handleComponentSubmit}/>
+                </Collapsible>
+                <Collapsible trigger={`Top 5 ${(this.state.chosenActions?.filter(item => (item.indexOf('Top') !== -1)).length || -1 > 0) ? ' ✅' : ""}`} triggerStyle={styles.subsection_headers} transitionTime={200}
+                             triggerTagName={'div'}>
+                    <Top5Section country_short_code={this.state.country_short_name || 'DE'}
+                                 globalStateSetter={this.handleComponentSubmit}
+                                 key={this.state.country_short_name}/>
+                </Collapsible>
+                <Collapsible trigger={`Chart ${(this.state.chosenActions?.filter(item => (item.indexOf('Chart') !== -1)).length || -1 > 0) ? ' ✅' : ""}`} triggerStyle={styles.subsection_headers} transitionTime={200}
+                             triggerTagName={'div'}>
+                    <ChartDataSection globalStateSetter={this.handleComponentSubmit}
+                                      country_short_code={this.state.country_short_name || 'DE'}
+                                      key={this.state.country_short_name}/>
+                </Collapsible>
+                <Collapsible trigger={`Table ${(this.state.chosenActions?.filter(item => (item.indexOf('Table') !== -1)).length || -1 > 0) ? ' ✅' : ""}`} triggerStyle={styles.subsection_headers} transitionTime={200}
+                             triggerTagName={'div'}>
+                    <button onClick={() => this.setState({
+                        chosenActions: [...this.state.chosenActions || [], "create Table Data"]
+                    })} className={'button'} style={{
+                        fontSize: '0.9rem', marginBottom: '1rem'
+                    }}>
+                        Add Table Creation to Task-List
+                    </button>
+                </Collapsible>
+                <Collapsible trigger={`Main Section ${(this.state.chosenActions?.filter(item => (item.indexOf('Main') !== -1)).length || -1 > 0) ? ' ✅' : ""}`} triggerStyle={styles.subsection_headers} transitionTime={200}
+                             triggerTagName={'div'}>
+                    <MainSectionSection country_short_code={this.state.country_short_name || 'DE'}
+                                        globalStateSetter={this.handleComponentSubmit}
+                                        key={this.state.country_short_name}/>
+                </Collapsible>
+                <Collapsible trigger={`Map ${(this.state.chosenActions?.filter(item => (item.indexOf('Map') !== -1)).length || -1 > 0) ? ' ✅' : ""}`} triggerStyle={styles.subsection_headers} transitionTime={200}
+                             triggerTagName={'div'}>
+                    <label style={{margin: '1rem'}}>
+                        Use Chart Data
+                        <input type={'checkbox'}
+                               onChange={(e: React.FormEvent<HTMLInputElement>) => this.setState({
+                                   map_settings: {
+                                       use_chart_data: e.currentTarget.checked
+                                   }
+                               })} checked={this.state.map_settings?.use_chart_data}/>
+                    </label>
+                    <button onClick={() => this.setState({
+                        chosenActions: [...this.state.chosenActions || [], 'create Map Data']
+                    })} className={'button'} style={{
+                        fontSize: '0.9rem', marginBottom: '1rem'
+                    }}>
+                        Add Map Creation to Task-List
+                    </button>
+                </Collapsible>
+                <button onClick={() => eel.start_final_csv_generation(this.state)} className={'button'} style={{
+                    fontSize: '0.9rem', marginBottom: '1rem'
+                }}>
+                    Start Final CSV Generation
+                </button>
+
             </div>
-            {/*<button onClick={this.handleSubmit} className={'button'} style={{marginBottom: '2rem'}}>*/}
-            {/*    Finish and Create File*/}
-            {/*</button>*/}
         </div>)
     }
 
@@ -225,7 +254,10 @@ const styles = {
         fontStyle: 'bold',
         fontSize: '1.2rem',
         backgroundColor: '#48bfcc',
-        width: '100%'
+        width: '95%',
+        padding: '0.3rem 1.5rem',
+        borderBottom: '1px solid white',
+        align: 'center'
     }
 }
 

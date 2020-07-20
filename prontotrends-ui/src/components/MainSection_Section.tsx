@@ -3,7 +3,7 @@ import {SubStateComponentProps} from "../pages/FinalCsvGeneration";
 import {eel} from '../App'
 import {Component} from "react";
 
-interface Top5_Props extends SubStateComponentProps {
+interface MainSection_Props extends SubStateComponentProps {
     country_short_code: string
 }
 
@@ -12,12 +12,12 @@ interface FolderItem {
     chosen: boolean
 }
 
-interface Top5_State {
+interface MainSection_State {
     data: FolderItem[]
 }
 
-class Top5Section extends Component<Top5_Props, Top5_State> {
-    constructor(props: Top5_Props) {
+class MainSection_Section extends Component<MainSection_Props, MainSection_State> {
+    constructor(props: MainSection_Props) {
         super(props);
         this.state = {
             data: []
@@ -65,10 +65,10 @@ class Top5Section extends Component<Top5_Props, Top5_State> {
     handleSubmit() {
         let choices = this.state.data.filter(item => (item.chosen)).map(item => item.folder_name)
         this.props.globalStateSetter({
-            top5_settings: {
-                folders_to_use: choices
+            main_section_settings: {
+                categories_to_include: choices
             }
-        }, 'Create Top5')
+        }, 'Create Main Section')
     }
 
     render() {
@@ -77,7 +77,7 @@ class Top5Section extends Component<Top5_Props, Top5_State> {
                 <table>
                     <thead>
                     <td>
-                        Folder
+                        Category
                     </td>
                     <td>
                         Choose?
@@ -96,13 +96,12 @@ class Top5Section extends Component<Top5_Props, Top5_State> {
                 <button onClick={this.handleSubmit} className={'button'} style={{
                     fontSize: '0.9rem', marginBottom: '1rem'
                 }}>
-                    Add Top5-creation with the chosen Folders to the task list
+                    Add MainSection-creation with the chosen Folders to the task list
                 </button>
+                <small>Please ensure that the selected Categories have category overviews created.</small>
             </>
         );
     }
 }
 
-// TODO: Add merge tags options
-
-export default Top5Section
+export default MainSection_Section

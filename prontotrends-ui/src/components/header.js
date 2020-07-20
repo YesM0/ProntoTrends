@@ -9,7 +9,7 @@ const Header = (props) => {
             </div>
             <div style={{flex: 2, color: 'white', fontSize: '1.1rem', padding: '5px', paddingBottom: '7px', fontWeight: '100', display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginRight: '2rem'}}>
                 <div>Data Tools</div>
-                <div>Info</div>
+                <a href={"https://sites.google.com/prontopro.fr/in-house-prontowiki/teams/prontotrends"} target="_blank" rel="noopener noreferrer">Info</a>
             </div>
         </div>
     )

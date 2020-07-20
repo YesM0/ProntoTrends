@@ -9,6 +9,7 @@ from Validation.validationSetup import handleGUIData
 from utils.custom_types import *
 from utils.Countries import getCountry, Country
 from api.api_resolvers import get_available_comparisons, get_available_tags, get_available_category_overviews
+from Datapipeline.finalCSVgenerator import api_start
 
 sys.path.extend(['../../', '../', './'])
 import eel
@@ -33,6 +34,12 @@ def get_comparisons(country_short_code: Country_Shortcode):
 @eel.expose
 def get_tags(country_short_code: Country_Shortcode) -> List[Dict[str, Union[int, str, bool]]]:
     return get_available_tags(Country(short_name=country_short_code))
+
+
+@eel.expose
+def start_final_csv_generation(settings: dict):
+    api_start(settings, send_logs_to_frontend)
+    send_logs_to_frontend(f"Received task to create: {settings.get('chosenActions')}")
 
 
 def send_logs_to_frontend(string):
