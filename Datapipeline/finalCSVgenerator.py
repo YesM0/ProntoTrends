@@ -164,7 +164,7 @@ def combineColumns(df: pd.DataFrame, combination: list, new_name: str):
 
 
 def createTop5Csv(country: Country_Fullname, category: str, category_combinations: list = None,
-                  month_name_dict: dict = None):
+                  month_name_dict: dict = None, allow_user_interaction: bool = True):
     comparisons_path, regions = getSetUp(country)
     # select only cc level
     regions = [regions[0]]
@@ -236,7 +236,8 @@ def createTop5Csv(country: Country_Fullname, category: str, category_combination
                                      'Demand_factor_max_to_min'])
     # print(final_df)
     final_df = final_df.sort_values(by=['year', 'ticket_geo_region_name', 'Rank'], ascending=True).round(1).fillna('NA')
-    final_df = adjust_Top5_Data(final_df, country)
+    if allow_user_interaction:
+        final_df = adjust_Top5_Data(final_df, country)
     return final_df
 
 
@@ -827,7 +828,7 @@ def api_start(settings: Dict, logging_func: Callable):
             for category in settings.get('top5_settings', {}).get("folders_to_use", None):
                 try:
                     category_combinations = None
-                    result = createTop5Csv(country, category, category_combinations=category_combinations)
+                    result = createTop5Csv(country, category, category_combinations=category_combinations, allow_user_interaction=False)
                     result = remapColumns(result, col_remap)
                     fname = os.path.join(final_folder, f"{campaign_short_code}-Top5_Tags_{category}_{country}.csv")
                     result.to_csv(

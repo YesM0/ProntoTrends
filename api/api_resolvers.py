@@ -13,15 +13,18 @@ def folder_contains_country(folder: Folderpath, country: Country):
     return any(map(lambda f: country.Shortcode in f or country.Full_name in f, os.listdir(folder)))
 
 
-def get_available_comparisons(country: Country) -> List[Folderpath]:
+def get_available_comparisons(country: Country) -> List[str]:
     folders = [f for f in os.listdir(FS.Comparisons) if
                os.path.isdir(os.path.join(FS.Comparisons, f)) and not f.startswith('.')]
     return [folder for folder in folders if folder_contains_country(os.path.join(FS.Comparisons, folder), country)]
 
 
 def get_available_category_overviews(country: Country, campaign_name: str) -> List[str]:
-    return [f for f in os.listdir(os.path.join(FS.Final, country.Full_name, campaign_name)) if not f.startswith(
-        '.') and 'Main_Section' not in f and 'Top5_Tags' not in f and 'Main_Section' not in f and 'Chart_Data' not in f and 'Table_Data' not in f and 'Map_Data' not in f]
+    if os.path.exists(os.path.join(FS.Final, country.Full_name, campaign_name)):
+        return [f for f in os.listdir(os.path.join(FS.Final, country.Full_name, campaign_name)) if not f.startswith(
+            '.') and 'Main_Section' not in f and 'Top5_Tags' not in f and 'Main_Section' not in f and 'Chart_Data' not in f and 'Table_Data' not in f and 'Map_Data' not in f]
+    else:
+        return []
 
 
 def get_available_tags(country: Country) -> List[Dict[str, Union[int, str, bool]]]:

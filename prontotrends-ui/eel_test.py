@@ -32,14 +32,23 @@ def get_comparisons(country_short_code: Country_Shortcode):
 
 
 @eel.expose
+def get_category_overviews(country_short_code: Country_Shortcode, campaign_code: str) -> List[Dict[str, Union[str,bool]]]:
+    c = Country(short_name=country_short_code)
+    l = get_available_comparisons(c)
+    l.extend(get_available_category_overviews(c, campaign_code))
+    to_dict = map(lambda x: {'folder_name': x, 'chosen': False}, l)
+    return list(to_dict)
+
+
+@eel.expose
 def get_tags(country_short_code: Country_Shortcode) -> List[Dict[str, Union[int, str, bool]]]:
     return get_available_tags(Country(short_name=country_short_code))
 
 
 @eel.expose
 def start_final_csv_generation(settings: dict):
-    api_start(settings, send_logs_to_frontend)
     send_logs_to_frontend(f"Received task to create: {settings.get('chosenActions')}")
+    api_start(settings, send_logs_to_frontend)
 
 
 def send_logs_to_frontend(string):
