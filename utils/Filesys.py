@@ -1,5 +1,5 @@
+import sys
 if __name__ == '__main__':
-    import sys
 
     sys.path.append('../')
 
@@ -8,10 +8,12 @@ from typing import Union, List, Dict
 # import pandas as pd
 from utils.custom_types import *
 
-
-cwd = os.getcwd()
-if os.path.split(cwd)[1] != 'ProntoTrends' or 'utils' in cwd:
-    cwd = os.path.split(cwd)[0]
+if getattr(sys, 'frozen') and hasattr(sys, '_MEIPASS'):  # checks if the script is run in an executable or as a normal script
+    cwd = sys._MEIPASS
+else:
+    cwd = os.getcwd()
+    if os.path.split(cwd)[1] != 'ProntoTrends' or 'utils' in cwd:
+        cwd = os.path.split(cwd)[0]
 
 
 def makePath(*args) -> Filepath:
