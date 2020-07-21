@@ -1,17 +1,15 @@
-import os
 import platform
 import sys
 
-if __name__ == '__main__':
-    sys.path.extend(['../', '.../', './'])
-from typing import List, Dict, Union, Optional, Any
+
+sys.path.extend(['../', '.../', './'])
+from typing import List, Dict, Union, Any
 from Validation.validationSetup import handleGUIData
 from utils.custom_types import *
-from utils.Countries import getCountry, Country
+from utils.Countries import Country
 from api.api_resolvers import get_available_comparisons, get_available_tags, get_available_category_overviews
 from Datapipeline.finalCSVgenerator import api_start
 
-sys.path.extend(['../../', '../', './'])
 import eel
 
 
@@ -97,7 +95,7 @@ def start_eel(develop):
         page = 'index.html'
         close_callback = None
 
-    eel.init(directory, ['.tsx', '.ts', '.jsx', '.js', '.html'])
+    eel.init(directory, ['.tsx', '.ts', '.jsx', '.js', '.html'], manual_js_functions=['show_log'])
 
     eel_kwargs = dict(
         host='localhost',
