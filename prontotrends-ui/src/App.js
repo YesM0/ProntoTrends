@@ -20,11 +20,13 @@ import FinalCsvGeneration from './pages/FinalCsvGeneration'
 export const eel = window.eel
 eel.set_host('ws://localhost:8080')
 
-window.eel.expose(show_log)
 function show_log(msg) {
-    console.log("got message " + msg)
+    //console.log("got message " + msg)
     window.AppComponent.showLog(msg)
 }
+
+// Separating
+window.eel.expose(show_log, 'show_log')
 
 const navItems = [
     {
@@ -46,11 +48,6 @@ const navItems = [
             {
                 title: 'Final CSV Generation',
                 link: '/DataPipeline-FinalCsvGeneration',
-                children: [
-                    {
-                        title: 'Test'
-                    }
-                ]
             },
             {
                 title: 'Validation',
@@ -139,7 +136,14 @@ export class App extends Component {
                                     <ValidationSetup/>
                                 </Route>
                                 <Route>
-                                    <h1>NO MATCH</h1>
+                                    <div>
+                                        <h1 style={ { padding: '2rem' }}>
+                                            No Match
+                                        </h1>
+                                        <h2 style={ { padding: '2rem' }}>
+                                            It may be that this section has not yet been implemented
+                                        </h2>
+                                    </div>
                                 </Route>
                             </Switch>
                             <ToastContainer/>

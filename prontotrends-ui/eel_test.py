@@ -1,17 +1,15 @@
-import os
 import platform
 import sys
 
-if __name__ == '__main__':
-    sys.path.extend(['../', '.../', './'])
-from typing import List, Dict, Union, Optional, Any
+
+sys.path.extend(['../', '.../', './'])
+from typing import List, Dict, Union, Any
 from Validation.validationSetup import handleGUIData
 from utils.custom_types import *
-from utils.Countries import getCountry, Country
+from utils.Countries import Country
 from api.api_resolvers import get_available_comparisons, get_available_tags, get_available_category_overviews
 from Datapipeline.finalCSVgenerator import api_start
 
-sys.path.extend(['../../', '../', './'])
 import eel
 
 
@@ -32,14 +30,23 @@ def get_comparisons(country_short_code: Country_Shortcode):
 
 
 @eel.expose
+def get_category_overviews(country_short_code: Country_Shortcode, campaign_code: str) -> List[Dict[str, Union[str,bool]]]:
+    c = Country(short_name=country_short_code)
+    l = get_available_comparisons(c)
+    l.extend(get_available_category_overviews(c, campaign_code))
+    to_dict = map(lambda x: {'folder_name': x, 'chosen': False}, l)
+    return list(to_dict)
+
+
+@eel.expose
 def get_tags(country_short_code: Country_Shortcode) -> List[Dict[str, Union[int, str, bool]]]:
     return get_available_tags(Country(short_name=country_short_code))
 
 
 @eel.expose
 def start_final_csv_generation(settings: dict):
-    api_start(settings, send_logs_to_frontend)
     send_logs_to_frontend(f"Received task to create: {settings.get('chosenActions')}")
+    api_start(settings, send_logs_to_frontend)
 
 
 def send_logs_to_frontend(string):
@@ -88,7 +95,7 @@ def start_eel(develop):
         page = 'index.html'
         close_callback = None
 
-    eel.init(directory, ['.tsx', '.ts', '.jsx', '.js', '.html'])
+    eel.init(directory, ['.tsx', '.ts', '.jsx', '.js', '.html'], manual_js_functions=['show_log'])
 
     eel_kwargs = dict(
         host='localhost',

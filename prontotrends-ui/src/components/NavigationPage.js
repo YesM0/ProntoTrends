@@ -34,7 +34,7 @@ class NavigationPage extends Component {
                     padding: '2.5rem 4rem',
                     textAlign: 'left'
                 }}>
-                    <h1 style={{fontWeight: '100', fontSize: '2.66rem', position: 'sticky', top: '10px'}}>Datapipeline</h1>
+                    <h1 style={{fontWeight: '100', fontSize: '2.66rem', position: 'sticky', top: '10px'}}>{this.props.title || "Datapipeline"}</h1>
                     <h3 style={{fontWeight: '100'}}>What step do you want to take next?</h3>
                 </div>
                 <div>

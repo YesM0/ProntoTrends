@@ -1,10 +1,11 @@
 import * as React from 'react';
+import {Component} from 'react';
 import {SubStateComponentProps} from "../pages/FinalCsvGeneration";
 import {eel} from '../App'
-import {Component} from "react";
 
 interface MainSection_Props extends SubStateComponentProps {
-    country_short_code: string
+    country_short_code: string,
+    campaign_shortcode: string
 }
 
 interface FolderItem {
@@ -27,21 +28,13 @@ class MainSection_Section extends Component<MainSection_Props, MainSection_State
     }
 
     async componentDidMount() {
-        this.setState({data: await this.getFolders(this.props.country_short_code)})
+        this.setState({data: await this.getOptions(this.props.country_short_code, this.props.campaign_shortcode)})
     }
 
-    async getFolders(country_short_code: string)
+    async getOptions(country_short_code: string, campaign_code: string)
         :
         Promise<FolderItem[]> {
-        let data = await eel.get_comparisons(country_short_code)();
-        // console.log("get comparisons result:")
-        // console.log(availableCategories)
-        return data.map((cat: string) => {
-            return {
-                folder_name: cat,
-                chosen: false
-            }
-        })
+        return await eel.get_category_overviews(country_short_code, campaign_code)()
     }
 
     handleCheck(e: React.FormEvent<HTMLInputElement>) {

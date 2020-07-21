@@ -20,7 +20,7 @@ class ValidationStart extends Component {
 
     render() {
         return (
-            <NavigationPage items={this.items}/>
+            <NavigationPage items={this.items} title={'Validation'}/>
         );
     }
 }

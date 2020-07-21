@@ -28,10 +28,11 @@ const NavItem = ({item}) => {
     let hasChildren = (item.children);
     let children = (hasChildren) ? (<ul style={styles.ul}>{item.children.map((child, ind) => <NavItem
         key={ind} item={child}/>)}</ul>) : null;
+    let symbol = (!open) ? '▶️' : '🔽';
     return (
         <li>
             <NavLink
-                to={item.link}>{item.title}</NavLink><p onClick={() => setOpen(!open)}>{hasChildren && '🔽'}</p>
+                to={item.link}>{item.title}</NavLink><span style={{paddingLeft: '0.5rem'}}  onClick={() => setOpen(!open)}>{hasChildren && symbol}</span>
             {open && children}
         </li>
     )
