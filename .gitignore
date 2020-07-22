@@ -66,3 +66,17 @@
 /Input_Files/IT_Summer_Ticket_Counts_Categories.csv
 /utils/folder_profiler_result.json
 /Output_Files/FINAL/Germany/Buget_raw.csv
+/Input_Files/AT_Renovation_Keywords.json
+/Input_Files/CH_Renovation_Keywords.json
+/Input_Files/ProntoPro_Trends_Questions_AT.json
+/Input_Files/ProntoPro_Trends_Questions_CH.json
+/Input_Files/Renovation_Keywords_AT.csv
+/Input_Files/Renovation_Keywords_CH.csv
+/Input_Files/Renovation_Tag_Keyword_AT.csv
+/Input_Files/Renovation_Tag_Keyword_CH.csv
+/Input_Set_Up/Renovation_Keywords.csv
+/Input_Set_Up/Renovation_Tags_CH.csv
+/Output_Files/FINAL/
+/venv/
+/folder_profiler_result.json
+/IT_total_Ticket_counts.csv
