@@ -369,8 +369,8 @@ class Ticket_Count_Inquiry(Inquiry):
             counter = 0
             for merge_name, merge_items in merge_dict.items():
                 new_id = 9900 + counter
-                id_merge_items = [id_merges.get(item, None) for item in merge_items if
-                                  id_merges.get(item, None) is not None]
+                id_merge_items = [lookup.get(item, None) for item in merge_items if
+                                  lookup.get(item, None) is not None]
                 id_merges[new_id] = id_merge_items
             self.tag_merges = merge_dict
             self.id_merges = id_merges
