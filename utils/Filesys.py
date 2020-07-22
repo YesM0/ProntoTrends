@@ -8,7 +8,7 @@ from typing import Union, List, Dict
 # import pandas as pd
 from utils.custom_types import *
 
-if getattr(sys, 'frozen') and hasattr(sys, '_MEIPASS'):  # checks if the script is run in an executable or as a normal script
+if getattr(sys, 'frozen', False) and hasattr(sys, '_MEIPASS'):  # checks if the script is run in an executable or as a normal script
     cwd = sys._MEIPASS
 else:
     cwd = os.getcwd()
