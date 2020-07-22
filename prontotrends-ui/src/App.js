@@ -8,13 +8,15 @@ import {
 import { ToastContainer, toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
 import './App.css';
+import "@pathofdev/react-tag-input/build/index.css";
 import Home from './pages/Home'
 import DatapipelineStart from "./pages/DatapipelineStart";
 import InspectionStart from "./pages/InspectionStart";
 import ValidationStart from "./pages/ValidationStart";
 import ValidationSetup from "./pages/ValidationSetup";
 import NavSideBar from "./components/NavBar";
-import FinalCsvGeneration from './pages/FinalCsvGeneration'
+import FinalCsvGeneration from './pages/FinalCsvGeneration';
+import InputSetup from "./pages/InputSetup";
 
 
 export const eel = window.eel
@@ -134,6 +136,9 @@ export class App extends Component {
                                 </Route>
                                 <Route exact path={'/DataPipeline-Validation-SetUp'}>
                                     <ValidationSetup/>
+                                </Route>
+                                <Route exact path={'/DataPipeline-InputSetup'}>
+                                    <InputSetup/>
                                 </Route>
                                 <Route>
                                     <div>
