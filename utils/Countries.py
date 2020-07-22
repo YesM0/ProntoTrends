@@ -172,7 +172,7 @@ def getCountry(prompt: str = None) -> Country:
 
 
 def readInLocales() -> Dict[str, Union[str, List[Dict[str, Union[List[Dict[str, str]], str]]]]]:
-    with open(FS.All_Google_Locales, "r") as f:
+    with open(FS.All_Google_Locales, "r", encoding='utf8') as f:
         allLocales = f.read()
     allLocales = json.loads(allLocales)
     return allLocales
