@@ -1,103 +1,103 @@
-Year,ticket_geo_region_name,Wed_type,Distribution
-2018,Baden-Württemberg,standesamtlich,0.61
-2018,Baden-Württemberg,kirchlich,0.39
-2018,Bayern,standesamtlich,0.65
-2018,Bayern,kirchlich,0.35
-2018,Berlin,standesamtlich,1.0
-2018,Berlin,kirchlich,0.0
-2018,Brandenburg,standesamtlich,0.0
-2018,Brandenburg,kirchlich,0.0
-2018,Bremen,standesamtlich,0.0
-2018,Bremen,kirchlich,0.0
-2018,Deutschland,standesamtlich,0.64
-2018,Deutschland,kirchlich,0.36
-2018,Hamburg,standesamtlich,1.0
-2018,Hamburg,kirchlich,0.0
-2018,Hessen,standesamtlich,0.53
-2018,Hessen,kirchlich,0.47
-2018,Niedersachsen,standesamtlich,0.57
-2018,Niedersachsen,kirchlich,0.43
-2018,Mecklenburg-Vorpommern,standesamtlich,0.0
-2018,Mecklenburg-Vorpommern,kirchlich,0.0
-2018,Nordrhein-Westfalen,standesamtlich,0.54
-2018,Nordrhein-Westfalen,kirchlich,0.46
-2018,Rheinland-Pfalz,standesamtlich,1.0
-2018,Rheinland-Pfalz,kirchlich,0.0
-2018,Saarland,standesamtlich,0.0
-2018,Saarland,kirchlich,0.0
-2018,Sachsen,standesamtlich,1.0
-2018,Sachsen,kirchlich,0.0
-2018,Sachsen-Anhalt,standesamtlich,0.0
-2018,Sachsen-Anhalt,kirchlich,0.0
-2018,Schleswig-Holstein,standesamtlich,1.0
-2018,Schleswig-Holstein,kirchlich,0.0
-2018,Thüringen,standesamtlich,0.0
-2018,Thüringen,kirchlich,0.0
-2019,Baden-Württemberg,standesamtlich,0.65
-2019,Baden-Württemberg,kirchlich,0.35
-2019,Bayern,standesamtlich,0.65
-2019,Bayern,kirchlich,0.35
-2019,Berlin,standesamtlich,1.0
-2019,Berlin,kirchlich,0.0
-2019,Brandenburg,standesamtlich,0.0
-2019,Brandenburg,kirchlich,0.0
-2019,Bremen,standesamtlich,0.0
-2019,Bremen,kirchlich,0.0
-2019,Deutschland,standesamtlich,0.63
-2019,Deutschland,kirchlich,0.37
-2019,Hamburg,standesamtlich,1.0
-2019,Hamburg,kirchlich,0.0
-2019,Hessen,standesamtlich,0.6
-2019,Hessen,kirchlich,0.4
-2019,Niedersachsen,standesamtlich,0.64
-2019,Niedersachsen,kirchlich,0.36
-2019,Mecklenburg-Vorpommern,standesamtlich,0.0
-2019,Mecklenburg-Vorpommern,kirchlich,0.0
-2019,Nordrhein-Westfalen,standesamtlich,0.59
-2019,Nordrhein-Westfalen,kirchlich,0.41
-2019,Rheinland-Pfalz,standesamtlich,1.0
-2019,Rheinland-Pfalz,kirchlich,0.0
-2019,Saarland,standesamtlich,0.0
-2019,Saarland,kirchlich,0.0
-2019,Sachsen,standesamtlich,1.0
-2019,Sachsen,kirchlich,0.0
-2019,Sachsen-Anhalt,standesamtlich,0.0
-2019,Sachsen-Anhalt,kirchlich,0.0
-2019,Schleswig-Holstein,standesamtlich,1.0
-2019,Schleswig-Holstein,kirchlich,0.0
-2019,Thüringen,standesamtlich,0.0
-2019,Thüringen,kirchlich,0.0
-2020,Baden-Württemberg,standesamtlich,0.58
-2020,Baden-Württemberg,kirchlich,0.42
-2020,Bayern,standesamtlich,0.45
-2020,Bayern,kirchlich,0.55
-2020,Berlin,standesamtlich,1.0
-2020,Berlin,kirchlich,0.0
-2020,Brandenburg,standesamtlich,0.0
-2020,Brandenburg,kirchlich,0.0
-2020,Bremen,standesamtlich,0.0
-2020,Bremen,kirchlich,0.0
-2020,Deutschland,standesamtlich,0.54
-2020,Deutschland,kirchlich,0.46
-2020,Hamburg,standesamtlich,1.0
-2020,Hamburg,kirchlich,0.0
-2020,Hessen,standesamtlich,0.59
-2020,Hessen,kirchlich,0.41
-2020,Niedersachsen,standesamtlich,0.66
-2020,Niedersachsen,kirchlich,0.34
-2020,Mecklenburg-Vorpommern,standesamtlich,0.0
-2020,Mecklenburg-Vorpommern,kirchlich,0.0
-2020,Nordrhein-Westfalen,standesamtlich,0.36
-2020,Nordrhein-Westfalen,kirchlich,0.64
-2020,Rheinland-Pfalz,standesamtlich,1.0
-2020,Rheinland-Pfalz,kirchlich,0.0
-2020,Saarland,standesamtlich,0.0
-2020,Saarland,kirchlich,0.0
-2020,Sachsen,standesamtlich,1.0
-2020,Sachsen,kirchlich,0.0
-2020,Sachsen-Anhalt,standesamtlich,0.0
-2020,Sachsen-Anhalt,kirchlich,0.0
-2020,Schleswig-Holstein,standesamtlich,1.0
-2020,Schleswig-Holstein,kirchlich,0.0
-2020,Thüringen,standesamtlich,0.0
-2020,Thüringen,kirchlich,0.0
+Year,ticket_geo_region_name,Ceremony_type,Distribution
+2018,Baden-Württemberg,standesamtliche Hochzeit,0.61
+2018,Baden-Württemberg,Heiraten kirchlich,0.39
+2018,Bayern,standesamtliche Hochzeit,0.65
+2018,Bayern,Heiraten kirchlich,0.35
+2018,Berlin,standesamtliche Hochzeit,1.0
+2018,Berlin,Heiraten kirchlich,0.0
+2018,Brandenburg,standesamtliche Hochzeit,0.0
+2018,Brandenburg,Heiraten kirchlich,0.0
+2018,Bremen,standesamtliche Hochzeit,0.0
+2018,Bremen,Heiraten kirchlich,0.0
+2018,Deutschland,standesamtliche Hochzeit,0.64
+2018,Deutschland,Heiraten kirchlich,0.36
+2018,Hamburg,standesamtliche Hochzeit,1.0
+2018,Hamburg,Heiraten kirchlich,0.0
+2018,Hessen,standesamtliche Hochzeit,0.53
+2018,Hessen,Heiraten kirchlich,0.47
+2018,Niedersachsen,standesamtliche Hochzeit,0.57
+2018,Niedersachsen,Heiraten kirchlich,0.43
+2018,Mecklenburg-Vorpommern,standesamtliche Hochzeit,0.0
+2018,Mecklenburg-Vorpommern,Heiraten kirchlich,0.0
+2018,Nordrhein-Westfalen,standesamtliche Hochzeit,0.54
+2018,Nordrhein-Westfalen,Heiraten kirchlich,0.46
+2018,Rheinland-Pfalz,standesamtliche Hochzeit,1.0
+2018,Rheinland-Pfalz,Heiraten kirchlich,0.0
+2018,Saarland,standesamtliche Hochzeit,0.0
+2018,Saarland,Heiraten kirchlich,0.0
+2018,Sachsen,standesamtliche Hochzeit,1.0
+2018,Sachsen,Heiraten kirchlich,0.0
+2018,Sachsen-Anhalt,standesamtliche Hochzeit,0.0
+2018,Sachsen-Anhalt,Heiraten kirchlich,0.0
+2018,Schleswig-Holstein,standesamtliche Hochzeit,1.0
+2018,Schleswig-Holstein,Heiraten kirchlich,0.0
+2018,Thüringen,standesamtliche Hochzeit,0.0
+2018,Thüringen,Heiraten kirchlich,0.0
+2019,Baden-Württemberg,standesamtliche Hochzeit,0.65
+2019,Baden-Württemberg,Heiraten kirchlich,0.35
+2019,Bayern,standesamtliche Hochzeit,0.65
+2019,Bayern,Heiraten kirchlich,0.35
+2019,Berlin,standesamtliche Hochzeit,1.0
+2019,Berlin,Heiraten kirchlich,0.0
+2019,Brandenburg,standesamtliche Hochzeit,0.0
+2019,Brandenburg,Heiraten kirchlich,0.0
+2019,Bremen,standesamtliche Hochzeit,0.0
+2019,Bremen,Heiraten kirchlich,0.0
+2019,Deutschland,standesamtliche Hochzeit,0.63
+2019,Deutschland,Heiraten kirchlich,0.37
+2019,Hamburg,standesamtliche Hochzeit,1.0
+2019,Hamburg,Heiraten kirchlich,0.0
+2019,Hessen,standesamtliche Hochzeit,0.6
+2019,Hessen,Heiraten kirchlich,0.4
+2019,Niedersachsen,standesamtliche Hochzeit,0.64
+2019,Niedersachsen,Heiraten kirchlich,0.36
+2019,Mecklenburg-Vorpommern,standesamtliche Hochzeit,0.0
+2019,Mecklenburg-Vorpommern,Heiraten kirchlich,0.0
+2019,Nordrhein-Westfalen,standesamtliche Hochzeit,0.59
+2019,Nordrhein-Westfalen,Heiraten kirchlich,0.41
+2019,Rheinland-Pfalz,standesamtliche Hochzeit,1.0
+2019,Rheinland-Pfalz,Heiraten kirchlich,0.0
+2019,Saarland,standesamtliche Hochzeit,0.0
+2019,Saarland,Heiraten kirchlich,0.0
+2019,Sachsen,standesamtliche Hochzeit,1.0
+2019,Sachsen,Heiraten kirchlich,0.0
+2019,Sachsen-Anhalt,standesamtliche Hochzeit,0.0
+2019,Sachsen-Anhalt,Heiraten kirchlich,0.0
+2019,Schleswig-Holstein,standesamtliche Hochzeit,1.0
+2019,Schleswig-Holstein,Heiraten kirchlich,0.0
+2019,Thüringen,standesamtliche Hochzeit,0.0
+2019,Thüringen,Heiraten kirchlich,0.0
+2020,Baden-Württemberg,standesamtliche Hochzeit,0.58
+2020,Baden-Württemberg,Heiraten kirchlich,0.42
+2020,Bayern,standesamtliche Hochzeit,0.45
+2020,Bayern,Heiraten kirchlich,0.55
+2020,Berlin,standesamtliche Hochzeit,1.0
+2020,Berlin,Heiraten kirchlich,0.0
+2020,Brandenburg,standesamtliche Hochzeit,0.0
+2020,Brandenburg,Heiraten kirchlich,0.0
+2020,Bremen,standesamtliche Hochzeit,0.0
+2020,Bremen,Heiraten kirchlich,0.0
+2020,Deutschland,standesamtliche Hochzeit,0.54
+2020,Deutschland,Heiraten kirchlich,0.46
+2020,Hamburg,standesamtliche Hochzeit,1.0
+2020,Hamburg,Heiraten kirchlich,0.0
+2020,Hessen,standesamtliche Hochzeit,0.59
+2020,Hessen,Heiraten kirchlich,0.41
+2020,Niedersachsen,standesamtliche Hochzeit,0.66
+2020,Niedersachsen,Heiraten kirchlich,0.34
+2020,Mecklenburg-Vorpommern,standesamtliche Hochzeit,0.0
+2020,Mecklenburg-Vorpommern,Heiraten kirchlich,0.0
+2020,Nordrhein-Westfalen,standesamtliche Hochzeit,0.36
+2020,Nordrhein-Westfalen,Heiraten kirchlich,0.64
+2020,Rheinland-Pfalz,standesamtliche Hochzeit,1.0
+2020,Rheinland-Pfalz,Heiraten kirchlich,0.0
+2020,Saarland,standesamtliche Hochzeit,0.0
+2020,Saarland,Heiraten kirchlich,0.0
+2020,Sachsen,standesamtliche Hochzeit,1.0
+2020,Sachsen,Heiraten kirchlich,0.0
+2020,Sachsen-Anhalt,standesamtliche Hochzeit,0.0
+2020,Sachsen-Anhalt,Heiraten kirchlich,0.0
+2020,Schleswig-Holstein,standesamtliche Hochzeit,1.0
+2020,Schleswig-Holstein,Heiraten kirchlich,0.0
+2020,Thüringen,standesamtliche Hochzeit,0.0
+2020,Thüringen,Heiraten kirchlich,0.0
