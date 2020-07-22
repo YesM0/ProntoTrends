@@ -72,7 +72,7 @@ const defaultState: UserSettings = {
     }
 }
 
-interface CountryLU {
+export interface CountryLU {
     [key: string]: string
 }
 
