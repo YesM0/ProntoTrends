@@ -667,13 +667,13 @@ def get_category_overview_settings() -> Tuple[List[str], List[str]]:
         overview_cat_cols = ['Spend_type', 'Loc_type', 'Prof_type', 'Prof_type', 'Food_type', 'Style_type']
     else:
         print(
-            f"{lcol.OKGREEN}Please define the corresponding category column names which will be used in the final CSV for the following categories:\n{overview_cats}\nThey usually contain '_type'{lcol.ENDC}")
+            f"{lcol.OKGREEN}Please define the corresponding category column names which will be used in the final CSV for the following categories:\n{overview_cats}\nThey usually contain '_type' and need to be as many as there are categories.{lcol.ENDC}")
         while True:
             overview_cat_cols = defineList()
             if len(overview_cat_cols) == len(overview_cats):
                 break
             else:
-                print(f"The counts don't match. Please try again.")
+                print(f"The count of column names ({len(overview_cat_cols)}) don't match the amount of categories ({len(overview_cats)}). Please try again.")
     return overview_cats, overview_cat_cols
 
 
