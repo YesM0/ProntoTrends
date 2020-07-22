@@ -156,16 +156,19 @@ def construct_switch(
         if comparison_operator == '==':
             raise ValueError(
                 f"The comparison operator is invalid: '{comparison_operator}'. You probably want to use '='")
-        s = 'CASE\n'
-        for new_name, items in switch_dict.items():
-            for item in items:
-                s += f"WHEN {column_name} {comparison_operator} "
-                if comparison_operator.upper() == 'LIKE':
-                    s += format_like(item)
-                else:
-                    s += f'"{item}"'
-                s += f" THEN '{new_name}'\n"
-        s += f"ELSE {column_name}\nEND"
+        if len(switch_dict.items()) > 0:
+            s = 'CASE\n'
+            for new_name, items in switch_dict.items():
+                for item in items:
+                    s += f"WHEN {column_name} {comparison_operator} "
+                    if comparison_operator.upper() == 'LIKE':
+                        s += format_like(item)
+                    else:
+                        s += f'"{item}"'
+                    s += f" THEN '{new_name}'\n"
+            s += f"ELSE {column_name}\nEND"
+        else:
+            s = column_name
     else:
         s = column_name
     return s
