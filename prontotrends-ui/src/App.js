@@ -17,6 +17,7 @@ import ValidationSetup from "./pages/ValidationSetup";
 import NavSideBar from "./components/NavBar";
 import FinalCsvGeneration from './pages/FinalCsvGeneration';
 import InputSetup from "./pages/InputSetup";
+import DatabaseCredsSetup from "./pages/DatabaseCredsSetup";
 
 
 export const eel = window.eel
@@ -90,6 +91,16 @@ const navItems = [
                 link: '/Inspect-Comparison'
             }
         ]
+    },
+    {
+        title: 'Settings',
+        link: '/Settings',
+        children: [
+            {
+                title: 'Database Credentials',
+                link: '/Settings-DatabaseCredentials'
+            }
+        ]
     }
 ]
 
@@ -139,6 +150,9 @@ export class App extends Component {
                                 </Route>
                                 <Route exact path={'/DataPipeline-InputSetup'}>
                                     <InputSetup/>
+                                </Route>
+                                <Route exact path={'/Settings-DatabaseCredentials'}>
+                                    <DatabaseCredsSetup/>
                                 </Route>
                                 <Route>
                                     <div>

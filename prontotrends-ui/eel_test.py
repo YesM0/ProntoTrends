@@ -7,6 +7,7 @@ from typing import List, Dict, Union, Any, Callable
 from Validation.validationSetup import handleGUIData
 from utils.custom_types import *
 from utils.Countries import Country
+from utils.sql_utils import get_sql_login_data, create_credentials_file_api
 from api.api_resolvers import get_available_comparisons, get_available_tags, get_available_category_overviews, \
     get_keywords_from_db
 from Datapipeline.finalCSVgenerator import api_start
@@ -111,6 +112,21 @@ def get_keywords_for_tags(country_short_name: Country_Shortcode, search_items: L
             addition = "Please try to wait for a while and try again."
         eel.show_log(f"Could not get data from Database. Error: {e}\n{addition}", {'type': 'error'})
     return []
+
+
+@eel.expose
+def get_db_access_data():
+    d = get_sql_login_data(True)
+    if d is not None:
+        return d
+    else:
+        return {}
+
+@eel.expose
+def save_db_access_data(details):
+    success = create_credentials_file_api(details, eel.show_log)
+    print(f"Saving successful? {success}")
+
 
 
 def start_eel(develop):

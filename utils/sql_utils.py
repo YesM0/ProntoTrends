@@ -5,7 +5,7 @@ if __name__ == '__main__':
 
 import getpass
 import os
-from typing import Dict, Tuple, List, Union
+from typing import Dict, Tuple, List, Union, Callable
 
 import pandas as pd
 import pymysql.cursors
@@ -34,12 +34,12 @@ def get_sql_login_data(api_access: bool = False) -> Union[dict, None]:
     else:
         create_file = True
     if create_file and not api_access:
-        return create_credentials_file()
+        return create_credentials_file_script()
     else:
         return None
 
 
-def create_credentials_file():
+def create_credentials_file_script():
     path = FS.Settings_File
     while True:
         host = input("What is the host (db link) you want to connect to?\n").strip()
@@ -60,6 +60,29 @@ def create_credentials_file():
     with open(path, "a+") as f:
         f.write(yaml.dump(d))
     return d
+
+
+def create_credentials_file_api(details: dict, logging_func: Callable = print):
+    path = FS.Settings_File
+    host = details.get('host', "")
+    user = details.get('user', "")
+    password = details.get('password', "")
+    try:
+        connection = pymysql.connect(host=host,
+                                     user=user,
+                                     password=password,
+                                     cursorclass=pymysql.cursors.DictCursor)
+        connection.close()
+        d = {'host': host, 'user': user, 'password': password}
+        with open(path, "a+") as f:
+            f.write(yaml.dump(d))
+        logging_func("Saved Settings")
+        return True
+    except Exception as e:
+        logging_func(e)
+        logging_func(
+            "It seems like your login-data was not correct\nPlease also check that you're on company WIFI or connected via VPN")
+        return False
 
 
 def establish_SQL_cursor(login_data: Dict[str, str] = None, api_access: bool = False):
