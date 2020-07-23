@@ -4,13 +4,11 @@ import CountrySelector from "../components/CountrySelector";
 import Collapsible from "react-collapsible";
 import {eel} from '../App';
 import ReactTagInput from "@pathofdev/react-tag-input";
+import EditableTableClass from "../components/EditableTable-Class";
+import {toast} from "react-toastify";
 //import CountryLU from '../pages/FinalCsvGeneration'
 
 type InputType = 'Individual' | 'Comparison' | string
-
-interface TagSettings {
-    [key: string]: Array<string>
-}
 
 interface CountryLU {
     [key: string]: string
@@ -20,24 +18,25 @@ interface InputSetupSettings {
     country_short_name: string,
     country_full_name: string,
     campaign_shortcode: string,
-    tags_selected: {
-        tag_ids?: Array<number>,
-        keywords?: Array<string>
-    },
+    tags_selected: Array<string>,
     input_type: InputType,
-    tag_settings: TagSettings
+    tag_settings: object[]
+}
+
+interface TagSettings {
+    category: string,
+    option: string,
+    keywords: string[],
+    tag_id?: number
 }
 
 const defaultState: InputSetupSettings = {
     country_short_name: "DE",
     country_full_name: "Germany",
     campaign_shortcode: '',
-    tags_selected: {
-        tag_ids: [],
-        keywords: []
-    },
+    tags_selected: [],
     input_type: 'Comparison',
-    tag_settings: {}
+    tag_settings: []
 }
 
 class InputSetup extends Component<{}, InputSetupSettings> {
@@ -48,6 +47,7 @@ class InputSetup extends Component<{}, InputSetupSettings> {
         this.handleCountryChange = this.handleCountryChange.bind(this)
         this.handleRadioChange = this.handleRadioChange.bind(this)
         this.handleTagInput = this.handleTagInput.bind(this)
+        this.handleDBDataGathering = this.handleDBDataGathering.bind(this)
     }
 
     handleCountryChange(e: ChangeEvent<HTMLSelectElement>) {
@@ -73,18 +73,32 @@ class InputSetup extends Component<{}, InputSetupSettings> {
     }
 
     handleTagInput(items: Array<string>) {
-        if (items.some((x) => !isNaN(parseInt(x)))) {
-            this.setState({
-                tags_selected: {
-                    tag_ids: items.map(x => parseInt(x))
-                }
+        this.setState({
+            tags_selected: items
+        })
+    }
+
+    handleDBDataGathering() {
+        if (this.state.tags_selected.length > 0) {
+            toast("Loading data from DB", {
+                position: toast.POSITION.BOTTOM_RIGHT
+            });
+            eel.get_keywords_for_tags(this.state.country_short_name, this.state.tags_selected)((res: Array<TagSettings>) => {
+                console.log(res)
+                this.setState({
+                    tag_settings: [...this.state.tag_settings, ...res]
+                })
+            })
+        }
+    }
+
+    handleCreationSubmit() {
+        if (this.state.tag_settings.length === 0) {
+            toast("Cannot create file for empty data", {
+                type: "warning"
             })
         } else {
-            this.setState({
-                tags_selected: {
-                    keywords: items
-                }
-            })
+            eel.receive_data({data: this.state, destination: 'InputSetup'})
         }
     }
 
@@ -160,32 +174,97 @@ class InputSetup extends Component<{}, InputSetupSettings> {
                                        this.setState({campaign_shortcode: e.target.value})
                                    }} required={true}/>
                         </label>
-                        <form style={{marginBottom: '2rem'}}>
-                            <label>
-                                <input
-                                    type="radio"
-                                    value="Individual"
-                                    checked={this.state.input_type === 'Individual'}
-                                    onChange={this.handleRadioChange}
-                                />
-                                Individual Tags
-                            </label>
-                            <label>
-                                <input
-                                    type={"radio"}
-                                    value={'Comparison'}
-                                    checked={this.state.input_type === 'Comparison'}
-                                    onChange={this.handleRadioChange}
-                                />
-                                Comparison
-                            </label>
-                        </form>
+                        <label>
+                            <input
+                                type="radio"
+                                value="Individual"
+                                checked={this.state.input_type === 'Individual'}
+                                onChange={this.handleRadioChange}
+                            />
+                            Individual Tags
+                        </label>
+                        <label>
+                            <input
+                                type={"radio"}
+                                value={'Comparison'}
+                                checked={this.state.input_type === 'Comparison'}
+                                onChange={this.handleRadioChange}
+                            />
+                            Comparison
+                        </label>
+                        <label>
+                            <input
+                                type={"radio"}
+                                value={'Both'}
+                                checked={this.state.input_type === 'Both'}
+                                onChange={this.handleRadioChange}
+                            />
+                            Both
+                        </label>
                         <Collapsible
-                            trigger={`Get Tag Data from DB ${(this.state.tags_selected.keywords?.length || -1 > 0 || this.state.tags_selected.tag_ids?.length || -1 > 0) ? ' ✅' : ""}`}
+                            trigger={`Get Tag Data from DB ${(this.state.tags_selected.length || -1 > 0) ? ' ✅' : ""}`}
                             triggerStyle={styles.subsection_headers}
                             transitionTime={200} triggerTagName={'div'}>
-                            <ReactTagInput tags={this.state.tags_selected.keywords?.concat(this.state.tags_selected.tag_ids.map(x => x.toString())) || []} onChange={this.handleTagInput} />
+                            <div style={{
+                                width: '100%',
+                                padding: '1rem',
+                                display: "flex",
+                                flexDirection: "column",
+                                justifyContent: "center"
+                            }}>
+                                <ReactTagInput
+                                    tags={this.state.tags_selected || []}
+                                    onChange={this.handleTagInput}
+                                    placeholder="Type and press enter to input Keywords or Tag Ids"
+                                    removeOnBackspace={true}
+                                />
+                                <button className={'button'} style={{
+                                    fontSize: '0.9rem', marginBottom: '1rem'
+                                }}
+                                        onClick={this.handleDBDataGathering}
+                                >
+                                    Gather Keywords from DB
+                                </button>
+                            </div>
                         </Collapsible>
+                        <hr/>
+                        <EditableTableClass initial_columns={[
+                            {
+                                field: 'category',
+                                title: 'Category',
+                                cellStyle: {
+                                    fontSize: '0.8rem'
+                                }
+                            },
+                            {
+                                field: 'option',
+                                title: 'Option'
+                            },
+                            {
+                                field: 'keywords',
+                                title: 'Keywords',
+                                editComponent: TagField,
+                                render: (rowData) => rowData.keywords.join(", ")
+                            }
+                        ]} title={"Set-up"} data={this.state.tag_settings} handleDataChange={(data => this.setState({
+                            tag_settings: data
+                        }))}/>
+                        <div style={{display: "flex", flexDirection: 'row', alignItems: 'center', justifyContent: 'center'}}>
+                            <button className={'button'} style={{
+                                fontSize: '0.9rem', marginBottom: '1rem'
+                            }}
+                                    onClick={() => eel.receive_data({data: this.state, destination: 'InputSetup'})}
+                            >
+                                Submit & Create Input File
+                            </button>
+                            <button className={'button'} style={{
+                                fontSize: '0.9rem', marginBottom: '1rem'
+                            }}
+                                    onClick={() => this.setState(defaultState)}
+                            >
+                                Reset All
+                            </button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -210,3 +289,8 @@ const styles = {
 }
 
 export default InputSetup
+
+
+const TagField = (props: { value: Array<string>, onChange: (tags: Array<string>) => void }) => {
+    return <ReactTagInput tags={props.value || []} onChange={tags => props.onChange(tags)} removeOnBackspace={true}/>
+}

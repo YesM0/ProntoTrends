@@ -22,9 +22,9 @@ import InputSetup from "./pages/InputSetup";
 export const eel = window.eel
 eel.set_host('ws://localhost:8080')
 
-function show_log(msg) {
+function show_log(msg, options) {
     //console.log("got message " + msg)
-    window.AppComponent.showLog(msg)
+    window.AppComponent.showLog(msg, options)
 }
 
 // Separating
@@ -101,8 +101,8 @@ export class App extends Component {
         window.AppComponent = this;
     }
 
-    showLog(msg) {
-        toast(msg, {
+    showLog(msg, options) {
+        toast(msg, {...options,
             position: toast.POSITION.BOTTOM_RIGHT,
         });
     }

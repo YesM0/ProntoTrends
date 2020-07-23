@@ -1,12 +1,15 @@
 import os
 import sys
 from typing import List, Dict, Union
+import pandas as pd
 
 sys.path.extend(["../", "./"])
 
 from utils.Filesys import generic_FileServer as FS
 from utils.Countries import Country, getCountry
 from utils.custom_types import *
+from utils.sql_utils import selectTagsFromDB
+from Input_Set_Up.prepareKeywordsFile import apply_php_deserialization, generateKeywordsFile
 
 
 def folder_contains_country(folder: Folderpath, country: Country):
@@ -45,6 +48,29 @@ def get_available_tags(country: Country) -> List[Dict[str, Union[int, str, bool]
             'chosen': False
         })
     return array_form
+
+
+def get_keywords_from_db(country: Country, search_items: List[Union[str, int]]) -> Union[List[
+    Dict[str, Union[str, int, List[str]]]], None]:
+    search_keywords = [item for item in search_items if isinstance(item, str)]
+    search_tag_ids = [item for item in search_items if isinstance(item, int) or isinstance(item, float)]
+    df = selectTagsFromDB(country.Shortcode, search_keywords, search_tag_ids, called_through_api=True)
+    if df is None:
+        return None
+    print(df)
+    parsed_df = apply_php_deserialization(
+        df)  # df headers: tag_id, tag_name, service_name, bc_name, elite_keywords, top_keywords
+    tag_kwd_df: pd.DataFrame = generateKeywordsFile(parsed_df, "", "", desired_return='tag_keyword_df')
+    grouped = tag_kwd_df.groupby(['tag_id', 'tag'])
+    out = []
+    for (tag_id, tag_name), group in grouped:
+        kwds = group['keyword'].unique().tolist()
+        out.append({
+            'tag_id': tag_id,
+            'tag_name': tag_name,
+            'keywords': kwds
+        })
+    return out
 
 
 if __name__ == '__main__':

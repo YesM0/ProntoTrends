@@ -7,7 +7,7 @@ import os
 import time
 import pandas as pd
 from random import randint
-from typing import Union, Dict
+from typing import Union, Dict, Callable
 from json import dumps
 from utils.custom_types import *
 from utils.Filesys import generic_FileServer
@@ -206,12 +206,12 @@ def translate_dict(dictionary: dict, translations: dict):
     return new
 
 
-def save_csv(df: pd.DataFrame, filepath: Filepath, **kwargs):
+def save_csv(df: pd.DataFrame, filepath: Filepath, logging_func: Callable = print, **kwargs):
     base_dir = os.path.split(filepath)[0]
     if not os.path.exists(base_dir):
         os.makedirs(base_dir)
     df.to_csv(filepath, **kwargs)
-    print(f"Saved file: file://{filepath}")
+    logging_func(f"Saved file: file://{filepath}")
 
 
 if __name__ == '__main__':

@@ -17,7 +17,7 @@ from utils.misc_utils import lcol
 from utils.user_interaction_utils import binaryResponse, chooseFolder, user_input
 
 
-def get_sql_login_data() -> dict:
+def get_sql_login_data(api_access: bool = False) -> Union[dict, None]:
     path: Filepath = FS.Settings_File
     create_file: bool = False
     if path is not None and os.path.exists(path):
@@ -33,37 +33,46 @@ def get_sql_login_data() -> dict:
             create_file = True
     else:
         create_file = True
-    if create_file:
-        print(f"{lcol.OKGREEN}We don't seem to find your login details for the database. Let's set them up!{lcol.ENDC}")
-        while True:
-            host = input("What is the host (db link) you want to connect to?\n").strip()
-            user = input("What is your user name? ").strip()
-            password = getpass.getpass("Please pass in your password: ")
-            try:
-                connection = pymysql.connect(host=host,
-                                             user=user,
-                                             password=password,
-                                             cursorclass=pymysql.cursors.DictCursor)
-                connection.close()
-                break
-            except Exception as e:
-                print(e)
-                print(
-                    "It seems like your login-data was not correct\nPlease also check that you're on company WIFI or connected via VPN")
-        d = {'host': host, 'user': user, 'password': password}
-        with open(path, "a+") as f:
-            f.write(yaml.dump(d))
-        return d
+    if create_file and not api_access:
+        return create_credentials_file()
+    else:
+        return None
 
 
-def establish_SQL_cursor(login_data: Dict[str, str] = None):
-    login_data: dict = get_sql_login_data() if not login_data or not (
+def create_credentials_file():
+    path = FS.Settings_File
+    while True:
+        host = input("What is the host (db link) you want to connect to?\n").strip()
+        user = input("What is your user name? ").strip()
+        password = getpass.getpass("Please pass in your password: ")
+        try:
+            connection = pymysql.connect(host=host,
+                                         user=user,
+                                         password=password,
+                                         cursorclass=pymysql.cursors.DictCursor)
+            connection.close()
+            break
+        except Exception as e:
+            print(e)
+            print(
+                "It seems like your login-data was not correct\nPlease also check that you're on company WIFI or connected via VPN")
+    d = {'host': host, 'user': user, 'password': password}
+    with open(path, "a+") as f:
+        f.write(yaml.dump(d))
+    return d
+
+
+def establish_SQL_cursor(login_data: Dict[str, str] = None, api_access: bool = False):
+    login_data: dict = get_sql_login_data(api_access=api_access) if not login_data or not (
             'host' in login_data and 'user' in login_data and 'password' in login_data) else login_data
-    connection = pymysql.connect(host=login_data['host'],
+    if login_data is None:
+        return None
+    else:
+        connection = pymysql.connect(host=login_data['host'],
                                  user=login_data['user'],
                                  password=login_data['password'],
                                  cursorclass=pymysql.cursors.DictCursor)
-    return connection
+        return connection
 
 
 def define_sql_date(request_str: str = None):
@@ -86,20 +95,25 @@ def define_sql_date(request_str: str = None):
             print(e)
 
 
-def selectTagsFromDB(cc_short: Country_Shortcode, kwds: list = None, tag_ids: list = None) -> pd.DataFrame:
+def selectTagsFromDB(cc_short: Country_Shortcode, kwds: list = None, tag_ids: list = None,
+                     called_through_api: bool = False) -> Union[pd.DataFrame, None]:
     sql = construct_query_tags_keywords(cc_short, kwds, tag_ids)
-    connection = establish_SQL_cursor()
-    df = pd.read_sql(sql, connection)
-    connection.close()
-    print(df.head())
-    if binaryResponse("Do you want to save the data to a file?"):
-        folder = chooseFolder()
-        filename = input("What filename do you want?\n").strip()
-        if not '.csv' in filename:
-            filename += '.csv'
-        path = os.path.join(folder, filename)
-        df.to_csv(path, index=False)
-    return df
+    connection = establish_SQL_cursor(api_access=called_through_api)
+    if connection is None:
+        return None
+    else:
+        df = pd.read_sql(sql, connection)
+        connection.close()
+        if not called_through_api:
+            print(df.head())
+            if binaryResponse("Do you want to save the data to a file?"):
+                folder = chooseFolder()
+                filename = input("What filename do you want?\n").strip()
+                if not '.csv' in filename:
+                    filename += '.csv'
+                path = os.path.join(folder, filename)
+                df.to_csv(path, index=False)
+        return df
 
 
 def construct_query_tags_keywords(cc_short: Country_Shortcode, kwds=None, tag_ids=None):
@@ -111,19 +125,19 @@ def construct_query_tags_keywords(cc_short: Country_Shortcode, kwds=None, tag_id
     if kwds is not None or tag_ids is not None:
         sql += " WHERE "
         conditions = 0
-    if kwds is not None:
+    if kwds is not None and len(kwds) > 0:
         if isinstance(kwds, str):
             kwds = [kwds]
         for kwd in kwds:
             if not conditions == 0:
-                sql += "or "
+                sql += " or "
             sql += f"t.name like '%{kwd}%' or b.name like '%{kwd}%' or s.name like '%{kwd}%' or b.elite_keywords like '%{kwd}%' or b.top_keywords like '%{kwd}%'"
             conditions += 1
-    if tag_ids is not None:
+    if tag_ids is not None and len(tag_ids) > 0:
         if isinstance(tag_ids, str) or isinstance(tag_ids, int):
             tag_ids = [tag_ids]
         if conditions > 0:
-            sql += "or "
+            sql += " or "
         in_statement = "("
         for i, tid in enumerate(tag_ids):
             in_statement += f"{str(tid)}"

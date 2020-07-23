@@ -49,9 +49,10 @@ interface EditableTableProps<RowData extends object> {
     handleDataChange: (data: RowData[]) => void
 }
 
+const timeoutDuration = 10;
 
 class EditableTableClass extends Component<EditableTableProps<any>, Readonly<any>> {
-    
+
     render() {
         return (
         <>
@@ -74,7 +75,7 @@ class EditableTableClass extends Component<EditableTableProps<any>, Readonly<any
                                 this.props.handleDataChange([...this.props.data, newData]);
 
                                 resolve();
-                            }, 1000)
+                            }, timeoutDuration)
                         }),
                     onRowUpdate: (newData, oldData) =>
                         new Promise((resolve, reject) => {
@@ -85,7 +86,7 @@ class EditableTableClass extends Component<EditableTableProps<any>, Readonly<any
                                 this.props.handleDataChange([...dataUpdate]);
 
                                 resolve();
-                            }, 1000)
+                            }, timeoutDuration)
                         }),
                     onRowDelete: oldData =>
                         new Promise((resolve, reject) => {
@@ -96,7 +97,7 @@ class EditableTableClass extends Component<EditableTableProps<any>, Readonly<any
                                 this.props.handleDataChange([...dataDelete]);
 
                                 resolve()
-                            }, 1000)
+                            }, timeoutDuration)
                         }),
                 }}
             />
