@@ -356,7 +356,7 @@ def getMonths(filepath):
 
 
 def createTagChartData(country: Country_Fullname, min_regions: int = 0, select_tags: bool = False,
-                       selected_tags: List[str] = None):
+                       selected_tags: List[str] = None, min_year: int = 2019):
     """
     Creates data for requests-trend.csv / Chart_Data.csv. A yearly
     Args:
@@ -372,7 +372,7 @@ def createTagChartData(country: Country_Fullname, min_regions: int = 0, select_t
     region_ids = {r['id']: r['name'] for r in regions}
 
     final_df = gather_base_data_chart(country, min_regions, region_ids, regions, select_tags, selected_tags)
-    final_df = final_df[final_df.Year >= 2019]
+    final_df = final_df[final_df.Year >= min_year]
 
     final_df = scale_within_ticket_cc_selected(final_df)
     other = final_df.copy(deep=True)
@@ -692,8 +692,8 @@ def get_user_settings() -> Tuple[
         campaign_short_code = input("What is the short code of the current campaign?\n").strip()
     chosenActions = choose_multiple_from_dict(
         {1: 'Create Category Overviews', 2: 'Create Top5', 3: 'create Main Section', 4: 'create Chart Data',
-         5: 'create Table Data', 6: 'create Map Data'}, label='actions')
-    if 'create Chart Data' in chosenActions:
+         5: 'create Table Data', 6: 'create Map Data', 7: 'create Chart Data (for custom operations)'}, label='actions')
+    if 'create Chart Data' in chosenActions or 'create Chart Data (for custom operations)' in chosenActions:
         if binaryResponse("Do you want to set a minimum region count for the Chart?"):
             min_region_count = int_input("What is the limit you choose?\n")
         select_tags_manually = binaryResponse("Do you want to manually select the tags to be included?")
@@ -792,6 +792,13 @@ def dialog():
             result = createMapData(country, campaign_short_code, useChart=useChartData)
             result = result.fillna('NA')
             fname = os.path.join(final_folder, f'{campaign_short_code}_Map_Data_{country}.csv')
+            result.to_csv(fname, index=False)
+            print(f'Saved: "file://{fname}"')
+        elif chosenAction == 'create Chart Data (for custom operations)':
+            min_year = int_input("What is the base year you want to get the data for?")
+            result = createTagChartData(country, min_regions=min_region_count, select_tags=select_tags_manually, min_year=min_year)
+            result = remapColumns(result, col_remap)
+            fname = os.path.join(final_folder, f'{campaign_short_code}_Chart_Data_{country}.csv')
             result.to_csv(fname, index=False)
             print(f'Saved: "file://{fname}"')
         print(f'FINISHED {chosenAction}')
