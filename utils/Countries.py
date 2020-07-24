@@ -37,8 +37,8 @@ countries_dict_local: Dict[Country_Shortcode, Country_Fullname] = {
 region_merges: Dict[Country_Shortcode, Dict[Column_Name, Dict[Region_Fullname, List[Region_Fullname]]]] = {
     'FR': {
         "ticket_geo_region_name": {
-            "Grand-est": ["Alsace", "Champagne-Ardenne", "Lorraine"],
-            "Hauts-de-france": ["Picardie", "Nord-Pas-de-Calais"],
+            "Grand-Est": ["Alsace", "Champagne-Ardenne", "Lorraine"],
+            "Hauts-de-France": ["Picardie", "Nord-Pas-de-Calais"],
             "Normandie": ['Basse Normandie', 'Haute Normandie'],
             "Bourgogne-Franche-Comté": ["Bourgogne", "Franche-Comté"],
             "Nouvelle-Aquitaine": ["Aquitaine", "Limousin", "Poitou-Charentes"],
@@ -46,8 +46,8 @@ region_merges: Dict[Country_Shortcode, Dict[Column_Name, Dict[Region_Fullname, L
             "Auvergne-Rhône-Alpes": ["Auvergne", "Rhône-Alpes"]
         },
         'geoName': {
-            "Grand-est": ["Alsace", "Champagne-Ardenne", "Lorraine"],
-            "Hauts-de-france": ["Picardie", "Nord-Pas-de-Calais"],
+            "Grand-Est": ["Alsace", "Champagne-Ardenne", "Lorraine"],
+            "Hauts-de-France": ["Picardie", "Nord-Pas-de-Calais"],
             "Normandie": ['Basse Normandie', 'Haute Normandie'],
             "Bourgogne-Franche-Comté": ["Bourgogne", "Franche-Comté"],
             "Nouvelle-Aquitaine": ["Aquitaine", "Limousin", "Poitou-Charentes"],
@@ -80,8 +80,8 @@ merged_regions_override = {
     "Rhone-Alpes": "FR-V",
     "Upper Normandy": "FR-Q",
     "Île-de-France": "FR-J",
-    "Grand-est": 'FR-GE',
-    "Hauts-de-france": 'FR-HF',
+    "Grand-Est": 'FR-GE',
+    "Hauts-de-France": 'FR-HF',
     "Normandie": "FR-NO",
     "Bourgogne-Franche-Comté": "FR-BFC",
     "Nouvelle-Aquitaine": "FR-NA",
