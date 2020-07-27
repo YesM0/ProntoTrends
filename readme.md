@@ -54,7 +54,4 @@ Allows to inspect data in `Aggregated` (Tag-level)
 Allows to inspect data in `comparions` or to assemble `Aggregated` data for a comparison inspection (viewing tags against each other)
 
 ## Ideas:
-- deeper integration with Production Database
 - Various Chart viewer options for visualizing data -> extend comparisons_inspector.py
-- presets for flows loadable and selectable -> preselect the choices
-- CI to team (non-technical)
