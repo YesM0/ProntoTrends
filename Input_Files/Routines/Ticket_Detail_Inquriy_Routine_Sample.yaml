@@ -1,0 +1,35 @@
+name: Renovation
+tags_included:  # choose either of Tag ID or Tag Name
+    - Cronotermostato e termostato
+    - Installazione impianto di domotica
+    - Installazione impianto wifi
+    - Automazione cancelli
+    - Motorizzazione tapparelle
+    - Finestre blindate
+    - Installazione o sostituzione vetro antisfondamento
+    - Installazione o sostituzione inferriate
+    - Impianto di allarme
+    - Installazione o sostituzione impianto di videosorveglianza
+    - Installazione o sostituzione porte blindate
+    - Certificato conformità impianto elettrico
+    - Rifacimento facciata
+    - Installazione o sostituzione pannelli fotovoltaici
+    - Riparazione o manutenzione tetto
+    - Costruzione o sostituzione tetto
+    - Installazione o sostituzione finestre
+    - Installazione o sostituzione doppi vetri
+    - Certificazione energetica
+    - Riqualificazione energetic
+    - Installazione o sostituzione serrature
+group_by_tag_name: False # preferrably leave this False
+min_date: '2018-01-01'
+switch_dict:  # this is the dictionary used to match fields and assign them to a given group.
+    option1:  # you have to determine the new name here
+        - match1  # you can add 1 or more cases in which the fields will be named "option1" or whatever name you give it
+        - match2
+        - match3
+    option2:
+        - match1
+        - match2
+        - match3
+
