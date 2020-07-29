@@ -73,6 +73,31 @@ def get_keywords_from_db(country: Country, search_items: List[Union[str, int]]) 
     return out
 
 
+def get_scraping_input_file(country: Country, campaign_short_code: str, scraping_type: str) -> Union[str, Filepath]:
+    if "Individual" in scraping_type:
+        if len(campaign_short_code) > 0:
+            campaign_short_code = f"{campaign_short_code}_"
+        expected = os.path.join(FS.Inputs, f"{campaign_short_code}Keywords_{country.Shortcode.upper()}.csv")
+        if os.path.exists(expected):
+            return expected
+        else:
+            expected = os.path.join(FS.Inputs, f"Keywords_{country.Shortcode.upper()}.csv")
+            if os.path.exists(expected):
+                return expected
+            else:
+                return ""
+    else:
+        expected = os.path.join(FS.Inputs, f"ProntoPro Trends_Questions_{country.Shortcode.upper()}.json")
+        if os.path.exists(expected):
+            return expected
+        else:
+            expected = os.path.join(FS.Inputs, f"ProntoPro_Trends_Questions_{country.Shortcode.upper()}.json")
+            if os.path.exists(expected):
+                return expected
+            else:
+                return ""
+
+
 if __name__ == '__main__':
     country = Country(short_name='DE')
     print(get_available_category_overviews(country, 'Wed'))

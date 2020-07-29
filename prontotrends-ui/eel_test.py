@@ -1,19 +1,23 @@
 import platform
 import sys
 import random
+import time
+import os
+import eel
 
 sys.path.extend(['../', '.../', './'])
+
 from typing import List, Dict, Union, Any, Callable
 from Validation.validationSetup import handleGUIData
 from utils.custom_types import *
 from utils.Countries import Country
 from utils.sql_utils import get_sql_login_data, create_credentials_file_api
+from utils.Filesys import generic_FileServer as FS
 from api.api_resolvers import get_available_comparisons, get_available_tags, get_available_category_overviews, \
-    get_keywords_from_db
+    get_keywords_from_db, get_scraping_input_file
 from Datapipeline.finalCSVgenerator import api_start
 from Input_Set_Up.prepareKeywordsFile import api_file_creation
-
-import eel
+from Datapipeline.mainProxy import api_access as scraper_api_access
 
 
 @eel.expose
@@ -54,7 +58,7 @@ def start_final_csv_generation(settings: dict):
 
 
 def send_logs_to_frontend(string):
-    eel.show_log(string)
+    eel.notification(string)
 
 
 @eel.expose
@@ -75,8 +79,8 @@ def receive_data(data: Dict[str, Union[Dict[str, Any], str]]):
     elif data.get('destination', False) == 'InputSetup':
         print("Matched destination: InputSetup")
         print(data)
-        eel.show_log(f'Creating Input_Setup: {data.get("data", {}).get("input_type", "NO INPUT TYPE FOUND")}')
-        api_file_creation(data.get('data', {}), eel.show_log)
+        eel.notification(f'Creating Input_Setup: {data.get("data", {}).get("input_type", "NO INPUT TYPE FOUND")}')
+        api_file_creation(data.get('data', {}), eel.notification)
     else:
         print(data)
 
@@ -84,7 +88,7 @@ def receive_data(data: Dict[str, Union[Dict[str, Any], str]]):
 @eel.expose
 def getLog():
     print("Got prompted for Log")
-    eel.show_log('HI FROM PYTHON')
+    eel.notification('HI FROM PYTHON')
 
 
 @eel.expose
@@ -105,12 +109,14 @@ def get_keywords_for_tags(country_short_name: Country_Shortcode, search_items: L
                 })
             return out
         else:
-            eel.show_log("Could not get data from Database. This can be a connection problem or due to mistakes or missing credentials. Please check!", {'type': 'error'})
+            eel.notification(
+                "Could not get data from Database. This can be a connection problem or due to mistakes or missing credentials. Please check!",
+                {'type': 'error'})
     except Exception as e:
         addition = ""
         if 'timeout' in e.__repr__().lower():
             addition = "Please try to wait for a while and try again."
-        eel.show_log(f"Could not get data from Database. Error: {e}\n{addition}", {'type': 'error'})
+        eel.notification(f"Could not get data from Database. Error: {e}\n{addition}", {'type': 'error'})
     return []
 
 
@@ -122,11 +128,50 @@ def get_db_access_data():
     else:
         return {}
 
+
 @eel.expose
 def save_db_access_data(details):
-    success = create_credentials_file_api(details, eel.show_log)
+    success = create_credentials_file_api(details, eel.notification)
     print(f"Saving successful? {success}")
 
+
+@eel.expose
+def sendLogs():
+    for i in range(1000):
+        time.sleep(0.1)
+        if i % 100 == 0:
+            eel.receiveLog(f"Iteration {i}")
+
+
+@eel.expose
+def get_scraping_file(country_short_name: Country_Shortcode, campaign_short_code: str, scraping_type: str) -> Filepath:
+    print("Inputs to get_scraping_file")
+    print(f"{country_short_name} - {campaign_short_code} - {scraping_type}")
+    res = get_scraping_input_file(Country(short_name=country_short_name), campaign_short_code, scraping_type)
+    if res == "":
+        return "No File was found. Please select manually"
+    else:
+        return res
+
+
+@eel.expose
+def scrape(settings_dict):
+    actions = {
+        "Individual - All Regions": 'Individual Keywords ("Keywords_CC.csv) - All Regions',
+        "Individual - CC only": 'Individual Keywords ("Keywords_CC.csv) - Only Country',
+        'Comparison': 'Comparisons (ProntoPro_Trends_Questions_CC.csv) - All Regions'
+    }
+    chosen_action = actions.get(settings_dict.get("scraping_type", None), None)
+    if chosen_action:
+        file = settings_dict.get("sourceFile", "")
+        if os.path.sep not in file:
+            file = os.path.join(FS.Inputs, file)
+        country = Country(short_name=settings_dict.get('country_short_name', ""))
+        deduplicateKeywords = settings_dict.get('deduplicate_keywords', False)
+        prefix = settings_dict.get('campaign_short_code', '')
+        scraper_api_access(chosen_action, country, file, deduplicateKeywords, prefix)
+    else:
+        eel.notification("Invalid action chosen", {'type': 'error'})
 
 
 def start_eel(develop):

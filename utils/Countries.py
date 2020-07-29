@@ -1,3 +1,5 @@
+from pprint import pprint
+
 if __name__ == '__main__':
     import sys
     sys.path.append('../')
@@ -122,6 +124,12 @@ class Country:
         self.Database: str = f"prontopro" if self.Shortcode.lower() == 'it' else f"prontopro_{self.Shortcode.lower()}"
         self.Local_Name: Country_Fullname = countries_dict_local.get(self.Shortcode.lower())
         self.has_merged_regions: bool = isinstance(region_merges.get(self.Shortcode, False), dict)
+
+    def __repr__(self):
+        return f"{self.Full_name} [{self.Shortcode}] Instance"
+
+    def __str__(self):
+        return self.Full_name
 
     def get_regions(self, include_self: bool = False) -> Union[List[Dict[str, str]], None]:
         """
@@ -292,3 +300,24 @@ regions_map_english_to_local = {
 
 if __name__ == '__main__':
     print(get_region_id_to_name_dict(Country('de').Full_name))
+
+
+def getChosenCountries() -> List[Tuple[Country_Shortcode, Country_Fullname]]:
+    """
+    Asks user for selection of countries to scrape for
+    Returns: List[Tuple[Country_Shortcode, Country_Fullname]] -- A list of the chosen ccs (validated)
+
+    """
+    chosen_ccs = []
+    while True:
+        pprint(countries_dict_eng)
+        chosen = input(
+            "What countries do you want to scrape for? Please put in the shortcodes (separated by commas)\n").strip().lower()
+        for i in chosen.split(","):
+            res = countries_dict_eng.get(i.strip(), None)
+            if res:
+                chosen_ccs.append((Country_Shortcode(i.strip()), Country_Fullname(res)))
+        if len(chosen_ccs) > 0:
+            return chosen_ccs
+        else:
+            sys.exit()

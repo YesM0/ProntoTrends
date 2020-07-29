@@ -6,7 +6,7 @@ import json
 import os
 
 import pandas as pd
-from Datapipeline.mainProxy import getChosenCountries
+from utils.Countries import getChosenCountries
 from utils.misc_utils import lcol
 from utils.user_interaction_utils import binaryResponse, choose_from_dict
 from utils.Filesys import generic_FileServer

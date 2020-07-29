@@ -1,7 +1,9 @@
 /// <reference types="react-scripts" />
 
 interface Window {
-  eel: any;
+    ScraperComponent: any;
+    LoggingComponent: any;
+    eel: any;
 }
 
 declare var window: Window;

@@ -5,7 +5,7 @@ import {
     Switch,
     HashRouter
 } from 'react-router-dom'
-import { ToastContainer, toast } from "react-toastify";
+import {ToastContainer, toast} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
 import './App.css';
 import "@pathofdev/react-tag-input/build/index.css";
@@ -18,18 +18,25 @@ import NavSideBar from "./components/NavBar";
 import FinalCsvGeneration from './pages/FinalCsvGeneration';
 import InputSetup from "./pages/InputSetup";
 import DatabaseCredsSetup from "./pages/DatabaseCredsSetup";
+import LoggingTest from "./pages/LoggingTest";
+import Scraper from "./pages/Scraper";
 
 
 export const eel = window.eel
 eel.set_host('ws://localhost:8080')
 
-function show_log(msg, options) {
+function notification(msg, options) {
     //console.log("got message " + msg)
-    window.AppComponent.showLog(msg, options)
+    window.AppComponent.notification(msg, options)
+}
+
+function console_log(msg) {
+    console.log(msg)
 }
 
 // Separating
-window.eel.expose(show_log, 'show_log')
+window.eel.expose(notification, 'notification')
+window.eel.expose(console_log, 'console_log')
 
 const navItems = [
     {
@@ -108,12 +115,13 @@ const navItems = [
 export class App extends Component {
     constructor(props) {
         super(props);
-        this.showLog = this.showLog.bind(this)
+        this.notification = this.notification.bind(this)
         window.AppComponent = this;
     }
 
-    showLog(msg, options) {
-        toast(msg, {...options,
+    notification(msg, options) {
+        toast(msg, {
+            ...options,
             position: toast.POSITION.BOTTOM_RIGHT,
         });
     }
@@ -128,7 +136,7 @@ export class App extends Component {
                             <NavSideBar items={navItems}/>
                         </div>
                         <div style={{flex: 1, backgroundColor: '#315c80'}}>
-                            <Switch >
+                            <Switch>
                                 <Route exact path="/">
                                     <Home/>
                                 </Route>
@@ -154,12 +162,18 @@ export class App extends Component {
                                 <Route exact path={'/Settings-DatabaseCredentials'}>
                                     <DatabaseCredsSetup/>
                                 </Route>
+                                <Route exact path={'/TEST'}>
+                                    <LoggingTest/>
+                                </Route>
+                                <Route exact path={'/DataPipeline-Scraping'}>
+                                    <Scraper/>
+                                </Route>
                                 <Route>
                                     <div>
-                                        <h1 style={ { padding: '2rem' }}>
+                                        <h1 style={{padding: '2rem'}}>
                                             No Match
                                         </h1>
-                                        <h2 style={ { padding: '2rem' }}>
+                                        <h2 style={{padding: '2rem'}}>
                                             It may be that this section has not yet been implemented
                                         </h2>
                                     </div>
