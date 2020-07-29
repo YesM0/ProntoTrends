@@ -25,11 +25,6 @@ def getToday() -> str:
     return datetime.datetime.now().strftime("%Y-%m-%d")
 
 
-# TODO (p1): DEPRECATE
-def saveData(data: pd.DataFrame, name: str):
-    save_csv(data, name)
-
-
 def sleep(seconds: Union[None, int, float]):
     if seconds == 0 or seconds is None:
         return

@@ -3,29 +3,35 @@ import logging
 import os
 import random
 import sys
+
+import eel
+
 if __name__ == '__main__':
     sys.path.extend(['../', './'])
 import time
-from pprint import pprint
 from queue import Queue
 from threading import Thread, Lock
-from typing import List, Tuple, Union, Dict
+from typing import List, Tuple, Union, Dict, Callable
 
 import pandas as pd
 from matplotlib import pyplot as plt
 from pytrends.request import TrendReq
 
 from utils.custom_types import *
-from utils.misc_utils import getToday, saveData, sleep, getDirectory, lcol, \
-    deduplicateColumns, reverseDict
+from utils.misc_utils import getToday, sleep, getDirectory, lcol, \
+    deduplicateColumns, reverseDict, save_csv
 from utils.user_interaction_utils import binaryResponse, choose_from_dict, chooseFile, defineFilename
 from utils.Filesys import generic_FileServer
+from utils.Logger import Logger
+
 try:
     from utils.Filesys import GDrive_FileServer
 except ImportError:
     pass
-from utils.Countries import countries_dict_eng, generateRegionIds
+from utils.Countries import countries_dict_eng, generateRegionIds, Country, getChosenCountries
 from utils.mergeRegions import merge_for_scraper
+
+from Datapipeline.generateSummaries import readMergeInfo, buildJobs, execute_and_save, correct_values
 
 if __name__ == '__main__' and locals().get("GDrive_FileServer", False):
     c = choose_from_dict(['Save locally', 'Save to GDrive'])
@@ -39,9 +45,9 @@ ABORT_AT: int = 5  # requests without data
 NUM_PROXIES: int = 30
 NUM_THREADS: int = 15
 Lock = Lock()
-logging.basicConfig(
-    format=f'{lcol.OKBLUE}%(threadName)s:%(levelname)s - %(module)s - %(funcName)s - {lcol.ENDC}%(message)s',
-    level=logging.INFO, )
+Log = Logger()
+
+BEING_CALLED_REMOTELY = __name__ != '__main__'
 
 
 def getProxies(num_proxies: int = 15) -> List[str]:
@@ -61,7 +67,7 @@ def getProxies(num_proxies: int = 15) -> List[str]:
         exit_country = random.choice(["de", "it", "fr", "es", "at", "ch", "us", "gb"])
         item = f"http://lum-customer-prontopro-zone-datacenter_de-country-{exit_country}-session-{sId}:pkjwkauqjsq2@zproxy.lum-superproxy.io:22225"
         items.append(item)
-    logging.info(f"Using {len(items)} proxies")
+    Log.user_info(f"Using {len(items)} proxies")
     return items
 
 
@@ -121,7 +127,7 @@ def readInComparisonItems(cc: Country_Shortcode, file_path: Filepath = None) -> 
             with open(os.path.join(FS.Inputs, f"ProntoPro Trends_Questions_{cc.upper()}.json"), "r") as file:
                 string = file.read()
         except FileNotFoundError as e:
-            logging.error(e, exc_info=True)
+            # logging.error(e, exc_info=True)
             with open(os.path.join(FS.Inputs, f"ProntoPro_Trends_Questions_{cc.upper()}.json"), "r") as file:
                 string = file.read()
     dictionary = json.loads(string)
@@ -249,7 +255,8 @@ def scaleItem(item: Union[int, float], scalar: Union[int, float]):
         return item * scalar
 
 
-def preparePayloads(comparisons_dict: Dict[str, Dict[str, List[str]]], cc, pytrends: TrendReq) -> List[
+def preparePayloads(comparisons_dict: Dict[str, Dict[str, List[str]]], cc, pytrends: TrendReq,
+                    called_through_api: bool = False) -> List[
     Tuple[str, List[str]]]:
     """
     Creates the final payloads chosen from the possible keyword possibilities (based on highest search volume)
@@ -257,6 +264,7 @@ def preparePayloads(comparisons_dict: Dict[str, Dict[str, List[str]]], cc, pytre
         comparisons_dict: dict -- dict of structure {category1: {option1: [keyword1, keyword2], option2: [keyword1, keyword2]}, category2: {option1: [keyword1, keyword2]}}
         cc: str -- the country code of the country the function is checking popularity for
         pytrends: PyTrends Object -- to execute requests
+        called_through_api: bool
 
     Returns: list -- payload-tuples (category_name, [options])
 
@@ -264,9 +272,11 @@ def preparePayloads(comparisons_dict: Dict[str, Dict[str, List[str]]], cc, pytre
     logging.info("Building Payloads")
     payloads = []
     cache = {}
-    save_findings = binaryResponse("Do you want to save the findings of the keyword selection in a separate json file?")
+    save_findings = binaryResponse(
+        "Do you want to save the findings of the keyword selection in a separate json file?") if not called_through_api else False
     filepath = defineFilename(target_ending=".json", target_folder=FS.Inputs) if save_findings else None
-    show_graph = binaryResponse("Do you want to view the relative averages for the keywords within the options?")
+    show_graph = binaryResponse(
+        "Do you want to view the relative averages for the keywords within the options?") if not called_through_api else False
     for category, options in comparisons_dict.items():
         cat_cache = {}
         logging.info(f"Checking on category: {lcol.OKBLUE}{category}{lcol.ENDC}")
@@ -296,7 +306,7 @@ def preparePayloads(comparisons_dict: Dict[str, Dict[str, List[str]]], cc, pytre
     if save_findings:
         with open(filepath, "w+") as f:
             f.write(json.dumps(cache))
-        print(f"Saved findings in file:/{filepath}")
+        Log.default(f"Saved findings in file:/{filepath}")
     return payloads
 
 
@@ -357,8 +367,19 @@ def requestManager_Thread(taskQueue: Queue):
                                                                         desiredReturn=inputs.get('desiredReturn',
                                                                                                  'data'))
         result = mergeResults(results, highest_result_timeline, dimension)
+        time_needed = time.time() - t0
         if result.size == 0:
-            logging.info(f"{lcol.WARNING}No Data for {inputs['kwd']} in {inputs['locale']}{lcol.ENDC}")
+            Log.user_info(f"{lcol.WARNING}No Data for {inputs['kwd']} in {inputs['locale']}{lcol.ENDC}")
+            if inputs.get("sendStatus", False):
+                eel.ScraperReceiveStatus({
+                    'scraping_progress': {
+                        'progress_rate_per_minute': 60 / time_needed,
+                        'done': 1
+                    },
+                    'scraping_results': {
+                        'files_expected': 1
+                    }
+                })
         else:
             if inputs['isList']:
                 fn = f"{inputs['dimension']}_{inputs['countryName']}_{inputs['locale']}_{inputs['comparison_label']}.csv"
@@ -367,25 +388,41 @@ def requestManager_Thread(taskQueue: Queue):
             if "/" in fn:
                 fn = fn.replace("/", "-")
             filepath = os.path.join(inputs['directory'], fn)
-            saveData(result, filepath)
-            logging.info(
+            save_csv(result, filepath, logging_func=Log.debug)
+            Log.user_info(
                 f"{lcol.UNDERLINE}Saved Data for {inputs.get('dimension', 'time')} {inputs['kwd']} in {inputs['locale']}. Shape: {result.shape}{lcol.ENDC}")
-        logging.info(f"Scraping {inputs['kwd']} for {inputs['locale']} took {time.time() - t0} seconds")
+            if inputs.get("sendStatus", False):
+                eel.ScraperReceiveStatus({
+                    'scraping_item': {
+                        'title': fn,
+                        'timestamp': time.time() * 1000
+                    },
+                    'scraping_progress': {
+                        'progress_rate_per_minute': 60 / time_needed,
+                        'done': 1
+                    },
+                    'scraping_results': {
+                        'files_generated': 1,
+                        'files_expected': 1
+                    }
+                })
+        Log.user_info(f"Scraping {inputs['kwd']} for {inputs['locale']} took {time_needed} seconds")
 
 
 def scrape_all_regions(keyword: Union[str, List[str]], country_name: Country_Fullname, pytrends: TrendReq,
                        keyword_id: Union[str, int] = '', folder: Union[List[str], str] = ('Output_Files', 'out'),
-                       comparison_label: str = '', num_threads: int = NUM_THREADS):
+                       comparison_label: str = '', num_threads: int = NUM_THREADS, sendStatusUpdatesToFE: bool = False):
     """
     Scrapes time and geo data for a country and keyword/keywords. Goes through all regions for Time and country level for Geo
     Args:
-        num_threads: int -- number of Threads to start - defaults to Global NUM_THREADS
         keyword: str or list -- the keywords to scrape for
         country_name: str -- full name of the country to scrape for (English, as per Google)
         pytrends: PyTrends Instance -- to scrape
         keyword_id: int -- optional - for naming the file
         folder: str or list -- the path where files should be saved
         comparison_label: str -- used to save file under a meaningful name
+        num_threads: int -- number of Threads to start - defaults to Global NUM_THREADS
+        sendStatusUpdatesToFE: bool -- whether or not a Frontend is attached that should receive status updates
 
     Returns: False if no problems otherwise keyword if no data present
 
@@ -396,7 +433,6 @@ def scrape_all_regions(keyword: Union[str, List[str]], country_name: Country_Ful
     locales_list = generateRegionIds(country_name, override=False)
     path_steps = resolvePathSteps(folder, keyword, isList)
     directory = getDirectory(path_steps)
-
     # prepare requests:
     requestsQueue = Queue()
     for locale in locales_list:
@@ -411,7 +447,8 @@ def scrape_all_regions(keyword: Union[str, List[str]], country_name: Country_Ful
             'folder': folder,
             'comparison_label': comparison_label,
             'isList': isList,
-            'directory': directory
+            'directory': directory,
+            'sendStatus': sendStatusUpdatesToFE
         }
         requestsQueue.put(req)
     geo_req = {
@@ -425,7 +462,8 @@ def scrape_all_regions(keyword: Union[str, List[str]], country_name: Country_Ful
         'folder': folder,
         'comparison_label': comparison_label,
         'isList': isList,
-        'directory': directory
+        'directory': directory,
+        'sendStatus': sendStatusUpdatesToFE
     }
     requestsQueue.put(geo_req)
     # start Threads
@@ -440,22 +478,24 @@ def scrape_all_regions(keyword: Union[str, List[str]], country_name: Country_Ful
     for t in taskThreads:
         t.join()
     t2 = time.time()
-    logging.info(f"Scraping {keyword} took {t2 - t1} sec")
-    merge_for_scraper(directory, country_shortcode=reverseDict(countries_dict_eng).get(country_name, country_name[:2]).upper())
+    Log.user_info(f"Scraping {keyword} took {t2 - t1} sec")
+    merge_for_scraper(directory,
+                      country_shortcode=reverseDict(countries_dict_eng).get(country_name, country_name[:2]).upper())
 
 
 def scrape_shallow(keywords_df: pd.DataFrame, country_name: Country_Fullname, pytrends: TrendReq,
                    folder: Union[str, List[str]] = ("Output_Files", 'out'), comparison_label: str = '',
-                   num_threads: int = NUM_THREADS):
+                   num_threads: int = NUM_THREADS, sendStatusUpdatesToFE: bool = False):
     """
     Scrapes time and geo data for a country and keyword/keywords. Goes through all regions for Time and country level for Geo
     Args:
-        num_threads: int -- number of Threads to start - defaults to Global NUM_THREADS
         keywords_df: df of keywords & kwd_ids
         country_name: str -- full name of the country to scrape for (English, as per Google)
         pytrends: PyTrends Instance -- to scrape
         folder: str or list -- the path where files should be saved
         comparison_label: str -- used to save file under a meaningful name
+        num_threads: int -- number of Threads to start - defaults to Global NUM_THREADS
+        sendStatusUpdatesToFE: bool -- whether or not a Frontend is attached that should receive status updates
 
     Returns: False if no problems otherwise keyword if no data present
 
@@ -478,7 +518,8 @@ def scrape_shallow(keywords_df: pd.DataFrame, country_name: Country_Fullname, py
             'folder': folder,
             'comparison_label': comparison_label,
             'isList': False,
-            'directory': directory
+            'directory': directory,
+            'sendStatus': sendStatusUpdatesToFE
         }
         requestsQueue.put(req)
         geo_req = {
@@ -492,7 +533,8 @@ def scrape_shallow(keywords_df: pd.DataFrame, country_name: Country_Fullname, py
             'folder': folder,
             'comparison_label': comparison_label,
             'isList': False,
-            'directory': directory
+            'directory': directory,
+            'sendStatus': sendStatusUpdatesToFE
         }
         requestsQueue.put(geo_req)
     # start Threads
@@ -521,13 +563,13 @@ def interestOverTime(kwd: list, locale: Region_Shortcode, pytrends: TrendReq) ->
         try:
             kwd = list(set(kwd))
             with Lock:
-                logging.debug(f"Building payload: {kwd}")
+                Log.debug(f"Building payload: {kwd}")
                 pytrends.build_payload(kwd, timeframe=f'2018-01-01 {getToday()}', geo=locale, gprop='')
             result = pytrends.interest_over_time()
             break
         except Exception as e:
-            logging.warning("Error in Interest over Time")
-            logging.error(f"THIS ERROR: {e}", exc_info=True)
+            Log.dev_error("Error in Interest over Time")
+            Log.dev_error(f"THIS ERROR: {e}", exc_info=True)
     return result
 
 
@@ -548,10 +590,10 @@ def interestByRegion(keyword: list, cc: Region_Shortcode, pytrends: TrendReq) ->
             keyword = [kwd for kwd in keyword if not isinstance(kwd, int)]
             pytrends.build_payload(keyword, timeframe='today 3-m', geo=cc, gprop='')
             result = pytrends.interest_by_region(resolution='REGION', inc_low_vol=True, inc_geo_code=True)
-            logging.debug(result.head())
+            Log.debug(result.head())
             break
         except Exception as e:
-            logging.warning(e)
+            Log.dev_error(e)
     return result
 
 
@@ -578,27 +620,6 @@ def resolvePathSteps(folder: Union[List[str], str], keyword: str, isList: bool =
     return path_steps
 
 
-def getChosenCountries() -> List[Tuple[Country_Shortcode, Country_Fullname]]:
-    """
-    Asks user for selection of countries to scrape for
-    Returns: List[Tuple[Country_Shortcode, Country_Fullname]] -- A list of the chosen ccs (validated)
-
-    """
-    chosen_ccs = []
-    while True:
-        pprint(countries_dict_eng)
-        chosen = input(
-            "What countries do you want to scrape for? Please put in the shortcodes (separated by commas)\n").strip().lower()
-        for i in chosen.split(","):
-            res = countries_dict_eng.get(i.strip(), None)
-            if res:
-                chosen_ccs.append((Country_Shortcode(i.strip()), Country_Fullname(res)))
-        if len(chosen_ccs) > 0:
-            return chosen_ccs
-        else:
-            sys.exit()
-
-
 def deduplicateKeywords(keywords_df: pd.DataFrame) -> pd.DataFrame:
     paths = [FS.Kwd_Level_Outs, os.path.join(FS.Outfiles_general, 'cc_level')]
     folders = []
@@ -610,13 +631,14 @@ def deduplicateKeywords(keywords_df: pd.DataFrame) -> pd.DataFrame:
                 if len(fld_contents) > 0:
                     folders.append(fld)
             except Exception as e:
-                print(e)
-    c = 0
+                Log.debug(e)
+    cnt = 0
+    num_previous = keywords_df.shape[0]
     for ind, row in keywords_df.iterrows():
         if row['Keyword'] in folders:
             keywords_df.drop(labels=ind, axis=0, inplace=True)
-            c += 1
-    logging.info(f"Dropped {c} keywords")
+            cnt += 1
+    Log.user_notification(f"Dropped {cnt} keywords out of {num_previous}")
     return keywords_df
 
 
@@ -643,7 +665,8 @@ def dialog():
         file: None = None
         if choose_file:
             ft = ".csv" if "Individual Keywords" in choice else ".json"
-            file: Filepath = chooseFile(filetype=ft, other_only_if_contains_selections=[short, country], base_path=FS.cwd)
+            file: Filepath = chooseFile(filetype=ft, other_only_if_contains_selections=[short, country],
+                                        base_path=FS.cwd)
         if choice == 'Individual Keywords ("Keywords_CC.csv) - All Regions':
             keywords = readInKeywords(short, prefix=prefix) if not file else readInKeywords(short, prefix=prefix,
                                                                                             file_path=file)
@@ -651,31 +674,96 @@ def dialog():
                 keywords = deduplicateKeywords(keywords)
             failedScrapes = []
             for row_index, row in keywords.iterrows():
-                logging.info(f"{row_index} of {keywords.shape[0]}")
+                Log.user_info(f"{row_index} of {keywords.shape[0]}")
                 keyword = row['Keyword'].strip()
                 kwd_id = row['kwd_id']
-                logging.info(f"Working on keyword {keyword}")
+                Log.user_info(f"Working on keyword {keyword}")
                 scrape_all_regions(keyword, country, tr, keyword_id=kwd_id, folder=['Output_Files', 'out'])
                 sleep(SLEEPTIME)
-            print(
+            Log.user_notification(
                 f"{lcol.OKBLUE}Scraping is finished. To continue the pipeline, use generateSummaries.py and merge the keyword level data to tags{lcol.ENDC}")
         elif choice == 'Comparisons (ProntoPro_Trends_Questions_CC.csv) - All Regions':
-            logging.info(f"{lcol.HEADER} Scraping a comparison {lcol.ENDC}")
+            Log.user_info(f"{lcol.HEADER} Scraping a comparison {lcol.ENDC}")
             comparisonItems = readInComparisonItems(short, file_path=file)
             payloads = preparePayloads(comparisonItems, short, tr)
             for category, keywords in payloads:
-                logging.info(f'Working on comparison for {category}')
-                scrape_all_regions(keywords, country, tr, folder=['Output_Files', 'comparisons', category], comparison_label=category)
+                Log.user_info(f'Working on comparison for {category}')
+                scrape_all_regions(keywords, country, tr, folder=['Output_Files', 'comparisons', category],
+                                   comparison_label=category)
                 sleep(SLEEPTIME)
-            print(
+            Log.user_notification(
                 f"{lcol.OKBLUE}Scraping is finished. To continue the pipeline, use finalCSVgenerator.py{lcol.ENDC}")
         elif choice == 'Individual Keywords ("Keywords_CC.csv) - Only Country':
             keywords_df = readInKeywords(short, prefix=prefix)
-            logging.info(f"{lcol.HEADER} Scraping {keywords_df.shape[0]} keywords for {ccs_todo}")
+            Log.user_info(f"{lcol.HEADER} Scraping {keywords_df.shape[0]} keywords for {ccs_todo}")
             if doDeduplicateKeywords:
                 keywords = deduplicateKeywords(keywords_df)
             scrape_shallow(keywords_df, country, tr, folder='cc_level')
-        logging.info("_" * 10 + "FINISHED" + "_" * 10)
+        Log.user_info("_" * 10 + "FINISHED" + "_" * 10)
+
+
+def api_access(chosen_action: str, country: Country, source_file: Filepath, deduplicate_keywords: bool = False,
+               prefix: str = ""):
+    global Log
+    Log = Logger(Debug_Log_Function=eel.console_log, Dev_Error_Function=eel.console_log,
+                 User_Info_Function=eel.ScraperReceiveLog, User_Notification_Function=eel.notification,
+                 User_Error_Function=lambda x: eel.notification(x, {'type': 'error'}), Default_Function=print)
+    tr = prepareTrendReqObj(NUM_PROXIES)
+    if chosen_action == 'Individual Keywords ("Keywords_CC.csv) - All Regions':
+        keywords: pd.DataFrame = readInKeywords(country.Shortcode, prefix=prefix, file_path=source_file)
+        if deduplicate_keywords:
+            keywords: pd.DataFrame = deduplicateKeywords(keywords)
+        eel.ScraperReceiveStatus({
+            'scraping_progress': {
+                'to_do': keywords.shape[0] * (len(country.region_ids) + 2),
+            }
+        })
+        for row_index, row in keywords.iterrows():
+            logging.info(f"{row_index} of {keywords.shape[0]}")
+            keyword: str = row['Keyword'].strip()
+            kwd_id: int = row['kwd_id']
+            logging.info(f"Working on keyword {keyword}")
+            scrape_all_regions(keyword, country.Full_name, tr, keyword_id=kwd_id, folder=['Output_Files', 'out'], sendStatusUpdatesToFE=True)
+            sleep(SLEEPTIME)
+        Log.user_notification(
+            f"{lcol.OKBLUE}Scraping is finished. To continue the pipeline, use generateSummaries.py and merge the keyword level data to tags{lcol.ENDC}")
+    elif chosen_action == 'Comparisons (ProntoPro_Trends_Questions_CC.csv) - All Regions':
+        Log.user_info(f"{lcol.HEADER} Scraping a comparison {lcol.ENDC}")
+        comparisonItems = readInComparisonItems(country.Shortcode, file_path=source_file)
+        payloads: List[Tuple[str, List[str]]] = preparePayloads(comparisonItems, country.Shortcode, tr,
+                                                                called_through_api=True)
+        eel.ScraperReceiveStatus({
+            'scraping_progress': {
+                'to_do': len(payloads) * (len(country.region_ids) + 2),
+            }
+        })
+        for category, keywords in payloads:
+            Log.user_info(f'Working on comparison for {category}')
+            scrape_all_regions(keywords, country.Full_name, tr, folder=['Output_Files', 'comparisons', category],
+                               comparison_label=category, sendStatusUpdatesToFE=True)
+            sleep(SLEEPTIME)
+        Log.user_notification(
+            f"{lcol.OKBLUE}Scraping is finished. To continue the pipeline, use finalCSVgenerator.py{lcol.ENDC}")
+    elif chosen_action == 'Individual Keywords ("Keywords_CC.csv) - Only Country':
+        keywords_df = readInKeywords(country.Shortcode, prefix=prefix)
+        Log.user_info(f"{lcol.HEADER} Scraping {keywords_df.shape[0]} keywords for {country.Shortcode}")
+        if deduplicate_keywords:
+            keywords_df = deduplicateKeywords(keywords_df)
+        eel.ScraperReceiveStatus({
+            'scraping_progress': {
+                'to_do': keywords_df.shape[0] * 2,
+            }
+        })
+        scrape_shallow(keywords_df, country.Full_name, tr, folder='cc_level', sendStatusUpdatesToFE=True)
+    if "Individual" in chosen_action:
+        Log.user_notification("Merging data to tags and adjusting it")
+        mergeInfo = readMergeInfo(country.Shortcode, prefix=prefix)
+        jobs = buildJobs(mergeInfo, country.Full_name)
+        execute_and_save(country.Full_name, jobs, logging_func=Log.user_info)
+        Log.user_notification("Finished merging. Starting to adjust")
+        correct_values(country.Full_name, country.Shortcode, Log.user_info)
+        Log.user_notification("Done!")
+    Log.user_info("_" * 10 + "FINISHED" + "_" * 10)
 
 
 if __name__ == '__main__':

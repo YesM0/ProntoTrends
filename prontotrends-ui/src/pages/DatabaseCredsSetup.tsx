@@ -2,7 +2,6 @@ import * as React from "react";
 import {eel} from '../App';
 import {Component} from 'react'
 import Collapsible from "react-collapsible";
-import {toast} from "react-toastify";
 
 interface DBSettings {
     host: string,
