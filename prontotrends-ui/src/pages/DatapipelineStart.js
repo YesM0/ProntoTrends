@@ -6,31 +6,25 @@ class DatapipelineStart extends Component {
     items = [
         {
             id: 0,
-            link: '/InputSetup',
+            link: '/Datapipeline-InputSetup',
             title: 'Prepare Inputs for Scraping',
             description: 'You can do a lot of stuff here'
         },
         {
             id: 1,
-            link: '/Scraping',
+            link: '/Datapipeline-Scraping',
             title: 'Prepare Inputs for Scraping',
             description: 'You can do a lot of stuff here'
         },
         {
-            id: 2,
-            link: '/Summarize',
-            title: 'Scrape new Data',
-            description: 'You can do a lot of stuff here'
-        },
-        {
             id: 3,
-            link: '/FinalCSVs',
+            link: '/Datapipeline-FinalCsvGeneration',
             title: 'Generate final CSVs',
             description: 'You can do a lot of stuff here'
         },
         {
             id: 4,
-            link: '/ValidationStart',
+            link: '/Datapipeline-Validation',
             title: 'Validate created files pre-upload',
             description: 'You can do a lot of stuff here'
         },

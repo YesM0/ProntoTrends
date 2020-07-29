@@ -52,10 +52,6 @@ const navItems = [
                 link: '/DataPipeline-Scraping'
             },
             {
-                title: 'Aggregation',
-                link: '/DataPipeline-Aggregate'
-            },
-            {
                 title: 'Final CSV Generation',
                 link: '/DataPipeline-FinalCsvGeneration',
             },
