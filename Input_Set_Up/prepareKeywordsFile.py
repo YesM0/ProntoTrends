@@ -175,10 +175,11 @@ def api_file_creation(settings: dict, logging_function: Callable):
             option = item.get('option', None)
             ks = item.get('keywords', None)
             if option is not None and ks is not None:
-                if hasattr(final, cat):
+                if final.get(cat, False):
                     final[cat][option] = ks
                 else:
                     final[cat] = {option: ks}
+            print(final)
         save_comparison(settings.get('country_short_name', 'DE'), final, logging_function)
 
 
