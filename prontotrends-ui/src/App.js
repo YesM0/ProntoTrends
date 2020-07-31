@@ -65,7 +65,7 @@ const navItems = [
                         link: '/DataPipeline-Validation-SetUp'
                     },
                     {
-                        title: 'Run Validation',
+                        title: 'Run Validation [NI]',
                         link: '/DataPipeline-Validation-Run'
                     }
                 ]
@@ -87,11 +87,11 @@ const navItems = [
         link: '/Inspect',
         children: [
             {
-                title: 'Tag Inspection',
+                title: 'Tag Inspection [NI]',
                 link: '/Inspect-Individual'
             },
             {
-                title: 'Comparison Inspection',
+                title: 'Comparison Inspection [NI]',
                 link: '/Inspect-Comparison'
             },
             {
