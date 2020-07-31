@@ -72,6 +72,7 @@ def create_credentials_file_api(details: dict, logging_func: Callable = print):
                                      user=user,
                                      password=password,
                                      cursorclass=pymysql.cursors.DictCursor)
+        logging_func("Established Test connection with DB")
         connection.close()
         d = {'host': host, 'user': user, 'password': password}
         with open(path, "a+") as f:
@@ -79,9 +80,9 @@ def create_credentials_file_api(details: dict, logging_func: Callable = print):
         logging_func("Saved Settings")
         return True
     except Exception as e:
-        logging_func(e)
+        logging_func(e.__repr__())
         logging_func(
-            "It seems like your login-data was not correct\nPlease also check that you're on company WIFI or connected via VPN")
+            "It seems like your login-data was not correct\nPlease also check that you're on company WIFI or connected via VPN", {'type': 'error'})
         return False
 
 

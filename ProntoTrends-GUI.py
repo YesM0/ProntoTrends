@@ -124,8 +124,10 @@ def get_keywords_for_tags(country_short_name: Country_Shortcode, search_items: L
 def get_db_access_data():
     d = get_sql_login_data(True)
     if d is not None:
+        eel.notification("Found saved login data")
         return d
     else:
+        eel.notification("Did not find saved Login data")
         return {}
 
 

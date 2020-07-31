@@ -244,7 +244,13 @@ class InputSetup extends Component<{}, InputSetupSettings> {
                                 field: 'keywords',
                                 title: 'Keywords',
                                 editComponent: TagField,
-                                render: (rowData) => rowData.keywords.join(", ")
+                                render: (rowData) => {
+                                    if (rowData.keywords) {
+                                        return rowData.keywords.join(", ")
+                                    } else {
+                                        return ""
+                                    }
+                                }
                             }
                         ]} title={"Set-up"} data={this.state.tag_settings} handleDataChange={(data => this.setState({
                             tag_settings: data

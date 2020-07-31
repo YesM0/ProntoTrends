@@ -58,7 +58,7 @@ class DatabaseCredsSetup extends Component<{}, DBCredsState> {
                             <input className={'input'} type={'text'} onChange={event => this.setState({
                                 details: {
                                     ...this.state.details,
-                                    host: event.target.value
+                                    host: event.target.value.trim()
                                 }
                             })} value={this.state.details.host}/>
                         </label>
@@ -69,7 +69,7 @@ class DatabaseCredsSetup extends Component<{}, DBCredsState> {
                             <input className={'input'} type={'text'} onChange={event => this.setState({
                                 details: {
                                     ...this.state.details,
-                                    user: event.target.value
+                                    user: event.target.value.trim()
                                 }
                             })} value={this.state.details.user}/>
                         </label>
@@ -80,7 +80,7 @@ class DatabaseCredsSetup extends Component<{}, DBCredsState> {
                             <input className={'input'} type={'password'} onChange={event => this.setState({
                                 details: {
                                     ...this.state.details,
-                                    password: event.target.value
+                                    password: event.target.value.trim()
                                 }
                             })}
                             value={this.state.details.password} />
@@ -89,7 +89,10 @@ class DatabaseCredsSetup extends Component<{}, DBCredsState> {
                     <button className={'button'} style={{
                                 fontSize: '0.9rem', marginBottom: '1rem'
                             }}
-                                    onClick={() => eel.save_db_access_data(this.state.details)}
+                                    onClick={() => {
+                                        console.log("Trying to save db_acces_details")
+                                        eel.save_db_access_data(this.state.details)
+                                    }}
                             >
                                 Save Credentials
                             </button>
