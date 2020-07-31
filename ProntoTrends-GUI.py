@@ -223,7 +223,7 @@ def start_eel(develop):
         page = 'index.html'
         close_callback = None
 
-    eel.init(directory, ['.tsx', '.ts', '.jsx', '.js', '.html'], manual_js_functions=['show_log'])
+    eel.init(directory, ['.tsx', '.ts', '.jsx', '.js', '.html'], manual_js_functions=['notification', 'ScraperReceiveStatus', 'console_log'])
 
     eel_kwargs = dict(
         host='localhost',

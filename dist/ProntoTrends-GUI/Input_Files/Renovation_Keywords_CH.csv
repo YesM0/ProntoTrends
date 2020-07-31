@@ -1,0 +1,541 @@
+kwd_id,Keyword
+82-1,Fenster- und Türarbeiten
+82-2,Schlüsseldienst und Metallbau
+82-3,Schlüsseldienst
+82-4,Metallbau
+82-5,Schlüsselservice
+82-6,Metallbauer
+82-7,Schlüsseldienst Tore
+82-8,Schlüsseldienstes Schlüssel
+82-9,Schlüsseldienstes Schlosser
+82-10,Schlüsseldienstes Metall
+82-11,Schlüsseldienstes Edelstahl
+82-12,Schlüssel Schlüsseldienst
+82-13,Schlosser Schlüsseldienst
+82-14,Metall Schlüsseldienst
+82-15,Edelstahl Schlüsseldienst
+82-16,Schlüsseldienst Tor
+82-17,Schlüsseldienst schweißt
+82-18,Schlüsseldienst Toranlagen
+82-19,Schlüsseldienst Beratung
+82-20,Metallbau Tor
+82-21,Metallbaus Zaunbau
+82-22,Metallbaus Restaurationen
+82-23,Metallbaus Toranlagen
+82-24,Metallbaus Beratung
+82-25,Metallbaus Reparatur
+82-26,Metallbaus Neumontage
+82-27,Tor Schlüsseldienste
+82-28,Tor Metallbau
+82-29,Zaunbau Schlüsseldienste
+82-30,Zaunbau Metallbau
+82-31,Restaurationen Metallbau
+82-32,Schlüsselservice Restaurationen
+82-33,Schlüsselservice schweißt
+82-34,Schlüsselservice Toranlagen
+82-35,Schlüsselservice Beratung
+82-36,Schlüsselservice Geländer
+82-37,Schlüsselservice Reparaturen
+82-38,Schlüsselservice Einbau
+82-39,Schlüsseldienst Schlüssel
+82-40,Schlüsseldienst Schlosser
+82-41,Schlüsseldienst Metall
+82-42,Schlüsseldienst Edelstahl
+82-43,Metallbau Zaunbau
+82-44,Metallbau Restaurationen
+82-45,Metallbau schweißt
+82-46,Metallbau Toranlagen
+82-47,Metallbau Beratung
+82-48,Metallbau Reparatur
+82-49,Metallbau Neumontage
+82-50,Beratung Metallbau
+82-51,einbaut Metallbau
+82-52,Diebstahlwarn- und Alarmanlagen
+82-53,Alarmanlage
+82-54,Einbruchschutz
+82-55,Videoüberwachung
+82-56,Alarmanlage mit Bewegungssensor
+82-57,Alarmmelder
+82-58,Alarmsysteme
+82-59,Bewegungsmelder mit Alarm
+82-60,Einbrecher
+82-61,Einbruch
+82-62,Einbruchmeldeanlage
+82-63,Funkalarmanlage
+82-64,Funkalarmanlagen
+82-65,Glasbruchmelder
+82-66,Hausalarmanlage
+82-67,Haussicherheit
+82-68,Haussicherung
+82-69,Hausüberwachung
+82-70,Sicherheitsanlagen
+82-71,Sicherheitssysteme
+82-72,Sicherheitstechnik
+82-73,Überwachungsanlage
+82-74,Überwachungssystem
+82-75,Überwachungstechnik
+82-76,Videoüberwachungsanlage
+82-77,Fensterservice und Fenster Reparatur
+82-78,Fensterservice
+82-79,Fenster Reparatur
+82-80,Fenster abdichten
+82-81,Fenster Service
+82-82,Fenster einbauen
+82-83,Fenster renovieren
+82-84,Dachfenster einbauen
+82-85,Fenstersanierung
+82-86,Fensterreparatur
+82-87,Fensterdichtungen ersetzen
+82-88,Fensterglas ersetzen
+82-89,Fenster montieren
+82-90,Fenster isolieren
+82-91,Fenster sanieren
+82-92,neue Fenster einbauen
+82-93,Fensterrahmen abdichten
+82-94,Fensterglas Reparaturen
+82-95,Fenster isolieren gegen Kälte
+82-96,Fenster erneuern
+82-97,Fenster abdichten Zugluft
+82-98,Fenster abdichten innen
+82-99,Fenster konfigurieren
+82-100,Fenster abdichten Außen
+82-101,alte Fenster abdichten
+82-102,Holzfenster abdichten
+82-103,Dachfenster austauschen
+82-104,Folieren
+82-105,folieren
+82-106,Fensterfolie
+82-107,Fensterfolien
+82-108,Fenster folieren
+82-109,Fenster folieren lassen
+82-110,Fensterscheiben folieren
+82-111,Kunststofffenster folieren
+82-112,folieren lassen
+82-113,Scheiben folieren lassen
+82-114,Alu Fenster folieren
+90-1,Gartenarbeiten
+90-2,Gärtnerei und Gartencenter
+90-3,Gärtnerei
+90-4,Gartencenter
+90-5,Gärtner
+90-6,Gartengestaltung
+90-7,Gartenbedarf
+90-8,Gartenwelt
+90-9,Gärtner Gemüsebau
+90-10,Gartengestaltung Gärtner
+90-11,Gartenbedarf Gärtner
+90-12,Blumen Gärtner
+90-13,Pflanzen Gärtner
+90-14,consulting Gärtner
+90-15,Beratung Gärtner
+90-16,Landschafts Gärtner
+90-17,Friedhofs Gärtner
+90-18,Gemüsebau Gärtner
+90-19,Obstbau Gärtner
+90-20,Meister Gärtner
+90-21,geprüfter Gärtner
+90-22,Gartencenter Obstbau
+90-23,Gärtner Gestaltung
+90-24,Gärtner Garten
+90-25,Gartenmöbel Gartencenter
+90-26,Gartengestaltung Gärtnerei
+90-27,Gartengestaltung Gartencenter
+90-28,Pflanzen Gärtnerei
+90-29,Pflanzen Gartencenter
+90-30,Gartenwelt Gartencenter
+90-31,Blumen Gärtnerei
+90-32,Blumen Gartencenter
+90-33,consulting Gartencenter
+90-34,Design Gartencenter
+90-35,Gestaltung Gärtnerei
+90-36,Garten Gärtnerei
+90-37,Garten Gartencenter
+90-38,Beratung Gärtnerei
+90-39,Rosengarten
+90-40,Gartenmöbel
+90-41,Blumenladen und Blumengeschäft
+90-42,Blumen
+90-43,Blumenladen
+90-44,Blumengeschäft
+90-45,Florist
+90-46,Floristik
+90-47,Blumenladen Blumen liefern
+90-48,Blumenladen Orchidee
+90-49,Blumenladen Bonsai
+90-50,Blumenladen Zimmer Pflanzen
+90-51,Blumenladen Tulpen
+90-52,Blumenladen Rosen komponieren
+90-53,Blumenladen Blumenservice
+90-54,Blumenladen Blumenlieferservice
+90-55,Blumenladen Blumengestecke
+90-56,Blumengeschäft Blumen versenden
+90-57,Blumengeschäft Blumen senden
+90-58,Blumengeschäft Blumen schenken
+90-59,Blumengeschäft Blumenbouquet
+90-60,Blumengeschäft exotische Blumen
+90-61,Blumengeschäft Pflanzen
+90-62,Blumengeschäft Blumen liefern
+90-63,Blumengeschäft Orchidee
+90-64,Blumengeschäft Bonsai
+90-65,Blumengeschäft Zimmer Pflanzen
+90-66,Blumengeschäft Tulpen
+90-67,Blumengeschäft Rosen komponieren
+90-68,Blumengeschäft Blumenservice
+90-69,Blumengeschäft Blumenlieferservice
+90-70,Blumengeschäft Blumengestecke
+90-71,Florist Blumen versenden
+90-72,Florist Blumen senden
+90-73,Florist Blumenbouquet
+90-74,Blumen Blumenladen
+90-75,Rosen Blumenladen
+90-76,Blumen schenken Blumenladen
+90-77,Blumenbouquet Blumenladen
+90-78,exotische Blumen Blumenladen
+90-79,Trauerfloristik Blumenladen
+90-80,Gartenbau und Landschaftsarchitekten
+90-81,Gartenbau
+90-82,Landschaftsarchitekten
+90-83,Landschaftsgärtner
+90-84,Gartenausstellung
+90-85,Baumschule
+90-86,Gartenbaufirmen
+90-87,Gartenbauer
+90-88,Garten
+90-89,Gartenbau Gartenpflege
+90-90,Gartenbau Planung
+90-91,Gartenbau Pflege
+90-92,Gartenbau Dachgarten
+90-93,Gartenbau Pflanzenverwendung
+90-94,Gartenbau Gartenkultur
+90-95,Gartenbau Gestaltung
+90-96,Gartenbau Sportplätze
+90-97,Gartenbau Außenräume
+90-98,Gartenbau Umgestaltung
+90-99,Gartenbau Landschaftsbau
+90-100,Gartenbau Projekte
+90-101,Gartenbau Neuanlagen
+90-102,Gartenbau Umbauten
+90-103,Gartenbau Gartenplanung
+90-104,Gartenbau Traumgarten
+90-105,Landschaftsarchitekten Gartenpflege
+90-106,Landschaftsarchitekten Planung
+90-107,Landschaftsarchitekten Pflege
+90-108,Landschaftsarchitekten Dachgarten
+90-109,Landschaftsarchitekten Pflanzenverwendung
+90-110,Landschaftsarchitekten Gartenkultur
+90-111,Landschaftsarchitekten Gestaltung
+90-112,Landschaftsarchitekten Sportplätze
+90-113,Landschaftsarchitekten Außenräume
+90-114,Landschaftsgärtner Gartenpflege
+90-115,Landschaftsgärtner Planung
+90-116,Landschaftsgärtner Pflege
+90-117,Landschaftsgärtner Dachgarten
+90-118,Baumfällung und Bäume schneiden
+90-119,Baumfällung
+90-120,Bäume schneiden
+90-121,Holzfällen
+90-122,Baumfäller
+90-123,fällen von Bäumen
+90-124,Tanne fällen
+90-125,Walnussbaum fällen
+90-126,Baum entfernen
+90-127,Baum Fallen
+90-128,Baumfällarbeiten
+90-129,Baum absägen
+90-130,Apfelbaum fällen
+90-131,Obstbaum fällen
+90-132,Kirschbaum fällen
+90-133,Eiche fällen
+90-134,Baumentfernung
+90-135,Birke fällen
+90-136,Baum fällen und entsorgen
+90-137,Hohe Bäume fällen
+90-138,Tannenbaum fällen
+90-139,Lärche fällen
+90-140,Große Bäume fällen
+90-141,Bäume Fallen
+90-142,Buche fällen
+90-143,Baum umschneiden
+90-144,Baumpflege und Baumschnitt
+90-145,Baumpflege
+90-146,Baumschnitt
+90-147,Baumschnitt Obstbäume
+90-148,schneiden von Obstbäumen
+90-149,Apfelbaum Sommerschnitt
+90-150,Obstbaumschnitt Apfelbaum
+90-151,Apfelbaumschnitt
+90-152,Hecke schneiden
+90-153,Baum schneiden
+90-154,Baumkrone schneiden
+90-155,Obstbaum schneiden
+90-156,Obstbäume schneiden
+90-157,Ahornbaum schneiden
+90-158,Apfelbäume schneiden
+90-159,Obstbäume verschneiden
+90-160,Obstbaumschnitt
+90-161,Bäume verschneiden
+90-162,Obstbaumschnitt Apfel
+90-163,Baumschnitt Kirsche
+90-164,Baumgutachter
+90-165,Baumschnitt Birne
+90-166,Gartenarbeit
+102-1,Dachdeckung
+102-2,Dachdecker und Spenglerei
+102-3,Dachdecker
+102-4,Spenglerei
+102-5,Bauspengler
+102-6,Dachdecker Spengler
+102-7,Dach Spenglerei
+102-8,Dachfenster Spenglerei
+102-9,Spenglerei Dach
+102-10,Spenglerei Dachfenster
+102-11,Spenglerei Dachrinne
+102-12,Spenglerei Flachdach
+102-13,Spenglerei Lukarne
+102-14,Spenglerei Bedachung
+102-15,Spenglerei Begrünung
+102-16,Spenglerei Blechdach
+102-17,Bauspengler Einbau
+102-18,Bauspengler Dichtung
+102-19,Bauspengler Sanierung
+102-20,Bauspengler Isolation
+102-21,Bauspengler Reinigung
+102-22,Bauspengler Deckung
+102-23,Einbau Bauspengler
+102-24,Dichtung Bauspengler
+102-25,Konstruktion Bauspengler
+102-26,Sanierung Bauspengler
+102-27,Dachdecker Dach neu
+102-28,Dachdecker Dach Montage
+102-29,Dachdecker professioneller
+102-30,Dachdecker qualifizierter
+102-31,Dachdecker Dachfenstern
+102-32,Dachdecker Solaranlagen
+102-33,Dachdecker Außenwand
+102-34,Dachdecker Dachabdichtungen
+102-35,Dachdecker Dachabdichtung
+102-36,Dachdecker Installation
+102-37,Dachdecker Dachfläche
+102-38,Außenwand Bauspengler
+102-39,Dachabdichtungen Bauspengler
+102-40,Dachabdichtung Bauspengler
+131-1,Kleine Renovierungsarbeiten in Innenräumen
+131-2,Schreinerei
+131-3,Zimmerei
+131-4,Tischler
+131-5,Suche Tischler
+131-6,Möbel Zimmerei
+131-7,Holz Tischler
+131-8,Holz Zimmereien
+131-9,Parkett Tischler
+131-10,Parkett Zimmereien
+131-11,Fenster Tischler
+131-12,Fenster Zimmereien
+131-13,Rapport Tischler
+131-14,Rapport Zimmereien
+131-15,Haustüren Tischler
+131-16,Haustüren Zimmereien
+131-17,Schiebetür Tischlers
+131-18,Schiebetür Zimmereien
+131-19,Badmöbel Zimmereien
+131-20,Holzbaus Zimmereien
+131-21,Dachfenster Zimmerei
+131-22,Vordach Zimmerei
+131-23,Zimmertüren Zimmerei
+131-24,Holztüren Zimmerei
+131-25,Möbel Schreinerei
+131-26,Holz Schreinerei
+131-27,Parkett Schreinerei
+131-28,Fenster Schreinerei
+131-29,Rapport Schreinereien
+131-30,Haustüren Schreinereien
+131-31,Schiebetür Schreinereien
+131-32,Tür Schreinereien
+131-33,Badmöbel Schreinereien
+131-34,Holzbaus Schreinereien
+131-35,Dachfenster Schreinereien
+131-36,Vordach Schreinereien
+131-37,Zimmertüren Schreinereien
+131-38,Holztüren Schreinerei
+131-39,Schreinerei Möbel
+131-40,Renovierung und Sanierung 
+131-41,Sanierung
+131-42,Bauunternehmen
+131-43,Renovierung
+131-44,Fassade
+131-45,Schimmel
+131-46,bauen
+131-47,Schimmelpilz
+131-48,Trockenbau
+131-49,Umbau
+131-50,Baufirma
+131-51,Wasserschaden
+131-52,Abdichtung
+131-53,Dämmung
+131-54,Wärmedämmung
+131-55,isolieren
+131-56,Hochbau
+131-57,Restrukturierung
+131-58,Dachsanierung
+131-59,Flachdachsanierung
+131-60,Fassadensanierung
+131-61,Betonsanierung
+131-62,Isolierung
+131-63,Haus renovieren
+131-64,Dachausbau
+131-65,Ausbau
+131-66,Haus umbauen
+131-67,Anbau
+131-68,Schimmel an den Wänden
+131-69,Altbau
+131-70,Modernisierung
+131-71,Balkonsanierung
+131-72,Bauernhaus renovieren
+131-73,energetische Sanierung
+131-74,Keller isolieren
+131-75,Altbausanierung
+131-76,Wasserschadensanierung
+131-77,Schimmelsanierung
+131-78,Gebäudesanierung
+131-79,Haussanierung
+131-80,Komplettsanierung
+131-81,Sanierungsarbeiten
+166-1,Elektroniker
+166-2,Elektriker
+166-3,Elektroinstallateur
+166-4,Elektrotechnik
+166-5,Elektriker Notdienst
+166-6,Elektrikerfirma
+166-7,Elektrikermeister
+166-8,Elektrische Installation
+166-9,Elektroarbeiten
+166-10,Elektroinstallation
+166-11,Elektroinstallation Altbau
+166-12,Elektroinstallation Bad
+166-13,Elektroinstallation Einfamilienhaus
+166-14,Elektroinstallation Haus
+166-15,Elektroinstallation Kabel
+166-16,Elektroinstallation Küche
+166-17,Elektroinstallation Neubau
+166-18,Elektromechaniker
+166-19,Elektromonteur
+166-20,Hausinstallation
+166-21,Moderne Elektroinstallation
+166-22,Planung Elektroinstallation
+166-23,Elektrounternehmen
+166-24,Elektronik Reparaturen
+166-25,Lichtschalter anschließen
+166-26,Steckdose anschließen
+166-27,Elektroreparatur
+166-28,Elektroinstallationsmaterial
+166-29,Elektriker Firma
+166-30,Techniker Elektrotechnik
+166-31,Elektroplaner
+166-32,Elektroplan
+166-33,Elektroinstallationen
+166-34,Elektrokontrolleur
+166-35,Elektrozeichner
+166-36,Elektroinstallationsplan
+166-37,Elektroplan zeichnen
+172-1,Energiezertifizierer
+182-1,Reparatur und Montage von Rollläden
+182-2,Fliegengitter und Insektenschutz
+182-3,Fliegengitter
+182-4,Jalousien
+182-5,Markise
+182-6,Plissee
+182-7,Aufsatzrollladen
+182-8,Außenjalousie
+182-9,Außenrolladen
+182-10,Außenrollo
+182-11,Fenster
+182-12,Fensterläden
+182-13,Haustüren
+182-14,Holzfenster
+182-15,Holzrolladen
+182-16,Insektenschutz
+182-17,Rolladen
+182-18,Rolladenantrieb
+182-19,Rolladengurt
+182-20,Rolladenkasten
+182-21,Rolladenmotor
+182-22,Rolladenpanzer
+182-23,Rolladenreparatur
+182-24,Rolladensteuerung
+182-25,Rollläden
+182-26,Rollo
+182-27,Rollos
+182-28,Schrägrolladen
+182-29,Sicherheitsrolladen
+182-30,Sonnenschutz
+182-31,Tür
+182-32,Wintergarten
+182-33,Wintergartenbeschattung
+182-34,Aluminium Jalousie
+182-35,Dachfenster Rollo
+182-36,Elektrische Jalousien
+182-37,Elektrische Rolladen
+182-38,Elektrische Rolläden
+182-39,Elektrische Rollos
+182-40,Fenster Jalousien
+182-41,Fenster Rolladen
+182-42,Fenster Rollo
+182-43,Fenster Sonnenschutz
+215-1,Montage und Service von Solarzellen
+215-2,Installation von Solaranlagen
+215-3,Photovoltaik
+215-4,Photovoltaikanlage
+215-5,Solaranlage
+215-6,Alternative Energien
+215-7,Alternative Energiequelle
+215-8,Batteriespeicher
+215-9,Energiequelle
+215-10,Erneuerbare Energien
+215-11,Kollektor
+215-12,Photovoltaik Speicher
+215-13,Poolheizung Solar
+215-14,Pv Anlage
+215-15,Röhrenkollektoren
+215-16,Solar
+215-17,Solar Batterie
+215-18,Solar Carport
+215-19,Solar Inselanlage
+215-20,Solar Laderegler
+215-21,Solar Set
+215-22,Solaranlage Wohnmobil
+215-23,Solardach
+215-24,Solarenergie
+215-25,Solarheizung
+215-26,Solarkollektor
+215-27,Solarmodul
+215-28,Solarpanel
+215-29,Solarregler
+215-30,Solarserver
+215-31,Solarspeicher
+215-32,Solarstrom
+215-33,Solarstromspeicher
+215-34,Solarteur
+215-35,Solarthermie
+215-36,Solarzelle
+215-37,Sonnenenergie
+215-38,Sonnenkollektoren
+215-39,Thermische Solaranlage
+215-40,Wechselrichter
+602-1,Heimautomatisierung
+602-2,Smart Home und Hausautomation
+602-3,Smart Home
+602-4,Hausautomation
+602-5,Hausautomatisierung
+602-6,Smart Home Security
+602-7,Smart Home Systems
+602-8,Lichtschalter Smart Home
+602-9,Digitale Haussteuerung
+602-10,Smart House Package
+602-11,New Home Automation Products
+602-12,Easy Home Automation
+602-13,Complete Smart Home System
+602-14,Smart Home Management
+602-15,Smart Home Alarmanlage
+602-16,Home Automatisierung
+602-17,Haussteuerung
+602-18,Smart Home Steuerung

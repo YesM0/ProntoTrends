@@ -1,0 +1,16 @@
+ticket_geo_region_name,ticket_taxonomy_tag_name,year,Rank,Max,Min,Demand_factor_max_to_min
+France,Paysagisme,2018,1,4,11,2.8
+France,Revêtements de sol extérieur,2018,2,3,11,6.3
+France,Installation de store banne,2018,3,4,11,9.1
+France,Cours d'anglais,2018,4,8,11,2.17
+France,Installation de panneaux solaires ,2018,5,0,2,1.77
+France,Paysagisme,2019,1,3,4,1.9
+France,Installation de store banne,2019,2,5,11,8.6
+France,Revêtements de sol extérieur,2019,3,5,11,4.7
+France,Installation de panneaux solaires ,2019,4,3,10,1.55
+France,Installation de piscine,2019,5,5,11,9.2
+France,Revêtements de sol extérieur,2020,1,4,0,7
+France,Installation de store banne,2020,2,4,0,7.1
+France,Installation de piscine,2020,3,4,0,9.1
+France,Paysagisme,2020,4,5,2,2.55
+France,Cours de jardinage,2020,5,3,0,7.6

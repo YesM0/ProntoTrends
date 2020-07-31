@@ -1,0 +1,421 @@
+Year,ticket_geo_region_name,Style_type,Distribution
+2018,Andalucía,Tradicional,0.12
+2018,Andalucía,En la playa,0.16
+2018,Andalucía,Espontáneo,NA
+2018,Andalucía,Romántico,0.08
+2018,Andalucía,Fashion/Elegante,0.22
+2018,Andalucía,Country Chic,0.15
+2018,Andalucía,Original/Alternativo,0.26
+2018,Aragón,Tradicional,NA
+2018,Aragón,En la playa,NA
+2018,Aragón,Espontáneo,NA
+2018,Aragón,Romántico,NA
+2018,Aragón,Fashion/Elegante_y,NA
+2018,Aragón,Country Chic,NA
+2018,Aragón,Original/Alternativo,NA
+2018,Asturias,Tradicional,NA
+2018,Asturias,En la playa,NA
+2018,Asturias,Espontáneo,NA
+2018,Asturias,Romántico,NA
+2018,Asturias,Fashion/Elegante_y,NA
+2018,Asturias,Country Chic,NA
+2018,Asturias,Original/Alternativo,NA
+2018,Illes Balears,Tradicional,NA
+2018,Illes Balears,En la playa,NA
+2018,Illes Balears,Espontáneo,NA
+2018,Illes Balears,Romántico,NA
+2018,Illes Balears,Fashion/Elegante_y,NA
+2018,Illes Balears,Country Chic,NA
+2018,Illes Balears,Original/Alternativo,NA
+2018,País Vasco,Tradicional,NA
+2018,País Vasco,En la playa,NA
+2018,País Vasco,Espontáneo,NA
+2018,País Vasco,Romántico,NA
+2018,País Vasco,Fashion/Elegante_y,NA
+2018,País Vasco,Country Chic,NA
+2018,País Vasco,Original/Alternativo,NA
+2018,Islas Canarias,Tradicional,NA
+2018,Islas Canarias,En la playa,NA
+2018,Islas Canarias,Espontáneo,NA
+2018,Islas Canarias,Romántico,NA
+2018,Islas Canarias,Fashion/Elegante_y,NA
+2018,Islas Canarias,Country Chic,NA
+2018,Islas Canarias,Original/Alternativo,NA
+2018,Cantabria,Tradicional,NA
+2018,Cantabria,En la playa,NA
+2018,Cantabria,Espontáneo,NA
+2018,Cantabria,Romántico,NA
+2018,Cantabria,Fashion/Elegante_y,NA
+2018,Cantabria,Country Chic,NA
+2018,Cantabria,Original/Alternativo,NA
+2018,Castilla y León,Tradicional,NA
+2018,Castilla y León,En la playa,NA
+2018,Castilla y León,Espontáneo,NA
+2018,Castilla y León,Romántico,NA
+2018,Castilla y León,Fashion/Elegante_y,NA
+2018,Castilla y León,Country Chic,NA
+2018,Castilla y León,Original/Alternativo,NA
+2018,Castilla-La Mancha,Tradicional,NA
+2018,Castilla-La Mancha,En la playa,NA
+2018,Castilla-La Mancha,Espontáneo,NA
+2018,Castilla-La Mancha,Romántico,NA
+2018,Castilla-La Mancha,Fashion/Elegante_y,NA
+2018,Castilla-La Mancha,Country Chic,NA
+2018,Castilla-La Mancha,Original/Alternativo,NA
+2018,Cataluña,Tradicional,NA
+2018,Cataluña,Espontáneo,NA
+2018,Cataluña,Romántico,0.07
+2018,Cataluña,Fashion/Elegante,0.16
+2018,Cataluña,En la playa,0.22
+2018,Cataluña,Country Chic,0.27
+2018,Cataluña,Original/Alternativo,0.28
+2018,Ceuta,Tradicional,NA
+2018,Ceuta,En la playa,NA
+2018,Ceuta,Espontáneo,NA
+2018,Ceuta,Romántico,NA
+2018,Ceuta,Fashion/Elegante_y,NA
+2018,Ceuta,Country Chic,NA
+2018,Ceuta,Original/Alternativo,NA
+2018,Madrid,Tradicional,0.13
+2018,Madrid,En la playa,0.14
+2018,Madrid,Espontáneo,NA
+2018,Madrid,Romántico,0.11
+2018,Madrid,Fashion/Elegante,0.16
+2018,Madrid,Country Chic,0.16
+2018,Madrid,Original/Alternativo,0.29
+2018,Extremadura,Tradicional,NA
+2018,Extremadura,En la playa,NA
+2018,Extremadura,Espontáneo,NA
+2018,Extremadura,Romántico,NA
+2018,Extremadura,Fashion/Elegante_y,NA
+2018,Extremadura,Country Chic,NA
+2018,Extremadura,Original/Alternativo,NA
+2018,Galicia,Tradicional,NA
+2018,Galicia,En la playa,NA
+2018,Galicia,Espontáneo,NA
+2018,Galicia,Romántico,NA
+2018,Galicia,Fashion/Elegante_y,NA
+2018,Galicia,Country Chic,NA
+2018,Galicia,Original/Alternativo,NA
+2018,La Rioja,Tradicional,NA
+2018,La Rioja,En la playa,NA
+2018,La Rioja,Espontáneo,NA
+2018,La Rioja,Romántico,NA
+2018,La Rioja,Fashion/Elegante_y,NA
+2018,La Rioja,Country Chic,NA
+2018,La Rioja,Original/Alternativo,NA
+2018,Melilla,Tradicional,NA
+2018,Melilla,En la playa,NA
+2018,Melilla,Espontáneo,NA
+2018,Melilla,Romántico,NA
+2018,Melilla,Fashion/Elegante_y,NA
+2018,Melilla,Country Chic,NA
+2018,Melilla,Original/Alternativo,NA
+2018,Navarra,Tradicional,NA
+2018,Navarra,En la playa,NA
+2018,Navarra,Espontáneo,NA
+2018,Navarra,Romántico,NA
+2018,Navarra,Fashion/Elegante_y,NA
+2018,Navarra,Country Chic,NA
+2018,Navarra,Original/Alternativo,NA
+2018,Murcia,Tradicional,NA
+2018,Murcia,En la playa,NA
+2018,Murcia,Espontáneo,NA
+2018,Murcia,Romántico,NA
+2018,Murcia,Fashion/Elegante_y,NA
+2018,Murcia,Country Chic,NA
+2018,Murcia,Original/Alternativo,NA
+2018,Spain,Tradicional,0.11
+2018,Spain,En la playa,0.11
+2018,Spain,Espontáneo,0.06
+2018,Spain,Romántico,0.07
+2018,Spain,Fashion/Elegante,0.2
+2018,Spain,Country Chic,0.19
+2018,Spain,Original/Alternativo,0.27
+2018,Valencia,Tradicional,NA
+2018,Valencia,En la playa,0.15
+2018,Valencia,Espontáneo,NA
+2018,Valencia,Romántico,NA
+2018,Valencia,Fashion/Elegante,0.31
+2018,Valencia,Country Chic,0.2
+2018,Valencia,Original/Alternativo,0.35
+2019,Andalucía,Tradicional,0.08
+2019,Andalucía,En la playa,0.16
+2019,Andalucía,Espontáneo,NA
+2019,Andalucía,Romántico,0.09
+2019,Andalucía,Fashion/Elegante,0.21
+2019,Andalucía,Country Chic,0.21
+2019,Andalucía,Original/Alternativo,0.25
+2019,Aragón,Tradicional,NA
+2019,Aragón,En la playa,NA
+2019,Aragón,Espontáneo,NA
+2019,Aragón,Romántico,NA
+2019,Aragón,Fashion/Elegante_y,NA
+2019,Aragón,Country Chic,NA
+2019,Aragón,Original/Alternativo,NA
+2019,Asturias,Tradicional,NA
+2019,Asturias,En la playa,NA
+2019,Asturias,Espontáneo,NA
+2019,Asturias,Romántico,NA
+2019,Asturias,Fashion/Elegante_y,NA
+2019,Asturias,Country Chic,NA
+2019,Asturias,Original/Alternativo,NA
+2019,Illes Balears,Tradicional,NA
+2019,Illes Balears,En la playa,NA
+2019,Illes Balears,Espontáneo,NA
+2019,Illes Balears,Romántico,NA
+2019,Illes Balears,Fashion/Elegante_y,NA
+2019,Illes Balears,Country Chic,NA
+2019,Illes Balears,Original/Alternativo,NA
+2019,País Vasco,Tradicional,NA
+2019,País Vasco,En la playa,NA
+2019,País Vasco,Espontáneo,NA
+2019,País Vasco,Romántico,NA
+2019,País Vasco,Fashion/Elegante_y,NA
+2019,País Vasco,Country Chic,NA
+2019,País Vasco,Original/Alternativo,NA
+2019,Islas Canarias,Tradicional,NA
+2019,Islas Canarias,En la playa,NA
+2019,Islas Canarias,Espontáneo,NA
+2019,Islas Canarias,Romántico,NA
+2019,Islas Canarias,Fashion/Elegante_y,NA
+2019,Islas Canarias,Country Chic,NA
+2019,Islas Canarias,Original/Alternativo,NA
+2019,Cantabria,Tradicional,NA
+2019,Cantabria,En la playa,NA
+2019,Cantabria,Espontáneo,NA
+2019,Cantabria,Romántico,NA
+2019,Cantabria,Fashion/Elegante_y,NA
+2019,Cantabria,Country Chic,NA
+2019,Cantabria,Original/Alternativo,NA
+2019,Castilla y León,Tradicional,NA
+2019,Castilla y León,En la playa,NA
+2019,Castilla y León,Espontáneo,NA
+2019,Castilla y León,Romántico,NA
+2019,Castilla y León,Fashion/Elegante_y,NA
+2019,Castilla y León,Country Chic,NA
+2019,Castilla y León,Original/Alternativo,NA
+2019,Castilla-La Mancha,Tradicional,NA
+2019,Castilla-La Mancha,En la playa,NA
+2019,Castilla-La Mancha,Espontáneo,NA
+2019,Castilla-La Mancha,Romántico,NA
+2019,Castilla-La Mancha,Fashion/Elegante_y,NA
+2019,Castilla-La Mancha,Country Chic,NA
+2019,Castilla-La Mancha,Original/Alternativo,NA
+2019,Cataluña,Tradicional,NA
+2019,Cataluña,Espontáneo,NA
+2019,Cataluña,Romántico,0.12
+2019,Cataluña,Fashion/Elegante,0.14
+2019,Cataluña,En la playa,0.23
+2019,Cataluña,Country Chic,0.25
+2019,Cataluña,Original/Alternativo,0.26
+2019,Ceuta,Tradicional,NA
+2019,Ceuta,En la playa,NA
+2019,Ceuta,Espontáneo,NA
+2019,Ceuta,Romántico,NA
+2019,Ceuta,Fashion/Elegante_y,NA
+2019,Ceuta,Country Chic,NA
+2019,Ceuta,Original/Alternativo,NA
+2019,Madrid,Tradicional,0.09
+2019,Madrid,En la playa,0.13
+2019,Madrid,Espontáneo,NA
+2019,Madrid,Romántico,0.14
+2019,Madrid,Fashion/Elegante,0.2
+2019,Madrid,Country Chic,0.2
+2019,Madrid,Original/Alternativo,0.24
+2019,Extremadura,Tradicional,NA
+2019,Extremadura,En la playa,NA
+2019,Extremadura,Espontáneo,NA
+2019,Extremadura,Romántico,NA
+2019,Extremadura,Fashion/Elegante_y,NA
+2019,Extremadura,Country Chic,NA
+2019,Extremadura,Original/Alternativo,NA
+2019,Galicia,Tradicional,NA
+2019,Galicia,En la playa,NA
+2019,Galicia,Espontáneo,NA
+2019,Galicia,Romántico,NA
+2019,Galicia,Fashion/Elegante_y,NA
+2019,Galicia,Country Chic,NA
+2019,Galicia,Original/Alternativo,NA
+2019,La Rioja,Tradicional,NA
+2019,La Rioja,En la playa,NA
+2019,La Rioja,Espontáneo,NA
+2019,La Rioja,Romántico,NA
+2019,La Rioja,Fashion/Elegante_y,NA
+2019,La Rioja,Country Chic,NA
+2019,La Rioja,Original/Alternativo,NA
+2019,Melilla,Tradicional,NA
+2019,Melilla,En la playa,NA
+2019,Melilla,Espontáneo,NA
+2019,Melilla,Romántico,NA
+2019,Melilla,Fashion/Elegante_y,NA
+2019,Melilla,Country Chic,NA
+2019,Melilla,Original/Alternativo,NA
+2019,Navarra,Tradicional,NA
+2019,Navarra,En la playa,NA
+2019,Navarra,Espontáneo,NA
+2019,Navarra,Romántico,NA
+2019,Navarra,Fashion/Elegante_y,NA
+2019,Navarra,Country Chic,NA
+2019,Navarra,Original/Alternativo,NA
+2019,Murcia,Tradicional,NA
+2019,Murcia,En la playa,NA
+2019,Murcia,Espontáneo,NA
+2019,Murcia,Romántico,NA
+2019,Murcia,Fashion/Elegante_y,NA
+2019,Murcia,Country Chic,NA
+2019,Murcia,Original/Alternativo,NA
+2019,Spain,Tradicional,0.07
+2019,Spain,En la playa,0.1
+2019,Spain,Espontáneo,0.07
+2019,Spain,Romántico,0.1
+2019,Spain,Fashion/Elegante,0.2
+2019,Spain,Country Chic,0.2
+2019,Spain,Original/Alternativo,0.26
+2019,Valencia,Tradicional,NA
+2019,Valencia,En la playa,0.17
+2019,Valencia,Espontáneo,NA
+2019,Valencia,Romántico,NA
+2019,Valencia,Fashion/Elegante,0.26
+2019,Valencia,Country Chic,0.24
+2019,Valencia,Original/Alternativo,0.33
+2020,Andalucía,Tradicional,0.07
+2020,Andalucía,En la playa,0.09
+2020,Andalucía,Espontáneo,NA
+2020,Andalucía,Romántico,0.07
+2020,Andalucía,Fashion/Elegante,0.25
+2020,Andalucía,Country Chic,0.19
+2020,Andalucía,Original/Alternativo,0.33
+2020,Aragón,Tradicional,NA
+2020,Aragón,En la playa,NA
+2020,Aragón,Espontáneo,NA
+2020,Aragón,Romántico,NA
+2020,Aragón,Fashion/Elegante_y,NA
+2020,Aragón,Country Chic,NA
+2020,Aragón,Original/Alternativo,NA
+2020,Asturias,Tradicional,NA
+2020,Asturias,En la playa,NA
+2020,Asturias,Espontáneo,NA
+2020,Asturias,Romántico,NA
+2020,Asturias,Fashion/Elegante_y,NA
+2020,Asturias,Country Chic,NA
+2020,Asturias,Original/Alternativo,NA
+2020,Illes Balears,Tradicional,NA
+2020,Illes Balears,En la playa,NA
+2020,Illes Balears,Espontáneo,NA
+2020,Illes Balears,Romántico,NA
+2020,Illes Balears,Fashion/Elegante_y,NA
+2020,Illes Balears,Country Chic,NA
+2020,Illes Balears,Original/Alternativo,NA
+2020,País Vasco,Tradicional,NA
+2020,País Vasco,En la playa,NA
+2020,País Vasco,Espontáneo,NA
+2020,País Vasco,Romántico,NA
+2020,País Vasco,Fashion/Elegante_y,NA
+2020,País Vasco,Country Chic,NA
+2020,País Vasco,Original/Alternativo,NA
+2020,Islas Canarias,Tradicional,NA
+2020,Islas Canarias,En la playa,NA
+2020,Islas Canarias,Espontáneo,NA
+2020,Islas Canarias,Romántico,NA
+2020,Islas Canarias,Fashion/Elegante_y,NA
+2020,Islas Canarias,Country Chic,NA
+2020,Islas Canarias,Original/Alternativo,NA
+2020,Cantabria,Tradicional,NA
+2020,Cantabria,En la playa,NA
+2020,Cantabria,Espontáneo,NA
+2020,Cantabria,Romántico,NA
+2020,Cantabria,Fashion/Elegante_y,NA
+2020,Cantabria,Country Chic,NA
+2020,Cantabria,Original/Alternativo,NA
+2020,Castilla y León,Tradicional,NA
+2020,Castilla y León,En la playa,NA
+2020,Castilla y León,Espontáneo,NA
+2020,Castilla y León,Romántico,NA
+2020,Castilla y León,Fashion/Elegante_y,NA
+2020,Castilla y León,Country Chic,NA
+2020,Castilla y León,Original/Alternativo,NA
+2020,Castilla-La Mancha,Tradicional,NA
+2020,Castilla-La Mancha,En la playa,NA
+2020,Castilla-La Mancha,Espontáneo,NA
+2020,Castilla-La Mancha,Romántico,NA
+2020,Castilla-La Mancha,Fashion/Elegante_y,NA
+2020,Castilla-La Mancha,Country Chic,NA
+2020,Castilla-La Mancha,Original/Alternativo,NA
+2020,Cataluña,Tradicional,NA
+2020,Cataluña,Espontáneo,NA
+2020,Cataluña,Romántico,0.06
+2020,Cataluña,Fashion/Elegante,0.12
+2020,Cataluña,En la playa,0.14
+2020,Cataluña,Country Chic,0.29
+2020,Cataluña,Original/Alternativo,0.39
+2020,Ceuta,Tradicional,NA
+2020,Ceuta,En la playa,NA
+2020,Ceuta,Espontáneo,NA
+2020,Ceuta,Romántico,NA
+2020,Ceuta,Fashion/Elegante_y,NA
+2020,Ceuta,Country Chic,NA
+2020,Ceuta,Original/Alternativo,NA
+2020,Madrid,Tradicional,0.04
+2020,Madrid,En la playa,0.11
+2020,Madrid,Espontáneo,NA
+2020,Madrid,Romántico,0.07
+2020,Madrid,Fashion/Elegante,0.22
+2020,Madrid,Country Chic,0.26
+2020,Madrid,Original/Alternativo,0.3
+2020,Extremadura,Tradicional,NA
+2020,Extremadura,En la playa,NA
+2020,Extremadura,Espontáneo,NA
+2020,Extremadura,Romántico,NA
+2020,Extremadura,Fashion/Elegante_y,NA
+2020,Extremadura,Country Chic,NA
+2020,Extremadura,Original/Alternativo,NA
+2020,Galicia,Tradicional,NA
+2020,Galicia,En la playa,NA
+2020,Galicia,Espontáneo,NA
+2020,Galicia,Romántico,NA
+2020,Galicia,Fashion/Elegante_y,NA
+2020,Galicia,Country Chic,NA
+2020,Galicia,Original/Alternativo,NA
+2020,La Rioja,Tradicional,NA
+2020,La Rioja,En la playa,NA
+2020,La Rioja,Espontáneo,NA
+2020,La Rioja,Romántico,NA
+2020,La Rioja,Fashion/Elegante_y,NA
+2020,La Rioja,Country Chic,NA
+2020,La Rioja,Original/Alternativo,NA
+2020,Melilla,Tradicional,NA
+2020,Melilla,En la playa,NA
+2020,Melilla,Espontáneo,NA
+2020,Melilla,Romántico,NA
+2020,Melilla,Fashion/Elegante_y,NA
+2020,Melilla,Country Chic,NA
+2020,Melilla,Original/Alternativo,NA
+2020,Navarra,Tradicional,NA
+2020,Navarra,En la playa,NA
+2020,Navarra,Espontáneo,NA
+2020,Navarra,Romántico,NA
+2020,Navarra,Fashion/Elegante_y,NA
+2020,Navarra,Country Chic,NA
+2020,Navarra,Original/Alternativo,NA
+2020,Murcia,Tradicional,NA
+2020,Murcia,En la playa,NA
+2020,Murcia,Espontáneo,NA
+2020,Murcia,Romántico,NA
+2020,Murcia,Fashion/Elegante_y,NA
+2020,Murcia,Country Chic,NA
+2020,Murcia,Original/Alternativo,NA
+2020,Spain,Tradicional,0.06
+2020,Spain,En la playa,0.09
+2020,Spain,Espontáneo,0.04
+2020,Spain,Romántico,0.1
+2020,Spain,Fashion/Elegante,0.19
+2020,Spain,Country Chic,0.19
+2020,Spain,Original/Alternativo,0.33
+2020,Valencia,Tradicional,NA
+2020,Valencia,En la playa,0.12
+2020,Valencia,Espontáneo,NA
+2020,Valencia,Romántico,NA
+2020,Valencia,Fashion/Elegante,0.16
+2020,Valencia,Country Chic,0.3
+2020,Valencia,Original/Alternativo,0.42

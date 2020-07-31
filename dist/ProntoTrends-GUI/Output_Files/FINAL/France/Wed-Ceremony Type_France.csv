@@ -1,0 +1,277 @@
+Year,ticket_geo_region_name,Wed_type,Distribution
+2018,Alsace,mariage civil ,0.6
+2018,Alsace,mariage symbolique ,0.0
+2018,Alsace,mariage laique,0.23
+2018,Alsace,mariage religieux ,0.17
+2018,Aquitaine,mariage civil ,0.58
+2018,Aquitaine,mariage symbolique ,0.0
+2018,Aquitaine,mariage laique,0.27
+2018,Aquitaine,mariage religieux ,0.15
+2018,Auvergne,mariage civil ,1.0
+2018,Auvergne,mariage symbolique ,0.0
+2018,Auvergne,mariage laique,0.0
+2018,Auvergne,mariage religieux ,0.0
+2018,Bretagne,mariage civil ,0.54
+2018,Bretagne,mariage symbolique ,0.0
+2018,Bretagne,mariage laique,0.2
+2018,Bretagne,mariage religieux ,0.26
+2018,Bourgogne,mariage civil ,0.79
+2018,Bourgogne,mariage symbolique ,0.0
+2018,Bourgogne,mariage laique,0.21
+2018,Bourgogne,mariage religieux ,0.0
+2018,Centre-Val de Loire,mariage civil ,0.56
+2018,Centre-Val de Loire,mariage symbolique ,0.0
+2018,Centre-Val de Loire,mariage laique,0.26
+2018,Centre-Val de Loire,mariage religieux ,0.18
+2018,Champagne-Ardenne,mariage civil ,1.0
+2018,Champagne-Ardenne,mariage symbolique ,0.0
+2018,Champagne-Ardenne,mariage laique,0.0
+2018,Champagne-Ardenne,mariage religieux ,0.0
+2018,Corse,mariage civil ,0.0
+2018,Corse,mariage symbolique ,0.0
+2018,Corse,mariage laique,0.0
+2018,Corse,mariage religieux ,0.0
+2018,France,mariage civil ,0.61
+2018,France,mariage symbolique ,0.02
+2018,France,mariage laique,0.19
+2018,France,mariage religieux ,0.18
+2018,Franche-Comté,mariage civil ,1.0
+2018,Franche-Comté,mariage symbolique ,0.0
+2018,Franche-Comté,mariage laique,0.0
+2018,Franche-Comté,mariage religieux ,0.0
+2018,Languedoc-Roussillon,mariage civil ,0.74
+2018,Languedoc-Roussillon,mariage symbolique ,0.0
+2018,Languedoc-Roussillon,mariage laique,0.26
+2018,Languedoc-Roussillon,mariage religieux ,0.0
+2018,Limousin,mariage civil ,1.0
+2018,Limousin,mariage symbolique ,0.0
+2018,Limousin,mariage laique,0.0
+2018,Limousin,mariage religieux ,0.0
+2018,Lorraine,mariage civil ,0.56
+2018,Lorraine,mariage symbolique ,0.0
+2018,Lorraine,mariage laique,0.25
+2018,Lorraine,mariage religieux ,0.19
+2018,Basse Normandie,mariage civil ,0.6
+2018,Basse Normandie,mariage symbolique ,0.0
+2018,Basse Normandie,mariage laique,0.4
+2018,Basse Normandie,mariage religieux ,0.0
+2018,Midi-Pyrénées,mariage civil ,0.69
+2018,Midi-Pyrénées,mariage symbolique ,0.0
+2018,Midi-Pyrénées,mariage laique,0.16
+2018,Midi-Pyrénées,mariage religieux ,0.15
+2018,Nord-Pas-de-Calais,mariage civil ,0.53
+2018,Nord-Pas-de-Calais,mariage symbolique ,0.0
+2018,Nord-Pas-de-Calais,mariage laique,0.26
+2018,Nord-Pas-de-Calais,mariage religieux ,0.21
+2018,Pays de la Loire,mariage civil ,0.54
+2018,Pays de la Loire,mariage symbolique ,0.0
+2018,Pays de la Loire,mariage laique,0.26
+2018,Pays de la Loire,mariage religieux ,0.2
+2018,Picardie,mariage civil ,0.7
+2018,Picardie,mariage symbolique ,0.0
+2018,Picardie,mariage laique,0.3
+2018,Picardie,mariage religieux ,0.0
+2018,Poitou-Charentes,mariage civil ,0.69
+2018,Poitou-Charentes,mariage symbolique ,0.0
+2018,Poitou-Charentes,mariage laique,0.31
+2018,Poitou-Charentes,mariage religieux ,0.0
+2018,Provence-Alpes-Côte d'Azur,mariage civil ,0.53
+2018,Provence-Alpes-Côte d'Azur,mariage symbolique ,0.0
+2018,Provence-Alpes-Côte d'Azur,mariage laique,0.32
+2018,Provence-Alpes-Côte d'Azur,mariage religieux ,0.14
+2018,Rhône-Alpes,mariage civil ,0.56
+2018,Rhône-Alpes,mariage symbolique ,0.0
+2018,Rhône-Alpes,mariage laique,0.26
+2018,Rhône-Alpes,mariage religieux ,0.18
+2018,Rhône-Alpes,mariage civil ,0.78
+2018,Rhône-Alpes,mariage symbolique ,0.0
+2018,Rhône-Alpes,mariage laique,0.22
+2018,Rhône-Alpes,mariage religieux ,0.0
+2018,Île-de-France,mariage civil ,0.63
+2018,Île-de-France,mariage symbolique ,0.0
+2018,Île-de-France,mariage laique,0.15
+2018,Île-de-France,mariage religieux ,0.22
+2019,Alsace,mariage civil ,0.57
+2019,Alsace,mariage symbolique ,0.0
+2019,Alsace,mariage laique,0.23
+2019,Alsace,mariage religieux ,0.2
+2019,Aquitaine,mariage civil ,0.58
+2019,Aquitaine,mariage symbolique ,0.0
+2019,Aquitaine,mariage laique,0.23
+2019,Aquitaine,mariage religieux ,0.19
+2019,Auvergne,mariage civil ,1.0
+2019,Auvergne,mariage symbolique ,0.0
+2019,Auvergne,mariage laique,0.0
+2019,Auvergne,mariage religieux ,0.0
+2019,Bretagne,mariage civil ,0.57
+2019,Bretagne,mariage symbolique ,0.0
+2019,Bretagne,mariage laique,0.3
+2019,Bretagne,mariage religieux ,0.13
+2019,Bourgogne,mariage civil ,0.66
+2019,Bourgogne,mariage symbolique ,0.0
+2019,Bourgogne,mariage laique,0.34
+2019,Bourgogne,mariage religieux ,0.0
+2019,Centre-Val de Loire,mariage civil ,0.47
+2019,Centre-Val de Loire,mariage symbolique ,0.0
+2019,Centre-Val de Loire,mariage laique,0.34
+2019,Centre-Val de Loire,mariage religieux ,0.19
+2019,Champagne-Ardenne,mariage civil ,1.0
+2019,Champagne-Ardenne,mariage symbolique ,0.0
+2019,Champagne-Ardenne,mariage laique,0.0
+2019,Champagne-Ardenne,mariage religieux ,0.0
+2019,Corse,mariage civil ,0.0
+2019,Corse,mariage symbolique ,0.0
+2019,Corse,mariage laique,0.0
+2019,Corse,mariage religieux ,0.0
+2019,France,mariage civil ,0.6
+2019,France,mariage symbolique ,0.02
+2019,France,mariage laique,0.18
+2019,France,mariage religieux ,0.2
+2019,Franche-Comté,mariage civil ,1.0
+2019,Franche-Comté,mariage symbolique ,0.0
+2019,Franche-Comté,mariage laique,0.0
+2019,Franche-Comté,mariage religieux ,0.0
+2019,Languedoc-Roussillon,mariage civil ,0.73
+2019,Languedoc-Roussillon,mariage symbolique ,0.0
+2019,Languedoc-Roussillon,mariage laique,0.27
+2019,Languedoc-Roussillon,mariage religieux ,0.0
+2019,Limousin,mariage civil ,1.0
+2019,Limousin,mariage symbolique ,0.0
+2019,Limousin,mariage laique,0.0
+2019,Limousin,mariage religieux ,0.0
+2019,Lorraine,mariage civil ,0.59
+2019,Lorraine,mariage symbolique ,0.0
+2019,Lorraine,mariage laique,0.24
+2019,Lorraine,mariage religieux ,0.17
+2019,Basse Normandie,mariage civil ,0.52
+2019,Basse Normandie,mariage symbolique ,0.0
+2019,Basse Normandie,mariage laique,0.48
+2019,Basse Normandie,mariage religieux ,0.0
+2019,Midi-Pyrénées,mariage civil ,0.69
+2019,Midi-Pyrénées,mariage symbolique ,0.0
+2019,Midi-Pyrénées,mariage laique,0.14
+2019,Midi-Pyrénées,mariage religieux ,0.17
+2019,Nord-Pas-de-Calais,mariage civil ,0.52
+2019,Nord-Pas-de-Calais,mariage symbolique ,0.0
+2019,Nord-Pas-de-Calais,mariage laique,0.24
+2019,Nord-Pas-de-Calais,mariage religieux ,0.24
+2019,Pays de la Loire,mariage civil ,0.48
+2019,Pays de la Loire,mariage symbolique ,0.0
+2019,Pays de la Loire,mariage laique,0.33
+2019,Pays de la Loire,mariage religieux ,0.19
+2019,Picardie,mariage civil ,0.64
+2019,Picardie,mariage symbolique ,0.0
+2019,Picardie,mariage laique,0.36
+2019,Picardie,mariage religieux ,0.0
+2019,Poitou-Charentes,mariage civil ,0.71
+2019,Poitou-Charentes,mariage symbolique ,0.0
+2019,Poitou-Charentes,mariage laique,0.29
+2019,Poitou-Charentes,mariage religieux ,0.0
+2019,Provence-Alpes-Côte d'Azur,mariage civil ,0.47
+2019,Provence-Alpes-Côte d'Azur,mariage symbolique ,0.0
+2019,Provence-Alpes-Côte d'Azur,mariage laique,0.25
+2019,Provence-Alpes-Côte d'Azur,mariage religieux ,0.27
+2019,Rhône-Alpes,mariage civil ,0.52
+2019,Rhône-Alpes,mariage symbolique ,0.0
+2019,Rhône-Alpes,mariage laique,0.25
+2019,Rhône-Alpes,mariage religieux ,0.24
+2019,Rhône-Alpes,mariage civil ,0.75
+2019,Rhône-Alpes,mariage symbolique ,0.0
+2019,Rhône-Alpes,mariage laique,0.25
+2019,Rhône-Alpes,mariage religieux ,0.0
+2019,Île-de-France,mariage civil ,0.61
+2019,Île-de-France,mariage symbolique ,0.0
+2019,Île-de-France,mariage laique,0.17
+2019,Île-de-France,mariage religieux ,0.22
+2020,Alsace,mariage civil ,0.61
+2020,Alsace,mariage symbolique ,0.0
+2020,Alsace,mariage laique,0.28
+2020,Alsace,mariage religieux ,0.11
+2020,Aquitaine,mariage civil ,0.57
+2020,Aquitaine,mariage symbolique ,0.0
+2020,Aquitaine,mariage laique,0.27
+2020,Aquitaine,mariage religieux ,0.16
+2020,Auvergne,mariage civil ,1.0
+2020,Auvergne,mariage symbolique ,0.0
+2020,Auvergne,mariage laique,0.0
+2020,Auvergne,mariage religieux ,0.0
+2020,Bretagne,mariage civil ,0.37
+2020,Bretagne,mariage symbolique ,0.0
+2020,Bretagne,mariage laique,0.52
+2020,Bretagne,mariage religieux ,0.1
+2020,Bourgogne,mariage civil ,0.56
+2020,Bourgogne,mariage symbolique ,0.0
+2020,Bourgogne,mariage laique,0.44
+2020,Bourgogne,mariage religieux ,0.0
+2020,Centre-Val de Loire,mariage civil ,0.58
+2020,Centre-Val de Loire,mariage symbolique ,0.0
+2020,Centre-Val de Loire,mariage laique,0.21
+2020,Centre-Val de Loire,mariage religieux ,0.21
+2020,Champagne-Ardenne,mariage civil ,1.0
+2020,Champagne-Ardenne,mariage symbolique ,0.0
+2020,Champagne-Ardenne,mariage laique,0.0
+2020,Champagne-Ardenne,mariage religieux ,0.0
+2020,Corse,mariage civil ,0.0
+2020,Corse,mariage symbolique ,0.0
+2020,Corse,mariage laique,0.0
+2020,Corse,mariage religieux ,0.0
+2020,France,mariage civil ,0.57
+2020,France,mariage symbolique ,0.02
+2020,France,mariage laique,0.17
+2020,France,mariage religieux ,0.23
+2020,Franche-Comté,mariage civil ,1.0
+2020,Franche-Comté,mariage symbolique ,0.0
+2020,Franche-Comté,mariage laique,0.0
+2020,Franche-Comté,mariage religieux ,0.0
+2020,Languedoc-Roussillon,mariage civil ,0.9
+2020,Languedoc-Roussillon,mariage symbolique ,0.0
+2020,Languedoc-Roussillon,mariage laique,0.1
+2020,Languedoc-Roussillon,mariage religieux ,0.0
+2020,Limousin,mariage civil ,1.0
+2020,Limousin,mariage symbolique ,0.0
+2020,Limousin,mariage laique,0.0
+2020,Limousin,mariage religieux ,0.0
+2020,Lorraine,mariage civil ,0.85
+2020,Lorraine,mariage symbolique ,0.0
+2020,Lorraine,mariage laique,0.07
+2020,Lorraine,mariage religieux ,0.08
+2020,Basse Normandie,mariage civil ,0.6
+2020,Basse Normandie,mariage symbolique ,0.0
+2020,Basse Normandie,mariage laique,0.4
+2020,Basse Normandie,mariage religieux ,0.0
+2020,Midi-Pyrénées,mariage civil ,0.68
+2020,Midi-Pyrénées,mariage symbolique ,0.0
+2020,Midi-Pyrénées,mariage laique,0.24
+2020,Midi-Pyrénées,mariage religieux ,0.08
+2020,Nord-Pas-de-Calais,mariage civil ,0.55
+2020,Nord-Pas-de-Calais,mariage symbolique ,0.0
+2020,Nord-Pas-de-Calais,mariage laique,0.23
+2020,Nord-Pas-de-Calais,mariage religieux ,0.22
+2020,Pays de la Loire,mariage civil ,0.56
+2020,Pays de la Loire,mariage symbolique ,0.0
+2020,Pays de la Loire,mariage laique,0.29
+2020,Pays de la Loire,mariage religieux ,0.15
+2020,Picardie,mariage civil ,0.82
+2020,Picardie,mariage symbolique ,0.0
+2020,Picardie,mariage laique,0.18
+2020,Picardie,mariage religieux ,0.0
+2020,Poitou-Charentes,mariage civil ,0.87
+2020,Poitou-Charentes,mariage symbolique ,0.0
+2020,Poitou-Charentes,mariage laique,0.13
+2020,Poitou-Charentes,mariage religieux ,0.0
+2020,Provence-Alpes-Côte d'Azur,mariage civil ,0.58
+2020,Provence-Alpes-Côte d'Azur,mariage symbolique ,0.0
+2020,Provence-Alpes-Côte d'Azur,mariage laique,0.19
+2020,Provence-Alpes-Côte d'Azur,mariage religieux ,0.23
+2020,Rhône-Alpes,mariage civil ,0.43
+2020,Rhône-Alpes,mariage symbolique ,0.0
+2020,Rhône-Alpes,mariage laique,0.14
+2020,Rhône-Alpes,mariage religieux ,0.44
+2020,Rhône-Alpes,mariage civil ,0.79
+2020,Rhône-Alpes,mariage symbolique ,0.0
+2020,Rhône-Alpes,mariage laique,0.21
+2020,Rhône-Alpes,mariage religieux ,0.0
+2020,Île-de-France,mariage civil ,0.62
+2020,Île-de-France,mariage symbolique ,0.0
+2020,Île-de-France,mariage laique,0.17
+2020,Île-de-France,mariage religieux ,0.21

@@ -1,0 +1,285 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Abruzzo,Automazione cancelli,0.26
+2018,Abruzzo,Cronotermostato e termostato,0.09
+2018,Abruzzo,Installazione impianto di domotica,0.0
+2018,Abruzzo,Installazione impianto wifi,0.04
+2018,Abruzzo,Motorizzazione tapparelle,0.61
+2018,Puglia,Automazione cancelli,0.59
+2018,Puglia,Cronotermostato e termostato,0.14
+2018,Puglia,Installazione impianto di domotica,0.0
+2018,Puglia,Installazione impianto wifi,0.0
+2018,Puglia,Motorizzazione tapparelle,0.27
+2018,Basilicata,Automazione cancelli,0.0
+2018,Basilicata,Cronotermostato e termostato,1.0
+2018,Basilicata,Installazione impianto di domotica,0.0
+2018,Basilicata,Motorizzazione tapparelle,0.0
+2018,Calabria,Automazione cancelli,0.57
+2018,Calabria,Cronotermostato e termostato,0.14
+2018,Calabria,Installazione impianto di domotica,0.0
+2018,Calabria,Installazione impianto wifi,0.0
+2018,Calabria,Motorizzazione tapparelle,0.29
+2018,Campania,Automazione cancelli,0.29
+2018,Campania,Cronotermostato e termostato,0.07
+2018,Campania,Installazione impianto di domotica,0.0
+2018,Campania,Installazione impianto wifi,0.15
+2018,Campania,Motorizzazione tapparelle,0.49
+2018,Emilia-Romagna,Automazione cancelli,0.33
+2018,Emilia-Romagna,Cronotermostato e termostato,0.2
+2018,Emilia-Romagna,Installazione impianto di domotica,0.0
+2018,Emilia-Romagna,Installazione impianto wifi,0.06
+2018,Emilia-Romagna,Motorizzazione tapparelle,0.41
+2018,Friuli Venezia Giulia,Automazione cancelli,0.31
+2018,Friuli Venezia Giulia,Cronotermostato e termostato,0.44
+2018,Friuli Venezia Giulia,Installazione impianto di domotica,0.0
+2018,Friuli Venezia Giulia,Installazione impianto wifi,0.06
+2018,Friuli Venezia Giulia,Motorizzazione tapparelle,0.19
+2018,Italia,Automazione cancelli,0.32
+2018,Italia,Cronotermostato e termostato,0.19
+2018,Italia,Installazione impianto di domotica,0.0
+2018,Italia,Installazione impianto wifi,0.05
+2018,Italia,Motorizzazione tapparelle,0.45
+2018,Lazio,Automazione cancelli,0.2
+2018,Lazio,Cronotermostato e termostato,0.22
+2018,Lazio,Installazione impianto di domotica,0.0
+2018,Lazio,Installazione impianto wifi,0.06
+2018,Lazio,Motorizzazione tapparelle,0.52
+2018,Liguria,Automazione cancelli,0.07
+2018,Liguria,Cronotermostato e termostato,0.27
+2018,Liguria,Installazione impianto di domotica,0.0
+2018,Liguria,Installazione impianto wifi,0.0
+2018,Liguria,Motorizzazione tapparelle,0.67
+2018,Lombardia,Automazione cancelli,0.32
+2018,Lombardia,Cronotermostato e termostato,0.2
+2018,Lombardia,Installazione impianto di domotica,0.0
+2018,Lombardia,Installazione impianto wifi,0.02
+2018,Lombardia,Motorizzazione tapparelle,0.46
+2018,Marche,Automazione cancelli,0.53
+2018,Marche,Cronotermostato e termostato,0.07
+2018,Marche,Installazione impianto di domotica,0.0
+2018,Marche,Motorizzazione tapparelle,0.4
+2018,Molise,Automazione cancelli,0.5
+2018,Molise,Motorizzazione tapparelle,0.5
+2018,Piemonte,Automazione cancelli,0.33
+2018,Piemonte,Cronotermostato e termostato,0.12
+2018,Piemonte,Installazione impianto di domotica,0.0
+2018,Piemonte,Installazione impianto wifi,0.08
+2018,Piemonte,Motorizzazione tapparelle,0.47
+2018,Sardegna,Automazione cancelli,0.47
+2018,Sardegna,Cronotermostato e termostato,0.03
+2018,Sardegna,Installazione impianto di domotica,0.0
+2018,Sardegna,Installazione impianto wifi,0.06
+2018,Sardegna,Motorizzazione tapparelle,0.44
+2018,Sicilia,Automazione cancelli,0.35
+2018,Sicilia,Cronotermostato e termostato,0.09
+2018,Sicilia,Installazione impianto di domotica,0.0
+2018,Sicilia,Installazione impianto wifi,0.06
+2018,Sicilia,Motorizzazione tapparelle,0.5
+2018,Trentino-Alto Adige,Automazione cancelli,0.16
+2018,Trentino-Alto Adige,Cronotermostato e termostato,0.21
+2018,Trentino-Alto Adige,Installazione impianto di domotica,0.0
+2018,Trentino-Alto Adige,Installazione impianto wifi,0.11
+2018,Trentino-Alto Adige,Motorizzazione tapparelle,0.53
+2018,Toscana,Automazione cancelli,0.24
+2018,Toscana,Cronotermostato e termostato,0.39
+2018,Toscana,Installazione impianto di domotica,0.0
+2018,Toscana,Installazione impianto wifi,0.0
+2018,Toscana,Motorizzazione tapparelle,0.36
+2018,Umbria,Automazione cancelli,0.36
+2018,Umbria,Cronotermostato e termostato,0.21
+2018,Umbria,Installazione impianto di domotica,0.0
+2018,Umbria,Motorizzazione tapparelle,0.43
+2018,Veneto,Automazione cancelli,0.37
+2018,Veneto,Cronotermostato e termostato,0.21
+2018,Veneto,Installazione impianto di domotica,0.0
+2018,Veneto,Installazione impianto wifi,0.04
+2018,Veneto,Motorizzazione tapparelle,0.38
+2019,Abruzzo,Automazione cancelli,0.37
+2019,Abruzzo,Cronotermostato e termostato,0.06
+2019,Abruzzo,Installazione impianto di domotica,0.12
+2019,Abruzzo,Installazione impianto wifi,0.04
+2019,Abruzzo,Motorizzazione tapparelle,0.4
+2019,Valle d'Aosta,Cronotermostato e termostato,0.67
+2019,Valle d'Aosta,Motorizzazione tapparelle,0.33
+2019,Puglia,Automazione cancelli,0.56
+2019,Puglia,Cronotermostato e termostato,0.04
+2019,Puglia,Installazione impianto di domotica,0.14
+2019,Puglia,Installazione impianto wifi,0.04
+2019,Puglia,Motorizzazione tapparelle,0.23
+2019,Basilicata,Automazione cancelli,0.86
+2019,Basilicata,Cronotermostato e termostato,0.0
+2019,Basilicata,Installazione impianto di domotica,0.0
+2019,Basilicata,Motorizzazione tapparelle,0.14
+2019,Calabria,Automazione cancelli,0.48
+2019,Calabria,Cronotermostato e termostato,0.1
+2019,Calabria,Installazione impianto di domotica,0.1
+2019,Calabria,Installazione impianto wifi,0.03
+2019,Calabria,Motorizzazione tapparelle,0.28
+2019,Campania,Automazione cancelli,0.34
+2019,Campania,Cronotermostato e termostato,0.11
+2019,Campania,Installazione impianto di domotica,0.18
+2019,Campania,Installazione impianto wifi,0.07
+2019,Campania,Motorizzazione tapparelle,0.3
+2019,Emilia-Romagna,Automazione cancelli,0.39
+2019,Emilia-Romagna,Cronotermostato e termostato,0.26
+2019,Emilia-Romagna,Installazione impianto di domotica,0.04
+2019,Emilia-Romagna,Installazione impianto wifi,0.04
+2019,Emilia-Romagna,Motorizzazione tapparelle,0.28
+2019,Friuli Venezia Giulia,Automazione cancelli,0.55
+2019,Friuli Venezia Giulia,Cronotermostato e termostato,0.2
+2019,Friuli Venezia Giulia,Installazione impianto di domotica,0.08
+2019,Friuli Venezia Giulia,Installazione impianto wifi,0.0
+2019,Friuli Venezia Giulia,Motorizzazione tapparelle,0.18
+2019,Italia,Automazione cancelli,0.4
+2019,Italia,Cronotermostato e termostato,0.2
+2019,Italia,Installazione impianto di domotica,0.09
+2019,Italia,Installazione impianto wifi,0.03
+2019,Italia,Motorizzazione tapparelle,0.27
+2019,Lazio,Automazione cancelli,0.37
+2019,Lazio,Cronotermostato e termostato,0.27
+2019,Lazio,Installazione impianto di domotica,0.1
+2019,Lazio,Installazione impianto wifi,0.02
+2019,Lazio,Motorizzazione tapparelle,0.24
+2019,Liguria,Automazione cancelli,0.31
+2019,Liguria,Cronotermostato e termostato,0.09
+2019,Liguria,Installazione impianto di domotica,0.07
+2019,Liguria,Installazione impianto wifi,0.03
+2019,Liguria,Motorizzazione tapparelle,0.5
+2019,Lombardia,Automazione cancelli,0.34
+2019,Lombardia,Cronotermostato e termostato,0.26
+2019,Lombardia,Installazione impianto di domotica,0.07
+2019,Lombardia,Installazione impianto wifi,0.03
+2019,Lombardia,Motorizzazione tapparelle,0.29
+2019,Marche,Automazione cancelli,0.49
+2019,Marche,Cronotermostato e termostato,0.18
+2019,Marche,Installazione impianto di domotica,0.09
+2019,Marche,Motorizzazione tapparelle,0.24
+2019,Molise,Automazione cancelli,0.5
+2019,Molise,Motorizzazione tapparelle,0.5
+2019,Piemonte,Automazione cancelli,0.4
+2019,Piemonte,Cronotermostato e termostato,0.16
+2019,Piemonte,Installazione impianto di domotica,0.1
+2019,Piemonte,Installazione impianto wifi,0.03
+2019,Piemonte,Motorizzazione tapparelle,0.3
+2019,Sardegna,Automazione cancelli,0.66
+2019,Sardegna,Cronotermostato e termostato,0.04
+2019,Sardegna,Installazione impianto di domotica,0.08
+2019,Sardegna,Installazione impianto wifi,0.04
+2019,Sardegna,Motorizzazione tapparelle,0.19
+2019,Sicilia,Automazione cancelli,0.59
+2019,Sicilia,Cronotermostato e termostato,0.06
+2019,Sicilia,Installazione impianto di domotica,0.14
+2019,Sicilia,Installazione impianto wifi,0.03
+2019,Sicilia,Motorizzazione tapparelle,0.18
+2019,Trentino-Alto Adige,Automazione cancelli,0.05
+2019,Trentino-Alto Adige,Cronotermostato e termostato,0.25
+2019,Trentino-Alto Adige,Installazione impianto di domotica,0.05
+2019,Trentino-Alto Adige,Installazione impianto wifi,0.0
+2019,Trentino-Alto Adige,Motorizzazione tapparelle,0.65
+2019,Toscana,Automazione cancelli,0.38
+2019,Toscana,Cronotermostato e termostato,0.25
+2019,Toscana,Installazione impianto di domotica,0.11
+2019,Toscana,Installazione impianto wifi,0.03
+2019,Toscana,Motorizzazione tapparelle,0.22
+2019,Umbria,Automazione cancelli,0.14
+2019,Umbria,Cronotermostato e termostato,0.05
+2019,Umbria,Installazione impianto di domotica,0.14
+2019,Umbria,Motorizzazione tapparelle,0.68
+2019,Veneto,Automazione cancelli,0.53
+2019,Veneto,Cronotermostato e termostato,0.18
+2019,Veneto,Installazione impianto di domotica,0.1
+2019,Veneto,Installazione impianto wifi,0.0
+2019,Veneto,Motorizzazione tapparelle,0.18
+2020,Abruzzo,Automazione cancelli,0.61
+2020,Abruzzo,Cronotermostato e termostato,0.0
+2020,Abruzzo,Installazione impianto di domotica,0.0
+2020,Abruzzo,Installazione impianto wifi,0.0
+2020,Abruzzo,Motorizzazione tapparelle,0.39
+2020,Puglia,Automazione cancelli,0.41
+2020,Puglia,Cronotermostato e termostato,0.07
+2020,Puglia,Installazione impianto di domotica,0.2
+2020,Puglia,Installazione impianto wifi,0.02
+2020,Puglia,Motorizzazione tapparelle,0.29
+2020,Basilicata,Automazione cancelli,0.8
+2020,Basilicata,Cronotermostato e termostato,0.0
+2020,Basilicata,Installazione impianto di domotica,0.2
+2020,Basilicata,Motorizzazione tapparelle,0.0
+2020,Calabria,Automazione cancelli,0.35
+2020,Calabria,Cronotermostato e termostato,0.06
+2020,Calabria,Installazione impianto di domotica,0.35
+2020,Calabria,Installazione impianto wifi,0.06
+2020,Calabria,Motorizzazione tapparelle,0.18
+2020,Campania,Automazione cancelli,0.44
+2020,Campania,Cronotermostato e termostato,0.04
+2020,Campania,Installazione impianto di domotica,0.3
+2020,Campania,Installazione impianto wifi,0.02
+2020,Campania,Motorizzazione tapparelle,0.2
+2020,Emilia-Romagna,Automazione cancelli,0.43
+2020,Emilia-Romagna,Cronotermostato e termostato,0.15
+2020,Emilia-Romagna,Installazione impianto di domotica,0.13
+2020,Emilia-Romagna,Installazione impianto wifi,0.07
+2020,Emilia-Romagna,Motorizzazione tapparelle,0.23
+2020,Friuli Venezia Giulia,Automazione cancelli,0.76
+2020,Friuli Venezia Giulia,Cronotermostato e termostato,0.07
+2020,Friuli Venezia Giulia,Installazione impianto di domotica,0.07
+2020,Friuli Venezia Giulia,Installazione impianto wifi,0.03
+2020,Friuli Venezia Giulia,Motorizzazione tapparelle,0.07
+2020,Italia,Automazione cancelli,0.43
+2020,Italia,Cronotermostato e termostato,0.11
+2020,Italia,Installazione impianto di domotica,0.17
+2020,Italia,Installazione impianto wifi,0.03
+2020,Italia,Motorizzazione tapparelle,0.26
+2020,Lazio,Automazione cancelli,0.32
+2020,Lazio,Cronotermostato e termostato,0.16
+2020,Lazio,Installazione impianto di domotica,0.17
+2020,Lazio,Installazione impianto wifi,0.03
+2020,Lazio,Motorizzazione tapparelle,0.33
+2020,Liguria,Automazione cancelli,0.28
+2020,Liguria,Cronotermostato e termostato,0.21
+2020,Liguria,Installazione impianto di domotica,0.21
+2020,Liguria,Installazione impianto wifi,0.0
+2020,Liguria,Motorizzazione tapparelle,0.31
+2020,Lombardia,Automazione cancelli,0.39
+2020,Lombardia,Cronotermostato e termostato,0.12
+2020,Lombardia,Installazione impianto di domotica,0.15
+2020,Lombardia,Installazione impianto wifi,0.02
+2020,Lombardia,Motorizzazione tapparelle,0.32
+2020,Marche,Automazione cancelli,0.5
+2020,Marche,Cronotermostato e termostato,0.1
+2020,Marche,Installazione impianto di domotica,0.2
+2020,Marche,Motorizzazione tapparelle,0.2
+2020,Molise,Automazione cancelli,1.0
+2020,Molise,Motorizzazione tapparelle,0.0
+2020,Piemonte,Automazione cancelli,0.49
+2020,Piemonte,Cronotermostato e termostato,0.1
+2020,Piemonte,Installazione impianto di domotica,0.19
+2020,Piemonte,Installazione impianto wifi,0.01
+2020,Piemonte,Motorizzazione tapparelle,0.21
+2020,Sardegna,Automazione cancelli,0.55
+2020,Sardegna,Cronotermostato e termostato,0.03
+2020,Sardegna,Installazione impianto di domotica,0.26
+2020,Sardegna,Installazione impianto wifi,0.0
+2020,Sardegna,Motorizzazione tapparelle,0.16
+2020,Sicilia,Automazione cancelli,0.46
+2020,Sicilia,Cronotermostato e termostato,0.08
+2020,Sicilia,Installazione impianto di domotica,0.19
+2020,Sicilia,Installazione impianto wifi,0.07
+2020,Sicilia,Motorizzazione tapparelle,0.2
+2020,Trentino-Alto Adige,Automazione cancelli,0.27
+2020,Trentino-Alto Adige,Cronotermostato e termostato,0.09
+2020,Trentino-Alto Adige,Installazione impianto di domotica,0.36
+2020,Trentino-Alto Adige,Installazione impianto wifi,0.0
+2020,Trentino-Alto Adige,Motorizzazione tapparelle,0.27
+2020,Toscana,Automazione cancelli,0.4
+2020,Toscana,Cronotermostato e termostato,0.17
+2020,Toscana,Installazione impianto di domotica,0.17
+2020,Toscana,Installazione impianto wifi,0.03
+2020,Toscana,Motorizzazione tapparelle,0.23
+2020,Umbria,Automazione cancelli,0.33
+2020,Umbria,Cronotermostato e termostato,0.33
+2020,Umbria,Installazione impianto di domotica,0.17
+2020,Umbria,Motorizzazione tapparelle,0.17
+2020,Veneto,Automazione cancelli,0.51
+2020,Veneto,Cronotermostato e termostato,0.06
+2020,Veneto,Installazione impianto di domotica,0.16
+2020,Veneto,Installazione impianto wifi,0.02
+2020,Veneto,Motorizzazione tapparelle,0.25

@@ -1,0 +1,154 @@
+Year,ticket_geo_region_name,Style_type,Distribution
+2018,Baden-Württemberg,freie Hochzeit,0.14
+2018,Baden-Württemberg,Standesamtlich,0.48
+2018,Baden-Württemberg,Kirchlich,0.38
+2018,Bayern,freie Hochzeit,0.12
+2018,Bayern,Standesamtlich,0.48
+2018,Bayern,Kirchlich,0.41
+2018,Berlin,freie Hochzeit,0.13
+2018,Berlin,Standesamtlich,0.6
+2018,Berlin,Kirchlich,0.27
+2018,Brandenburg,freie Hochzeit,NA
+2018,Brandenburg,Standesamtlich,1.0
+2018,Brandenburg,Kirchlich,NA
+2018,Bremen,freie Hochzeit,NA
+2018,Bremen,Standesamtlich,1.0
+2018,Bremen,Kirchlich,NA
+2018,Deutschland,freie Hochzeit,0.08
+2018,Deutschland,Standesamtlich,0.56
+2018,Deutschland,Kirchlich,0.36
+2018,Hamburg,freie Hochzeit,NA
+2018,Hamburg,Standesamtlich,0.61
+2018,Hamburg,Kirchlich,0.39
+2018,Hessen,freie Hochzeit,0.1
+2018,Hessen,Standesamtlich,0.54
+2018,Hessen,Kirchlich,0.36
+2018,Niedersachsen,freie Hochzeit,0.08
+2018,Niedersachsen,Standesamtlich,0.56
+2018,Niedersachsen,Kirchlich,0.36
+2018,Mecklenburg-Vorpommern,freie Hochzeit,NA
+2018,Mecklenburg-Vorpommern,Standesamtlich,1.0
+2018,Mecklenburg-Vorpommern,Kirchlich,NA
+2018,Nordrhein-Westfalen,freie Hochzeit,0.14
+2018,Nordrhein-Westfalen,Standesamtlich,0.53
+2018,Nordrhein-Westfalen,Kirchlich,0.34
+2018,Rheinland-Pfalz,freie Hochzeit,0.11
+2018,Rheinland-Pfalz,Standesamtlich,0.51
+2018,Rheinland-Pfalz,Kirchlich,0.38
+2018,Saarland,freie Hochzeit,NA
+2018,Saarland,Standesamtlich,0.54
+2018,Saarland,Kirchlich,0.46
+2018,Sachsen,freie Hochzeit,0.13
+2018,Sachsen,Standesamtlich,0.56
+2018,Sachsen,Kirchlich,0.31
+2018,Sachsen-Anhalt,freie Hochzeit,NA
+2018,Sachsen-Anhalt,Standesamtlich,1.0
+2018,Sachsen-Anhalt,Kirchlich,NA
+2018,Schleswig-Holstein,freie Hochzeit,0.05
+2018,Schleswig-Holstein,Standesamtlich,0.54
+2018,Schleswig-Holstein,Kirchlich,0.41
+2018,Thüringen,freie Hochzeit,NA
+2018,Thüringen,Standesamtlich,1.0
+2018,Thüringen,Kirchlich,NA
+2019,Baden-Württemberg,freie Hochzeit,0.13
+2019,Baden-Württemberg,Standesamtlich,0.5
+2019,Baden-Württemberg,Kirchlich,0.37
+2019,Bayern,freie Hochzeit,0.15
+2019,Bayern,Standesamtlich,0.5
+2019,Bayern,Kirchlich,0.34
+2019,Berlin,freie Hochzeit,0.1
+2019,Berlin,Standesamtlich,0.65
+2019,Berlin,Kirchlich,0.25
+2019,Brandenburg,freie Hochzeit,NA
+2019,Brandenburg,Standesamtlich,1.0
+2019,Brandenburg,Kirchlich,NA
+2019,Bremen,freie Hochzeit,NA
+2019,Bremen,Standesamtlich,1.0
+2019,Bremen,Kirchlich,NA
+2019,Deutschland,freie Hochzeit,0.11
+2019,Deutschland,Standesamtlich,0.57
+2019,Deutschland,Kirchlich,0.32
+2019,Hamburg,freie Hochzeit,NA
+2019,Hamburg,Standesamtlich,0.59
+2019,Hamburg,Kirchlich,0.41
+2019,Hessen,freie Hochzeit,0.15
+2019,Hessen,Standesamtlich,0.54
+2019,Hessen,Kirchlich,0.31
+2019,Niedersachsen,freie Hochzeit,0.07
+2019,Niedersachsen,Standesamtlich,0.59
+2019,Niedersachsen,Kirchlich,0.34
+2019,Mecklenburg-Vorpommern,freie Hochzeit,NA
+2019,Mecklenburg-Vorpommern,Standesamtlich,1.0
+2019,Mecklenburg-Vorpommern,Kirchlich,NA
+2019,Nordrhein-Westfalen,freie Hochzeit,0.15
+2019,Nordrhein-Westfalen,Standesamtlich,0.54
+2019,Nordrhein-Westfalen,Kirchlich,0.31
+2019,Rheinland-Pfalz,freie Hochzeit,0.15
+2019,Rheinland-Pfalz,Standesamtlich,0.48
+2019,Rheinland-Pfalz,Kirchlich,0.37
+2019,Saarland,freie Hochzeit,NA
+2019,Saarland,Standesamtlich,0.6
+2019,Saarland,Kirchlich,0.4
+2019,Sachsen,freie Hochzeit,0.25
+2019,Sachsen,Standesamtlich,0.55
+2019,Sachsen,Kirchlich,0.2
+2019,Sachsen-Anhalt,freie Hochzeit,NA
+2019,Sachsen-Anhalt,Standesamtlich,1.0
+2019,Sachsen-Anhalt,Kirchlich,NA
+2019,Schleswig-Holstein,freie Hochzeit,0.13
+2019,Schleswig-Holstein,Standesamtlich,0.59
+2019,Schleswig-Holstein,Kirchlich,0.28
+2019,Thüringen,freie Hochzeit,NA
+2019,Thüringen,Standesamtlich,1.0
+2019,Thüringen,Kirchlich,NA
+2020,Baden-Württemberg,freie Hochzeit,0.1
+2020,Baden-Württemberg,Standesamtlich,0.62
+2020,Baden-Württemberg,Kirchlich,0.28
+2020,Bayern,freie Hochzeit,0.11
+2020,Bayern,Standesamtlich,0.59
+2020,Bayern,Kirchlich,0.31
+2020,Berlin,freie Hochzeit,0.02
+2020,Berlin,Standesamtlich,0.72
+2020,Berlin,Kirchlich,0.26
+2020,Brandenburg,freie Hochzeit,NA
+2020,Brandenburg,Standesamtlich,1.0
+2020,Brandenburg,Kirchlich,NA
+2020,Bremen,freie Hochzeit,NA
+2020,Bremen,Standesamtlich,1.0
+2020,Bremen,Kirchlich,NA
+2020,Deutschland,freie Hochzeit,0.08
+2020,Deutschland,Standesamtlich,0.7
+2020,Deutschland,Kirchlich,0.22
+2020,Hamburg,freie Hochzeit,NA
+2020,Hamburg,Standesamtlich,0.8
+2020,Hamburg,Kirchlich,0.2
+2020,Hessen,freie Hochzeit,0.19
+2020,Hessen,Standesamtlich,0.57
+2020,Hessen,Kirchlich,0.24
+2020,Niedersachsen,freie Hochzeit,0.1
+2020,Niedersachsen,Standesamtlich,0.65
+2020,Niedersachsen,Kirchlich,0.25
+2020,Mecklenburg-Vorpommern,freie Hochzeit,NA
+2020,Mecklenburg-Vorpommern,Standesamtlich,1.0
+2020,Mecklenburg-Vorpommern,Kirchlich,NA
+2020,Nordrhein-Westfalen,freie Hochzeit,0.1
+2020,Nordrhein-Westfalen,Standesamtlich,0.69
+2020,Nordrhein-Westfalen,Kirchlich,0.21
+2020,Rheinland-Pfalz,freie Hochzeit,0.05
+2020,Rheinland-Pfalz,Standesamtlich,0.67
+2020,Rheinland-Pfalz,Kirchlich,0.28
+2020,Saarland,freie Hochzeit,NA
+2020,Saarland,Standesamtlich,0.7
+2020,Saarland,Kirchlich,0.3
+2020,Sachsen,freie Hochzeit,0.15
+2020,Sachsen,Standesamtlich,0.72
+2020,Sachsen,Kirchlich,0.13
+2020,Sachsen-Anhalt,freie Hochzeit,NA
+2020,Sachsen-Anhalt,Standesamtlich,1.0
+2020,Sachsen-Anhalt,Kirchlich,NA
+2020,Schleswig-Holstein,freie Hochzeit,0.14
+2020,Schleswig-Holstein,Standesamtlich,0.57
+2020,Schleswig-Holstein,Kirchlich,0.29
+2020,Thüringen,freie Hochzeit,NA
+2020,Thüringen,Standesamtlich,1.0
+2020,Thüringen,Kirchlich,NA

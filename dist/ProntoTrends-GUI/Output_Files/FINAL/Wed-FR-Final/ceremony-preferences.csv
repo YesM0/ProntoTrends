@@ -1,0 +1,127 @@
+Year,ticket_geo_region_name,Wed_type,Distribution
+2018,Auvergne-Rhône-Alpes,Civil,0.78
+2018,Auvergne-Rhône-Alpes,Laïque,0.26
+2018,Auvergne-Rhône-Alpes,Religieux,0.18
+2018,Bourgogne-Franche-Comté,Civil,0.9
+2018,Bourgogne-Franche-Comté,Laïque,0.21
+2018,Bourgogne-Franche-Comté,Religieux,NA
+2018,Bretagne,Civil,0.54
+2018,Bretagne,Laïque,0.2
+2018,Bretagne,Religieux,0.26
+2018,Centre-Val de Loire,Civil,0.56
+2018,Centre-Val de Loire,Laïque,0.26
+2018,Centre-Val de Loire,Religieux,0.18
+2018,Corse,Civil,NA
+2018,Corse,Laïque,NA
+2018,Corse,Religieux,NA
+2018,France,Civil,0.61
+2018,France,Laïque,0.19
+2018,France,Religieux,0.18
+2018,Grand-Est,Civil,0.72
+2018,Grand-Est,Laïque,0.24
+2018,Grand-Est,Religieux,0.18
+2018,Hauts-de-France,Civil,0.62
+2018,Hauts-de-France,Laïque,0.28
+2018,Hauts-de-France,Religieux,0.21
+2018,Normandie,Civil,0.69
+2018,Normandie,Laïque,0.31
+2018,Normandie,Religieux,NA
+2018,Nouvelle-Aquitaine,Civil,0.76
+2018,Nouvelle-Aquitaine,Laïque,0.29
+2018,Nouvelle-Aquitaine,Religieux,0.15
+2018,Occitanie,Civil,0.72
+2018,Occitanie,Laïque,0.21
+2018,Occitanie,Religieux,0.15
+2018,Pays de la Loire,Civil,0.54
+2018,Pays de la Loire,Laïque,0.26
+2018,Pays de la Loire,Religieux,0.2
+2018,Provence-Alpes-Côte d'Azur,Civil,0.53
+2018,Provence-Alpes-Côte d'Azur,Laïque,0.32
+2018,Provence-Alpes-Côte d'Azur,Religieux,0.14
+2018,Île-de-France,Civil,0.63
+2018,Île-de-France,Laïque,0.15
+2018,Île-de-France,Religieux,0.22
+2019,Auvergne-Rhône-Alpes,Civil,0.76
+2019,Auvergne-Rhône-Alpes,Laïque,0.25
+2019,Auvergne-Rhône-Alpes,Religieux,0.24
+2019,Bourgogne-Franche-Comté,Civil,0.83
+2019,Bourgogne-Franche-Comté,Laïque,0.34
+2019,Bourgogne-Franche-Comté,Religieux,NA
+2019,Bretagne,Civil,0.57
+2019,Bretagne,Laïque,0.3
+2019,Bretagne,Religieux,0.13
+2019,Centre-Val de Loire,Civil,0.47
+2019,Centre-Val de Loire,Laïque,0.34
+2019,Centre-Val de Loire,Religieux,0.19
+2019,Corse,Civil,NA
+2019,Corse,Laïque,NA
+2019,Corse,Religieux,NA
+2019,France,Civil,0.6
+2019,France,Laïque,0.18
+2019,France,Religieux,0.2
+2019,Grand-Est,Civil,0.72
+2019,Grand-Est,Laïque,0.24
+2019,Grand-Est,Religieux,0.19
+2019,Hauts-de-France,Civil,0.58
+2019,Hauts-de-France,Laïque,0.3
+2019,Hauts-de-France,Religieux,0.24
+2019,Normandie,Civil,0.64
+2019,Normandie,Laïque,0.37
+2019,Normandie,Religieux,NA
+2019,Nouvelle-Aquitaine,Civil,0.76
+2019,Nouvelle-Aquitaine,Laïque,0.26
+2019,Nouvelle-Aquitaine,Religieux,0.19
+2019,Occitanie,Civil,0.71
+2019,Occitanie,Laïque,0.21
+2019,Occitanie,Religieux,0.17
+2019,Pays de la Loire,Civil,0.48
+2019,Pays de la Loire,Laïque,0.33
+2019,Pays de la Loire,Religieux,0.19
+2019,Provence-Alpes-Côte d'Azur,Civil,0.47
+2019,Provence-Alpes-Côte d'Azur,Laïque,0.25
+2019,Provence-Alpes-Côte d'Azur,Religieux,0.27
+2019,Île-de-France,Civil,0.61
+2019,Île-de-France,Laïque,0.17
+2019,Île-de-France,Religieux,0.22
+2020,Auvergne-Rhône-Alpes,Civil,0.72
+2020,Auvergne-Rhône-Alpes,Laïque,0.14
+2020,Auvergne-Rhône-Alpes,Religieux,0.44
+2020,Bourgogne-Franche-Comté,Civil,0.78
+2020,Bourgogne-Franche-Comté,Laïque,0.44
+2020,Bourgogne-Franche-Comté,Religieux,NA
+2020,Bretagne,Civil,0.37
+2020,Bretagne,Laïque,0.52
+2020,Bretagne,Religieux,0.1
+2020,Centre-Val de Loire,Civil,0.58
+2020,Centre-Val de Loire,Laïque,0.21
+2020,Centre-Val de Loire,Religieux,0.21
+2020,Corse,Civil,NA
+2020,Corse,Laïque,NA
+2020,Corse,Religieux,NA
+2020,France,Civil,0.57
+2020,France,Laïque,0.17
+2020,France,Religieux,0.23
+2020,Grand-Est,Civil,0.82
+2020,Grand-Est,Laïque,0.18
+2020,Grand-Est,Religieux,0.1
+2020,Hauts-de-France,Civil,0.69
+2020,Hauts-de-France,Laïque,0.21
+2020,Hauts-de-France,Religieux,0.22
+2020,Normandie,Civil,0.7
+2020,Normandie,Laïque,0.31
+2020,Normandie,Religieux,NA
+2020,Nouvelle-Aquitaine,Civil,0.81
+2020,Nouvelle-Aquitaine,Laïque,0.2
+2020,Nouvelle-Aquitaine,Religieux,0.16
+2020,Occitanie,Civil,0.79
+2020,Occitanie,Laïque,0.17
+2020,Occitanie,Religieux,0.08
+2020,Pays de la Loire,Civil,0.56
+2020,Pays de la Loire,Laïque,0.29
+2020,Pays de la Loire,Religieux,0.15
+2020,Provence-Alpes-Côte d'Azur,Civil,0.58
+2020,Provence-Alpes-Côte d'Azur,Laïque,0.19
+2020,Provence-Alpes-Côte d'Azur,Religieux,0.23
+2020,Île-de-France,Civil,0.62
+2020,Île-de-France,Laïque,0.17
+2020,Île-de-France,Religieux,0.21

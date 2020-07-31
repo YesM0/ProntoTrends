@@ -1,0 +1,346 @@
+ticket_geo_region_name,ticket_taxonomy_tag_name,year,Rank,Max,Min,Demand_factor_max_to_min
+Alsace,Maquillage,2018,1,10,5,4.32
+Alsace,Fleuriste,2018,2,5,1,2.57
+Alsace,costume mariage,2018,3,1,3,2.67
+Alsace,Wedding planner,2018,4,10,7,3.75
+Alsace,bouquet mariage,2018,5,3,10,1.0
+Aquitaine,Maquillage,2018,1,10,9,4.33
+Aquitaine,Fleuriste,2018,2,5,11,2.0
+Aquitaine,costume mariage,2018,3,2,3,2.0
+Aquitaine,Wedding planner,2018,4,9,10,1.0
+Aquitaine,bouquet mariage,2018,5,8,1,0.75
+Auvergne,Maquillage,2018,1,10,9,4.18
+Auvergne,Fleuriste,2018,2,5,1,2.41
+Auvergne,costume mariage,2018,3,4,9,3.56
+Auvergne,bouquet mariage,2018,4,8,10,1.5
+Auvergne,Wedding planner,2018,5,1,5,1.25
+Bretagne,Maquillage,2018,1,10,1,4.44
+Bretagne,Fleuriste,2018,2,5,4,1.99
+Bretagne,costume mariage,2018,3,2,6,1.71
+Bretagne,Wedding planner,2018,4,1,3,2.5
+Bretagne,bouquet mariage,2018,5,2,7,5.0
+Bourgogne,Maquillage,2018,1,10,6,4.85
+Bourgogne,Fleuriste,2018,2,5,7,2.44
+Bourgogne,costume mariage,2018,3,5,12,4.69
+Bourgogne,Wedding planner,2018,4,2,10,1.25
+Bourgogne,bouquet mariage,2018,5,4,1,1.0
+Centre-Val de Loire,Maquillage,2018,1,10,7,4.97
+Centre-Val de Loire,Fleuriste,2018,2,2,1,1.76
+Centre-Val de Loire,costume mariage,2018,3,1,11,2.6
+Centre-Val de Loire,Wedding planner,2018,4,5,3,4.0
+Centre-Val de Loire,bouquet mariage,2018,5,1,12,2.5
+Champagne-Ardenne,Maquillage,2018,1,10,6,4.67
+Champagne-Ardenne,Fleuriste,2018,2,5,11,2.0
+Champagne-Ardenne,costume mariage,2018,3,1,11,5.71
+Champagne-Ardenne,Wedding planner,2018,4,10,4,6.25
+Champagne-Ardenne,bouquet mariage,2018,5,3,1,0.75
+Corse,Maquillage,2018,1,10,7,4.2
+Corse,costume mariage,2018,2,1,11,12.16
+Corse,Fleuriste,2018,3,2,3,2.05
+Corse,Wedding planner,2018,4,2,1,3.0
+Corse,Maquillage de mariée,2018,5,1,1,0.0
+France,Maquillage,2018,1,10,7,4.08
+France,Fleuriste,2018,2,5,1,1.84
+France,costume mariage,2018,3,5,12,2.16
+France,Wedding planner,2018,4,2,3,0.5
+France,organisateur de mariage,2018,5,4,1,0.12
+Franche-Comté,Maquillage,2018,1,10,7,4.59
+Franche-Comté,Fleuriste,2018,2,5,6,1.94
+Franche-Comté,costume mariage,2018,3,5,12,7.12
+Franche-Comté,Wedding planner,2018,4,2,8,1.0
+Franche-Comté,Cérémonies,2018,5,1,4,0.5
+Languedoc-Roussillon,Maquillage,2018,1,10,8,4.14
+Languedoc-Roussillon,Fleuriste,2018,2,5,11,2.21
+Languedoc-Roussillon,costume mariage,2018,3,4,11,3.89
+Languedoc-Roussillon,Wedding planner,2018,4,10,8,4.0
+Languedoc-Roussillon,bouquet mariage,2018,5,9,1,1.0
+Limousin,Maquillage,2018,1,10,8,3.86
+Limousin,Fleuriste,2018,2,5,9,2.12
+Limousin,costume mariage,2018,3,6,10,9.11
+Limousin,organisateur de mariage,2018,4,8,1,4.48
+Limousin,Wedding planner,2018,5,2,5,3.5
+Lorraine,Maquillage,2018,1,10,4,5.68
+Lorraine,Fleuriste,2018,2,5,7,2.3
+Lorraine,costume mariage,2018,3,2,12,3.44
+Lorraine,bouquet mariage,2018,4,8,1,5.0
+Lorraine,Wedding planner,2018,5,5,7,2.5
+Basse Normandie,Maquillage,2018,1,10,8,6.71
+Basse Normandie,Fleuriste,2018,2,12,6,1.6
+Basse Normandie,costume mariage,2018,3,3,12,3.33
+Basse Normandie,Wedding planner,2018,4,1,5,4.0
+Basse Normandie,Cérémonies,2018,5,1,2,0.5
+Midi-Pyrénées,Maquillage,2018,1,10,6,4.22
+Midi-Pyrénées,Fleuriste,2018,2,5,1,1.92
+Midi-Pyrénées,costume mariage,2018,3,7,12,3.56
+Midi-Pyrénées,Wedding planner,2018,4,8,3,1.67
+Midi-Pyrénées,bouquet mariage,2018,5,5,11,1.25
+Nord-Pas-de-Calais,Maquillage,2018,1,10,7,5.38
+Nord-Pas-de-Calais,Fleuriste,2018,2,5,1,1.82
+Nord-Pas-de-Calais,costume mariage,2018,3,1,12,2.32
+Nord-Pas-de-Calais,Wedding planner,2018,4,9,2,0.6
+Nord-Pas-de-Calais,bouquet mariage,2018,5,2,5,0.5
+Pays de la Loire,Maquillage,2018,1,10,7,4.35
+Pays de la Loire,Fleuriste,2018,2,5,1,2.07
+Pays de la Loire,costume mariage,2018,3,1,9,1.72
+Pays de la Loire,Wedding planner,2018,4,1,12,2.5
+Pays de la Loire,bouquet mariage,2018,5,3,11,1.0
+Picardie,Maquillage,2018,1,10,5,5.21
+Picardie,Fleuriste,2018,2,5,1,2.14
+Picardie,costume mariage,2018,3,3,9,1.65
+Picardie,Wedding planner,2018,4,9,6,3.2
+Picardie,bouquet mariage,2018,5,4,9,0.8
+Poitou-Charentes,Maquillage,2018,1,10,8,4.29
+Poitou-Charentes,Fleuriste,2018,2,5,1,1.86
+Poitou-Charentes,costume mariage,2018,3,1,11,2.35
+Poitou-Charentes,Wedding planner,2018,4,9,12,1.2
+Poitou-Charentes,bouquet mariage,2018,5,7,4,6.0
+Provence-Alpes-Côte d'Azur,Maquillage,2018,1,10,7,3.85
+Provence-Alpes-Côte d'Azur,Fleuriste,2018,2,5,1,1.76
+Provence-Alpes-Côte d'Azur,costume mariage,2018,3,2,11,2.08
+Provence-Alpes-Côte d'Azur,Wedding planner,2018,4,11,8,1.0
+Provence-Alpes-Côte d'Azur,organisateur de mariage,2018,5,7,3,0.61
+Rhône-Alpes,Maquillage,2018,1,10,8,3.77
+Rhône-Alpes,Fleuriste,2018,2,5,1,1.95
+Rhône-Alpes,costume mariage,2018,3,3,11,2.0
+Rhône-Alpes,organisateur de mariage,2018,4,3,11,0.61
+Rhône-Alpes,Wedding planner,2018,5,9,7,0.6
+Rhône-Alpes,Maquillage,2018,1,10,5,5.27
+Rhône-Alpes,Fleuriste,2018,2,5,1,2.0
+Rhône-Alpes,costume mariage,2018,3,4,11,6.56
+Rhône-Alpes,Wedding planner,2018,4,2,5,1.0
+Rhône-Alpes,bouquet mariage,2018,5,8,3,0.75
+Île-de-France,Maquillage,2018,1,10,7,3.25
+Île-de-France,Fleuriste,2018,2,5,1,1.94
+Île-de-France,costume mariage,2018,3,4,12,2.0
+Île-de-France,Wedding planner,2018,4,1,12,5.0
+Île-de-France,bouquet mariage,2018,5,2,1,0.25
+Alsace,Maquillage,2019,1,10,7,5.76
+Alsace,Fleuriste,2019,2,5,1,2.07
+Alsace,costume mariage,2019,3,2,8,3.0
+Alsace,Wedding planner,2019,4,3,4,1.0
+Alsace,bouquet mariage,2019,5,7,3,2.5
+Aquitaine,Maquillage,2019,1,10,7,4.88
+Aquitaine,Fleuriste,2019,2,5,1,2.0
+Aquitaine,costume mariage,2019,3,2,1,2.1
+Aquitaine,Wedding planner,2019,4,9,4,0.8
+Aquitaine,bouquet mariage,2019,5,2,1,0.75
+Auvergne,Maquillage,2019,1,10,9,6.81
+Auvergne,Fleuriste,2019,2,5,11,2.53
+Auvergne,costume mariage,2019,3,5,11,3.07
+Auvergne,Wedding planner,2019,4,10,8,1.25
+Auvergne,bouquet mariage,2019,5,1,12,1.0
+Bretagne,Maquillage,2019,1,10,7,5.3
+Bretagne,Fleuriste,2019,2,5,11,1.96
+Bretagne,costume mariage,2019,3,4,12,1.84
+Bretagne,Wedding planner,2019,4,7,12,3.12
+Bretagne,bouquet mariage,2019,5,3,11,1.0
+Bourgogne,Maquillage,2019,1,10,7,5.92
+Bourgogne,Fleuriste,2019,2,5,1,1.91
+Bourgogne,costume mariage,2019,3,5,1,3.45
+Bourgogne,Wedding planner,2019,4,7,3,2.5
+Bourgogne,bouquet mariage,2019,5,11,5,0.75
+Centre-Val de Loire,Maquillage,2019,1,10,7,5.29
+Centre-Val de Loire,Fleuriste,2019,2,5,1,2.47
+Centre-Val de Loire,costume mariage,2019,3,2,11,2.58
+Centre-Val de Loire,Wedding planner,2019,4,2,4,2.0
+Centre-Val de Loire,bouquet mariage,2019,5,5,9,5.0
+Champagne-Ardenne,Maquillage,2019,1,10,7,7.38
+Champagne-Ardenne,Fleuriste,2019,2,5,9,2.32
+Champagne-Ardenne,costume mariage,2019,3,4,5,3.5
+Champagne-Ardenne,bouquet mariage,2019,4,9,3,7.0
+Champagne-Ardenne,Wedding planner,2019,5,9,6,1.0
+Corse,Maquillage,2019,1,10,6,5.3
+Corse,costume mariage,2019,2,2,1,11.02
+Corse,Fleuriste,2019,3,5,6,1.83
+Corse,Wedding planner,2019,4,4,1,2.75
+Corse,Maquillage de mariée,2019,5,1,1,0.0
+France,Maquillage,2019,1,10,7,4.74
+France,Fleuriste,2019,2,5,1,2.0
+France,costume mariage,2019,3,5,12,1.79
+France,Wedding planner,2019,4,9,1,0.8
+France,Maquillage de mariée,2019,5,1,1,0.0
+Franche-Comté,Maquillage,2019,1,10,7,5.96
+Franche-Comté,Fleuriste,2019,2,5,1,1.83
+Franche-Comté,costume mariage,2019,3,2,12,7.08
+Franche-Comté,Wedding planner,2019,4,2,6,6.25
+Franche-Comté,Cérémonies,2019,5,6,1,0.4
+Languedoc-Roussillon,Maquillage,2019,1,10,9,5.33
+Languedoc-Roussillon,Fleuriste,2019,2,5,1,1.95
+Languedoc-Roussillon,costume mariage,2019,3,6,11,3.2
+Languedoc-Roussillon,Wedding planner,2019,4,2,5,1.0
+Languedoc-Roussillon,bouquet mariage,2019,5,2,9,0.75
+Limousin,Maquillage,2019,1,10,6,5.12
+Limousin,Fleuriste,2019,2,5,12,1.78
+Limousin,costume mariage,2019,3,4,9,5.0
+Limousin,organisateur de mariage,2019,4,9,1,4.66
+Limousin,Wedding planner,2019,5,4,8,3.25
+Lorraine,Maquillage,2019,1,10,8,6.19
+Lorraine,Fleuriste,2019,2,5,1,1.94
+Lorraine,costume mariage,2019,3,3,6,2.86
+Lorraine,Wedding planner,2019,4,7,3,5.0
+Lorraine,bouquet mariage,2019,5,3,10,4.0
+Basse Normandie,Maquillage,2019,1,10,7,7.05
+Basse Normandie,Fleuriste,2019,2,5,7,1.88
+Basse Normandie,costume mariage,2019,3,5,12,4.79
+Basse Normandie,Wedding planner,2019,4,5,12,5.0
+Basse Normandie,Cérémonies,2019,5,5,2,1.0
+Midi-Pyrénées,Maquillage,2019,1,10,7,4.37
+Midi-Pyrénées,Fleuriste,2019,2,2,1,1.84
+Midi-Pyrénées,costume mariage,2019,3,9,11,2.72
+Midi-Pyrénées,bouquet mariage,2019,4,7,12,6.25
+Midi-Pyrénées,Wedding planner,2019,5,9,12,2.0
+Nord-Pas-de-Calais,Maquillage,2019,1,10,7,6.88
+Nord-Pas-de-Calais,Fleuriste,2019,2,5,1,2.19
+Nord-Pas-de-Calais,costume mariage,2019,3,7,12,1.69
+Nord-Pas-de-Calais,Wedding planner,2019,4,8,1,0.5
+Nord-Pas-de-Calais,bouquet mariage,2019,5,7,1,0.5
+Pays de la Loire,Maquillage,2019,1,10,4,4.35
+Pays de la Loire,Fleuriste,2019,2,5,1,2.2
+Pays de la Loire,costume mariage,2019,3,3,10,2.33
+Pays de la Loire,Wedding planner,2019,4,7,12,5.0
+Pays de la Loire,bouquet mariage,2019,5,6,1,1.0
+Picardie,Maquillage,2019,1,10,8,6.15
+Picardie,Fleuriste,2019,2,5,1,2.33
+Picardie,costume mariage,2019,3,6,12,2.36
+Picardie,Wedding planner,2019,4,8,2,4.0
+Picardie,bouquet mariage,2019,5,2,12,0.75
+Poitou-Charentes,Maquillage,2019,1,10,1,6.12
+Poitou-Charentes,Fleuriste,2019,2,5,1,1.92
+Poitou-Charentes,costume mariage,2019,3,3,9,2.19
+Poitou-Charentes,Wedding planner,2019,4,6,12,1.67
+Poitou-Charentes,bouquet mariage,2019,5,8,12,5.0
+Provence-Alpes-Côte d'Azur,Maquillage,2019,1,10,7,5.22
+Provence-Alpes-Côte d'Azur,Fleuriste,2019,2,2,11,1.82
+Provence-Alpes-Côte d'Azur,costume mariage,2019,3,2,12,2.58
+Provence-Alpes-Côte d'Azur,Wedding planner,2019,4,11,5,4.0
+Provence-Alpes-Côte d'Azur,bouquet mariage,2019,5,6,1,0.8
+Rhône-Alpes,Maquillage,2019,1,10,7,5.16
+Rhône-Alpes,Fleuriste,2019,2,5,1,2.12
+Rhône-Alpes,costume mariage,2019,3,4,12,2.78
+Rhône-Alpes,Wedding planner,2019,4,7,3,0.75
+Rhône-Alpes,bouquet mariage,2019,5,5,1,0.5
+Rhône-Alpes,Maquillage,2019,1,10,7,6.04
+Rhône-Alpes,Fleuriste,2019,2,5,7,2.0
+Rhône-Alpes,costume mariage,2019,3,5,12,3.44
+Rhône-Alpes,Wedding planner,2019,4,7,6,1.25
+Rhône-Alpes,bouquet mariage,2019,5,2,8,1.0
+Île-de-France,Maquillage,2019,1,10,7,3.41
+Île-de-France,Fleuriste,2019,2,5,1,1.78
+Île-de-France,costume mariage,2019,3,5,11,1.8
+Île-de-France,Wedding planner,2019,4,5,3,2.5
+Île-de-France,bouquet mariage,2019,5,6,1,0.4
+Alsace,Maquillage,2020,1,2,1,1.38
+Alsace,Fleuriste,2020,2,2,3,1.89
+Alsace,costume mariage,2020,3,2,4,3.94
+Alsace,Wedding planner,2020,4,1,3,2.5
+Alsace,bouquet mariage,2020,5,2,5,0.75
+Aquitaine,Fleuriste,2020,1,2,3,2.24
+Aquitaine,Maquillage,2020,2,4,3,1.45
+Aquitaine,costume mariage,2020,3,2,3,3.44
+Aquitaine,Wedding planner,2020,4,2,4,4.0
+Aquitaine,bouquet mariage,2020,5,2,4,0.75
+Auvergne,Maquillage,2020,1,4,3,1.28
+Auvergne,Fleuriste,2020,2,2,3,1.71
+Auvergne,costume mariage,2020,3,2,5,6.06
+Auvergne,bouquet mariage,2020,4,4,2,4.0
+Auvergne,Cérémonies,2020,5,4,1,1.0
+Bretagne,Fleuriste,2020,1,2,3,2.45
+Bretagne,Maquillage,2020,2,4,1,1.35
+Bretagne,costume mariage,2020,3,2,3,2.88
+Bretagne,Wedding planner,2020,4,5,3,5.0
+Bretagne,bouquet mariage,2020,5,2,1,0.5
+Bourgogne,Maquillage,2020,1,2,3,1.36
+Bourgogne,Fleuriste,2020,2,2,3,1.76
+Bourgogne,costume mariage,2020,3,1,4,6.87
+Bourgogne,Wedding planner,2020,4,2,3,3.75
+Bourgogne,bouquet mariage,2020,5,1,5,0.75
+Centre-Val de Loire,Maquillage,2020,1,4,5,1.33
+Centre-Val de Loire,Fleuriste,2020,2,2,3,2.13
+Centre-Val de Loire,costume mariage,2020,3,1,5,1.81
+Centre-Val de Loire,Wedding planner,2020,4,1,5,1.0
+Centre-Val de Loire,bouquet mariage,2020,5,2,5,0.75
+Champagne-Ardenne,Maquillage,2020,1,5,3,1.31
+Champagne-Ardenne,Fleuriste,2020,2,2,3,2.66
+Champagne-Ardenne,costume mariage,2020,3,2,4,4.2
+Champagne-Ardenne,Wedding planner,2020,4,4,3,1.67
+Champagne-Ardenne,bouquet mariage,2020,5,4,3,1.0
+Corse,Maquillage,2020,1,4,1,1.41
+Corse,Fleuriste,2020,2,2,3,1.92
+Corse,costume mariage,2020,3,5,4,4.1
+Corse,Wedding planner,2020,4,5,2,4.0
+Corse,Maquillage de mariée,2020,5,1,1,0.0
+France,Maquillage,2020,1,2,3,1.3
+France,Fleuriste,2020,2,2,3,2.01
+France,costume mariage,2020,3,1,4,2.5
+France,Wedding planner,2020,4,1,2,0.25
+France,Maquillage de mariée,2020,5,1,1,0.0
+Franche-Comté,Maquillage,2020,1,2,1,1.7
+Franche-Comté,costume mariage,2020,2,1,3,4.58
+Franche-Comté,Fleuriste,2020,3,2,3,1.37
+Franche-Comté,Wedding planner,2020,4,3,5,0.8
+Franche-Comté,Cérémonies,2020,5,1,3,0.25
+Languedoc-Roussillon,Maquillage,2020,1,4,3,1.2
+Languedoc-Roussillon,Fleuriste,2020,2,2,3,2.37
+Languedoc-Roussillon,costume mariage,2020,3,1,5,7.75
+Languedoc-Roussillon,Wedding planner,2020,4,5,1,4.0
+Languedoc-Roussillon,Cérémonies,2020,5,5,1,0.5
+Limousin,Maquillage,2020,1,2,3,1.17
+Limousin,Fleuriste,2020,2,5,3,2.17
+Limousin,costume mariage,2020,3,1,5,5.38
+Limousin,organisateur de mariage,2020,4,1,2,3.59
+Limousin,Wedding planner,2020,5,4,2,3.25
+Lorraine,Maquillage,2020,1,2,1,1.55
+Lorraine,Fleuriste,2020,2,2,3,1.93
+Lorraine,costume mariage,2020,3,1,3,2.92
+Lorraine,Wedding planner,2020,4,1,3,0.5
+Lorraine,bouquet mariage,2020,5,2,3,0.5
+Basse Normandie,Maquillage,2020,1,2,3,1.57
+Basse Normandie,Fleuriste,2020,2,2,3,1.62
+Basse Normandie,costume mariage,2020,3,1,3,2.5
+Basse Normandie,Wedding planner,2020,4,2,5,1.0
+Basse Normandie,Cérémonies,2020,5,5,1,0.5
+Midi-Pyrénées,Maquillage,2020,1,4,1,1.36
+Midi-Pyrénées,Fleuriste,2020,2,2,3,2.1
+Midi-Pyrénées,costume mariage,2020,3,1,4,1.54
+Midi-Pyrénées,Wedding planner,2020,4,1,5,0.75
+Midi-Pyrénées,bouquet mariage,2020,5,1,5,0.5
+Nord-Pas-de-Calais,Maquillage,2020,1,2,3,1.61
+Nord-Pas-de-Calais,Fleuriste,2020,2,2,3,2.06
+Nord-Pas-de-Calais,costume mariage,2020,3,1,4,2.5
+Nord-Pas-de-Calais,Wedding planner,2020,4,5,1,0.5
+Nord-Pas-de-Calais,Maquillage de mariée,2020,5,1,1,0.0
+Pays de la Loire,Fleuriste,2020,1,2,3,1.95
+Pays de la Loire,Maquillage,2020,2,4,1,1.62
+Pays de la Loire,costume mariage,2020,3,1,4,2.4
+Pays de la Loire,Wedding planner,2020,4,4,3,0.75
+Pays de la Loire,bouquet mariage,2020,5,1,3,0.75
+Picardie,Maquillage,2020,1,2,1,1.23
+Picardie,Fleuriste,2020,2,2,1,1.3
+Picardie,costume mariage,2020,3,2,5,2.25
+Picardie,Wedding planner,2020,4,4,3,0.75
+Picardie,bouquet mariage,2020,5,1,4,0.5
+Poitou-Charentes,Maquillage,2020,1,4,1,1.52
+Poitou-Charentes,Fleuriste,2020,2,2,3,2.63
+Poitou-Charentes,costume mariage,2020,3,2,3,1.78
+Poitou-Charentes,Wedding planner,2020,4,5,1,4.0
+Poitou-Charentes,bouquet mariage,2020,5,2,3,5.0
+Provence-Alpes-Côte d'Azur,Maquillage,2020,1,2,3,1.25
+Provence-Alpes-Côte d'Azur,Fleuriste,2020,2,2,3,2.32
+Provence-Alpes-Côte d'Azur,costume mariage,2020,3,1,5,3.67
+Provence-Alpes-Côte d'Azur,Wedding planner,2020,4,1,3,0.75
+Provence-Alpes-Côte d'Azur,bouquet mariage,2020,5,2,1,0.5
+Rhône-Alpes,Fleuriste,2020,1,2,3,2.4
+Rhône-Alpes,Maquillage,2020,2,4,3,1.31
+Rhône-Alpes,costume mariage,2020,3,1,5,2.67
+Rhône-Alpes,Wedding planner,2020,4,1,3,0.5
+Rhône-Alpes,organisateur de mariage,2020,5,1,3,0.46
+Rhône-Alpes,Maquillage,2020,1,5,3,1.38
+Rhône-Alpes,Fleuriste,2020,2,2,3,1.81
+Rhône-Alpes,costume mariage,2020,3,2,3,3.33
+Rhône-Alpes,Wedding planner,2020,4,3,1,1.6
+Rhône-Alpes,bouquet mariage,2020,5,2,3,0.75
+Île-de-France,Maquillage,2020,1,4,3,1.31
+Île-de-France,Fleuriste,2020,2,2,3,2.21
+Île-de-France,costume mariage,2020,3,1,5,2.83
+Île-de-France,Wedding planner,2020,4,4,3,1.67
+Île-de-France,organisateur de mariage,2020,5,1,2,0.33

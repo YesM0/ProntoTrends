@@ -1,0 +1,211 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Auvergne-Rhône-Alpes,Paysagisme,0.33
+2018,Auvergne-Rhône-Alpes,Installation de store banne,0.22
+2018,Auvergne-Rhône-Alpes,Installation de panneaux solaires,0.28
+2018,Auvergne-Rhône-Alpes,Revêtements de sol extérieur,0.09
+2018,Auvergne-Rhône-Alpes,Installation de piscines,0.08
+2018,Bourgogne-Franche-Comté,Paysagisme,0.31
+2018,Bourgogne-Franche-Comté,Installation de store banne,0.24
+2018,Bourgogne-Franche-Comté,Installation de panneaux solaires,0.27
+2018,Bourgogne-Franche-Comté,Revêtements de sol extérieur,0.07
+2018,Bourgogne-Franche-Comté,Installation de piscines,0.1
+2018,Bretagne,Paysagisme,0.48
+2018,Bretagne,Installation de store banne,0.18
+2018,Bretagne,Installation de panneaux solaires,0.23
+2018,Bretagne,Revêtements de sol extérieur,0.05
+2018,Bretagne,Installation de piscines,0.06
+2018,Centre-Val de Loire,Paysagisme,0.31
+2018,Centre-Val de Loire,Installation de store banne,0.24
+2018,Centre-Val de Loire,Installation de panneaux solaires,0.26
+2018,Centre-Val de Loire,Revêtements de sol extérieur,0.1
+2018,Centre-Val de Loire,Installation de piscines,0.09
+2018,Corse,Paysagisme,0.27
+2018,Corse,Installation de store banne,0.21
+2018,Corse,Installation de panneaux solaires,0.33
+2018,Corse,Revêtements de sol extérieur,0.18
+2018,Corse,Installation de piscines,0.01
+2018,France,Paysagisme,0.35
+2018,France,Installation de store banne,0.21
+2018,France,Installation de panneaux solaires,0.29
+2018,France,Revêtements de sol extérieur,0.08
+2018,France,Installation de piscines,0.06
+2018,Grand-Est,Paysagisme,0.34
+2018,Grand-Est,Installation de store banne,0.23
+2018,Grand-Est,Installation de panneaux solaires,0.26
+2018,Grand-Est,Revêtements de sol extérieur,0.08
+2018,Grand-Est,Installation de piscines,0.09
+2018,Hauts-de-France,Paysagisme,0.3
+2018,Hauts-de-France,Installation de store banne,0.24
+2018,Hauts-de-France,Installation de panneaux solaires,0.32
+2018,Hauts-de-France,Revêtements de sol extérieur,0.07
+2018,Hauts-de-France,Installation de piscines,0.06
+2018,Normandie,Paysagisme,0.32
+2018,Normandie,Installation de store banne,0.25
+2018,Normandie,Installation de panneaux solaires,0.27
+2018,Normandie,Revêtements de sol extérieur,0.08
+2018,Normandie,Installation de piscines,0.07
+2018,Nouvelle-Aquitaine,Paysagisme,0.31
+2018,Nouvelle-Aquitaine,Installation de store banne,0.21
+2018,Nouvelle-Aquitaine,Installation de panneaux solaires,0.25
+2018,Nouvelle-Aquitaine,Revêtements de sol extérieur,0.11
+2018,Nouvelle-Aquitaine,Installation de piscines,0.12
+2018,Occitanie,Paysagisme,0.24
+2018,Occitanie,Installation de store banne,0.2
+2018,Occitanie,Installation de panneaux solaires,0.31
+2018,Occitanie,Revêtements de sol extérieur,0.14
+2018,Occitanie,Installation de piscines,0.11
+2018,Pays de la Loire,Paysagisme,0.44
+2018,Pays de la Loire,Installation de store banne,0.23
+2018,Pays de la Loire,Installation de panneaux solaires,0.21
+2018,Pays de la Loire,Revêtements de sol extérieur,0.06
+2018,Pays de la Loire,Installation de piscines,0.07
+2018,Provence-Alpes-Côte d'Azur,Paysagisme,0.23
+2018,Provence-Alpes-Côte d'Azur,Installation de store banne,0.2
+2018,Provence-Alpes-Côte d'Azur,Installation de panneaux solaires,0.28
+2018,Provence-Alpes-Côte d'Azur,Revêtements de sol extérieur,0.2
+2018,Provence-Alpes-Côte d'Azur,Installation de piscines,0.09
+2018,Île-de-France,Paysagisme,0.36
+2018,Île-de-France,Installation de store banne,0.19
+2018,Île-de-France,Installation de panneaux solaires,0.31
+2018,Île-de-France,Revêtements de sol extérieur,0.08
+2018,Île-de-France,Installation de piscines,0.06
+2019,Auvergne-Rhône-Alpes,Paysagisme,0.31
+2019,Auvergne-Rhône-Alpes,Installation de store banne,0.22
+2019,Auvergne-Rhône-Alpes,Installation de panneaux solaires,0.3
+2019,Auvergne-Rhône-Alpes,Revêtements de sol extérieur,0.1
+2019,Auvergne-Rhône-Alpes,Installation de piscines,0.08
+2019,Bourgogne-Franche-Comté,Paysagisme,0.3
+2019,Bourgogne-Franche-Comté,Installation de store banne,0.24
+2019,Bourgogne-Franche-Comté,Installation de panneaux solaires,0.28
+2019,Bourgogne-Franche-Comté,Revêtements de sol extérieur,0.08
+2019,Bourgogne-Franche-Comté,Installation de piscines,0.11
+2019,Bretagne,Paysagisme,0.46
+2019,Bretagne,Installation de store banne,0.17
+2019,Bretagne,Installation de panneaux solaires,0.26
+2019,Bretagne,Revêtements de sol extérieur,0.05
+2019,Bretagne,Installation de piscines,0.05
+2019,Centre-Val de Loire,Paysagisme,0.31
+2019,Centre-Val de Loire,Installation de store banne,0.23
+2019,Centre-Val de Loire,Installation de panneaux solaires,0.29
+2019,Centre-Val de Loire,Revêtements de sol extérieur,0.08
+2019,Centre-Val de Loire,Installation de piscines,0.09
+2019,Corse,Paysagisme,0.22
+2019,Corse,Installation de store banne,0.24
+2019,Corse,Installation de panneaux solaires,0.34
+2019,Corse,Revêtements de sol extérieur,0.13
+2019,Corse,Installation de piscines,0.07
+2019,France,Paysagisme,0.33
+2019,France,Installation de store banne,0.2
+2019,France,Installation de panneaux solaires,0.31
+2019,France,Revêtements de sol extérieur,0.09
+2019,France,Installation de piscines,0.06
+2019,Grand-Est,Paysagisme,0.31
+2019,Grand-Est,Installation de store banne,0.21
+2019,Grand-Est,Installation de panneaux solaires,0.3
+2019,Grand-Est,Revêtements de sol extérieur,0.09
+2019,Grand-Est,Installation de piscines,0.09
+2019,Hauts-de-France,Paysagisme,0.3
+2019,Hauts-de-France,Installation de store banne,0.22
+2019,Hauts-de-France,Installation de panneaux solaires,0.34
+2019,Hauts-de-France,Revêtements de sol extérieur,0.09
+2019,Hauts-de-France,Installation de piscines,0.05
+2019,Normandie,Paysagisme,0.31
+2019,Normandie,Installation de store banne,0.26
+2019,Normandie,Installation de panneaux solaires,0.29
+2019,Normandie,Revêtements de sol extérieur,0.08
+2019,Normandie,Installation de piscines,0.06
+2019,Nouvelle-Aquitaine,Paysagisme,0.29
+2019,Nouvelle-Aquitaine,Installation de store banne,0.22
+2019,Nouvelle-Aquitaine,Installation de panneaux solaires,0.28
+2019,Nouvelle-Aquitaine,Revêtements de sol extérieur,0.1
+2019,Nouvelle-Aquitaine,Installation de piscines,0.12
+2019,Occitanie,Paysagisme,0.21
+2019,Occitanie,Installation de store banne,0.19
+2019,Occitanie,Installation de panneaux solaires,0.32
+2019,Occitanie,Revêtements de sol extérieur,0.17
+2019,Occitanie,Installation de piscines,0.11
+2019,Pays de la Loire,Paysagisme,0.4
+2019,Pays de la Loire,Installation de store banne,0.23
+2019,Pays de la Loire,Installation de panneaux solaires,0.24
+2019,Pays de la Loire,Revêtements de sol extérieur,0.06
+2019,Pays de la Loire,Installation de piscines,0.07
+2019,Provence-Alpes-Côte d'Azur,Paysagisme,0.2
+2019,Provence-Alpes-Côte d'Azur,Installation de store banne,0.2
+2019,Provence-Alpes-Côte d'Azur,Installation de panneaux solaires,0.29
+2019,Provence-Alpes-Côte d'Azur,Revêtements de sol extérieur,0.21
+2019,Provence-Alpes-Côte d'Azur,Installation de piscines,0.1
+2019,Île-de-France,Paysagisme,0.36
+2019,Île-de-France,Installation de store banne,0.18
+2019,Île-de-France,Installation de panneaux solaires,0.32
+2019,Île-de-France,Revêtements de sol extérieur,0.08
+2019,Île-de-France,Installation de piscines,0.06
+2020,Auvergne-Rhône-Alpes,Paysagisme,0.3
+2020,Auvergne-Rhône-Alpes,Installation de store banne,0.25
+2020,Auvergne-Rhône-Alpes,Installation de panneaux solaires,0.24
+2020,Auvergne-Rhône-Alpes,Revêtements de sol extérieur,0.12
+2020,Auvergne-Rhône-Alpes,Installation de piscines,0.1
+2020,Bourgogne-Franche-Comté,Paysagisme,0.3
+2020,Bourgogne-Franche-Comté,Installation de store banne,0.25
+2020,Bourgogne-Franche-Comté,Installation de panneaux solaires,0.25
+2020,Bourgogne-Franche-Comté,Revêtements de sol extérieur,0.1
+2020,Bourgogne-Franche-Comté,Installation de piscines,0.1
+2020,Bretagne,Paysagisme,0.42
+2020,Bretagne,Installation de store banne,0.25
+2020,Bretagne,Installation de panneaux solaires,0.2
+2020,Bretagne,Revêtements de sol extérieur,0.08
+2020,Bretagne,Installation de piscines,0.05
+2020,Centre-Val de Loire,Paysagisme,0.3
+2020,Centre-Val de Loire,Installation de store banne,0.3
+2020,Centre-Val de Loire,Installation de panneaux solaires,0.22
+2020,Centre-Val de Loire,Revêtements de sol extérieur,0.1
+2020,Centre-Val de Loire,Installation de piscines,0.08
+2020,Corse,Paysagisme,0.25
+2020,Corse,Installation de store banne,0.22
+2020,Corse,Installation de panneaux solaires,0.3
+2020,Corse,Revêtements de sol extérieur,0.17
+2020,Corse,Installation de piscines,0.06
+2020,France,Paysagisme,0.3
+2020,France,Installation de store banne,0.25
+2020,France,Installation de panneaux solaires,0.25
+2020,France,Revêtements de sol extérieur,0.13
+2020,France,Installation de piscines,0.07
+2020,Grand-Est,Paysagisme,0.3
+2020,Grand-Est,Installation de store banne,0.25
+2020,Grand-Est,Installation de panneaux solaires,0.22
+2020,Grand-Est,Revêtements de sol extérieur,0.15
+2020,Grand-Est,Installation de piscines,0.08
+2020,Hauts-de-France,Paysagisme,0.25
+2020,Hauts-de-France,Installation de store banne,0.31
+2020,Hauts-de-France,Installation de panneaux solaires,0.27
+2020,Hauts-de-France,Revêtements de sol extérieur,0.12
+2020,Hauts-de-France,Installation de piscines,0.05
+2020,Normandie,Paysagisme,0.28
+2020,Normandie,Installation de store banne,0.26
+2020,Normandie,Installation de panneaux solaires,0.28
+2020,Normandie,Revêtements de sol extérieur,0.11
+2020,Normandie,Installation de piscines,0.06
+2020,Nouvelle-Aquitaine,Paysagisme,0.27
+2020,Nouvelle-Aquitaine,Installation de store banne,0.26
+2020,Nouvelle-Aquitaine,Installation de panneaux solaires,0.24
+2020,Nouvelle-Aquitaine,Revêtements de sol extérieur,0.12
+2020,Nouvelle-Aquitaine,Installation de piscines,0.12
+2020,Occitanie,Paysagisme,0.19
+2020,Occitanie,Installation de store banne,0.24
+2020,Occitanie,Installation de panneaux solaires,0.27
+2020,Occitanie,Revêtements de sol extérieur,0.21
+2020,Occitanie,Installation de piscines,0.09
+2020,Pays de la Loire,Paysagisme,0.37
+2020,Pays de la Loire,Installation de store banne,0.27
+2020,Pays de la Loire,Installation de panneaux solaires,0.2
+2020,Pays de la Loire,Revêtements de sol extérieur,0.08
+2020,Pays de la Loire,Installation de piscines,0.07
+2020,Provence-Alpes-Côte d'Azur,Paysagisme,0.18
+2020,Provence-Alpes-Côte d'Azur,Installation de store banne,0.2
+2020,Provence-Alpes-Côte d'Azur,Installation de panneaux solaires,0.24
+2020,Provence-Alpes-Côte d'Azur,Revêtements de sol extérieur,0.28
+2020,Provence-Alpes-Côte d'Azur,Installation de piscines,0.09
+2020,Île-de-France,Paysagisme,0.31
+2020,Île-de-France,Installation de store banne,0.25
+2020,Île-de-France,Installation de panneaux solaires,0.26
+2020,Île-de-France,Revêtements de sol extérieur,0.12
+2020,Île-de-France,Installation de piscines,0.05

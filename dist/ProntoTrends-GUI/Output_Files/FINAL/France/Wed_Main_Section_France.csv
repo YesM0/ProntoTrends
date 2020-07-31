@@ -1,0 +1,397 @@
+Year,ticket_geo_region_name,Type,sub_type,Percentage
+2018,Alsace,Spend,mariage pas cher ,0.51
+2018,Alsace,Tags,wedding planner,0.52
+2018,Alsace,Ceremony Type,mariage symbolique ,0.6
+2018,Alsace,Reception Location,restaurant mariage,0.49
+2018,Alsace,Food,viande mariage ,0.54
+2018,Alsace,Wedding Style,mariage élégant ,0.32
+2018,Aquitaine,Spend,mariage pas cher ,0.48
+2018,Aquitaine,Tags,wedding planner,0.5
+2018,Aquitaine,Ceremony Type,mariage symbolique ,0.58
+2018,Aquitaine,Reception Location,restaurant mariage,0.48
+2018,Aquitaine,Food,viande mariage ,0.43
+2018,Aquitaine,Wedding Style,mariage élégant ,0.23
+2018,Auvergne,Spend,mariage pas cher ,0.51
+2018,Auvergne,Tags,wedding planner,0.5
+2018,Auvergne,Ceremony Type,mariage symbolique ,1.0
+2018,Auvergne,Reception Location,restaurant mariage,0.78
+2018,Auvergne,Food,viande mariage ,0.6
+2018,Auvergne,Wedding Style,mariage élégant ,0.34
+2018,Basse Normandie,Spend,mariage pas cher ,0.51
+2018,Basse Normandie,Tags,wedding planner,0.47
+2018,Basse Normandie,Ceremony Type,mariage symbolique ,0.6
+2018,Basse Normandie,Reception Location,restaurant mariage,0.68
+2018,Basse Normandie,Food,viande mariage ,0.52
+2018,Basse Normandie,Wedding Style,mariage élégant ,0.35
+2018,Bourgogne,Spend,mariage pas cher ,0.51
+2018,Bourgogne,Tags,wedding planner,0.51
+2018,Bourgogne,Ceremony Type,mariage symbolique ,0.79
+2018,Bourgogne,Reception Location,restaurant mariage,0.76
+2018,Bourgogne,Food,viande mariage ,0.56
+2018,Bourgogne,Wedding Style,mariage élégant ,0.38
+2018,Bretagne,Spend,mariage pas cher ,0.51
+2018,Bretagne,Tags,wedding planner,0.47
+2018,Bretagne,Ceremony Type,mariage symbolique ,0.54
+2018,Bretagne,Reception Location,restaurant mariage,0.45
+2018,Bretagne,Food,viande mariage ,0.42
+2018,Bretagne,Wedding Style,mariage élégant ,0.26
+2018,Centre-Val de Loire,Spend,mariage pas cher ,0.55
+2018,Centre-Val de Loire,Tags,wedding planner,0.47
+2018,Centre-Val de Loire,Ceremony Type,mariage symbolique ,0.56
+2018,Centre-Val de Loire,Reception Location,restaurant mariage,0.56
+2018,Centre-Val de Loire,Food,viande mariage ,0.47
+2018,Centre-Val de Loire,Wedding Style,mariage élégant ,0.24
+2018,Champagne-Ardenne,Spend,mariage pas cher ,0.5
+2018,Champagne-Ardenne,Tags,wedding planner,0.5
+2018,Champagne-Ardenne,Ceremony Type,mariage symbolique ,1.0
+2018,Champagne-Ardenne,Reception Location,restaurant mariage,0.7
+2018,Champagne-Ardenne,Food,viande mariage ,0.55
+2018,Champagne-Ardenne,Wedding Style,mariage élégant ,0.4
+2018,Corse,Spend,mariage pas cher ,0.0
+2018,Corse,Tags,wedding planner,0.51
+2018,Corse,Ceremony Type,mariage symbolique ,0.0
+2018,Corse,Reception Location,restaurant mariage,0.0
+2018,Corse,Food,viande mariage ,0.0
+2018,Corse,Wedding Style,mariage élégant ,0.0
+2018,France,Spend,mariage pas cher ,0.48
+2018,France,Tags,wedding planner,0.56
+2018,France,Ceremony Type,mariage symbolique ,0.61
+2018,France,Reception Location,restaurant mariage,0.46
+2018,France,Food,viande mariage ,0.3
+2018,France,Wedding Style,mariage élégant ,0.25
+2018,Franche-Comté,Spend,mariage pas cher ,0.51
+2018,Franche-Comté,Tags,wedding planner,0.51
+2018,Franche-Comté,Ceremony Type,mariage symbolique ,1.0
+2018,Franche-Comté,Reception Location,restaurant mariage,0.72
+2018,Franche-Comté,Food,viande mariage ,0.51
+2018,Franche-Comté,Wedding Style,mariage élégant ,0.35
+2018,Languedoc-Roussillon,Spend,mariage pas cher ,0.46
+2018,Languedoc-Roussillon,Tags,wedding planner,0.54
+2018,Languedoc-Roussillon,Ceremony Type,mariage symbolique ,0.74
+2018,Languedoc-Roussillon,Reception Location,restaurant mariage,0.48
+2018,Languedoc-Roussillon,Food,viande mariage ,0.4
+2018,Languedoc-Roussillon,Wedding Style,mariage élégant ,0.27
+2018,Limousin,Spend,mariage pas cher ,0.49
+2018,Limousin,Tags,wedding planner,0.39
+2018,Limousin,Ceremony Type,mariage symbolique ,1.0
+2018,Limousin,Reception Location,restaurant mariage,0.61
+2018,Limousin,Food,viande mariage ,0.76
+2018,Limousin,Wedding Style,mariage élégant ,0.3
+2018,Lorraine,Spend,mariage pas cher ,0.51
+2018,Lorraine,Tags,wedding planner,0.53
+2018,Lorraine,Ceremony Type,mariage symbolique ,0.56
+2018,Lorraine,Reception Location,restaurant mariage,0.64
+2018,Lorraine,Food,viande mariage ,0.56
+2018,Lorraine,Wedding Style,mariage élégant ,0.28
+2018,Midi-Pyrénées,Spend,mariage pas cher ,0.51
+2018,Midi-Pyrénées,Tags,wedding planner,0.5
+2018,Midi-Pyrénées,Ceremony Type,mariage symbolique ,0.69
+2018,Midi-Pyrénées,Reception Location,restaurant mariage,0.6
+2018,Midi-Pyrénées,Food,viande mariage ,0.42
+2018,Midi-Pyrénées,Wedding Style,mariage élégant ,0.29
+2018,Nord-Pas-de-Calais,Spend,mariage pas cher ,0.48
+2018,Nord-Pas-de-Calais,Tags,wedding planner,0.58
+2018,Nord-Pas-de-Calais,Ceremony Type,mariage symbolique ,0.53
+2018,Nord-Pas-de-Calais,Reception Location,restaurant mariage,0.26
+2018,Nord-Pas-de-Calais,Food,viande mariage ,0.32
+2018,Nord-Pas-de-Calais,Wedding Style,mariage élégant ,0.22
+2018,Pays de la Loire,Spend,mariage pas cher ,0.5
+2018,Pays de la Loire,Tags,wedding planner,0.47
+2018,Pays de la Loire,Ceremony Type,mariage symbolique ,0.54
+2018,Pays de la Loire,Reception Location,restaurant mariage,0.47
+2018,Pays de la Loire,Food,viande mariage ,0.37
+2018,Pays de la Loire,Wedding Style,mariage élégant ,0.2
+2018,Picardie,Spend,mariage pas cher ,0.51
+2018,Picardie,Tags,wedding planner,0.53
+2018,Picardie,Ceremony Type,mariage symbolique ,0.7
+2018,Picardie,Reception Location,restaurant mariage,0.67
+2018,Picardie,Food,viande mariage ,0.55
+2018,Picardie,Wedding Style,mariage élégant ,0.4
+2018,Poitou-Charentes,Spend,mariage pas cher ,0.51
+2018,Poitou-Charentes,Tags,wedding planner,0.44
+2018,Poitou-Charentes,Ceremony Type,mariage symbolique ,0.69
+2018,Poitou-Charentes,Reception Location,restaurant mariage,0.7
+2018,Poitou-Charentes,Food,viande mariage ,0.75
+2018,Poitou-Charentes,Wedding Style,mariage élégant ,0.33
+2018,Provence-Alpes-Côte d'Azur,Spend,mariage pas cher ,0.46
+2018,Provence-Alpes-Côte d'Azur,Tags,wedding planner,0.57
+2018,Provence-Alpes-Côte d'Azur,Ceremony Type,mariage symbolique ,0.53
+2018,Provence-Alpes-Côte d'Azur,Reception Location,restaurant mariage,0.41
+2018,Provence-Alpes-Côte d'Azur,Food,viande mariage ,0.29
+2018,Provence-Alpes-Côte d'Azur,Wedding Style,mariage élégant ,0.19
+2018,Rhône-Alpes,Spend,mariage pas cher ,0.5
+2018,Rhône-Alpes,Tags,wedding planner,0.55
+2018,Rhône-Alpes,Ceremony Type,mariage symbolique ,0.78
+2018,Rhône-Alpes,Reception Location,restaurant mariage,0.71
+2018,Rhône-Alpes,Food,viande mariage ,0.5
+2018,Rhône-Alpes,Wedding Style,mariage élégant ,0.74
+2018,Île-de-France,Spend,mariage pas cher ,0.48
+2018,Île-de-France,Tags,wedding planner,0.55
+2018,Île-de-France,Ceremony Type,mariage symbolique ,0.63
+2018,Île-de-France,Reception Location,restaurant mariage,0.44
+2018,Île-de-France,Food,viande mariage ,0.29
+2018,Île-de-France,Wedding Style,mariage élégant ,0.23
+2019,Alsace,Spend,mariage pas cher ,0.51
+2019,Alsace,Tags,wedding planner,0.48
+2019,Alsace,Ceremony Type,mariage symbolique ,0.57
+2019,Alsace,Reception Location,restaurant mariage,0.5
+2019,Alsace,Food,viande mariage ,0.56
+2019,Alsace,Wedding Style,mariage élégant ,0.33
+2019,Aquitaine,Spend,mariage pas cher ,0.45
+2019,Aquitaine,Tags,wedding planner,0.47
+2019,Aquitaine,Ceremony Type,mariage symbolique ,0.58
+2019,Aquitaine,Reception Location,restaurant mariage,0.46
+2019,Aquitaine,Food,viande mariage ,0.46
+2019,Aquitaine,Wedding Style,mariage élégant ,0.2
+2019,Auvergne,Spend,mariage pas cher ,0.52
+2019,Auvergne,Tags,wedding planner,0.47
+2019,Auvergne,Ceremony Type,mariage symbolique ,1.0
+2019,Auvergne,Reception Location,restaurant mariage,0.67
+2019,Auvergne,Food,viande mariage ,0.5
+2019,Auvergne,Wedding Style,mariage élégant ,0.38
+2019,Basse Normandie,Spend,mariage pas cher ,0.52
+2019,Basse Normandie,Tags,wedding planner,0.42
+2019,Basse Normandie,Ceremony Type,mariage symbolique ,0.52
+2019,Basse Normandie,Reception Location,restaurant mariage,0.59
+2019,Basse Normandie,Food,viande mariage ,0.52
+2019,Basse Normandie,Wedding Style,mariage élégant ,0.38
+2019,Bourgogne,Spend,mariage pas cher ,0.52
+2019,Bourgogne,Tags,wedding planner,0.48
+2019,Bourgogne,Ceremony Type,mariage symbolique ,0.66
+2019,Bourgogne,Reception Location,restaurant mariage,0.8
+2019,Bourgogne,Food,viande mariage ,0.74
+2019,Bourgogne,Wedding Style,mariage élégant ,0.38
+2019,Bretagne,Spend,mariage pas cher ,0.51
+2019,Bretagne,Tags,wedding planner,0.43
+2019,Bretagne,Ceremony Type,mariage symbolique ,0.57
+2019,Bretagne,Reception Location,restaurant mariage,0.43
+2019,Bretagne,Food,viande mariage ,0.51
+2019,Bretagne,Wedding Style,mariage élégant ,0.26
+2019,Centre-Val de Loire,Spend,mariage pas cher ,0.57
+2019,Centre-Val de Loire,Tags,wedding planner,0.45
+2019,Centre-Val de Loire,Ceremony Type,mariage symbolique ,0.47
+2019,Centre-Val de Loire,Reception Location,restaurant mariage,0.53
+2019,Centre-Val de Loire,Food,viande mariage ,0.49
+2019,Centre-Val de Loire,Wedding Style,mariage élégant ,0.26
+2019,Champagne-Ardenne,Spend,mariage pas cher ,0.52
+2019,Champagne-Ardenne,Tags,wedding planner,0.49
+2019,Champagne-Ardenne,Ceremony Type,mariage symbolique ,1.0
+2019,Champagne-Ardenne,Reception Location,restaurant mariage,0.72
+2019,Champagne-Ardenne,Food,viande mariage ,0.66
+2019,Champagne-Ardenne,Wedding Style,mariage élégant ,0.43
+2019,Corse,Spend,mariage pas cher ,0.0
+2019,Corse,Tags,wedding planner,0.47
+2019,Corse,Ceremony Type,mariage symbolique ,0.0
+2019,Corse,Reception Location,restaurant mariage,0.0
+2019,Corse,Food,viande mariage ,0.0
+2019,Corse,Wedding Style,mariage élégant ,0.0
+2019,France,Spend,mariage pas cher ,0.49
+2019,France,Tags,wedding planner,0.52
+2019,France,Ceremony Type,mariage symbolique ,0.6
+2019,France,Reception Location,restaurant mariage,0.45
+2019,France,Food,viande mariage ,0.34
+2019,France,Wedding Style,mariage élégant ,0.26
+2019,Franche-Comté,Spend,mariage pas cher ,0.51
+2019,Franche-Comté,Tags,wedding planner,0.48
+2019,Franche-Comté,Ceremony Type,mariage symbolique ,1.0
+2019,Franche-Comté,Reception Location,restaurant mariage,0.66
+2019,Franche-Comté,Food,viande mariage ,0.52
+2019,Franche-Comté,Wedding Style,mariage élégant ,0.38
+2019,Languedoc-Roussillon,Spend,mariage pas cher ,0.47
+2019,Languedoc-Roussillon,Tags,wedding planner,0.52
+2019,Languedoc-Roussillon,Ceremony Type,mariage symbolique ,0.73
+2019,Languedoc-Roussillon,Reception Location,restaurant mariage,0.37
+2019,Languedoc-Roussillon,Food,viande mariage ,0.43
+2019,Languedoc-Roussillon,Wedding Style,mariage élégant ,0.24
+2019,Limousin,Spend,mariage pas cher ,0.47
+2019,Limousin,Tags,wedding planner,0.37
+2019,Limousin,Ceremony Type,mariage symbolique ,1.0
+2019,Limousin,Reception Location,restaurant mariage,0.62
+2019,Limousin,Food,viande mariage ,0.7
+2019,Limousin,Wedding Style,mariage élégant ,0.32
+2019,Lorraine,Spend,mariage pas cher ,0.51
+2019,Lorraine,Tags,wedding planner,0.5
+2019,Lorraine,Ceremony Type,mariage symbolique ,0.59
+2019,Lorraine,Reception Location,restaurant mariage,0.66
+2019,Lorraine,Food,viande mariage ,0.55
+2019,Lorraine,Wedding Style,mariage élégant ,0.28
+2019,Midi-Pyrénées,Spend,mariage pas cher ,0.5
+2019,Midi-Pyrénées,Tags,wedding planner,0.47
+2019,Midi-Pyrénées,Ceremony Type,mariage symbolique ,0.69
+2019,Midi-Pyrénées,Reception Location,restaurant mariage,0.5
+2019,Midi-Pyrénées,Food,viande mariage ,0.38
+2019,Midi-Pyrénées,Wedding Style,mariage élégant ,0.26
+2019,Nord-Pas-de-Calais,Spend,mariage pas cher ,0.48
+2019,Nord-Pas-de-Calais,Tags,wedding planner,0.55
+2019,Nord-Pas-de-Calais,Ceremony Type,mariage symbolique ,0.52
+2019,Nord-Pas-de-Calais,Reception Location,restaurant mariage,0.29
+2019,Nord-Pas-de-Calais,Food,viande mariage ,0.32
+2019,Nord-Pas-de-Calais,Wedding Style,mariage élégant ,0.2
+2019,Pays de la Loire,Spend,mariage pas cher ,0.52
+2019,Pays de la Loire,Tags,wedding planner,0.44
+2019,Pays de la Loire,Ceremony Type,mariage symbolique ,0.48
+2019,Pays de la Loire,Reception Location,restaurant mariage,0.43
+2019,Pays de la Loire,Food,viande mariage ,0.42
+2019,Pays de la Loire,Wedding Style,mariage élégant ,0.19
+2019,Picardie,Spend,mariage pas cher ,0.5
+2019,Picardie,Tags,wedding planner,0.48
+2019,Picardie,Ceremony Type,mariage symbolique ,0.64
+2019,Picardie,Reception Location,restaurant mariage,0.71
+2019,Picardie,Food,viande mariage ,0.56
+2019,Picardie,Wedding Style,mariage élégant ,0.4
+2019,Poitou-Charentes,Spend,mariage pas cher ,0.52
+2019,Poitou-Charentes,Tags,wedding planner,0.41
+2019,Poitou-Charentes,Ceremony Type,mariage symbolique ,0.71
+2019,Poitou-Charentes,Reception Location,restaurant mariage,0.61
+2019,Poitou-Charentes,Food,viande mariage ,0.78
+2019,Poitou-Charentes,Wedding Style,mariage élégant ,0.29
+2019,Provence-Alpes-Côte d'Azur,Spend,mariage pas cher ,0.46
+2019,Provence-Alpes-Côte d'Azur,Tags,wedding planner,0.52
+2019,Provence-Alpes-Côte d'Azur,Ceremony Type,mariage symbolique ,0.47
+2019,Provence-Alpes-Côte d'Azur,Reception Location,restaurant mariage,0.39
+2019,Provence-Alpes-Côte d'Azur,Food,viande mariage ,0.28
+2019,Provence-Alpes-Côte d'Azur,Wedding Style,mariage élégant ,0.19
+2019,Rhône-Alpes,Spend,mariage pas cher ,0.51
+2019,Rhône-Alpes,Tags,wedding planner,0.51
+2019,Rhône-Alpes,Ceremony Type,mariage symbolique ,0.75
+2019,Rhône-Alpes,Reception Location,restaurant mariage,0.57
+2019,Rhône-Alpes,Food,viande mariage ,0.54
+2019,Rhône-Alpes,Wedding Style,mariage élégant ,0.79
+2019,Île-de-France,Spend,mariage pas cher ,0.47
+2019,Île-de-France,Tags,wedding planner,0.51
+2019,Île-de-France,Ceremony Type,mariage symbolique ,0.61
+2019,Île-de-France,Reception Location,restaurant mariage,0.43
+2019,Île-de-France,Food,viande mariage ,0.31
+2019,Île-de-France,Wedding Style,mariage élégant ,0.23
+2020,Alsace,Spend,mariage pas cher ,0.54
+2020,Alsace,Tags,wedding planner,0.44
+2020,Alsace,Ceremony Type,mariage symbolique ,0.61
+2020,Alsace,Reception Location,restaurant mariage,0.7
+2020,Alsace,Food,viande mariage ,0.57
+2020,Alsace,Wedding Style,mariage élégant ,0.39
+2020,Aquitaine,Spend,mariage pas cher ,0.5
+2020,Aquitaine,Tags,wedding planner,0.43
+2020,Aquitaine,Ceremony Type,mariage symbolique ,0.57
+2020,Aquitaine,Reception Location,restaurant mariage,0.46
+2020,Aquitaine,Food,viande mariage ,0.44
+2020,Aquitaine,Wedding Style,mariage élégant ,0.14
+2020,Auvergne,Spend,mariage pas cher ,0.53
+2020,Auvergne,Tags,wedding planner,0.43
+2020,Auvergne,Ceremony Type,mariage symbolique ,1.0
+2020,Auvergne,Reception Location,restaurant mariage,0.72
+2020,Auvergne,Food,viande mariage ,0.54
+2020,Auvergne,Wedding Style,mariage élégant ,0.35
+2020,Basse Normandie,Spend,mariage pas cher ,0.51
+2020,Basse Normandie,Tags,wedding planner,0.4
+2020,Basse Normandie,Ceremony Type,mariage symbolique ,0.6
+2020,Basse Normandie,Reception Location,restaurant mariage,0.61
+2020,Basse Normandie,Food,viande mariage ,0.65
+2020,Basse Normandie,Wedding Style,mariage élégant ,0.44
+2020,Bourgogne,Spend,mariage pas cher ,0.53
+2020,Bourgogne,Tags,wedding planner,0.46
+2020,Bourgogne,Ceremony Type,mariage symbolique ,0.56
+2020,Bourgogne,Reception Location,restaurant mariage,0.8
+2020,Bourgogne,Food,viande mariage ,0.73
+2020,Bourgogne,Wedding Style,mariage élégant ,0.41
+2020,Bretagne,Spend,mariage pas cher ,0.52
+2020,Bretagne,Tags,wedding planner,0.41
+2020,Bretagne,Ceremony Type,mariage symbolique ,0.52
+2020,Bretagne,Reception Location,restaurant mariage,0.54
+2020,Bretagne,Food,viande mariage ,0.67
+2020,Bretagne,Wedding Style,mariage élégant ,0.22
+2020,Centre-Val de Loire,Spend,mariage pas cher ,0.58
+2020,Centre-Val de Loire,Tags,wedding planner,0.4
+2020,Centre-Val de Loire,Ceremony Type,mariage symbolique ,0.58
+2020,Centre-Val de Loire,Reception Location,restaurant mariage,0.54
+2020,Centre-Val de Loire,Food,viande mariage ,0.46
+2020,Centre-Val de Loire,Wedding Style,mariage élégant ,0.28
+2020,Champagne-Ardenne,Spend,mariage pas cher ,0.5
+2020,Champagne-Ardenne,Tags,wedding planner,0.43
+2020,Champagne-Ardenne,Ceremony Type,mariage symbolique ,1.0
+2020,Champagne-Ardenne,Reception Location,restaurant mariage,0.65
+2020,Champagne-Ardenne,Food,viande mariage ,0.74
+2020,Champagne-Ardenne,Wedding Style,mariage élégant ,0.46
+2020,Corse,Spend,mariage pas cher ,0.0
+2020,Corse,Tags,wedding planner,0.42
+2020,Corse,Ceremony Type,mariage symbolique ,0.0
+2020,Corse,Reception Location,restaurant mariage,0.0
+2020,Corse,Food,viande mariage ,0.0
+2020,Corse,Wedding Style,mariage élégant ,0.0
+2020,France,Spend,mariage pas cher ,0.51
+2020,France,Tags,wedding planner,0.48
+2020,France,Ceremony Type,mariage symbolique ,0.57
+2020,France,Reception Location,restaurant mariage,0.44
+2020,France,Food,viande mariage ,0.29
+2020,France,Wedding Style,mariage élégant ,0.22
+2020,Franche-Comté,Spend,mariage pas cher ,0.55
+2020,Franche-Comté,Tags,wedding planner,0.47
+2020,Franche-Comté,Ceremony Type,mariage symbolique ,1.0
+2020,Franche-Comté,Reception Location,restaurant mariage,1.0
+2020,Franche-Comté,Food,viande mariage ,0.6
+2020,Franche-Comté,Wedding Style,mariage élégant ,0.5
+2020,Languedoc-Roussillon,Spend,mariage pas cher ,0.5
+2020,Languedoc-Roussillon,Tags,wedding planner,0.47
+2020,Languedoc-Roussillon,Ceremony Type,mariage symbolique ,0.9
+2020,Languedoc-Roussillon,Reception Location,restaurant mariage,0.41
+2020,Languedoc-Roussillon,Food,viande mariage ,0.41
+2020,Languedoc-Roussillon,Wedding Style,mariage élégant ,0.26
+2020,Limousin,Spend,mariage pas cher ,0.5
+2020,Limousin,Tags,wedding planner,0.32
+2020,Limousin,Ceremony Type,mariage symbolique ,1.0
+2020,Limousin,Reception Location,restaurant mariage,0.77
+2020,Limousin,Food,viande mariage ,0.85
+2020,Limousin,Wedding Style,mariage élégant ,0.35
+2020,Lorraine,Spend,mariage pas cher ,0.5
+2020,Lorraine,Tags,wedding planner,0.45
+2020,Lorraine,Ceremony Type,mariage symbolique ,0.85
+2020,Lorraine,Reception Location,restaurant mariage,0.62
+2020,Lorraine,Food,viande mariage ,0.68
+2020,Lorraine,Wedding Style,mariage élégant ,0.38
+2020,Midi-Pyrénées,Spend,mariage pas cher ,0.5
+2020,Midi-Pyrénées,Tags,wedding planner,0.45
+2020,Midi-Pyrénées,Ceremony Type,mariage symbolique ,0.68
+2020,Midi-Pyrénées,Reception Location,restaurant mariage,0.55
+2020,Midi-Pyrénées,Food,viande mariage ,0.32
+2020,Midi-Pyrénées,Wedding Style,mariage élégant ,0.28
+2020,Nord-Pas-de-Calais,Spend,mariage pas cher ,0.47
+2020,Nord-Pas-de-Calais,Tags,wedding planner,0.5
+2020,Nord-Pas-de-Calais,Ceremony Type,mariage symbolique ,0.55
+2020,Nord-Pas-de-Calais,Reception Location,restaurant mariage,0.41
+2020,Nord-Pas-de-Calais,Food,viande mariage ,0.32
+2020,Nord-Pas-de-Calais,Wedding Style,mariage élégant ,0.25
+2020,Pays de la Loire,Spend,mariage pas cher ,0.51
+2020,Pays de la Loire,Tags,wedding planner,0.4
+2020,Pays de la Loire,Ceremony Type,mariage symbolique ,0.56
+2020,Pays de la Loire,Reception Location,restaurant mariage,0.39
+2020,Pays de la Loire,Food,viande mariage ,0.45
+2020,Pays de la Loire,Wedding Style,mariage élégant ,0.3
+2020,Picardie,Spend,mariage pas cher ,0.52
+2020,Picardie,Tags,wedding planner,0.46
+2020,Picardie,Ceremony Type,mariage symbolique ,0.82
+2020,Picardie,Reception Location,restaurant mariage,0.78
+2020,Picardie,Food,viande mariage ,0.68
+2020,Picardie,Wedding Style,mariage élégant ,0.38
+2020,Poitou-Charentes,Spend,mariage pas cher ,0.51
+2020,Poitou-Charentes,Tags,wedding planner,0.38
+2020,Poitou-Charentes,Ceremony Type,mariage symbolique ,0.87
+2020,Poitou-Charentes,Reception Location,restaurant mariage,0.63
+2020,Poitou-Charentes,Food,viande mariage ,0.79
+2020,Poitou-Charentes,Wedding Style,mariage élégant ,0.35
+2020,Provence-Alpes-Côte d'Azur,Spend,mariage pas cher ,0.46
+2020,Provence-Alpes-Côte d'Azur,Tags,wedding planner,0.5
+2020,Provence-Alpes-Côte d'Azur,Ceremony Type,mariage symbolique ,0.58
+2020,Provence-Alpes-Côte d'Azur,Reception Location,restaurant mariage,0.34
+2020,Provence-Alpes-Côte d'Azur,Food,viande mariage ,0.38
+2020,Provence-Alpes-Côte d'Azur,Wedding Style,mariage élégant ,0.17
+2020,Rhône-Alpes,Spend,mariage pas cher ,0.55
+2020,Rhône-Alpes,Tags,wedding planner,0.49
+2020,Rhône-Alpes,Ceremony Type,mariage symbolique ,0.79
+2020,Rhône-Alpes,Reception Location,restaurant mariage,0.58
+2020,Rhône-Alpes,Food,viande mariage ,0.54
+2020,Rhône-Alpes,Wedding Style,mariage élégant ,0.55
+2020,Île-de-France,Spend,mariage pas cher ,0.47
+2020,Île-de-France,Tags,wedding planner,0.48
+2020,Île-de-France,Ceremony Type,mariage symbolique ,0.62
+2020,Île-de-France,Reception Location,restaurant mariage,0.38
+2020,Île-de-France,Food,viande mariage ,0.33
+2020,Île-de-France,Wedding Style,mariage élégant ,0.23

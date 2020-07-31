@@ -1,0 +1,253 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Auvergne-Rhône-Alpes,Animation,0.12
+2018,Auvergne-Rhône-Alpes,Couturier,0.15
+2018,Auvergne-Rhône-Alpes,Fleuriste,0.19
+2018,Auvergne-Rhône-Alpes,Maquilleur,0.17
+2018,Auvergne-Rhône-Alpes,Photographe,0.16
+2018,Auvergne-Rhône-Alpes,Wedding Planner,0.2
+2018,Bourgogne-Franche-Comté,Animation,0.04
+2018,Bourgogne-Franche-Comté,Couturier,0.29
+2018,Bourgogne-Franche-Comté,Fleuriste,0.09
+2018,Bourgogne-Franche-Comté,Maquilleur,0.16
+2018,Bourgogne-Franche-Comté,Photographe,0.13
+2018,Bourgogne-Franche-Comté,Wedding Planner,0.28
+2018,Bretagne,Animation,0.12
+2018,Bretagne,Couturier,0.23
+2018,Bretagne,Fleuriste,0.11
+2018,Bretagne,Maquilleur,0.15
+2018,Bretagne,Photographe,0.17
+2018,Bretagne,Wedding Planner,0.21
+2018,Centre-Val de Loire,Animation,0.12
+2018,Centre-Val de Loire,Couturier,0.2
+2018,Centre-Val de Loire,Fleuriste,0.19
+2018,Centre-Val de Loire,Maquilleur,0.17
+2018,Centre-Val de Loire,Photographe,0.09
+2018,Centre-Val de Loire,Wedding Planner,0.23
+2018,Corse,Animation,NA
+2018,Corse,Couturier,NA
+2018,Corse,Fleuriste,NA
+2018,Corse,Maquilleur,NA
+2018,Corse,Photographe,NA
+2018,Corse,Wedding Planner,NA
+2018,France,Animation,0.11
+2018,France,Couturier,0.21
+2018,France,Fleuriste,0.16
+2018,France,Maquilleur,0.15
+2018,France,Photographe,0.13
+2018,France,Wedding Planner,0.23
+2018,Grand-Est,Animation,0.09
+2018,Grand-Est,Couturier,0.23
+2018,Grand-Est,Fleuriste,0.16
+2018,Grand-Est,Maquilleur,0.14
+2018,Grand-Est,Photographe,0.14
+2018,Grand-Est,Wedding Planner,0.24
+2018,Hauts-de-France,Animation,0.09
+2018,Hauts-de-France,Couturier,0.21
+2018,Hauts-de-France,Fleuriste,0.13
+2018,Hauts-de-France,Maquilleur,0.15
+2018,Hauts-de-France,Photographe,0.14
+2018,Hauts-de-France,Wedding Planner,0.28
+2018,Normandie,Animation,0.05
+2018,Normandie,Couturier,0.25
+2018,Normandie,Fleuriste,0.18
+2018,Normandie,Maquilleur,0.12
+2018,Normandie,Photographe,0.04
+2018,Normandie,Wedding Planner,0.34
+2018,Nouvelle-Aquitaine,Animation,0.12
+2018,Nouvelle-Aquitaine,Couturier,0.2
+2018,Nouvelle-Aquitaine,Fleuriste,0.17
+2018,Nouvelle-Aquitaine,Maquilleur,0.14
+2018,Nouvelle-Aquitaine,Photographe,0.12
+2018,Nouvelle-Aquitaine,Wedding Planner,0.25
+2018,Occitanie,Animation,0.12
+2018,Occitanie,Couturier,0.21
+2018,Occitanie,Fleuriste,0.2
+2018,Occitanie,Maquilleur,0.14
+2018,Occitanie,Photographe,0.12
+2018,Occitanie,Wedding Planner,0.22
+2018,Pays de la Loire,Animation,0.14
+2018,Pays de la Loire,Couturier,0.17
+2018,Pays de la Loire,Fleuriste,0.16
+2018,Pays de la Loire,Maquilleur,0.13
+2018,Pays de la Loire,Photographe,0.17
+2018,Pays de la Loire,Wedding Planner,0.23
+2018,Provence-Alpes-Côte d'Azur,Animation,0.13
+2018,Provence-Alpes-Côte d'Azur,Couturier,0.19
+2018,Provence-Alpes-Côte d'Azur,Fleuriste,0.16
+2018,Provence-Alpes-Côte d'Azur,Maquilleur,0.16
+2018,Provence-Alpes-Côte d'Azur,Photographe,0.17
+2018,Provence-Alpes-Côte d'Azur,Wedding Planner,0.2
+2018,Île-de-France,Animation,0.15
+2018,Île-de-France,Couturier,0.17
+2018,Île-de-France,Fleuriste,0.19
+2018,Île-de-France,Maquilleur,0.17
+2018,Île-de-France,Photographe,0.13
+2018,Île-de-France,Wedding Planner,0.19
+2019,Auvergne-Rhône-Alpes,Animation,0.11
+2019,Auvergne-Rhône-Alpes,Couturier,0.17
+2019,Auvergne-Rhône-Alpes,Fleuriste,0.15
+2019,Auvergne-Rhône-Alpes,Maquilleur,0.18
+2019,Auvergne-Rhône-Alpes,Photographe,0.13
+2019,Auvergne-Rhône-Alpes,Wedding Planner,0.25
+2019,Bourgogne-Franche-Comté,Animation,0.06
+2019,Bourgogne-Franche-Comté,Couturier,0.26
+2019,Bourgogne-Franche-Comté,Fleuriste,0.13
+2019,Bourgogne-Franche-Comté,Maquilleur,0.15
+2019,Bourgogne-Franche-Comté,Photographe,0.13
+2019,Bourgogne-Franche-Comté,Wedding Planner,0.27
+2019,Bretagne,Animation,0.14
+2019,Bretagne,Couturier,0.24
+2019,Bretagne,Fleuriste,0.12
+2019,Bretagne,Maquilleur,0.11
+2019,Bretagne,Photographe,0.14
+2019,Bretagne,Wedding Planner,0.25
+2019,Centre-Val de Loire,Animation,0.1
+2019,Centre-Val de Loire,Couturier,0.21
+2019,Centre-Val de Loire,Fleuriste,0.19
+2019,Centre-Val de Loire,Maquilleur,0.13
+2019,Centre-Val de Loire,Photographe,0.14
+2019,Centre-Val de Loire,Wedding Planner,0.23
+2019,Corse,Animation,NA
+2019,Corse,Couturier,NA
+2019,Corse,Fleuriste,NA
+2019,Corse,Maquilleur,NA
+2019,Corse,Photographe,NA
+2019,Corse,Wedding Planner,NA
+2019,France,Animation,0.12
+2019,France,Couturier,0.21
+2019,France,Fleuriste,0.16
+2019,France,Maquilleur,0.14
+2019,France,Photographe,0.13
+2019,France,Wedding Planner,0.23
+2019,Grand-Est,Animation,0.12
+2019,Grand-Est,Couturier,0.23
+2019,Grand-Est,Fleuriste,0.15
+2019,Grand-Est,Maquilleur,0.11
+2019,Grand-Est,Photographe,0.13
+2019,Grand-Est,Wedding Planner,0.26
+2019,Hauts-de-France,Animation,0.1
+2019,Hauts-de-France,Couturier,0.23
+2019,Hauts-de-France,Fleuriste,0.12
+2019,Hauts-de-France,Maquilleur,0.14
+2019,Hauts-de-France,Photographe,0.13
+2019,Hauts-de-France,Wedding Planner,0.27
+2019,Normandie,Animation,0.04
+2019,Normandie,Couturier,0.26
+2019,Normandie,Fleuriste,0.15
+2019,Normandie,Maquilleur,0.1
+2019,Normandie,Photographe,0.12
+2019,Normandie,Wedding Planner,0.32
+2019,Nouvelle-Aquitaine,Animation,0.14
+2019,Nouvelle-Aquitaine,Couturier,0.19
+2019,Nouvelle-Aquitaine,Fleuriste,0.18
+2019,Nouvelle-Aquitaine,Maquilleur,0.14
+2019,Nouvelle-Aquitaine,Photographe,0.13
+2019,Nouvelle-Aquitaine,Wedding Planner,0.23
+2019,Occitanie,Animation,0.12
+2019,Occitanie,Couturier,0.22
+2019,Occitanie,Fleuriste,0.2
+2019,Occitanie,Maquilleur,0.14
+2019,Occitanie,Photographe,0.1
+2019,Occitanie,Wedding Planner,0.22
+2019,Pays de la Loire,Animation,0.14
+2019,Pays de la Loire,Couturier,0.2
+2019,Pays de la Loire,Fleuriste,0.16
+2019,Pays de la Loire,Maquilleur,0.12
+2019,Pays de la Loire,Photographe,0.17
+2019,Pays de la Loire,Wedding Planner,0.21
+2019,Provence-Alpes-Côte d'Azur,Animation,0.15
+2019,Provence-Alpes-Côte d'Azur,Couturier,0.22
+2019,Provence-Alpes-Côte d'Azur,Fleuriste,0.17
+2019,Provence-Alpes-Côte d'Azur,Maquilleur,0.12
+2019,Provence-Alpes-Côte d'Azur,Photographe,0.15
+2019,Provence-Alpes-Côte d'Azur,Wedding Planner,0.18
+2019,Île-de-France,Animation,0.16
+2019,Île-de-France,Couturier,0.16
+2019,Île-de-France,Fleuriste,0.21
+2019,Île-de-France,Maquilleur,0.16
+2019,Île-de-France,Photographe,0.12
+2019,Île-de-France,Wedding Planner,0.18
+2020,Auvergne-Rhône-Alpes,Animation,0.12
+2020,Auvergne-Rhône-Alpes,Couturier,0.22
+2020,Auvergne-Rhône-Alpes,Fleuriste,0.16
+2020,Auvergne-Rhône-Alpes,Maquilleur,0.18
+2020,Auvergne-Rhône-Alpes,Photographe,0.11
+2020,Auvergne-Rhône-Alpes,Wedding Planner,0.22
+2020,Bourgogne-Franche-Comté,Animation,0.13
+2020,Bourgogne-Franche-Comté,Couturier,0.21
+2020,Bourgogne-Franche-Comté,Fleuriste,0.16
+2020,Bourgogne-Franche-Comté,Maquilleur,0.18
+2020,Bourgogne-Franche-Comté,Photographe,0.11
+2020,Bourgogne-Franche-Comté,Wedding Planner,0.21
+2020,Bretagne,Animation,0.11
+2020,Bretagne,Couturier,0.2
+2020,Bretagne,Fleuriste,0.2
+2020,Bretagne,Maquilleur,0.11
+2020,Bretagne,Photographe,0.15
+2020,Bretagne,Wedding Planner,0.23
+2020,Centre-Val de Loire,Animation,0.03
+2020,Centre-Val de Loire,Couturier,0.22
+2020,Centre-Val de Loire,Fleuriste,0.25
+2020,Centre-Val de Loire,Maquilleur,0.11
+2020,Centre-Val de Loire,Photographe,0.13
+2020,Centre-Val de Loire,Wedding Planner,0.24
+2020,Corse,Animation,NA
+2020,Corse,Couturier,NA
+2020,Corse,Fleuriste,NA
+2020,Corse,Maquilleur,NA
+2020,Corse,Photographe,NA
+2020,Corse,Wedding Planner,NA
+2020,France,Animation,0.11
+2020,France,Couturier,0.21
+2020,France,Fleuriste,0.18
+2020,France,Maquilleur,0.15
+2020,France,Photographe,0.14
+2020,France,Wedding Planner,0.21
+2020,Grand-Est,Animation,0.1
+2020,Grand-Est,Couturier,0.19
+2020,Grand-Est,Fleuriste,0.19
+2020,Grand-Est,Maquilleur,0.13
+2020,Grand-Est,Photographe,0.16
+2020,Grand-Est,Wedding Planner,0.24
+2020,Hauts-de-France,Animation,0.09
+2020,Hauts-de-France,Couturier,0.24
+2020,Hauts-de-France,Fleuriste,0.17
+2020,Hauts-de-France,Maquilleur,0.16
+2020,Hauts-de-France,Photographe,0.12
+2020,Hauts-de-France,Wedding Planner,0.23
+2020,Normandie,Animation,0.09
+2020,Normandie,Couturier,0.23
+2020,Normandie,Fleuriste,0.24
+2020,Normandie,Maquilleur,0.09
+2020,Normandie,Photographe,0.07
+2020,Normandie,Wedding Planner,0.28
+2020,Nouvelle-Aquitaine,Animation,0.14
+2020,Nouvelle-Aquitaine,Couturier,0.16
+2020,Nouvelle-Aquitaine,Fleuriste,0.2
+2020,Nouvelle-Aquitaine,Maquilleur,0.16
+2020,Nouvelle-Aquitaine,Photographe,0.14
+2020,Nouvelle-Aquitaine,Wedding Planner,0.19
+2020,Occitanie,Animation,0.1
+2020,Occitanie,Couturier,0.24
+2020,Occitanie,Fleuriste,0.18
+2020,Occitanie,Maquilleur,0.14
+2020,Occitanie,Photographe,0.11
+2020,Occitanie,Wedding Planner,0.24
+2020,Pays de la Loire,Animation,0.14
+2020,Pays de la Loire,Couturier,0.19
+2020,Pays de la Loire,Fleuriste,0.15
+2020,Pays de la Loire,Maquilleur,0.11
+2020,Pays de la Loire,Photographe,0.21
+2020,Pays de la Loire,Wedding Planner,0.2
+2020,Provence-Alpes-Côte d'Azur,Animation,0.14
+2020,Provence-Alpes-Côte d'Azur,Couturier,0.24
+2020,Provence-Alpes-Côte d'Azur,Fleuriste,0.15
+2020,Provence-Alpes-Côte d'Azur,Maquilleur,0.15
+2020,Provence-Alpes-Côte d'Azur,Photographe,0.16
+2020,Provence-Alpes-Côte d'Azur,Wedding Planner,0.16
+2020,Île-de-France,Animation,0.1422764228
+2020,Île-de-France,Couturier,0.1951219512
+2020,Île-de-France,Fleuriste,0.1959349593
+2020,Île-de-France,Maquilleur,0.1821138211
+2020,Île-de-France,Photographe,0.1260162602
+2020,Île-de-France,Wedding Planner,0.15853658539999999

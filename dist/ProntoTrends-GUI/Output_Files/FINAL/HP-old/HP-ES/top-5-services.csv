@@ -1,0 +1,16 @@
+ticket_geo_region_name,ticket_taxonomy_tag_name,year,Rank,Max,Min,Demand_factor_max_to_min
+España,Aire acondicionado,2018,1,6,11,5.5
+España,pinturas,2018,2,1,11,1.3
+España,portes,2018,3,1,5,2.0
+España,Entrenador Personal,2018,4,1,10,1.6
+España,Fontanero,2018,5,7,2,1.3
+España,Aire acondicionado,2019,1,5,11,6.4
+España,pinturas,2019,2,1,0,1.2
+España,Fontanero,2019,3,11,3,2.4
+España,portes,2019,4,2,4,2.0
+España,Entrenador Personal,2019,5,7,3,1.3
+España,Aire acondicionado,2020,1,4,2,5.4
+España,pinturas,2020,2,3,0,2.4
+España,portes,2020,3,1,3,2.8
+España,Entrenador Personal,2020,4,1,3,1.3
+España,Fontanero,2020,5,0,3,1.6

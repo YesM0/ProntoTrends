@@ -1,0 +1,211 @@
+ticket_taxonomy_tag_name,ticket_geo_region_name,Score
+Nutrizionista,Abruzzo,5.2
+Nutrizionista,Basilicata,7.2
+Nutrizionista,Calabria,6.2
+Nutrizionista,Campania,4.5
+Nutrizionista,Emilia-Romagna,4.8
+Nutrizionista,Friuli Venezia Giulia,6.0
+Nutrizionista,Lazio,4.2
+Nutrizionista,Liguria,4.8
+Nutrizionista,Lombardia,4.5
+Nutrizionista,Marche,6.7
+Nutrizionista,Molise,10.0
+Nutrizionista,Piemonte,5.0
+Nutrizionista,Puglia,5.5
+Nutrizionista,Sardegna,4.0
+Nutrizionista,Sicilia,5.2
+Nutrizionista,Toscana,4.8
+Nutrizionista,Trentino-Alto Adige,5.8
+Nutrizionista,Umbria,4.6
+Nutrizionista,Valle d'Aosta,0.8
+Nutrizionista,Veneto,5.0
+Nutrizionista,Italia,4.8
+Idraulico,Abruzzo,5.0
+Idraulico,Basilicata,4.1
+Idraulico,Calabria,3.4
+Idraulico,Campania,3.6
+Idraulico,Emilia-Romagna,6.7
+Idraulico,Friuli Venezia Giulia,6.2
+Idraulico,Lazio,8.1
+Idraulico,Liguria,5.3
+Idraulico,Lombardia,10.0
+Idraulico,Marche,5.5
+Idraulico,Molise,4.1
+Idraulico,Piemonte,5.8
+Idraulico,Puglia,3.1
+Idraulico,Sardegna,4.8
+Idraulico,Sicilia,3.3
+Idraulico,Toscana,5.5
+Idraulico,Trentino-Alto Adige,5.7
+Idraulico,Umbria,4.6
+Idraulico,Valle d'Aosta,5.5
+Idraulico,Veneto,7.3
+Idraulico,Italia,6.6
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,6.8
+Imbiancatura o tinteggiatura pareti interne,Basilicata,6.7
+Imbiancatura o tinteggiatura pareti interne,Calabria,4.8
+Imbiancatura o tinteggiatura pareti interne,Campania,4.7
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,7.3
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,7.4
+Imbiancatura o tinteggiatura pareti interne,Lazio,8.0
+Imbiancatura o tinteggiatura pareti interne,Liguria,6.1
+Imbiancatura o tinteggiatura pareti interne,Lombardia,10.0
+Imbiancatura o tinteggiatura pareti interne,Marche,7.0
+Imbiancatura o tinteggiatura pareti interne,Molise,5.4
+Imbiancatura o tinteggiatura pareti interne,Piemonte,8.0
+Imbiancatura o tinteggiatura pareti interne,Puglia,4.8
+Imbiancatura o tinteggiatura pareti interne,Sardegna,5.3
+Imbiancatura o tinteggiatura pareti interne,Sicilia,4.4
+Imbiancatura o tinteggiatura pareti interne,Toscana,6.4
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,7.8
+Imbiancatura o tinteggiatura pareti interne,Umbria,5.5
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,7.5
+Imbiancatura o tinteggiatura pareti interne,Veneto,8.3
+Imbiancatura o tinteggiatura pareti interne,Italia,7.4
+Installazione aria condizionata,Abruzzo,4.3
+Installazione aria condizionata,Basilicata,2.4
+Installazione aria condizionata,Calabria,3.5
+Installazione aria condizionata,Campania,3.9
+Installazione aria condizionata,Emilia-Romagna,5.7
+Installazione aria condizionata,Friuli Venezia Giulia,6.8
+Installazione aria condizionata,Lazio,6.6
+Installazione aria condizionata,Liguria,10.0
+Installazione aria condizionata,Lombardia,7.6
+Installazione aria condizionata,Marche,5.1
+Installazione aria condizionata,Molise,3.9
+Installazione aria condizionata,Piemonte,7.3
+Installazione aria condizionata,Puglia,3.2
+Installazione aria condizionata,Sardegna,7.6
+Installazione aria condizionata,Sicilia,4.3
+Installazione aria condizionata,Toscana,6.5
+Installazione aria condizionata,Trentino-Alto Adige,5.9
+Installazione aria condizionata,Umbria,3.5
+Installazione aria condizionata,Valle d'Aosta,5.3
+Installazione aria condizionata,Veneto,5.9
+Installazione aria condizionata,Italia,6.1
+Organizzatore di feste e party,Abruzzo,4.3
+Organizzatore di feste e party,Basilicata,7.6
+Organizzatore di feste e party,Calabria,4.5
+Organizzatore di feste e party,Campania,5.1
+Organizzatore di feste e party,Emilia-Romagna,5.9
+Organizzatore di feste e party,Friuli Venezia Giulia,6.4
+Organizzatore di feste e party,Lazio,4.5
+Organizzatore di feste e party,Liguria,7.3
+Organizzatore di feste e party,Lombardia,6.3
+Organizzatore di feste e party,Marche,7.2
+Organizzatore di feste e party,Molise,5.9
+Organizzatore di feste e party,Piemonte,8.2
+Organizzatore di feste e party,Puglia,7.1
+Organizzatore di feste e party,Sardegna,8.1
+Organizzatore di feste e party,Sicilia,5.5
+Organizzatore di feste e party,Toscana,5.9
+Organizzatore di feste e party,Trentino-Alto Adige,5.9
+Organizzatore di feste e party,Umbria,5.1
+Organizzatore di feste e party,Valle d'Aosta,10.0
+Organizzatore di feste e party,Veneto,7.1
+Organizzatore di feste e party,Italia,6.2
+Personal trainer,Abruzzo,5.8
+Personal trainer,Basilicata,5.2
+Personal trainer,Calabria,4.7
+Personal trainer,Campania,6.9
+Personal trainer,Emilia-Romagna,6.0
+Personal trainer,Friuli Venezia Giulia,6.0
+Personal trainer,Lazio,6.4
+Personal trainer,Liguria,5.1
+Personal trainer,Lombardia,6.4
+Personal trainer,Marche,5.9
+Personal trainer,Molise,6.7
+Personal trainer,Piemonte,6.4
+Personal trainer,Puglia,5.6
+Personal trainer,Sardegna,4.7
+Personal trainer,Sicilia,4.9
+Personal trainer,Toscana,6.3
+Personal trainer,Trentino-Alto Adige,5.9
+Personal trainer,Umbria,4.4
+Personal trainer,Valle d'Aosta,10.0
+Personal trainer,Veneto,5.4
+Personal trainer,Italia,6.0
+Psicologo,Abruzzo,6.1
+Psicologo,Basilicata,8.6
+Psicologo,Calabria,9.9
+Psicologo,Campania,10.0
+Psicologo,Emilia-Romagna,6.1
+Psicologo,Friuli Venezia Giulia,5.4
+Psicologo,Lazio,8.6
+Psicologo,Liguria,5.9
+Psicologo,Lombardia,7.1
+Psicologo,Marche,7.8
+Psicologo,Molise,6.7
+Psicologo,Piemonte,7.2
+Psicologo,Puglia,8.0
+Psicologo,Sardegna,6.7
+Psicologo,Sicilia,8.2
+Psicologo,Toscana,6.4
+Psicologo,Trentino-Alto Adige,7.2
+Psicologo,Umbria,6.1
+Psicologo,Valle d'Aosta,7.2
+Psicologo,Veneto,6.6
+Psicologo,Italia,7.3
+Ripetizioni,Abruzzo,8.7
+Ripetizioni,Basilicata,8.8
+Ripetizioni,Calabria,6.4
+Ripetizioni,Campania,7.1
+Ripetizioni,Emilia-Romagna,7.7
+Ripetizioni,Friuli Venezia Giulia,8.6
+Ripetizioni,Lazio,8.4
+Ripetizioni,Liguria,6.8
+Ripetizioni,Lombardia,7.5
+Ripetizioni,Marche,10.0
+Ripetizioni,Molise,6.9
+Ripetizioni,Piemonte,7.2
+Ripetizioni,Puglia,5.7
+Ripetizioni,Sardegna,7.0
+Ripetizioni,Sicilia,6.9
+Ripetizioni,Toscana,9.5
+Ripetizioni,Trentino-Alto Adige,6.1
+Ripetizioni,Umbria,9.7
+Ripetizioni,Valle d'Aosta,6.8
+Ripetizioni,Veneto,7.6
+Ripetizioni,Italia,7.7
+Spedizioni,Abruzzo,6.8
+Spedizioni,Basilicata,7.5
+Spedizioni,Calabria,10.0
+Spedizioni,Campania,6.8
+Spedizioni,Emilia-Romagna,4.6
+Spedizioni,Friuli Venezia Giulia,5.6
+Spedizioni,Lazio,5.1
+Spedizioni,Liguria,4.5
+Spedizioni,Lombardia,4.3
+Spedizioni,Marche,5.0
+Spedizioni,Molise,6.9
+Spedizioni,Piemonte,5.2
+Spedizioni,Puglia,7.3
+Spedizioni,Sardegna,5.1
+Spedizioni,Sicilia,8.5
+Spedizioni,Toscana,5.1
+Spedizioni,Trentino-Alto Adige,5.3
+Spedizioni,Umbria,6.2
+Spedizioni,Valle d'Aosta,1.5
+Spedizioni,Veneto,4.3
+Spedizioni,Italia,5.4
+Trasloco,Abruzzo,6.2
+Trasloco,Basilicata,5.2
+Trasloco,Calabria,5.0
+Trasloco,Campania,5.5
+Trasloco,Emilia-Romagna,5.2
+Trasloco,Friuli Venezia Giulia,5.4
+Trasloco,Lazio,6.3
+Trasloco,Liguria,5.9
+Trasloco,Lombardia,5.6
+Trasloco,Marche,6.4
+Trasloco,Molise,10.0
+Trasloco,Piemonte,7.4
+Trasloco,Puglia,5.5
+Trasloco,Sardegna,3.8
+Trasloco,Sicilia,5.3
+Trasloco,Toscana,6.5
+Trasloco,Trentino-Alto Adige,5.9
+Trasloco,Umbria,7.7
+Trasloco,Valle d'Aosta,7.4
+Trasloco,Veneto,4.6
+Trasloco,Italia,5.7

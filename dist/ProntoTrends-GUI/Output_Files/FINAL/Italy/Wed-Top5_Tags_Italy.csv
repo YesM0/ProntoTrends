@@ -1,0 +1,316 @@
+ticket_geo_region_name,ticket_taxonomy_tag_name,year,Rank,Max,Min,Demand_factor_max_to_min
+Abruzzo,Fotografo di matrimonio,2018.0,1,2.0,8.0,4.33
+Abruzzo,Dj per matrimoni,2018.0,2,6.0,2.0,8.0
+Abruzzo,Affitto location matrimonio,2018.0,3,10.0,3.0,7.0
+Abruzzo,Animazione per matrimonio,2018.0,4,2.0,1.0,6.0
+Abruzzo,Fiorista matrimonio,2018.0,5,9.0,2.0,4.0
+Basilicata,Fotografo di matrimonio,2018.0,1,2.0,3.0,6.0
+Basilicata,Dj per matrimoni,2018.0,2,5.0,4.0,5.0
+Basilicata,Animazione per matrimonio,2018.0,3,2.0,3.0,3.0
+Basilicata,Affitto location matrimonio,2018.0,4,8.0,1.0,2.0
+Basilicata,Catering matrimoni,2018.0,5,11.0,2.0,2.0
+Calabria,Fotografo di matrimonio,2018.0,1,5.0,12.0,11.0
+Calabria,Affitto location matrimonio,2018.0,2,6.0,4.0,4.5
+Calabria,Animazione per matrimonio,2018.0,3,1.0,11.0,3.5
+Calabria,Dj per matrimoni,2018.0,4,7.0,5.0,6.0
+Calabria,Trucco sposa,2018.0,5,10.0,7.0,6.0
+Campania,Fotografo di matrimonio,2018.0,1,1.0,12.0,4.71
+Campania,Affitto location matrimonio,2018.0,2,12.0,2.0,3.71
+Campania,Wedding planner,2018.0,3,1.0,12.0,12.0
+Campania,Trucco sposa,2018.0,4,5.0,7.0,9.0
+Campania,Dj per matrimoni,2018.0,5,10.0,3.0,8.0
+Emilia-Romagna,Affitto location matrimonio,2018.0,1,9.0,1.0,4.09
+Emilia-Romagna,Fotografo di matrimonio,2018.0,2,1.0,12.0,5.33
+Emilia-Romagna,Trucco sposa,2018.0,3,2.0,9.0,4.4
+Emilia-Romagna,Dj per matrimoni,2018.0,4,2.0,12.0,4.5
+Emilia-Romagna,Animazione per matrimonio,2018.0,5,3.0,7.0,17.0
+Friuli Venezia Giulia,Affitto location matrimonio,2018.0,1,10.0,3.0,15.0
+Friuli Venezia Giulia,Fotografo di matrimonio,2018.0,2,3.0,9.0,15.0
+Friuli Venezia Giulia,Dj per matrimoni,2018.0,3,7.0,1.0,5.0
+Friuli Venezia Giulia,Trucco sposa,2018.0,4,3.0,7.0,5.0
+Friuli Venezia Giulia,Animazione per matrimonio,2018.0,5,1.0,2.0,4.0
+Italia,Fotografo di matrimonio,2018.0,1,1.0,12.0,3.9
+Italia,Animazione per matrimonio,2018.0,2,8.0,7.0,1.64
+Italia,Video matrimonio,2018.0,3,4.0,1.0,3.5
+Italia,Allestimenti e decorazioni per matrimonio,2018.0,4,9.0,11.0,3.33
+Italia,Abito da sposa,2018.0,5,4.0,2.0,7.5
+Lazio,Fotografo di matrimonio,2018.0,1,1.0,12.0,6.38
+Lazio,Affitto location matrimonio,2018.0,2,10.0,3.0,7.0
+Lazio,Wedding planner,2018.0,3,1.0,8.0,3.83
+Lazio,Fiorista matrimonio,2018.0,4,9.0,11.0,3.17
+Lazio,Trucco sposa,2018.0,5,9.0,7.0,4.5
+Liguria,Affitto location matrimonio,2018.0,1,9.0,1.0,4.0
+Liguria,Fotografo di matrimonio,2018.0,2,3.0,10.0,7.5
+Liguria,Animazione per matrimonio,2018.0,3,8.0,10.0,11.0
+Liguria,Fiorista matrimonio,2018.0,4,9.0,12.0,11.0
+Liguria,Trucco sposa,2018.0,5,5.0,8.0,8.0
+Lombardia,Fotografo di matrimonio,2018.0,1,1.0,12.0,3.9
+Lombardia,Affitto location matrimonio,2018.0,2,11.0,2.0,3.27
+Lombardia,Trucco sposa,2018.0,3,5.0,12.0,3.88
+Lombardia,Dj per matrimoni,2018.0,4,10.0,12.0,7.5
+Lombardia,Fiorista matrimonio,2018.0,5,1.0,12.0,4.29
+Marche,Affitto location matrimonio,2018.0,1,7.0,2.0,11.0
+Marche,Dj per matrimoni,2018.0,2,7.0,12.0,9.0
+Marche,Fotografo di matrimonio,2018.0,3,5.0,12.0,9.0
+Marche,Animazione per matrimonio,2018.0,4,10.0,12.0,6.0
+Marche,Torta nuziale,2018.0,5,10.0,1.0,5.0
+Molise,Fotografo di matrimonio,2018.0,1,1.0,4.0,4.0
+Molise,Animazione per matrimonio,2018.0,2,12.0,1.0,2.0
+Molise,Catering matrimoni,2018.0,3,1.0,2.0,2.0
+Molise,Wedding planner,2018.0,4,2.0,3.0,2.0
+Molise,Abito da sposa,2018.0,5,3.0,1.0,1.0
+Piemonte,Fotografo di matrimonio,2018.0,1,2.0,12.0,4.11
+Piemonte,Affitto location matrimonio,2018.0,2,9.0,5.0,6.5
+Piemonte,Dj per matrimoni,2018.0,3,4.0,1.0,6.33
+Piemonte,Animazione per matrimonio,2018.0,4,4.0,12.0,4.25
+Piemonte,Wedding planner,2018.0,5,4.0,12.0,16.0
+Puglia,Fotografo di matrimonio,2018.0,1,3.0,12.0,3.14
+Puglia,Affitto location matrimonio,2018.0,2,7.0,3.0,7.5
+Puglia,Wedding planner,2018.0,3,9.0,12.0,14.0
+Puglia,Dj per matrimoni,2018.0,4,9.0,2.0,12.0
+Puglia,Animazione per matrimonio,2018.0,5,8.0,9.0,3.33
+Sardegna,Affitto location matrimonio,2018.0,1,9.0,4.0,4.25
+Sardegna,Fotografo di matrimonio,2018.0,2,5.0,12.0,16.0
+Sardegna,Trucco sposa,2018.0,3,1.0,7.0,13.0
+Sardegna,Fiorista matrimonio,2018.0,4,8.0,2.0,10.0
+Sardegna,Animazione per matrimonio,2018.0,5,4.0,7.0,9.0
+Sicilia,Fotografo di matrimonio,2018.0,1,2.0,12.0,6.17
+Sicilia,Affitto location matrimonio,2018.0,2,8.0,3.0,11.33
+Sicilia,Wedding planner,2018.0,3,6.0,12.0,7.0
+Sicilia,Fiorista matrimonio,2018.0,4,2.0,12.0,13.0
+Sicilia,Parrucchiere matrimonio,2018.0,5,6.0,5.0,6.5
+Toscana,Affitto location matrimonio,2018.0,1,10.0,7.0,5.33
+Toscana,Fotografo di matrimonio,2018.0,2,2.0,7.0,2.82
+Toscana,Catering matrimoni,2018.0,3,9.0,1.0,5.5
+Toscana,Trucco sposa,2018.0,4,1.0,9.0,4.67
+Toscana,Animazione per matrimonio,2018.0,5,3.0,11.0,11.0
+Trentino-Alto Adige,Fotografo di matrimonio,2018.0,1,3.0,2.0,9.0
+Trentino-Alto Adige,Affitto location matrimonio,2018.0,2,9.0,4.0,8.0
+Trentino-Alto Adige,Dj per matrimoni,2018.0,3,10.0,4.0,5.0
+Trentino-Alto Adige,Trucco sposa,2018.0,4,1.0,4.0,5.0
+Trentino-Alto Adige,Animazione per matrimonio,2018.0,5,5.0,4.0,4.0
+Umbria,Fotografo di matrimonio,2018.0,1,9.0,3.0,4.0
+Umbria,Affitto location matrimonio,2018.0,2,2.0,4.0,7.0
+Umbria,Fiorista matrimonio,2018.0,3,4.0,12.0,6.0
+Umbria,Animazione per matrimonio,2018.0,4,5.0,9.0,5.0
+Umbria,Parrucchiere matrimonio,2018.0,5,9.0,1.0,5.0
+Valle d'Aosta,Animazione per matrimonio,2018.0,1,3.0,1.0,2.0
+Valle d'Aosta,Catering matrimoni,2018.0,2,7.0,1.0,2.0
+Valle d'Aosta,Fiorista matrimonio,2018.0,3,1.0,2.0,2.0
+Valle d'Aosta,Fotografo di matrimonio,2018.0,4,9.0,2.0,2.0
+Valle d'Aosta,Parrucchiere matrimonio,2018.0,5,6.0,1.0,2.0
+Veneto,Fotografo di matrimonio,2018.0,1,1.0,12.0,7.14
+Veneto,Trucco sposa,2018.0,2,1.0,12.0,5.75
+Veneto,Affitto location matrimonio,2018.0,3,9.0,3.0,3.14
+Veneto,Animazione per matrimonio,2018.0,4,8.0,10.0,18.0
+Veneto,Dj per matrimoni,2018.0,5,2.0,12.0,4.5
+Abruzzo,Affitto location matrimonio,2019.0,1,9.0,1.0,6.5
+Abruzzo,Fotografo di matrimonio,2019.0,2,5.0,12.0,13.0
+Abruzzo,Animazione per matrimonio,2019.0,3,1.0,2.0,10.0
+Abruzzo,Wedding planner,2019.0,4,9.0,8.0,9.0
+Abruzzo,Catering matrimoni,2019.0,5,3.0,6.0,8.0
+Basilicata,Fotografo di matrimonio,2019.0,1,4.0,1.0,6.0
+Basilicata,Parrucchiere matrimonio,2019.0,2,2.0,1.0,5.0
+Basilicata,Affitto location matrimonio,2019.0,3,3.0,1.0,4.0
+Basilicata,Animazione per matrimonio,2019.0,4,5.0,2.0,4.0
+Basilicata,Fiorista matrimonio,2019.0,5,6.0,8.0,4.0
+Calabria,Affitto location matrimonio,2019.0,1,9.0,12.0,3.5
+Calabria,Fotografo di matrimonio,2019.0,2,6.0,12.0,6.0
+Calabria,Dj per matrimoni,2019.0,3,2.0,11.0,7.5
+Calabria,Animazione per matrimonio,2019.0,4,2.0,10.0,4.33
+Calabria,Wedding planner,2019.0,5,8.0,12.0,12.0
+Campania,Affitto location matrimonio,2019.0,1,9.0,1.0,3.43
+Campania,Wedding planner,2019.0,2,9.0,12.0,16.25
+Campania,Fotografo di matrimonio,2019.0,3,5.0,12.0,5.38
+Campania,Dj per matrimoni,2019.0,4,3.0,11.0,7.25
+Campania,Catering matrimoni,2019.0,5,4.0,8.0,7.33
+Emilia-Romagna,Affitto location matrimonio,2019.0,1,9.0,12.0,3.64
+Emilia-Romagna,Fotografo di matrimonio,2019.0,2,2.0,12.0,5.14
+Emilia-Romagna,Catering matrimoni,2019.0,3,6.0,12.0,6.6
+Emilia-Romagna,Dj per matrimoni,2019.0,4,2.0,11.0,4.0
+Emilia-Romagna,Trucco sposa,2019.0,5,2.0,12.0,4.8
+Friuli Venezia Giulia,Affitto location matrimonio,2019.0,1,9.0,12.0,3.8
+Friuli Venezia Giulia,Catering matrimoni,2019.0,2,5.0,4.0,11.0
+Friuli Venezia Giulia,Fotografo di matrimonio,2019.0,3,3.0,12.0,10.0
+Friuli Venezia Giulia,Dj per matrimoni,2019.0,4,3.0,12.0,9.0
+Friuli Venezia Giulia,Trucco sposa,2019.0,5,7.0,12.0,7.0
+Italia,Abito da sposa,2019.0,1,3.0,12.0,5.25
+Italia,Affitto location matrimonio,2019.0,2,9.0,12.0,5.27
+Italia,Allestimenti e decorazioni per matrimonio,2019.0,3,6.0,12.0,2.6
+Italia,Animazione per matrimonio,2019.0,4,2.0,12.0,3.0
+Italia,Catering matrimoni,2019.0,5,1.0,12.0,2.53
+Lazio,Affitto location matrimonio,2019.0,1,9.0,12.0,4.15
+Lazio,Fotografo di matrimonio,2019.0,2,5.0,12.0,5.44
+Lazio,Dj per matrimoni,2019.0,3,5.0,12.0,7.0
+Lazio,Fiorista matrimonio,2019.0,4,9.0,12.0,5.2
+Lazio,Wedding planner,2019.0,5,9.0,12.0,5.2
+Liguria,Affitto location matrimonio,2019.0,1,9.0,4.0,4.06
+Liguria,Fotografo di matrimonio,2019.0,2,2.0,11.0,3.6
+Liguria,Catering matrimoni,2019.0,3,5.0,12.0,16.0
+Liguria,Wedding planner,2019.0,4,9.0,10.0,12.0
+Liguria,Dj per matrimoni,2019.0,5,1.0,11.0,11.0
+Lombardia,Affitto location matrimonio,2019.0,1,9.0,12.0,5.27
+Lombardia,Fotografo di matrimonio,2019.0,2,5.0,12.0,6.15
+Lombardia,Trucco sposa,2019.0,3,9.0,12.0,5.0
+Lombardia,Dj per matrimoni,2019.0,4,2.0,12.0,8.67
+Lombardia,Wedding planner,2019.0,5,9.0,12.0,3.69
+Marche,Affitto location matrimonio,2019.0,1,9.0,2.0,3.92
+Marche,Fotografo di matrimonio,2019.0,2,1.0,12.0,12.0
+Marche,Dj per matrimoni,2019.0,3,1.0,8.0,9.0
+Marche,Trucco sposa,2019.0,4,4.0,7.0,8.0
+Marche,Wedding planner,2019.0,5,9.0,3.0,8.0
+Molise,Affitto location matrimonio,2019.0,1,8.0,1.0,4.0
+Molise,Dj per matrimoni,2019.0,2,9.0,2.0,3.0
+Molise,Fotografo di matrimonio,2019.0,3,9.0,2.0,3.0
+Molise,Abito da sposa,2019.0,4,9.0,1.0,2.0
+Molise,Allestimenti e decorazioni per matrimonio,2019.0,5,9.0,1.0,2.0
+Piemonte,Affitto location matrimonio,2019.0,1,9.0,2.0,5.44
+Piemonte,Fotografo di matrimonio,2019.0,2,7.0,11.0,3.8
+Piemonte,Dj per matrimoni,2019.0,3,1.0,11.0,6.8
+Piemonte,Catering matrimoni,2019.0,4,9.0,12.0,10.33
+Piemonte,Wedding planner,2019.0,5,9.0,12.0,4.0
+Puglia,Affitto location matrimonio,2019.0,1,9.0,11.0,2.45
+Puglia,Fotografo di matrimonio,2019.0,2,9.0,12.0,4.14
+Puglia,Wedding planner,2019.0,3,5.0,6.0,8.67
+Puglia,Dj per matrimoni,2019.0,4,9.0,12.0,11.0
+Puglia,Animazione per matrimonio,2019.0,5,9.0,12.0,5.25
+Sardegna,Affitto location matrimonio,2019.0,1,9.0,11.0,2.79
+Sardegna,Fotografo di matrimonio,2019.0,2,5.0,12.0,19.0
+Sardegna,Wedding planner,2019.0,3,9.0,11.0,8.5
+Sardegna,Fiorista matrimonio,2019.0,4,1.0,11.0,10.0
+Sardegna,Trucco sposa,2019.0,5,1.0,11.0,10.0
+Sicilia,Affitto location matrimonio,2019.0,1,9.0,12.0,2.93
+Sicilia,Fotografo di matrimonio,2019.0,2,9.0,12.0,8.2
+Sicilia,Dj per matrimoni,2019.0,3,3.0,4.0,5.8
+Sicilia,Wedding planner,2019.0,4,9.0,11.0,8.0
+Sicilia,Animazione per matrimonio,2019.0,5,2.0,8.0,4.2
+Toscana,Affitto location matrimonio,2019.0,1,9.0,2.0,4.12
+Toscana,Fotografo di matrimonio,2019.0,2,9.0,12.0,8.75
+Toscana,Catering matrimoni,2019.0,3,5.0,11.0,27.0
+Toscana,Wedding planner,2019.0,4,9.0,4.0,6.75
+Toscana,Dj per matrimoni,2019.0,5,3.0,11.0,7.33
+Trentino-Alto Adige,Affitto location matrimonio,2019.0,1,9.0,11.0,6.4
+Trentino-Alto Adige,Trucco sposa,2019.0,2,1.0,10.0,9.0
+Trentino-Alto Adige,Fotografo di matrimonio,2019.0,3,2.0,11.0,8.0
+Trentino-Alto Adige,Dj per matrimoni,2019.0,4,1.0,10.0,7.0
+Trentino-Alto Adige,Catering matrimoni,2019.0,5,5.0,1.0,6.0
+Umbria,Affitto location matrimonio,2019.0,1,9.0,4.0,5.6
+Umbria,Dj per matrimoni,2019.0,2,2.0,8.0,10.0
+Umbria,Fotografo di matrimonio,2019.0,3,3.0,12.0,8.0
+Umbria,Catering matrimoni,2019.0,4,7.0,8.0,7.0
+Umbria,Video matrimonio,2019.0,5,1.0,2.0,7.0
+Valle d'Aosta,Affitto location matrimonio,2019.0,1,8.0,2.0,3.0
+Valle d'Aosta,Catering matrimoni,2019.0,2,4.0,2.0,3.0
+Valle d'Aosta,Allestimenti e decorazioni per matrimonio,2019.0,3,4.0,2.0,2.0
+Valle d'Aosta,Animazione per matrimonio,2019.0,4,2.0,1.0,2.0
+Valle d'Aosta,Dj per matrimoni,2019.0,5,7.0,1.0,2.0
+Veneto,Affitto location matrimonio,2019.0,1,9.0,1.0,3.1
+Veneto,Fotografo di matrimonio,2019.0,2,5.0,12.0,15.0
+Veneto,Dj per matrimoni,2019.0,3,5.0,12.0,4.43
+Veneto,Catering matrimoni,2019.0,4,4.0,12.0,15.0
+Veneto,Fiorista matrimonio,2019.0,5,5.0,12.0,23.0
+Abruzzo,Affitto location matrimonio,2020.0,1,1.0,5.0,5.67
+Abruzzo,Animazione per matrimonio,2020.0,2,1.0,3.0,6.0
+Abruzzo,Fotografo di matrimonio,2020.0,3,1.0,3.0,5.0
+Abruzzo,Trucco sposa,2020.0,4,2.0,5.0,4.0
+Abruzzo,Parrucchiere matrimonio,2020.0,5,2.0,4.0,3.0
+Basilicata,Affitto location matrimonio,2020.0,1,3.0,5.0,2.0
+Basilicata,Dj per matrimoni,2020.0,2,1.0,2.0,2.0
+Basilicata,Fiorista matrimonio,2020.0,3,2.0,3.0,2.0
+Basilicata,Allestimenti e decorazioni per matrimonio,2020.0,4,2.0,1.0,1.0
+Basilicata,Animazione per matrimonio,2020.0,5,2.0,1.0,1.0
+Calabria,Affitto location matrimonio,2020.0,1,1.0,4.0,4.33
+Calabria,Animazione per matrimonio,2020.0,2,1.0,3.0,9.0
+Calabria,Trucco sposa,2020.0,3,1.0,4.0,8.0
+Calabria,Fotografo di matrimonio,2020.0,4,1.0,3.0,2.0
+Calabria,Dj per matrimoni,2020.0,5,1.0,4.0,5.0
+Campania,Affitto location matrimonio,2020.0,1,1.0,4.0,6.94
+Campania,Fotografo di matrimonio,2020.0,2,1.0,3.0,3.0
+Campania,Trucco sposa,2020.0,3,1.0,5.0,21.0
+Campania,Animazione per matrimonio,2020.0,4,1.0,5.0,10.0
+Campania,Dj per matrimoni,2020.0,5,2.0,4.0,16.0
+Emilia-Romagna,Affitto location matrimonio,2020.0,1,1.0,5.0,5.5
+Emilia-Romagna,Fotografo di matrimonio,2020.0,2,1.0,4.0,10.0
+Emilia-Romagna,Trucco sposa,2020.0,3,1.0,4.0,20.0
+Emilia-Romagna,Catering matrimoni,2020.0,4,1.0,4.0,6.0
+Emilia-Romagna,Video matrimonio,2020.0,5,2.0,4.0,9.0
+Friuli Venezia Giulia,Affitto location matrimonio,2020.0,1,1.0,5.0,5.75
+Friuli Venezia Giulia,Dj per matrimoni,2020.0,2,3.0,4.0,8.0
+Friuli Venezia Giulia,Animazione per matrimonio,2020.0,3,1.0,4.0,7.0
+Friuli Venezia Giulia,Catering matrimoni,2020.0,4,1.0,4.0,7.0
+Friuli Venezia Giulia,Parrucchiere matrimonio,2020.0,5,1.0,2.0,5.0
+Italia,Video matrimonio,2020.0,1,1.0,4.0,9.0
+Italia,Animazione per matrimonio,2020.0,2,1.0,5.0,10.0
+Italia,Torta nuziale,2020.0,3,2.0,5.0,5.5
+Italia,Catering matrimoni,2020.0,4,1.0,5.0,8.0
+Italia,Allestimenti e decorazioni per matrimonio,2020.0,5,2.0,4.0,3.0
+Lazio,Affitto location matrimonio,2020.0,1,1.0,5.0,4.67
+Lazio,Fotografo di matrimonio,2020.0,2,1.0,4.0,9.0
+Lazio,Trucco sposa,2020.0,3,1.0,3.0,23.0
+Lazio,Dj per matrimoni,2020.0,4,1.0,4.0,19.0
+Lazio,Catering matrimoni,2020.0,5,2.0,5.0,8.0
+Liguria,Affitto location matrimonio,2020.0,1,1.0,5.0,7.62
+Liguria,Fotografo di matrimonio,2020.0,2,1.0,4.0,8.0
+Liguria,Fiorista matrimonio,2020.0,3,2.0,4.0,5.0
+Liguria,Trucco sposa,2020.0,4,1.0,5.0,5.0
+Liguria,Allestimenti e decorazioni per matrimonio,2020.0,5,2.0,5.0,4.0
+Lombardia,Affitto location matrimonio,2020.0,1,1.0,4.0,5.28
+Lombardia,Fotografo di matrimonio,2020.0,2,1.0,4.0,5.4
+Lombardia,Dj per matrimoni,2020.0,3,1.0,5.0,18.0
+Lombardia,Trucco sposa,2020.0,4,1.0,4.0,35.0
+Lombardia,Catering matrimoni,2020.0,5,1.0,4.0,10.67
+Marche,Affitto location matrimonio,2020.0,1,1.0,5.0,5.5
+Marche,Dj per matrimoni,2020.0,2,1.0,4.0,7.0
+Marche,Catering matrimoni,2020.0,3,2.0,1.0,6.0
+Marche,Animazione per matrimonio,2020.0,4,1.0,4.0,4.0
+Marche,Fotografo di matrimonio,2020.0,5,1.0,3.0,4.0
+Molise,Animazione per matrimonio,2020.0,1,1.0,3.0,3.0
+Molise,Allestimenti e decorazioni per matrimonio,2020.0,2,1.0,2.0,2.0
+Molise,Fotografo di matrimonio,2020.0,3,1.0,2.0,2.0
+Molise,Parrucchiere matrimonio,2020.0,4,1.0,2.0,2.0
+Molise,Affitto location matrimonio,2020.0,5,2.0,1.0,1.0
+Piemonte,Affitto location matrimonio,2020.0,1,1.0,5.0,4.38
+Piemonte,Fotografo di matrimonio,2020.0,2,1.0,4.0,6.33
+Piemonte,Catering matrimoni,2020.0,3,1.0,3.0,8.0
+Piemonte,Parrucchiere matrimonio,2020.0,4,2.0,4.0,15.0
+Piemonte,Dj per matrimoni,2020.0,5,2.0,5.0,6.5
+Puglia,Affitto location matrimonio,2020.0,1,1.0,4.0,4.6
+Puglia,Dj per matrimoni,2020.0,2,1.0,4.0,19.0
+Puglia,Fotografo di matrimonio,2020.0,3,1.0,3.0,2.8
+Puglia,Fiorista matrimonio,2020.0,4,1.0,5.0,10.0
+Puglia,Trucco sposa,2020.0,5,1.0,5.0,10.0
+Sardegna,Affitto location matrimonio,2020.0,1,1.0,5.0,11.25
+Sardegna,Fotografo di matrimonio,2020.0,2,1.0,4.0,3.0
+Sardegna,Allestimenti e decorazioni per matrimonio,2020.0,3,1.0,3.0,6.0
+Sardegna,Animazione per matrimonio,2020.0,4,1.0,4.0,5.0
+Sardegna,Catering matrimoni,2020.0,5,1.0,4.0,5.0
+Sicilia,Affitto location matrimonio,2020.0,1,1.0,3.0,7.06
+Sicilia,Fotografo di matrimonio,2020.0,2,2.0,4.0,5.25
+Sicilia,Fiorista matrimonio,2020.0,3,1.0,4.0,8.5
+Sicilia,Animazione per matrimonio,2020.0,4,1.0,5.0,15.0
+Sicilia,Catering matrimoni,2020.0,5,1.0,5.0,7.0
+Toscana,Affitto location matrimonio,2020.0,1,1.0,5.0,7.38
+Toscana,Fotografo di matrimonio,2020.0,2,1.0,4.0,23.0
+Toscana,Dj per matrimoni,2020.0,3,1.0,3.0,16.0
+Toscana,Trucco sposa,2020.0,4,1.0,5.0,15.0
+Toscana,Fiorista matrimonio,2020.0,5,1.0,4.0,12.0
+Trentino-Alto Adige,Affitto location matrimonio,2020.0,1,1.0,4.0,7.33
+Trentino-Alto Adige,Trucco sposa,2020.0,2,1.0,5.0,9.0
+Trentino-Alto Adige,Fotografo di matrimonio,2020.0,3,4.0,3.0,7.0
+Trentino-Alto Adige,Dj per matrimoni,2020.0,4,1.0,3.0,6.0
+Trentino-Alto Adige,Torta nuziale,2020.0,5,1.0,2.0,5.0
+Umbria,Affitto location matrimonio,2020.0,1,1.0,4.0,3.33
+Umbria,Dj per matrimoni,2020.0,2,2.0,4.0,9.0
+Umbria,Fotografo di matrimonio,2020.0,3,2.0,3.0,4.0
+Umbria,Catering matrimoni,2020.0,4,1.0,3.0,3.0
+Umbria,Fiorista matrimonio,2020.0,5,2.0,3.0,2.0
+Valle d'Aosta,Affitto location matrimonio,2020.0,1,2.0,4.0,2.0
+Valle d'Aosta,Dj per matrimoni,2020.0,2,4.0,1.0,1.0
+Valle d'Aosta,Fotografo di matrimonio,2020.0,3,1.0,3.0,1.0
+Valle d'Aosta,Wedding planner,2020.0,4,1.0,2.0,1.0
+Valle d'Aosta,Abito da sposa,2020.0,5,NA,NA,NA
+Veneto,Affitto location matrimonio,2020.0,1,1.0,5.0,3.94
+Veneto,Dj per matrimoni,2020.0,2,2.0,4.0,9.5
+Veneto,Fotografo di matrimonio,2020.0,3,1.0,4.0,4.25
+Veneto,Trucco sposa,2020.0,4,1.0,5.0,16.0
+Veneto,Catering matrimoni,2020.0,5,1.0,4.0,12.0

@@ -1,0 +1,301 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Andalucía,clases de yoga,0.12
+2018,Andalucía,clases de ingles,0.19
+2018,Andalucía,nutricionista,0.39
+2018,Andalucía,curso de cocina,0.09
+2018,Andalucía,entrenador personal,0.22
+2018,Aragón,clases de yoga,0.1
+2018,Aragón,clases de ingles,0.17
+2018,Aragón,nutricionista,0.37
+2018,Aragón,curso de cocina,0.12
+2018,Aragón,entrenador personal,0.23
+2018,Asturias,clases de yoga,0.11
+2018,Asturias,clases de ingles,0.18
+2018,Asturias,nutricionista,0.41
+2018,Asturias,curso de cocina,0.07
+2018,Asturias,entrenador personal,0.23
+2018,Illes Balears,clases de yoga,0.12
+2018,Illes Balears,clases de ingles,0.21
+2018,Illes Balears,nutricionista,0.3
+2018,Illes Balears,curso de cocina,0.09
+2018,Illes Balears,entrenador personal,0.28
+2018,País Vasco,clases de yoga,0.11
+2018,País Vasco,clases de ingles,0.19
+2018,País Vasco,nutricionista,0.39
+2018,País Vasco,curso de cocina,0.09
+2018,País Vasco,entrenador personal,0.22
+2018,Islas Canarias,clases de yoga,0.16
+2018,Islas Canarias,clases de ingles,0.2
+2018,Islas Canarias,nutricionista,0.31
+2018,Islas Canarias,curso de cocina,0.12
+2018,Islas Canarias,entrenador personal,0.21
+2018,Cantabria,clases de yoga,0.13
+2018,Cantabria,clases de ingles,0.2
+2018,Cantabria,nutricionista,0.42
+2018,Cantabria,curso de cocina,0.0
+2018,Cantabria,entrenador personal,0.25
+2018,Castilla y León,clases de yoga,0.11
+2018,Castilla y León,clases de ingles,0.2
+2018,Castilla y León,nutricionista,0.32
+2018,Castilla y León,curso de cocina,0.13
+2018,Castilla y León,entrenador personal,0.24
+2018,Castilla-La Mancha,clases de yoga,0.12
+2018,Castilla-La Mancha,clases de ingles,0.21
+2018,Castilla-La Mancha,nutricionista,0.34
+2018,Castilla-La Mancha,curso de cocina,0.12
+2018,Castilla-La Mancha,entrenador personal,0.22
+2018,Cataluña,clases de yoga,0.1
+2018,Cataluña,clases de ingles,0.17
+2018,Cataluña,nutricionista,0.39
+2018,Cataluña,curso de cocina,0.1
+2018,Cataluña,entrenador personal,0.24
+2018,Ceuta,clases de yoga,0.0
+2018,Ceuta,clases de ingles,0.0
+2018,Ceuta,nutricionista,0.0
+2018,Ceuta,curso de cocina,0.0
+2018,Ceuta,entrenador personal,0.0
+2018,Madrid,clases de yoga,0.1
+2018,Madrid,clases de ingles,0.2
+2018,Madrid,nutricionista,0.35
+2018,Madrid,curso de cocina,0.1
+2018,Madrid,entrenador personal,0.25
+2018,Extremadura,clases de yoga,0.11
+2018,Extremadura,clases de ingles,0.23
+2018,Extremadura,nutricionista,0.41
+2018,Extremadura,curso de cocina,0.0
+2018,Extremadura,entrenador personal,0.26
+2018,Galicia,clases de yoga,0.12
+2018,Galicia,clases de ingles,0.19
+2018,Galicia,nutricionista,0.35
+2018,Galicia,curso de cocina,0.1
+2018,Galicia,entrenador personal,0.24
+2018,La Rioja,clases de yoga,0.13
+2018,La Rioja,clases de ingles,0.2
+2018,La Rioja,nutricionista,0.43
+2018,La Rioja,curso de cocina,0.0
+2018,La Rioja,entrenador personal,0.25
+2018,Melilla,clases de yoga,0.0
+2018,Melilla,clases de ingles,0.0
+2018,Melilla,nutricionista,0.0
+2018,Melilla,curso de cocina,0.0
+2018,Melilla,entrenador personal,0.0
+2018,Navarra,clases de yoga,0.12
+2018,Navarra,clases de ingles,0.19
+2018,Navarra,nutricionista,0.45
+2018,Navarra,curso de cocina,0.0
+2018,Navarra,entrenador personal,0.24
+2018,Murcia,clases de yoga,0.11
+2018,Murcia,clases de ingles,0.16
+2018,Murcia,nutricionista,0.38
+2018,Murcia,curso de cocina,0.1
+2018,Murcia,entrenador personal,0.25
+2018,España,clases de yoga,0.1
+2018,España,clases de ingles,0.17
+2018,España,nutricionista,0.41
+2018,España,curso de cocina,0.07
+2018,España,entrenador personal,0.24
+2018,Valencia,clases de yoga,0.13
+2018,Valencia,clases de ingles,0.15
+2018,Valencia,nutricionista,0.36
+2018,Valencia,curso de cocina,0.09
+2018,Valencia,entrenador personal,0.26
+2019,Andalucía,clases de yoga,0.1
+2019,Andalucía,clases de ingles,0.16
+2019,Andalucía,nutricionista,0.43
+2019,Andalucía,curso de cocina,0.08
+2019,Andalucía,entrenador personal,0.23
+2019,Aragón,clases de yoga,0.08
+2019,Aragón,clases de ingles,0.18
+2019,Aragón,nutricionista,0.41
+2019,Aragón,curso de cocina,0.11
+2019,Aragón,entrenador personal,0.22
+2019,Asturias,clases de yoga,0.09
+2019,Asturias,clases de ingles,0.18
+2019,Asturias,nutricionista,0.4
+2019,Asturias,curso de cocina,0.08
+2019,Asturias,entrenador personal,0.25
+2019,Illes Balears,clases de yoga,0.12
+2019,Illes Balears,clases de ingles,0.18
+2019,Illes Balears,nutricionista,0.33
+2019,Illes Balears,curso de cocina,0.07
+2019,Illes Balears,entrenador personal,0.3
+2019,País Vasco,clases de yoga,0.1
+2019,País Vasco,clases de ingles,0.16
+2019,País Vasco,nutricionista,0.44
+2019,País Vasco,curso de cocina,0.06
+2019,País Vasco,entrenador personal,0.23
+2019,Islas Canarias,clases de yoga,0.17
+2019,Islas Canarias,clases de ingles,0.21
+2019,Islas Canarias,nutricionista,0.3
+2019,Islas Canarias,curso de cocina,0.1
+2019,Islas Canarias,entrenador personal,0.22
+2019,Cantabria,clases de yoga,0.16
+2019,Cantabria,clases de ingles,0.17
+2019,Cantabria,nutricionista,0.39
+2019,Cantabria,curso de cocina,0.0
+2019,Cantabria,entrenador personal,0.28
+2019,Castilla y León,clases de yoga,0.13
+2019,Castilla y León,clases de ingles,0.18
+2019,Castilla y León,nutricionista,0.37
+2019,Castilla y León,curso de cocina,0.1
+2019,Castilla y León,entrenador personal,0.22
+2019,Castilla-La Mancha,clases de yoga,0.09
+2019,Castilla-La Mancha,clases de ingles,0.2
+2019,Castilla-La Mancha,nutricionista,0.35
+2019,Castilla-La Mancha,curso de cocina,0.12
+2019,Castilla-La Mancha,entrenador personal,0.23
+2019,Cataluña,clases de yoga,0.09
+2019,Cataluña,clases de ingles,0.15
+2019,Cataluña,nutricionista,0.44
+2019,Cataluña,curso de cocina,0.08
+2019,Cataluña,entrenador personal,0.24
+2019,Ceuta,clases de yoga,0.0
+2019,Ceuta,clases de ingles,0.0
+2019,Ceuta,nutricionista,0.0
+2019,Ceuta,curso de cocina,0.0
+2019,Ceuta,entrenador personal,0.0
+2019,Madrid,clases de yoga,0.09
+2019,Madrid,clases de ingles,0.19
+2019,Madrid,nutricionista,0.42
+2019,Madrid,curso de cocina,0.09
+2019,Madrid,entrenador personal,0.22
+2019,Extremadura,clases de yoga,0.14
+2019,Extremadura,clases de ingles,0.17
+2019,Extremadura,nutricionista,0.42
+2019,Extremadura,curso de cocina,0.0
+2019,Extremadura,entrenador personal,0.28
+2019,Galicia,clases de yoga,0.12
+2019,Galicia,clases de ingles,0.18
+2019,Galicia,nutricionista,0.4
+2019,Galicia,curso de cocina,0.09
+2019,Galicia,entrenador personal,0.22
+2019,La Rioja,clases de yoga,0.08
+2019,La Rioja,clases de ingles,0.24
+2019,La Rioja,nutricionista,0.47
+2019,La Rioja,curso de cocina,0.0
+2019,La Rioja,entrenador personal,0.21
+2019,Melilla,clases de yoga,0.0
+2019,Melilla,clases de ingles,0.0
+2019,Melilla,nutricionista,0.0
+2019,Melilla,curso de cocina,0.0
+2019,Melilla,entrenador personal,0.0
+2019,Navarra,clases de yoga,0.08
+2019,Navarra,clases de ingles,0.2
+2019,Navarra,nutricionista,0.47
+2019,Navarra,curso de cocina,0.0
+2019,Navarra,entrenador personal,0.26
+2019,Murcia,clases de yoga,0.11
+2019,Murcia,clases de ingles,0.15
+2019,Murcia,nutricionista,0.41
+2019,Murcia,curso de cocina,0.07
+2019,Murcia,entrenador personal,0.26
+2019,España,clases de yoga,0.08
+2019,España,clases de ingles,0.16
+2019,España,nutricionista,0.45
+2019,España,curso de cocina,0.07
+2019,España,entrenador personal,0.24
+2019,Valencia,clases de yoga,0.11
+2019,Valencia,clases de ingles,0.14
+2019,Valencia,nutricionista,0.42
+2019,Valencia,curso de cocina,0.08
+2019,Valencia,entrenador personal,0.25
+2020,Andalucía,clases de yoga,0.14
+2020,Andalucía,clases de ingles,0.14
+2020,Andalucía,nutricionista,0.39
+2020,Andalucía,curso de cocina,0.06
+2020,Andalucía,entrenador personal,0.26
+2020,Aragón,clases de yoga,0.13
+2020,Aragón,clases de ingles,0.15
+2020,Aragón,nutricionista,0.37
+2020,Aragón,curso de cocina,0.06
+2020,Aragón,entrenador personal,0.28
+2020,Asturias,clases de yoga,0.11
+2020,Asturias,clases de ingles,0.15
+2020,Asturias,nutricionista,0.39
+2020,Asturias,curso de cocina,0.07
+2020,Asturias,entrenador personal,0.28
+2020,Illes Balears,clases de yoga,0.16
+2020,Illes Balears,clases de ingles,0.17
+2020,Illes Balears,nutricionista,0.34
+2020,Illes Balears,curso de cocina,0.09
+2020,Illes Balears,entrenador personal,0.24
+2020,País Vasco,clases de yoga,0.13
+2020,País Vasco,clases de ingles,0.17
+2020,País Vasco,nutricionista,0.39
+2020,País Vasco,curso de cocina,0.08
+2020,País Vasco,entrenador personal,0.23
+2020,Islas Canarias,clases de yoga,0.12
+2020,Islas Canarias,clases de ingles,0.21
+2020,Islas Canarias,nutricionista,0.3
+2020,Islas Canarias,curso de cocina,0.16
+2020,Islas Canarias,entrenador personal,0.2
+2020,Cantabria,clases de yoga,0.15
+2020,Cantabria,clases de ingles,0.21
+2020,Cantabria,nutricionista,0.44
+2020,Cantabria,curso de cocina,0.0
+2020,Cantabria,entrenador personal,0.21
+2020,Castilla y León,clases de yoga,0.11
+2020,Castilla y León,clases de ingles,0.18
+2020,Castilla y León,nutricionista,0.41
+2020,Castilla y León,curso de cocina,0.08
+2020,Castilla y León,entrenador personal,0.22
+2020,Castilla-La Mancha,clases de yoga,0.15
+2020,Castilla-La Mancha,clases de ingles,0.17
+2020,Castilla-La Mancha,nutricionista,0.31
+2020,Castilla-La Mancha,curso de cocina,0.08
+2020,Castilla-La Mancha,entrenador personal,0.3
+2020,Cataluña,clases de yoga,0.13
+2020,Cataluña,clases de ingles,0.12
+2020,Cataluña,nutricionista,0.42
+2020,Cataluña,curso de cocina,0.09
+2020,Cataluña,entrenador personal,0.24
+2020,Ceuta,clases de yoga,0.0
+2020,Ceuta,clases de ingles,0.0
+2020,Ceuta,nutricionista,0.0
+2020,Ceuta,curso de cocina,0.0
+2020,Ceuta,entrenador personal,0.0
+2020,Madrid,clases de yoga,0.14
+2020,Madrid,clases de ingles,0.17
+2020,Madrid,nutricionista,0.36
+2020,Madrid,curso de cocina,0.08
+2020,Madrid,entrenador personal,0.25
+2020,Extremadura,clases de yoga,0.26
+2020,Extremadura,clases de ingles,0.18
+2020,Extremadura,nutricionista,0.35
+2020,Extremadura,curso de cocina,0.0
+2020,Extremadura,entrenador personal,0.21
+2020,Galicia,clases de yoga,0.12
+2020,Galicia,clases de ingles,0.15
+2020,Galicia,nutricionista,0.42
+2020,Galicia,curso de cocina,0.05
+2020,Galicia,entrenador personal,0.26
+2020,La Rioja,clases de yoga,0.22
+2020,La Rioja,clases de ingles,0.18
+2020,La Rioja,nutricionista,0.41
+2020,La Rioja,curso de cocina,0.0
+2020,La Rioja,entrenador personal,0.2
+2020,Melilla,clases de yoga,0.0
+2020,Melilla,clases de ingles,0.0
+2020,Melilla,nutricionista,0.0
+2020,Melilla,curso de cocina,0.0
+2020,Melilla,entrenador personal,0.0
+2020,Navarra,clases de yoga,0.12
+2020,Navarra,clases de ingles,0.16
+2020,Navarra,nutricionista,0.51
+2020,Navarra,curso de cocina,0.0
+2020,Navarra,entrenador personal,0.21
+2020,Murcia,clases de yoga,0.08
+2020,Murcia,clases de ingles,0.2
+2020,Murcia,nutricionista,0.35
+2020,Murcia,curso de cocina,0.06
+2020,Murcia,entrenador personal,0.31
+2020,España,clases de yoga,0.12
+2020,España,clases de ingles,0.15
+2020,España,nutricionista,0.43
+2020,España,curso de cocina,0.05
+2020,España,entrenador personal,0.25
+2020,Valencia,clases de yoga,0.14
+2020,Valencia,clases de ingles,0.12
+2020,Valencia,nutricionista,0.37
+2020,Valencia,curso de cocina,0.07
+2020,Valencia,entrenador personal,0.29

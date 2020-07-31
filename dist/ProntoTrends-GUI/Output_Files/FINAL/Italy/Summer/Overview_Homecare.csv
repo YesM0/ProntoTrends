@@ -1,0 +1,253 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Abruzzo,Aria Condizionata,0.42
+2018,Abruzzo,Imbianchino,0.4
+2018,Abruzzo,Installazione zanzariera,0.13
+2018,Abruzzo,Sgombero cantine e soffitte,0.05
+2018,Valle d'Aosta,Aria Condizionata,0.26
+2018,Valle d'Aosta,Imbianchino,0.54
+2018,Valle d'Aosta,Installazione zanzariera,0.13
+2018,Valle d'Aosta,Sgombero cantine e soffitte,0.07
+2018,Puglia,Aria Condizionata,0.4
+2018,Puglia,Imbianchino,0.43
+2018,Puglia,Installazione zanzariera,0.15
+2018,Puglia,Sgombero cantine e soffitte,0.02
+2018,Basilicata,Aria Condizionata,0.37
+2018,Basilicata,Imbianchino,0.39
+2018,Basilicata,Installazione zanzariera,0.21
+2018,Basilicata,Sgombero cantine e soffitte,0.03
+2018,Calabria,Aria Condizionata,0.39
+2018,Calabria,Imbianchino,0.38
+2018,Calabria,Installazione zanzariera,0.18
+2018,Calabria,Sgombero cantine e soffitte,0.05
+2018,Campania,Aria Condizionata,0.42
+2018,Campania,Imbianchino,0.41
+2018,Campania,Installazione zanzariera,0.15
+2018,Campania,Sgombero cantine e soffitte,0.02
+2018,Emilia-Romagna,Aria Condizionata,0.46
+2018,Emilia-Romagna,Imbianchino,0.39
+2018,Emilia-Romagna,Installazione zanzariera,0.14
+2018,Emilia-Romagna,Sgombero cantine e soffitte,0.02
+2018,Friuli Venezia Giulia,Aria Condizionata,0.41
+2018,Friuli Venezia Giulia,Imbianchino,0.42
+2018,Friuli Venezia Giulia,Installazione zanzariera,0.13
+2018,Friuli Venezia Giulia,Sgombero cantine e soffitte,0.04
+2018,Italia,Aria Condizionata,0.42
+2018,Italia,Imbianchino,0.41
+2018,Italia,Installazione zanzariera,0.15
+2018,Italia,Sgombero cantine e soffitte,0.03
+2018,Lazio,Aria Condizionata,0.43
+2018,Lazio,Imbianchino,0.42
+2018,Lazio,Installazione zanzariera,0.12
+2018,Lazio,Sgombero cantine e soffitte,0.04
+2018,Liguria,Aria Condizionata,0.5
+2018,Liguria,Imbianchino,0.34
+2018,Liguria,Installazione zanzariera,0.13
+2018,Liguria,Sgombero cantine e soffitte,0.04
+2018,Lombardia,Aria Condizionata,0.38
+2018,Lombardia,Imbianchino,0.43
+2018,Lombardia,Installazione zanzariera,0.17
+2018,Lombardia,Sgombero cantine e soffitte,0.02
+2018,Marche,Aria Condizionata,0.42
+2018,Marche,Imbianchino,0.38
+2018,Marche,Installazione zanzariera,0.15
+2018,Marche,Sgombero cantine e soffitte,0.05
+2018,Molise,Aria Condizionata,0.35
+2018,Molise,Imbianchino,0.42
+2018,Molise,Installazione zanzariera,0.2
+2018,Molise,Sgombero cantine e soffitte,0.04
+2018,Piemonte,Aria Condizionata,0.41
+2018,Piemonte,Imbianchino,0.42
+2018,Piemonte,Installazione zanzariera,0.14
+2018,Piemonte,Sgombero cantine e soffitte,0.04
+2018,Sardegna,Aria Condizionata,0.57
+2018,Sardegna,Imbianchino,0.25
+2018,Sardegna,Installazione zanzariera,0.15
+2018,Sardegna,Sgombero cantine e soffitte,0.02
+2018,Sicilia,Aria Condizionata,0.43
+2018,Sicilia,Imbianchino,0.42
+2018,Sicilia,Installazione zanzariera,0.14
+2018,Sicilia,Sgombero cantine e soffitte,0.01
+2018,Trentino-Alto Adige,Aria Condizionata,0.32
+2018,Trentino-Alto Adige,Imbianchino,0.47
+2018,Trentino-Alto Adige,Installazione zanzariera,0.16
+2018,Trentino-Alto Adige,Sgombero cantine e soffitte,0.05
+2018,Toscana,Aria Condizionata,0.44
+2018,Toscana,Imbianchino,0.38
+2018,Toscana,Installazione zanzariera,0.16
+2018,Toscana,Sgombero cantine e soffitte,0.03
+2018,Umbria,Aria Condizionata,0.41
+2018,Umbria,Imbianchino,0.41
+2018,Umbria,Installazione zanzariera,0.13
+2018,Umbria,Sgombero cantine e soffitte,0.05
+2018,Veneto,Aria Condizionata,0.4
+2018,Veneto,Imbianchino,0.45
+2018,Veneto,Installazione zanzariera,0.14
+2018,Veneto,Sgombero cantine e soffitte,0.02
+2019,Abruzzo,Aria Condizionata,0.43
+2019,Abruzzo,Imbianchino,0.4
+2019,Abruzzo,Installazione zanzariera,0.1
+2019,Abruzzo,Sgombero cantine e soffitte,0.08
+2019,Valle d'Aosta,Aria Condizionata,0.41
+2019,Valle d'Aosta,Imbianchino,0.35
+2019,Valle d'Aosta,Installazione zanzariera,0.11
+2019,Valle d'Aosta,Sgombero cantine e soffitte,0.13
+2019,Puglia,Aria Condizionata,0.45
+2019,Puglia,Imbianchino,0.4
+2019,Puglia,Installazione zanzariera,0.11
+2019,Puglia,Sgombero cantine e soffitte,0.05
+2019,Basilicata,Aria Condizionata,0.31
+2019,Basilicata,Imbianchino,0.49
+2019,Basilicata,Installazione zanzariera,0.1
+2019,Basilicata,Sgombero cantine e soffitte,0.1
+2019,Calabria,Aria Condizionata,0.47
+2019,Calabria,Imbianchino,0.37
+2019,Calabria,Installazione zanzariera,0.09
+2019,Calabria,Sgombero cantine e soffitte,0.07
+2019,Campania,Aria Condizionata,0.52
+2019,Campania,Imbianchino,0.34
+2019,Campania,Installazione zanzariera,0.1
+2019,Campania,Sgombero cantine e soffitte,0.04
+2019,Emilia-Romagna,Aria Condizionata,0.49
+2019,Emilia-Romagna,Imbianchino,0.35
+2019,Emilia-Romagna,Installazione zanzariera,0.11
+2019,Emilia-Romagna,Sgombero cantine e soffitte,0.05
+2019,Friuli Venezia Giulia,Aria Condizionata,0.51
+2019,Friuli Venezia Giulia,Imbianchino,0.33
+2019,Friuli Venezia Giulia,Installazione zanzariera,0.1
+2019,Friuli Venezia Giulia,Sgombero cantine e soffitte,0.06
+2019,Italia,Aria Condizionata,0.5
+2019,Italia,Imbianchino,0.35
+2019,Italia,Installazione zanzariera,0.1
+2019,Italia,Sgombero cantine e soffitte,0.05
+2019,Lazio,Aria Condizionata,0.49
+2019,Lazio,Imbianchino,0.35
+2019,Lazio,Installazione zanzariera,0.09
+2019,Lazio,Sgombero cantine e soffitte,0.07
+2019,Liguria,Aria Condizionata,0.62
+2019,Liguria,Imbianchino,0.23
+2019,Liguria,Installazione zanzariera,0.1
+2019,Liguria,Sgombero cantine e soffitte,0.05
+2019,Lombardia,Aria Condizionata,0.49
+2019,Lombardia,Imbianchino,0.36
+2019,Lombardia,Installazione zanzariera,0.11
+2019,Lombardia,Sgombero cantine e soffitte,0.03
+2019,Marche,Aria Condizionata,0.45
+2019,Marche,Imbianchino,0.36
+2019,Marche,Installazione zanzariera,0.12
+2019,Marche,Sgombero cantine e soffitte,0.07
+2019,Molise,Aria Condizionata,0.45
+2019,Molise,Imbianchino,0.36
+2019,Molise,Installazione zanzariera,0.13
+2019,Molise,Sgombero cantine e soffitte,0.06
+2019,Piemonte,Aria Condizionata,0.52
+2019,Piemonte,Imbianchino,0.35
+2019,Piemonte,Installazione zanzariera,0.07
+2019,Piemonte,Sgombero cantine e soffitte,0.06
+2019,Sardegna,Aria Condizionata,0.61
+2019,Sardegna,Imbianchino,0.26
+2019,Sardegna,Installazione zanzariera,0.09
+2019,Sardegna,Sgombero cantine e soffitte,0.04
+2019,Sicilia,Aria Condizionata,0.56
+2019,Sicilia,Imbianchino,0.33
+2019,Sicilia,Installazione zanzariera,0.09
+2019,Sicilia,Sgombero cantine e soffitte,0.02
+2019,Trentino-Alto Adige,Aria Condizionata,0.48
+2019,Trentino-Alto Adige,Imbianchino,0.38
+2019,Trentino-Alto Adige,Installazione zanzariera,0.09
+2019,Trentino-Alto Adige,Sgombero cantine e soffitte,0.06
+2019,Toscana,Aria Condizionata,0.53
+2019,Toscana,Imbianchino,0.31
+2019,Toscana,Installazione zanzariera,0.1
+2019,Toscana,Sgombero cantine e soffitte,0.06
+2019,Umbria,Aria Condizionata,0.43
+2019,Umbria,Imbianchino,0.39
+2019,Umbria,Installazione zanzariera,0.1
+2019,Umbria,Sgombero cantine e soffitte,0.08
+2019,Veneto,Aria Condizionata,0.48
+2019,Veneto,Imbianchino,0.39
+2019,Veneto,Installazione zanzariera,0.1
+2019,Veneto,Sgombero cantine e soffitte,0.03
+2020,Abruzzo,Aria Condizionata,0.39
+2020,Abruzzo,Imbianchino,0.37
+2020,Abruzzo,Installazione zanzariera,0.18
+2020,Abruzzo,Sgombero cantine e soffitte,0.06
+2020,Valle d'Aosta,Aria Condizionata,0.44
+2020,Valle d'Aosta,Imbianchino,0.32
+2020,Valle d'Aosta,Installazione zanzariera,0.21
+2020,Valle d'Aosta,Sgombero cantine e soffitte,0.03
+2020,Puglia,Aria Condizionata,0.39
+2020,Puglia,Imbianchino,0.37
+2020,Puglia,Installazione zanzariera,0.19
+2020,Puglia,Sgombero cantine e soffitte,0.05
+2020,Basilicata,Aria Condizionata,0.28
+2020,Basilicata,Imbianchino,0.37
+2020,Basilicata,Installazione zanzariera,0.27
+2020,Basilicata,Sgombero cantine e soffitte,0.08
+2020,Calabria,Aria Condizionata,0.38
+2020,Calabria,Imbianchino,0.34
+2020,Calabria,Installazione zanzariera,0.24
+2020,Calabria,Sgombero cantine e soffitte,0.05
+2020,Campania,Aria Condizionata,0.45
+2020,Campania,Imbianchino,0.34
+2020,Campania,Installazione zanzariera,0.17
+2020,Campania,Sgombero cantine e soffitte,0.04
+2020,Emilia-Romagna,Aria Condizionata,0.47
+2020,Emilia-Romagna,Imbianchino,0.33
+2020,Emilia-Romagna,Installazione zanzariera,0.16
+2020,Emilia-Romagna,Sgombero cantine e soffitte,0.04
+2020,Friuli Venezia Giulia,Aria Condizionata,0.43
+2020,Friuli Venezia Giulia,Imbianchino,0.36
+2020,Friuli Venezia Giulia,Installazione zanzariera,0.14
+2020,Friuli Venezia Giulia,Sgombero cantine e soffitte,0.06
+2020,Italia,Aria Condizionata,0.47
+2020,Italia,Imbianchino,0.32
+2020,Italia,Installazione zanzariera,0.17
+2020,Italia,Sgombero cantine e soffitte,0.05
+2020,Lazio,Aria Condizionata,0.43
+2020,Lazio,Imbianchino,0.31
+2020,Lazio,Installazione zanzariera,0.18
+2020,Lazio,Sgombero cantine e soffitte,0.08
+2020,Liguria,Aria Condizionata,0.51
+2020,Liguria,Imbianchino,0.26
+2020,Liguria,Installazione zanzariera,0.16
+2020,Liguria,Sgombero cantine e soffitte,0.06
+2020,Lombardia,Aria Condizionata,0.5
+2020,Lombardia,Imbianchino,0.3
+2020,Lombardia,Installazione zanzariera,0.16
+2020,Lombardia,Sgombero cantine e soffitte,0.04
+2020,Marche,Aria Condizionata,0.38
+2020,Marche,Imbianchino,0.35
+2020,Marche,Installazione zanzariera,0.2
+2020,Marche,Sgombero cantine e soffitte,0.07
+2020,Molise,Aria Condizionata,0.36
+2020,Molise,Imbianchino,0.45
+2020,Molise,Installazione zanzariera,0.16
+2020,Molise,Sgombero cantine e soffitte,0.03
+2020,Piemonte,Aria Condizionata,0.5
+2020,Piemonte,Imbianchino,0.31
+2020,Piemonte,Installazione zanzariera,0.13
+2020,Piemonte,Sgombero cantine e soffitte,0.06
+2020,Sardegna,Aria Condizionata,0.52
+2020,Sardegna,Imbianchino,0.27
+2020,Sardegna,Installazione zanzariera,0.18
+2020,Sardegna,Sgombero cantine e soffitte,0.04
+2020,Sicilia,Aria Condizionata,0.47
+2020,Sicilia,Imbianchino,0.31
+2020,Sicilia,Installazione zanzariera,0.19
+2020,Sicilia,Sgombero cantine e soffitte,0.02
+2020,Trentino-Alto Adige,Aria Condizionata,0.48
+2020,Trentino-Alto Adige,Imbianchino,0.31
+2020,Trentino-Alto Adige,Installazione zanzariera,0.16
+2020,Trentino-Alto Adige,Sgombero cantine e soffitte,0.04
+2020,Toscana,Aria Condizionata,0.49
+2020,Toscana,Imbianchino,0.28
+2020,Toscana,Installazione zanzariera,0.17
+2020,Toscana,Sgombero cantine e soffitte,0.05
+2020,Umbria,Aria Condizionata,0.38
+2020,Umbria,Imbianchino,0.3
+2020,Umbria,Installazione zanzariera,0.23
+2020,Umbria,Sgombero cantine e soffitte,0.09
+2020,Veneto,Aria Condizionata,0.42
+2020,Veneto,Imbianchino,0.41
+2020,Veneto,Installazione zanzariera,0.14
+2020,Veneto,Sgombero cantine e soffitte,0.03

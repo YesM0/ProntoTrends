@@ -1,0 +1,556 @@
+Year,ticket_geo_region_name,Food_type,Distribution
+2018,Alsace,mariage traiteur,0.54
+2018,Alsace,vegan mariage ,0.0
+2018,Alsace,poisson mariage ,0.0
+2018,Alsace,buffet mariage,0.0
+2018,Alsace,gateau mariage,0.46
+2018,Alsace,mariage champagne,0.0
+2018,Alsace,viande mariage ,0.0
+2018,Alsace,mariage cocktail,0.0
+2018,Aquitaine,vegan mariage ,0.0
+2018,Aquitaine,gateau mariage,0.43
+2018,Aquitaine,poisson mariage ,0.0
+2018,Aquitaine,buffet mariage,0.18
+2018,Aquitaine,mariage traiteur,0.19
+2018,Aquitaine,mariage champagne,0.0
+2018,Aquitaine,viande mariage ,0.0
+2018,Aquitaine,mariage cocktail,0.2
+2018,Auvergne,vegan mariage ,0.0
+2018,Auvergne,gateau mariage,0.4
+2018,Auvergne,poisson mariage ,0.0
+2018,Auvergne,buffet mariage,0.0
+2018,Auvergne,mariage traiteur,0.6
+2018,Auvergne,mariage champagne,0.0
+2018,Auvergne,viande mariage ,0.0
+2018,Auvergne,mariage cocktail,0.0
+2018,Bretagne,vegan mariage ,0.0
+2018,Bretagne,gateau mariage,0.28
+2018,Bretagne,poisson mariage ,0.0
+2018,Bretagne,buffet mariage,0.0
+2018,Bretagne,mariage traiteur,0.42
+2018,Bretagne,mariage champagne,0.0
+2018,Bretagne,viande mariage ,0.0
+2018,Bretagne,mariage cocktail,0.3
+2018,Bourgogne,mariage traiteur,0.56
+2018,Bourgogne,vegan mariage ,0.0
+2018,Bourgogne,poisson mariage ,0.0
+2018,Bourgogne,buffet mariage,0.0
+2018,Bourgogne,gateau mariage,0.44
+2018,Bourgogne,mariage champagne,0.0
+2018,Bourgogne,viande mariage ,0.0
+2018,Bourgogne,mariage cocktail,0.0
+2018,Centre-Val de Loire,vegan mariage ,0.0
+2018,Centre-Val de Loire,gateau mariage,0.47
+2018,Centre-Val de Loire,poisson mariage ,0.0
+2018,Centre-Val de Loire,buffet mariage,0.0
+2018,Centre-Val de Loire,mariage traiteur,0.25
+2018,Centre-Val de Loire,mariage champagne,0.0
+2018,Centre-Val de Loire,viande mariage ,0.0
+2018,Centre-Val de Loire,mariage cocktail,0.28
+2018,Champagne-Ardenne,mariage traiteur,0.1
+2018,Champagne-Ardenne,vegan mariage ,0.0
+2018,Champagne-Ardenne,poisson mariage ,0.0
+2018,Champagne-Ardenne,buffet mariage,0.0
+2018,Champagne-Ardenne,gateau mariage,0.36
+2018,Champagne-Ardenne,mariage champagne,0.55
+2018,Champagne-Ardenne,viande mariage ,0.0
+2018,Champagne-Ardenne,mariage cocktail,0.0
+2018,Corse,mariage traiteur,0.0
+2018,Corse,vegan mariage ,0.0
+2018,Corse,gateau mariage_x,0.0
+2018,Corse,poisson mariage ,0.0
+2018,Corse,buffet mariage,0.0
+2018,Corse,gateau mariage_y,0.0
+2018,Corse,mariage champagne,0.0
+2018,Corse,viande mariage ,0.0
+2018,Corse,mariage cocktail,0.0
+2018,France,mariage traiteur,0.3
+2018,France,vegan mariage ,0.01
+2018,France,poisson mariage ,0.02
+2018,France,buffet mariage,0.07
+2018,France,gateau mariage,0.28
+2018,France,mariage champagne,0.09
+2018,France,viande mariage ,0.02
+2018,France,mariage cocktail,0.22
+2018,Franche-Comté,mariage traiteur,0.49
+2018,Franche-Comté,vegan mariage ,0.0
+2018,Franche-Comté,poisson mariage ,0.0
+2018,Franche-Comté,buffet mariage,0.0
+2018,Franche-Comté,gateau mariage,0.51
+2018,Franche-Comté,mariage champagne,0.0
+2018,Franche-Comté,viande mariage ,0.0
+2018,Franche-Comté,mariage cocktail,0.0
+2018,Languedoc-Roussillon,mariage traiteur,0.4
+2018,Languedoc-Roussillon,vegan mariage ,0.0
+2018,Languedoc-Roussillon,poisson mariage ,0.0
+2018,Languedoc-Roussillon,buffet mariage,0.0
+2018,Languedoc-Roussillon,gateau mariage,0.35
+2018,Languedoc-Roussillon,mariage champagne,0.0
+2018,Languedoc-Roussillon,viande mariage ,0.0
+2018,Languedoc-Roussillon,mariage cocktail,0.24
+2018,Limousin,vegan mariage ,0.0
+2018,Limousin,gateau mariage,0.24
+2018,Limousin,poisson mariage ,0.0
+2018,Limousin,buffet mariage,0.0
+2018,Limousin,mariage traiteur,0.76
+2018,Limousin,mariage champagne,0.0
+2018,Limousin,viande mariage ,0.0
+2018,Limousin,mariage cocktail,0.0
+2018,Lorraine,vegan mariage ,0.0
+2018,Lorraine,gateau mariage,0.56
+2018,Lorraine,poisson mariage ,0.0
+2018,Lorraine,buffet mariage,0.0
+2018,Lorraine,mariage traiteur,0.44
+2018,Lorraine,mariage champagne,0.0
+2018,Lorraine,viande mariage ,0.0
+2018,Lorraine,mariage cocktail,0.0
+2018,Basse Normandie,mariage traiteur,0.48
+2018,Basse Normandie,vegan mariage ,0.0
+2018,Basse Normandie,poisson mariage ,0.0
+2018,Basse Normandie,buffet mariage,0.0
+2018,Basse Normandie,gateau mariage,0.52
+2018,Basse Normandie,mariage champagne,0.0
+2018,Basse Normandie,viande mariage ,0.0
+2018,Basse Normandie,mariage cocktail,0.0
+2018,Midi-Pyrénées,vegan mariage ,0.0
+2018,Midi-Pyrénées,gateau mariage,0.42
+2018,Midi-Pyrénées,poisson mariage ,0.0
+2018,Midi-Pyrénées,buffet mariage,0.09
+2018,Midi-Pyrénées,mariage traiteur,0.29
+2018,Midi-Pyrénées,mariage champagne,0.0
+2018,Midi-Pyrénées,viande mariage ,0.0
+2018,Midi-Pyrénées,mariage cocktail,0.2
+2018,Nord-Pas-de-Calais,vegan mariage ,0.0
+2018,Nord-Pas-de-Calais,gateau mariage,0.32
+2018,Nord-Pas-de-Calais,poisson mariage ,0.0
+2018,Nord-Pas-de-Calais,buffet mariage,0.12
+2018,Nord-Pas-de-Calais,mariage traiteur,0.31
+2018,Nord-Pas-de-Calais,mariage champagne,0.06
+2018,Nord-Pas-de-Calais,viande mariage ,0.0
+2018,Nord-Pas-de-Calais,mariage cocktail,0.2
+2018,Pays de la Loire,vegan mariage ,0.0
+2018,Pays de la Loire,gateau mariage,0.31
+2018,Pays de la Loire,poisson mariage ,0.0
+2018,Pays de la Loire,buffet mariage,0.09
+2018,Pays de la Loire,mariage traiteur,0.37
+2018,Pays de la Loire,mariage champagne,0.0
+2018,Pays de la Loire,viande mariage ,0.0
+2018,Pays de la Loire,mariage cocktail,0.24
+2018,Picardie,mariage traiteur,0.45
+2018,Picardie,vegan mariage ,0.0
+2018,Picardie,poisson mariage ,0.0
+2018,Picardie,buffet mariage,0.0
+2018,Picardie,gateau mariage,0.55
+2018,Picardie,mariage champagne,0.0
+2018,Picardie,viande mariage ,0.0
+2018,Picardie,mariage cocktail,0.0
+2018,Poitou-Charentes,mariage traiteur,0.75
+2018,Poitou-Charentes,vegan mariage ,0.0
+2018,Poitou-Charentes,poisson mariage ,0.0
+2018,Poitou-Charentes,buffet mariage,0.0
+2018,Poitou-Charentes,gateau mariage,0.25
+2018,Poitou-Charentes,mariage champagne,0.0
+2018,Poitou-Charentes,viande mariage ,0.0
+2018,Poitou-Charentes,mariage cocktail,0.0
+2018,Provence-Alpes-Côte d'Azur,vegan mariage ,0.0
+2018,Provence-Alpes-Côte d'Azur,gateau mariage,0.27
+2018,Provence-Alpes-Côte d'Azur,poisson mariage ,0.0
+2018,Provence-Alpes-Côte d'Azur,buffet mariage,0.1
+2018,Provence-Alpes-Côte d'Azur,mariage traiteur,0.29
+2018,Provence-Alpes-Côte d'Azur,mariage champagne,0.1
+2018,Provence-Alpes-Côte d'Azur,viande mariage ,0.0
+2018,Provence-Alpes-Côte d'Azur,mariage cocktail,0.24
+2018,Rhône-Alpes,vegan mariage ,0.0
+2018,Rhône-Alpes,gateau mariage,0.27
+2018,Rhône-Alpes,poisson mariage ,0.0
+2018,Rhône-Alpes,buffet mariage,0.08
+2018,Rhône-Alpes,mariage traiteur,0.3
+2018,Rhône-Alpes,mariage champagne,0.09
+2018,Rhône-Alpes,viande mariage ,0.0
+2018,Rhône-Alpes,mariage cocktail,0.26
+2018,Rhône-Alpes,mariage traiteur,0.5
+2018,Rhône-Alpes,vegan mariage ,0.0
+2018,Rhône-Alpes,poisson mariage ,0.0
+2018,Rhône-Alpes,buffet mariage,0.0
+2018,Rhône-Alpes,gateau mariage,0.5
+2018,Rhône-Alpes,mariage champagne,0.0
+2018,Rhône-Alpes,viande mariage ,0.0
+2018,Rhône-Alpes,mariage cocktail,0.0
+2018,Île-de-France,vegan mariage ,0.0
+2018,Île-de-France,gateau mariage,0.29
+2018,Île-de-France,poisson mariage ,0.02
+2018,Île-de-France,buffet mariage,0.08
+2018,Île-de-France,mariage traiteur,0.28
+2018,Île-de-France,mariage champagne,0.1
+2018,Île-de-France,viande mariage ,0.03
+2018,Île-de-France,mariage cocktail,0.2
+2019,Alsace,mariage traiteur,0.56
+2019,Alsace,vegan mariage ,0.0
+2019,Alsace,poisson mariage ,0.0
+2019,Alsace,buffet mariage,0.0
+2019,Alsace,gateau mariage,0.44
+2019,Alsace,mariage champagne,0.0
+2019,Alsace,viande mariage ,0.0
+2019,Alsace,mariage cocktail,0.0
+2019,Aquitaine,vegan mariage ,0.0
+2019,Aquitaine,gateau mariage,0.46
+2019,Aquitaine,poisson mariage ,0.0
+2019,Aquitaine,buffet mariage,0.14
+2019,Aquitaine,mariage traiteur,0.25
+2019,Aquitaine,mariage champagne,0.0
+2019,Aquitaine,viande mariage ,0.0
+2019,Aquitaine,mariage cocktail,0.15
+2019,Auvergne,vegan mariage ,0.0
+2019,Auvergne,gateau mariage,0.5
+2019,Auvergne,poisson mariage ,0.0
+2019,Auvergne,buffet mariage,0.0
+2019,Auvergne,mariage traiteur,0.5
+2019,Auvergne,mariage champagne,0.0
+2019,Auvergne,viande mariage ,0.0
+2019,Auvergne,mariage cocktail,0.0
+2019,Bretagne,vegan mariage ,0.0
+2019,Bretagne,gateau mariage,0.25
+2019,Bretagne,poisson mariage ,0.0
+2019,Bretagne,buffet mariage,0.0
+2019,Bretagne,mariage traiteur,0.51
+2019,Bretagne,mariage champagne,0.0
+2019,Bretagne,viande mariage ,0.0
+2019,Bretagne,mariage cocktail,0.24
+2019,Bourgogne,mariage traiteur,0.74
+2019,Bourgogne,vegan mariage ,0.0
+2019,Bourgogne,poisson mariage ,0.0
+2019,Bourgogne,buffet mariage,0.0
+2019,Bourgogne,gateau mariage,0.26
+2019,Bourgogne,mariage champagne,0.0
+2019,Bourgogne,viande mariage ,0.0
+2019,Bourgogne,mariage cocktail,0.0
+2019,Centre-Val de Loire,vegan mariage ,0.0
+2019,Centre-Val de Loire,gateau mariage,0.49
+2019,Centre-Val de Loire,poisson mariage ,0.0
+2019,Centre-Val de Loire,buffet mariage,0.0
+2019,Centre-Val de Loire,mariage traiteur,0.33
+2019,Centre-Val de Loire,mariage champagne,0.0
+2019,Centre-Val de Loire,viande mariage ,0.0
+2019,Centre-Val de Loire,mariage cocktail,0.18
+2019,Champagne-Ardenne,mariage traiteur,0.09
+2019,Champagne-Ardenne,vegan mariage ,0.0
+2019,Champagne-Ardenne,poisson mariage ,0.0
+2019,Champagne-Ardenne,buffet mariage,0.0
+2019,Champagne-Ardenne,gateau mariage,0.24
+2019,Champagne-Ardenne,mariage champagne,0.66
+2019,Champagne-Ardenne,viande mariage ,0.0
+2019,Champagne-Ardenne,mariage cocktail,0.0
+2019,Corse,mariage traiteur,0.0
+2019,Corse,vegan mariage ,0.0
+2019,Corse,gateau mariage_x,0.0
+2019,Corse,poisson mariage ,0.0
+2019,Corse,buffet mariage,0.0
+2019,Corse,gateau mariage_y,0.0
+2019,Corse,mariage champagne,0.0
+2019,Corse,viande mariage ,0.0
+2019,Corse,mariage cocktail,0.0
+2019,France,mariage traiteur,0.34
+2019,France,vegan mariage ,0.01
+2019,France,poisson mariage ,0.02
+2019,France,buffet mariage,0.07
+2019,France,gateau mariage,0.27
+2019,France,mariage champagne,0.08
+2019,France,viande mariage ,0.02
+2019,France,mariage cocktail,0.18
+2019,Franche-Comté,mariage traiteur,0.52
+2019,Franche-Comté,vegan mariage ,0.0
+2019,Franche-Comté,poisson mariage ,0.0
+2019,Franche-Comté,buffet mariage,0.0
+2019,Franche-Comté,gateau mariage,0.48
+2019,Franche-Comté,mariage champagne,0.0
+2019,Franche-Comté,viande mariage ,0.0
+2019,Franche-Comté,mariage cocktail,0.0
+2019,Languedoc-Roussillon,mariage traiteur,0.43
+2019,Languedoc-Roussillon,vegan mariage ,0.0
+2019,Languedoc-Roussillon,poisson mariage ,0.0
+2019,Languedoc-Roussillon,buffet mariage,0.0
+2019,Languedoc-Roussillon,gateau mariage,0.28
+2019,Languedoc-Roussillon,mariage champagne,0.0
+2019,Languedoc-Roussillon,viande mariage ,0.0
+2019,Languedoc-Roussillon,mariage cocktail,0.29
+2019,Limousin,vegan mariage ,0.0
+2019,Limousin,gateau mariage,0.3
+2019,Limousin,poisson mariage ,0.0
+2019,Limousin,buffet mariage,0.0
+2019,Limousin,mariage traiteur,0.7
+2019,Limousin,mariage champagne,0.0
+2019,Limousin,viande mariage ,0.0
+2019,Limousin,mariage cocktail,0.0
+2019,Lorraine,vegan mariage ,0.0
+2019,Lorraine,gateau mariage,0.55
+2019,Lorraine,poisson mariage ,0.0
+2019,Lorraine,buffet mariage,0.0
+2019,Lorraine,mariage traiteur,0.45
+2019,Lorraine,mariage champagne,0.0
+2019,Lorraine,viande mariage ,0.0
+2019,Lorraine,mariage cocktail,0.0
+2019,Basse Normandie,mariage traiteur,0.48
+2019,Basse Normandie,vegan mariage ,0.0
+2019,Basse Normandie,poisson mariage ,0.0
+2019,Basse Normandie,buffet mariage,0.0
+2019,Basse Normandie,gateau mariage,0.52
+2019,Basse Normandie,mariage champagne,0.0
+2019,Basse Normandie,viande mariage ,0.0
+2019,Basse Normandie,mariage cocktail,0.0
+2019,Midi-Pyrénées,vegan mariage ,0.0
+2019,Midi-Pyrénées,gateau mariage,0.38
+2019,Midi-Pyrénées,poisson mariage ,0.0
+2019,Midi-Pyrénées,buffet mariage,0.13
+2019,Midi-Pyrénées,mariage traiteur,0.29
+2019,Midi-Pyrénées,mariage champagne,0.0
+2019,Midi-Pyrénées,viande mariage ,0.0
+2019,Midi-Pyrénées,mariage cocktail,0.21
+2019,Nord-Pas-de-Calais,vegan mariage ,0.0
+2019,Nord-Pas-de-Calais,gateau mariage,0.28
+2019,Nord-Pas-de-Calais,poisson mariage ,0.0
+2019,Nord-Pas-de-Calais,buffet mariage,0.12
+2019,Nord-Pas-de-Calais,mariage traiteur,0.32
+2019,Nord-Pas-de-Calais,mariage champagne,0.07
+2019,Nord-Pas-de-Calais,viande mariage ,0.0
+2019,Nord-Pas-de-Calais,mariage cocktail,0.22
+2019,Pays de la Loire,vegan mariage ,0.0
+2019,Pays de la Loire,gateau mariage,0.26
+2019,Pays de la Loire,poisson mariage ,0.0
+2019,Pays de la Loire,buffet mariage,0.09
+2019,Pays de la Loire,mariage traiteur,0.42
+2019,Pays de la Loire,mariage champagne,0.0
+2019,Pays de la Loire,viande mariage ,0.0
+2019,Pays de la Loire,mariage cocktail,0.23
+2019,Picardie,mariage traiteur,0.56
+2019,Picardie,vegan mariage ,0.0
+2019,Picardie,poisson mariage ,0.0
+2019,Picardie,buffet mariage,0.0
+2019,Picardie,gateau mariage,0.44
+2019,Picardie,mariage champagne,0.0
+2019,Picardie,viande mariage ,0.0
+2019,Picardie,mariage cocktail,0.0
+2019,Poitou-Charentes,mariage traiteur,0.78
+2019,Poitou-Charentes,vegan mariage ,0.0
+2019,Poitou-Charentes,poisson mariage ,0.0
+2019,Poitou-Charentes,buffet mariage,0.0
+2019,Poitou-Charentes,gateau mariage,0.22
+2019,Poitou-Charentes,mariage champagne,0.0
+2019,Poitou-Charentes,viande mariage ,0.0
+2019,Poitou-Charentes,mariage cocktail,0.0
+2019,Provence-Alpes-Côte d'Azur,vegan mariage ,0.0
+2019,Provence-Alpes-Côte d'Azur,gateau mariage,0.28
+2019,Provence-Alpes-Côte d'Azur,poisson mariage ,0.0
+2019,Provence-Alpes-Côte d'Azur,buffet mariage,0.1
+2019,Provence-Alpes-Côte d'Azur,mariage traiteur,0.28
+2019,Provence-Alpes-Côte d'Azur,mariage champagne,0.08
+2019,Provence-Alpes-Côte d'Azur,viande mariage ,0.0
+2019,Provence-Alpes-Côte d'Azur,mariage cocktail,0.25
+2019,Rhône-Alpes,vegan mariage ,0.0
+2019,Rhône-Alpes,gateau mariage,0.25
+2019,Rhône-Alpes,poisson mariage ,0.0
+2019,Rhône-Alpes,buffet mariage,0.08
+2019,Rhône-Alpes,mariage traiteur,0.35
+2019,Rhône-Alpes,mariage champagne,0.11
+2019,Rhône-Alpes,viande mariage ,0.0
+2019,Rhône-Alpes,mariage cocktail,0.21
+2019,Rhône-Alpes,mariage traiteur,0.54
+2019,Rhône-Alpes,vegan mariage ,0.0
+2019,Rhône-Alpes,poisson mariage ,0.0
+2019,Rhône-Alpes,buffet mariage,0.0
+2019,Rhône-Alpes,gateau mariage,0.46
+2019,Rhône-Alpes,mariage champagne,0.0
+2019,Rhône-Alpes,viande mariage ,0.0
+2019,Rhône-Alpes,mariage cocktail,0.0
+2019,Île-de-France,vegan mariage ,0.0
+2019,Île-de-France,gateau mariage,0.29
+2019,Île-de-France,poisson mariage ,0.04
+2019,Île-de-France,buffet mariage,0.08
+2019,Île-de-France,mariage traiteur,0.31
+2019,Île-de-France,mariage champagne,0.09
+2019,Île-de-France,viande mariage ,0.02
+2019,Île-de-France,mariage cocktail,0.18
+2020,Alsace,mariage traiteur,0.57
+2020,Alsace,vegan mariage ,0.0
+2020,Alsace,poisson mariage ,0.0
+2020,Alsace,buffet mariage,0.0
+2020,Alsace,gateau mariage,0.43
+2020,Alsace,mariage champagne,0.0
+2020,Alsace,viande mariage ,0.0
+2020,Alsace,mariage cocktail,0.0
+2020,Aquitaine,vegan mariage ,0.0
+2020,Aquitaine,gateau mariage,0.44
+2020,Aquitaine,poisson mariage ,0.0
+2020,Aquitaine,buffet mariage,0.22
+2020,Aquitaine,mariage traiteur,0.22
+2020,Aquitaine,mariage champagne,0.0
+2020,Aquitaine,viande mariage ,0.0
+2020,Aquitaine,mariage cocktail,0.12
+2020,Auvergne,vegan mariage ,0.0
+2020,Auvergne,gateau mariage,0.46
+2020,Auvergne,poisson mariage ,0.0
+2020,Auvergne,buffet mariage,0.0
+2020,Auvergne,mariage traiteur,0.54
+2020,Auvergne,mariage champagne,0.0
+2020,Auvergne,viande mariage ,0.0
+2020,Auvergne,mariage cocktail,0.0
+2020,Bretagne,vegan mariage ,0.0
+2020,Bretagne,gateau mariage,0.12
+2020,Bretagne,poisson mariage ,0.0
+2020,Bretagne,buffet mariage,0.0
+2020,Bretagne,mariage traiteur,0.67
+2020,Bretagne,mariage champagne,0.0
+2020,Bretagne,viande mariage ,0.0
+2020,Bretagne,mariage cocktail,0.21
+2020,Bourgogne,mariage traiteur,0.73
+2020,Bourgogne,vegan mariage ,0.0
+2020,Bourgogne,poisson mariage ,0.0
+2020,Bourgogne,buffet mariage,0.0
+2020,Bourgogne,gateau mariage,0.27
+2020,Bourgogne,mariage champagne,0.0
+2020,Bourgogne,viande mariage ,0.0
+2020,Bourgogne,mariage cocktail,0.0
+2020,Centre-Val de Loire,vegan mariage ,0.0
+2020,Centre-Val de Loire,gateau mariage,0.38
+2020,Centre-Val de Loire,poisson mariage ,0.0
+2020,Centre-Val de Loire,buffet mariage,0.0
+2020,Centre-Val de Loire,mariage traiteur,0.46
+2020,Centre-Val de Loire,mariage champagne,0.0
+2020,Centre-Val de Loire,viande mariage ,0.0
+2020,Centre-Val de Loire,mariage cocktail,0.16
+2020,Champagne-Ardenne,mariage traiteur,0.07
+2020,Champagne-Ardenne,vegan mariage ,0.0
+2020,Champagne-Ardenne,poisson mariage ,0.0
+2020,Champagne-Ardenne,buffet mariage,0.0
+2020,Champagne-Ardenne,gateau mariage,0.19
+2020,Champagne-Ardenne,mariage champagne,0.74
+2020,Champagne-Ardenne,viande mariage ,0.0
+2020,Champagne-Ardenne,mariage cocktail,0.0
+2020,Corse,mariage traiteur,0.0
+2020,Corse,vegan mariage ,0.0
+2020,Corse,gateau mariage_x,0.0
+2020,Corse,poisson mariage ,0.0
+2020,Corse,buffet mariage,0.0
+2020,Corse,gateau mariage_y,0.0
+2020,Corse,mariage champagne,0.0
+2020,Corse,viande mariage ,0.0
+2020,Corse,mariage cocktail,0.0
+2020,France,mariage traiteur,0.29
+2020,France,vegan mariage ,0.01
+2020,France,poisson mariage ,0.02
+2020,France,buffet mariage,0.13
+2020,France,gateau mariage,0.26
+2020,France,mariage champagne,0.09
+2020,France,viande mariage ,0.01
+2020,France,mariage cocktail,0.2
+2020,Franche-Comté,mariage traiteur,0.6
+2020,Franche-Comté,vegan mariage ,0.0
+2020,Franche-Comté,poisson mariage ,0.0
+2020,Franche-Comté,buffet mariage,0.0
+2020,Franche-Comté,gateau mariage,0.4
+2020,Franche-Comté,mariage champagne,0.0
+2020,Franche-Comté,viande mariage ,0.0
+2020,Franche-Comté,mariage cocktail,0.0
+2020,Languedoc-Roussillon,mariage traiteur,0.41
+2020,Languedoc-Roussillon,vegan mariage ,0.0
+2020,Languedoc-Roussillon,poisson mariage ,0.0
+2020,Languedoc-Roussillon,buffet mariage,0.0
+2020,Languedoc-Roussillon,gateau mariage,0.32
+2020,Languedoc-Roussillon,mariage champagne,0.0
+2020,Languedoc-Roussillon,viande mariage ,0.0
+2020,Languedoc-Roussillon,mariage cocktail,0.27
+2020,Limousin,vegan mariage ,0.0
+2020,Limousin,gateau mariage,0.15
+2020,Limousin,poisson mariage ,0.0
+2020,Limousin,buffet mariage,0.0
+2020,Limousin,mariage traiteur,0.85
+2020,Limousin,mariage champagne,0.0
+2020,Limousin,viande mariage ,0.0
+2020,Limousin,mariage cocktail,0.0
+2020,Lorraine,vegan mariage ,0.0
+2020,Lorraine,gateau mariage,0.32
+2020,Lorraine,poisson mariage ,0.0
+2020,Lorraine,buffet mariage,0.0
+2020,Lorraine,mariage traiteur,0.68
+2020,Lorraine,mariage champagne,0.0
+2020,Lorraine,viande mariage ,0.0
+2020,Lorraine,mariage cocktail,0.0
+2020,Basse Normandie,mariage traiteur,0.65
+2020,Basse Normandie,vegan mariage ,0.0
+2020,Basse Normandie,poisson mariage ,0.0
+2020,Basse Normandie,buffet mariage,0.0
+2020,Basse Normandie,gateau mariage,0.35
+2020,Basse Normandie,mariage champagne,0.0
+2020,Basse Normandie,viande mariage ,0.0
+2020,Basse Normandie,mariage cocktail,0.0
+2020,Midi-Pyrénées,vegan mariage ,0.0
+2020,Midi-Pyrénées,gateau mariage,0.32
+2020,Midi-Pyrénées,poisson mariage ,0.0
+2020,Midi-Pyrénées,buffet mariage,0.2
+2020,Midi-Pyrénées,mariage traiteur,0.32
+2020,Midi-Pyrénées,mariage champagne,0.0
+2020,Midi-Pyrénées,viande mariage ,0.0
+2020,Midi-Pyrénées,mariage cocktail,0.15
+2020,Nord-Pas-de-Calais,vegan mariage ,0.0
+2020,Nord-Pas-de-Calais,gateau mariage,0.21
+2020,Nord-Pas-de-Calais,poisson mariage ,0.0
+2020,Nord-Pas-de-Calais,buffet mariage,0.13
+2020,Nord-Pas-de-Calais,mariage traiteur,0.32
+2020,Nord-Pas-de-Calais,mariage champagne,0.11
+2020,Nord-Pas-de-Calais,viande mariage ,0.0
+2020,Nord-Pas-de-Calais,mariage cocktail,0.23
+2020,Pays de la Loire,vegan mariage ,0.0
+2020,Pays de la Loire,gateau mariage,0.18
+2020,Pays de la Loire,poisson mariage ,0.0
+2020,Pays de la Loire,buffet mariage,0.1
+2020,Pays de la Loire,mariage traiteur,0.45
+2020,Pays de la Loire,mariage champagne,0.0
+2020,Pays de la Loire,viande mariage ,0.0
+2020,Pays de la Loire,mariage cocktail,0.27
+2020,Picardie,mariage traiteur,0.68
+2020,Picardie,vegan mariage ,0.0
+2020,Picardie,poisson mariage ,0.0
+2020,Picardie,buffet mariage,0.0
+2020,Picardie,gateau mariage,0.32
+2020,Picardie,mariage champagne,0.0
+2020,Picardie,viande mariage ,0.0
+2020,Picardie,mariage cocktail,0.0
+2020,Poitou-Charentes,mariage traiteur,0.79
+2020,Poitou-Charentes,vegan mariage ,0.0
+2020,Poitou-Charentes,poisson mariage ,0.0
+2020,Poitou-Charentes,buffet mariage,0.0
+2020,Poitou-Charentes,gateau mariage,0.21
+2020,Poitou-Charentes,mariage champagne,0.0
+2020,Poitou-Charentes,viande mariage ,0.0
+2020,Poitou-Charentes,mariage cocktail,0.0
+2020,Provence-Alpes-Côte d'Azur,vegan mariage ,0.0
+2020,Provence-Alpes-Côte d'Azur,gateau mariage,0.15
+2020,Provence-Alpes-Côte d'Azur,poisson mariage ,0.0
+2020,Provence-Alpes-Côte d'Azur,buffet mariage,0.26
+2020,Provence-Alpes-Côte d'Azur,mariage traiteur,0.38
+2020,Provence-Alpes-Côte d'Azur,mariage champagne,0.04
+2020,Provence-Alpes-Côte d'Azur,viande mariage ,0.0
+2020,Provence-Alpes-Côte d'Azur,mariage cocktail,0.17
+2020,Rhône-Alpes,vegan mariage ,0.0
+2020,Rhône-Alpes,gateau mariage,0.33
+2020,Rhône-Alpes,poisson mariage ,0.0
+2020,Rhône-Alpes,buffet mariage,0.07
+2020,Rhône-Alpes,mariage traiteur,0.21
+2020,Rhône-Alpes,mariage champagne,0.22
+2020,Rhône-Alpes,viande mariage ,0.0
+2020,Rhône-Alpes,mariage cocktail,0.18
+2020,Rhône-Alpes,mariage traiteur,0.54
+2020,Rhône-Alpes,vegan mariage ,0.0
+2020,Rhône-Alpes,poisson mariage ,0.0
+2020,Rhône-Alpes,buffet mariage,0.0
+2020,Rhône-Alpes,gateau mariage,0.46
+2020,Rhône-Alpes,mariage champagne,0.0
+2020,Rhône-Alpes,viande mariage ,0.0
+2020,Rhône-Alpes,mariage cocktail,0.0
+2020,Île-de-France,vegan mariage ,0.0
+2020,Île-de-France,gateau mariage,0.28
+2020,Île-de-France,poisson mariage ,0.03
+2020,Île-de-France,buffet mariage,0.14
+2020,Île-de-France,mariage traiteur,0.33
+2020,Île-de-France,mariage champagne,0.07
+2020,Île-de-France,viande mariage ,0.02
+2020,Île-de-France,mariage cocktail,0.13

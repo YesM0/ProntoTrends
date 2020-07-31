@@ -1,0 +1,16 @@
+ticket_geo_region_name,ticket_taxonomy_tag_name,year,Rank,Max,Min,Demand_factor_max_to_min
+Italia,Personal trainer,2018,1,8,11,2.9
+Italia,Aria condizionata,2018,2,4,11,6.9
+Italia,Imbianchino,2018,3,4,11,3.9
+Italia,Psicologo,2018,4,8,11,1.7
+Italia,Nutrizionista,2018,5,0,11,8.4
+Italia,Aria condizionata,2019,1,5,11,10.7
+Italia,Psicologo,2019,2,10,1,2
+Italia,Personal trainer,2019,3,0,11,2.8
+Italia,Organizzatore di feste,2019,4,8,3,2.4
+Italia,Consulente per l'alimentazione/Nutrizionista,2019,5,4,11,2.5
+Italia,Aria condizionata,2020,1,4,2,3.8
+Italia,Psicologo,2020,2,0,4,6
+Italia,Imbianchino,2020,3,4,2,2.4
+Italia,Spedizioni,2020,4,0,3,10.1
+Italia,Personal trainer,2020,5,0,3,3

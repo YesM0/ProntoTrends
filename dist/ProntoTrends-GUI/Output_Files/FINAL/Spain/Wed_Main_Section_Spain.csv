@@ -1,0 +1,325 @@
+Year,ticket_geo_region_name,Type,sub_type,Percentage
+2018,Andalucía,Gasto,Estandar,0.63
+2018,Andalucía,Profesional más solicitado,fotógrafo de bodas,0.19
+2018,Andalucía,Tipo de ceremonia,boda civil,0.79
+2018,Andalucía,Lugar de la recepción,restaurante,0.37
+2018,Andalucía,Comida,menú de carnes,1
+2018,Andalucía,Estilo,original/alternativo,0.26
+2018,Aragón,Gasto,Premium,0.53
+2018,Aragón,Profesional más solicitado,fotógrafo de bodas,0.2
+2018,Aragón,Tipo de ceremonia,boda civil,0.79
+2018,Aragón,Lugar de la recepción,palacio/castillo,NA
+2018,Aragón,Comida,menú de carnes,1
+2018,Aragón,Estilo,tradicional,NA
+2018,Asturias,Gasto,Premium,0.57
+2018,Asturias,Profesional más solicitado,fotógrafo de bodas,0.2
+2018,Asturias,Tipo de ceremonia,boda civil,0.67
+2018,Asturias,Lugar de la recepción,palacio/castillo,1
+2018,Asturias,Comida,menú de carnes,1
+2018,Asturias,Estilo,tradicional,NA
+2018,Illes Balears,Gasto,Estandar,0.585
+2018,Illes Balears,Profesional más solicitado,fotógrafo de bodas,0.19
+2018,Illes Balears,Tipo de ceremonia,boda civil,0.79
+2018,Illes Balears,Lugar de la recepción,palacio/castillo,NA
+2018,Illes Balears,Comida,menú de carnes,NA
+2018,Illes Balears,Estilo,tradicional,NA
+2018,País Vasco,Gasto,Premium,0.533
+2018,País Vasco,Profesional más solicitado,fotógrafo de bodas,0.21
+2018,País Vasco,Tipo de ceremonia,boda civil,0.811
+2018,País Vasco,Lugar de la recepción,palacio/castillo,1
+2018,País Vasco,Comida,menú de carnes,1
+2018,País Vasco,Estilo,tradicional,NA
+2018,Islas Canarias,Gasto,Estandar,0.57
+2018,Islas Canarias,Profesional más solicitado,servicio de catering,0.19
+2018,Islas Canarias,Tipo de ceremonia,boda civil,0.79
+2018,Islas Canarias,Lugar de la recepción,finca/campo,1
+2018,Islas Canarias,Comida,menú de carnes,1
+2018,Islas Canarias,Estilo,tradicional,NA
+2018,Cantabria,Gasto,Estandar,0.56
+2018,Cantabria,Profesional más solicitado,fotógrafo de bodas,0.21
+2018,Cantabria,Tipo de ceremonia,boda civil,0.79
+2018,Cantabria,Lugar de la recepción,palacio/castillo,1
+2018,Cantabria,Comida,menú de carnes,1
+2018,Cantabria,Estilo,tradicional,NA
+2018,Castilla y León,Gasto,Estandar,0.535
+2018,Castilla y León,Profesional más solicitado,fotógrafo de bodas,0.19
+2018,Castilla y León,Tipo de ceremonia,boda civil,0.825
+2018,Castilla y León,Lugar de la recepción,palacio/castillo,0.71
+2018,Castilla y León,Comida,menú de carnes,1
+2018,Castilla y León,Estilo,tradicional,NA
+2018,Castilla-La Mancha,Gasto,Premium,0.65
+2018,Castilla-La Mancha,Profesional más solicitado,fotógrafo de bodas,0.2
+2018,Castilla-La Mancha,Tipo de ceremonia,boda civil,0.85
+2018,Castilla-La Mancha,Lugar de la recepción,finca/campo,1
+2018,Castilla-La Mancha,Comida,menú de carnes,1
+2018,Castilla-La Mancha,Estilo,tradicional,NA
+2018,Cataluña,Gasto,Estandar,0.57
+2018,Cataluña,Profesional más solicitado,wedding Planer,0.18
+2018,Cataluña,Tipo de ceremonia,boda civil,0.784
+2018,Cataluña,Lugar de la recepción,restaurante,1
+2018,Cataluña,Comida,menú de carnes,1
+2018,Cataluña,Estilo,original/alternativo,0.28
+2018,Madrid,Gasto,Premium,0.63
+2018,Madrid,Profesional más solicitado,fotógrafo de bodas,0.17
+2018,Madrid,Tipo de ceremonia,boda civil,0.864
+2018,Madrid,Lugar de la recepción,restaurante,0.34
+2018,Madrid,Comida,menú de carnes,1
+2018,Madrid,Estilo,original/alternativo,0.29
+2018,Extremadura,Gasto,Estandar,0.55
+2018,Extremadura,Profesional más solicitado,fotógrafo de bodas,0.24
+2018,Extremadura,Tipo de ceremonia,boda civil,0.79
+2018,Extremadura,Lugar de la recepción,palacio/castillo,NA
+2018,Extremadura,Comida,menú de carnes,1
+2018,Extremadura,Estilo,tradicional,NA
+2018,Galicia,Gasto,Estandar,0.57
+2018,Galicia,Profesional más solicitado,fotógrafo de bodas,0.19
+2018,Galicia,Tipo de ceremonia,boda civil,0.834
+2018,Galicia,Lugar de la recepción,palacio/castillo,NA
+2018,Galicia,Comida,menú de carnes,1
+2018,Galicia,Estilo,tradicional,NA
+2018,La Rioja,Gasto,Premium,0.64
+2018,La Rioja,Profesional más solicitado,fotógrafo de bodas,0.27
+2018,La Rioja,Tipo de ceremonia,boda civil,0.79
+2018,La Rioja,Lugar de la recepción,palacio/castillo,NA
+2018,La Rioja,Comida,menú de carnes,1
+2018,La Rioja,Estilo,tradicional,NA
+2018,Navarra,Gasto,Premium,0.63
+2018,Navarra,Profesional más solicitado,fotógrafo de bodas,0.25
+2018,Navarra,Tipo de ceremonia,boda civil,0.79
+2018,Navarra,Lugar de la recepción,palacio/castillo,NA
+2018,Navarra,Comida,menú de carnes,1
+2018,Navarra,Estilo,tradicional,NA
+2018,Murcia,Gasto,Premium,0.63
+2018,Murcia,Profesional más solicitado,fotógrafo de bodas,0.19
+2018,Murcia,Tipo de ceremonia,boda civil,0.79
+2018,Murcia,Lugar de la recepción,palacio/castillo,NA
+2018,Murcia,Comida,menú de carnes,1
+2018,Murcia,Estilo,tradicional,NA
+2018,Spain,Gasto,Premium,0.513
+2018,Spain,Profesional más solicitado,fotógrafo de bodas,0.2
+2018,Spain,Tipo de ceremonia,boda civil,0.797
+2018,Spain,Lugar de la recepción,palacio/castillo,0.27
+2018,Spain,Comida,menú de carnes,1
+2018,Spain,Estilo,original/alternativo,0.27
+2018,Valencia,Gasto,Estandar,0.53
+2018,Valencia,Profesional más solicitado,fotógrafo de bodas,0.2
+2018,Valencia,Tipo de ceremonia,boda civil,0.8
+2018,Valencia,Lugar de la recepción,restaurante,0.77
+2018,Valencia,Comida,menú de carnes,1
+2018,Valencia,Estilo,original/alternativo,0.35
+2019,Andalucía,Gasto,Estandar,0.63
+2019,Andalucía,Profesional más solicitado,fotógrafo de bodas,0.19
+2019,Andalucía,Tipo de ceremonia,boda civil,0.79
+2019,Andalucía,Lugar de la recepción,restaurante,0.37
+2019,Andalucía,Comida,menú de carnes,1
+2019,Andalucía,Estilo,original/alternativo,0.26
+2019,Aragón,Gasto,Premium,0.53
+2019,Aragón,Profesional más solicitado,fotógrafo de bodas,0.2
+2019,Aragón,Tipo de ceremonia,boda civil,0.79
+2019,Aragón,Lugar de la recepción,palacio/castillo,NA
+2019,Aragón,Comida,menú de carnes,1
+2019,Aragón,Estilo,tradicional,NA
+2019,Asturias,Gasto,Premium,0.57
+2019,Asturias,Profesional más solicitado,fotógrafo de bodas,0.2
+2019,Asturias,Tipo de ceremonia,boda civil,0.67
+2019,Asturias,Lugar de la recepción,palacio/castillo,1
+2019,Asturias,Comida,menú de carnes,1
+2019,Asturias,Estilo,tradicional,NA
+2019,Illes Balears,Gasto,Estandar,0.585
+2019,Illes Balears,Profesional más solicitado,fotógrafo de bodas,0.19
+2019,Illes Balears,Tipo de ceremonia,boda civil,0.79
+2019,Illes Balears,Lugar de la recepción,palacio/castillo,NA
+2019,Illes Balears,Comida,menú de carnes,NA
+2019,Illes Balears,Estilo,tradicional,NA
+2019,País Vasco,Gasto,Premium,0.533
+2019,País Vasco,Profesional más solicitado,fotógrafo de bodas,0.21
+2019,País Vasco,Tipo de ceremonia,boda civil,0.811
+2019,País Vasco,Lugar de la recepción,palacio/castillo,1
+2019,País Vasco,Comida,menú de carnes,1
+2019,País Vasco,Estilo,tradicional,NA
+2019,Islas Canarias,Gasto,Estandar,0.57
+2019,Islas Canarias,Profesional más solicitado,servicio de catering,0.19
+2019,Islas Canarias,Tipo de ceremonia,boda civil,0.79
+2019,Islas Canarias,Lugar de la recepción,finca/campo,1
+2019,Islas Canarias,Comida,menú de carnes,1
+2019,Islas Canarias,Estilo,tradicional,NA
+2019,Cantabria,Gasto,Estandar,0.56
+2019,Cantabria,Profesional más solicitado,fotógrafo de bodas,0.21
+2019,Cantabria,Tipo de ceremonia,boda civil,0.79
+2019,Cantabria,Lugar de la recepción,palacio/castillo,1
+2019,Cantabria,Comida,menú de carnes,1
+2019,Cantabria,Estilo,tradicional,NA
+2019,Castilla y León,Gasto,Estandar,0.535
+2019,Castilla y León,Profesional más solicitado,fotógrafo de bodas,0.19
+2019,Castilla y León,Tipo de ceremonia,boda civil,0.825
+2019,Castilla y León,Lugar de la recepción,palacio/castillo,0.71
+2019,Castilla y León,Comida,menú de carnes,1
+2019,Castilla y León,Estilo,tradicional,NA
+2019,Castilla-La Mancha,Gasto,Premium,0.65
+2019,Castilla-La Mancha,Profesional más solicitado,fotógrafo de bodas,0.2
+2019,Castilla-La Mancha,Tipo de ceremonia,boda civil,0.85
+2019,Castilla-La Mancha,Lugar de la recepción,finca/campo,1
+2019,Castilla-La Mancha,Comida,menú de carnes,1
+2019,Castilla-La Mancha,Estilo,tradicional,NA
+2019,Cataluña,Gasto,Estandar,0.57
+2019,Cataluña,Profesional más solicitado,wedding Planer,0.18
+2019,Cataluña,Tipo de ceremonia,boda civil,0.784
+2019,Cataluña,Lugar de la recepción,restaurante,1
+2019,Cataluña,Comida,menú de carnes,1
+2019,Cataluña,Estilo,original/alternativo,0.28
+2019,Madrid,Gasto,Premium,0.63
+2019,Madrid,Profesional más solicitado,fotógrafo de bodas,0.17
+2019,Madrid,Tipo de ceremonia,boda civil,0.864
+2019,Madrid,Lugar de la recepción,restaurante,0.34
+2019,Madrid,Comida,menú de carnes,1
+2019,Madrid,Estilo,original/alternativo,0.29
+2019,Extremadura,Gasto,Estandar,0.55
+2019,Extremadura,Profesional más solicitado,fotógrafo de bodas,0.24
+2019,Extremadura,Tipo de ceremonia,boda civil,0.79
+2019,Extremadura,Lugar de la recepción,palacio/castillo,NA
+2019,Extremadura,Comida,menú de carnes,1
+2019,Extremadura,Estilo,tradicional,NA
+2019,Galicia,Gasto,Estandar,0.57
+2019,Galicia,Profesional más solicitado,fotógrafo de bodas,0.19
+2019,Galicia,Tipo de ceremonia,boda civil,0.834
+2019,Galicia,Lugar de la recepción,palacio/castillo,NA
+2019,Galicia,Comida,menú de carnes,1
+2019,Galicia,Estilo,tradicional,NA
+2019,La Rioja,Gasto,Premium,0.64
+2019,La Rioja,Profesional más solicitado,fotógrafo de bodas,0.27
+2019,La Rioja,Tipo de ceremonia,boda civil,0.79
+2019,La Rioja,Lugar de la recepción,palacio/castillo,NA
+2019,La Rioja,Comida,menú de carnes,1
+2019,La Rioja,Estilo,tradicional,NA
+2019,Navarra,Gasto,Premium,0.63
+2019,Navarra,Profesional más solicitado,fotógrafo de bodas,0.25
+2019,Navarra,Tipo de ceremonia,boda civil,0.79
+2019,Navarra,Lugar de la recepción,palacio/castillo,NA
+2019,Navarra,Comida,menú de carnes,1
+2019,Navarra,Estilo,tradicional,NA
+2019,Murcia,Gasto,Premium,0.63
+2019,Murcia,Profesional más solicitado,fotógrafo de bodas,0.19
+2019,Murcia,Tipo de ceremonia,boda civil,0.79
+2019,Murcia,Lugar de la recepción,palacio/castillo,NA
+2019,Murcia,Comida,menú de carnes,1
+2019,Murcia,Estilo,tradicional,NA
+2019,Spain,Gasto,Premium,0.513
+2019,Spain,Profesional más solicitado,fotógrafo de bodas,0.2
+2019,Spain,Tipo de ceremonia,boda civil,0.797
+2019,Spain,Lugar de la recepción,palacio/castillo,0.27
+2019,Spain,Comida,menú de carnes,1
+2019,Spain,Estilo,original/alternativo,0.27
+2019,Valencia,Gasto,Estandar,0.53
+2019,Valencia,Profesional más solicitado,fotógrafo de bodas,0.2
+2019,Valencia,Tipo de ceremonia,boda civil,0.8
+2019,Valencia,Lugar de la recepción,restaurante,0.77
+2019,Valencia,Comida,menú de carnes,1
+2019,Valencia,Estilo,original/alternativo,0.35
+2020,Andalucía,Gasto,Estandar,0.63
+2020,Andalucía,Profesional más solicitado,fotógrafo de bodas,0.19
+2020,Andalucía,Tipo de ceremonia,boda civil,0.79
+2020,Andalucía,Lugar de la recepción,restaurante,0.37
+2020,Andalucía,Comida,menú de carnes,1
+2020,Andalucía,Estilo,original/alternativo,0.26
+2020,Aragón,Gasto,Premium,0.53
+2020,Aragón,Profesional más solicitado,fotógrafo de bodas,0.2
+2020,Aragón,Tipo de ceremonia,boda civil,0.79
+2020,Aragón,Lugar de la recepción,palacio/castillo,NA
+2020,Aragón,Comida,menú de carnes,1
+2020,Aragón,Estilo,tradicional,NA
+2020,Asturias,Gasto,Premium,0.57
+2020,Asturias,Profesional más solicitado,fotógrafo de bodas,0.2
+2020,Asturias,Tipo de ceremonia,boda civil,0.67
+2020,Asturias,Lugar de la recepción,palacio/castillo,1
+2020,Asturias,Comida,menú de carnes,1
+2020,Asturias,Estilo,tradicional,NA
+2020,Illes Balears,Gasto,Estandar,0.585
+2020,Illes Balears,Profesional más solicitado,fotógrafo de bodas,0.19
+2020,Illes Balears,Tipo de ceremonia,boda civil,0.79
+2020,Illes Balears,Lugar de la recepción,palacio/castillo,NA
+2020,Illes Balears,Comida,menú de carnes,NA
+2020,Illes Balears,Estilo,tradicional,NA
+2020,País Vasco,Gasto,Premium,0.533
+2020,País Vasco,Profesional más solicitado,fotógrafo de bodas,0.21
+2020,País Vasco,Tipo de ceremonia,boda civil,0.811
+2020,País Vasco,Lugar de la recepción,palacio/castillo,1
+2020,País Vasco,Comida,menú de carnes,1
+2020,País Vasco,Estilo,tradicional,NA
+2020,Islas Canarias,Gasto,Estandar,0.57
+2020,Islas Canarias,Profesional más solicitado,servicio de catering,0.19
+2020,Islas Canarias,Tipo de ceremonia,boda civil,0.79
+2020,Islas Canarias,Lugar de la recepción,finca/campo,1
+2020,Islas Canarias,Comida,menú de carnes,1
+2020,Islas Canarias,Estilo,tradicional,NA
+2020,Cantabria,Gasto,Estandar,0.56
+2020,Cantabria,Profesional más solicitado,fotógrafo de bodas,0.21
+2020,Cantabria,Tipo de ceremonia,boda civil,0.79
+2020,Cantabria,Lugar de la recepción,palacio/castillo,1
+2020,Cantabria,Comida,menú de carnes,1
+2020,Cantabria,Estilo,tradicional,NA
+2020,Castilla y León,Gasto,Estandar,0.535
+2020,Castilla y León,Profesional más solicitado,fotógrafo de bodas,0.19
+2020,Castilla y León,Tipo de ceremonia,boda civil,0.825
+2020,Castilla y León,Lugar de la recepción,palacio/castillo,0.71
+2020,Castilla y León,Comida,menú de carnes,1
+2020,Castilla y León,Estilo,tradicional,NA
+2020,Castilla-La Mancha,Gasto,Premium,0.65
+2020,Castilla-La Mancha,Profesional más solicitado,fotógrafo de bodas,0.2
+2020,Castilla-La Mancha,Tipo de ceremonia,boda civil,0.85
+2020,Castilla-La Mancha,Lugar de la recepción,finca/campo,1
+2020,Castilla-La Mancha,Comida,menú de carnes,1
+2020,Castilla-La Mancha,Estilo,tradicional,NA
+2020,Cataluña,Gasto,Estandar,0.57
+2020,Cataluña,Profesional más solicitado,wedding Planer,0.18
+2020,Cataluña,Tipo de ceremonia,boda civil,0.784
+2020,Cataluña,Lugar de la recepción,restaurante,1
+2020,Cataluña,Comida,menú de carnes,1
+2020,Cataluña,Estilo,original/alternativo,0.28
+2020,Madrid,Gasto,Premium,0.63
+2020,Madrid,Profesional más solicitado,fotógrafo de bodas,0.17
+2020,Madrid,Tipo de ceremonia,boda civil,0.864
+2020,Madrid,Lugar de la recepción,restaurante,0.34
+2020,Madrid,Comida,menú de carnes,1
+2020,Madrid,Estilo,original/alternativo,0.29
+2020,Extremadura,Gasto,Estandar,0.55
+2020,Extremadura,Profesional más solicitado,fotógrafo de bodas,0.24
+2020,Extremadura,Tipo de ceremonia,boda civil,0.79
+2020,Extremadura,Lugar de la recepción,palacio/castillo,NA
+2020,Extremadura,Comida,menú de carnes,1
+2020,Extremadura,Estilo,tradicional,NA
+2020,Galicia,Gasto,Estandar,0.57
+2020,Galicia,Profesional más solicitado,fotógrafo de bodas,0.19
+2020,Galicia,Tipo de ceremonia,boda civil,0.834
+2020,Galicia,Lugar de la recepción,palacio/castillo,NA
+2020,Galicia,Comida,menú de carnes,1
+2020,Galicia,Estilo,tradicional,NA
+2020,La Rioja,Gasto,Premium,0.64
+2020,La Rioja,Profesional más solicitado,fotógrafo de bodas,0.27
+2020,La Rioja,Tipo de ceremonia,boda civil,0.79
+2020,La Rioja,Lugar de la recepción,palacio/castillo,NA
+2020,La Rioja,Comida,menú de carnes,1
+2020,La Rioja,Estilo,tradicional,NA
+2020,Navarra,Gasto,Premium,0.63
+2020,Navarra,Profesional más solicitado,fotógrafo de bodas,0.25
+2020,Navarra,Tipo de ceremonia,boda civil,0.79
+2020,Navarra,Lugar de la recepción,palacio/castillo,NA
+2020,Navarra,Comida,menú de carnes,1
+2020,Navarra,Estilo,tradicional,NA
+2020,Murcia,Gasto,Premium,0.63
+2020,Murcia,Profesional más solicitado,fotógrafo de bodas,0.19
+2020,Murcia,Tipo de ceremonia,boda civil,0.79
+2020,Murcia,Lugar de la recepción,palacio/castillo,NA
+2020,Murcia,Comida,menú de carnes,1
+2020,Murcia,Estilo,tradicional,NA
+2020,Spain,Gasto,Premium,0.513
+2020,Spain,Profesional más solicitado,fotógrafo de bodas,0.2
+2020,Spain,Tipo de ceremonia,boda civil,0.797
+2020,Spain,Lugar de la recepción,palacio/castillo,0.27
+2020,Spain,Comida,menú de carnes,1
+2020,Spain,Estilo,original/alternativo,0.27
+2020,Valencia,Gasto,Estandar,0.53
+2020,Valencia,Profesional más solicitado,fotógrafo de bodas,0.2
+2020,Valencia,Tipo de ceremonia,boda civil,0.8
+2020,Valencia,Lugar de la recepción,restaurante,0.77
+2020,Valencia,Comida,menú de carnes,1
+2020,Valencia,Estilo,original/alternativo,0.35

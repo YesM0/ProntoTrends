@@ -1,0 +1,211 @@
+Year,ticket_geo_region_name,Loc_type,Distribution
+2018,Auvergne-Rhône-Alpes,Château,0.63
+2018,Auvergne-Rhône-Alpes,Jardin,0.04
+2018,Auvergne-Rhône-Alpes,Plage,0.03
+2018,Auvergne-Rhône-Alpes,Restaurant,0.24
+2018,Auvergne-Rhône-Alpes,Salle des fêtes,0.04
+2018,Bourgogne-Franche-Comté,Château,0.74
+2018,Bourgogne-Franche-Comté,Jardin,0.0
+2018,Bourgogne-Franche-Comté,Plage,0.0
+2018,Bourgogne-Franche-Comté,Restaurant,0.26
+2018,Bourgogne-Franche-Comté,Salle des fêtes,0.0
+2018,Bretagne,Château,0.45
+2018,Bretagne,Jardin,0.1
+2018,Bretagne,Plage,0.24
+2018,Bretagne,Restaurant,0.21
+2018,Bretagne,Salle des fêtes,0.0
+2018,Centre-Val de Loire,Château,0.56
+2018,Centre-Val de Loire,Jardin,0.0
+2018,Centre-Val de Loire,Plage,0.0
+2018,Centre-Val de Loire,Restaurant,0.2
+2018,Centre-Val de Loire,Salle des fêtes,0.08
+2018,Corse,Château,NA
+2018,Corse,Jardin,NA
+2018,Corse,Plage,NA
+2018,Corse,Restaurant,NA
+2018,Corse,Salle des fêtes,NA
+2018,France,Château,0.46
+2018,France,Jardin,0.07
+2018,France,Plage,0.11
+2018,France,Restaurant,0.22
+2018,France,Salle des fêtes,0.04
+2018,Grand-Est,Château,0.61
+2018,Grand-Est,Jardin,0.0
+2018,Grand-Est,Plage,0.0
+2018,Grand-Est,Restaurant,0.35
+2018,Grand-Est,Salle des fêtes,0.0
+2018,Hauts-de-France,Château,0.47
+2018,Hauts-de-France,Jardin,0.06
+2018,Hauts-de-France,Plage,0.13
+2018,Hauts-de-France,Restaurant,0.21
+2018,Hauts-de-France,Salle des fêtes,0.015
+2018,Normandie,Château,0.695
+2018,Normandie,Jardin,0.0
+2018,Normandie,Plage,0.16
+2018,Normandie,Restaurant,0.145
+2018,Normandie,Salle des fêtes,0.0
+2018,Nouvelle-Aquitaine,Château,0.6
+2018,Nouvelle-Aquitaine,Jardin,0.03
+2018,Nouvelle-Aquitaine,Plage,0.04
+2018,Nouvelle-Aquitaine,Restaurant,0.29
+2018,Nouvelle-Aquitaine,Salle des fêtes,0.0
+2018,Occitanie,Château,0.54
+2018,Occitanie,Jardin,0.08
+2018,Occitanie,Plage,0.14
+2018,Occitanie,Restaurant,0.25
+2018,Occitanie,Salle des fêtes,0.0
+2018,Pays de la Loire,Château,0.47
+2018,Pays de la Loire,Jardin,0.09
+2018,Pays de la Loire,Plage,0.2
+2018,Pays de la Loire,Restaurant,0.24
+2018,Pays de la Loire,Salle des fêtes,0.0
+2018,Provence-Alpes-Côte d'Azur,Château,0.41
+2018,Provence-Alpes-Côte d'Azur,Jardin,0.1
+2018,Provence-Alpes-Côte d'Azur,Plage,0.26
+2018,Provence-Alpes-Côte d'Azur,Restaurant,0.23
+2018,Provence-Alpes-Côte d'Azur,Salle des fêtes,0.0
+2018,Île-de-France,Château,0.44
+2018,Île-de-France,Jardin,0.09
+2018,Île-de-France,Plage,0.08
+2018,Île-de-France,Restaurant,0.21
+2018,Île-de-France,Salle des fêtes,0.02
+2019,Auvergne-Rhône-Alpes,Château,0.59
+2019,Auvergne-Rhône-Alpes,Jardin,0.03
+2019,Auvergne-Rhône-Alpes,Plage,0.03
+2019,Auvergne-Rhône-Alpes,Restaurant,0.3
+2019,Auvergne-Rhône-Alpes,Salle des fêtes,0.04
+2019,Bourgogne-Franche-Comté,Château,0.73
+2019,Bourgogne-Franche-Comté,Jardin,0.0
+2019,Bourgogne-Franche-Comté,Plage,0.0
+2019,Bourgogne-Franche-Comté,Restaurant,0.27
+2019,Bourgogne-Franche-Comté,Salle des fêtes,0.0
+2019,Bretagne,Château,0.43
+2019,Bretagne,Jardin,0.12
+2019,Bretagne,Plage,0.23
+2019,Bretagne,Restaurant,0.21
+2019,Bretagne,Salle des fêtes,0.0
+2019,Centre-Val de Loire,Château,0.53
+2019,Centre-Val de Loire,Jardin,0.0
+2019,Centre-Val de Loire,Plage,0.0
+2019,Centre-Val de Loire,Restaurant,0.23
+2019,Centre-Val de Loire,Salle des fêtes,0.1
+2019,Corse,Château,NA
+2019,Corse,Jardin,NA
+2019,Corse,Plage,NA
+2019,Corse,Restaurant,NA
+2019,Corse,Salle des fêtes,NA
+2019,France,Château,0.45
+2019,France,Jardin,0.07
+2019,France,Plage,0.09
+2019,France,Restaurant,0.22
+2019,France,Salle des fêtes,0.05
+2019,Grand-Est,Château,0.63
+2019,Grand-Est,Jardin,0.0
+2019,Grand-Est,Plage,0.0
+2019,Grand-Est,Restaurant,0.32
+2019,Grand-Est,Salle des fêtes,0.0
+2019,Hauts-de-France,Château,0.5
+2019,Hauts-de-France,Jardin,0.07
+2019,Hauts-de-France,Plage,0.11
+2019,Hauts-de-France,Restaurant,0.2
+2019,Hauts-de-France,Salle des fêtes,0.02
+2019,Normandie,Château,0.58
+2019,Normandie,Jardin,0.0
+2019,Normandie,Plage,0.21
+2019,Normandie,Restaurant,0.22
+2019,Normandie,Salle des fêtes,0.0
+2019,Nouvelle-Aquitaine,Château,0.56
+2019,Nouvelle-Aquitaine,Jardin,0.03
+2019,Nouvelle-Aquitaine,Plage,0.05
+2019,Nouvelle-Aquitaine,Restaurant,0.32
+2019,Nouvelle-Aquitaine,Salle des fêtes,0.0
+2019,Occitanie,Château,0.44
+2019,Occitanie,Jardin,0.11
+2019,Occitanie,Plage,0.17
+2019,Occitanie,Restaurant,0.29
+2019,Occitanie,Salle des fêtes,0.0
+2019,Pays de la Loire,Château,0.43
+2019,Pays de la Loire,Jardin,0.13
+2019,Pays de la Loire,Plage,0.23
+2019,Pays de la Loire,Restaurant,0.21
+2019,Pays de la Loire,Salle des fêtes,0.0
+2019,Provence-Alpes-Côte d'Azur,Château,0.39
+2019,Provence-Alpes-Côte d'Azur,Jardin,0.12
+2019,Provence-Alpes-Côte d'Azur,Plage,0.21
+2019,Provence-Alpes-Côte d'Azur,Restaurant,0.27
+2019,Provence-Alpes-Côte d'Azur,Salle des fêtes,0.0
+2019,Île-de-France,Château,0.43
+2019,Île-de-France,Jardin,0.09
+2019,Île-de-France,Plage,0.1
+2019,Île-de-France,Restaurant,0.21
+2019,Île-de-France,Salle des fêtes,0.02
+2020,Auvergne-Rhône-Alpes,Château,0.65
+2020,Auvergne-Rhône-Alpes,Jardin,0.03
+2020,Auvergne-Rhône-Alpes,Plage,0.03
+2020,Auvergne-Rhône-Alpes,Restaurant,0.25
+2020,Auvergne-Rhône-Alpes,Salle des fêtes,0.03
+2020,Bourgogne-Franche-Comté,Château,0.9
+2020,Bourgogne-Franche-Comté,Jardin,0.0
+2020,Bourgogne-Franche-Comté,Plage,0.0
+2020,Bourgogne-Franche-Comté,Restaurant,0.1
+2020,Bourgogne-Franche-Comté,Salle des fêtes,0.0
+2020,Bretagne,Château,0.54
+2020,Bretagne,Jardin,0.09
+2020,Bretagne,Plage,0.11
+2020,Bretagne,Restaurant,0.26
+2020,Bretagne,Salle des fêtes,0.0
+2020,Centre-Val de Loire,Château,0.23
+2020,Centre-Val de Loire,Jardin,0.0
+2020,Centre-Val de Loire,Plage,0.0
+2020,Centre-Val de Loire,Restaurant,0.14
+2020,Centre-Val de Loire,Salle des fêtes,0.09
+2020,Corse,Château,NA
+2020,Corse,Jardin,NA
+2020,Corse,Plage,NA
+2020,Corse,Restaurant,NA
+2020,Corse,Salle des fêtes,NA
+2020,France,Château,0.44
+2020,France,Jardin,0.12
+2020,France,Plage,0.09
+2020,France,Restaurant,0.19
+2020,France,Salle des fêtes,0.07
+2020,Grand-Est,Château,0.66
+2020,Grand-Est,Jardin,0.0
+2020,Grand-Est,Plage,0.0
+2020,Grand-Est,Restaurant,0.32
+2020,Grand-Est,Salle des fêtes,0.0
+2020,Hauts-de-France,Château,0.6
+2020,Hauts-de-France,Jardin,0.05
+2020,Hauts-de-France,Plage,0.1
+2020,Hauts-de-France,Restaurant,0.17
+2020,Hauts-de-France,Salle des fêtes,0.02
+2020,Normandie,Château,0.49
+2020,Normandie,Jardin,0.0
+2020,Normandie,Plage,0.31
+2020,Normandie,Restaurant,0.21
+2020,Normandie,Salle des fêtes,0.0
+2020,Nouvelle-Aquitaine,Château,0.62
+2020,Nouvelle-Aquitaine,Jardin,0.05
+2020,Nouvelle-Aquitaine,Plage,0.03
+2020,Nouvelle-Aquitaine,Restaurant,0.26
+2020,Nouvelle-Aquitaine,Salle des fêtes,0.0
+2020,Occitanie,Château,0.47
+2020,Occitanie,Jardin,0.02
+2020,Occitanie,Plage,0.21
+2020,Occitanie,Restaurant,0.31
+2020,Occitanie,Salle des fêtes,0.0
+2020,Pays de la Loire,Château,0.39
+2020,Pays de la Loire,Jardin,0.11
+2020,Pays de la Loire,Plage,0.26
+2020,Pays de la Loire,Restaurant,0.24
+2020,Pays de la Loire,Salle des fêtes,0.0
+2020,Provence-Alpes-Côte d'Azur,Château,0.21
+2020,Provence-Alpes-Côte d'Azur,Jardin,0.34
+2020,Provence-Alpes-Côte d'Azur,Plage,0.19
+2020,Provence-Alpes-Côte d'Azur,Restaurant,0.26
+2020,Provence-Alpes-Côte d'Azur,Salle des fêtes,0.0
+2020,Île-de-France,Château,0.38
+2020,Île-de-France,Jardin,0.08
+2020,Île-de-France,Plage,0.09
+2020,Île-de-France,Restaurant,0.2
+2020,Île-de-France,Salle des fêtes,0.04

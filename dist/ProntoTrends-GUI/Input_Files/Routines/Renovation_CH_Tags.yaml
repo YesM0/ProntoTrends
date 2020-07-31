@@ -1,0 +1,33 @@
+name: Renovation
+tags_included:  # choose either of Tag ID or Tag Name
+    - 102
+    - 103
+    - 172
+    - 82
+    - 131
+    - 602
+    - 182
+    - 215
+    - 166
+    - 144
+    - 679
+    - 143
+    - 90
+group_by_tag_name: True
+min_date: '2018-01-01'
+tag_merges:
+    Dächer reparieren und warten:
+        - Dächer reparieren und warten
+        - Dächer sanieren und decken
+    Videoüberwachung- oder Alarmanlageninstallation:
+        - Videoüberwachungsanlagen installieren
+        - Videoüberwachungsanlagen warten oder reparieren
+        - Diebstahlwarn- und Alarmanlage installieren oder reparieren
+id_merges:
+    102:
+        - 102
+        - 103
+    144:
+        - 144
+        - 679
+        - 143

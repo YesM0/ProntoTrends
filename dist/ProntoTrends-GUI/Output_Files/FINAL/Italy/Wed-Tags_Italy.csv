@@ -1,0 +1,736 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Abruzzo,musica dj,0.0
+2018,Abruzzo,fiori matrimonio,0.01
+2018,Abruzzo,Torta matrimonio,0.0
+2018,Abruzzo,Trucco sposa,0.03
+2018,Abruzzo,bomboniere matrimonio,0.04
+2018,Abruzzo,film matrimonio,0.04
+2018,Abruzzo,ristorante matrimonio,0.03
+2018,Abruzzo,Wedding planner,0.04
+2018,Abruzzo,abiti da cerimonia,0.39
+2018,Abruzzo,foto matrimonio,0.13
+2018,Abruzzo,location matrimoni,0.06
+2018,Abruzzo,gruppo musicale,0.22
+2018,Aosta,film matrimonio,0.0
+2018,Aosta,foto matrimonio,0.07
+2018,Aosta,Wedding planner,0.0
+2018,Aosta,ristorante matrimonio,0.0
+2018,Aosta,abiti da cerimonia,0.93
+2018,Apulia,musica dj,0.04
+2018,Apulia,fiori matrimonio,0.07
+2018,Apulia,Torta matrimonio,0.05
+2018,Apulia,Trucco sposa,0.07
+2018,Apulia,bomboniere matrimonio,0.08
+2018,Apulia,film matrimonio,0.05
+2018,Apulia,ristorante matrimonio,0.02
+2018,Apulia,Wedding planner,0.07
+2018,Apulia,abiti da cerimonia,0.34
+2018,Apulia,foto matrimonio,0.09
+2018,Apulia,location matrimoni,0.02
+2018,Apulia,gruppo musicale,0.1
+2018,Basilicata,musica dj,0.0
+2018,Basilicata,fiori matrimonio,0.0
+2018,Basilicata,Torta matrimonio,0.0
+2018,Basilicata,Trucco sposa,0.0
+2018,Basilicata,film matrimonio,0.05
+2018,Basilicata,foto matrimonio,0.04
+2018,Basilicata,ristorante matrimonio,0.0
+2018,Basilicata,Wedding planner,0.04
+2018,Basilicata,abiti da cerimonia,0.61
+2018,Basilicata,location matrimoni,0.0
+2018,Basilicata,bomboniere matrimonio,0.13
+2018,Basilicata,gruppo musicale,0.13
+2018,Calabria,musica dj,0.0
+2018,Calabria,fiori matrimonio,0.06
+2018,Calabria,Torta matrimonio,0.06
+2018,Calabria,Trucco sposa,0.05
+2018,Calabria,film matrimonio,0.06
+2018,Calabria,foto matrimonio,0.07
+2018,Calabria,ristorante matrimonio,0.04
+2018,Calabria,Wedding planner,0.06
+2018,Calabria,abiti da cerimonia,0.34
+2018,Calabria,location matrimoni,0.04
+2018,Calabria,bomboniere matrimonio,0.12
+2018,Calabria,gruppo musicale,0.1
+2018,Campania,musica dj,0.02
+2018,Campania,fiori matrimonio,0.07
+2018,Campania,Torta matrimonio,0.05
+2018,Campania,Trucco sposa,0.06
+2018,Campania,bomboniere matrimonio,0.05
+2018,Campania,film matrimonio,0.03
+2018,Campania,ristorante matrimonio,0.02
+2018,Campania,Wedding planner,0.04
+2018,Campania,abiti da cerimonia,0.43
+2018,Campania,foto matrimonio,0.1
+2018,Campania,location matrimoni,0.06
+2018,Campania,gruppo musicale,0.1
+2018,Emilia-Romagna,musica dj,0.08
+2018,Emilia-Romagna,fiori matrimonio,0.14
+2018,Emilia-Romagna,Torta matrimonio,0.07
+2018,Emilia-Romagna,Trucco sposa,0.11
+2018,Emilia-Romagna,bomboniere matrimonio,0.06
+2018,Emilia-Romagna,film matrimonio,0.04
+2018,Emilia-Romagna,ristorante matrimonio,0.03
+2018,Emilia-Romagna,Wedding planner,0.06
+2018,Emilia-Romagna,abiti da cerimonia,0.16
+2018,Emilia-Romagna,foto matrimonio,0.07
+2018,Emilia-Romagna,location matrimoni,0.04
+2018,Emilia-Romagna,gruppo musicale,0.15
+2018,Friuli-Venezia Giulia,musica dj,0.0
+2018,Friuli-Venezia Giulia,fiori matrimonio,0.05
+2018,Friuli-Venezia Giulia,Torta matrimonio,0.0
+2018,Friuli-Venezia Giulia,Trucco sposa,0.04
+2018,Friuli-Venezia Giulia,film matrimonio,0.05
+2018,Friuli-Venezia Giulia,foto matrimonio,0.08
+2018,Friuli-Venezia Giulia,ristorante matrimonio,0.04
+2018,Friuli-Venezia Giulia,Wedding planner,0.07
+2018,Friuli-Venezia Giulia,abiti da cerimonia,0.24
+2018,Friuli-Venezia Giulia,location matrimoni,0.06
+2018,Friuli-Venezia Giulia,bomboniere matrimonio,0.12
+2018,Friuli-Venezia Giulia,gruppo musicale,0.25
+2018,Italy,musica dj,0.05
+2018,Italy,fiori matrimonio,0.12
+2018,Italy,Torta matrimonio,0.07
+2018,Italy,Trucco sposa,0.11
+2018,Italy,bomboniere matrimonio,0.07
+2018,Italy,film matrimonio,0.04
+2018,Italy,ristorante matrimonio,0.03
+2018,Italy,Wedding planner,0.05
+2018,Italy,abiti da cerimonia,0.24
+2018,Italy,foto matrimonio,0.08
+2018,Italy,location matrimoni,0.04
+2018,Italy,gruppo musicale,0.11
+2018,Lazio,musica dj,0.02
+2018,Lazio,fiori matrimonio,0.05
+2018,Lazio,Torta matrimonio,0.03
+2018,Lazio,Trucco sposa,0.05
+2018,Lazio,bomboniere matrimonio,0.04
+2018,Lazio,film matrimonio,0.02
+2018,Lazio,ristorante matrimonio,0.02
+2018,Lazio,Wedding planner,0.03
+2018,Lazio,abiti da cerimonia,0.38
+2018,Lazio,foto matrimonio,0.12
+2018,Lazio,location matrimoni,0.07
+2018,Lazio,gruppo musicale,0.17
+2018,Liguria,musica dj,0.03
+2018,Liguria,fiori matrimonio,0.08
+2018,Liguria,Torta matrimonio,0.07
+2018,Liguria,Trucco sposa,0.07
+2018,Liguria,bomboniere matrimonio,0.05
+2018,Liguria,film matrimonio,0.03
+2018,Liguria,ristorante matrimonio,0.02
+2018,Liguria,Wedding planner,0.02
+2018,Liguria,abiti da cerimonia,0.22
+2018,Liguria,foto matrimonio,0.14
+2018,Liguria,location matrimoni,0.06
+2018,Liguria,gruppo musicale,0.21
+2018,Lombardy,musica dj,0.06
+2018,Lombardy,fiori matrimonio,0.13
+2018,Lombardy,Torta matrimonio,0.08
+2018,Lombardy,Trucco sposa,0.11
+2018,Lombardy,bomboniere matrimonio,0.05
+2018,Lombardy,film matrimonio,0.04
+2018,Lombardy,ristorante matrimonio,0.04
+2018,Lombardy,Wedding planner,0.05
+2018,Lombardy,abiti da cerimonia,0.18
+2018,Lombardy,foto matrimonio,0.08
+2018,Lombardy,location matrimoni,0.05
+2018,Lombardy,gruppo musicale,0.11
+2018,Marche,musica dj,0.01
+2018,Marche,bomboniere matrimonio,0.04
+2018,Marche,fiori matrimonio,0.03
+2018,Marche,Torta matrimonio,0.0
+2018,Marche,film matrimonio,0.04
+2018,Marche,ristorante matrimonio,0.04
+2018,Marche,Wedding planner,0.04
+2018,Marche,Trucco sposa,0.03
+2018,Marche,abiti da cerimonia,0.32
+2018,Marche,foto matrimonio,0.16
+2018,Marche,location matrimoni,0.07
+2018,Marche,gruppo musicale,0.23
+2018,Molise,musica dj,0.0
+2018,Molise,fiori matrimonio,0.0
+2018,Molise,Torta matrimonio,0.0
+2018,Molise,Trucco sposa,0.0
+2018,Molise,film matrimonio,0.0
+2018,Molise,foto matrimonio,0.1
+2018,Molise,ristorante matrimonio,0.0
+2018,Molise,Wedding planner,0.0
+2018,Molise,abiti da cerimonia,0.56
+2018,Molise,location matrimoni,0.0
+2018,Molise,bomboniere matrimonio,0.15
+2018,Molise,gruppo musicale,0.18
+2018,Piedmont,musica dj,0.06
+2018,Piedmont,fiori matrimonio,0.09
+2018,Piedmont,Torta matrimonio,0.05
+2018,Piedmont,Trucco sposa,0.09
+2018,Piedmont,bomboniere matrimonio,0.07
+2018,Piedmont,film matrimonio,0.05
+2018,Piedmont,ristorante matrimonio,0.06
+2018,Piedmont,Wedding planner,0.06
+2018,Piedmont,abiti da cerimonia,0.21
+2018,Piedmont,foto matrimonio,0.08
+2018,Piedmont,location matrimoni,0.04
+2018,Piedmont,gruppo musicale,0.13
+2018,Sardinia,musica dj,0.01
+2018,Sardinia,bomboniere matrimonio,0.03
+2018,Sardinia,fiori matrimonio,0.01
+2018,Sardinia,Trucco sposa,0.02
+2018,Sardinia,film matrimonio,0.03
+2018,Sardinia,foto matrimonio,0.05
+2018,Sardinia,ristorante matrimonio,0.02
+2018,Sardinia,Wedding planner,0.04
+2018,Sardinia,abiti da cerimonia,0.4
+2018,Sardinia,Torta matrimonio,0.09
+2018,Sardinia,location matrimoni,0.04
+2018,Sardinia,gruppo musicale,0.25
+2018,Sicily,musica dj,0.02
+2018,Sicily,fiori matrimonio,0.05
+2018,Sicily,Torta matrimonio,0.03
+2018,Sicily,Trucco sposa,0.04
+2018,Sicily,bomboniere matrimonio,0.07
+2018,Sicily,film matrimonio,0.03
+2018,Sicily,ristorante matrimonio,0.02
+2018,Sicily,Wedding planner,0.04
+2018,Sicily,abiti da cerimonia,0.49
+2018,Sicily,foto matrimonio,0.08
+2018,Sicily,location matrimoni,0.05
+2018,Sicily,gruppo musicale,0.1
+2018,Trentino-Alto Adige/South Tyrol,musica dj,0.0
+2018,Trentino-Alto Adige/South Tyrol,fiori matrimonio,0.0
+2018,Trentino-Alto Adige/South Tyrol,Torta matrimonio,0.0
+2018,Trentino-Alto Adige/South Tyrol,Trucco sposa,0.0
+2018,Trentino-Alto Adige/South Tyrol,film matrimonio,0.05
+2018,Trentino-Alto Adige/South Tyrol,foto matrimonio,0.08
+2018,Trentino-Alto Adige/South Tyrol,ristorante matrimonio,0.0
+2018,Trentino-Alto Adige/South Tyrol,Wedding planner,0.05
+2018,Trentino-Alto Adige/South Tyrol,abiti da cerimonia,0.3
+2018,Trentino-Alto Adige/South Tyrol,location matrimoni,0.1
+2018,Trentino-Alto Adige/South Tyrol,bomboniere matrimonio,0.16
+2018,Trentino-Alto Adige/South Tyrol,gruppo musicale,0.26
+2018,Tuscany,musica dj,0.05
+2018,Tuscany,fiori matrimonio,0.06
+2018,Tuscany,Torta matrimonio,0.06
+2018,Tuscany,Trucco sposa,0.09
+2018,Tuscany,bomboniere matrimonio,0.06
+2018,Tuscany,film matrimonio,0.04
+2018,Tuscany,ristorante matrimonio,0.03
+2018,Tuscany,Wedding planner,0.04
+2018,Tuscany,abiti da cerimonia,0.25
+2018,Tuscany,foto matrimonio,0.1
+2018,Tuscany,location matrimoni,0.07
+2018,Tuscany,gruppo musicale,0.16
+2018,Umbria,musica dj,0.0
+2018,Umbria,fiori matrimonio,0.03
+2018,Umbria,Torta matrimonio,0.0
+2018,Umbria,Trucco sposa,0.03
+2018,Umbria,bomboniere matrimonio,0.03
+2018,Umbria,film matrimonio,0.02
+2018,Umbria,ristorante matrimonio,0.0
+2018,Umbria,Wedding planner,0.05
+2018,Umbria,abiti da cerimonia,0.39
+2018,Umbria,foto matrimonio,0.11
+2018,Umbria,location matrimoni,0.1
+2018,Umbria,gruppo musicale,0.25
+2018,Veneto,musica dj,0.07
+2018,Veneto,fiori matrimonio,0.1
+2018,Veneto,Torta matrimonio,0.05
+2018,Veneto,Trucco sposa,0.09
+2018,Veneto,bomboniere matrimonio,0.07
+2018,Veneto,film matrimonio,0.05
+2018,Veneto,ristorante matrimonio,0.05
+2018,Veneto,Wedding planner,0.06
+2018,Veneto,abiti da cerimonia,0.16
+2018,Veneto,foto matrimonio,0.1
+2018,Veneto,location matrimoni,0.04
+2018,Veneto,gruppo musicale,0.15
+2019,Abruzzo,musica dj,0.0
+2019,Abruzzo,fiori matrimonio,0.03
+2019,Abruzzo,Torta matrimonio,0.0
+2019,Abruzzo,Trucco sposa,0.03
+2019,Abruzzo,bomboniere matrimonio,0.05
+2019,Abruzzo,film matrimonio,0.03
+2019,Abruzzo,ristorante matrimonio,0.02
+2019,Abruzzo,Wedding planner,0.06
+2019,Abruzzo,abiti da cerimonia,0.39
+2019,Abruzzo,foto matrimonio,0.11
+2019,Abruzzo,location matrimoni,0.08
+2019,Abruzzo,gruppo musicale,0.21
+2019,Aosta,film matrimonio,0.0
+2019,Aosta,foto matrimonio,0.35
+2019,Aosta,Wedding planner,0.0
+2019,Aosta,ristorante matrimonio,0.0
+2019,Aosta,abiti da cerimonia,0.65
+2019,Apulia,musica dj,0.02
+2019,Apulia,fiori matrimonio,0.07
+2019,Apulia,Torta matrimonio,0.06
+2019,Apulia,Trucco sposa,0.06
+2019,Apulia,bomboniere matrimonio,0.08
+2019,Apulia,film matrimonio,0.06
+2019,Apulia,ristorante matrimonio,0.03
+2019,Apulia,Wedding planner,0.07
+2019,Apulia,abiti da cerimonia,0.32
+2019,Apulia,foto matrimonio,0.07
+2019,Apulia,location matrimoni,0.03
+2019,Apulia,gruppo musicale,0.13
+2019,Basilicata,musica dj,0.0
+2019,Basilicata,fiori matrimonio,0.0
+2019,Basilicata,Torta matrimonio,0.0
+2019,Basilicata,Trucco sposa,0.0
+2019,Basilicata,film matrimonio,0.05
+2019,Basilicata,foto matrimonio,0.08
+2019,Basilicata,ristorante matrimonio,0.0
+2019,Basilicata,Wedding planner,0.05
+2019,Basilicata,abiti da cerimonia,0.5
+2019,Basilicata,location matrimoni,0.0
+2019,Basilicata,bomboniere matrimonio,0.13
+2019,Basilicata,gruppo musicale,0.19
+2019,Calabria,musica dj,0.0
+2019,Calabria,fiori matrimonio,0.07
+2019,Calabria,Torta matrimonio,0.04
+2019,Calabria,Trucco sposa,0.05
+2019,Calabria,film matrimonio,0.04
+2019,Calabria,foto matrimonio,0.06
+2019,Calabria,ristorante matrimonio,0.02
+2019,Calabria,Wedding planner,0.05
+2019,Calabria,abiti da cerimonia,0.34
+2019,Calabria,location matrimoni,0.04
+2019,Calabria,bomboniere matrimonio,0.16
+2019,Calabria,gruppo musicale,0.12
+2019,Campania,musica dj,0.02
+2019,Campania,fiori matrimonio,0.07
+2019,Campania,Torta matrimonio,0.04
+2019,Campania,Trucco sposa,0.06
+2019,Campania,bomboniere matrimonio,0.04
+2019,Campania,film matrimonio,0.02
+2019,Campania,ristorante matrimonio,0.02
+2019,Campania,Wedding planner,0.03
+2019,Campania,abiti da cerimonia,0.43
+2019,Campania,foto matrimonio,0.09
+2019,Campania,location matrimoni,0.07
+2019,Campania,gruppo musicale,0.12
+2019,Emilia-Romagna,musica dj,0.1
+2019,Emilia-Romagna,fiori matrimonio,0.12
+2019,Emilia-Romagna,Torta matrimonio,0.08
+2019,Emilia-Romagna,Trucco sposa,0.11
+2019,Emilia-Romagna,bomboniere matrimonio,0.05
+2019,Emilia-Romagna,film matrimonio,0.04
+2019,Emilia-Romagna,ristorante matrimonio,0.02
+2019,Emilia-Romagna,Wedding planner,0.05
+2019,Emilia-Romagna,abiti da cerimonia,0.17
+2019,Emilia-Romagna,foto matrimonio,0.06
+2019,Emilia-Romagna,location matrimoni,0.04
+2019,Emilia-Romagna,gruppo musicale,0.16
+2019,Friuli-Venezia Giulia,musica dj,0.0
+2019,Friuli-Venezia Giulia,fiori matrimonio,0.06
+2019,Friuli-Venezia Giulia,Torta matrimonio,0.0
+2019,Friuli-Venezia Giulia,Trucco sposa,0.04
+2019,Friuli-Venezia Giulia,film matrimonio,0.05
+2019,Friuli-Venezia Giulia,foto matrimonio,0.11
+2019,Friuli-Venezia Giulia,ristorante matrimonio,0.05
+2019,Friuli-Venezia Giulia,Wedding planner,0.08
+2019,Friuli-Venezia Giulia,abiti da cerimonia,0.2
+2019,Friuli-Venezia Giulia,location matrimoni,0.04
+2019,Friuli-Venezia Giulia,bomboniere matrimonio,0.12
+2019,Friuli-Venezia Giulia,gruppo musicale,0.24
+2019,Italy,musica dj,0.05
+2019,Italy,fiori matrimonio,0.12
+2019,Italy,Torta matrimonio,0.07
+2019,Italy,Trucco sposa,0.1
+2019,Italy,bomboniere matrimonio,0.07
+2019,Italy,film matrimonio,0.04
+2019,Italy,ristorante matrimonio,0.03
+2019,Italy,Wedding planner,0.05
+2019,Italy,abiti da cerimonia,0.24
+2019,Italy,foto matrimonio,0.06
+2019,Italy,location matrimoni,0.04
+2019,Italy,gruppo musicale,0.14
+2019,Lazio,musica dj,0.02
+2019,Lazio,fiori matrimonio,0.05
+2019,Lazio,Torta matrimonio,0.03
+2019,Lazio,Trucco sposa,0.04
+2019,Lazio,bomboniere matrimonio,0.04
+2019,Lazio,film matrimonio,0.02
+2019,Lazio,ristorante matrimonio,0.02
+2019,Lazio,Wedding planner,0.04
+2019,Lazio,abiti da cerimonia,0.38
+2019,Lazio,foto matrimonio,0.1
+2019,Lazio,location matrimoni,0.09
+2019,Lazio,gruppo musicale,0.18
+2019,Liguria,musica dj,0.05
+2019,Liguria,fiori matrimonio,0.04
+2019,Liguria,Torta matrimonio,0.07
+2019,Liguria,Trucco sposa,0.07
+2019,Liguria,bomboniere matrimonio,0.04
+2019,Liguria,film matrimonio,0.04
+2019,Liguria,ristorante matrimonio,0.02
+2019,Liguria,Wedding planner,0.05
+2019,Liguria,abiti da cerimonia,0.21
+2019,Liguria,foto matrimonio,0.12
+2019,Liguria,location matrimoni,0.07
+2019,Liguria,gruppo musicale,0.23
+2019,Lombardy,musica dj,0.07
+2019,Lombardy,fiori matrimonio,0.13
+2019,Lombardy,Torta matrimonio,0.08
+2019,Lombardy,Trucco sposa,0.11
+2019,Lombardy,bomboniere matrimonio,0.05
+2019,Lombardy,film matrimonio,0.04
+2019,Lombardy,ristorante matrimonio,0.04
+2019,Lombardy,Wedding planner,0.05
+2019,Lombardy,abiti da cerimonia,0.19
+2019,Lombardy,foto matrimonio,0.05
+2019,Lombardy,location matrimoni,0.05
+2019,Lombardy,gruppo musicale,0.14
+2019,Marche,musica dj,0.01
+2019,Marche,bomboniere matrimonio,0.04
+2019,Marche,fiori matrimonio,0.03
+2019,Marche,Torta matrimonio,0.0
+2019,Marche,film matrimonio,0.04
+2019,Marche,ristorante matrimonio,0.03
+2019,Marche,Wedding planner,0.04
+2019,Marche,Trucco sposa,0.03
+2019,Marche,abiti da cerimonia,0.31
+2019,Marche,foto matrimonio,0.14
+2019,Marche,location matrimoni,0.06
+2019,Marche,gruppo musicale,0.26
+2019,Molise,musica dj,0.0
+2019,Molise,fiori matrimonio,0.0
+2019,Molise,Torta matrimonio,0.0
+2019,Molise,Trucco sposa,0.0
+2019,Molise,film matrimonio,0.0
+2019,Molise,foto matrimonio,0.07
+2019,Molise,ristorante matrimonio,0.0
+2019,Molise,Wedding planner,0.0
+2019,Molise,abiti da cerimonia,0.58
+2019,Molise,location matrimoni,0.0
+2019,Molise,bomboniere matrimonio,0.2
+2019,Molise,gruppo musicale,0.14
+2019,Piedmont,musica dj,0.05
+2019,Piedmont,fiori matrimonio,0.1
+2019,Piedmont,Torta matrimonio,0.07
+2019,Piedmont,Trucco sposa,0.08
+2019,Piedmont,bomboniere matrimonio,0.07
+2019,Piedmont,film matrimonio,0.05
+2019,Piedmont,ristorante matrimonio,0.06
+2019,Piedmont,Wedding planner,0.06
+2019,Piedmont,abiti da cerimonia,0.22
+2019,Piedmont,foto matrimonio,0.05
+2019,Piedmont,location matrimoni,0.05
+2019,Piedmont,gruppo musicale,0.14
+2019,Sardinia,musica dj,0.01
+2019,Sardinia,bomboniere matrimonio,0.03
+2019,Sardinia,fiori matrimonio,0.01
+2019,Sardinia,Trucco sposa,0.02
+2019,Sardinia,film matrimonio,0.03
+2019,Sardinia,foto matrimonio,0.04
+2019,Sardinia,ristorante matrimonio,0.02
+2019,Sardinia,Wedding planner,0.04
+2019,Sardinia,abiti da cerimonia,0.4
+2019,Sardinia,Torta matrimonio,0.05
+2019,Sardinia,location matrimoni,0.05
+2019,Sardinia,gruppo musicale,0.29
+2019,Sicily,musica dj,0.01
+2019,Sicily,fiori matrimonio,0.06
+2019,Sicily,Torta matrimonio,0.02
+2019,Sicily,Trucco sposa,0.05
+2019,Sicily,bomboniere matrimonio,0.06
+2019,Sicily,film matrimonio,0.03
+2019,Sicily,ristorante matrimonio,0.02
+2019,Sicily,Wedding planner,0.04
+2019,Sicily,abiti da cerimonia,0.44
+2019,Sicily,foto matrimonio,0.07
+2019,Sicily,location matrimoni,0.06
+2019,Sicily,gruppo musicale,0.13
+2019,Trentino-Alto Adige/South Tyrol,musica dj,0.0
+2019,Trentino-Alto Adige/South Tyrol,fiori matrimonio,0.0
+2019,Trentino-Alto Adige/South Tyrol,Torta matrimonio,0.0
+2019,Trentino-Alto Adige/South Tyrol,Trucco sposa,0.0
+2019,Trentino-Alto Adige/South Tyrol,film matrimonio,0.03
+2019,Trentino-Alto Adige/South Tyrol,foto matrimonio,0.07
+2019,Trentino-Alto Adige/South Tyrol,ristorante matrimonio,0.0
+2019,Trentino-Alto Adige/South Tyrol,Wedding planner,0.05
+2019,Trentino-Alto Adige/South Tyrol,abiti da cerimonia,0.27
+2019,Trentino-Alto Adige/South Tyrol,location matrimoni,0.05
+2019,Trentino-Alto Adige/South Tyrol,bomboniere matrimonio,0.15
+2019,Trentino-Alto Adige/South Tyrol,gruppo musicale,0.38
+2019,Tuscany,musica dj,0.05
+2019,Tuscany,fiori matrimonio,0.07
+2019,Tuscany,Torta matrimonio,0.05
+2019,Tuscany,Trucco sposa,0.07
+2019,Tuscany,bomboniere matrimonio,0.05
+2019,Tuscany,film matrimonio,0.04
+2019,Tuscany,ristorante matrimonio,0.03
+2019,Tuscany,Wedding planner,0.06
+2019,Tuscany,abiti da cerimonia,0.24
+2019,Tuscany,foto matrimonio,0.09
+2019,Tuscany,location matrimoni,0.07
+2019,Tuscany,gruppo musicale,0.18
+2019,Umbria,musica dj,0.0
+2019,Umbria,fiori matrimonio,0.03
+2019,Umbria,Torta matrimonio,0.0
+2019,Umbria,Trucco sposa,0.03
+2019,Umbria,bomboniere matrimonio,0.04
+2019,Umbria,film matrimonio,0.02
+2019,Umbria,ristorante matrimonio,0.0
+2019,Umbria,Wedding planner,0.04
+2019,Umbria,abiti da cerimonia,0.36
+2019,Umbria,foto matrimonio,0.14
+2019,Umbria,location matrimoni,0.08
+2019,Umbria,gruppo musicale,0.27
+2019,Veneto,musica dj,0.08
+2019,Veneto,fiori matrimonio,0.1
+2019,Veneto,Torta matrimonio,0.04
+2019,Veneto,Trucco sposa,0.09
+2019,Veneto,bomboniere matrimonio,0.07
+2019,Veneto,film matrimonio,0.05
+2019,Veneto,ristorante matrimonio,0.05
+2019,Veneto,Wedding planner,0.07
+2019,Veneto,abiti da cerimonia,0.16
+2019,Veneto,foto matrimonio,0.08
+2019,Veneto,location matrimoni,0.05
+2019,Veneto,gruppo musicale,0.17
+2020,Abruzzo,musica dj,0.0
+2020,Abruzzo,fiori matrimonio,0.01
+2020,Abruzzo,Torta matrimonio,0.0
+2020,Abruzzo,Trucco sposa,0.01
+2020,Abruzzo,bomboniere matrimonio,0.05
+2020,Abruzzo,film matrimonio,0.06
+2020,Abruzzo,ristorante matrimonio,0.03
+2020,Abruzzo,Wedding planner,0.04
+2020,Abruzzo,abiti da cerimonia,0.26
+2020,Abruzzo,foto matrimonio,0.14
+2020,Abruzzo,location matrimoni,0.13
+2020,Abruzzo,gruppo musicale,0.27
+2020,Aosta,film matrimonio,0.0
+2020,Aosta,foto matrimonio,0.0
+2020,Aosta,Wedding planner,0.0
+2020,Aosta,ristorante matrimonio,0.0
+2020,Aosta,abiti da cerimonia,1.0
+2020,Apulia,musica dj,0.05
+2020,Apulia,fiori matrimonio,0.06
+2020,Apulia,Torta matrimonio,0.05
+2020,Apulia,Trucco sposa,0.04
+2020,Apulia,bomboniere matrimonio,0.1
+2020,Apulia,film matrimonio,0.09
+2020,Apulia,ristorante matrimonio,0.02
+2020,Apulia,Wedding planner,0.07
+2020,Apulia,abiti da cerimonia,0.28
+2020,Apulia,foto matrimonio,0.06
+2020,Apulia,location matrimoni,0.01
+2020,Apulia,gruppo musicale,0.17
+2020,Basilicata,musica dj,0.0
+2020,Basilicata,fiori matrimonio,0.0
+2020,Basilicata,Torta matrimonio,0.0
+2020,Basilicata,Trucco sposa,0.0
+2020,Basilicata,film matrimonio,0.06
+2020,Basilicata,foto matrimonio,0.04
+2020,Basilicata,ristorante matrimonio,0.0
+2020,Basilicata,Wedding planner,0.13
+2020,Basilicata,abiti da cerimonia,0.48
+2020,Basilicata,location matrimoni,0.0
+2020,Basilicata,bomboniere matrimonio,0.08
+2020,Basilicata,gruppo musicale,0.21
+2020,Calabria,musica dj,0.0
+2020,Calabria,fiori matrimonio,0.04
+2020,Calabria,Torta matrimonio,0.05
+2020,Calabria,Trucco sposa,0.05
+2020,Calabria,film matrimonio,0.06
+2020,Calabria,foto matrimonio,0.04
+2020,Calabria,ristorante matrimonio,0.03
+2020,Calabria,Wedding planner,0.08
+2020,Calabria,abiti da cerimonia,0.32
+2020,Calabria,location matrimoni,0.04
+2020,Calabria,bomboniere matrimonio,0.15
+2020,Calabria,gruppo musicale,0.14
+2020,Campania,musica dj,0.03
+2020,Campania,fiori matrimonio,0.05
+2020,Campania,Torta matrimonio,0.05
+2020,Campania,Trucco sposa,0.05
+2020,Campania,bomboniere matrimonio,0.05
+2020,Campania,film matrimonio,0.05
+2020,Campania,ristorante matrimonio,0.02
+2020,Campania,Wedding planner,0.04
+2020,Campania,abiti da cerimonia,0.34
+2020,Campania,foto matrimonio,0.08
+2020,Campania,location matrimoni,0.06
+2020,Campania,gruppo musicale,0.18
+2020,Emilia-Romagna,musica dj,0.07
+2020,Emilia-Romagna,fiori matrimonio,0.11
+2020,Emilia-Romagna,Torta matrimonio,0.1
+2020,Emilia-Romagna,Trucco sposa,0.09
+2020,Emilia-Romagna,bomboniere matrimonio,0.05
+2020,Emilia-Romagna,film matrimonio,0.08
+2020,Emilia-Romagna,ristorante matrimonio,0.0
+2020,Emilia-Romagna,Wedding planner,0.08
+2020,Emilia-Romagna,abiti da cerimonia,0.14
+2020,Emilia-Romagna,foto matrimonio,0.07
+2020,Emilia-Romagna,location matrimoni,0.04
+2020,Emilia-Romagna,gruppo musicale,0.18
+2020,Friuli-Venezia Giulia,musica dj,0.0
+2020,Friuli-Venezia Giulia,fiori matrimonio,0.05
+2020,Friuli-Venezia Giulia,Torta matrimonio,0.0
+2020,Friuli-Venezia Giulia,Trucco sposa,0.01
+2020,Friuli-Venezia Giulia,film matrimonio,0.08
+2020,Friuli-Venezia Giulia,foto matrimonio,0.07
+2020,Friuli-Venezia Giulia,ristorante matrimonio,0.04
+2020,Friuli-Venezia Giulia,Wedding planner,0.09
+2020,Friuli-Venezia Giulia,abiti da cerimonia,0.16
+2020,Friuli-Venezia Giulia,location matrimoni,0.02
+2020,Friuli-Venezia Giulia,bomboniere matrimonio,0.13
+2020,Friuli-Venezia Giulia,gruppo musicale,0.35
+2020,Italy,musica dj,0.07
+2020,Italy,fiori matrimonio,0.1
+2020,Italy,Torta matrimonio,0.06
+2020,Italy,Trucco sposa,0.07
+2020,Italy,bomboniere matrimonio,0.06
+2020,Italy,film matrimonio,0.08
+2020,Italy,ristorante matrimonio,0.02
+2020,Italy,Wedding planner,0.07
+2020,Italy,abiti da cerimonia,0.2
+2020,Italy,foto matrimonio,0.05
+2020,Italy,location matrimoni,0.04
+2020,Italy,gruppo musicale,0.18
+2020,Lazio,musica dj,0.03
+2020,Lazio,fiori matrimonio,0.03
+2020,Lazio,Torta matrimonio,0.02
+2020,Lazio,Trucco sposa,0.03
+2020,Lazio,bomboniere matrimonio,0.04
+2020,Lazio,film matrimonio,0.05
+2020,Lazio,ristorante matrimonio,0.01
+2020,Lazio,Wedding planner,0.05
+2020,Lazio,abiti da cerimonia,0.31
+2020,Lazio,foto matrimonio,0.09
+2020,Lazio,location matrimoni,0.09
+2020,Lazio,gruppo musicale,0.25
+2020,Liguria,musica dj,0.06
+2020,Liguria,fiori matrimonio,0.08
+2020,Liguria,Torta matrimonio,0.05
+2020,Liguria,Trucco sposa,0.07
+2020,Liguria,bomboniere matrimonio,0.03
+2020,Liguria,film matrimonio,0.04
+2020,Liguria,ristorante matrimonio,0.03
+2020,Liguria,Wedding planner,0.07
+2020,Liguria,abiti da cerimonia,0.17
+2020,Liguria,foto matrimonio,0.12
+2020,Liguria,location matrimoni,0.07
+2020,Liguria,gruppo musicale,0.21
+2020,Lombardy,musica dj,0.08
+2020,Lombardy,fiori matrimonio,0.12
+2020,Lombardy,Torta matrimonio,0.1
+2020,Lombardy,Trucco sposa,0.09
+2020,Lombardy,bomboniere matrimonio,0.05
+2020,Lombardy,film matrimonio,0.08
+2020,Lombardy,ristorante matrimonio,0.03
+2020,Lombardy,Wedding planner,0.07
+2020,Lombardy,abiti da cerimonia,0.14
+2020,Lombardy,foto matrimonio,0.05
+2020,Lombardy,location matrimoni,0.03
+2020,Lombardy,gruppo musicale,0.16
+2020,Marche,musica dj,0.02
+2020,Marche,bomboniere matrimonio,0.04
+2020,Marche,fiori matrimonio,0.04
+2020,Marche,Torta matrimonio,0.0
+2020,Marche,film matrimonio,0.1
+2020,Marche,ristorante matrimonio,0.02
+2020,Marche,Wedding planner,0.04
+2020,Marche,Trucco sposa,0.02
+2020,Marche,abiti da cerimonia,0.28
+2020,Marche,foto matrimonio,0.08
+2020,Marche,location matrimoni,0.06
+2020,Marche,gruppo musicale,0.29
+2020,Molise,musica dj,0.0
+2020,Molise,fiori matrimonio,0.0
+2020,Molise,Torta matrimonio,0.0
+2020,Molise,Trucco sposa,0.0
+2020,Molise,film matrimonio,0.0
+2020,Molise,foto matrimonio,0.04
+2020,Molise,ristorante matrimonio,0.0
+2020,Molise,Wedding planner,0.0
+2020,Molise,abiti da cerimonia,0.53
+2020,Molise,location matrimoni,0.0
+2020,Molise,bomboniere matrimonio,0.23
+2020,Molise,gruppo musicale,0.21
+2020,Piedmont,musica dj,0.05
+2020,Piedmont,fiori matrimonio,0.08
+2020,Piedmont,Torta matrimonio,0.06
+2020,Piedmont,Trucco sposa,0.06
+2020,Piedmont,bomboniere matrimonio,0.07
+2020,Piedmont,film matrimonio,0.09
+2020,Piedmont,ristorante matrimonio,0.05
+2020,Piedmont,Wedding planner,0.07
+2020,Piedmont,abiti da cerimonia,0.15
+2020,Piedmont,foto matrimonio,0.07
+2020,Piedmont,location matrimoni,0.06
+2020,Piedmont,gruppo musicale,0.19
+2020,Sardinia,musica dj,0.01
+2020,Sardinia,bomboniere matrimonio,0.03
+2020,Sardinia,fiori matrimonio,0.02
+2020,Sardinia,Trucco sposa,0.0
+2020,Sardinia,film matrimonio,0.06
+2020,Sardinia,foto matrimonio,0.04
+2020,Sardinia,ristorante matrimonio,0.01
+2020,Sardinia,Wedding planner,0.04
+2020,Sardinia,abiti da cerimonia,0.29
+2020,Sardinia,Torta matrimonio,0.09
+2020,Sardinia,location matrimoni,0.04
+2020,Sardinia,gruppo musicale,0.36
+2020,Sicily,musica dj,0.01
+2020,Sicily,fiori matrimonio,0.03
+2020,Sicily,Torta matrimonio,0.03
+2020,Sicily,Trucco sposa,0.03
+2020,Sicily,bomboniere matrimonio,0.07
+2020,Sicily,film matrimonio,0.07
+2020,Sicily,ristorante matrimonio,0.01
+2020,Sicily,Wedding planner,0.05
+2020,Sicily,abiti da cerimonia,0.39
+2020,Sicily,foto matrimonio,0.06
+2020,Sicily,location matrimoni,0.07
+2020,Sicily,gruppo musicale,0.19
+2020,Trentino-Alto Adige/South Tyrol,musica dj,0.0
+2020,Trentino-Alto Adige/South Tyrol,fiori matrimonio,0.0
+2020,Trentino-Alto Adige/South Tyrol,Torta matrimonio,0.0
+2020,Trentino-Alto Adige/South Tyrol,Trucco sposa,0.0
+2020,Trentino-Alto Adige/South Tyrol,film matrimonio,0.11
+2020,Trentino-Alto Adige/South Tyrol,foto matrimonio,0.06
+2020,Trentino-Alto Adige/South Tyrol,ristorante matrimonio,0.0
+2020,Trentino-Alto Adige/South Tyrol,Wedding planner,0.06
+2020,Trentino-Alto Adige/South Tyrol,abiti da cerimonia,0.23
+2020,Trentino-Alto Adige/South Tyrol,location matrimoni,0.03
+2020,Trentino-Alto Adige/South Tyrol,bomboniere matrimonio,0.18
+2020,Trentino-Alto Adige/South Tyrol,gruppo musicale,0.33
+2020,Tuscany,musica dj,0.05
+2020,Tuscany,fiori matrimonio,0.08
+2020,Tuscany,Torta matrimonio,0.05
+2020,Tuscany,Trucco sposa,0.04
+2020,Tuscany,bomboniere matrimonio,0.05
+2020,Tuscany,film matrimonio,0.07
+2020,Tuscany,ristorante matrimonio,0.02
+2020,Tuscany,Wedding planner,0.07
+2020,Tuscany,abiti da cerimonia,0.18
+2020,Tuscany,foto matrimonio,0.1
+2020,Tuscany,location matrimoni,0.05
+2020,Tuscany,gruppo musicale,0.24
+2020,Umbria,musica dj,0.0
+2020,Umbria,fiori matrimonio,0.03
+2020,Umbria,Torta matrimonio,0.0
+2020,Umbria,Trucco sposa,0.03
+2020,Umbria,bomboniere matrimonio,0.04
+2020,Umbria,film matrimonio,0.02
+2020,Umbria,ristorante matrimonio,0.0
+2020,Umbria,Wedding planner,0.01
+2020,Umbria,abiti da cerimonia,0.29
+2020,Umbria,foto matrimonio,0.14
+2020,Umbria,location matrimoni,0.05
+2020,Umbria,gruppo musicale,0.39
+2020,Veneto,musica dj,0.05
+2020,Veneto,fiori matrimonio,0.12
+2020,Veneto,Torta matrimonio,0.09
+2020,Veneto,Trucco sposa,0.06
+2020,Veneto,bomboniere matrimonio,0.08
+2020,Veneto,film matrimonio,0.09
+2020,Veneto,ristorante matrimonio,0.03
+2020,Veneto,Wedding planner,0.07
+2020,Veneto,abiti da cerimonia,0.13
+2020,Veneto,foto matrimonio,0.06
+2020,Veneto,location matrimoni,0.04
+2020,Veneto,gruppo musicale,0.19

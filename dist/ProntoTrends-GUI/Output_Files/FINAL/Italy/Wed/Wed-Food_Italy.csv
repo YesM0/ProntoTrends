@@ -1,0 +1,379 @@
+Year,ticket_geo_region_name,Type,Distribution
+2018,Abruzzo,Catering d'asporto,NA
+2018,Abruzzo,Servizio al tavolo,NA
+2018,Abruzzo,Isole (più tavoli),NA
+2018,Abruzzo,Buffet (unico tavolo),NA
+2018,Abruzzo,Non lo so,NA
+2018,Abruzzo,Servizio al vassoio,NA
+2018,Basilicata,Catering d'asporto,NA
+2018,Basilicata,Servizio al tavolo,NA
+2018,Basilicata,Isole (più tavoli),NA
+2018,Basilicata,Buffet (unico tavolo),NA
+2018,Basilicata,Non lo so,NA
+2018,Basilicata,Servizio al vassoio,NA
+2018,Calabria,Catering d'asporto,NA
+2018,Calabria,Servizio al tavolo,NA
+2018,Calabria,Isole (più tavoli),NA
+2018,Calabria,Buffet (unico tavolo),NA
+2018,Calabria,Non lo so,NA
+2018,Calabria,Servizio al vassoio,NA
+2018,Campania,Catering d'asporto,0.03
+2018,Campania,Servizio al tavolo,0.48
+2018,Campania,Isole (più tavoli),0.17
+2018,Campania,Buffet (unico tavolo),0.17
+2018,Campania,Non lo so,0.13
+2018,Campania,Servizio al vassoio,0.01
+2018,Emilia-Romagna,Catering d'asporto,0.05
+2018,Emilia-Romagna,Servizio al tavolo,0.37
+2018,Emilia-Romagna,Isole (più tavoli),0.14
+2018,Emilia-Romagna,Buffet (unico tavolo),0.22
+2018,Emilia-Romagna,Non lo so,0.2
+2018,Emilia-Romagna,Servizio al vassoio,0.02
+2018,Friuli Venezia Giulia,Catering d'asporto,0.14
+2018,Friuli Venezia Giulia,Servizio al tavolo,0.28
+2018,Friuli Venezia Giulia,Isole (più tavoli),0.14
+2018,Friuli Venezia Giulia,Buffet (unico tavolo),0.28
+2018,Friuli Venezia Giulia,Non lo so,0.16
+2018,Friuli Venezia Giulia,Servizio al vassoio,0.0
+2018,Lazio,Catering d'asporto,0.13
+2018,Lazio,Servizio al tavolo,0.29
+2018,Lazio,Isole (più tavoli),0.26
+2018,Lazio,Buffet (unico tavolo),0.17
+2018,Lazio,Non lo so,0.13
+2018,Lazio,Servizio al vassoio,0.02
+2018,Liguria,Catering d'asporto,0.16
+2018,Liguria,Servizio al tavolo,0.31
+2018,Liguria,Isole (più tavoli),0.24
+2018,Liguria,Buffet (unico tavolo),0.13
+2018,Liguria,Non lo so,0.11
+2018,Liguria,Servizio al vassoio,0.04
+2018,Lombardia,Catering d'asporto,0.14
+2018,Lombardia,Servizio al tavolo,0.26
+2018,Lombardia,Isole (più tavoli),0.18
+2018,Lombardia,Buffet (unico tavolo),0.26
+2018,Lombardia,Non lo so,0.12
+2018,Lombardia,Servizio al vassoio,0.04
+2018,Marche,Catering d'asporto,NA
+2018,Marche,Servizio al tavolo,NA
+2018,Marche,Isole (più tavoli),NA
+2018,Marche,Buffet (unico tavolo),NA
+2018,Marche,Non lo so,NA
+2018,Marche,Servizio al vassoio,NA
+2018,Molise,Catering d'asporto,NA
+2018,Molise,Servizio al tavolo,NA
+2018,Molise,Isole (più tavoli),NA
+2018,Molise,Buffet (unico tavolo),NA
+2018,Molise,Non lo so,NA
+2018,Molise,Servizio al vassoio,NA
+2018,Piemonte,Catering d'asporto,0.09
+2018,Piemonte,Servizio al tavolo,0.36
+2018,Piemonte,Isole (più tavoli),0.2
+2018,Piemonte,Buffet (unico tavolo),0.24
+2018,Piemonte,Non lo so,0.09
+2018,Piemonte,Servizio al vassoio,0.03
+2018,Puglia,Catering d'asporto,0.08
+2018,Puglia,Servizio al tavolo,0.29
+2018,Puglia,Isole (più tavoli),0.25
+2018,Puglia,Buffet (unico tavolo),0.22
+2018,Puglia,Non lo so,0.13
+2018,Puglia,Servizio al vassoio,0.03
+2018,Sardegna,Catering d'asporto,0.17
+2018,Sardegna,Servizio al tavolo,0.31
+2018,Sardegna,Isole (più tavoli),0.17
+2018,Sardegna,Buffet (unico tavolo),0.2
+2018,Sardegna,Non lo so,0.14
+2018,Sardegna,Servizio al vassoio,0.0
+2018,Sicilia,Catering d'asporto,0.06
+2018,Sicilia,Servizio al tavolo,0.28
+2018,Sicilia,Isole (più tavoli),0.28
+2018,Sicilia,Buffet (unico tavolo),0.16
+2018,Sicilia,Non lo so,0.21
+2018,Sicilia,Servizio al vassoio,0.01
+2018,Toscana,Catering d'asporto,0.08
+2018,Toscana,Servizio al tavolo,0.19
+2018,Toscana,Isole (più tavoli),0.27
+2018,Toscana,Buffet (unico tavolo),0.26
+2018,Toscana,Non lo so,0.16
+2018,Toscana,Servizio al vassoio,0.03
+2018,Trentino-Alto Adige,Catering d'asporto,NA
+2018,Trentino-Alto Adige,Servizio al tavolo,NA
+2018,Trentino-Alto Adige,Isole (più tavoli),NA
+2018,Trentino-Alto Adige,Buffet (unico tavolo),NA
+2018,Trentino-Alto Adige,Non lo so,NA
+2018,Trentino-Alto Adige,Servizio al vassoio,NA
+2018,Umbria,Catering d'asporto,NA
+2018,Umbria,Servizio al tavolo,NA
+2018,Umbria,Isole (più tavoli),NA
+2018,Umbria,Buffet (unico tavolo),NA
+2018,Umbria,Non lo so,NA
+2018,Umbria,Servizio al vassoio,NA
+2018,Valle d'Aosta,Catering d'asporto,NA
+2018,Valle d'Aosta,Servizio al tavolo,NA
+2018,Valle d'Aosta,Isole (più tavoli),NA
+2018,Valle d'Aosta,Buffet (unico tavolo),NA
+2018,Valle d'Aosta,Non lo so,NA
+2018,Valle d'Aosta,Servizio al vassoio,NA
+2018,Veneto,Catering d'asporto,0.13
+2018,Veneto,Servizio al tavolo,0.26
+2018,Veneto,Isole (più tavoli),0.14
+2018,Veneto,Buffet (unico tavolo),0.28
+2018,Veneto,Non lo so,0.17
+2018,Veneto,Servizio al vassoio,0.03
+2018,Italia,Catering d'asporto,0.11
+2018,Italia,Servizio al tavolo,0.29
+2018,Italia,Isole (più tavoli),0.2
+2018,Italia,Buffet (unico tavolo),0.22
+2018,Italia,Non lo so,0.15
+2018,Italia,Servizio al vassoio,0.02
+2019,Abruzzo,Catering d'asporto,NA
+2019,Abruzzo,Servizio al tavolo,NA
+2019,Abruzzo,Isole (più tavoli),NA
+2019,Abruzzo,Buffet (unico tavolo),NA
+2019,Abruzzo,Non lo so,NA
+2019,Abruzzo,Servizio al vassoio,NA
+2019,Basilicata,Catering d'asporto,NA
+2019,Basilicata,Servizio al tavolo,NA
+2019,Basilicata,Isole (più tavoli),NA
+2019,Basilicata,Buffet (unico tavolo),NA
+2019,Basilicata,Non lo so,NA
+2019,Basilicata,Servizio al vassoio,NA
+2019,Calabria,Catering d'asporto,0.06
+2019,Calabria,Servizio al tavolo,0.52
+2019,Calabria,Isole (più tavoli),0.13
+2019,Calabria,Buffet (unico tavolo),0.23
+2019,Calabria,Non lo so,0.06
+2019,Calabria,Servizio al vassoio,0.0
+2019,Campania,Catering d'asporto,0.16
+2019,Campania,Servizio al tavolo,0.34
+2019,Campania,Isole (più tavoli),0.15
+2019,Campania,Buffet (unico tavolo),0.23
+2019,Campania,Non lo so,0.06
+2019,Campania,Servizio al vassoio,0.06
+2019,Emilia-Romagna,Catering d'asporto,0.05
+2019,Emilia-Romagna,Servizio al tavolo,0.35
+2019,Emilia-Romagna,Isole (più tavoli),0.29
+2019,Emilia-Romagna,Buffet (unico tavolo),0.21
+2019,Emilia-Romagna,Non lo so,0.08
+2019,Emilia-Romagna,Servizio al vassoio,0.02
+2019,Friuli Venezia Giulia,Catering d'asporto,0.12
+2019,Friuli Venezia Giulia,Servizio al tavolo,0.39
+2019,Friuli Venezia Giulia,Isole (più tavoli),0.2
+2019,Friuli Venezia Giulia,Buffet (unico tavolo),0.2
+2019,Friuli Venezia Giulia,Non lo so,0.06
+2019,Friuli Venezia Giulia,Servizio al vassoio,0.04
+2019,Lazio,Catering d'asporto,0.12
+2019,Lazio,Servizio al tavolo,0.29
+2019,Lazio,Isole (più tavoli),0.23
+2019,Lazio,Buffet (unico tavolo),0.23
+2019,Lazio,Non lo so,0.1
+2019,Lazio,Servizio al vassoio,0.03
+2019,Liguria,Catering d'asporto,0.1
+2019,Liguria,Servizio al tavolo,0.34
+2019,Liguria,Isole (più tavoli),0.27
+2019,Liguria,Buffet (unico tavolo),0.15
+2019,Liguria,Non lo so,0.1
+2019,Liguria,Servizio al vassoio,0.05
+2019,Lombardia,Catering d'asporto,0.12
+2019,Lombardia,Servizio al tavolo,0.31
+2019,Lombardia,Isole (più tavoli),0.22
+2019,Lombardia,Buffet (unico tavolo),0.25
+2019,Lombardia,Non lo so,0.08
+2019,Lombardia,Servizio al vassoio,0.02
+2019,Marche,Catering d'asporto,NA
+2019,Marche,Servizio al tavolo,NA
+2019,Marche,Isole (più tavoli),NA
+2019,Marche,Buffet (unico tavolo),NA
+2019,Marche,Non lo so,NA
+2019,Marche,Servizio al vassoio,NA
+2019,Molise,Catering d'asporto,NA
+2019,Molise,Servizio al tavolo,NA
+2019,Molise,Isole (più tavoli),NA
+2019,Molise,Buffet (unico tavolo),NA
+2019,Molise,Non lo so,NA
+2019,Molise,Servizio al vassoio,NA
+2019,Piemonte,Catering d'asporto,0.12
+2019,Piemonte,Servizio al tavolo,0.37
+2019,Piemonte,Isole (più tavoli),0.27
+2019,Piemonte,Buffet (unico tavolo),0.15
+2019,Piemonte,Non lo so,0.08
+2019,Piemonte,Servizio al vassoio,0.01
+2019,Puglia,Catering d'asporto,0.26
+2019,Puglia,Servizio al tavolo,0.26
+2019,Puglia,Isole (più tavoli),0.13
+2019,Puglia,Buffet (unico tavolo),0.19
+2019,Puglia,Non lo so,0.15
+2019,Puglia,Servizio al vassoio,0.02
+2019,Sardegna,Catering d'asporto,0.2
+2019,Sardegna,Servizio al tavolo,0.22
+2019,Sardegna,Isole (più tavoli),0.25
+2019,Sardegna,Buffet (unico tavolo),0.25
+2019,Sardegna,Non lo so,0.01
+2019,Sardegna,Servizio al vassoio,0.07
+2019,Sicilia,Catering d'asporto,0.05
+2019,Sicilia,Servizio al tavolo,0.31
+2019,Sicilia,Isole (più tavoli),0.26
+2019,Sicilia,Buffet (unico tavolo),0.29
+2019,Sicilia,Non lo so,0.09
+2019,Sicilia,Servizio al vassoio,0.0
+2019,Toscana,Catering d'asporto,0.1
+2019,Toscana,Servizio al tavolo,0.32
+2019,Toscana,Isole (più tavoli),0.25
+2019,Toscana,Buffet (unico tavolo),0.24
+2019,Toscana,Non lo so,0.06
+2019,Toscana,Servizio al vassoio,0.03
+2019,Trentino-Alto Adige,Catering d'asporto,NA
+2019,Trentino-Alto Adige,Servizio al tavolo,NA
+2019,Trentino-Alto Adige,Isole (più tavoli),NA
+2019,Trentino-Alto Adige,Buffet (unico tavolo),NA
+2019,Trentino-Alto Adige,Non lo so,NA
+2019,Trentino-Alto Adige,Servizio al vassoio,NA
+2019,Umbria,Catering d'asporto,0.03
+2019,Umbria,Servizio al tavolo,0.28
+2019,Umbria,Isole (più tavoli),0.28
+2019,Umbria,Buffet (unico tavolo),0.31
+2019,Umbria,Non lo so,0.08
+2019,Umbria,Servizio al vassoio,0.03
+2019,Valle d'Aosta,Catering d'asporto,NA
+2019,Valle d'Aosta,Servizio al tavolo,NA
+2019,Valle d'Aosta,Isole (più tavoli),NA
+2019,Valle d'Aosta,Buffet (unico tavolo),NA
+2019,Valle d'Aosta,Non lo so,NA
+2019,Valle d'Aosta,Servizio al vassoio,NA
+2019,Veneto,Catering d'asporto,0.09
+2019,Veneto,Servizio al tavolo,0.3
+2019,Veneto,Isole (più tavoli),0.22
+2019,Veneto,Buffet (unico tavolo),0.26
+2019,Veneto,Non lo so,0.11
+2019,Veneto,Servizio al vassoio,0.02
+2019,Italia,Catering d'asporto,0.11
+2019,Italia,Servizio al tavolo,0.32
+2019,Italia,Isole (più tavoli),0.23
+2019,Italia,Buffet (unico tavolo),0.23
+2019,Italia,Non lo so,0.08
+2019,Italia,Servizio al vassoio,0.03
+2020,Abruzzo,Catering d'asporto,NA
+2020,Abruzzo,Servizio al tavolo,NA
+2020,Abruzzo,Isole (più tavoli),NA
+2020,Abruzzo,Buffet (unico tavolo),NA
+2020,Abruzzo,Non lo so,NA
+2020,Abruzzo,Servizio al vassoio,NA
+2020,Basilicata,Catering d'asporto,NA
+2020,Basilicata,Servizio al tavolo,NA
+2020,Basilicata,Isole (più tavoli),NA
+2020,Basilicata,Buffet (unico tavolo),NA
+2020,Basilicata,Non lo so,NA
+2020,Basilicata,Servizio al vassoio,NA
+2020,Calabria,Catering d'asporto,NA
+2020,Calabria,Servizio al tavolo,NA
+2020,Calabria,Isole (più tavoli),NA
+2020,Calabria,Buffet (unico tavolo),NA
+2020,Calabria,Non lo so,NA
+2020,Calabria,Servizio al vassoio,NA
+2020,Campania,Catering d'asporto,NA
+2020,Campania,Servizio al tavolo,NA
+2020,Campania,Isole (più tavoli),NA
+2020,Campania,Buffet (unico tavolo),NA
+2020,Campania,Non lo so,NA
+2020,Campania,Servizio al vassoio,NA
+2020,Emilia-Romagna,Catering d'asporto,0.13
+2020,Emilia-Romagna,Servizio al tavolo,0.48
+2020,Emilia-Romagna,Isole (più tavoli),0.22
+2020,Emilia-Romagna,Buffet (unico tavolo),0.13
+2020,Emilia-Romagna,Non lo so,0.0
+2020,Emilia-Romagna,Servizio al vassoio,0.04
+2020,Friuli Venezia Giulia,Catering d'asporto,NA
+2020,Friuli Venezia Giulia,Servizio al tavolo,NA
+2020,Friuli Venezia Giulia,Isole (più tavoli),NA
+2020,Friuli Venezia Giulia,Buffet (unico tavolo),NA
+2020,Friuli Venezia Giulia,Non lo so,NA
+2020,Friuli Venezia Giulia,Servizio al vassoio,NA
+2020,Lazio,Catering d'asporto,0.07
+2020,Lazio,Servizio al tavolo,0.33
+2020,Lazio,Isole (più tavoli),0.31
+2020,Lazio,Buffet (unico tavolo),0.21
+2020,Lazio,Non lo so,0.02
+2020,Lazio,Servizio al vassoio,0.07
+2020,Liguria,Catering d'asporto,NA
+2020,Liguria,Servizio al tavolo,NA
+2020,Liguria,Isole (più tavoli),NA
+2020,Liguria,Buffet (unico tavolo),NA
+2020,Liguria,Non lo so,NA
+2020,Liguria,Servizio al vassoio,NA
+2020,Lombardia,Catering d'asporto,0.2
+2020,Lombardia,Servizio al tavolo,0.39
+2020,Lombardia,Isole (più tavoli),0.08
+2020,Lombardia,Buffet (unico tavolo),0.31
+2020,Lombardia,Non lo so,0.02
+2020,Lombardia,Servizio al vassoio,0.0
+2020,Marche,Catering d'asporto,NA
+2020,Marche,Servizio al tavolo,NA
+2020,Marche,Isole (più tavoli),NA
+2020,Marche,Buffet (unico tavolo),NA
+2020,Marche,Non lo so,NA
+2020,Marche,Servizio al vassoio,NA
+2020,Molise,Catering d'asporto,NA
+2020,Molise,Servizio al tavolo,NA
+2020,Molise,Isole (più tavoli),NA
+2020,Molise,Buffet (unico tavolo),NA
+2020,Molise,Non lo so,NA
+2020,Molise,Servizio al vassoio,NA
+2020,Piemonte,Catering d'asporto,0.07
+2020,Piemonte,Servizio al tavolo,0.39
+2020,Piemonte,Isole (più tavoli),0.32
+2020,Piemonte,Buffet (unico tavolo),0.2
+2020,Piemonte,Non lo so,0.0
+2020,Piemonte,Servizio al vassoio,0.02
+2020,Puglia,Catering d'asporto,NA
+2020,Puglia,Servizio al tavolo,NA
+2020,Puglia,Isole (più tavoli),NA
+2020,Puglia,Buffet (unico tavolo),NA
+2020,Puglia,Non lo so,NA
+2020,Puglia,Servizio al vassoio,NA
+2020,Sardegna,Catering d'asporto,NA
+2020,Sardegna,Servizio al tavolo,NA
+2020,Sardegna,Isole (più tavoli),NA
+2020,Sardegna,Buffet (unico tavolo),NA
+2020,Sardegna,Non lo so,NA
+2020,Sardegna,Servizio al vassoio,NA
+2020,Sicilia,Catering d'asporto,0.09
+2020,Sicilia,Servizio al tavolo,0.44
+2020,Sicilia,Isole (più tavoli),0.29
+2020,Sicilia,Buffet (unico tavolo),0.18
+2020,Sicilia,Non lo so,0.0
+2020,Sicilia,Servizio al vassoio,0.0
+2020,Toscana,Catering d'asporto,0.1
+2020,Toscana,Servizio al tavolo,0.23
+2020,Toscana,Isole (più tavoli),0.4
+2020,Toscana,Buffet (unico tavolo),0.25
+2020,Toscana,Non lo so,0.0
+2020,Toscana,Servizio al vassoio,0.02
+2020,Trentino-Alto Adige,Catering d'asporto,NA
+2020,Trentino-Alto Adige,Servizio al tavolo,NA
+2020,Trentino-Alto Adige,Isole (più tavoli),NA
+2020,Trentino-Alto Adige,Buffet (unico tavolo),NA
+2020,Trentino-Alto Adige,Non lo so,NA
+2020,Trentino-Alto Adige,Servizio al vassoio,NA
+2020,Umbria,Catering d'asporto,NA
+2020,Umbria,Servizio al tavolo,NA
+2020,Umbria,Isole (più tavoli),NA
+2020,Umbria,Buffet (unico tavolo),NA
+2020,Umbria,Non lo so,NA
+2020,Umbria,Servizio al vassoio,NA
+2020,Valle d'Aosta,Catering d'asporto,NA
+2020,Valle d'Aosta,Servizio al tavolo,NA
+2020,Valle d'Aosta,Isole (più tavoli),NA
+2020,Valle d'Aosta,Buffet (unico tavolo),NA
+2020,Valle d'Aosta,Non lo so,NA
+2020,Valle d'Aosta,Servizio al vassoio,NA
+2020,Veneto,Catering d'asporto,0.13
+2020,Veneto,Servizio al tavolo,0.39
+2020,Veneto,Isole (più tavoli),0.2
+2020,Veneto,Buffet (unico tavolo),0.24
+2020,Veneto,Non lo so,0.0
+2020,Veneto,Servizio al vassoio,0.04
+2020,Italia,Catering d'asporto,0.12
+2020,Italia,Servizio al tavolo,0.38
+2020,Italia,Isole (più tavoli),0.25
+2020,Italia,Buffet (unico tavolo),0.23
+2020,Italia,Non lo so,0.0
+2020,Italia,Servizio al vassoio,0.03

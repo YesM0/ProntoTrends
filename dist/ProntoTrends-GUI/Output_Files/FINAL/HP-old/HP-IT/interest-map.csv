@@ -1,0 +1,201 @@
+ticket_taxonomy_tag_name,ticket_geo_region_name,Score
+Aria condizionata,Abruzzo,0.6572461537936135
+Aria condizionata,Basilicata,0.05654528517294068
+Aria condizionata,Calabria,0.4161468837169785
+Aria condizionata,Campania,2.1627051382258604
+Aria condizionata,Emilia-Romagna,4.037987528869946
+Aria condizionata,Friuli Venezia Giulia,0.8828831970940222
+Aria condizionata,Lazio,5.014919504202654
+Aria condizionata,Liguria,2.021965470301853
+Aria condizionata,Lombardia,10.0
+Aria condizionata,Marche,0.8793165589548418
+Aria condizionata,Molise,0.06506555938990218
+Aria condizionata,Piemonte,3.7079888777536136
+Aria condizionata,Puglia,1.2663134388463393
+Aria condizionata,Sardegna,1.4425124555455322
+Aria condizionata,Sicilia,1.7835282858844306
+Aria condizionata,Toscana,3.2297046564463066
+Aria condizionata,Trentino-Alto Adige,0.4210537455138574
+Aria condizionata,Umbria,0.39747150955961924
+Aria condizionata,Valle d'Aosta,0.056675901723351435
+Aria condizionata,Veneto,2.844247604578026
+Idraulico,Abruzzo,0.4222380237583939
+Idraulico,Basilicata,0.03925617776299847
+Idraulico,Calabria,0.17347908744356466
+Idraulico,Campania,1.0427495754187333
+Idraulico,Emilia-Romagna,2.894666900980589
+Idraulico,Friuli Venezia Giulia,0.571138434157014
+Idraulico,Lazio,3.9618239422683423
+Idraulico,Liguria,0.5728404493134542
+Idraulico,Lombardia,10.0
+Idraulico,Marche,0.5334497961819313
+Idraulico,Molise,0.021198335992019174
+Idraulico,Piemonte,1.7893540439784603
+Idraulico,Puglia,0.6044052300176812
+Idraulico,Sardegna,0.5238523644286287
+Idraulico,Sicilia,0.7668423349984778
+Idraulico,Toscana,1.5292276617549971
+Idraulico,Trentino-Alto Adige,0.2994901870328251
+Idraulico,Umbria,0.2455655893777137
+Idraulico,Valle d'Aosta,0.026322468909817914
+Idraulico,Veneto,2.545538123009126
+Imbianchino,Abruzzo,0.759622272875285
+Imbianchino,Basilicata,0.07435456110154905
+Imbianchino,Calabria,0.3231593801824568
+Imbianchino,Campania,1.2693917741015226
+Imbianchino,Emilia-Romagna,3.261016162610865
+Imbianchino,Friuli Venezia Giulia,0.6911987925604114
+Imbianchino,Lazio,3.9789481699281337
+Imbianchino,Liguria,0.8609182576775537
+Imbianchino,Lombardia,10.0
+Imbianchino,Marche,0.6726712870505882
+Imbianchino,Molise,0.033190613694447216
+Imbianchino,Piemonte,2.8476679876530913
+Imbianchino,Puglia,1.107444570624795
+Imbianchino,Sardegna,0.7304658784431246
+Imbianchino,Sicilia,1.2711479414029878
+Imbianchino,Toscana,2.2024547777888417
+Imbianchino,Trentino-Alto Adige,0.48066363815919433
+Imbianchino,Umbria,0.3455378606685132
+Imbianchino,Valle d'Aosta,0.035845862790002986
+Imbianchino,Veneto,3.272345114355379
+Nutrizionista,Abruzzo,NA
+Nutrizionista,Basilicata,NA
+Nutrizionista,Calabria,NA
+Nutrizionista,Campania,NA
+Nutrizionista,Emilia-Romagna,NA
+Nutrizionista,Friuli Venezia Giulia,NA
+Nutrizionista,Lazio,NA
+Nutrizionista,Liguria,NA
+Nutrizionista,Lombardia,NA
+Nutrizionista,Marche,NA
+Nutrizionista,Molise,NA
+Nutrizionista,Piemonte,NA
+Nutrizionista,Puglia,NA
+Nutrizionista,Sardegna,NA
+Nutrizionista,Sicilia,NA
+Nutrizionista,Toscana,NA
+Nutrizionista,Trentino-Alto Adige,NA
+Nutrizionista,Umbria,NA
+Nutrizionista,Valle d'Aosta,NA
+Nutrizionista,Veneto,NA
+Organizzatore di feste ,Abruzzo,0.9424010068329004
+Organizzatore di feste ,Basilicata,0.27870903808687797
+Organizzatore di feste ,Calabria,0.715982490919383
+Organizzatore di feste ,Campania,3.3608368682186245
+Organizzatore di feste ,Emilia-Romagna,4.5136069787855435
+Organizzatore di feste ,Friuli Venezia Giulia,1.053047883516772
+Organizzatore di feste ,Lazio,4.389326534037416
+Organizzatore di feste ,Liguria,1.6074069645293831
+Organizzatore di feste ,Lombardia,10.0
+Organizzatore di feste ,Marche,1.4530521871695055
+Organizzatore di feste ,Molise,0.09499032409994597
+Organizzatore di feste ,Piemonte,5.181604036249192
+Organizzatore di feste ,Puglia,3.1483217015742055
+Organizzatore di feste ,Sardegna,1.8636496520047399
+Organizzatore di feste ,Sicilia,3.2812335263426275
+Organizzatore di feste ,Toscana,3.5296916244354994
+Organizzatore di feste ,Trentino-Alto Adige,0.5752688543321159
+Organizzatore di feste ,Umbria,0.5430602932199474
+Organizzatore di feste ,Valle d'Aosta,0.0665208089612928
+Organizzatore di feste ,Veneto,4.694959869427605
+Personal trainer,Abruzzo,0.7939134240626795
+Personal trainer,Basilicata,0.10107101786140843
+Personal trainer,Calabria,0.47637066322902605
+Personal trainer,Campania,3.577874900718212
+Personal trainer,Emilia-Romagna,4.471205103540122
+Personal trainer,Friuli Venezia Giulia,0.8490762904838478
+Personal trainer,Lazio,5.202672794889121
+Personal trainer,Liguria,1.073822247526042
+Personal trainer,Lombardia,10.0
+Personal trainer,Marche,0.9512677862343435
+Personal trainer,Molise,0.06847112920090326
+Personal trainer,Piemonte,3.837702094467816
+Personal trainer,Puglia,2.076578841903211
+Personal trainer,Sardegna,0.9499479572252144
+Personal trainer,Sicilia,2.066222452719621
+Personal trainer,Toscana,3.1963559604554166
+Personal trainer,Trentino-Alto Adige,0.5710231756342186
+Personal trainer,Umbria,0.35685100472959763
+Personal trainer,Valle d'Aosta,0.08371058420521356
+Personal trainer,Veneto,3.222977079876226
+Psicologo,Abruzzo,0.9007519152889809
+Psicologo,Basilicata,0.20966031886456715
+Psicologo,Calabria,1.2773890180903311
+Psicologo,Campania,5.1989701023297075
+Psicologo,Emilia-Romagna,4.077085326486523
+Psicologo,Friuli Venezia Giulia,0.7485056129755174
+Psicologo,Lazio,7.027985526254559
+Psicologo,Liguria,1.1553821141193157
+Psicologo,Lombardia,10.0
+Psicologo,Marche,1.1416908426977668
+Psicologo,Molise,0.0745071663487864
+Psicologo,Piemonte,3.799213109723336
+Psicologo,Puglia,3.082010392154727
+Psicologo,Sardegna,1.2897592004367342
+Psicologo,Sicilia,3.6663544968781885
+Psicologo,Toscana,2.9869660106019107
+Psicologo,Trentino-Alto Adige,0.5581043850810864
+Psicologo,Umbria,0.6189178828169419
+Psicologo,Valle d'Aosta,0.05785240195828506
+Psicologo,Veneto,4.101801313378101
+Ripetizioni,Abruzzo,1.253059753222542
+Ripetizioni,Basilicata,0.19074842107034434
+Ripetizioni,Calabria,0.6225530897657281
+Ripetizioni,Campania,2.9480740865446995
+Ripetizioni,Emilia-Romagna,5.411206124828388
+Ripetizioni,Friuli Venezia Giulia,1.1281252184616504
+Ripetizioni,Lazio,6.027800171846536
+Ripetizioni,Liguria,1.2710458916050285
+Ripetizioni,Lombardia,10.0
+Ripetizioni,Marche,1.5399292296591836
+Ripetizioni,Molise,0.07958741460566543
+Ripetizioni,Piemonte,3.905733469351142
+Ripetizioni,Puglia,1.8426047230001692
+Ripetizioni,Sardegna,1.4134904207049825
+Ripetizioni,Sicilia,2.65179727396823
+Ripetizioni,Toscana,4.023414164901205
+Ripetizioni,Trentino-Alto Adige,0.4408090423124652
+Ripetizioni,Umbria,0.8274195150686463
+Ripetizioni,Valle d'Aosta,0.04776336610422308
+Ripetizioni,Veneto,5.010730635671761
+Spedizioni,Abruzzo,1.636363636363637
+Spedizioni,Basilicata,0.30543553070441587
+Spedizioni,Calabria,2.993452387783911
+Spedizioni,Campania,5.38309992556917
+Spedizioni,Emilia-Romagna,6.419328367630353
+Spedizioni,Friuli Venezia Giulia,1.2505185131747436
+Spedizioni,Lazio,5.627546544419132
+Spedizioni,Liguria,1.2457827678156042
+Spedizioni,Lombardia,10.0
+Spedizioni,Marche,1.12226020413118
+Spedizioni,Molise,0.2895639898543572
+Spedizioni,Piemonte,4.721925062625001
+Spedizioni,Puglia,5.811167225230946
+Spedizioni,Sardegna,2.1232861530514597
+Spedizioni,Sicilia,9.896488989485455
+Spedizioni,Toscana,4.285336058506664
+Spedizioni,Trentino-Alto Adige,1.0150807404941984
+Spedizioni,Umbria,1.064955208191091
+Spedizioni,Valle d'Aosta,0.0
+Spedizioni,Veneto,4.408507666603495
+Trasloco,Abruzzo,0.9509126436126093
+Trasloco,Basilicata,0.09651586681493914
+Trasloco,Calabria,0.8422814895939066
+Trasloco,Campania,3.13216589530969
+Trasloco,Emilia-Romagna,4.544800815169771
+Trasloco,Friuli Venezia Giulia,0.7407773268634844
+Trasloco,Lazio,5.121209364557872
+Trasloco,Liguria,1.2821332572226787
+Trasloco,Lombardia,10.0
+Trasloco,Marche,1.4233002436472915
+Trasloco,Molise,0.15202524870014059
+Trasloco,Piemonte,5.491615184978712
+Trasloco,Puglia,2.1926475554796863
+Trasloco,Sardegna,0.831691751422622
+Trasloco,Sicilia,2.587396468661299
+Trasloco,Toscana,4.139757388207797
+Trasloco,Trentino-Alto Adige,0.6085895511184153
+Trasloco,Umbria,0.8602321550331616
+Trasloco,Valle d'Aosta,0.06544706751495309
+Trasloco,Veneto,4.007721448733461

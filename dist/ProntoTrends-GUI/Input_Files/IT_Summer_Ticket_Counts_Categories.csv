@@ -1,0 +1,1789 @@
+year,month,ticket_geo_region_name,ticket_taxonomy_tag_name,No_of_tickets
+2018,1,Abruzzo,Homecare,64
+2018,1,Abruzzo,Outdoor,15
+2018,1,Abruzzo,Wellness,164
+2018,1,Basilicata,Homecare,9
+2018,1,Basilicata,Outdoor,2
+2018,1,Basilicata,Wellness,36
+2018,1,Calabria,Homecare,32
+2018,1,Calabria,Outdoor,12
+2018,1,Calabria,Wellness,135
+2018,1,Campania,Homecare,181
+2018,1,Campania,Outdoor,32
+2018,1,Campania,Wellness,652
+2018,1,Emilia-Romagna,Homecare,445
+2018,1,Emilia-Romagna,Outdoor,49
+2018,1,Emilia-Romagna,Wellness,752
+2018,1,Friuli Venezia Giulia,Homecare,76
+2018,1,Friuli Venezia Giulia,Outdoor,17
+2018,1,Friuli Venezia Giulia,Wellness,151
+2018,1,Lazio,Homecare,364
+2018,1,Lazio,Outdoor,70
+2018,1,Lazio,Wellness,852
+2018,1,Liguria,Homecare,91
+2018,1,Liguria,Outdoor,13
+2018,1,Liguria,Wellness,181
+2018,1,Lombardia,Homecare,886
+2018,1,Lombardia,Outdoor,109
+2018,1,Lombardia,Wellness,1746
+2018,1,Marche,Homecare,81
+2018,1,Marche,Outdoor,18
+2018,1,Marche,Wellness,230
+2018,1,Molise,Homecare,3
+2018,1,Molise,Wellness,9
+2018,1,Piemonte,Homecare,245
+2018,1,Piemonte,Outdoor,27
+2018,1,Piemonte,Wellness,603
+2018,1,Puglia,Homecare,102
+2018,1,Puglia,Outdoor,38
+2018,1,Puglia,Wellness,367
+2018,1,Sardegna,Homecare,85
+2018,1,Sardegna,Outdoor,20
+2018,1,Sardegna,Wellness,159
+2018,1,Sicilia,Homecare,107
+2018,1,Sicilia,Outdoor,64
+2018,1,Sicilia,Wellness,433
+2018,1,Toscana,Homecare,247
+2018,1,Toscana,Outdoor,34
+2018,1,Toscana,Wellness,580
+2018,1,Trentino-Alto Adige,Homecare,41
+2018,1,Trentino-Alto Adige,Outdoor,11
+2018,1,Trentino-Alto Adige,Wellness,106
+2018,1,Umbria,Homecare,39
+2018,1,Umbria,Outdoor,11
+2018,1,Umbria,Wellness,111
+2018,1,Valle d'Aosta,Homecare,1
+2018,1,Valle d'Aosta,Wellness,10
+2018,1,Veneto,Homecare,322
+2018,1,Veneto,Outdoor,50
+2018,1,Veneto,Wellness,647
+2018,2,Abruzzo,Homecare,88
+2018,2,Abruzzo,Outdoor,10
+2018,2,Abruzzo,Wellness,139
+2018,2,Basilicata,Homecare,14
+2018,2,Basilicata,Outdoor,6
+2018,2,Basilicata,Wellness,32
+2018,2,Calabria,Homecare,44
+2018,2,Calabria,Outdoor,20
+2018,2,Calabria,Wellness,100
+2018,2,Campania,Homecare,206
+2018,2,Campania,Outdoor,32
+2018,2,Campania,Wellness,522
+2018,2,Emilia-Romagna,Homecare,493
+2018,2,Emilia-Romagna,Outdoor,66
+2018,2,Emilia-Romagna,Wellness,604
+2018,2,Friuli Venezia Giulia,Homecare,90
+2018,2,Friuli Venezia Giulia,Outdoor,11
+2018,2,Friuli Venezia Giulia,Wellness,127
+2018,2,Lazio,Homecare,489
+2018,2,Lazio,Outdoor,62
+2018,2,Lazio,Wellness,635
+2018,2,Liguria,Homecare,109
+2018,2,Liguria,Outdoor,15
+2018,2,Liguria,Wellness,134
+2018,2,Lombardia,Homecare,1002
+2018,2,Lombardia,Outdoor,116
+2018,2,Lombardia,Wellness,1333
+2018,2,Marche,Homecare,86
+2018,2,Marche,Outdoor,10
+2018,2,Marche,Wellness,155
+2018,2,Molise,Homecare,4
+2018,2,Molise,Outdoor,1
+2018,2,Molise,Wellness,15
+2018,2,Piemonte,Homecare,301
+2018,2,Piemonte,Outdoor,33
+2018,2,Piemonte,Wellness,487
+2018,2,Puglia,Homecare,150
+2018,2,Puglia,Outdoor,36
+2018,2,Puglia,Wellness,312
+2018,2,Sardegna,Homecare,86
+2018,2,Sardegna,Outdoor,16
+2018,2,Sardegna,Wellness,120
+2018,2,Sicilia,Homecare,146
+2018,2,Sicilia,Outdoor,51
+2018,2,Sicilia,Wellness,331
+2018,2,Toscana,Homecare,281
+2018,2,Toscana,Outdoor,37
+2018,2,Toscana,Wellness,472
+2018,2,Trentino-Alto Adige,Homecare,31
+2018,2,Trentino-Alto Adige,Outdoor,4
+2018,2,Trentino-Alto Adige,Wellness,75
+2018,2,Umbria,Homecare,46
+2018,2,Umbria,Outdoor,12
+2018,2,Umbria,Wellness,90
+2018,2,Valle d'Aosta,Homecare,7
+2018,2,Valle d'Aosta,Wellness,6
+2018,2,Veneto,Homecare,340
+2018,2,Veneto,Outdoor,55
+2018,2,Veneto,Wellness,552
+2018,3,Abruzzo,Homecare,96
+2018,3,Abruzzo,Outdoor,18
+2018,3,Abruzzo,Wellness,116
+2018,3,Basilicata,Homecare,14
+2018,3,Basilicata,Outdoor,3
+2018,3,Basilicata,Wellness,32
+2018,3,Calabria,Homecare,61
+2018,3,Calabria,Outdoor,26
+2018,3,Calabria,Wellness,99
+2018,3,Campania,Homecare,275
+2018,3,Campania,Outdoor,28
+2018,3,Campania,Wellness,614
+2018,3,Emilia-Romagna,Homecare,742
+2018,3,Emilia-Romagna,Outdoor,101
+2018,3,Emilia-Romagna,Wellness,741
+2018,3,Friuli Venezia Giulia,Homecare,124
+2018,3,Friuli Venezia Giulia,Outdoor,28
+2018,3,Friuli Venezia Giulia,Wellness,105
+2018,3,Lazio,Homecare,581
+2018,3,Lazio,Outdoor,129
+2018,3,Lazio,Wellness,714
+2018,3,Liguria,Homecare,152
+2018,3,Liguria,Outdoor,20
+2018,3,Liguria,Wellness,173
+2018,3,Lombardia,Homecare,1261
+2018,3,Lombardia,Outdoor,165
+2018,3,Lombardia,Wellness,1520
+2018,3,Marche,Homecare,116
+2018,3,Marche,Outdoor,19
+2018,3,Marche,Wellness,134
+2018,3,Molise,Homecare,4
+2018,3,Molise,Wellness,4
+2018,3,Piemonte,Homecare,431
+2018,3,Piemonte,Outdoor,63
+2018,3,Piemonte,Wellness,496
+2018,3,Puglia,Homecare,219
+2018,3,Puglia,Outdoor,56
+2018,3,Puglia,Wellness,332
+2018,3,Sardegna,Homecare,99
+2018,3,Sardegna,Outdoor,26
+2018,3,Sardegna,Wellness,142
+2018,3,Sicilia,Homecare,180
+2018,3,Sicilia,Outdoor,62
+2018,3,Sicilia,Wellness,361
+2018,3,Toscana,Homecare,361
+2018,3,Toscana,Outdoor,86
+2018,3,Toscana,Wellness,476
+2018,3,Trentino-Alto Adige,Homecare,49
+2018,3,Trentino-Alto Adige,Outdoor,5
+2018,3,Trentino-Alto Adige,Wellness,85
+2018,3,Umbria,Homecare,68
+2018,3,Umbria,Outdoor,16
+2018,3,Umbria,Wellness,96
+2018,3,Valle d'Aosta,Homecare,13
+2018,3,Valle d'Aosta,Wellness,8
+2018,3,Veneto,Homecare,447
+2018,3,Veneto,Outdoor,75
+2018,3,Veneto,Wellness,619
+2018,4,Abruzzo,Homecare,127
+2018,4,Abruzzo,Outdoor,51
+2018,4,Abruzzo,Wellness,123
+2018,4,Basilicata,Homecare,14
+2018,4,Basilicata,Outdoor,9
+2018,4,Basilicata,Wellness,28
+2018,4,Calabria,Homecare,73
+2018,4,Calabria,Outdoor,42
+2018,4,Calabria,Wellness,131
+2018,4,Campania,Homecare,291
+2018,4,Campania,Outdoor,159
+2018,4,Campania,Wellness,515
+2018,4,Emilia-Romagna,Homecare,914
+2018,4,Emilia-Romagna,Outdoor,287
+2018,4,Emilia-Romagna,Wellness,665
+2018,4,Friuli Venezia Giulia,Homecare,147
+2018,4,Friuli Venezia Giulia,Outdoor,66
+2018,4,Friuli Venezia Giulia,Wellness,120
+2018,4,Lazio,Homecare,786
+2018,4,Lazio,Outdoor,404
+2018,4,Lazio,Wellness,639
+2018,4,Liguria,Homecare,174
+2018,4,Liguria,Outdoor,64
+2018,4,Liguria,Wellness,166
+2018,4,Lombardia,Homecare,1897
+2018,4,Lombardia,Outdoor,536
+2018,4,Lombardia,Wellness,1258
+2018,4,Marche,Homecare,136
+2018,4,Marche,Outdoor,57
+2018,4,Marche,Wellness,151
+2018,4,Molise,Homecare,19
+2018,4,Molise,Outdoor,5
+2018,4,Molise,Wellness,13
+2018,4,Piemonte,Homecare,584
+2018,4,Piemonte,Outdoor,174
+2018,4,Piemonte,Wellness,466
+2018,4,Puglia,Homecare,222
+2018,4,Puglia,Outdoor,134
+2018,4,Puglia,Wellness,251
+2018,4,Sardegna,Homecare,123
+2018,4,Sardegna,Outdoor,68
+2018,4,Sardegna,Wellness,125
+2018,4,Sicilia,Homecare,200
+2018,4,Sicilia,Outdoor,155
+2018,4,Sicilia,Wellness,380
+2018,4,Toscana,Homecare,450
+2018,4,Toscana,Outdoor,198
+2018,4,Toscana,Wellness,449
+2018,4,Trentino-Alto Adige,Homecare,65
+2018,4,Trentino-Alto Adige,Outdoor,22
+2018,4,Trentino-Alto Adige,Wellness,72
+2018,4,Umbria,Homecare,83
+2018,4,Umbria,Outdoor,28
+2018,4,Umbria,Wellness,105
+2018,4,Valle d'Aosta,Homecare,13
+2018,4,Valle d'Aosta,Outdoor,3
+2018,4,Valle d'Aosta,Wellness,7
+2018,4,Veneto,Homecare,600
+2018,4,Veneto,Outdoor,228
+2018,4,Veneto,Wellness,518
+2018,5,Abruzzo,Homecare,156
+2018,5,Abruzzo,Outdoor,41
+2018,5,Abruzzo,Wellness,140
+2018,5,Basilicata,Homecare,18
+2018,5,Basilicata,Outdoor,13
+2018,5,Basilicata,Wellness,31
+2018,5,Calabria,Homecare,69
+2018,5,Calabria,Outdoor,57
+2018,5,Calabria,Wellness,105
+2018,5,Campania,Homecare,418
+2018,5,Campania,Outdoor,175
+2018,5,Campania,Wellness,546
+2018,5,Emilia-Romagna,Homecare,993
+2018,5,Emilia-Romagna,Outdoor,279
+2018,5,Emilia-Romagna,Wellness,636
+2018,5,Friuli Venezia Giulia,Homecare,199
+2018,5,Friuli Venezia Giulia,Outdoor,46
+2018,5,Friuli Venezia Giulia,Wellness,129
+2018,5,Lazio,Homecare,958
+2018,5,Lazio,Outdoor,370
+2018,5,Lazio,Wellness,626
+2018,5,Liguria,Homecare,186
+2018,5,Liguria,Outdoor,82
+2018,5,Liguria,Wellness,156
+2018,5,Lombardia,Homecare,2233
+2018,5,Lombardia,Outdoor,540
+2018,5,Lombardia,Wellness,1430
+2018,5,Marche,Homecare,196
+2018,5,Marche,Outdoor,81
+2018,5,Marche,Wellness,138
+2018,5,Molise,Homecare,16
+2018,5,Molise,Outdoor,6
+2018,5,Molise,Wellness,13
+2018,5,Piemonte,Homecare,637
+2018,5,Piemonte,Outdoor,174
+2018,5,Piemonte,Wellness,481
+2018,5,Puglia,Homecare,283
+2018,5,Puglia,Outdoor,151
+2018,5,Puglia,Wellness,315
+2018,5,Sardegna,Homecare,129
+2018,5,Sardegna,Outdoor,84
+2018,5,Sardegna,Wellness,156
+2018,5,Sicilia,Homecare,269
+2018,5,Sicilia,Outdoor,134
+2018,5,Sicilia,Wellness,338
+2018,5,Toscana,Homecare,586
+2018,5,Toscana,Outdoor,183
+2018,5,Toscana,Wellness,486
+2018,5,Trentino-Alto Adige,Homecare,71
+2018,5,Trentino-Alto Adige,Outdoor,21
+2018,5,Trentino-Alto Adige,Wellness,80
+2018,5,Umbria,Homecare,93
+2018,5,Umbria,Outdoor,37
+2018,5,Umbria,Wellness,88
+2018,5,Valle d'Aosta,Homecare,10
+2018,5,Valle d'Aosta,Outdoor,2
+2018,5,Valle d'Aosta,Wellness,11
+2018,5,Veneto,Homecare,740
+2018,5,Veneto,Outdoor,249
+2018,5,Veneto,Wellness,551
+2018,6,Abruzzo,Homecare,160
+2018,6,Abruzzo,Outdoor,29
+2018,6,Abruzzo,Wellness,103
+2018,6,Basilicata,Homecare,19
+2018,6,Basilicata,Outdoor,15
+2018,6,Basilicata,Wellness,20
+2018,6,Calabria,Homecare,105
+2018,6,Calabria,Outdoor,37
+2018,6,Calabria,Wellness,73
+2018,6,Campania,Homecare,366
+2018,6,Campania,Outdoor,136
+2018,6,Campania,Wellness,411
+2018,6,Emilia-Romagna,Homecare,889
+2018,6,Emilia-Romagna,Outdoor,185
+2018,6,Emilia-Romagna,Wellness,479
+2018,6,Friuli Venezia Giulia,Homecare,159
+2018,6,Friuli Venezia Giulia,Outdoor,32
+2018,6,Friuli Venezia Giulia,Wellness,97
+2018,6,Lazio,Homecare,870
+2018,6,Lazio,Outdoor,266
+2018,6,Lazio,Wellness,522
+2018,6,Liguria,Homecare,194
+2018,6,Liguria,Outdoor,38
+2018,6,Liguria,Wellness,116
+2018,6,Lombardia,Homecare,2113
+2018,6,Lombardia,Outdoor,363
+2018,6,Lombardia,Wellness,1064
+2018,6,Marche,Homecare,175
+2018,6,Marche,Outdoor,58
+2018,6,Marche,Wellness,126
+2018,6,Molise,Homecare,21
+2018,6,Molise,Outdoor,4
+2018,6,Molise,Wellness,15
+2018,6,Piemonte,Homecare,635
+2018,6,Piemonte,Outdoor,118
+2018,6,Piemonte,Wellness,389
+2018,6,Puglia,Homecare,296
+2018,6,Puglia,Outdoor,97
+2018,6,Puglia,Wellness,251
+2018,6,Sardegna,Homecare,167
+2018,6,Sardegna,Outdoor,50
+2018,6,Sardegna,Wellness,104
+2018,6,Sicilia,Homecare,248
+2018,6,Sicilia,Outdoor,134
+2018,6,Sicilia,Wellness,310
+2018,6,Toscana,Homecare,493
+2018,6,Toscana,Outdoor,125
+2018,6,Toscana,Wellness,365
+2018,6,Trentino-Alto Adige,Homecare,82
+2018,6,Trentino-Alto Adige,Outdoor,17
+2018,6,Trentino-Alto Adige,Wellness,59
+2018,6,Umbria,Homecare,67
+2018,6,Umbria,Outdoor,27
+2018,6,Umbria,Wellness,91
+2018,6,Valle d'Aosta,Homecare,9
+2018,6,Valle d'Aosta,Wellness,9
+2018,6,Veneto,Homecare,753
+2018,6,Veneto,Outdoor,163
+2018,6,Veneto,Wellness,450
+2018,7,Abruzzo,Homecare,103
+2018,7,Abruzzo,Outdoor,30
+2018,7,Abruzzo,Wellness,119
+2018,7,Basilicata,Homecare,17
+2018,7,Basilicata,Outdoor,9
+2018,7,Basilicata,Wellness,28
+2018,7,Calabria,Homecare,64
+2018,7,Calabria,Outdoor,56
+2018,7,Calabria,Wellness,89
+2018,7,Campania,Homecare,331
+2018,7,Campania,Outdoor,140
+2018,7,Campania,Wellness,453
+2018,7,Emilia-Romagna,Homecare,613
+2018,7,Emilia-Romagna,Outdoor,160
+2018,7,Emilia-Romagna,Wellness,512
+2018,7,Friuli Venezia Giulia,Homecare,104
+2018,7,Friuli Venezia Giulia,Outdoor,39
+2018,7,Friuli Venezia Giulia,Wellness,100
+2018,7,Lazio,Homecare,756
+2018,7,Lazio,Outdoor,228
+2018,7,Lazio,Wellness,571
+2018,7,Liguria,Homecare,187
+2018,7,Liguria,Outdoor,62
+2018,7,Liguria,Wellness,152
+2018,7,Lombardia,Homecare,1358
+2018,7,Lombardia,Outdoor,341
+2018,7,Lombardia,Wellness,1033
+2018,7,Marche,Homecare,101
+2018,7,Marche,Outdoor,48
+2018,7,Marche,Wellness,121
+2018,7,Molise,Homecare,13
+2018,7,Molise,Outdoor,8
+2018,7,Molise,Wellness,12
+2018,7,Piemonte,Homecare,423
+2018,7,Piemonte,Outdoor,133
+2018,7,Piemonte,Wellness,411
+2018,7,Puglia,Homecare,177
+2018,7,Puglia,Outdoor,97
+2018,7,Puglia,Wellness,269
+2018,7,Sardegna,Homecare,220
+2018,7,Sardegna,Outdoor,57
+2018,7,Sardegna,Wellness,117
+2018,7,Sicilia,Homecare,256
+2018,7,Sicilia,Outdoor,110
+2018,7,Sicilia,Wellness,312
+2018,7,Toscana,Homecare,402
+2018,7,Toscana,Outdoor,112
+2018,7,Toscana,Wellness,376
+2018,7,Trentino-Alto Adige,Homecare,57
+2018,7,Trentino-Alto Adige,Outdoor,17
+2018,7,Trentino-Alto Adige,Wellness,78
+2018,7,Umbria,Homecare,55
+2018,7,Umbria,Outdoor,42
+2018,7,Umbria,Wellness,70
+2018,7,Valle d'Aosta,Homecare,10
+2018,7,Valle d'Aosta,Outdoor,1
+2018,7,Valle d'Aosta,Wellness,10
+2018,7,Veneto,Homecare,459
+2018,7,Veneto,Outdoor,168
+2018,7,Veneto,Wellness,506
+2018,8,Abruzzo,Homecare,61
+2018,8,Abruzzo,Outdoor,15
+2018,8,Abruzzo,Wellness,130
+2018,8,Basilicata,Homecare,16
+2018,8,Basilicata,Outdoor,4
+2018,8,Basilicata,Wellness,13
+2018,8,Calabria,Homecare,34
+2018,8,Calabria,Outdoor,19
+2018,8,Calabria,Wellness,104
+2018,8,Campania,Homecare,151
+2018,8,Campania,Outdoor,84
+2018,8,Campania,Wellness,566
+2018,8,Emilia-Romagna,Homecare,431
+2018,8,Emilia-Romagna,Outdoor,136
+2018,8,Emilia-Romagna,Wellness,659
+2018,8,Friuli Venezia Giulia,Homecare,118
+2018,8,Friuli Venezia Giulia,Outdoor,29
+2018,8,Friuli Venezia Giulia,Wellness,120
+2018,8,Lazio,Homecare,411
+2018,8,Lazio,Outdoor,162
+2018,8,Lazio,Wellness,584
+2018,8,Liguria,Homecare,210
+2018,8,Liguria,Outdoor,61
+2018,8,Liguria,Wellness,165
+2018,8,Lombardia,Homecare,951
+2018,8,Lombardia,Outdoor,236
+2018,8,Lombardia,Wellness,1225
+2018,8,Marche,Homecare,106
+2018,8,Marche,Outdoor,35
+2018,8,Marche,Wellness,146
+2018,8,Molise,Homecare,10
+2018,8,Molise,Outdoor,3
+2018,8,Molise,Wellness,21
+2018,8,Piemonte,Homecare,321
+2018,8,Piemonte,Outdoor,85
+2018,8,Piemonte,Wellness,410
+2018,8,Puglia,Homecare,112
+2018,8,Puglia,Outdoor,68
+2018,8,Puglia,Wellness,299
+2018,8,Sardegna,Homecare,102
+2018,8,Sardegna,Outdoor,25
+2018,8,Sardegna,Wellness,132
+2018,8,Sicilia,Homecare,125
+2018,8,Sicilia,Outdoor,64
+2018,8,Sicilia,Wellness,369
+2018,8,Toscana,Homecare,384
+2018,8,Toscana,Outdoor,85
+2018,8,Toscana,Wellness,447
+2018,8,Trentino-Alto Adige,Homecare,64
+2018,8,Trentino-Alto Adige,Outdoor,15
+2018,8,Trentino-Alto Adige,Wellness,86
+2018,8,Umbria,Homecare,33
+2018,8,Umbria,Outdoor,20
+2018,8,Umbria,Wellness,95
+2018,8,Valle d'Aosta,Homecare,1
+2018,8,Valle d'Aosta,Outdoor,1
+2018,8,Valle d'Aosta,Wellness,11
+2018,8,Veneto,Homecare,426
+2018,8,Veneto,Outdoor,151
+2018,8,Veneto,Wellness,464
+2018,9,Abruzzo,Homecare,51
+2018,9,Abruzzo,Outdoor,23
+2018,9,Abruzzo,Wellness,211
+2018,9,Basilicata,Homecare,7
+2018,9,Basilicata,Outdoor,5
+2018,9,Basilicata,Wellness,34
+2018,9,Calabria,Homecare,34
+2018,9,Calabria,Outdoor,23
+2018,9,Calabria,Wellness,188
+2018,9,Campania,Homecare,152
+2018,9,Campania,Outdoor,74
+2018,9,Campania,Wellness,950
+2018,9,Emilia-Romagna,Homecare,352
+2018,9,Emilia-Romagna,Outdoor,125
+2018,9,Emilia-Romagna,Wellness,928
+2018,9,Friuli Venezia Giulia,Homecare,92
+2018,9,Friuli Venezia Giulia,Outdoor,32
+2018,9,Friuli Venezia Giulia,Wellness,160
+2018,9,Lazio,Homecare,376
+2018,9,Lazio,Outdoor,165
+2018,9,Lazio,Wellness,1061
+2018,9,Liguria,Homecare,103
+2018,9,Liguria,Outdoor,31
+2018,9,Liguria,Wellness,225
+2018,9,Lombardia,Homecare,947
+2018,9,Lombardia,Outdoor,309
+2018,9,Lombardia,Wellness,2197
+2018,9,Marche,Homecare,62
+2018,9,Marche,Outdoor,20
+2018,9,Marche,Wellness,210
+2018,9,Molise,Homecare,10
+2018,9,Molise,Outdoor,2
+2018,9,Molise,Wellness,27
+2018,9,Piemonte,Homecare,241
+2018,9,Piemonte,Outdoor,110
+2018,9,Piemonte,Wellness,794
+2018,9,Puglia,Homecare,105
+2018,9,Puglia,Outdoor,68
+2018,9,Puglia,Wellness,540
+2018,9,Sardegna,Homecare,78
+2018,9,Sardegna,Outdoor,31
+2018,9,Sardegna,Wellness,248
+2018,9,Sicilia,Homecare,105
+2018,9,Sicilia,Outdoor,100
+2018,9,Sicilia,Wellness,557
+2018,9,Toscana,Homecare,260
+2018,9,Toscana,Outdoor,80
+2018,9,Toscana,Wellness,715
+2018,9,Trentino-Alto Adige,Homecare,55
+2018,9,Trentino-Alto Adige,Outdoor,10
+2018,9,Trentino-Alto Adige,Wellness,123
+2018,9,Umbria,Homecare,30
+2018,9,Umbria,Outdoor,11
+2018,9,Umbria,Wellness,163
+2018,9,Valle d'Aosta,Homecare,6
+2018,9,Valle d'Aosta,Outdoor,1
+2018,9,Valle d'Aosta,Wellness,17
+2018,9,Veneto,Homecare,303
+2018,9,Veneto,Outdoor,149
+2018,9,Veneto,Wellness,754
+2018,10,Abruzzo,Homecare,44
+2018,10,Abruzzo,Outdoor,19
+2018,10,Abruzzo,Wellness,174
+2018,10,Basilicata,Homecare,6
+2018,10,Basilicata,Outdoor,3
+2018,10,Basilicata,Wellness,40
+2018,10,Calabria,Homecare,29
+2018,10,Calabria,Outdoor,13
+2018,10,Calabria,Wellness,153
+2018,10,Campania,Homecare,94
+2018,10,Campania,Outdoor,50
+2018,10,Campania,Wellness,681
+2018,10,Emilia-Romagna,Homecare,273
+2018,10,Emilia-Romagna,Outdoor,102
+2018,10,Emilia-Romagna,Wellness,732
+2018,10,Friuli Venezia Giulia,Homecare,74
+2018,10,Friuli Venezia Giulia,Outdoor,14
+2018,10,Friuli Venezia Giulia,Wellness,148
+2018,10,Lazio,Homecare,295
+2018,10,Lazio,Outdoor,139
+2018,10,Lazio,Wellness,830
+2018,10,Liguria,Homecare,107
+2018,10,Liguria,Outdoor,20
+2018,10,Liguria,Wellness,190
+2018,10,Lombardia,Homecare,727
+2018,10,Lombardia,Outdoor,222
+2018,10,Lombardia,Wellness,1640
+2018,10,Marche,Homecare,62
+2018,10,Marche,Outdoor,23
+2018,10,Marche,Wellness,189
+2018,10,Molise,Homecare,6
+2018,10,Molise,Outdoor,1
+2018,10,Molise,Wellness,16
+2018,10,Piemonte,Homecare,198
+2018,10,Piemonte,Outdoor,75
+2018,10,Piemonte,Wellness,536
+2018,10,Puglia,Homecare,75
+2018,10,Puglia,Outdoor,47
+2018,10,Puglia,Wellness,387
+2018,10,Sardegna,Homecare,75
+2018,10,Sardegna,Outdoor,23
+2018,10,Sardegna,Wellness,193
+2018,10,Sicilia,Homecare,82
+2018,10,Sicilia,Outdoor,48
+2018,10,Sicilia,Wellness,470
+2018,10,Toscana,Homecare,177
+2018,10,Toscana,Outdoor,63
+2018,10,Toscana,Wellness,609
+2018,10,Trentino-Alto Adige,Homecare,28
+2018,10,Trentino-Alto Adige,Outdoor,7
+2018,10,Trentino-Alto Adige,Wellness,105
+2018,10,Umbria,Homecare,32
+2018,10,Umbria,Outdoor,8
+2018,10,Umbria,Wellness,113
+2018,10,Valle d'Aosta,Homecare,2
+2018,10,Valle d'Aosta,Outdoor,1
+2018,10,Valle d'Aosta,Wellness,12
+2018,10,Veneto,Homecare,231
+2018,10,Veneto,Outdoor,81
+2018,10,Veneto,Wellness,623
+2018,11,Abruzzo,Homecare,47
+2018,11,Abruzzo,Outdoor,7
+2018,11,Abruzzo,Wellness,155
+2018,11,Basilicata,Homecare,3
+2018,11,Basilicata,Outdoor,2
+2018,11,Basilicata,Wellness,31
+2018,11,Calabria,Homecare,30
+2018,11,Calabria,Outdoor,9
+2018,11,Calabria,Wellness,111
+2018,11,Campania,Homecare,127
+2018,11,Campania,Outdoor,39
+2018,11,Campania,Wellness,560
+2018,11,Emilia-Romagna,Homecare,230
+2018,11,Emilia-Romagna,Outdoor,63
+2018,11,Emilia-Romagna,Wellness,581
+2018,11,Friuli Venezia Giulia,Homecare,67
+2018,11,Friuli Venezia Giulia,Outdoor,23
+2018,11,Friuli Venezia Giulia,Wellness,120
+2018,11,Lazio,Homecare,349
+2018,11,Lazio,Outdoor,81
+2018,11,Lazio,Wellness,757
+2018,11,Liguria,Homecare,73
+2018,11,Liguria,Outdoor,13
+2018,11,Liguria,Wellness,167
+2018,11,Lombardia,Homecare,594
+2018,11,Lombardia,Outdoor,140
+2018,11,Lombardia,Wellness,1512
+2018,11,Marche,Homecare,46
+2018,11,Marche,Outdoor,15
+2018,11,Marche,Wellness,150
+2018,11,Molise,Homecare,5
+2018,11,Molise,Outdoor,2
+2018,11,Molise,Wellness,8
+2018,11,Piemonte,Homecare,175
+2018,11,Piemonte,Outdoor,35
+2018,11,Piemonte,Wellness,475
+2018,11,Puglia,Homecare,65
+2018,11,Puglia,Outdoor,40
+2018,11,Puglia,Wellness,282
+2018,11,Sardegna,Homecare,75
+2018,11,Sardegna,Outdoor,19
+2018,11,Sardegna,Wellness,168
+2018,11,Sicilia,Homecare,81
+2018,11,Sicilia,Outdoor,38
+2018,11,Sicilia,Wellness,399
+2018,11,Toscana,Homecare,170
+2018,11,Toscana,Outdoor,54
+2018,11,Toscana,Wellness,494
+2018,11,Trentino-Alto Adige,Homecare,23
+2018,11,Trentino-Alto Adige,Outdoor,5
+2018,11,Trentino-Alto Adige,Wellness,83
+2018,11,Umbria,Homecare,31
+2018,11,Umbria,Outdoor,15
+2018,11,Umbria,Wellness,90
+2018,11,Valle d'Aosta,Homecare,6
+2018,11,Valle d'Aosta,Wellness,6
+2018,11,Veneto,Homecare,219
+2018,11,Veneto,Outdoor,64
+2018,11,Veneto,Wellness,543
+2018,12,Abruzzo,Homecare,27
+2018,12,Abruzzo,Outdoor,6
+2018,12,Abruzzo,Wellness,86
+2018,12,Basilicata,Outdoor,2
+2018,12,Basilicata,Wellness,23
+2018,12,Calabria,Homecare,15
+2018,12,Calabria,Outdoor,8
+2018,12,Calabria,Wellness,79
+2018,12,Campania,Homecare,74
+2018,12,Campania,Outdoor,21
+2018,12,Campania,Wellness,464
+2018,12,Emilia-Romagna,Homecare,152
+2018,12,Emilia-Romagna,Outdoor,35
+2018,12,Emilia-Romagna,Wellness,484
+2018,12,Friuli Venezia Giulia,Homecare,26
+2018,12,Friuli Venezia Giulia,Outdoor,4
+2018,12,Friuli Venezia Giulia,Wellness,96
+2018,12,Lazio,Homecare,169
+2018,12,Lazio,Outdoor,38
+2018,12,Lazio,Wellness,493
+2018,12,Liguria,Homecare,54
+2018,12,Liguria,Outdoor,13
+2018,12,Liguria,Wellness,115
+2018,12,Lombardia,Homecare,423
+2018,12,Lombardia,Outdoor,56
+2018,12,Lombardia,Wellness,1000
+2018,12,Marche,Homecare,29
+2018,12,Marche,Outdoor,12
+2018,12,Marche,Wellness,90
+2018,12,Molise,Homecare,1
+2018,12,Molise,Outdoor,2
+2018,12,Molise,Wellness,16
+2018,12,Piemonte,Homecare,86
+2018,12,Piemonte,Outdoor,25
+2018,12,Piemonte,Wellness,334
+2018,12,Puglia,Homecare,47
+2018,12,Puglia,Outdoor,13
+2018,12,Puglia,Wellness,249
+2018,12,Sardegna,Homecare,43
+2018,12,Sardegna,Outdoor,12
+2018,12,Sardegna,Wellness,103
+2018,12,Sicilia,Homecare,50
+2018,12,Sicilia,Outdoor,34
+2018,12,Sicilia,Wellness,232
+2018,12,Toscana,Homecare,124
+2018,12,Toscana,Outdoor,16
+2018,12,Toscana,Wellness,327
+2018,12,Trentino-Alto Adige,Homecare,12
+2018,12,Trentino-Alto Adige,Outdoor,3
+2018,12,Trentino-Alto Adige,Wellness,63
+2018,12,Umbria,Homecare,11
+2018,12,Umbria,Outdoor,6
+2018,12,Umbria,Wellness,79
+2018,12,Valle d'Aosta,Homecare,4
+2018,12,Valle d'Aosta,Wellness,4
+2018,12,Veneto,Homecare,99
+2018,12,Veneto,Outdoor,25
+2018,12,Veneto,Wellness,358
+2019,1,Abruzzo,Homecare,63
+2019,1,Abruzzo,Outdoor,7
+2019,1,Abruzzo,Wellness,309
+2019,1,Basilicata,Homecare,20
+2019,1,Basilicata,Outdoor,4
+2019,1,Basilicata,Wellness,67
+2019,1,Calabria,Homecare,58
+2019,1,Calabria,Outdoor,17
+2019,1,Calabria,Wellness,260
+2019,1,Campania,Homecare,210
+2019,1,Campania,Outdoor,45
+2019,1,Campania,Wellness,1172
+2019,1,Emilia-Romagna,Homecare,483
+2019,1,Emilia-Romagna,Outdoor,81
+2019,1,Emilia-Romagna,Wellness,1375
+2019,1,Friuli Venezia Giulia,Homecare,112
+2019,1,Friuli Venezia Giulia,Outdoor,14
+2019,1,Friuli Venezia Giulia,Wellness,223
+2019,1,Lazio,Homecare,508
+2019,1,Lazio,Outdoor,79
+2019,1,Lazio,Wellness,1395
+2019,1,Liguria,Homecare,144
+2019,1,Liguria,Outdoor,35
+2019,1,Liguria,Wellness,327
+2019,1,Lombardia,Homecare,1288
+2019,1,Lombardia,Outdoor,194
+2019,1,Lombardia,Wellness,3044
+2019,1,Marche,Homecare,87
+2019,1,Marche,Outdoor,15
+2019,1,Marche,Wellness,312
+2019,1,Molise,Homecare,5
+2019,1,Molise,Outdoor,2
+2019,1,Molise,Wellness,27
+2019,1,Piemonte,Homecare,370
+2019,1,Piemonte,Outdoor,54
+2019,1,Piemonte,Wellness,964
+2019,1,Puglia,Homecare,142
+2019,1,Puglia,Outdoor,56
+2019,1,Puglia,Wellness,661
+2019,1,Sardegna,Homecare,130
+2019,1,Sardegna,Outdoor,32
+2019,1,Sardegna,Wellness,309
+2019,1,Sicilia,Homecare,155
+2019,1,Sicilia,Outdoor,67
+2019,1,Sicilia,Wellness,757
+2019,1,Toscana,Homecare,347
+2019,1,Toscana,Outdoor,58
+2019,1,Toscana,Wellness,927
+2019,1,Trentino-Alto Adige,Homecare,48
+2019,1,Trentino-Alto Adige,Outdoor,12
+2019,1,Trentino-Alto Adige,Wellness,173
+2019,1,Umbria,Homecare,45
+2019,1,Umbria,Outdoor,9
+2019,1,Umbria,Wellness,181
+2019,1,Valle d'Aosta,Homecare,6
+2019,1,Valle d'Aosta,Wellness,24
+2019,1,Veneto,Homecare,444
+2019,1,Veneto,Outdoor,88
+2019,1,Veneto,Wellness,1058
+2019,2,Abruzzo,Homecare,70
+2019,2,Abruzzo,Outdoor,25
+2019,2,Abruzzo,Wellness,221
+2019,2,Basilicata,Homecare,8
+2019,2,Basilicata,Outdoor,6
+2019,2,Basilicata,Wellness,40
+2019,2,Calabria,Homecare,43
+2019,2,Calabria,Outdoor,22
+2019,2,Calabria,Wellness,205
+2019,2,Campania,Homecare,191
+2019,2,Campania,Outdoor,70
+2019,2,Campania,Wellness,893
+2019,2,Emilia-Romagna,Homecare,475
+2019,2,Emilia-Romagna,Outdoor,134
+2019,2,Emilia-Romagna,Wellness,1042
+2019,2,Friuli Venezia Giulia,Homecare,101
+2019,2,Friuli Venezia Giulia,Outdoor,33
+2019,2,Friuli Venezia Giulia,Wellness,158
+2019,2,Lazio,Homecare,489
+2019,2,Lazio,Outdoor,185
+2019,2,Lazio,Wellness,1075
+2019,2,Liguria,Homecare,146
+2019,2,Liguria,Outdoor,48
+2019,2,Liguria,Wellness,254
+2019,2,Lombardia,Homecare,1293
+2019,2,Lombardia,Outdoor,288
+2019,2,Lombardia,Wellness,2250
+2019,2,Marche,Homecare,100
+2019,2,Marche,Outdoor,25
+2019,2,Marche,Wellness,236
+2019,2,Molise,Homecare,3
+2019,2,Molise,Outdoor,3
+2019,2,Molise,Wellness,27
+2019,2,Piemonte,Homecare,358
+2019,2,Piemonte,Outdoor,88
+2019,2,Piemonte,Wellness,751
+2019,2,Puglia,Homecare,137
+2019,2,Puglia,Outdoor,61
+2019,2,Puglia,Wellness,501
+2019,2,Sardegna,Homecare,107
+2019,2,Sardegna,Outdoor,55
+2019,2,Sardegna,Wellness,231
+2019,2,Sicilia,Homecare,137
+2019,2,Sicilia,Outdoor,74
+2019,2,Sicilia,Wellness,530
+2019,2,Toscana,Homecare,276
+2019,2,Toscana,Outdoor,100
+2019,2,Toscana,Wellness,637
+2019,2,Trentino-Alto Adige,Homecare,47
+2019,2,Trentino-Alto Adige,Outdoor,13
+2019,2,Trentino-Alto Adige,Wellness,128
+2019,2,Umbria,Homecare,39
+2019,2,Umbria,Outdoor,19
+2019,2,Umbria,Wellness,125
+2019,2,Valle d'Aosta,Homecare,8
+2019,2,Valle d'Aosta,Outdoor,1
+2019,2,Valle d'Aosta,Wellness,21
+2019,2,Veneto,Homecare,403
+2019,2,Veneto,Outdoor,143
+2019,2,Veneto,Wellness,760
+2019,3,Abruzzo,Homecare,125
+2019,3,Abruzzo,Outdoor,53
+2019,3,Abruzzo,Wellness,207
+2019,3,Basilicata,Homecare,30
+2019,3,Basilicata,Outdoor,5
+2019,3,Basilicata,Wellness,44
+2019,3,Calabria,Homecare,83
+2019,3,Calabria,Outdoor,52
+2019,3,Calabria,Wellness,163
+2019,3,Campania,Homecare,363
+2019,3,Campania,Outdoor,149
+2019,3,Campania,Wellness,924
+2019,3,Emilia-Romagna,Homecare,981
+2019,3,Emilia-Romagna,Outdoor,302
+2019,3,Emilia-Romagna,Wellness,1064
+2019,3,Friuli Venezia Giulia,Homecare,199
+2019,3,Friuli Venezia Giulia,Outdoor,74
+2019,3,Friuli Venezia Giulia,Wellness,200
+2019,3,Lazio,Homecare,884
+2019,3,Lazio,Outdoor,353
+2019,3,Lazio,Wellness,1234
+2019,3,Liguria,Homecare,291
+2019,3,Liguria,Outdoor,94
+2019,3,Liguria,Wellness,252
+2019,3,Lombardia,Homecare,2341
+2019,3,Lombardia,Outdoor,650
+2019,3,Lombardia,Wellness,2459
+2019,3,Marche,Homecare,198
+2019,3,Marche,Outdoor,62
+2019,3,Marche,Wellness,221
+2019,3,Molise,Homecare,13
+2019,3,Molise,Outdoor,4
+2019,3,Molise,Wellness,15
+2019,3,Piemonte,Homecare,644
+2019,3,Piemonte,Outdoor,190
+2019,3,Piemonte,Wellness,859
+2019,3,Puglia,Homecare,249
+2019,3,Puglia,Outdoor,141
+2019,3,Puglia,Wellness,546
+2019,3,Sardegna,Homecare,190
+2019,3,Sardegna,Outdoor,77
+2019,3,Sardegna,Wellness,274
+2019,3,Sicilia,Homecare,251
+2019,3,Sicilia,Outdoor,174
+2019,3,Sicilia,Wellness,595
+2019,3,Toscana,Homecare,535
+2019,3,Toscana,Outdoor,187
+2019,3,Toscana,Wellness,785
+2019,3,Trentino-Alto Adige,Homecare,123
+2019,3,Trentino-Alto Adige,Outdoor,43
+2019,3,Trentino-Alto Adige,Wellness,135
+2019,3,Umbria,Homecare,71
+2019,3,Umbria,Outdoor,47
+2019,3,Umbria,Wellness,120
+2019,3,Valle d'Aosta,Homecare,15
+2019,3,Valle d'Aosta,Outdoor,4
+2019,3,Valle d'Aosta,Wellness,10
+2019,3,Veneto,Homecare,769
+2019,3,Veneto,Outdoor,338
+2019,3,Veneto,Wellness,966
+2019,4,Abruzzo,Homecare,151
+2019,4,Abruzzo,Outdoor,75
+2019,4,Abruzzo,Wellness,184
+2019,4,Basilicata,Homecare,16
+2019,4,Basilicata,Outdoor,13
+2019,4,Basilicata,Wellness,31
+2019,4,Calabria,Homecare,70
+2019,4,Calabria,Outdoor,43
+2019,4,Calabria,Wellness,162
+2019,4,Campania,Homecare,342
+2019,4,Campania,Outdoor,151
+2019,4,Campania,Wellness,872
+2019,4,Emilia-Romagna,Homecare,736
+2019,4,Emilia-Romagna,Outdoor,262
+2019,4,Emilia-Romagna,Wellness,899
+2019,4,Friuli Venezia Giulia,Homecare,185
+2019,4,Friuli Venezia Giulia,Outdoor,69
+2019,4,Friuli Venezia Giulia,Wellness,177
+2019,4,Lazio,Homecare,853
+2019,4,Lazio,Outdoor,350
+2019,4,Lazio,Wellness,1099
+2019,4,Liguria,Homecare,249
+2019,4,Liguria,Outdoor,77
+2019,4,Liguria,Wellness,227
+2019,4,Lombardia,Homecare,2008
+2019,4,Lombardia,Outdoor,554
+2019,4,Lombardia,Wellness,2162
+2019,4,Marche,Homecare,174
+2019,4,Marche,Outdoor,58
+2019,4,Marche,Wellness,227
+2019,4,Molise,Homecare,9
+2019,4,Molise,Outdoor,12
+2019,4,Molise,Wellness,17
+2019,4,Piemonte,Homecare,558
+2019,4,Piemonte,Outdoor,168
+2019,4,Piemonte,Wellness,739
+2019,4,Puglia,Homecare,223
+2019,4,Puglia,Outdoor,133
+2019,4,Puglia,Wellness,490
+2019,4,Sardegna,Homecare,145
+2019,4,Sardegna,Outdoor,62
+2019,4,Sardegna,Wellness,271
+2019,4,Sicilia,Homecare,263
+2019,4,Sicilia,Outdoor,160
+2019,4,Sicilia,Wellness,537
+2019,4,Toscana,Homecare,505
+2019,4,Toscana,Outdoor,203
+2019,4,Toscana,Wellness,600
+2019,4,Trentino-Alto Adige,Homecare,93
+2019,4,Trentino-Alto Adige,Outdoor,26
+2019,4,Trentino-Alto Adige,Wellness,89
+2019,4,Umbria,Homecare,62
+2019,4,Umbria,Outdoor,40
+2019,4,Umbria,Wellness,132
+2019,4,Valle d'Aosta,Homecare,8
+2019,4,Valle d'Aosta,Outdoor,2
+2019,4,Valle d'Aosta,Wellness,19
+2019,4,Veneto,Homecare,703
+2019,4,Veneto,Outdoor,268
+2019,4,Veneto,Wellness,775
+2019,5,Abruzzo,Homecare,136
+2019,5,Abruzzo,Outdoor,60
+2019,5,Abruzzo,Wellness,232
+2019,5,Basilicata,Homecare,12
+2019,5,Basilicata,Outdoor,7
+2019,5,Basilicata,Wellness,43
+2019,5,Calabria,Homecare,71
+2019,5,Calabria,Outdoor,52
+2019,5,Calabria,Wellness,223
+2019,5,Campania,Homecare,390
+2019,5,Campania,Outdoor,133
+2019,5,Campania,Wellness,1068
+2019,5,Emilia-Romagna,Homecare,960
+2019,5,Emilia-Romagna,Outdoor,263
+2019,5,Emilia-Romagna,Wellness,1249
+2019,5,Friuli Venezia Giulia,Homecare,188
+2019,5,Friuli Venezia Giulia,Outdoor,58
+2019,5,Friuli Venezia Giulia,Wellness,270
+2019,5,Lazio,Homecare,1065
+2019,5,Lazio,Outdoor,333
+2019,5,Lazio,Wellness,1538
+2019,5,Liguria,Homecare,280
+2019,5,Liguria,Outdoor,62
+2019,5,Liguria,Wellness,313
+2019,5,Lombardia,Homecare,2634
+2019,5,Lombardia,Outdoor,576
+2019,5,Lombardia,Wellness,2917
+2019,5,Marche,Homecare,195
+2019,5,Marche,Outdoor,58
+2019,5,Marche,Wellness,286
+2019,5,Molise,Homecare,10
+2019,5,Molise,Outdoor,8
+2019,5,Molise,Wellness,30
+2019,5,Piemonte,Homecare,706
+2019,5,Piemonte,Outdoor,205
+2019,5,Piemonte,Wellness,920
+2019,5,Puglia,Homecare,274
+2019,5,Puglia,Outdoor,148
+2019,5,Puglia,Wellness,565
+2019,5,Sardegna,Homecare,183
+2019,5,Sardegna,Outdoor,81
+2019,5,Sardegna,Wellness,284
+2019,5,Sicilia,Homecare,315
+2019,5,Sicilia,Outdoor,166
+2019,5,Sicilia,Wellness,708
+2019,5,Toscana,Homecare,614
+2019,5,Toscana,Outdoor,197
+2019,5,Toscana,Wellness,851
+2019,5,Trentino-Alto Adige,Homecare,121
+2019,5,Trentino-Alto Adige,Outdoor,27
+2019,5,Trentino-Alto Adige,Wellness,144
+2019,5,Umbria,Homecare,61
+2019,5,Umbria,Outdoor,34
+2019,5,Umbria,Wellness,158
+2019,5,Valle d'Aosta,Homecare,12
+2019,5,Valle d'Aosta,Outdoor,2
+2019,5,Valle d'Aosta,Wellness,17
+2019,5,Veneto,Homecare,835
+2019,5,Veneto,Outdoor,224
+2019,5,Veneto,Wellness,1024
+2019,6,Abruzzo,Homecare,263
+2019,6,Abruzzo,Outdoor,69
+2019,6,Abruzzo,Wellness,200
+2019,6,Basilicata,Homecare,40
+2019,6,Basilicata,Outdoor,17
+2019,6,Basilicata,Wellness,42
+2019,6,Calabria,Homecare,183
+2019,6,Calabria,Outdoor,62
+2019,6,Calabria,Wellness,161
+2019,6,Campania,Homecare,841
+2019,6,Campania,Outdoor,185
+2019,6,Campania,Wellness,920
+2019,6,Emilia-Romagna,Homecare,2024
+2019,6,Emilia-Romagna,Outdoor,381
+2019,6,Emilia-Romagna,Wellness,980
+2019,6,Friuli Venezia Giulia,Homecare,415
+2019,6,Friuli Venezia Giulia,Outdoor,72
+2019,6,Friuli Venezia Giulia,Wellness,180
+2019,6,Lazio,Homecare,2005
+2019,6,Lazio,Outdoor,489
+2019,6,Lazio,Wellness,1212
+2019,6,Liguria,Homecare,634
+2019,6,Liguria,Outdoor,89
+2019,6,Liguria,Wellness,262
+2019,6,Lombardia,Homecare,5665
+2019,6,Lombardia,Outdoor,742
+2019,6,Lombardia,Wellness,2256
+2019,6,Marche,Homecare,316
+2019,6,Marche,Outdoor,70
+2019,6,Marche,Wellness,238
+2019,6,Molise,Homecare,30
+2019,6,Molise,Outdoor,10
+2019,6,Molise,Wellness,13
+2019,6,Piemonte,Homecare,1493
+2019,6,Piemonte,Outdoor,223
+2019,6,Piemonte,Wellness,721
+2019,6,Puglia,Homecare,432
+2019,6,Puglia,Outdoor,182
+2019,6,Puglia,Wellness,486
+2019,6,Sardegna,Homecare,309
+2019,6,Sardegna,Outdoor,93
+2019,6,Sardegna,Wellness,233
+2019,6,Sicilia,Homecare,660
+2019,6,Sicilia,Outdoor,206
+2019,6,Sicilia,Wellness,590
+2019,6,Toscana,Homecare,1185
+2019,6,Toscana,Outdoor,223
+2019,6,Toscana,Wellness,661
+2019,6,Trentino-Alto Adige,Homecare,231
+2019,6,Trentino-Alto Adige,Outdoor,54
+2019,6,Trentino-Alto Adige,Wellness,138
+2019,6,Umbria,Homecare,136
+2019,6,Umbria,Outdoor,49
+2019,6,Umbria,Wellness,136
+2019,6,Valle d'Aosta,Homecare,17
+2019,6,Valle d'Aosta,Outdoor,1
+2019,6,Valle d'Aosta,Wellness,15
+2019,6,Veneto,Homecare,1893
+2019,6,Veneto,Outdoor,377
+2019,6,Veneto,Wellness,784
+2019,7,Abruzzo,Homecare,244
+2019,7,Abruzzo,Outdoor,77
+2019,7,Abruzzo,Wellness,214
+2019,7,Basilicata,Homecare,24
+2019,7,Basilicata,Outdoor,9
+2019,7,Basilicata,Wellness,36
+2019,7,Calabria,Homecare,138
+2019,7,Calabria,Outdoor,56
+2019,7,Calabria,Wellness,205
+2019,7,Campania,Homecare,608
+2019,7,Campania,Outdoor,170
+2019,7,Campania,Wellness,911
+2019,7,Emilia-Romagna,Homecare,1269
+2019,7,Emilia-Romagna,Outdoor,291
+2019,7,Emilia-Romagna,Wellness,1064
+2019,7,Friuli Venezia Giulia,Homecare,245
+2019,7,Friuli Venezia Giulia,Outdoor,39
+2019,7,Friuli Venezia Giulia,Wellness,189
+2019,7,Lazio,Homecare,1647
+2019,7,Lazio,Outdoor,401
+2019,7,Lazio,Wellness,1272
+2019,7,Liguria,Homecare,625
+2019,7,Liguria,Outdoor,90
+2019,7,Liguria,Wellness,288
+2019,7,Lombardia,Homecare,3924
+2019,7,Lombardia,Outdoor,580
+2019,7,Lombardia,Wellness,2230
+2019,7,Marche,Homecare,234
+2019,7,Marche,Outdoor,56
+2019,7,Marche,Wellness,240
+2019,7,Molise,Homecare,19
+2019,7,Molise,Outdoor,9
+2019,7,Molise,Wellness,20
+2019,7,Piemonte,Homecare,1371
+2019,7,Piemonte,Outdoor,186
+2019,7,Piemonte,Wellness,698
+2019,7,Puglia,Homecare,409
+2019,7,Puglia,Outdoor,185
+2019,7,Puglia,Wellness,563
+2019,7,Sardegna,Homecare,506
+2019,7,Sardegna,Outdoor,89
+2019,7,Sardegna,Wellness,262
+2019,7,Sicilia,Homecare,581
+2019,7,Sicilia,Outdoor,208
+2019,7,Sicilia,Wellness,661
+2019,7,Toscana,Homecare,1123
+2019,7,Toscana,Outdoor,179
+2019,7,Toscana,Wellness,689
+2019,7,Trentino-Alto Adige,Homecare,173
+2019,7,Trentino-Alto Adige,Outdoor,40
+2019,7,Trentino-Alto Adige,Wellness,156
+2019,7,Umbria,Homecare,129
+2019,7,Umbria,Outdoor,41
+2019,7,Umbria,Wellness,144
+2019,7,Valle d'Aosta,Homecare,21
+2019,7,Valle d'Aosta,Outdoor,5
+2019,7,Valle d'Aosta,Wellness,15
+2019,7,Veneto,Homecare,1063
+2019,7,Veneto,Outdoor,265
+2019,7,Veneto,Wellness,904
+2019,8,Abruzzo,Homecare,113
+2019,8,Abruzzo,Outdoor,45
+2019,8,Abruzzo,Wellness,217
+2019,8,Basilicata,Homecare,19
+2019,8,Basilicata,Outdoor,8
+2019,8,Basilicata,Wellness,29
+2019,8,Calabria,Homecare,90
+2019,8,Calabria,Outdoor,41
+2019,8,Calabria,Wellness,186
+2019,8,Campania,Homecare,344
+2019,8,Campania,Outdoor,111
+2019,8,Campania,Wellness,1015
+2019,8,Emilia-Romagna,Homecare,641
+2019,8,Emilia-Romagna,Outdoor,252
+2019,8,Emilia-Romagna,Wellness,1120
+2019,8,Friuli Venezia Giulia,Homecare,131
+2019,8,Friuli Venezia Giulia,Outdoor,72
+2019,8,Friuli Venezia Giulia,Wellness,199
+2019,8,Lazio,Homecare,666
+2019,8,Lazio,Outdoor,291
+2019,8,Lazio,Wellness,1177
+2019,8,Liguria,Homecare,238
+2019,8,Liguria,Outdoor,77
+2019,8,Liguria,Wellness,286
+2019,8,Lombardia,Homecare,1259
+2019,8,Lombardia,Outdoor,385
+2019,8,Lombardia,Wellness,2482
+2019,8,Marche,Homecare,137
+2019,8,Marche,Outdoor,42
+2019,8,Marche,Wellness,268
+2019,8,Molise,Homecare,9
+2019,8,Molise,Outdoor,7
+2019,8,Molise,Wellness,18
+2019,8,Piemonte,Homecare,455
+2019,8,Piemonte,Outdoor,150
+2019,8,Piemonte,Wellness,865
+2019,8,Puglia,Homecare,228
+2019,8,Puglia,Outdoor,105
+2019,8,Puglia,Wellness,500
+2019,8,Sardegna,Homecare,254
+2019,8,Sardegna,Outdoor,90
+2019,8,Sardegna,Wellness,269
+2019,8,Sicilia,Homecare,270
+2019,8,Sicilia,Outdoor,169
+2019,8,Sicilia,Wellness,682
+2019,8,Toscana,Homecare,358
+2019,8,Toscana,Outdoor,151
+2019,8,Toscana,Wellness,760
+2019,8,Trentino-Alto Adige,Homecare,103
+2019,8,Trentino-Alto Adige,Outdoor,23
+2019,8,Trentino-Alto Adige,Wellness,122
+2019,8,Umbria,Homecare,68
+2019,8,Umbria,Outdoor,33
+2019,8,Umbria,Wellness,150
+2019,8,Valle d'Aosta,Homecare,13
+2019,8,Valle d'Aosta,Outdoor,2
+2019,8,Valle d'Aosta,Wellness,27
+2019,8,Veneto,Homecare,469
+2019,8,Veneto,Outdoor,217
+2019,8,Veneto,Wellness,946
+2019,9,Abruzzo,Homecare,96
+2019,9,Abruzzo,Outdoor,51
+2019,9,Abruzzo,Wellness,335
+2019,9,Basilicata,Homecare,16
+2019,9,Basilicata,Outdoor,9
+2019,9,Basilicata,Wellness,67
+2019,9,Calabria,Homecare,75
+2019,9,Calabria,Outdoor,57
+2019,9,Calabria,Wellness,293
+2019,9,Campania,Homecare,310
+2019,9,Campania,Outdoor,162
+2019,9,Campania,Wellness,1698
+2019,9,Emilia-Romagna,Homecare,634
+2019,9,Emilia-Romagna,Outdoor,221
+2019,9,Emilia-Romagna,Wellness,1728
+2019,9,Friuli Venezia Giulia,Homecare,115
+2019,9,Friuli Venezia Giulia,Outdoor,45
+2019,9,Friuli Venezia Giulia,Wellness,289
+2019,9,Lazio,Homecare,718
+2019,9,Lazio,Outdoor,342
+2019,9,Lazio,Wellness,2178
+2019,9,Liguria,Homecare,194
+2019,9,Liguria,Outdoor,65
+2019,9,Liguria,Wellness,429
+2019,9,Lombardia,Homecare,1498
+2019,9,Lombardia,Outdoor,411
+2019,9,Lombardia,Wellness,4165
+2019,9,Marche,Homecare,133
+2019,9,Marche,Outdoor,35
+2019,9,Marche,Wellness,394
+2019,9,Molise,Homecare,15
+2019,9,Molise,Outdoor,5
+2019,9,Molise,Wellness,58
+2019,9,Piemonte,Homecare,526
+2019,9,Piemonte,Outdoor,141
+2019,9,Piemonte,Wellness,1328
+2019,9,Puglia,Homecare,159
+2019,9,Puglia,Outdoor,127
+2019,9,Puglia,Wellness,881
+2019,9,Sardegna,Homecare,175
+2019,9,Sardegna,Outdoor,62
+2019,9,Sardegna,Wellness,441
+2019,9,Sicilia,Homecare,200
+2019,9,Sicilia,Outdoor,173
+2019,9,Sicilia,Wellness,1039
+2019,9,Toscana,Homecare,419
+2019,9,Toscana,Outdoor,180
+2019,9,Toscana,Wellness,1296
+2019,9,Trentino-Alto Adige,Homecare,70
+2019,9,Trentino-Alto Adige,Outdoor,19
+2019,9,Trentino-Alto Adige,Wellness,209
+2019,9,Umbria,Homecare,69
+2019,9,Umbria,Outdoor,40
+2019,9,Umbria,Wellness,212
+2019,9,Valle d'Aosta,Homecare,11
+2019,9,Valle d'Aosta,Outdoor,2
+2019,9,Valle d'Aosta,Wellness,17
+2019,9,Veneto,Homecare,464
+2019,9,Veneto,Outdoor,216
+2019,9,Veneto,Wellness,1322
+2019,10,Abruzzo,Homecare,87
+2019,10,Abruzzo,Outdoor,39
+2019,10,Abruzzo,Wellness,318
+2019,10,Basilicata,Homecare,5
+2019,10,Basilicata,Outdoor,7
+2019,10,Basilicata,Wellness,63
+2019,10,Calabria,Homecare,44
+2019,10,Calabria,Outdoor,44
+2019,10,Calabria,Wellness,286
+2019,10,Campania,Homecare,260
+2019,10,Campania,Outdoor,111
+2019,10,Campania,Wellness,1364
+2019,10,Emilia-Romagna,Homecare,547
+2019,10,Emilia-Romagna,Outdoor,166
+2019,10,Emilia-Romagna,Wellness,1388
+2019,10,Friuli Venezia Giulia,Homecare,106
+2019,10,Friuli Venezia Giulia,Outdoor,40
+2019,10,Friuli Venezia Giulia,Wellness,243
+2019,10,Lazio,Homecare,654
+2019,10,Lazio,Outdoor,246
+2019,10,Lazio,Wellness,1837
+2019,10,Liguria,Homecare,172
+2019,10,Liguria,Outdoor,56
+2019,10,Liguria,Wellness,369
+2019,10,Lombardia,Homecare,1353
+2019,10,Lombardia,Outdoor,264
+2019,10,Lombardia,Wellness,3273
+2019,10,Marche,Homecare,116
+2019,10,Marche,Outdoor,32
+2019,10,Marche,Wellness,312
+2019,10,Molise,Homecare,10
+2019,10,Molise,Outdoor,7
+2019,10,Molise,Wellness,27
+2019,10,Piemonte,Homecare,436
+2019,10,Piemonte,Outdoor,89
+2019,10,Piemonte,Wellness,1061
+2019,10,Puglia,Homecare,166
+2019,10,Puglia,Outdoor,88
+2019,10,Puglia,Wellness,734
+2019,10,Sardegna,Homecare,158
+2019,10,Sardegna,Outdoor,55
+2019,10,Sardegna,Wellness,390
+2019,10,Sicilia,Homecare,153
+2019,10,Sicilia,Outdoor,117
+2019,10,Sicilia,Wellness,922
+2019,10,Toscana,Homecare,352
+2019,10,Toscana,Outdoor,94
+2019,10,Toscana,Wellness,993
+2019,10,Trentino-Alto Adige,Homecare,56
+2019,10,Trentino-Alto Adige,Outdoor,15
+2019,10,Trentino-Alto Adige,Wellness,178
+2019,10,Umbria,Homecare,65
+2019,10,Umbria,Outdoor,17
+2019,10,Umbria,Wellness,203
+2019,10,Valle d'Aosta,Homecare,9
+2019,10,Valle d'Aosta,Outdoor,1
+2019,10,Valle d'Aosta,Wellness,22
+2019,10,Veneto,Homecare,403
+2019,10,Veneto,Outdoor,174
+2019,10,Veneto,Wellness,1130
+2019,11,Abruzzo,Homecare,87
+2019,11,Abruzzo,Outdoor,19
+2019,11,Abruzzo,Wellness,208
+2019,11,Basilicata,Homecare,9
+2019,11,Basilicata,Outdoor,7
+2019,11,Basilicata,Wellness,38
+2019,11,Calabria,Homecare,40
+2019,11,Calabria,Outdoor,22
+2019,11,Calabria,Wellness,203
+2019,11,Campania,Homecare,227
+2019,11,Campania,Outdoor,82
+2019,11,Campania,Wellness,1104
+2019,11,Emilia-Romagna,Homecare,467
+2019,11,Emilia-Romagna,Outdoor,122
+2019,11,Emilia-Romagna,Wellness,1291
+2019,11,Friuli Venezia Giulia,Homecare,80
+2019,11,Friuli Venezia Giulia,Outdoor,23
+2019,11,Friuli Venezia Giulia,Wellness,209
+2019,11,Lazio,Homecare,656
+2019,11,Lazio,Outdoor,163
+2019,11,Lazio,Wellness,1517
+2019,11,Liguria,Homecare,142
+2019,11,Liguria,Outdoor,29
+2019,11,Liguria,Wellness,298
+2019,11,Lombardia,Homecare,1262
+2019,11,Lombardia,Outdoor,196
+2019,11,Lombardia,Wellness,2993
+2019,11,Marche,Homecare,94
+2019,11,Marche,Outdoor,28
+2019,11,Marche,Wellness,307
+2019,11,Molise,Homecare,7
+2019,11,Molise,Outdoor,1
+2019,11,Molise,Wellness,24
+2019,11,Piemonte,Homecare,327
+2019,11,Piemonte,Outdoor,68
+2019,11,Piemonte,Wellness,960
+2019,11,Puglia,Homecare,125
+2019,11,Puglia,Outdoor,90
+2019,11,Puglia,Wellness,630
+2019,11,Sardegna,Homecare,224
+2019,11,Sardegna,Outdoor,69
+2019,11,Sardegna,Wellness,354
+2019,11,Sicilia,Homecare,183
+2019,11,Sicilia,Outdoor,94
+2019,11,Sicilia,Wellness,751
+2019,11,Toscana,Homecare,320
+2019,11,Toscana,Outdoor,90
+2019,11,Toscana,Wellness,840
+2019,11,Trentino-Alto Adige,Homecare,45
+2019,11,Trentino-Alto Adige,Outdoor,12
+2019,11,Trentino-Alto Adige,Wellness,147
+2019,11,Umbria,Homecare,55
+2019,11,Umbria,Outdoor,13
+2019,11,Umbria,Wellness,167
+2019,11,Valle d'Aosta,Homecare,8
+2019,11,Valle d'Aosta,Wellness,21
+2019,11,Veneto,Homecare,366
+2019,11,Veneto,Outdoor,101
+2019,11,Veneto,Wellness,1059
+2019,12,Abruzzo,Homecare,61
+2019,12,Abruzzo,Outdoor,9
+2019,12,Abruzzo,Wellness,149
+2019,12,Basilicata,Homecare,5
+2019,12,Basilicata,Outdoor,1
+2019,12,Basilicata,Wellness,45
+2019,12,Calabria,Homecare,24
+2019,12,Calabria,Outdoor,13
+2019,12,Calabria,Wellness,133
+2019,12,Campania,Homecare,123
+2019,12,Campania,Outdoor,50
+2019,12,Campania,Wellness,602
+2019,12,Emilia-Romagna,Homecare,295
+2019,12,Emilia-Romagna,Outdoor,51
+2019,12,Emilia-Romagna,Wellness,732
+2019,12,Friuli Venezia Giulia,Homecare,49
+2019,12,Friuli Venezia Giulia,Outdoor,19
+2019,12,Friuli Venezia Giulia,Wellness,120
+2019,12,Lazio,Homecare,392
+2019,12,Lazio,Outdoor,94
+2019,12,Lazio,Wellness,982
+2019,12,Liguria,Homecare,77
+2019,12,Liguria,Outdoor,18
+2019,12,Liguria,Wellness,193
+2019,12,Lombardia,Homecare,680
+2019,12,Lombardia,Outdoor,88
+2019,12,Lombardia,Wellness,1638
+2019,12,Marche,Homecare,63
+2019,12,Marche,Outdoor,17
+2019,12,Marche,Wellness,181
+2019,12,Molise,Homecare,9
+2019,12,Molise,Outdoor,1
+2019,12,Molise,Wellness,14
+2019,12,Piemonte,Homecare,229
+2019,12,Piemonte,Outdoor,35
+2019,12,Piemonte,Wellness,637
+2019,12,Puglia,Homecare,88
+2019,12,Puglia,Outdoor,48
+2019,12,Puglia,Wellness,355
+2019,12,Sardegna,Homecare,112
+2019,12,Sardegna,Outdoor,26
+2019,12,Sardegna,Wellness,223
+2019,12,Sicilia,Homecare,103
+2019,12,Sicilia,Outdoor,69
+2019,12,Sicilia,Wellness,507
+2019,12,Toscana,Homecare,179
+2019,12,Toscana,Outdoor,50
+2019,12,Toscana,Wellness,570
+2019,12,Trentino-Alto Adige,Homecare,28
+2019,12,Trentino-Alto Adige,Outdoor,9
+2019,12,Trentino-Alto Adige,Wellness,111
+2019,12,Umbria,Homecare,34
+2019,12,Umbria,Outdoor,7
+2019,12,Umbria,Wellness,94
+2019,12,Valle d'Aosta,Outdoor,1
+2019,12,Valle d'Aosta,Wellness,16
+2019,12,Veneto,Homecare,227
+2019,12,Veneto,Outdoor,51
+2019,12,Veneto,Wellness,695
+2020,1,Abruzzo,Homecare,99
+2020,1,Abruzzo,Outdoor,27
+2020,1,Abruzzo,Wellness,307
+2020,1,Basilicata,Homecare,13
+2020,1,Basilicata,Outdoor,1
+2020,1,Basilicata,Wellness,45
+2020,1,Calabria,Homecare,62
+2020,1,Calabria,Outdoor,31
+2020,1,Calabria,Wellness,262
+2020,1,Campania,Homecare,289
+2020,1,Campania,Outdoor,59
+2020,1,Campania,Wellness,1344
+2020,1,Emilia-Romagna,Homecare,670
+2020,1,Emilia-Romagna,Outdoor,120
+2020,1,Emilia-Romagna,Wellness,1632
+2020,1,Friuli Venezia Giulia,Homecare,107
+2020,1,Friuli Venezia Giulia,Outdoor,36
+2020,1,Friuli Venezia Giulia,Wellness,289
+2020,1,Lazio,Homecare,723
+2020,1,Lazio,Outdoor,192
+2020,1,Lazio,Wellness,1778
+2020,1,Liguria,Homecare,206
+2020,1,Liguria,Outdoor,60
+2020,1,Liguria,Wellness,370
+2020,1,Lombardia,Homecare,1643
+2020,1,Lombardia,Outdoor,261
+2020,1,Lombardia,Wellness,3614
+2020,1,Marche,Homecare,126
+2020,1,Marche,Outdoor,24
+2020,1,Marche,Wellness,378
+2020,1,Molise,Homecare,13
+2020,1,Molise,Outdoor,7
+2020,1,Molise,Wellness,39
+2020,1,Piemonte,Homecare,538
+2020,1,Piemonte,Outdoor,82
+2020,1,Piemonte,Wellness,1054
+2020,1,Puglia,Homecare,190
+2020,1,Puglia,Outdoor,85
+2020,1,Puglia,Wellness,680
+2020,1,Sardegna,Homecare,171
+2020,1,Sardegna,Outdoor,50
+2020,1,Sardegna,Wellness,419
+2020,1,Sicilia,Homecare,187
+2020,1,Sicilia,Outdoor,132
+2020,1,Sicilia,Wellness,888
+2020,1,Toscana,Homecare,435
+2020,1,Toscana,Outdoor,111
+2020,1,Toscana,Wellness,1093
+2020,1,Trentino-Alto Adige,Homecare,87
+2020,1,Trentino-Alto Adige,Outdoor,12
+2020,1,Trentino-Alto Adige,Wellness,236
+2020,1,Umbria,Homecare,54
+2020,1,Umbria,Outdoor,24
+2020,1,Umbria,Wellness,183
+2020,1,Valle d'Aosta,Homecare,4
+2020,1,Valle d'Aosta,Outdoor,1
+2020,1,Valle d'Aosta,Wellness,13
+2020,1,Veneto,Homecare,483
+2020,1,Veneto,Outdoor,110
+2020,1,Veneto,Wellness,1209
+2020,2,Abruzzo,Homecare,95
+2020,2,Abruzzo,Outdoor,44
+2020,2,Abruzzo,Wellness,221
+2020,2,Basilicata,Homecare,20
+2020,2,Basilicata,Outdoor,19
+2020,2,Basilicata,Wellness,36
+2020,2,Calabria,Homecare,59
+2020,2,Calabria,Outdoor,48
+2020,2,Calabria,Wellness,190
+2020,2,Campania,Homecare,286
+2020,2,Campania,Outdoor,118
+2020,2,Campania,Wellness,1063
+2020,2,Emilia-Romagna,Homecare,809
+2020,2,Emilia-Romagna,Outdoor,217
+2020,2,Emilia-Romagna,Wellness,1305
+2020,2,Friuli Venezia Giulia,Homecare,155
+2020,2,Friuli Venezia Giulia,Outdoor,40
+2020,2,Friuli Venezia Giulia,Wellness,199
+2020,2,Lazio,Homecare,801
+2020,2,Lazio,Outdoor,254
+2020,2,Lazio,Wellness,1508
+2020,2,Liguria,Homecare,265
+2020,2,Liguria,Outdoor,56
+2020,2,Liguria,Wellness,290
+2020,2,Lombardia,Homecare,1976
+2020,2,Lombardia,Outdoor,403
+2020,2,Lombardia,Wellness,2780
+2020,2,Marche,Homecare,164
+2020,2,Marche,Outdoor,47
+2020,2,Marche,Wellness,249
+2020,2,Molise,Homecare,14
+2020,2,Molise,Outdoor,2
+2020,2,Molise,Wellness,22
+2020,2,Piemonte,Homecare,628
+2020,2,Piemonte,Outdoor,139
+2020,2,Piemonte,Wellness,983
+2020,2,Puglia,Homecare,187
+2020,2,Puglia,Outdoor,136
+2020,2,Puglia,Wellness,575
+2020,2,Sardegna,Homecare,165
+2020,2,Sardegna,Outdoor,59
+2020,2,Sardegna,Wellness,275
+2020,2,Sicilia,Homecare,226
+2020,2,Sicilia,Outdoor,158
+2020,2,Sicilia,Wellness,669
+2020,2,Toscana,Homecare,485
+2020,2,Toscana,Outdoor,149
+2020,2,Toscana,Wellness,908
+2020,2,Trentino-Alto Adige,Homecare,104
+2020,2,Trentino-Alto Adige,Outdoor,19
+2020,2,Trentino-Alto Adige,Wellness,155
+2020,2,Umbria,Homecare,70
+2020,2,Umbria,Outdoor,33
+2020,2,Umbria,Wellness,151
+2020,2,Valle d'Aosta,Homecare,13
+2020,2,Valle d'Aosta,Outdoor,1
+2020,2,Valle d'Aosta,Wellness,22
+2020,2,Veneto,Homecare,637
+2020,2,Veneto,Outdoor,207
+2020,2,Veneto,Wellness,1051
+2020,3,Abruzzo,Homecare,71
+2020,3,Abruzzo,Outdoor,32
+2020,3,Abruzzo,Wellness,119
+2020,3,Basilicata,Homecare,22
+2020,3,Basilicata,Outdoor,9
+2020,3,Basilicata,Wellness,20
+2020,3,Calabria,Homecare,62
+2020,3,Calabria,Outdoor,53
+2020,3,Calabria,Wellness,83
+2020,3,Campania,Homecare,231
+2020,3,Campania,Outdoor,142
+2020,3,Campania,Wellness,482
+2020,3,Emilia-Romagna,Homecare,507
+2020,3,Emilia-Romagna,Outdoor,170
+2020,3,Emilia-Romagna,Wellness,571
+2020,3,Friuli Venezia Giulia,Homecare,111
+2020,3,Friuli Venezia Giulia,Outdoor,46
+2020,3,Friuli Venezia Giulia,Wellness,102
+2020,3,Lazio,Homecare,558
+2020,3,Lazio,Outdoor,227
+2020,3,Lazio,Wellness,747
+2020,3,Liguria,Homecare,183
+2020,3,Liguria,Outdoor,45
+2020,3,Liguria,Wellness,152
+2020,3,Lombardia,Homecare,1268
+2020,3,Lombardia,Outdoor,350
+2020,3,Lombardia,Wellness,1250
+2020,3,Marche,Homecare,101
+2020,3,Marche,Outdoor,51
+2020,3,Marche,Wellness,125
+2020,3,Molise,Homecare,7
+2020,3,Molise,Outdoor,7
+2020,3,Molise,Wellness,11
+2020,3,Piemonte,Homecare,452
+2020,3,Piemonte,Outdoor,126
+2020,3,Piemonte,Wellness,427
+2020,3,Puglia,Homecare,150
+2020,3,Puglia,Outdoor,142
+2020,3,Puglia,Wellness,262
+2020,3,Sardegna,Homecare,100
+2020,3,Sardegna,Outdoor,38
+2020,3,Sardegna,Wellness,124
+2020,3,Sicilia,Homecare,155
+2020,3,Sicilia,Outdoor,158
+2020,3,Sicilia,Wellness,335
+2020,3,Toscana,Homecare,338
+2020,3,Toscana,Outdoor,118
+2020,3,Toscana,Wellness,370
+2020,3,Trentino-Alto Adige,Homecare,58
+2020,3,Trentino-Alto Adige,Outdoor,21
+2020,3,Trentino-Alto Adige,Wellness,64
+2020,3,Umbria,Homecare,60
+2020,3,Umbria,Outdoor,46
+2020,3,Umbria,Wellness,77
+2020,3,Valle d'Aosta,Homecare,6
+2020,3,Valle d'Aosta,Outdoor,3
+2020,3,Valle d'Aosta,Wellness,6
+2020,3,Veneto,Homecare,488
+2020,3,Veneto,Outdoor,206
+2020,3,Veneto,Wellness,438
+2020,4,Abruzzo,Homecare,97
+2020,4,Abruzzo,Outdoor,93
+2020,4,Abruzzo,Wellness,83
+2020,4,Basilicata,Homecare,9
+2020,4,Basilicata,Outdoor,13
+2020,4,Basilicata,Wellness,18
+2020,4,Calabria,Homecare,65
+2020,4,Calabria,Outdoor,93
+2020,4,Calabria,Wellness,64
+2020,4,Campania,Homecare,393
+2020,4,Campania,Outdoor,255
+2020,4,Campania,Wellness,400
+2020,4,Emilia-Romagna,Homecare,935
+2020,4,Emilia-Romagna,Outdoor,525
+2020,4,Emilia-Romagna,Wellness,487
+2020,4,Friuli Venezia Giulia,Homecare,144
+2020,4,Friuli Venezia Giulia,Outdoor,125
+2020,4,Friuli Venezia Giulia,Wellness,81
+2020,4,Lazio,Homecare,815
+2020,4,Lazio,Outdoor,608
+2020,4,Lazio,Wellness,664
+2020,4,Liguria,Homecare,233
+2020,4,Liguria,Outdoor,126
+2020,4,Liguria,Wellness,139
+2020,4,Lombardia,Homecare,2105
+2020,4,Lombardia,Outdoor,982
+2020,4,Lombardia,Wellness,1069
+2020,4,Marche,Homecare,138
+2020,4,Marche,Outdoor,125
+2020,4,Marche,Wellness,110
+2020,4,Molise,Homecare,12
+2020,4,Molise,Outdoor,7
+2020,4,Molise,Wellness,8
+2020,4,Piemonte,Homecare,604
+2020,4,Piemonte,Outdoor,259
+2020,4,Piemonte,Wellness,367
+2020,4,Puglia,Homecare,223
+2020,4,Puglia,Outdoor,273
+2020,4,Puglia,Wellness,217
+2020,4,Sardegna,Homecare,103
+2020,4,Sardegna,Outdoor,85
+2020,4,Sardegna,Wellness,108
+2020,4,Sicilia,Homecare,216
+2020,4,Sicilia,Outdoor,295
+2020,4,Sicilia,Wellness,262
+2020,4,Toscana,Homecare,452
+2020,4,Toscana,Outdoor,326
+2020,4,Toscana,Wellness,273
+2020,4,Trentino-Alto Adige,Homecare,106
+2020,4,Trentino-Alto Adige,Outdoor,53
+2020,4,Trentino-Alto Adige,Wellness,68
+2020,4,Umbria,Homecare,88
+2020,4,Umbria,Outdoor,85
+2020,4,Umbria,Wellness,71
+2020,4,Valle d'Aosta,Homecare,16
+2020,4,Valle d'Aosta,Outdoor,3
+2020,4,Valle d'Aosta,Wellness,9
+2020,4,Veneto,Homecare,727
+2020,4,Veneto,Outdoor,432
+2020,4,Veneto,Wellness,401
+2020,5,Abruzzo,Homecare,258
+2020,5,Abruzzo,Outdoor,248
+2020,5,Abruzzo,Wellness,73
+2020,5,Basilicata,Homecare,47
+2020,5,Basilicata,Outdoor,61
+2020,5,Basilicata,Wellness,8
+2020,5,Calabria,Homecare,203
+2020,5,Calabria,Outdoor,331
+2020,5,Calabria,Wellness,59
+2020,5,Campania,Homecare,1048
+2020,5,Campania,Outdoor,1112
+2020,5,Campania,Wellness,372
+2020,5,Emilia-Romagna,Homecare,2175
+2020,5,Emilia-Romagna,Outdoor,1559
+2020,5,Emilia-Romagna,Wellness,419
+2020,5,Friuli Venezia Giulia,Homecare,328
+2020,5,Friuli Venezia Giulia,Outdoor,313
+2020,5,Friuli Venezia Giulia,Wellness,70
+2020,5,Lazio,Homecare,2489
+2020,5,Lazio,Outdoor,2267
+2020,5,Lazio,Wellness,695
+2020,5,Liguria,Homecare,506
+2020,5,Liguria,Outdoor,398
+2020,5,Liguria,Wellness,73
+2020,5,Lombardia,Homecare,6029
+2020,5,Lombardia,Outdoor,3125
+2020,5,Lombardia,Wellness,943
+2020,5,Marche,Homecare,359
+2020,5,Marche,Outdoor,311
+2020,5,Marche,Wellness,71
+2020,5,Molise,Homecare,34
+2020,5,Molise,Outdoor,39
+2020,5,Molise,Wellness,3
+2020,5,Piemonte,Homecare,1466
+2020,5,Piemonte,Outdoor,933
+2020,5,Piemonte,Wellness,306
+2020,5,Puglia,Homecare,556
+2020,5,Puglia,Outdoor,909
+2020,5,Puglia,Wellness,154
+2020,5,Sardegna,Homecare,361
+2020,5,Sardegna,Outdoor,339
+2020,5,Sardegna,Wellness,129
+2020,5,Sicilia,Homecare,720
+2020,5,Sicilia,Outdoor,1063
+2020,5,Sicilia,Wellness,211
+2020,5,Toscana,Homecare,1347
+2020,5,Toscana,Outdoor,1074
+2020,5,Toscana,Wellness,249
+2020,5,Trentino-Alto Adige,Homecare,206
+2020,5,Trentino-Alto Adige,Outdoor,143
+2020,5,Trentino-Alto Adige,Wellness,51
+2020,5,Umbria,Homecare,196
+2020,5,Umbria,Outdoor,287
+2020,5,Umbria,Wellness,55
+2020,5,Valle d'Aosta,Homecare,21
+2020,5,Valle d'Aosta,Outdoor,13
+2020,5,Valle d'Aosta,Wellness,1
+2020,5,Veneto,Homecare,1499
+2020,5,Veneto,Outdoor,1202
+2020,5,Veneto,Wellness,309
+2020,6,Abruzzo,Homecare,97
+2020,6,Abruzzo,Outdoor,108
+2020,6,Abruzzo,Wellness,28
+2020,6,Basilicata,Homecare,6
+2020,6,Basilicata,Outdoor,35
+2020,6,Basilicata,Wellness,3
+2020,6,Calabria,Homecare,53
+2020,6,Calabria,Outdoor,148
+2020,6,Calabria,Wellness,23
+2020,6,Campania,Homecare,396
+2020,6,Campania,Outdoor,474
+2020,6,Campania,Wellness,153
+2020,6,Emilia-Romagna,Homecare,720
+2020,6,Emilia-Romagna,Outdoor,510
+2020,6,Emilia-Romagna,Wellness,225
+2020,6,Friuli Venezia Giulia,Homecare,119
+2020,6,Friuli Venezia Giulia,Outdoor,128
+2020,6,Friuli Venezia Giulia,Wellness,26
+2020,6,Lazio,Homecare,752
+2020,6,Lazio,Outdoor,839
+2020,6,Lazio,Wellness,313
+2020,6,Liguria,Homecare,220
+2020,6,Liguria,Outdoor,164
+2020,6,Liguria,Wellness,33
+2020,6,Lombardia,Homecare,2272
+2020,6,Lombardia,Outdoor,1263
+2020,6,Lombardia,Wellness,540
+2020,6,Marche,Homecare,123
+2020,6,Marche,Outdoor,116
+2020,6,Marche,Wellness,33
+2020,6,Molise,Homecare,12
+2020,6,Molise,Outdoor,24
+2020,6,Molise,Wellness,3
+2020,6,Piemonte,Homecare,556
+2020,6,Piemonte,Outdoor,413
+2020,6,Piemonte,Wellness,134
+2020,6,Puglia,Homecare,191
+2020,6,Puglia,Outdoor,401
+2020,6,Puglia,Wellness,76
+2020,6,Sardegna,Homecare,147
+2020,6,Sardegna,Outdoor,141
+2020,6,Sardegna,Wellness,39
+2020,6,Sicilia,Homecare,216
+2020,6,Sicilia,Outdoor,408
+2020,6,Sicilia,Wellness,103
+2020,6,Toscana,Homecare,394
+2020,6,Toscana,Outdoor,356
+2020,6,Toscana,Wellness,102
+2020,6,Trentino-Alto Adige,Homecare,66
+2020,6,Trentino-Alto Adige,Outdoor,54
+2020,6,Trentino-Alto Adige,Wellness,31
+2020,6,Umbria,Homecare,48
+2020,6,Umbria,Outdoor,92
+2020,6,Umbria,Wellness,32
+2020,6,Valle d'Aosta,Homecare,9
+2020,6,Valle d'Aosta,Outdoor,5
+2020,6,Valle d'Aosta,Wellness,2
+2020,6,Veneto,Homecare,536
+2020,6,Veneto,Outdoor,467
+2020,6,Veneto,Wellness,151

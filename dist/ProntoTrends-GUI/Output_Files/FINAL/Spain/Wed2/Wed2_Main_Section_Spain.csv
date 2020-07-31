@@ -1,0 +1,175 @@
+Year,ticket_geo_region_name,Type,sub_type,Percentage
+2018,Andalucía,Spend,Estándar,0.63
+2018,Andalucía,Services,Servicio de Catering,0.29
+2018,Andalucía,Reception Location,restaurante,0.37
+2018,Aragón,Spend,Premium,0.53
+2018,Aragón,Services,Maquillaje,0.26
+2018,Aragón,Reception Location,NA,NA
+2018,Asturias,Spend,Premium,0.57
+2018,Asturias,Services,Maquillaje,0.34
+2018,Asturias,Reception Location,palacio/castillo,1.0
+2018,Cantabria,Spend,Estándar,0.56
+2018,Cantabria,Services,Maquillaje,0.3
+2018,Cantabria,Reception Location,palacio/castillo,1.0
+2018,Castilla y León,Spend,Estándar,0.54
+2018,Castilla y León,Services,Maquillaje,0.28
+2018,Castilla y León,Reception Location,palacio/castillo,0.71
+2018,Castilla-La Mancha,Spend,Premium,0.65
+2018,Castilla-La Mancha,Services,Maquillaje,0.29
+2018,Castilla-La Mancha,Reception Location,finca/campo,1.0
+2018,Cataluña,Spend,Estándar,0.57
+2018,Cataluña,Services,Maquillaje,0.26
+2018,Cataluña,Reception Location,restaurante,1.0
+2018,Ceuta,Services,Maquillaje,0.36
+2018,Ceuta,Reception Location,NA,NA
+2018,España,Spend,Premium,0.51
+2018,España,Services,Maquillaje,0.29
+2018,España,Reception Location,restaurante,0.43
+2018,Extremadura,Spend,Estándar,0.55
+2018,Extremadura,Services,Maquillaje,0.25
+2018,Extremadura,Reception Location,NA,NA
+2018,Galicia,Spend,Estándar,0.57
+2018,Galicia,Services,Maquillaje,0.29
+2018,Galicia,Reception Location,NA,NA
+2018,Illes Balears,Spend,Estándar,0.58
+2018,Illes Balears,Services,Dj,0.23
+2018,Illes Balears,Reception Location,NA,NA
+2018,Islas Canarias,Spend,Estándar,0.57
+2018,Islas Canarias,Services,Maquillaje,0.3
+2018,Islas Canarias,Reception Location,finca/campo,1.0
+2018,La Rioja,Spend,Premium,0.64
+2018,La Rioja,Services,Maquillaje,0.23
+2018,La Rioja,Reception Location,NA,NA
+2018,Madrid,Spend,Premium,0.63
+2018,Madrid,Services,Maquillaje,0.23
+2018,Madrid,Reception Location,restaurante,0.34
+2018,Melilla,Services,Maquillaje,0.31
+2018,Melilla,Reception Location,NA,NA
+2018,Murcia,Spend,Premium,0.63
+2018,Murcia,Services,Maquillaje,0.31
+2018,Murcia,Reception Location,NA,NA
+2018,Navarra,Spend,Premium,0.63
+2018,Navarra,Services,Maquillaje,0.26
+2018,Navarra,Reception Location,NA,NA
+2018,País Vasco,Spend,Premium,0.53
+2018,País Vasco,Services,Maquillaje,0.28
+2018,País Vasco,Reception Location,palacio/castillo,1.0
+2018,Valencia,Spend,Estándar,0.53
+2018,Valencia,Services,Maquillaje,0.28
+2018,Valencia,Reception Location,restaurante,0.77
+2019,Andalucía,Spend,Estándar,0.63
+2019,Andalucía,Services,Maquillaje,0.31
+2019,Andalucía,Reception Location,restaurante,0.35
+2019,Aragón,Spend,Premium,0.53
+2019,Aragón,Services,Maquillaje,0.27
+2019,Aragón,Reception Location,NA,NA
+2019,Asturias,Spend,Premium,0.57
+2019,Asturias,Services,Maquillaje,0.28
+2019,Asturias,Reception Location,palacio/castillo,1.0
+2019,Cantabria,Spend,Estándar,0.56
+2019,Cantabria,Services,Maquillaje,0.28
+2019,Cantabria,Reception Location,palacio/castillo,1.0
+2019,Castilla y León,Spend,Estándar,0.54
+2019,Castilla y León,Services,Maquillaje,0.28
+2019,Castilla y León,Reception Location,palacio/castillo,0.7
+2019,Castilla-La Mancha,Spend,Premium,0.65
+2019,Castilla-La Mancha,Services,Maquillaje,0.29
+2019,Castilla-La Mancha,Reception Location,finca/campo,1.0
+2019,Cataluña,Spend,Estándar,0.57
+2019,Cataluña,Services,Maquillaje,0.25
+2019,Cataluña,Reception Location,restaurante,1.0
+2019,Ceuta,Services,Maquillaje,0.33
+2019,Ceuta,Reception Location,NA,NA
+2019,España,Spend,Premium,0.51
+2019,España,Services,Maquillaje,0.27
+2019,España,Reception Location,restaurante,0.45
+2019,Extremadura,Spend,Estándar,0.55
+2019,Extremadura,Services,Maquillaje,0.29
+2019,Extremadura,Reception Location,NA,NA
+2019,Galicia,Spend,Estándar,0.57
+2019,Galicia,Services,Maquillaje,0.28
+2019,Galicia,Reception Location,NA,NA
+2019,Illes Balears,Spend,Estándar,0.58
+2019,Illes Balears,Services,Dj,0.24
+2019,Illes Balears,Reception Location,NA,NA
+2019,Islas Canarias,Spend,Estándar,0.57
+2019,Islas Canarias,Services,Maquillaje,0.28
+2019,Islas Canarias,Reception Location,finca/campo,1.0
+2019,La Rioja,Spend,Premium,0.64
+2019,La Rioja,Services,Maquillaje,0.23
+2019,La Rioja,Reception Location,NA,NA
+2019,Madrid,Spend,Premium,0.63
+2019,Madrid,Services,Maquillaje,0.24
+2019,Madrid,Reception Location,restaurante,0.35
+2019,Melilla,Services,Maquillaje,0.36
+2019,Melilla,Reception Location,NA,NA
+2019,Murcia,Spend,Premium,0.63
+2019,Murcia,Services,Maquillaje,0.31
+2019,Murcia,Reception Location,NA,NA
+2019,Navarra,Spend,Premium,0.63
+2019,Navarra,Services,Maquillaje,0.26
+2019,Navarra,Reception Location,NA,NA
+2019,País Vasco,Spend,Premium,0.53
+2019,País Vasco,Services,Maquillaje,0.26
+2019,País Vasco,Reception Location,palacio/castillo,1.0
+2019,Valencia,Spend,Estándar,0.53
+2019,Valencia,Services,Maquillaje,0.28
+2019,Valencia,Reception Location,restaurante,0.8
+2020,Andalucía,Spend,Estándar,0.63
+2020,Andalucía,Services,Maquillaje,0.32
+2020,Andalucía,Reception Location,villa,0.39
+2020,Aragón,Spend,Premium,0.53
+2020,Aragón,Services,Maquillaje,0.25
+2020,Aragón,Reception Location,NA,NA
+2020,Asturias,Spend,Premium,0.57
+2020,Asturias,Services,Maquillaje,0.33
+2020,Asturias,Reception Location,palacio/castillo,1.0
+2020,Cantabria,Spend,Estándar,0.56
+2020,Cantabria,Services,Maquillaje,0.29
+2020,Cantabria,Reception Location,palacio/castillo,1.0
+2020,Castilla y León,Spend,Estándar,0.54
+2020,Castilla y León,Services,Maquillaje,0.27
+2020,Castilla y León,Reception Location,palacio/castillo,0.64
+2020,Castilla-La Mancha,Spend,Premium,0.65
+2020,Castilla-La Mancha,Services,Maquillaje,0.3
+2020,Castilla-La Mancha,Reception Location,finca/campo,1.0
+2020,Cataluña,Spend,Estándar,0.57
+2020,Cataluña,Services,Maquillaje,0.26
+2020,Cataluña,Reception Location,restaurante,1.0
+2020,Ceuta,Services,Maquillaje,0.44
+2020,Ceuta,Reception Location,NA,NA
+2020,España,Spend,Premium,0.51
+2020,España,Services,Maquillaje,0.3
+2020,España,Reception Location,restaurante,0.46
+2020,Extremadura,Spend,Estándar,0.55
+2020,Extremadura,Services,Maquillaje,0.33
+2020,Extremadura,Reception Location,NA,NA
+2020,Galicia,Spend,Estándar,0.57
+2020,Galicia,Services,Maquillaje,0.32
+2020,Galicia,Reception Location,NA,NA
+2020,Illes Balears,Spend,Estándar,0.58
+2020,Illes Balears,Services,Maquillaje,0.25
+2020,Illes Balears,Reception Location,NA,NA
+2020,Islas Canarias,Spend,Estándar,0.57
+2020,Islas Canarias,Services,Maquillaje,0.32
+2020,Islas Canarias,Reception Location,finca/campo,1.0
+2020,La Rioja,Spend,Premium,0.64
+2020,La Rioja,Services,Maquillaje,0.24
+2020,La Rioja,Reception Location,NA,NA
+2020,Madrid,Spend,Premium,0.63
+2020,Madrid,Services,Maquillaje,0.24
+2020,Madrid,Reception Location,restaurante,0.32
+2020,Melilla,Services,Maquillaje,0.27
+2020,Melilla,Reception Location,NA,NA
+2020,Murcia,Spend,Premium,0.63
+2020,Murcia,Services,Maquillaje,0.3
+2020,Murcia,Reception Location,NA,NA
+2020,Navarra,Spend,Premium,0.63
+2020,Navarra,Services,Maquillaje,0.28
+2020,Navarra,Reception Location,NA,NA
+2020,País Vasco,Spend,Premium,0.53
+2020,País Vasco,Services,Maquillaje,0.32
+2020,País Vasco,Reception Location,palacio/castillo,1.0
+2020,Valencia,Spend,Estándar,0.53
+2020,Valencia,Services,Maquillaje,0.29
+2020,Valencia,Reception Location,restaurante,0.76

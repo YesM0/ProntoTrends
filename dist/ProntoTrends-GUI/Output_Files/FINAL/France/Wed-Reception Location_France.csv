@@ -1,0 +1,487 @@
+Year,ticket_geo_region_name,Loc_type,Distribution
+2018,Alsace,mariage mer,0.0
+2018,Alsace,jardin mariage,0.0
+2018,Alsace,mariage palace,0.0
+2018,Alsace,ferme mariage ,0.12
+2018,Alsace,mariage chateau,0.49
+2018,Alsace,restaurant mariage,0.38
+2018,Alsace,location salle des fêtes,0.0
+2018,Aquitaine,mariage mer,0.09
+2018,Aquitaine,jardin mariage,0.09
+2018,Aquitaine,mariage palace,0.0
+2018,Aquitaine,ferme mariage ,0.11
+2018,Aquitaine,mariage chateau,0.48
+2018,Aquitaine,restaurant mariage,0.22
+2018,Aquitaine,location salle des fêtes,0.0
+2018,Auvergne,mariage mer,0.0
+2018,Auvergne,jardin mariage,0.0
+2018,Auvergne,mariage palace,0.0
+2018,Auvergne,ferme mariage ,0.0
+2018,Auvergne,mariage chateau,0.78
+2018,Auvergne,restaurant mariage,0.22
+2018,Auvergne,location salle des fêtes,0.0
+2018,Bretagne,mariage mer,0.24
+2018,Bretagne,jardin mariage,0.1
+2018,Bretagne,mariage palace,0.0
+2018,Bretagne,ferme mariage ,0.0
+2018,Bretagne,mariage chateau,0.45
+2018,Bretagne,restaurant mariage,0.21
+2018,Bretagne,location salle des fêtes,0.0
+2018,Bourgogne,mariage mer,0.0
+2018,Bourgogne,jardin mariage,0.0
+2018,Bourgogne,mariage palace,0.0
+2018,Bourgogne,ferme mariage ,0.0
+2018,Bourgogne,mariage chateau,0.76
+2018,Bourgogne,restaurant mariage,0.24
+2018,Bourgogne,location salle des fêtes,0.0
+2018,Centre-Val de Loire,mariage mer,0.0
+2018,Centre-Val de Loire,jardin mariage,0.0
+2018,Centre-Val de Loire,mariage chateau,0.56
+2018,Centre-Val de Loire,mariage palace,0.0
+2018,Centre-Val de Loire,ferme mariage ,0.16
+2018,Centre-Val de Loire,restaurant mariage,0.2
+2018,Centre-Val de Loire,location salle des fêtes,0.08
+2018,Champagne-Ardenne,mariage mer,0.0
+2018,Champagne-Ardenne,jardin mariage,0.0
+2018,Champagne-Ardenne,mariage palace,0.0
+2018,Champagne-Ardenne,ferme mariage ,0.0
+2018,Champagne-Ardenne,mariage chateau,0.7
+2018,Champagne-Ardenne,restaurant mariage,0.3
+2018,Champagne-Ardenne,location salle des fêtes,0.0
+2018,Corse,mariage mer,0.0
+2018,Corse,jardin mariage,0.0
+2018,Corse,mariage chateau_x,0.0
+2018,Corse,mariage palace,0.0
+2018,Corse,ferme mariage ,0.0
+2018,Corse,mariage chateau_y,0.0
+2018,Corse,restaurant mariage,0.0
+2018,Corse,location salle des fêtes,0.0
+2018,France,mariage mer,0.11
+2018,France,jardin mariage,0.07
+2018,France,mariage palace,0.02
+2018,France,ferme mariage ,0.07
+2018,France,mariage chateau,0.46
+2018,France,restaurant mariage,0.22
+2018,France,location salle des fêtes,0.04
+2018,Franche-Comté,mariage mer,0.0
+2018,Franche-Comté,jardin mariage,0.0
+2018,Franche-Comté,mariage palace,0.0
+2018,Franche-Comté,ferme mariage ,0.0
+2018,Franche-Comté,mariage chateau,0.72
+2018,Franche-Comté,restaurant mariage,0.28
+2018,Franche-Comté,location salle des fêtes,0.0
+2018,Languedoc-Roussillon,mariage mer,0.27
+2018,Languedoc-Roussillon,jardin mariage,0.0
+2018,Languedoc-Roussillon,mariage palace,0.0
+2018,Languedoc-Roussillon,ferme mariage ,0.0
+2018,Languedoc-Roussillon,mariage chateau,0.48
+2018,Languedoc-Roussillon,restaurant mariage,0.25
+2018,Languedoc-Roussillon,location salle des fêtes,0.0
+2018,Limousin,mariage mer,0.03
+2018,Limousin,jardin mariage,0.0
+2018,Limousin,mariage palace,0.0
+2018,Limousin,ferme mariage ,0.0
+2018,Limousin,mariage chateau,0.61
+2018,Limousin,restaurant mariage,0.36
+2018,Limousin,location salle des fêtes,0.0
+2018,Lorraine,mariage mer,0.0
+2018,Lorraine,jardin mariage,0.0
+2018,Lorraine,mariage palace,0.0
+2018,Lorraine,ferme mariage ,0.0
+2018,Lorraine,mariage chateau,0.64
+2018,Lorraine,restaurant mariage,0.36
+2018,Lorraine,location salle des fêtes,0.0
+2018,Basse Normandie,mariage mer,0.32
+2018,Basse Normandie,jardin mariage,0.0
+2018,Basse Normandie,mariage palace,0.0
+2018,Basse Normandie,ferme mariage ,0.0
+2018,Basse Normandie,mariage chateau,0.68
+2018,Basse Normandie,restaurant mariage,0.0
+2018,Basse Normandie,location salle des fêtes,0.0
+2018,Midi-Pyrénées,mariage mer,0.0
+2018,Midi-Pyrénées,jardin mariage,0.16
+2018,Midi-Pyrénées,mariage palace,0.0
+2018,Midi-Pyrénées,ferme mariage ,0.0
+2018,Midi-Pyrénées,mariage chateau,0.6
+2018,Midi-Pyrénées,restaurant mariage,0.24
+2018,Midi-Pyrénées,location salle des fêtes,0.0
+2018,Nord-Pas-de-Calais,mariage mer,0.26
+2018,Nord-Pas-de-Calais,jardin mariage,0.11
+2018,Nord-Pas-de-Calais,mariage palace,0.0
+2018,Nord-Pas-de-Calais,ferme mariage ,0.25
+2018,Nord-Pas-de-Calais,mariage chateau,0.26
+2018,Nord-Pas-de-Calais,restaurant mariage,0.09
+2018,Nord-Pas-de-Calais,location salle des fêtes,0.03
+2018,Pays de la Loire,mariage mer,0.2
+2018,Pays de la Loire,jardin mariage,0.09
+2018,Pays de la Loire,mariage palace,0.0
+2018,Pays de la Loire,ferme mariage ,0.0
+2018,Pays de la Loire,mariage chateau,0.47
+2018,Pays de la Loire,restaurant mariage,0.24
+2018,Pays de la Loire,location salle des fêtes,0.0
+2018,Picardie,mariage mer,0.0
+2018,Picardie,jardin mariage,0.0
+2018,Picardie,mariage palace,0.0
+2018,Picardie,ferme mariage ,0.0
+2018,Picardie,mariage chateau,0.67
+2018,Picardie,restaurant mariage,0.33
+2018,Picardie,location salle des fêtes,0.0
+2018,Poitou-Charentes,mariage mer,0.0
+2018,Poitou-Charentes,jardin mariage,0.0
+2018,Poitou-Charentes,mariage palace,0.0
+2018,Poitou-Charentes,ferme mariage ,0.0
+2018,Poitou-Charentes,mariage chateau,0.7
+2018,Poitou-Charentes,restaurant mariage,0.3
+2018,Poitou-Charentes,location salle des fêtes,0.0
+2018,Provence-Alpes-Côte d'Azur,mariage mer,0.26
+2018,Provence-Alpes-Côte d'Azur,jardin mariage,0.1
+2018,Provence-Alpes-Côte d'Azur,mariage palace,0.0
+2018,Provence-Alpes-Côte d'Azur,ferme mariage ,0.0
+2018,Provence-Alpes-Côte d'Azur,mariage chateau,0.41
+2018,Provence-Alpes-Côte d'Azur,restaurant mariage,0.23
+2018,Provence-Alpes-Côte d'Azur,location salle des fêtes,0.0
+2018,Rhône-Alpes,mariage mer,0.05
+2018,Rhône-Alpes,jardin mariage,0.07
+2018,Rhône-Alpes,mariage palace,0.0
+2018,Rhône-Alpes,ferme mariage ,0.07
+2018,Rhône-Alpes,mariage chateau,0.47
+2018,Rhône-Alpes,restaurant mariage,0.26
+2018,Rhône-Alpes,location salle des fêtes,0.08
+2018,Rhône-Alpes,mariage mer,0.0
+2018,Rhône-Alpes,jardin mariage,0.0
+2018,Rhône-Alpes,mariage palace,0.0
+2018,Rhône-Alpes,ferme mariage ,0.0
+2018,Rhône-Alpes,mariage chateau,0.71
+2018,Rhône-Alpes,restaurant mariage,0.29
+2018,Rhône-Alpes,location salle des fêtes,0.0
+2018,Île-de-France,mariage mer,0.08
+2018,Île-de-France,jardin mariage,0.09
+2018,Île-de-France,mariage palace,0.04
+2018,Île-de-France,ferme mariage ,0.11
+2018,Île-de-France,mariage chateau,0.44
+2018,Île-de-France,restaurant mariage,0.21
+2018,Île-de-France,location salle des fêtes,0.02
+2019,Alsace,mariage mer,0.0
+2019,Alsace,jardin mariage,0.0
+2019,Alsace,mariage palace,0.0
+2019,Alsace,ferme mariage ,0.17
+2019,Alsace,mariage chateau,0.5
+2019,Alsace,restaurant mariage,0.33
+2019,Alsace,location salle des fêtes,0.0
+2019,Aquitaine,mariage mer,0.11
+2019,Aquitaine,jardin mariage,0.08
+2019,Aquitaine,mariage palace,0.0
+2019,Aquitaine,ferme mariage ,0.12
+2019,Aquitaine,mariage chateau,0.46
+2019,Aquitaine,restaurant mariage,0.22
+2019,Aquitaine,location salle des fêtes,0.0
+2019,Auvergne,mariage mer,0.0
+2019,Auvergne,jardin mariage,0.0
+2019,Auvergne,mariage palace,0.0
+2019,Auvergne,ferme mariage ,0.0
+2019,Auvergne,mariage chateau,0.67
+2019,Auvergne,restaurant mariage,0.33
+2019,Auvergne,location salle des fêtes,0.0
+2019,Bretagne,mariage mer,0.23
+2019,Bretagne,jardin mariage,0.12
+2019,Bretagne,mariage palace,0.0
+2019,Bretagne,ferme mariage ,0.0
+2019,Bretagne,mariage chateau,0.43
+2019,Bretagne,restaurant mariage,0.21
+2019,Bretagne,location salle des fêtes,0.0
+2019,Bourgogne,mariage mer,0.0
+2019,Bourgogne,jardin mariage,0.0
+2019,Bourgogne,mariage palace,0.0
+2019,Bourgogne,ferme mariage ,0.0
+2019,Bourgogne,mariage chateau,0.8
+2019,Bourgogne,restaurant mariage,0.2
+2019,Bourgogne,location salle des fêtes,0.0
+2019,Centre-Val de Loire,mariage mer,0.0
+2019,Centre-Val de Loire,jardin mariage,0.0
+2019,Centre-Val de Loire,mariage chateau,0.53
+2019,Centre-Val de Loire,mariage palace,0.0
+2019,Centre-Val de Loire,ferme mariage ,0.14
+2019,Centre-Val de Loire,restaurant mariage,0.23
+2019,Centre-Val de Loire,location salle des fêtes,0.1
+2019,Champagne-Ardenne,mariage mer,0.0
+2019,Champagne-Ardenne,jardin mariage,0.0
+2019,Champagne-Ardenne,mariage palace,0.0
+2019,Champagne-Ardenne,ferme mariage ,0.0
+2019,Champagne-Ardenne,mariage chateau,0.72
+2019,Champagne-Ardenne,restaurant mariage,0.28
+2019,Champagne-Ardenne,location salle des fêtes,0.0
+2019,Corse,mariage mer,0.0
+2019,Corse,jardin mariage,0.0
+2019,Corse,mariage chateau_x,0.0
+2019,Corse,mariage palace,0.0
+2019,Corse,ferme mariage ,0.0
+2019,Corse,mariage chateau_y,0.0
+2019,Corse,restaurant mariage,0.0
+2019,Corse,location salle des fêtes,0.0
+2019,France,mariage mer,0.09
+2019,France,jardin mariage,0.07
+2019,France,mariage palace,0.02
+2019,France,ferme mariage ,0.09
+2019,France,mariage chateau,0.45
+2019,France,restaurant mariage,0.22
+2019,France,location salle des fêtes,0.05
+2019,Franche-Comté,mariage mer,0.0
+2019,Franche-Comté,jardin mariage,0.0
+2019,Franche-Comté,mariage palace,0.0
+2019,Franche-Comté,ferme mariage ,0.0
+2019,Franche-Comté,mariage chateau,0.66
+2019,Franche-Comté,restaurant mariage,0.34
+2019,Franche-Comté,location salle des fêtes,0.0
+2019,Languedoc-Roussillon,mariage mer,0.33
+2019,Languedoc-Roussillon,jardin mariage,0.0
+2019,Languedoc-Roussillon,mariage palace,0.0
+2019,Languedoc-Roussillon,ferme mariage ,0.0
+2019,Languedoc-Roussillon,mariage chateau,0.37
+2019,Languedoc-Roussillon,restaurant mariage,0.3
+2019,Languedoc-Roussillon,location salle des fêtes,0.0
+2019,Limousin,mariage mer,0.04
+2019,Limousin,jardin mariage,0.0
+2019,Limousin,mariage palace,0.0
+2019,Limousin,ferme mariage ,0.0
+2019,Limousin,mariage chateau,0.62
+2019,Limousin,restaurant mariage,0.34
+2019,Limousin,location salle des fêtes,0.0
+2019,Lorraine,mariage mer,0.0
+2019,Lorraine,jardin mariage,0.0
+2019,Lorraine,mariage palace,0.0
+2019,Lorraine,ferme mariage ,0.0
+2019,Lorraine,mariage chateau,0.66
+2019,Lorraine,restaurant mariage,0.34
+2019,Lorraine,location salle des fêtes,0.0
+2019,Basse Normandie,mariage mer,0.41
+2019,Basse Normandie,jardin mariage,0.0
+2019,Basse Normandie,mariage palace,0.0
+2019,Basse Normandie,ferme mariage ,0.0
+2019,Basse Normandie,mariage chateau,0.59
+2019,Basse Normandie,restaurant mariage,0.0
+2019,Basse Normandie,location salle des fêtes,0.0
+2019,Midi-Pyrénées,mariage mer,0.0
+2019,Midi-Pyrénées,jardin mariage,0.21
+2019,Midi-Pyrénées,mariage palace,0.0
+2019,Midi-Pyrénées,ferme mariage ,0.0
+2019,Midi-Pyrénées,mariage chateau,0.5
+2019,Midi-Pyrénées,restaurant mariage,0.28
+2019,Midi-Pyrénées,location salle des fêtes,0.0
+2019,Nord-Pas-de-Calais,mariage mer,0.21
+2019,Nord-Pas-de-Calais,jardin mariage,0.14
+2019,Nord-Pas-de-Calais,mariage palace,0.0
+2019,Nord-Pas-de-Calais,ferme mariage ,0.22
+2019,Nord-Pas-de-Calais,mariage chateau,0.29
+2019,Nord-Pas-de-Calais,restaurant mariage,0.11
+2019,Nord-Pas-de-Calais,location salle des fêtes,0.04
+2019,Pays de la Loire,mariage mer,0.23
+2019,Pays de la Loire,jardin mariage,0.13
+2019,Pays de la Loire,mariage palace,0.0
+2019,Pays de la Loire,ferme mariage ,0.0
+2019,Pays de la Loire,mariage chateau,0.43
+2019,Pays de la Loire,restaurant mariage,0.21
+2019,Pays de la Loire,location salle des fêtes,0.0
+2019,Picardie,mariage mer,0.0
+2019,Picardie,jardin mariage,0.0
+2019,Picardie,mariage palace,0.0
+2019,Picardie,ferme mariage ,0.0
+2019,Picardie,mariage chateau,0.71
+2019,Picardie,restaurant mariage,0.29
+2019,Picardie,location salle des fêtes,0.0
+2019,Poitou-Charentes,mariage mer,0.0
+2019,Poitou-Charentes,jardin mariage,0.0
+2019,Poitou-Charentes,mariage palace,0.0
+2019,Poitou-Charentes,ferme mariage ,0.0
+2019,Poitou-Charentes,mariage chateau,0.61
+2019,Poitou-Charentes,restaurant mariage,0.39
+2019,Poitou-Charentes,location salle des fêtes,0.0
+2019,Provence-Alpes-Côte d'Azur,mariage mer,0.21
+2019,Provence-Alpes-Côte d'Azur,jardin mariage,0.12
+2019,Provence-Alpes-Côte d'Azur,mariage palace,0.0
+2019,Provence-Alpes-Côte d'Azur,ferme mariage ,0.0
+2019,Provence-Alpes-Côte d'Azur,mariage chateau,0.39
+2019,Provence-Alpes-Côte d'Azur,restaurant mariage,0.27
+2019,Provence-Alpes-Côte d'Azur,location salle des fêtes,0.0
+2019,Rhône-Alpes,mariage mer,0.06
+2019,Rhône-Alpes,jardin mariage,0.05
+2019,Rhône-Alpes,mariage palace,0.0
+2019,Rhône-Alpes,ferme mariage ,0.05
+2019,Rhône-Alpes,mariage chateau,0.5
+2019,Rhône-Alpes,restaurant mariage,0.27
+2019,Rhône-Alpes,location salle des fêtes,0.08
+2019,Rhône-Alpes,mariage mer,0.0
+2019,Rhône-Alpes,jardin mariage,0.0
+2019,Rhône-Alpes,mariage palace,0.0
+2019,Rhône-Alpes,ferme mariage ,0.0
+2019,Rhône-Alpes,mariage chateau,0.57
+2019,Rhône-Alpes,restaurant mariage,0.43
+2019,Rhône-Alpes,location salle des fêtes,0.0
+2019,Île-de-France,mariage mer,0.1
+2019,Île-de-France,jardin mariage,0.09
+2019,Île-de-France,mariage palace,0.03
+2019,Île-de-France,ferme mariage ,0.12
+2019,Île-de-France,mariage chateau,0.43
+2019,Île-de-France,restaurant mariage,0.21
+2019,Île-de-France,location salle des fêtes,0.02
+2020,Alsace,mariage mer,0.0
+2020,Alsace,jardin mariage,0.0
+2020,Alsace,mariage palace,0.0
+2020,Alsace,ferme mariage ,0.08
+2020,Alsace,mariage chateau,0.7
+2020,Alsace,restaurant mariage,0.22
+2020,Alsace,location salle des fêtes,0.0
+2020,Aquitaine,mariage mer,0.06
+2020,Aquitaine,jardin mariage,0.14
+2020,Aquitaine,mariage palace,0.0
+2020,Aquitaine,ferme mariage ,0.14
+2020,Aquitaine,mariage chateau,0.46
+2020,Aquitaine,restaurant mariage,0.21
+2020,Aquitaine,location salle des fêtes,0.0
+2020,Auvergne,mariage mer,0.0
+2020,Auvergne,jardin mariage,0.0
+2020,Auvergne,mariage palace,0.0
+2020,Auvergne,ferme mariage ,0.0
+2020,Auvergne,mariage chateau,0.72
+2020,Auvergne,restaurant mariage,0.28
+2020,Auvergne,location salle des fêtes,0.0
+2020,Bretagne,mariage mer,0.11
+2020,Bretagne,jardin mariage,0.09
+2020,Bretagne,mariage palace,0.0
+2020,Bretagne,ferme mariage ,0.0
+2020,Bretagne,mariage chateau,0.54
+2020,Bretagne,restaurant mariage,0.26
+2020,Bretagne,location salle des fêtes,0.0
+2020,Bourgogne,mariage mer,0.0
+2020,Bourgogne,jardin mariage,0.0
+2020,Bourgogne,mariage palace,0.0
+2020,Bourgogne,ferme mariage ,0.0
+2020,Bourgogne,mariage chateau,0.8
+2020,Bourgogne,restaurant mariage,0.2
+2020,Bourgogne,location salle des fêtes,0.0
+2020,Centre-Val de Loire,mariage mer,0.0
+2020,Centre-Val de Loire,jardin mariage,0.0
+2020,Centre-Val de Loire,mariage chateau,0.23
+2020,Centre-Val de Loire,mariage palace,0.0
+2020,Centre-Val de Loire,ferme mariage ,0.54
+2020,Centre-Val de Loire,restaurant mariage,0.14
+2020,Centre-Val de Loire,location salle des fêtes,0.09
+2020,Champagne-Ardenne,mariage mer,0.0
+2020,Champagne-Ardenne,jardin mariage,0.0
+2020,Champagne-Ardenne,mariage palace,0.0
+2020,Champagne-Ardenne,ferme mariage ,0.0
+2020,Champagne-Ardenne,mariage chateau,0.65
+2020,Champagne-Ardenne,restaurant mariage,0.35
+2020,Champagne-Ardenne,location salle des fêtes,0.0
+2020,Corse,mariage mer,0.0
+2020,Corse,jardin mariage,0.0
+2020,Corse,mariage chateau_x,0.0
+2020,Corse,mariage palace,0.0
+2020,Corse,ferme mariage ,0.0
+2020,Corse,mariage chateau_y,0.0
+2020,Corse,restaurant mariage,0.0
+2020,Corse,location salle des fêtes,0.0
+2020,France,mariage mer,0.09
+2020,France,jardin mariage,0.12
+2020,France,mariage palace,0.01
+2020,France,ferme mariage ,0.08
+2020,France,mariage chateau,0.44
+2020,France,restaurant mariage,0.19
+2020,France,location salle des fêtes,0.07
+2020,Franche-Comté,mariage mer,0.0
+2020,Franche-Comté,jardin mariage,0.0
+2020,Franche-Comté,mariage palace,0.0
+2020,Franche-Comté,ferme mariage ,0.0
+2020,Franche-Comté,mariage chateau,1.0
+2020,Franche-Comté,restaurant mariage,0.0
+2020,Franche-Comté,location salle des fêtes,0.0
+2020,Languedoc-Roussillon,mariage mer,0.41
+2020,Languedoc-Roussillon,jardin mariage,0.0
+2020,Languedoc-Roussillon,mariage palace,0.0
+2020,Languedoc-Roussillon,ferme mariage ,0.0
+2020,Languedoc-Roussillon,mariage chateau,0.39
+2020,Languedoc-Roussillon,restaurant mariage,0.2
+2020,Languedoc-Roussillon,location salle des fêtes,0.0
+2020,Limousin,mariage mer,0.04
+2020,Limousin,jardin mariage,0.0
+2020,Limousin,mariage palace,0.0
+2020,Limousin,ferme mariage ,0.0
+2020,Limousin,mariage chateau,0.77
+2020,Limousin,restaurant mariage,0.19
+2020,Limousin,location salle des fêtes,0.0
+2020,Lorraine,mariage mer,0.0
+2020,Lorraine,jardin mariage,0.0
+2020,Lorraine,mariage palace,0.0
+2020,Lorraine,ferme mariage ,0.0
+2020,Lorraine,mariage chateau,0.62
+2020,Lorraine,restaurant mariage,0.38
+2020,Lorraine,location salle des fêtes,0.0
+2020,Basse Normandie,mariage mer,0.61
+2020,Basse Normandie,jardin mariage,0.0
+2020,Basse Normandie,mariage palace,0.0
+2020,Basse Normandie,ferme mariage ,0.0
+2020,Basse Normandie,mariage chateau,0.39
+2020,Basse Normandie,restaurant mariage,0.0
+2020,Basse Normandie,location salle des fêtes,0.0
+2020,Midi-Pyrénées,mariage mer,0.0
+2020,Midi-Pyrénées,jardin mariage,0.04
+2020,Midi-Pyrénées,mariage palace,0.0
+2020,Midi-Pyrénées,ferme mariage ,0.0
+2020,Midi-Pyrénées,mariage chateau,0.55
+2020,Midi-Pyrénées,restaurant mariage,0.41
+2020,Midi-Pyrénées,location salle des fêtes,0.0
+2020,Nord-Pas-de-Calais,mariage mer,0.19
+2020,Nord-Pas-de-Calais,jardin mariage,0.09
+2020,Nord-Pas-de-Calais,mariage palace,0.0
+2020,Nord-Pas-de-Calais,ferme mariage ,0.16
+2020,Nord-Pas-de-Calais,mariage chateau,0.41
+2020,Nord-Pas-de-Calais,restaurant mariage,0.12
+2020,Nord-Pas-de-Calais,location salle des fêtes,0.03
+2020,Pays de la Loire,mariage mer,0.26
+2020,Pays de la Loire,jardin mariage,0.11
+2020,Pays de la Loire,mariage palace,0.0
+2020,Pays de la Loire,ferme mariage ,0.0
+2020,Pays de la Loire,mariage chateau,0.39
+2020,Pays de la Loire,restaurant mariage,0.24
+2020,Pays de la Loire,location salle des fêtes,0.0
+2020,Picardie,mariage mer,0.0
+2020,Picardie,jardin mariage,0.0
+2020,Picardie,mariage palace,0.0
+2020,Picardie,ferme mariage ,0.0
+2020,Picardie,mariage chateau,0.78
+2020,Picardie,restaurant mariage,0.22
+2020,Picardie,location salle des fêtes,0.0
+2020,Poitou-Charentes,mariage mer,0.0
+2020,Poitou-Charentes,jardin mariage,0.0
+2020,Poitou-Charentes,mariage palace,0.0
+2020,Poitou-Charentes,ferme mariage ,0.0
+2020,Poitou-Charentes,mariage chateau,0.63
+2020,Poitou-Charentes,restaurant mariage,0.37
+2020,Poitou-Charentes,location salle des fêtes,0.0
+2020,Provence-Alpes-Côte d'Azur,mariage mer,0.19
+2020,Provence-Alpes-Côte d'Azur,jardin mariage,0.34
+2020,Provence-Alpes-Côte d'Azur,mariage palace,0.0
+2020,Provence-Alpes-Côte d'Azur,ferme mariage ,0.0
+2020,Provence-Alpes-Côte d'Azur,mariage chateau,0.21
+2020,Provence-Alpes-Côte d'Azur,restaurant mariage,0.26
+2020,Provence-Alpes-Côte d'Azur,location salle des fêtes,0.0
+2020,Rhône-Alpes,mariage mer,0.05
+2020,Rhône-Alpes,jardin mariage,0.06
+2020,Rhône-Alpes,mariage palace,0.0
+2020,Rhône-Alpes,ferme mariage ,0.06
+2020,Rhône-Alpes,mariage chateau,0.57
+2020,Rhône-Alpes,restaurant mariage,0.21
+2020,Rhône-Alpes,location salle des fêtes,0.06
+2020,Rhône-Alpes,mariage mer,0.0
+2020,Rhône-Alpes,jardin mariage,0.0
+2020,Rhône-Alpes,mariage palace,0.0
+2020,Rhône-Alpes,ferme mariage ,0.0
+2020,Rhône-Alpes,mariage chateau,0.58
+2020,Rhône-Alpes,restaurant mariage,0.42
+2020,Rhône-Alpes,location salle des fêtes,0.0
+2020,Île-de-France,mariage mer,0.09
+2020,Île-de-France,jardin mariage,0.08
+2020,Île-de-France,mariage palace,0.12
+2020,Île-de-France,ferme mariage ,0.09
+2020,Île-de-France,mariage chateau,0.38
+2020,Île-de-France,restaurant mariage,0.2
+2020,Île-de-France,location salle des fêtes,0.04

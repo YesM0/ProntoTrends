@@ -1,0 +1,180 @@
+Year,ticket_geo_region_name,Category_type,Distribution
+2018,Abruzzo,Energy efficiency,0.80
+2018,Abruzzo,Security,0.20
+2018,Abruzzo,Smart home,0.01
+2018,Basilicata,Energy efficiency,0.84
+2018,Basilicata,Security,0.16
+2018,Basilicata,Smart home,0.00
+2018,Calabria,Energy efficiency,0.88
+2018,Calabria,Security,0.12
+2018,Calabria,Smart home,0.00
+2018,Campania,Energy efficiency,0.85
+2018,Campania,Security,0.15
+2018,Campania,Smart home,0.01
+2018,Emilia-Romagna,Energy efficiency,0.76
+2018,Emilia-Romagna,Security,0.22
+2018,Emilia-Romagna,Smart home,0.01
+2018,Friuli Venezia Giulia,Energy efficiency,0.77
+2018,Friuli Venezia Giulia,Security,0.22
+2018,Friuli Venezia Giulia,Smart home,0.01
+2018,Lazio,Energy efficiency,0.84
+2018,Lazio,Security,0.15
+2018,Lazio,Smart home,0.01
+2018,Liguria,Energy efficiency,0.85
+2018,Liguria,Security,0.15
+2018,Liguria,Smart home,0.00
+2018,Lombardia,Energy efficiency,0.76
+2018,Lombardia,Security,0.22
+2018,Lombardia,Smart home,0.01
+2018,Marche,Energy efficiency,0.81
+2018,Marche,Security,0.19
+2018,Marche,Smart home,0.01
+2018,Molise,Energy efficiency,0.90
+2018,Molise,Security,0.09
+2018,Molise,Smart home,0.01
+2018,Piemonte,Energy efficiency,0.78
+2018,Piemonte,Security,0.21
+2018,Piemonte,Smart home,0.01
+2018,Puglia,Energy efficiency,0.85
+2018,Puglia,Security,0.15
+2018,Puglia,Smart home,0.01
+2018,Sardegna,Energy efficiency,0.86
+2018,Sardegna,Security,0.12
+2018,Sardegna,Smart home,0.01
+2018,Sicilia,Energy efficiency,0.88
+2018,Sicilia,Security,0.12
+2018,Sicilia,Smart home,0.00
+2018,Toscana,Energy efficiency,0.78
+2018,Toscana,Security,0.21
+2018,Toscana,Smart home,0.00
+2018,Trentino-Alto Adige,Energy efficiency,0.78
+2018,Trentino-Alto Adige,Security,0.22
+2018,Trentino-Alto Adige,Smart home,0.01
+2018,Umbria,Energy efficiency,0.76
+2018,Umbria,Security,0.23
+2018,Umbria,Smart home,0.01
+2018,Valle d'Aosta,Energy efficiency,0.88
+2018,Valle d'Aosta,Security,0.12
+2018,Veneto,Energy efficiency,0.84
+2018,Veneto,Security,0.15
+2018,Veneto,Smart home,0.01
+2019,Abruzzo,Energy efficiency,0.88
+2019,Abruzzo,Security,0.11
+2019,Abruzzo,Smart home,0.01
+2019,Basilicata,Energy efficiency,0.88
+2019,Basilicata,Security,0.11
+2019,Basilicata,Smart home,0.01
+2019,Calabria,Energy efficiency,0.90
+2019,Calabria,Security,0.09
+2019,Calabria,Smart home,0.01
+2019,Campania,Energy efficiency,0.83
+2019,Campania,Security,0.16
+2019,Campania,Smart home,0.01
+2019,Emilia-Romagna,Energy efficiency,0.78
+2019,Emilia-Romagna,Security,0.20
+2019,Emilia-Romagna,Smart home,0.02
+2019,Friuli Venezia Giulia,Energy efficiency,0.84
+2019,Friuli Venezia Giulia,Security,0.15
+2019,Friuli Venezia Giulia,Smart home,0.01
+2019,Lazio,Energy efficiency,0.79
+2019,Lazio,Security,0.19
+2019,Lazio,Smart home,0.02
+2019,Liguria,Energy efficiency,0.85
+2019,Liguria,Security,0.13
+2019,Liguria,Smart home,0.01
+2019,Lombardia,Energy efficiency,0.80
+2019,Lombardia,Security,0.18
+2019,Lombardia,Smart home,0.02
+2019,Marche,Energy efficiency,0.82
+2019,Marche,Security,0.17
+2019,Marche,Smart home,0.02
+2019,Molise,Energy efficiency,0.84
+2019,Molise,Security,0.15
+2019,Molise,Smart home,0.01
+2019,Piemonte,Energy efficiency,0.82
+2019,Piemonte,Security,0.17
+2019,Piemonte,Smart home,0.02
+2019,Puglia,Energy efficiency,0.85
+2019,Puglia,Security,0.14
+2019,Puglia,Smart home,0.01
+2019,Sardegna,Energy efficiency,0.87
+2019,Sardegna,Security,0.11
+2019,Sardegna,Smart home,0.02
+2019,Sicilia,Energy efficiency,0.87
+2019,Sicilia,Security,0.11
+2019,Sicilia,Smart home,0.01
+2019,Toscana,Energy efficiency,0.80
+2019,Toscana,Security,0.19
+2019,Toscana,Smart home,0.01
+2019,Trentino-Alto Adige,Energy efficiency,0.84
+2019,Trentino-Alto Adige,Security,0.16
+2019,Trentino-Alto Adige,Smart home,0.00
+2019,Umbria,Energy efficiency,0.81
+2019,Umbria,Security,0.18
+2019,Umbria,Smart home,0.01
+2019,Valle d'Aosta,Energy efficiency,0.92
+2019,Valle d'Aosta,Security,0.07
+2019,Valle d'Aosta,Smart home,0.00
+2019,Veneto,Energy efficiency,0.83
+2019,Veneto,Security,0.15
+2019,Veneto,Smart home,0.02
+2020,Abruzzo,Energy efficiency,0.90
+2020,Abruzzo,Security,0.09
+2020,Abruzzo,Smart home,0.01
+2020,Basilicata,Energy efficiency,0.86
+2020,Basilicata,Security,0.12
+2020,Basilicata,Smart home,0.02
+2020,Calabria,Energy efficiency,0.93
+2020,Calabria,Security,0.06
+2020,Calabria,Smart home,0.01
+2020,Campania,Energy efficiency,0.91
+2020,Campania,Security,0.09
+2020,Campania,Smart home,0.01
+2020,Emilia-Romagna,Energy efficiency,0.89
+2020,Emilia-Romagna,Security,0.10
+2020,Emilia-Romagna,Smart home,0.02
+2020,Friuli Venezia Giulia,Energy efficiency,0.88
+2020,Friuli Venezia Giulia,Security,0.11
+2020,Friuli Venezia Giulia,Smart home,0.01
+2020,Lazio,Energy efficiency,0.88
+2020,Lazio,Security,0.11
+2020,Lazio,Smart home,0.01
+2020,Liguria,Energy efficiency,0.90
+2020,Liguria,Security,0.09
+2020,Liguria,Smart home,0.01
+2020,Lombardia,Energy efficiency,0.87
+2020,Lombardia,Security,0.11
+2020,Lombardia,Smart home,0.02
+2020,Marche,Energy efficiency,0.89
+2020,Marche,Security,0.10
+2020,Marche,Smart home,0.01
+2020,Molise,Energy efficiency,0.93
+2020,Molise,Security,0.06
+2020,Molise,Smart home,0.01
+2020,Piemonte,Energy efficiency,0.89
+2020,Piemonte,Security,0.09
+2020,Piemonte,Smart home,0.01
+2020,Puglia,Energy efficiency,0.89
+2020,Puglia,Security,0.10
+2020,Puglia,Smart home,0.01
+2020,Sardegna,Energy efficiency,0.90
+2020,Sardegna,Security,0.08
+2020,Sardegna,Smart home,0.01
+2020,Sicilia,Energy efficiency,0.92
+2020,Sicilia,Security,0.07
+2020,Sicilia,Smart home,0.01
+2020,Toscana,Energy efficiency,0.89
+2020,Toscana,Security,0.10
+2020,Toscana,Smart home,0.01
+2020,Trentino-Alto Adige,Energy efficiency,0.92
+2020,Trentino-Alto Adige,Security,0.07
+2020,Trentino-Alto Adige,Smart home,0.01
+2020,Umbria,Energy efficiency,0.91
+2020,Umbria,Security,0.08
+2020,Umbria,Smart home,0.01
+2020,Valle d'Aosta,Energy efficiency,0.95
+2020,Valle d'Aosta,Security,0.05
+2020,Veneto,Energy efficiency,0.90
+2020,Veneto,Security,0.08
+2020,Veneto,Smart home,0.01
+,,,#DIV/0!

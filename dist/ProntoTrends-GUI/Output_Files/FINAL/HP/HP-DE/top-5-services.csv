@@ -1,0 +1,16 @@
+ticket_geo_region_name,ticket_taxonomy_tag_name,year,Rank,Max,Min,Demand_factor_max_to_min
+Deutschland,Klimaanlage einbauen,2018,1,6,11,21.3
+Deutschland,Umzug,2018,2,1,11,3.0
+Deutschland,Gebäudereinigung und -wartung,2018,3,7,4,1.35
+Deutschland,Solaranlagen installieren oder austauschen,2018,4,0,4,1.94
+Deutschland,Personal- und Privattrainer,2018,5,5,11,1.31
+Deutschland,Klimaanlage einbauen,2019,1,5,11,20.4
+Deutschland,Umzug,2019,2,1,11,2.7
+Deutschland,Solaranlagen installieren oder austauschen,2019,3,9,5,1.79
+Deutschland,Gebäudereinigung und -wartung,2019,4,2,10,1.31
+Deutschland,Personal- und Privattrainer,2019,5,8,5,1.84
+Deutschland,Umzug,2020,1,1,3,4.1
+Deutschland,Klimaanlage einbauen,2020,2,4,2,3.8
+Deutschland,Solaranlagen installieren oder austauschen,2020,3,3,2,1.37
+Deutschland,Personal- und Privattrainer,2020,4,0,4,3.4
+Deutschland,Gebäudereinigung und -wartung,2020,5,3,1,1.14

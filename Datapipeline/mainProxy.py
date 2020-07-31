@@ -8,13 +8,13 @@ import eel
 
 if __name__ == '__main__':
     sys.path.extend(['../', './'])
+    from matplotlib import pyplot as plt
 import time
 from queue import Queue
 from threading import Thread, Lock
 from typing import List, Tuple, Union, Dict, Callable
 
 import pandas as pd
-from matplotlib import pyplot as plt
 from pytrends.request import TrendReq
 
 from utils.custom_types import *

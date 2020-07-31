@@ -1,0 +1,516 @@
+{
+  "Abend- oder Ballkleider mieten": {
+    "tag_id": 17,
+    "kwds": [
+      "Brautkleid Verleih",
+      "Brautkleid ausleihen",
+      "Hochzeitskleid leihen",
+      "Hochzeitskleid mieten"
+    ],
+    "best_kwd": ""
+  },
+  "Konditordienstleistungen f\u00fcr Feiern und Events": {
+    "tag_id": 50,
+    "kwds": [
+      "Hochzeitstorte",
+      "Hochzeitstorte bestellen",
+      "Vegane Hochzeitstorte",
+      "Hochzeitskuchen",
+      "Hochzeitstorten in",
+      "Hochzeitstorte online bestellen",
+      "Hochzeitstorte online"
+    ],
+    "best_kwd": "Hochzeitstorte"
+  },
+  "Hochzeitstorten bestellen": {
+    "tag_id": 51,
+    "kwds": [
+      "Hochzeits- und Geburtstagstorten",
+      "Hochzeitstorte",
+      "Hochzeitstorte bestellen",
+      "Vegane Hochzeitstorte",
+      "Hochzeitskuchen",
+      "Hochzeitstorten in",
+      "Hochzeitstorte online bestellen",
+      "Hochzeitstorte online"
+    ],
+    "best_kwd": "Hochzeitstorte"
+  },
+  "Catering f\u00fcr Hochzeiten": {
+    "tag_id": 52,
+    "kwds": [
+      "Hochzeitscatering"
+    ],
+    "best_kwd": "Hochzeitscatering"
+  },
+  "Portr\u00e4tfotos f\u00fcr Privatpersonen": {
+    "tag_id": 65,
+    "kwds": [
+      "hochzeitsfotograf",
+      "Hochzeitsfotograf",
+      "Fotograf Hochzeit",
+      "Hochzeitsfotografin",
+      "Hochzeitsbilder",
+      "Hochzeitsfotos",
+      "Hochzeitstag Bilder",
+      "Fotograf f\u00fcr Hochzeit",
+      "Bilder Zur Hochzeit",
+      "Hochzeit Fotografieren",
+      "Hochzeitsshooting"
+    ],
+    "best_kwd": "Hochzeitsfotos"
+  },
+  "Hochzeitsfotos": {
+    "tag_id": 67,
+    "kwds": [
+      "Hochzeitsfotografen",
+      "hochzeitsfotograf",
+      "Hochzeitsfotograf",
+      "Fotograf Hochzeit",
+      "Hochzeitsfotografin",
+      "Hochzeitsbilder",
+      "Hochzeitsfotos",
+      "Hochzeitstag Bilder",
+      "Fotograf f\u00fcr Hochzeit",
+      "Bilder Zur Hochzeit",
+      "Hochzeit Fotografieren",
+      "Hochzeitsshooting"
+    ],
+    "best_kwd": "Hochzeitsfotos"
+  },
+  "Kosmetikerin": {
+    "tag_id": 77,
+    "kwds": [
+      "Brautmakeup",
+      "Braut Make Up",
+      "Make Up Hochzeit",
+      "Make Up Braut",
+      "Augen Make Up Hochzeit",
+      "Frisur und Make Up Hochzeit",
+      "Make Up Hochzeit braune Augen",
+      "Augen Make Up Braut",
+      "Haare und Make Up Hochzeit",
+      "Dezentes Make Up Hochzeit",
+      "Airbrush Make Up Hochzeit",
+      "Haare Make Up Hochzeit",
+      "Wasserfestes Make Up Hochzeit",
+      "Make Up Hochzeit Smokey Eyes",
+      "Make Up Hochzeit blaue Augen",
+      "Haar und Make Up Hochzeit",
+      "Make Up Hochzeit gr\u00fcne Augen",
+      "Make Up Braut blond",
+      "Langanhaltendes Make Up Hochzeit"
+    ],
+    "best_kwd": "Braut Make Up"
+  },
+  "Hairstyling f\u00fcr Br\u00e4ute und Hochzeiten": {
+    "tag_id": 85,
+    "kwds": [
+      "Hochzeitsfriseur"
+    ],
+    "best_kwd": ""
+  },
+  "Make Up Styling f\u00fcr die Braut": {
+    "tag_id": 86,
+    "kwds": [
+      "Braut Make Up",
+      "Brautmakeup",
+      "Make Up Hochzeit",
+      "Make Up Braut",
+      "Augen Make Up Hochzeit",
+      "Frisur und Make Up Hochzeit",
+      "Make Up Hochzeit braune Augen",
+      "Augen Make Up Braut",
+      "Haare und Make Up Hochzeit",
+      "Dezentes Make Up Hochzeit",
+      "Airbrush Make Up Hochzeit",
+      "Haare Make Up Hochzeit",
+      "Wasserfestes Make Up Hochzeit",
+      "Make Up Hochzeit Smokey Eyes",
+      "Make Up Hochzeit blaue Augen",
+      "Haar und Make Up Hochzeit",
+      "Make Up Hochzeit gr\u00fcne Augen",
+      "Make Up Braut blond",
+      "Langanhaltendes Make Up Hochzeit"
+    ],
+    "best_kwd": "Braut Make Up"
+  },
+  "Make Up Styling": {
+    "tag_id": 87,
+    "kwds": [
+      "Brautmakeup",
+      "Braut Make Up",
+      "Make Up Hochzeit",
+      "Make Up Braut",
+      "Augen Make Up Hochzeit",
+      "Frisur und Make Up Hochzeit",
+      "Make Up Hochzeit braune Augen",
+      "Augen Make Up Braut",
+      "Haare und Make Up Hochzeit",
+      "Dezentes Make Up Hochzeit",
+      "Airbrush Make Up Hochzeit",
+      "Haare Make Up Hochzeit",
+      "Wasserfestes Make Up Hochzeit",
+      "Make Up Hochzeit Smokey Eyes",
+      "Make Up Hochzeit blaue Augen",
+      "Haar und Make Up Hochzeit",
+      "Make Up Hochzeit gr\u00fcne Augen",
+      "Make Up Braut blond",
+      "Langanhaltendes Make Up Hochzeit"
+    ],
+    "best_kwd": "Braut Make Up"
+  },
+  "\u00c4nderungsschneiderei": {
+    "tag_id": 134,
+    "kwds": [
+      "Brautkleid schneidern lassen",
+      "Brautkleid Designer",
+      "Brautkleid n\u00e4hen",
+      "Brautkleid Schneiderei",
+      "Hochzeitskleid n\u00e4hen",
+      "Brautkleid n\u00e4hen lassen",
+      "Brautkleid umschneidern",
+      "Brautkleid \u00c4ndern lassen",
+      "Hochzeitskleid schneidern lassen",
+      "Brautkleid umn\u00e4hen"
+    ],
+    "best_kwd": ""
+  },
+  "Hochzeitsdekoration und -ausstattung mieten": {
+    "tag_id": 311,
+    "kwds": [
+      "Verleih Hochzeitsdekoration und -ausstattung",
+      "Hochzeitsfloristik",
+      "Blumen Hochzeit",
+      "Hochzeitsblumen",
+      "Blumendeko Hochzeit",
+      "Brautstrau\u00df Vintage",
+      "Blumenkranz Hochzeit",
+      "Brautstrau\u00df Standesamt",
+      "Blumenschmuck Hochzeit",
+      "Blumenstrau\u00df Hochzeit",
+      "Blumengesteck Hochzeit"
+    ],
+    "best_kwd": "Blumen Hochzeit"
+  },
+  "DJ f\u00fcr Events buchen": {
+    "tag_id": 317,
+    "kwds": [
+      "Hochzeits Dj",
+      "Dj Hochzeit",
+      "Hochzeitsdj",
+      "Hochzeitsmusik",
+      "Musik Hochzeit",
+      "Musik f\u00fcr Hochzeit",
+      "Musik Zur Hochzeit",
+      "Mobile Hochzeits Djs",
+      "Dj buchen Hochzeit",
+      "Dj Zur Hochzeit"
+    ],
+    "best_kwd": "Musik Hochzeit"
+  },
+  "Karaoke DJ": {
+    "tag_id": 318,
+    "kwds": [
+      "Hochzeits Dj",
+      "Dj Hochzeit",
+      "Hochzeitsdj",
+      "Hochzeitsmusik",
+      "Musik Hochzeit",
+      "Musik f\u00fcr Hochzeit",
+      "Musik Zur Hochzeit",
+      "Mobile Hochzeits Djs",
+      "Dj buchen Hochzeit",
+      "Dj Zur Hochzeit"
+    ],
+    "best_kwd": "Musik Hochzeit"
+  },
+  "Hochzeitsplaner": {
+    "tag_id": 325,
+    "kwds": [
+      "Hochzeitsplaner",
+      "Hochzeitsdeko",
+      "Hochzeitsdekorateur",
+      "Hochzeitsausstatter",
+      "Hochzeitsdeko mieten",
+      "Hochzeitsdekoration",
+      "Deko Hochzeit",
+      "Hochzeitsdeko Verleih",
+      "Dekoration Hochzeit",
+      "Hochzeit Dekoration",
+      "Hochzeitsdekoration mieten",
+      "Dekoservice Hochzeit",
+      "Tischdeko Hochzeit"
+    ],
+    "best_kwd": "Hochzeitsdeko"
+  },
+  "Tortendesigner": {
+    "tag_id": 330,
+    "kwds": [
+      "Hochzeitstorte",
+      "Hochzeitstorte bestellen",
+      "Vegane Hochzeitstorte",
+      "Hochzeitskuchen",
+      "Hochzeitstorten in",
+      "Hochzeitstorte online bestellen",
+      "Hochzeitstorte online"
+    ],
+    "best_kwd": "Hochzeitstorte"
+  },
+  "Musik f\u00fcr Hochzeiten buchen": {
+    "tag_id": 337,
+    "kwds": [
+      "Musik f\u00fcr Hochzeiten",
+      "Hochzeits Dj",
+      "Dj Hochzeit",
+      "Hochzeitsdj",
+      "Hochzeitsmusik",
+      "Musik Hochzeit",
+      "Musik f\u00fcr Hochzeit",
+      "Musik Zur Hochzeit",
+      "Mobile Hochzeits Djs",
+      "Dj buchen Hochzeit",
+      "Dj Zur Hochzeit"
+    ],
+    "best_kwd": "Musik Hochzeit"
+  },
+  "Unterhaltung f\u00fcr Events und Feiern": {
+    "tag_id": 338,
+    "kwds": [
+      "Feuershow f\u00fcr Hochzeit",
+      "Hochzeitsfeuershow",
+      "Hochzeit Feuershow",
+      "Feuerk\u00fcnstler Hochzeit",
+      "Feuerspucker Hochzeit",
+      "Feuerschlucker Hochzeit"
+    ],
+    "best_kwd": ""
+  },
+  "Geburtstagsanimation und -unterhaltung": {
+    "tag_id": 339,
+    "kwds": [
+      "Feuershow f\u00fcr Hochzeit",
+      "Hochzeitsfeuershow",
+      "Hochzeit Feuershow",
+      "Feuerk\u00fcnstler Hochzeit",
+      "Feuerspucker Hochzeit",
+      "Feuerschlucker Hochzeit"
+    ],
+    "best_kwd": ""
+  },
+  "Clowns und Jongleure": {
+    "tag_id": 343,
+    "kwds": [
+      "Feuershow f\u00fcr Hochzeit",
+      "Hochzeitsfeuershow",
+      "Hochzeit Feuershow",
+      "Feuerk\u00fcnstler Hochzeit",
+      "Feuerspucker Hochzeit",
+      "Feuerschlucker Hochzeit"
+    ],
+    "best_kwd": ""
+  },
+  "Unterhaltung f\u00fcr Hochzeiten": {
+    "tag_id": 344,
+    "kwds": [
+      "Animation f\u00fcr Hochzeiten"
+    ],
+    "best_kwd": ""
+  },
+  "Magier oder Zauberer Auftritt": {
+    "tag_id": 346,
+    "kwds": [
+      "Zauberer f\u00fcr Hochzeit"
+    ],
+    "best_kwd": ""
+  },
+  "Hochzeitslocation mieten": {
+    "tag_id": 369,
+    "kwds": [
+      "Hochzeitslocations",
+      "Hochzeitsdeko",
+      "Hochzeitsdekorateur",
+      "Hochzeitsausstatter",
+      "Hochzeitsdeko mieten",
+      "Hochzeitsdekoration",
+      "Deko Hochzeit",
+      "Hochzeitsdeko Verleih",
+      "Dekoration Hochzeit",
+      "Hochzeit Dekoration",
+      "Hochzeitsdekoration mieten",
+      "Dekoservice Hochzeit",
+      "Tischdeko Hochzeit"
+    ],
+    "best_kwd": "Hochzeitsdeko"
+  },
+  "Druckleistungen": {
+    "tag_id": 404,
+    "kwds": [
+      "Hochzeitskarten drucken lassen"
+    ],
+    "best_kwd": ""
+  },
+  "Paartanz lernen": {
+    "tag_id": 434,
+    "kwds": [
+      "Hochzeitstanzkurs und Hochzeitstanz lernen",
+      "Hochzeitstanzkurs",
+      "Hochzeitstanz lernen",
+      "Tanzkurs Hochzeit",
+      "Hochzeit Tanzkurs",
+      "Tanzschule Hochzeit",
+      "Tanzkurs f\u00fcr Hochzeit",
+      "Tanzschule Hochzeitstanz"
+    ],
+    "best_kwd": "Hochzeit Tanzkurs"
+  },
+  "Schmuck anfertigen": {
+    "tag_id": 480,
+    "kwds": [
+      "Hochzeitsringe"
+    ],
+    "best_kwd": "Hochzeitsringe"
+  },
+  "Kindergruppen": {
+    "tag_id": 506,
+    "kwds": [
+      "Zauberer f\u00fcr Hochzeit"
+    ],
+    "best_kwd": ""
+  },
+  "Schneider f\u00fcr die Braut": {
+    "tag_id": 514,
+    "kwds": [
+      "Brautkleid schneidern lassen",
+      "Brautkleid Designer",
+      "Brautkleid n\u00e4hen",
+      "Brautkleid Schneiderei",
+      "Hochzeitskleid n\u00e4hen",
+      "Brautkleid n\u00e4hen lassen",
+      "Brautkleid umschneidern",
+      "Brautkleid \u00c4ndern lassen",
+      "Hochzeitskleid schneidern lassen",
+      "Brautkleid umn\u00e4hen"
+    ],
+    "best_kwd": ""
+  },
+  "Stickarbeiten": {
+    "tag_id": 515,
+    "kwds": [
+      "Brautkleid schneidern lassen",
+      "Brautkleid Designer",
+      "Brautkleid n\u00e4hen",
+      "Brautkleid Schneiderei",
+      "Hochzeitskleid n\u00e4hen",
+      "Brautkleid n\u00e4hen lassen",
+      "Brautkleid umschneidern",
+      "Brautkleid \u00c4ndern lassen",
+      "Hochzeitskleid schneidern lassen",
+      "Brautkleid umn\u00e4hen"
+    ],
+    "best_kwd": ""
+  },
+  "Ma\u00dfanzug anfertigen": {
+    "tag_id": 516,
+    "kwds": [
+      "Brautkleid schneidern lassen",
+      "Brautkleid Designer",
+      "Brautkleid n\u00e4hen",
+      "Brautkleid Schneiderei",
+      "Hochzeitskleid n\u00e4hen",
+      "Brautkleid n\u00e4hen lassen",
+      "Brautkleid umschneidern",
+      "Brautkleid \u00c4ndern lassen",
+      "Hochzeitskleid schneidern lassen",
+      "Brautkleid umn\u00e4hen"
+    ],
+    "best_kwd": ""
+  },
+  "Geburtstagstorten bestellen": {
+    "tag_id": 584,
+    "kwds": [
+      "Hochzeits- und Geburtstagstorten",
+      "Hochzeitstorte",
+      "Hochzeitstorte bestellen",
+      "Vegane Hochzeitstorte",
+      "Hochzeitskuchen",
+      "Hochzeitstorten in",
+      "Hochzeitstorte online bestellen",
+      "Hochzeitstorte online"
+    ],
+    "best_kwd": "Hochzeitstorte"
+  },
+  "Business- und Mitarbeiterportr\u00e4ts": {
+    "tag_id": 736,
+    "kwds": [
+      "hochzeitsfotograf",
+      "Hochzeitsfotograf",
+      "Fotograf Hochzeit",
+      "Hochzeitsfotografin",
+      "Hochzeitsbilder",
+      "Hochzeitsfotos",
+      "Hochzeitstag Bilder",
+      "Fotograf f\u00fcr Hochzeit",
+      "Bilder Zur Hochzeit",
+      "Hochzeit Fotografieren",
+      "Hochzeitsshooting"
+    ],
+    "best_kwd": "Hochzeitsfotos"
+  },
+  "Passfotos": {
+    "tag_id": 737,
+    "kwds": [
+      "hochzeitsfotograf",
+      "Hochzeitsfotograf",
+      "Fotograf Hochzeit",
+      "Hochzeitsfotografin",
+      "Hochzeitsbilder",
+      "Hochzeitsfotos",
+      "Hochzeitstag Bilder",
+      "Fotograf f\u00fcr Hochzeit",
+      "Bilder Zur Hochzeit",
+      "Hochzeit Fotografieren",
+      "Hochzeitsshooting"
+    ],
+    "best_kwd": "Hochzeitsfotos"
+  },
+  "Paar Fotoshooting": {
+    "tag_id": 743,
+    "kwds": [
+      "Hochzeitsfotografen",
+      "hochzeitsfotograf",
+      "Hochzeitsfotograf",
+      "Fotograf Hochzeit",
+      "Hochzeitsfotografin",
+      "Hochzeitsbilder",
+      "Hochzeitsfotos",
+      "Hochzeitstag Bilder",
+      "Fotograf f\u00fcr Hochzeit",
+      "Bilder Zur Hochzeit",
+      "Hochzeit Fotografieren",
+      "Hochzeitsshooting"
+    ],
+    "best_kwd": "Hochzeitsfotos"
+  },
+  "Redner buchen": {
+    "tag_id": 789,
+    "kwds": [
+      "Freie Redner und freie Trauung"
+    ],
+    "best_kwd": ""
+  },
+  "Stepptanz lernen": {
+    "tag_id": 840,
+    "kwds": [
+      "Hochzeitstanzkurs und Hochzeitstanz lernen",
+      "Hochzeitstanzkurs",
+      "Hochzeitstanz lernen",
+      "Tanzkurs Hochzeit",
+      "Hochzeit Tanzkurs",
+      "Tanzschule Hochzeit",
+      "Tanzkurs f\u00fcr Hochzeit",
+      "Tanzschule Hochzeitstanz"
+    ],
+    "best_kwd": "Hochzeit Tanzkurs"
+  }
+}

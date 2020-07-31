@@ -1,0 +1,16 @@
+ticket_geo_region_name,ticket_taxonomy_tag_name,year,Rank,Max,Min,Demand_factor_max_to_min
+Italia,Fotografo di matrimonio,2018.0,1,0.0,11.0,4.04
+Italia,Animazione per matrimonio,2018.0,2,2.0,11.0,2.06
+Italia,Video matrimonio,2018.0,3,3.0,1.0,3.27
+Italia,Fiorista matrimonio,2018.0,4,8.0,11.0,3.25
+Italia,Trucco sposa,2018.0,5,0.0,11.0,3.1
+Italia,Parrucchiere matrimonio,2019.0,1,6.0,11.0,3.5
+Italia,Fotografo di matrimonio,2019.0,2,4.0,11.0,5.49
+Italia,Catering matrimoni,2019.0,3,4.0,11.0,3.26
+Italia,Dj per matrimoni,2019.0,4,1.0,11.0,4.4
+Italia,Fiorista matrimonio,2019.0,5,1.0,11.0,4.16
+Italia,Video matrimonio,2020.0,1,0.0,3.0,8.86
+Italia,Abito da sposa,2020.0,2,0.0,4.0,5.33
+Italia,Torta nuziale,2020.0,3,1.0,4.0,14.0
+Italia,Parrucchiere matrimonio,2020.0,4,1.0,4.0,10.44
+Italia,Trucco sposa,2020.0,5,0.0,4.0,12.25

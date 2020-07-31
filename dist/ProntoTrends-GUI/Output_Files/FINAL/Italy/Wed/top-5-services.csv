@@ -1,0 +1,16 @@
+ticket_geo_region_name,ticket_taxonomy_tag_name,year,Rank,Max,Min,Demand_factor_max_to_min
+Italia,Fotografo di matrimonio,2018,1,0,11,4.04
+Italia,Affitto location matrimonio,2018,2,8,2,3.12
+Italia,Dj per matrimoni,2018,3,6,11,2.83
+Italia,Wedding planner,2018,4,0,11,3.54
+Italia,Fiorista matrimonio,2018,5,8,11,3.25
+Italia,Affitto location matrimonio,2019,1,8,11,3.52
+Italia,Wedding planner,2019,2,8,11,5.06
+Italia,Dj per matrimoni,2019,3,1,11,4.4
+Italia,Catering matrimoni,2019,4,4,11,3.26
+Italia,Trucco sposa,2019,5,8,11,3.54
+Italia,Affitto location matrimonio,2020,1,0,4,5.23
+Italia,Fotografo di matrimonio,2020,2,0,3,4.33
+Italia,Wedding planner,2020,3,0,2,3.09
+Italia,Trucco sposa,2020,4,0,4,12.25
+Italia,Fiorista matrimonio,2020,5,0,4,5.68

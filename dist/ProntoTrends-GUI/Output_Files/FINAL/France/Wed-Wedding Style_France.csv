@@ -1,0 +1,766 @@
+Year,ticket_geo_region_name,Style_type,Distribution
+2018,Alsace,mariage nature ,0.0
+2018,Alsace,mariage romantique ,0.0
+2018,Alsace,mariage original ,0.32
+2018,Alsace,mariage traditionnel ,0.0
+2018,Alsace,mariage chic ,0.27
+2018,Alsace,mariage élégant ,0.0
+2018,Alsace,mariage bohème ,0.0
+2018,Alsace,mariage champêtre ,0.0
+2018,Alsace,mariage glamour ,0.0
+2018,Alsace,mariage vintage,0.14
+2018,Alsace,mariage plage ,0.0
+2018,Aquitaine,mariage nature ,0.05
+2018,Aquitaine,mariage romantique ,0.05
+2018,Aquitaine,mariage original ,0.23
+2018,Aquitaine,mariage traditionnel ,0.0
+2018,Aquitaine,mariage chic ,0.11
+2018,Aquitaine,mariage élégant ,0.0
+2018,Aquitaine,mariage bohème ,0.07
+2018,Aquitaine,mariage champêtre ,0.05
+2018,Aquitaine,mariage glamour ,0.0
+2018,Aquitaine,mariage vintage,0.04
+2018,Aquitaine,mariage plage ,0.05
+2018,Auvergne,mariage nature ,0.0
+2018,Auvergne,mariage romantique ,0.0
+2018,Auvergne,mariage original ,0.32
+2018,Auvergne,mariage traditionnel ,0.0
+2018,Auvergne,mariage chic ,0.34
+2018,Auvergne,mariage élégant ,0.0
+2018,Auvergne,mariage bohème ,0.0
+2018,Auvergne,mariage champêtre ,0.0
+2018,Auvergne,mariage glamour ,0.0
+2018,Auvergne,mariage vintage,0.0
+2018,Auvergne,mariage plage ,0.0
+2018,Bretagne,mariage nature ,0.06
+2018,Bretagne,mariage romantique ,0.0
+2018,Bretagne,mariage original ,0.19
+2018,Bretagne,mariage traditionnel ,0.0
+2018,Bretagne,mariage chic ,0.26
+2018,Bretagne,mariage élégant ,0.0
+2018,Bretagne,mariage bohème ,0.05
+2018,Bretagne,mariage champêtre ,0.04
+2018,Bretagne,mariage glamour ,0.0
+2018,Bretagne,mariage vintage,0.09
+2018,Bretagne,mariage plage ,0.05
+2018,Bourgogne,mariage nature ,0.0
+2018,Bourgogne,mariage romantique ,0.0
+2018,Bourgogne,mariage original ,0.24
+2018,Bourgogne,mariage traditionnel ,0.0
+2018,Bourgogne,mariage chic ,0.38
+2018,Bourgogne,mariage élégant ,0.0
+2018,Bourgogne,mariage bohème ,0.0
+2018,Bourgogne,mariage champêtre ,0.0
+2018,Bourgogne,mariage glamour ,0.0
+2018,Bourgogne,mariage vintage,0.0
+2018,Bourgogne,mariage plage ,0.0
+2018,Centre-Val de Loire,mariage nature ,0.0
+2018,Centre-Val de Loire,mariage romantique ,0.0
+2018,Centre-Val de Loire,mariage original ,0.19
+2018,Centre-Val de Loire,mariage traditionnel ,0.0
+2018,Centre-Val de Loire,mariage chic ,0.24
+2018,Centre-Val de Loire,mariage élégant ,0.0
+2018,Centre-Val de Loire,mariage bohème ,0.07
+2018,Centre-Val de Loire,mariage champêtre ,0.11
+2018,Centre-Val de Loire,mariage glamour ,0.0
+2018,Centre-Val de Loire,mariage vintage,0.06
+2018,Centre-Val de Loire,mariage plage ,0.0
+2018,Champagne-Ardenne,mariage nature ,0.0
+2018,Champagne-Ardenne,mariage romantique ,0.0
+2018,Champagne-Ardenne,mariage original ,0.31
+2018,Champagne-Ardenne,mariage traditionnel ,0.0
+2018,Champagne-Ardenne,mariage chic ,0.4
+2018,Champagne-Ardenne,mariage élégant ,0.0
+2018,Champagne-Ardenne,mariage bohème ,0.0
+2018,Champagne-Ardenne,mariage champêtre ,0.0
+2018,Champagne-Ardenne,mariage glamour ,0.0
+2018,Champagne-Ardenne,mariage vintage,0.0
+2018,Champagne-Ardenne,mariage plage ,0.0
+2018,Corse,mariage chic _x,0.0
+2018,Corse,mariage nature ,0.0
+2018,Corse,mariage romantique ,0.0
+2018,Corse,mariage original ,0.0
+2018,Corse,mariage traditionnel ,0.0
+2018,Corse,mariage chic _y,0.0
+2018,Corse,mariage élégant ,0.0
+2018,Corse,mariage bohème ,0.0
+2018,Corse,mariage champêtre ,0.0
+2018,Corse,mariage glamour ,0.0
+2018,Corse,mariage chic ,0.0
+2018,Corse,mariage vintage,0.0
+2018,Corse,mariage plage ,0.0
+2018,France,mariage nature ,0.04
+2018,France,mariage romantique ,0.05
+2018,France,mariage original ,0.18
+2018,France,mariage traditionnel ,0.02
+2018,France,mariage chic ,0.25
+2018,France,mariage élégant ,0.0
+2018,France,mariage bohème ,0.04
+2018,France,mariage champêtre ,0.03
+2018,France,mariage glamour ,0.01
+2018,France,mariage vintage,0.06
+2018,France,mariage plage ,0.05
+2018,Franche-Comté,mariage chic ,0.35
+2018,Franche-Comté,mariage nature ,0.0
+2018,Franche-Comté,mariage romantique ,0.0
+2018,Franche-Comté,mariage traditionnel ,0.0
+2018,Franche-Comté,mariage original ,0.32
+2018,Franche-Comté,mariage élégant ,0.0
+2018,Franche-Comté,mariage bohème ,0.0
+2018,Franche-Comté,mariage champêtre ,0.0
+2018,Franche-Comté,mariage glamour ,0.0
+2018,Franche-Comté,mariage vintage,0.0
+2018,Franche-Comté,mariage plage ,0.0
+2018,Languedoc-Roussillon,mariage nature ,0.0
+2018,Languedoc-Roussillon,mariage romantique ,0.05
+2018,Languedoc-Roussillon,mariage original ,0.18
+2018,Languedoc-Roussillon,mariage traditionnel ,0.0
+2018,Languedoc-Roussillon,mariage chic ,0.27
+2018,Languedoc-Roussillon,mariage élégant ,0.0
+2018,Languedoc-Roussillon,mariage bohème ,0.07
+2018,Languedoc-Roussillon,mariage champêtre ,0.04
+2018,Languedoc-Roussillon,mariage glamour ,0.0
+2018,Languedoc-Roussillon,mariage vintage,0.05
+2018,Languedoc-Roussillon,mariage plage ,0.08
+2018,Limousin,mariage nature ,0.1
+2018,Limousin,mariage romantique ,0.0
+2018,Limousin,mariage original ,0.3
+2018,Limousin,mariage traditionnel ,0.0
+2018,Limousin,mariage chic ,0.3
+2018,Limousin,mariage élégant ,0.0
+2018,Limousin,mariage bohème ,0.0
+2018,Limousin,mariage champêtre ,0.0
+2018,Limousin,mariage glamour ,0.0
+2018,Limousin,mariage vintage,0.0
+2018,Limousin,mariage plage ,0.0
+2018,Lorraine,mariage nature ,0.0
+2018,Lorraine,mariage romantique ,0.0
+2018,Lorraine,mariage original ,0.24
+2018,Lorraine,mariage traditionnel ,0.0
+2018,Lorraine,mariage chic ,0.28
+2018,Lorraine,mariage élégant ,0.0
+2018,Lorraine,mariage bohème ,0.04
+2018,Lorraine,mariage champêtre ,0.06
+2018,Lorraine,mariage glamour ,0.0
+2018,Lorraine,mariage vintage,0.09
+2018,Lorraine,mariage plage ,0.0
+2018,Basse Normandie,mariage nature ,0.0
+2018,Basse Normandie,mariage romantique ,0.0
+2018,Basse Normandie,mariage original ,0.3
+2018,Basse Normandie,mariage traditionnel ,0.0
+2018,Basse Normandie,mariage chic ,0.35
+2018,Basse Normandie,mariage élégant ,0.0
+2018,Basse Normandie,mariage bohème ,0.0
+2018,Basse Normandie,mariage champêtre ,0.0
+2018,Basse Normandie,mariage glamour ,0.0
+2018,Basse Normandie,mariage vintage,0.0
+2018,Basse Normandie,mariage plage ,0.0
+2018,Midi-Pyrénées,mariage nature ,0.0
+2018,Midi-Pyrénées,mariage romantique ,0.0
+2018,Midi-Pyrénées,mariage original ,0.19
+2018,Midi-Pyrénées,mariage traditionnel ,0.0
+2018,Midi-Pyrénées,mariage chic ,0.29
+2018,Midi-Pyrénées,mariage élégant ,0.0
+2018,Midi-Pyrénées,mariage bohème ,0.06
+2018,Midi-Pyrénées,mariage champêtre ,0.04
+2018,Midi-Pyrénées,mariage glamour ,0.0
+2018,Midi-Pyrénées,mariage vintage,0.07
+2018,Midi-Pyrénées,mariage plage ,0.06
+2018,Nord-Pas-de-Calais,mariage chic ,0.17
+2018,Nord-Pas-de-Calais,mariage nature ,0.02
+2018,Nord-Pas-de-Calais,mariage romantique ,0.03
+2018,Nord-Pas-de-Calais,mariage traditionnel ,0.0
+2018,Nord-Pas-de-Calais,mariage original ,0.22
+2018,Nord-Pas-de-Calais,mariage élégant ,0.0
+2018,Nord-Pas-de-Calais,mariage bohème ,0.06
+2018,Nord-Pas-de-Calais,mariage champêtre ,0.06
+2018,Nord-Pas-de-Calais,mariage glamour ,0.0
+2018,Nord-Pas-de-Calais,mariage vintage,0.14
+2018,Nord-Pas-de-Calais,mariage plage ,0.07
+2018,Pays de la Loire,mariage nature ,0.11
+2018,Pays de la Loire,mariage romantique ,0.06
+2018,Pays de la Loire,mariage original ,0.2
+2018,Pays de la Loire,mariage traditionnel ,0.0
+2018,Pays de la Loire,mariage chic ,0.14
+2018,Pays de la Loire,mariage élégant ,0.0
+2018,Pays de la Loire,mariage bohème ,0.06
+2018,Pays de la Loire,mariage champêtre ,0.1
+2018,Pays de la Loire,mariage glamour ,0.0
+2018,Pays de la Loire,mariage vintage,0.06
+2018,Pays de la Loire,mariage plage ,0.03
+2018,Picardie,mariage nature ,0.0
+2018,Picardie,mariage romantique ,0.0
+2018,Picardie,mariage original ,0.25
+2018,Picardie,mariage traditionnel ,0.0
+2018,Picardie,mariage chic ,0.4
+2018,Picardie,mariage élégant ,0.0
+2018,Picardie,mariage bohème ,0.0
+2018,Picardie,mariage champêtre ,0.04
+2018,Picardie,mariage glamour ,0.0
+2018,Picardie,mariage vintage,0.0
+2018,Picardie,mariage plage ,0.0
+2018,Poitou-Charentes,mariage chic ,0.33
+2018,Poitou-Charentes,mariage nature ,0.0
+2018,Poitou-Charentes,mariage romantique ,0.0
+2018,Poitou-Charentes,mariage traditionnel ,0.0
+2018,Poitou-Charentes,mariage original ,0.23
+2018,Poitou-Charentes,mariage élégant ,0.0
+2018,Poitou-Charentes,mariage bohème ,0.0
+2018,Poitou-Charentes,mariage champêtre ,0.07
+2018,Poitou-Charentes,mariage glamour ,0.0
+2018,Poitou-Charentes,mariage vintage,0.05
+2018,Poitou-Charentes,mariage plage ,0.08
+2018,Provence-Alpes-Côte d'Azur,mariage nature ,0.06
+2018,Provence-Alpes-Côte d'Azur,mariage romantique ,0.07
+2018,Provence-Alpes-Côte d'Azur,mariage original ,0.17
+2018,Provence-Alpes-Côte d'Azur,mariage traditionnel ,0.0
+2018,Provence-Alpes-Côte d'Azur,mariage chic ,0.19
+2018,Provence-Alpes-Côte d'Azur,mariage élégant ,0.0
+2018,Provence-Alpes-Côte d'Azur,mariage bohème ,0.08
+2018,Provence-Alpes-Côte d'Azur,mariage champêtre ,0.06
+2018,Provence-Alpes-Côte d'Azur,mariage glamour ,0.0
+2018,Provence-Alpes-Côte d'Azur,mariage vintage,0.03
+2018,Provence-Alpes-Côte d'Azur,mariage plage ,0.06
+2018,Rhône-Alpes,mariage chic ,0.22
+2018,Rhône-Alpes,mariage nature ,0.07
+2018,Rhône-Alpes,mariage romantique ,0.06
+2018,Rhône-Alpes,mariage traditionnel ,0.03
+2018,Rhône-Alpes,mariage original ,0.19
+2018,Rhône-Alpes,mariage élégant ,0.0
+2018,Rhône-Alpes,mariage bohème ,0.07
+2018,Rhône-Alpes,mariage champêtre ,0.04
+2018,Rhône-Alpes,mariage glamour ,0.0
+2018,Rhône-Alpes,mariage vintage,0.07
+2018,Rhône-Alpes,mariage plage ,0.05
+2018,Rhône-Alpes,mariage chic ,0.74
+2018,Rhône-Alpes,mariage nature ,0.0
+2018,Rhône-Alpes,mariage romantique ,0.0
+2018,Rhône-Alpes,mariage traditionnel ,0.0
+2018,Rhône-Alpes,mariage original ,0.18
+2018,Rhône-Alpes,mariage élégant ,0.0
+2018,Rhône-Alpes,mariage bohème ,0.0
+2018,Rhône-Alpes,mariage glamour ,0.0
+2018,Rhône-Alpes,mariage champêtre ,0.08
+2018,Rhône-Alpes,mariage vintage,0.0
+2018,Rhône-Alpes,mariage plage ,0.0
+2018,Île-de-France,mariage nature ,0.05
+2018,Île-de-France,mariage romantique ,0.06
+2018,Île-de-France,mariage original ,0.16
+2018,Île-de-France,mariage traditionnel ,0.05
+2018,Île-de-France,mariage chic ,0.23
+2018,Île-de-France,mariage élégant ,0.0
+2018,Île-de-France,mariage bohème ,0.05
+2018,Île-de-France,mariage champêtre ,0.03
+2018,Île-de-France,mariage glamour ,0.01
+2018,Île-de-France,mariage vintage,0.07
+2018,Île-de-France,mariage plage ,0.07
+2019,Alsace,mariage nature ,0.0
+2019,Alsace,mariage romantique ,0.0
+2019,Alsace,mariage original ,0.26
+2019,Alsace,mariage traditionnel ,0.0
+2019,Alsace,mariage chic ,0.33
+2019,Alsace,mariage élégant ,0.0
+2019,Alsace,mariage bohème ,0.0
+2019,Alsace,mariage champêtre ,0.0
+2019,Alsace,mariage glamour ,0.0
+2019,Alsace,mariage vintage,0.09
+2019,Alsace,mariage plage ,0.0
+2019,Aquitaine,mariage nature ,0.05
+2019,Aquitaine,mariage romantique ,0.07
+2019,Aquitaine,mariage original ,0.2
+2019,Aquitaine,mariage traditionnel ,0.0
+2019,Aquitaine,mariage chic ,0.11
+2019,Aquitaine,mariage élégant ,0.0
+2019,Aquitaine,mariage bohème ,0.09
+2019,Aquitaine,mariage champêtre ,0.08
+2019,Aquitaine,mariage glamour ,0.0
+2019,Aquitaine,mariage vintage,0.04
+2019,Aquitaine,mariage plage ,0.04
+2019,Auvergne,mariage nature ,0.0
+2019,Auvergne,mariage romantique ,0.0
+2019,Auvergne,mariage original ,0.25
+2019,Auvergne,mariage traditionnel ,0.0
+2019,Auvergne,mariage chic ,0.38
+2019,Auvergne,mariage élégant ,0.0
+2019,Auvergne,mariage bohème ,0.0
+2019,Auvergne,mariage champêtre ,0.0
+2019,Auvergne,mariage glamour ,0.0
+2019,Auvergne,mariage vintage,0.0
+2019,Auvergne,mariage plage ,0.0
+2019,Bretagne,mariage nature ,0.04
+2019,Bretagne,mariage romantique ,0.0
+2019,Bretagne,mariage original ,0.17
+2019,Bretagne,mariage traditionnel ,0.0
+2019,Bretagne,mariage chic ,0.26
+2019,Bretagne,mariage élégant ,0.0
+2019,Bretagne,mariage bohème ,0.06
+2019,Bretagne,mariage champêtre ,0.06
+2019,Bretagne,mariage glamour ,0.0
+2019,Bretagne,mariage vintage,0.08
+2019,Bretagne,mariage plage ,0.08
+2019,Bourgogne,mariage nature ,0.0
+2019,Bourgogne,mariage romantique ,0.0
+2019,Bourgogne,mariage original ,0.23
+2019,Bourgogne,mariage traditionnel ,0.0
+2019,Bourgogne,mariage chic ,0.38
+2019,Bourgogne,mariage élégant ,0.0
+2019,Bourgogne,mariage bohème ,0.0
+2019,Bourgogne,mariage champêtre ,0.0
+2019,Bourgogne,mariage glamour ,0.0
+2019,Bourgogne,mariage vintage,0.0
+2019,Bourgogne,mariage plage ,0.0
+2019,Centre-Val de Loire,mariage nature ,0.0
+2019,Centre-Val de Loire,mariage romantique ,0.0
+2019,Centre-Val de Loire,mariage original ,0.15
+2019,Centre-Val de Loire,mariage traditionnel ,0.0
+2019,Centre-Val de Loire,mariage chic ,0.26
+2019,Centre-Val de Loire,mariage élégant ,0.0
+2019,Centre-Val de Loire,mariage bohème ,0.09
+2019,Centre-Val de Loire,mariage champêtre ,0.09
+2019,Centre-Val de Loire,mariage glamour ,0.0
+2019,Centre-Val de Loire,mariage vintage,0.09
+2019,Centre-Val de Loire,mariage plage ,0.0
+2019,Champagne-Ardenne,mariage nature ,0.0
+2019,Champagne-Ardenne,mariage romantique ,0.0
+2019,Champagne-Ardenne,mariage original ,0.43
+2019,Champagne-Ardenne,mariage traditionnel ,0.0
+2019,Champagne-Ardenne,mariage chic ,0.37
+2019,Champagne-Ardenne,mariage élégant ,0.0
+2019,Champagne-Ardenne,mariage bohème ,0.0
+2019,Champagne-Ardenne,mariage champêtre ,0.0
+2019,Champagne-Ardenne,mariage glamour ,0.0
+2019,Champagne-Ardenne,mariage vintage,0.0
+2019,Champagne-Ardenne,mariage plage ,0.0
+2019,Corse,mariage chic _x,0.0
+2019,Corse,mariage nature ,0.0
+2019,Corse,mariage romantique ,0.0
+2019,Corse,mariage original ,0.0
+2019,Corse,mariage traditionnel ,0.0
+2019,Corse,mariage chic _y,0.0
+2019,Corse,mariage élégant ,0.0
+2019,Corse,mariage bohème ,0.0
+2019,Corse,mariage champêtre ,0.0
+2019,Corse,mariage glamour ,0.0
+2019,Corse,mariage chic ,0.0
+2019,Corse,mariage vintage,0.0
+2019,Corse,mariage plage ,0.0
+2019,France,mariage nature ,0.04
+2019,France,mariage romantique ,0.04
+2019,France,mariage original ,0.14
+2019,France,mariage traditionnel ,0.03
+2019,France,mariage chic ,0.26
+2019,France,mariage élégant ,0.0
+2019,France,mariage bohème ,0.05
+2019,France,mariage champêtre ,0.05
+2019,France,mariage glamour ,0.01
+2019,France,mariage vintage,0.06
+2019,France,mariage plage ,0.05
+2019,Franche-Comté,mariage chic ,0.38
+2019,Franche-Comté,mariage nature ,0.0
+2019,Franche-Comté,mariage romantique ,0.0
+2019,Franche-Comté,mariage traditionnel ,0.0
+2019,Franche-Comté,mariage original ,0.31
+2019,Franche-Comté,mariage élégant ,0.0
+2019,Franche-Comté,mariage bohème ,0.0
+2019,Franche-Comté,mariage champêtre ,0.0
+2019,Franche-Comté,mariage glamour ,0.0
+2019,Franche-Comté,mariage vintage,0.0
+2019,Franche-Comté,mariage plage ,0.0
+2019,Languedoc-Roussillon,mariage nature ,0.0
+2019,Languedoc-Roussillon,mariage romantique ,0.03
+2019,Languedoc-Roussillon,mariage original ,0.18
+2019,Languedoc-Roussillon,mariage traditionnel ,0.0
+2019,Languedoc-Roussillon,mariage chic ,0.24
+2019,Languedoc-Roussillon,mariage élégant ,0.0
+2019,Languedoc-Roussillon,mariage bohème ,0.07
+2019,Languedoc-Roussillon,mariage champêtre ,0.06
+2019,Languedoc-Roussillon,mariage glamour ,0.0
+2019,Languedoc-Roussillon,mariage vintage,0.09
+2019,Languedoc-Roussillon,mariage plage ,0.09
+2019,Limousin,mariage nature ,0.05
+2019,Limousin,mariage romantique ,0.0
+2019,Limousin,mariage original ,0.32
+2019,Limousin,mariage traditionnel ,0.0
+2019,Limousin,mariage chic ,0.32
+2019,Limousin,mariage élégant ,0.0
+2019,Limousin,mariage bohème ,0.0
+2019,Limousin,mariage champêtre ,0.0
+2019,Limousin,mariage glamour ,0.0
+2019,Limousin,mariage vintage,0.0
+2019,Limousin,mariage plage ,0.0
+2019,Lorraine,mariage nature ,0.0
+2019,Lorraine,mariage romantique ,0.0
+2019,Lorraine,mariage original ,0.19
+2019,Lorraine,mariage traditionnel ,0.0
+2019,Lorraine,mariage chic ,0.28
+2019,Lorraine,mariage élégant ,0.0
+2019,Lorraine,mariage bohème ,0.09
+2019,Lorraine,mariage champêtre ,0.07
+2019,Lorraine,mariage glamour ,0.0
+2019,Lorraine,mariage vintage,0.09
+2019,Lorraine,mariage plage ,0.0
+2019,Basse Normandie,mariage nature ,0.0
+2019,Basse Normandie,mariage romantique ,0.0
+2019,Basse Normandie,mariage original ,0.23
+2019,Basse Normandie,mariage traditionnel ,0.0
+2019,Basse Normandie,mariage chic ,0.38
+2019,Basse Normandie,mariage élégant ,0.0
+2019,Basse Normandie,mariage bohème ,0.0
+2019,Basse Normandie,mariage champêtre ,0.0
+2019,Basse Normandie,mariage glamour ,0.0
+2019,Basse Normandie,mariage vintage,0.0
+2019,Basse Normandie,mariage plage ,0.0
+2019,Midi-Pyrénées,mariage nature ,0.0
+2019,Midi-Pyrénées,mariage romantique ,0.0
+2019,Midi-Pyrénées,mariage original ,0.17
+2019,Midi-Pyrénées,mariage traditionnel ,0.0
+2019,Midi-Pyrénées,mariage chic ,0.26
+2019,Midi-Pyrénées,mariage élégant ,0.0
+2019,Midi-Pyrénées,mariage bohème ,0.1
+2019,Midi-Pyrénées,mariage champêtre ,0.08
+2019,Midi-Pyrénées,mariage glamour ,0.0
+2019,Midi-Pyrénées,mariage vintage,0.05
+2019,Midi-Pyrénées,mariage plage ,0.07
+2019,Nord-Pas-de-Calais,mariage chic ,0.2
+2019,Nord-Pas-de-Calais,mariage nature ,0.03
+2019,Nord-Pas-de-Calais,mariage romantique ,0.06
+2019,Nord-Pas-de-Calais,mariage traditionnel ,0.0
+2019,Nord-Pas-de-Calais,mariage original ,0.17
+2019,Nord-Pas-de-Calais,mariage élégant ,0.0
+2019,Nord-Pas-de-Calais,mariage bohème ,0.07
+2019,Nord-Pas-de-Calais,mariage champêtre ,0.08
+2019,Nord-Pas-de-Calais,mariage glamour ,0.0
+2019,Nord-Pas-de-Calais,mariage vintage,0.14
+2019,Nord-Pas-de-Calais,mariage plage ,0.09
+2019,Pays de la Loire,mariage nature ,0.06
+2019,Pays de la Loire,mariage romantique ,0.03
+2019,Pays de la Loire,mariage original ,0.18
+2019,Pays de la Loire,mariage traditionnel ,0.0
+2019,Pays de la Loire,mariage chic ,0.19
+2019,Pays de la Loire,mariage élégant ,0.0
+2019,Pays de la Loire,mariage bohème ,0.07
+2019,Pays de la Loire,mariage champêtre ,0.08
+2019,Pays de la Loire,mariage glamour ,0.0
+2019,Pays de la Loire,mariage vintage,0.05
+2019,Pays de la Loire,mariage plage ,0.05
+2019,Picardie,mariage nature ,0.0
+2019,Picardie,mariage romantique ,0.0
+2019,Picardie,mariage original ,0.22
+2019,Picardie,mariage traditionnel ,0.0
+2019,Picardie,mariage chic ,0.4
+2019,Picardie,mariage élégant ,0.0
+2019,Picardie,mariage bohème ,0.0
+2019,Picardie,mariage champêtre ,0.09
+2019,Picardie,mariage glamour ,0.0
+2019,Picardie,mariage vintage,0.0
+2019,Picardie,mariage plage ,0.0
+2019,Poitou-Charentes,mariage chic ,0.29
+2019,Poitou-Charentes,mariage nature ,0.0
+2019,Poitou-Charentes,mariage romantique ,0.0
+2019,Poitou-Charentes,mariage traditionnel ,0.0
+2019,Poitou-Charentes,mariage original ,0.2
+2019,Poitou-Charentes,mariage élégant ,0.0
+2019,Poitou-Charentes,mariage bohème ,0.0
+2019,Poitou-Charentes,mariage champêtre ,0.08
+2019,Poitou-Charentes,mariage glamour ,0.0
+2019,Poitou-Charentes,mariage vintage,0.13
+2019,Poitou-Charentes,mariage plage ,0.09
+2019,Provence-Alpes-Côte d'Azur,mariage nature ,0.04
+2019,Provence-Alpes-Côte d'Azur,mariage romantique ,0.06
+2019,Provence-Alpes-Côte d'Azur,mariage original ,0.19
+2019,Provence-Alpes-Côte d'Azur,mariage traditionnel ,0.0
+2019,Provence-Alpes-Côte d'Azur,mariage chic ,0.17
+2019,Provence-Alpes-Côte d'Azur,mariage élégant ,0.0
+2019,Provence-Alpes-Côte d'Azur,mariage bohème ,0.11
+2019,Provence-Alpes-Côte d'Azur,mariage champêtre ,0.06
+2019,Provence-Alpes-Côte d'Azur,mariage glamour ,0.0
+2019,Provence-Alpes-Côte d'Azur,mariage vintage,0.03
+2019,Provence-Alpes-Côte d'Azur,mariage plage ,0.06
+2019,Rhône-Alpes,mariage chic ,0.26
+2019,Rhône-Alpes,mariage nature ,0.05
+2019,Rhône-Alpes,mariage romantique ,0.06
+2019,Rhône-Alpes,mariage traditionnel ,0.04
+2019,Rhône-Alpes,mariage original ,0.17
+2019,Rhône-Alpes,mariage élégant ,0.0
+2019,Rhône-Alpes,mariage bohème ,0.07
+2019,Rhône-Alpes,mariage champêtre ,0.06
+2019,Rhône-Alpes,mariage glamour ,0.0
+2019,Rhône-Alpes,mariage vintage,0.07
+2019,Rhône-Alpes,mariage plage ,0.06
+2019,Rhône-Alpes,mariage chic ,0.79
+2019,Rhône-Alpes,mariage nature ,0.0
+2019,Rhône-Alpes,mariage romantique ,0.0
+2019,Rhône-Alpes,mariage traditionnel ,0.0
+2019,Rhône-Alpes,mariage original ,0.15
+2019,Rhône-Alpes,mariage élégant ,0.0
+2019,Rhône-Alpes,mariage bohème ,0.0
+2019,Rhône-Alpes,mariage glamour ,0.0
+2019,Rhône-Alpes,mariage champêtre ,0.06
+2019,Rhône-Alpes,mariage vintage,0.0
+2019,Rhône-Alpes,mariage plage ,0.0
+2019,Île-de-France,mariage nature ,0.04
+2019,Île-de-France,mariage romantique ,0.06
+2019,Île-de-France,mariage original ,0.13
+2019,Île-de-France,mariage traditionnel ,0.05
+2019,Île-de-France,mariage chic ,0.23
+2019,Île-de-France,mariage élégant ,0.0
+2019,Île-de-France,mariage bohème ,0.06
+2019,Île-de-France,mariage champêtre ,0.04
+2019,Île-de-France,mariage glamour ,0.02
+2019,Île-de-France,mariage vintage,0.06
+2019,Île-de-France,mariage plage ,0.08
+2020,Alsace,mariage nature ,0.0
+2020,Alsace,mariage romantique ,0.0
+2020,Alsace,mariage original ,0.16
+2020,Alsace,mariage traditionnel ,0.0
+2020,Alsace,mariage chic ,0.39
+2020,Alsace,mariage élégant ,0.0
+2020,Alsace,mariage bohème ,0.0
+2020,Alsace,mariage champêtre ,0.0
+2020,Alsace,mariage glamour ,0.0
+2020,Alsace,mariage vintage,0.05
+2020,Alsace,mariage plage ,0.0
+2020,Aquitaine,mariage nature ,0.09
+2020,Aquitaine,mariage romantique ,0.05
+2020,Aquitaine,mariage original ,0.14
+2020,Aquitaine,mariage traditionnel ,0.0
+2020,Aquitaine,mariage chic ,0.11
+2020,Aquitaine,mariage élégant ,0.0
+2020,Aquitaine,mariage bohème ,0.07
+2020,Aquitaine,mariage champêtre ,0.08
+2020,Aquitaine,mariage glamour ,0.0
+2020,Aquitaine,mariage vintage,0.03
+2020,Aquitaine,mariage plage ,0.13
+2020,Auvergne,mariage nature ,0.0
+2020,Auvergne,mariage romantique ,0.0
+2020,Auvergne,mariage original ,0.35
+2020,Auvergne,mariage traditionnel ,0.0
+2020,Auvergne,mariage chic ,0.32
+2020,Auvergne,mariage élégant ,0.0
+2020,Auvergne,mariage bohème ,0.0
+2020,Auvergne,mariage champêtre ,0.0
+2020,Auvergne,mariage glamour ,0.0
+2020,Auvergne,mariage vintage,0.0
+2020,Auvergne,mariage plage ,0.0
+2020,Bretagne,mariage nature ,0.07
+2020,Bretagne,mariage romantique ,0.0
+2020,Bretagne,mariage original ,0.12
+2020,Bretagne,mariage traditionnel ,0.0
+2020,Bretagne,mariage chic ,0.22
+2020,Bretagne,mariage élégant ,0.0
+2020,Bretagne,mariage bohème ,0.09
+2020,Bretagne,mariage champêtre ,0.09
+2020,Bretagne,mariage glamour ,0.0
+2020,Bretagne,mariage vintage,0.1
+2020,Bretagne,mariage plage ,0.08
+2020,Bourgogne,mariage nature ,0.0
+2020,Bourgogne,mariage romantique ,0.0
+2020,Bourgogne,mariage original ,0.18
+2020,Bourgogne,mariage traditionnel ,0.0
+2020,Bourgogne,mariage chic ,0.41
+2020,Bourgogne,mariage élégant ,0.0
+2020,Bourgogne,mariage bohème ,0.0
+2020,Bourgogne,mariage champêtre ,0.0
+2020,Bourgogne,mariage glamour ,0.0
+2020,Bourgogne,mariage vintage,0.0
+2020,Bourgogne,mariage plage ,0.0
+2020,Centre-Val de Loire,mariage nature ,0.0
+2020,Centre-Val de Loire,mariage romantique ,0.0
+2020,Centre-Val de Loire,mariage original ,0.19
+2020,Centre-Val de Loire,mariage traditionnel ,0.0
+2020,Centre-Val de Loire,mariage chic ,0.28
+2020,Centre-Val de Loire,mariage élégant ,0.0
+2020,Centre-Val de Loire,mariage bohème ,0.08
+2020,Centre-Val de Loire,mariage champêtre ,0.12
+2020,Centre-Val de Loire,mariage glamour ,0.0
+2020,Centre-Val de Loire,mariage vintage,0.04
+2020,Centre-Val de Loire,mariage plage ,0.0
+2020,Champagne-Ardenne,mariage nature ,0.0
+2020,Champagne-Ardenne,mariage romantique ,0.0
+2020,Champagne-Ardenne,mariage original ,0.29
+2020,Champagne-Ardenne,mariage traditionnel ,0.0
+2020,Champagne-Ardenne,mariage chic ,0.46
+2020,Champagne-Ardenne,mariage élégant ,0.0
+2020,Champagne-Ardenne,mariage bohème ,0.0
+2020,Champagne-Ardenne,mariage champêtre ,0.0
+2020,Champagne-Ardenne,mariage glamour ,0.0
+2020,Champagne-Ardenne,mariage vintage,0.0
+2020,Champagne-Ardenne,mariage plage ,0.0
+2020,Corse,mariage chic _x,0.0
+2020,Corse,mariage nature ,0.0
+2020,Corse,mariage romantique ,0.0
+2020,Corse,mariage original ,0.0
+2020,Corse,mariage traditionnel ,0.0
+2020,Corse,mariage chic _y,0.0
+2020,Corse,mariage élégant ,0.0
+2020,Corse,mariage bohème ,0.0
+2020,Corse,mariage champêtre ,0.0
+2020,Corse,mariage glamour ,0.0
+2020,Corse,mariage chic ,0.0
+2020,Corse,mariage vintage,0.0
+2020,Corse,mariage plage ,0.0
+2020,France,mariage nature ,0.06
+2020,France,mariage romantique ,0.04
+2020,France,mariage original ,0.16
+2020,France,mariage traditionnel ,0.05
+2020,France,mariage chic ,0.22
+2020,France,mariage élégant ,0.0
+2020,France,mariage bohème ,0.05
+2020,France,mariage champêtre ,0.07
+2020,France,mariage glamour ,0.01
+2020,France,mariage vintage,0.05
+2020,France,mariage plage ,0.06
+2020,Franche-Comté,mariage chic ,0.5
+2020,Franche-Comté,mariage nature ,0.0
+2020,Franche-Comté,mariage romantique ,0.0
+2020,Franche-Comté,mariage traditionnel ,0.0
+2020,Franche-Comté,mariage original ,0.25
+2020,Franche-Comté,mariage élégant ,0.0
+2020,Franche-Comté,mariage bohème ,0.0
+2020,Franche-Comté,mariage champêtre ,0.0
+2020,Franche-Comté,mariage glamour ,0.0
+2020,Franche-Comté,mariage vintage,0.0
+2020,Franche-Comté,mariage plage ,0.0
+2020,Languedoc-Roussillon,mariage nature ,0.0
+2020,Languedoc-Roussillon,mariage romantique ,0.05
+2020,Languedoc-Roussillon,mariage original ,0.16
+2020,Languedoc-Roussillon,mariage traditionnel ,0.0
+2020,Languedoc-Roussillon,mariage chic ,0.26
+2020,Languedoc-Roussillon,mariage élégant ,0.0
+2020,Languedoc-Roussillon,mariage bohème ,0.05
+2020,Languedoc-Roussillon,mariage champêtre ,0.1
+2020,Languedoc-Roussillon,mariage glamour ,0.0
+2020,Languedoc-Roussillon,mariage vintage,0.05
+2020,Languedoc-Roussillon,mariage plage ,0.08
+2020,Limousin,mariage nature ,0.06
+2020,Limousin,mariage romantique ,0.0
+2020,Limousin,mariage original ,0.35
+2020,Limousin,mariage traditionnel ,0.0
+2020,Limousin,mariage chic ,0.3
+2020,Limousin,mariage élégant ,0.0
+2020,Limousin,mariage bohème ,0.0
+2020,Limousin,mariage champêtre ,0.0
+2020,Limousin,mariage glamour ,0.0
+2020,Limousin,mariage vintage,0.0
+2020,Limousin,mariage plage ,0.0
+2020,Lorraine,mariage nature ,0.0
+2020,Lorraine,mariage romantique ,0.0
+2020,Lorraine,mariage original ,0.08
+2020,Lorraine,mariage traditionnel ,0.0
+2020,Lorraine,mariage chic ,0.38
+2020,Lorraine,mariage élégant ,0.0
+2020,Lorraine,mariage bohème ,0.03
+2020,Lorraine,mariage champêtre ,0.05
+2020,Lorraine,mariage glamour ,0.0
+2020,Lorraine,mariage vintage,0.08
+2020,Lorraine,mariage plage ,0.0
+2020,Basse Normandie,mariage nature ,0.0
+2020,Basse Normandie,mariage romantique ,0.0
+2020,Basse Normandie,mariage original ,0.13
+2020,Basse Normandie,mariage traditionnel ,0.0
+2020,Basse Normandie,mariage chic ,0.44
+2020,Basse Normandie,mariage élégant ,0.0
+2020,Basse Normandie,mariage bohème ,0.0
+2020,Basse Normandie,mariage champêtre ,0.0
+2020,Basse Normandie,mariage glamour ,0.0
+2020,Basse Normandie,mariage vintage,0.0
+2020,Basse Normandie,mariage plage ,0.0
+2020,Midi-Pyrénées,mariage nature ,0.0
+2020,Midi-Pyrénées,mariage romantique ,0.0
+2020,Midi-Pyrénées,mariage original ,0.14
+2020,Midi-Pyrénées,mariage traditionnel ,0.0
+2020,Midi-Pyrénées,mariage chic ,0.28
+2020,Midi-Pyrénées,mariage élégant ,0.0
+2020,Midi-Pyrénées,mariage bohème ,0.11
+2020,Midi-Pyrénées,mariage champêtre ,0.09
+2020,Midi-Pyrénées,mariage glamour ,0.0
+2020,Midi-Pyrénées,mariage vintage,0.06
+2020,Midi-Pyrénées,mariage plage ,0.05
+2020,Nord-Pas-de-Calais,mariage chic ,0.18
+2020,Nord-Pas-de-Calais,mariage nature ,0.04
+2020,Nord-Pas-de-Calais,mariage romantique ,0.04
+2020,Nord-Pas-de-Calais,mariage traditionnel ,0.0
+2020,Nord-Pas-de-Calais,mariage original ,0.14
+2020,Nord-Pas-de-Calais,mariage élégant ,0.0
+2020,Nord-Pas-de-Calais,mariage bohème ,0.07
+2020,Nord-Pas-de-Calais,mariage champêtre ,0.25
+2020,Nord-Pas-de-Calais,mariage glamour ,0.0
+2020,Nord-Pas-de-Calais,mariage vintage,0.09
+2020,Nord-Pas-de-Calais,mariage plage ,0.05
+2020,Pays de la Loire,mariage nature ,0.04
+2020,Pays de la Loire,mariage romantique ,0.05
+2020,Pays de la Loire,mariage original ,0.3
+2020,Pays de la Loire,mariage traditionnel ,0.0
+2020,Pays de la Loire,mariage chic ,0.17
+2020,Pays de la Loire,mariage élégant ,0.0
+2020,Pays de la Loire,mariage bohème ,0.1
+2020,Pays de la Loire,mariage champêtre ,0.08
+2020,Pays de la Loire,mariage glamour ,0.0
+2020,Pays de la Loire,mariage vintage,0.05
+2020,Pays de la Loire,mariage plage ,0.01
+2020,Picardie,mariage nature ,0.0
+2020,Picardie,mariage romantique ,0.0
+2020,Picardie,mariage original ,0.17
+2020,Picardie,mariage traditionnel ,0.0
+2020,Picardie,mariage chic ,0.38
+2020,Picardie,mariage élégant ,0.0
+2020,Picardie,mariage bohème ,0.0
+2020,Picardie,mariage champêtre ,0.14
+2020,Picardie,mariage glamour ,0.0
+2020,Picardie,mariage vintage,0.0
+2020,Picardie,mariage plage ,0.0
+2020,Poitou-Charentes,mariage chic ,0.35
+2020,Poitou-Charentes,mariage nature ,0.0
+2020,Poitou-Charentes,mariage romantique ,0.0
+2020,Poitou-Charentes,mariage traditionnel ,0.0
+2020,Poitou-Charentes,mariage original ,0.23
+2020,Poitou-Charentes,mariage élégant ,0.0
+2020,Poitou-Charentes,mariage bohème ,0.0
+2020,Poitou-Charentes,mariage champêtre ,0.14
+2020,Poitou-Charentes,mariage glamour ,0.0
+2020,Poitou-Charentes,mariage vintage,0.03
+2020,Poitou-Charentes,mariage plage ,0.03
+2020,Provence-Alpes-Côte d'Azur,mariage nature ,0.06
+2020,Provence-Alpes-Côte d'Azur,mariage romantique ,0.06
+2020,Provence-Alpes-Côte d'Azur,mariage original ,0.17
+2020,Provence-Alpes-Côte d'Azur,mariage traditionnel ,0.0
+2020,Provence-Alpes-Côte d'Azur,mariage chic ,0.17
+2020,Provence-Alpes-Côte d'Azur,mariage élégant ,0.0
+2020,Provence-Alpes-Côte d'Azur,mariage bohème ,0.09
+2020,Provence-Alpes-Côte d'Azur,mariage champêtre ,0.09
+2020,Provence-Alpes-Côte d'Azur,mariage glamour ,0.0
+2020,Provence-Alpes-Côte d'Azur,mariage vintage,0.02
+2020,Provence-Alpes-Côte d'Azur,mariage plage ,0.05
+2020,Rhône-Alpes,mariage chic ,0.21
+2020,Rhône-Alpes,mariage nature ,0.08
+2020,Rhône-Alpes,mariage romantique ,0.05
+2020,Rhône-Alpes,mariage traditionnel ,0.06
+2020,Rhône-Alpes,mariage original ,0.15
+2020,Rhône-Alpes,mariage élégant ,0.0
+2020,Rhône-Alpes,mariage bohème ,0.09
+2020,Rhône-Alpes,mariage champêtre ,0.11
+2020,Rhône-Alpes,mariage glamour ,0.0
+2020,Rhône-Alpes,mariage vintage,0.05
+2020,Rhône-Alpes,mariage plage ,0.05
+2020,Rhône-Alpes,mariage chic ,0.55
+2020,Rhône-Alpes,mariage nature ,0.0
+2020,Rhône-Alpes,mariage romantique ,0.0
+2020,Rhône-Alpes,mariage traditionnel ,0.0
+2020,Rhône-Alpes,mariage original ,0.11
+2020,Rhône-Alpes,mariage élégant ,0.0
+2020,Rhône-Alpes,mariage bohème ,0.0
+2020,Rhône-Alpes,mariage glamour ,0.0
+2020,Rhône-Alpes,mariage champêtre ,0.34
+2020,Rhône-Alpes,mariage vintage,0.0
+2020,Rhône-Alpes,mariage plage ,0.0
+2020,Île-de-France,mariage nature ,0.04
+2020,Île-de-France,mariage romantique ,0.05
+2020,Île-de-France,mariage original ,0.12
+2020,Île-de-France,mariage traditionnel ,0.06
+2020,Île-de-France,mariage chic ,0.23
+2020,Île-de-France,mariage élégant ,0.0
+2020,Île-de-France,mariage bohème ,0.06
+2020,Île-de-France,mariage champêtre ,0.06
+2020,Île-de-France,mariage glamour ,0.02
+2020,Île-de-France,mariage vintage,0.07
+2020,Île-de-France,mariage plage ,0.06

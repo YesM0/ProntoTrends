@@ -1,0 +1,213 @@
+Year,ticket_geo_region_name,Type,sub_type,avg Percentage
+2018,Auvergne-Rhône-Alpes,Dépenses,Premium,0.54
+2018,Auvergne-Rhône-Alpes,Lieu de réception,Château,0.63
+2018,Auvergne-Rhône-Alpes,Professionnel le plus solicité,Wedding Planner,0.2
+2018,Auvergne-Rhône-Alpes,Style de crérémonie,Nature,0.32
+2018,Auvergne-Rhône-Alpes,Type de cérémonie,Civil,0.78
+2018,Bourgogne-Franche-Comté,Dépenses,Premium,0.51
+2018,Bourgogne-Franche-Comté,Lieu de réception,Château,0.74
+2018,Bourgogne-Franche-Comté,Professionnel le plus solicité,Couturier,0.29
+2018,Bourgogne-Franche-Comté,Style de crérémonie,Chic,0.35
+2018,Bourgogne-Franche-Comté,Type de cérémonie,Civil,0.9
+2018,Bretagne,Dépenses,Premium,0.51
+2018,Bretagne,Lieu de réception,Château,0.45
+2018,Bretagne,Professionnel le plus solicité,Couturier,0.23
+2018,Bretagne,Style de crérémonie,Chic,0.26
+2018,Bretagne,Type de cérémonie,Civil,0.54
+2018,Centre-Val de Loire,Dépenses,Premium,0.55
+2018,Centre-Val de Loire,Lieu de réception,Château,0.56
+2018,Centre-Val de Loire,Professionnel le plus solicité,Wedding Planner,0.23
+2018,Centre-Val de Loire,Style de crérémonie,Chic,0.24
+2018,Centre-Val de Loire,Type de cérémonie,Civil,0.56
+2018,Corse,Dépenses,NA,NA
+2018,Corse,Food,NA,NA
+2018,Corse,Lieu de réception,NA,NA
+2018,Corse,Professionnel le plus solicité,NA,NA
+2018,Corse,Style de crérémonie,NA,NA
+2018,Corse,Type de cérémonie,NA,NA
+2018,France,Dépenses,Premium,0.54
+2018,France,Lieu de réception,Château,0.46
+2018,France,Professionnel le plus solicité,Wedding Planner,0.23
+2018,France,Style de crérémonie,Chic,0.25
+2018,France,Type de cérémonie,Civil,0.61
+2018,Grand-Est,Dépenses,Premium,0.51
+2018,Grand-Est,Lieu de réception,Château,0.61
+2018,Grand-Est,Professionnel le plus solicité,Wedding Planner,0.24
+2018,Grand-Est,Style de crérémonie,Chic,0.32
+2018,Grand-Est,Type de cérémonie,Civil,0.72
+2018,Hauts-de-France,Dépenses,Premium,0.53
+2018,Hauts-de-France,Lieu de réception,Château,0.47
+2018,Hauts-de-France,Professionnel le plus solicité,Wedding Planner,0.28
+2018,Hauts-de-France,Style de crérémonie,Chic,0.4
+2018,Hauts-de-France,Type de cérémonie,Civil,0.62
+2018,Normandie,Dépenses,Premium,0.51
+2018,Normandie,Lieu de réception,Château,0.7
+2018,Normandie,Professionnel le plus solicité,Wedding Planner,0.34
+2018,Normandie,Style de crérémonie,Chic,0.35
+2018,Normandie,Type de cérémonie,Civil,0.69
+2018,Nouvelle-Aquitaine,Dépenses,Premium,0.52
+2018,Nouvelle-Aquitaine,Lieu de réception,Château,0.6
+2018,Nouvelle-Aquitaine,Professionnel le plus solicité,Wedding Planner,0.25
+2018,Nouvelle-Aquitaine,Style de crérémonie,Chic,0.21
+2018,Nouvelle-Aquitaine,Type de cérémonie,Civil,0.76
+2018,Occitanie,Dépenses,Premium,0.53
+2018,Occitanie,Lieu de réception,Château,0.54
+2018,Occitanie,Professionnel le plus solicité,Wedding Planner,0.22
+2018,Occitanie,Style de crérémonie,Chic,0.28
+2018,Occitanie,Type de cérémonie,Civil,0.72
+2018,Pays de la Loire,Dépenses,Premium,0.5
+2018,Pays de la Loire,Lieu de réception,Château,0.47
+2018,Pays de la Loire,Professionnel le plus solicité,Wedding Planner,0.23
+2018,Pays de la Loire,Style de crérémonie,Chic,0.28
+2018,Pays de la Loire,Type de cérémonie,Civil,0.54
+2018,Provence-Alpes-Côte d'Azur,Dépenses,Premium,0.56
+2018,Provence-Alpes-Côte d'Azur,Lieu de réception,Château,0.41
+2018,Provence-Alpes-Côte d'Azur,Professionnel le plus solicité,Wedding Planner,0.23
+2018,Provence-Alpes-Côte d'Azur,Style de crérémonie,Original,0.2
+2018,Provence-Alpes-Côte d'Azur,Type de cérémonie,Civil,0.53
+2018,Île-de-France,Dépenses,Premium,0.55
+2018,Île-de-France,Lieu de réception,Château,0.44
+2018,Île-de-France,Professionnel le plus solicité,Fleuriste,0.19
+2018,Île-de-France,Style de crérémonie,Chic,0.23
+2018,Île-de-France,Type de cérémonie,Civil,0.63
+2019,Auvergne-Rhône-Alpes,Dépenses,Premium,0.56
+2019,Auvergne-Rhône-Alpes,Lieu de réception,Château,0.59
+2019,Auvergne-Rhône-Alpes,Professionnel le plus solicité,Wedding Planner,0.25
+2019,Auvergne-Rhône-Alpes,Style de crérémonie,Nature,0.35
+2019,Auvergne-Rhône-Alpes,Type de cérémonie,Civil,0.76
+2019,Bourgogne-Franche-Comté,Dépenses,Premium,0.52
+2019,Bourgogne-Franche-Comté,Lieu de réception,Château,0.73
+2019,Bourgogne-Franche-Comté,Professionnel le plus solicité,Wedding Planner,0.27
+2019,Bourgogne-Franche-Comté,Style de crérémonie,Chic,0.35
+2019,Bourgogne-Franche-Comté,Type de cérémonie,Civil,0.83
+2019,Bretagne,Dépenses,Premium,0.52
+2019,Bretagne,Lieu de réception,Château,0.43
+2019,Bretagne,Professionnel le plus solicité,Wedding Planner,0.25
+2019,Bretagne,Style de crérémonie,Chic,0.26
+2019,Bretagne,Type de cérémonie,Civil,0.57
+2019,Centre-Val de Loire,Dépenses,Premium,0.57
+2019,Centre-Val de Loire,Lieu de réception,Château,0.53
+2019,Centre-Val de Loire,Professionnel le plus solicité,Wedding Planner,0.23
+2019,Centre-Val de Loire,Style de crérémonie,Chic,0.26
+2019,Centre-Val de Loire,Type de cérémonie,Civil,0.47
+2019,Corse,Dépenses,NA,NA
+2019,Corse,Lieu de réception,NA,NA
+2019,Corse,Professionnel le plus solicité,NA,NA
+2019,Corse,Style de crérémonie,NA,NA
+2019,Corse,Type de cérémonie,NA,NA
+2019,France,Dépenses,Premium,0.56
+2019,France,Lieu de réception,Château,0.45
+2019,France,Professionnel le plus solicité,Wedding Planner,0.23
+2019,France,Style de crérémonie,Chic,0.26
+2019,France,Type de cérémonie,Civil,0.6
+2019,Grand-Est,Dépenses,Premium,0.51
+2019,Grand-Est,Lieu de réception,Château,0.63
+2019,Grand-Est,Professionnel le plus solicité,Wedding Planner,0.26
+2019,Grand-Est,Style de crérémonie,Chic,0.33
+2019,Grand-Est,Type de cérémonie,Civil,0.72
+2019,Hauts-de-France,Dépenses,Premium,0.51
+2019,Hauts-de-France,Lieu de réception,Château,0.5
+2019,Hauts-de-France,Professionnel le plus solicité,Wedding Planner,0.27
+2019,Hauts-de-France,Style de crérémonie,Chic,0.29
+2019,Hauts-de-France,Type de cérémonie,Civil,0.58
+2019,Normandie,Dépenses,Premium,0.52
+2019,Normandie,Lieu de réception,Château,0.58
+2019,Normandie,Professionnel le plus solicité,Wedding Planner,0.32
+2019,Normandie,Style de crérémonie,Chic,0.38
+2019,Normandie,Type de cérémonie,Civil,0.64
+2019,Nouvelle-Aquitaine,Dépenses,Premium,0.54
+2019,Nouvelle-Aquitaine,Lieu de réception,Château,0.58
+2019,Nouvelle-Aquitaine,Professionnel le plus solicité,Wedding Planner,0.23
+2019,Nouvelle-Aquitaine,Style de crérémonie,Chic,0.21
+2019,Nouvelle-Aquitaine,Type de cérémonie,Civil,0.76
+2019,Occitanie,Dépenses,Premium,0.53
+2019,Occitanie,Lieu de réception,Château,0.44
+2019,Occitanie,Professionnel le plus solicité,Couturier,0.22
+2019,Occitanie,Style de crérémonie,Chic,0.25
+2019,Occitanie,Type de cérémonie,Civil,0.71
+2019,Pays de la Loire,Dépenses,Premium,0.52
+2019,Pays de la Loire,Lieu de réception,Château,0.43
+2019,Pays de la Loire,Professionnel le plus solicité,Wedding Planner,0.21
+2019,Pays de la Loire,Style de crérémonie,Chic,0.19
+2019,Pays de la Loire,Type de cérémonie,Civil,0.48
+2019,Provence-Alpes-Côte d'Azur,Dépenses,Premium,0.56
+2019,Provence-Alpes-Côte d'Azur,Lieu de réception,Château,0.39
+2019,Provence-Alpes-Côte d'Azur,Professionnel le plus solicité,Couturier,0.22
+2019,Provence-Alpes-Côte d'Azur,Style de crérémonie,Original,0.19
+2019,Provence-Alpes-Côte d'Azur,Type de cérémonie,Civil,0.47
+2019,Île-de-France,Dépenses,Premium,0.56
+2019,Île-de-France,Lieu de réception,Château,0.43
+2019,Île-de-France,Professionnel le plus solicité,Fleuriste,0.21
+2019,Île-de-France,Style de crérémonie,Chic,0.23
+2019,Île-de-France,Type de cérémonie,Civil,0.61
+2020,Auvergne-Rhône-Alpes,Dépenses,Premium,0.53
+2020,Auvergne-Rhône-Alpes,Lieu de réception,Château,0.65
+2020,Auvergne-Rhône-Alpes,Professionnel le plus solicité,Couturier,0.22
+2020,Auvergne-Rhône-Alpes,Style de crérémonie,Nature,0.25
+2020,Auvergne-Rhône-Alpes,Type de cérémonie,Civil,0.72
+2020,Bourgogne-Franche-Comté,Dépenses,Premium,0.54
+2020,Bourgogne-Franche-Comté,Lieu de réception,Château,0.9
+2020,Bourgogne-Franche-Comté,Professionnel le plus solicité,Couturier,0.21
+2020,Bourgogne-Franche-Comté,Style de crérémonie,Chic,0.33
+2020,Bourgogne-Franche-Comté,Type de cérémonie,Civil,0.78
+2020,Bretagne,Dépenses,Premium,0.52
+2020,Bretagne,Lieu de réception,Château,0.54
+2020,Bretagne,Professionnel le plus solicité,Wedding Planner,0.23
+2020,Bretagne,Style de crérémonie,Chic,0.22
+2020,Bretagne,Type de cérémonie,Laïque,0.52
+2020,Centre-Val de Loire,Dépenses,Premium,0.58
+2020,Centre-Val de Loire,Lieu de réception,Château,0.23
+2020,Centre-Val de Loire,Professionnel le plus solicité,Fleuriste,0.25
+2020,Centre-Val de Loire,Style de crérémonie,Chic,0.28
+2020,Centre-Val de Loire,Type de cérémonie,Civil,0.58
+2020,Corse,Dépenses,NA,NA
+2020,Corse,Lieu de réception,NA,NA
+2020,Corse,Professionnel le plus solicité,NA,NA
+2020,Corse,Style de crérémonie,NA,NA
+2020,Corse,Type de cérémonie,NA,NA
+2020,France,Dépenses,Premium,0.57
+2020,France,Lieu de réception,Château,0.44
+2020,France,Professionnel le plus solicité,Wedding Planner,0.21
+2020,France,Style de crérémonie,Chic,0.22
+2020,France,Type de cérémonie,Civil,0.57
+2020,Grand-Est,Dépenses,Premium,0.51
+2020,Grand-Est,Lieu de réception,Château,0.66
+2020,Grand-Est,Professionnel le plus solicité,Wedding Planner,0.24
+2020,Grand-Est,Style de crérémonie,Chic,0.41
+2020,Grand-Est,Type de cérémonie,Civil,0.82
+2020,Hauts-de-France,Dépenses,Premium,0.53
+2020,Hauts-de-France,Lieu de réception,Château,0.60
+2020,Hauts-de-France,Professionnel le plus solicité,Couturier,0.24
+2020,Hauts-de-France,Style de crérémonie,Chic,0.26
+2020,Hauts-de-France,Type de cérémonie,Civil,0.69
+2020,Normandie,Dépenses,Premium,0.53
+2020,Normandie,Lieu de réception,Château,0.49
+2020,Normandie,Professionnel le plus solicité,Wedding Planner,0.28
+2020,Normandie,Style de crérémonie,Chic,0.44
+2020,Normandie,Type de cérémonie,Civil,0.7
+2020,Nouvelle-Aquitaine,Dépenses,Premium,0.53
+2020,Nouvelle-Aquitaine,Lieu de réception,Château,0.62
+2020,Nouvelle-Aquitaine,Professionnel le plus solicité,Fleuriste,0.20
+2020,Nouvelle-Aquitaine,Professionnel le plus solicité,Wedding Planner,0.2
+2020,Nouvelle-Aquitaine,Style de crérémonie,Chic,0.21
+2020,Nouvelle-Aquitaine,Type de cérémonie,Civil,0.81
+2020,Occitanie,Dépenses,Premium,0.52
+2020,Occitanie,Lieu de réception,Château,0.47
+2020,Occitanie,Professionnel le plus solicité,Wedding Planner,0.24
+2020,Occitanie,Style de crérémonie,Chic,0.27
+2020,Occitanie,Type de cérémonie,Civil,0.79
+2020,Pays de la Loire,Dépenses,Premium,0.51
+2020,Pays de la Loire,Lieu de réception,Château,0.39
+2020,Pays de la Loire,Professionnel le plus solicité,Photographe,0.21
+2020,Pays de la Loire,Style de crérémonie,Original,0.3
+2020,Pays de la Loire,Type de cérémonie,Civil,0.56
+2020,Provence-Alpes-Côte d'Azur,Dépenses,Premium,0.59
+2020,Provence-Alpes-Côte d'Azur,Lieu de réception,Jardin,0.34
+2020,Provence-Alpes-Côte d'Azur,Professionnel le plus solicité,Couturier,0.24
+2020,Provence-Alpes-Côte d'Azur,Style de crérémonie,Original,0.17
+2020,Provence-Alpes-Côte d'Azur,Type de cérémonie,Civil,0.58
+2020,Île-de-France,Dépenses,Premium,0.54
+2020,Île-de-France,Lieu de réception,Château,0.48
+2020,Île-de-France,Professionnel le plus solicité,Couturier,0.2
+2020,Île-de-France,Style de crérémonie,Chic,0.23
+2020,Île-de-France,Type de cérémonie,Civil,0.62

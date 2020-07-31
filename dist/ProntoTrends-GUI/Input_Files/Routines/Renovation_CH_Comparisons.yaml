@@ -1,0 +1,32 @@
+name: Renovation
+tags_included:  # choose either of Tag ID or Tag Name
+    - 102
+    - 103
+    - 172
+    - 82
+    - 131
+    - 602
+    - 182
+    - 215
+    - 166
+    - 144
+    - 679
+    - 143
+    - 90
+group_by_tag_name: True
+min_date: '2018-01-01'
+tag_categories:
+    All_Renovation:
+        - Dächer reparieren und warten
+        - Dächer sanieren und decken
+        - Energieausweis für Gebäude austellen
+        - Fenster einbauen und/oder austauschen
+        - Flächen und Fassaden renovieren
+        - Heimatautomatisierung
+        - Rollläden motorisieren oder automatisieren
+        - Solaranlagen installieren oder austauschen
+        - Tore und Türen automatisieren/motorisieren
+        - Videoüberwachungsanlagen installieren
+        - Videoüberwachungsanlagen warten oder reparieren
+        - Diebstahlwarn- und Alarmanlage installieren oder reparieren
+        - Garten und Pflanzen pflegen

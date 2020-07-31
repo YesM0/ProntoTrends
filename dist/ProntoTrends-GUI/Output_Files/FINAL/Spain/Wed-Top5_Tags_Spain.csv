@@ -1,0 +1,301 @@
+ticket_geo_region_name,ticket_taxonomy_tag_name,year,Rank,Max,Min,Demand_factor_max_to_min
+Andalucía,Maquillaje,2018,1,9,6,2.9
+Andalucía,Dj,2018,2,7,10,1.57
+Andalucía,fotografia,2018,3,1,6,1.48
+Andalucía,catering,2018,4,8,11,1.85
+Andalucía,publicidad,2018,5,4,7,1.54
+Aragón,Dj,2018,1,8,1,1.64
+Aragón,Maquillaje,2018,2,9,5,3.4
+Aragón,fotografia,2018,3,4,11,1.47
+Aragón,publicidad,2018,4,0,7,2.67
+Aragón,catering,2018,5,11,2,2.04
+Asturias,Maquillaje,2018,1,1,6,2.99
+Asturias,Dj,2018,2,3,10,2.01
+Asturias,publicidad,2018,3,0,11,1.73
+Asturias,fotografia,2018,4,10,6,2.16
+Asturias,catering,2018,5,0,10,3.4
+Illes Balears,Dj,2018,1,7,1,3.06
+Illes Balears,Maquillaje,2018,2,9,6,4.83
+Illes Balears,fotografia,2018,3,2,5,2.46
+Illes Balears,publicidad,2018,4,11,7,1.93
+Illes Balears,catering,2018,5,11,7,1.84
+País Vasco,Maquillaje,2018,1,1,7,3.77
+País Vasco,Dj,2018,2,3,0,1.62
+País Vasco,fotografia,2018,3,1,7,1.57
+País Vasco,publicidad,2018,4,0,7,1.74
+País Vasco,catering,2018,5,10,6,1.91
+Islas Canarias,Maquillaje,2018,1,1,3,5.1
+Islas Canarias,fotografia,2018,2,10,11,1.63
+Islas Canarias,publicidad,2018,3,3,6,1.67
+Islas Canarias,catering,2018,4,10,1,1.69
+Islas Canarias,Dj,2018,5,3,2,1.74
+Cantabria,Maquillaje,2018,1,9,6,3.34
+Cantabria,Dj,2018,2,6,9,2.25
+Cantabria,fotografia,2018,3,1,11,1.84
+Cantabria,publicidad,2018,4,10,6,2.21
+Cantabria,Pastelería,2018,5,9,1,13.98
+Castilla y León,Maquillaje,2018,1,9,5,3.25
+Castilla y León,Dj,2018,2,7,10,1.56
+Castilla y León,fotografia,2018,3,1,4,1.55
+Castilla y León,publicidad,2018,4,10,7,1.58
+Castilla y León,catering,2018,5,8,1,1.53
+Castilla-La Mancha,Maquillaje,2018,1,9,7,3.04
+Castilla-La Mancha,Dj,2018,2,3,9,1.71
+Castilla-La Mancha,publicidad,2018,3,9,6,1.82
+Castilla-La Mancha,fotografia,2018,4,3,11,1.8
+Castilla-La Mancha,Mago,2018,5,11,5,2.4
+Cataluña,Maquillaje,2018,1,9,7,2.96
+Cataluña,publicidad,2018,2,1,7,1.76
+Cataluña,fotografia,2018,3,10,5,1.2
+Cataluña,catering,2018,4,10,7,1.54
+Cataluña,Dj,2018,5,7,10,1.41
+Ceuta,Maquillaje,2018,1,11,6,3.81
+Ceuta,Joyeria,2018,2,7,1,26.68
+Ceuta,Dj,2018,3,10,11,5.0
+Ceuta,Mago,2018,4,2,3,16.84
+Ceuta,fotografia,2018,5,8,2,14.08
+Madrid,Dj,2018,1,3,1,1.45
+Madrid,fotografia,2018,2,1,3,1.36
+Madrid,publicidad,2018,3,1,7,1.67
+Madrid,Maquillaje,2018,4,9,6,3.17
+Madrid,catering,2018,5,11,7,1.65
+Extremadura,Maquillaje,2018,1,1,8,3.92
+Extremadura,Dj,2018,2,7,4,1.66
+Extremadura,fotografia,2018,3,4,11,1.77
+Extremadura,publicidad,2018,4,0,8,1.66
+Extremadura,catering,2018,5,11,1,2.19
+Galicia,Maquillaje,2018,1,1,6,4.54
+Galicia,Dj,2018,2,3,1,1.74
+Galicia,fotografia,2018,3,10,4,1.3
+Galicia,publicidad,2018,4,0,7,1.64
+Galicia,catering,2018,5,10,7,1.82
+La Rioja,Maquillaje,2018,1,9,4,3.83
+La Rioja,Dj,2018,2,3,11,1.97
+La Rioja,fotografia,2018,3,7,6,2.2
+La Rioja,publicidad,2018,4,0,8,2.83
+La Rioja,Pastelería,2018,5,11,0,18.76
+Melilla,Maquillaje,2018,1,9,4,2.64
+Melilla,publicidad,2018,2,5,2,46.31
+Melilla,Dj,2018,3,7,9,32.54
+Melilla,Joyeria,2018,4,6,8,25.55
+Melilla,Mago,2018,5,4,5,20.36
+Navarra,Maquillaje,2018,1,1,6,2.5
+Navarra,publicidad,2018,2,2,6,1.95
+Navarra,fotografia,2018,3,9,7,1.79
+Navarra,catering,2018,4,5,11,1.73
+Navarra,Dj,2018,5,6,9,2.1
+Murcia,Maquillaje,2018,1,9,4,3.48
+Murcia,Dj,2018,2,3,8,1.63
+Murcia,publicidad,2018,3,1,6,2.24
+Murcia,fotografia,2018,4,8,6,2.16
+Murcia,catering,2018,5,9,3,1.57
+España,Dj,2018,1,3,10,1.39
+España,Maquillaje,2018,2,9,6,3.03
+España,publicidad,2018,3,10,7,1.61
+España,fotografia,2018,4,1,6,1.3
+España,catering,2018,5,8,7,1.47
+Valencia,Dj,2018,1,7,10,1.44
+Valencia,Maquillaje,2018,2,9,6,3.37
+Valencia,publicidad,2018,3,1,7,2.19
+Valencia,fotografia,2018,4,1,7,1.42
+Valencia,catering,2018,5,1,6,1.5
+Andalucía,Maquillaje,2019,1,9,6,3.21
+Andalucía,Dj,2019,2,7,10,1.66
+Andalucía,catering,2019,3,8,7,1.92
+Andalucía,publicidad,2019,4,1,7,1.59
+Andalucía,fotografia,2019,5,1,6,1.44
+Aragón,Maquillaje,2019,1,9,5,3.8
+Aragón,Dj,2019,2,7,3,1.69
+Aragón,fotografia,2019,3,1,3,1.7
+Aragón,publicidad,2019,4,5,7,1.81
+Aragón,Mago,2019,5,7,4,6.21
+Asturias,Maquillaje,2019,1,9,6,3.65
+Asturias,Dj,2019,2,7,3,1.76
+Asturias,publicidad,2019,3,2,7,2.93
+Asturias,Mago,2019,4,7,5,4.38
+Asturias,fotografia,2019,5,9,6,1.59
+Illes Balears,Maquillaje,2019,1,9,4,5.22
+Illes Balears,Dj,2019,2,7,10,2.81
+Illes Balears,publicidad,2019,3,1,7,2.62
+Illes Balears,fotografia,2019,4,1,6,2.0
+Illes Balears,Mago,2019,5,7,3,6.82
+País Vasco,Maquillaje,2019,1,1,6,3.3
+País Vasco,Dj,2019,2,6,10,1.86
+País Vasco,publicidad,2019,3,4,7,1.96
+País Vasco,fotografia,2019,4,8,5,1.41
+País Vasco,Mago,2019,5,7,6,4.11
+Islas Canarias,Maquillaje,2019,1,2,7,3.91
+Islas Canarias,fotografia,2019,2,8,3,1.42
+Islas Canarias,publicidad,2019,3,9,6,1.51
+Islas Canarias,catering,2019,4,5,0,1.93
+Islas Canarias,Mago,2019,5,7,2,5.09
+Cantabria,Maquillaje,2019,1,9,6,4.21
+Cantabria,Dj,2019,2,6,0,2.08
+Cantabria,publicidad,2019,3,0,7,2.89
+Cantabria,fotografia,2019,4,2,6,2.05
+Cantabria,catering,2019,5,4,8,3.89
+Castilla y León,Maquillaje,2019,1,9,6,3.14
+Castilla y León,Dj,2019,2,7,3,1.7
+Castilla y León,fotografia,2019,3,10,6,1.3
+Castilla y León,publicidad,2019,4,4,6,1.74
+Castilla y León,Mago,2019,5,7,10,4.0
+Castilla-La Mancha,Dj,2019,1,7,2,1.78
+Castilla-La Mancha,Maquillaje,2019,2,9,0,3.57
+Castilla-La Mancha,Mago,2019,3,7,10,4.0
+Castilla-La Mancha,fotografia,2019,4,9,3,1.52
+Castilla-La Mancha,publicidad,2019,5,2,6,1.94
+Cataluña,Maquillaje,2019,1,1,7,3.44
+Cataluña,publicidad,2019,2,2,7,1.82
+Cataluña,Mago,2019,3,11,4,4.71
+Cataluña,fotografia,2019,4,0,7,1.35
+Cataluña,catering,2019,5,11,7,1.54
+Ceuta,Maquillaje,2019,1,9,8,9.78
+Ceuta,Dj,2019,2,9,3,24.79
+Ceuta,Joyeria,2019,3,6,1,24.03
+Ceuta,Mago,2019,4,8,6,18.92
+Ceuta,fotografia,2019,5,5,11,15.14
+Madrid,Dj,2019,1,7,10,1.36
+Madrid,Maquillaje,2019,2,9,6,3.25
+Madrid,publicidad,2019,3,1,7,1.65
+Madrid,fotografia,2019,4,1,6,1.22
+Madrid,catering,2019,5,5,7,1.76
+Extremadura,Maquillaje,2019,1,1,6,3.73
+Extremadura,Dj,2019,2,6,4,2.11
+Extremadura,fotografia,2019,3,0,6,1.9
+Extremadura,publicidad,2019,4,4,11,2.08
+Extremadura,Mago,2019,5,7,5,4.83
+Galicia,Maquillaje,2019,1,9,4,3.38
+Galicia,Dj,2019,2,6,10,1.7
+Galicia,fotografia,2019,3,0,4,1.53
+Galicia,publicidad,2019,4,8,7,1.47
+Galicia,Mago,2019,5,7,4,5.12
+La Rioja,Dj,2019,1,8,9,2.13
+La Rioja,Maquillaje,2019,2,9,5,2.66
+La Rioja,fotografia,2019,3,8,1,2.31
+La Rioja,publicidad,2019,4,2,6,3.25
+La Rioja,Pastelería,2019,5,11,1,5.36
+Melilla,Maquillaje,2019,1,1,6,2.84
+Melilla,Mago,2019,2,7,1,27.55
+Melilla,Joyeria,2019,3,7,9,24.55
+Melilla,publicidad,2019,4,5,7,22.68
+Melilla,Dj,2019,5,8,3,21.56
+Navarra,Maquillaje,2019,1,9,6,3.29
+Navarra,publicidad,2019,2,0,10,1.78
+Navarra,fotografia,2019,3,9,4,1.7
+Navarra,Mago,2019,4,7,6,3.85
+Navarra,catering,2019,5,9,1,2.59
+Murcia,Maquillaje,2019,1,9,5,3.04
+Murcia,Dj,2019,2,7,2,1.81
+Murcia,publicidad,2019,3,1,6,1.77
+Murcia,fotografia,2019,4,1,5,1.83
+Murcia,Mago,2019,5,7,6,4.43
+España,Dj,2019,1,7,10,1.59
+España,Maquillaje,2019,2,9,6,3.29
+España,publicidad,2019,3,0,7,1.7
+España,fotografia,2019,4,0,6,1.28
+España,catering,2019,5,8,7,1.52
+Valencia,Dj,2019,1,7,9,1.51
+Valencia,Maquillaje,2019,2,9,6,3.43
+Valencia,publicidad,2019,3,2,7,1.84
+Valencia,fotografia,2019,4,8,6,1.34
+Valencia,Mago,2019,5,7,4,3.68
+Andalucía,Dj,2020,1,3,1,1.41
+Andalucía,Maquillaje,2020,2,1,2,2.09
+Andalucía,publicidad,2020,3,4,2,1.42
+Andalucía,fotografia,2020,4,0,2,1.26
+Andalucía,catering,2020,5,0,3,2.63
+Aragón,Dj,2020,1,3,4,1.6
+Aragón,publicidad,2020,2,1,2,1.74
+Aragón,Maquillaje,2020,3,1,2,2.31
+Aragón,fotografia,2020,4,0,2,1.55
+Aragón,catering,2020,5,0,1,1.89
+Asturias,Maquillaje,2020,1,1,2,3.66
+Asturias,Dj,2020,2,3,2,1.53
+Asturias,publicidad,2020,3,1,3,1.78
+Asturias,fotografia,2020,4,1,2,1.99
+Asturias,Mago,2020,5,0,4,1.82
+Illes Balears,Maquillaje,2020,1,1,2,2.61
+Illes Balears,fotografia,2020,2,0,2,1.53
+Illes Balears,Dj,2020,3,3,4,1.52
+Illes Balears,publicidad,2020,4,1,2,1.21
+Illes Balears,catering,2020,5,0,2,2.7
+País Vasco,Maquillaje,2020,1,1,2,4.59
+País Vasco,Dj,2020,2,2,0,1.23
+País Vasco,publicidad,2020,3,0,2,1.38
+País Vasco,fotografia,2020,4,0,2,1.67
+País Vasco,catering,2020,5,4,2,1.55
+Islas Canarias,Maquillaje,2020,1,1,0,3.47
+Islas Canarias,fotografia,2020,2,4,1,1.27
+Islas Canarias,publicidad,2020,3,4,2,1.26
+Islas Canarias,catering,2020,4,0,3,2.08
+Islas Canarias,Pastelería,2020,5,4,2,1.95
+Cantabria,Maquillaje,2020,1,1,2,3.22
+Cantabria,Dj,2020,2,0,3,1.29
+Cantabria,fotografia,2020,3,1,4,2.76
+Cantabria,publicidad,2020,4,1,0,1.6
+Cantabria,Joyeria,2020,5,1,3,2.45
+Castilla y León,Dj,2020,1,3,1,1.6
+Castilla y León,Maquillaje,2020,2,1,2,3.4
+Castilla y León,publicidad,2020,3,3,1,1.35
+Castilla y León,fotografia,2020,4,1,4,1.43
+Castilla y León,catering,2020,5,1,3,2.04
+Castilla-La Mancha,Maquillaje,2020,1,1,2,3.91
+Castilla-La Mancha,Dj,2020,2,3,1,1.33
+Castilla-La Mancha,publicidad,2020,3,4,3,1.56
+Castilla-La Mancha,fotografia,2020,4,0,3,1.64
+Castilla-La Mancha,catering,2020,5,1,4,1.92
+Cataluña,Maquillaje,2020,1,1,2,3.17
+Cataluña,publicidad,2020,2,4,2,1.41
+Cataluña,fotografia,2020,3,1,2,1.23
+Cataluña,catering,2020,4,1,4,1.89
+Cataluña,Mago,2020,5,0,4,3.14
+Ceuta,Maquillaje,2020,1,1,3,1.82
+Ceuta,Mago,2020,2,1,4,13.62
+Ceuta,Peluquero,2020,3,4,3,12.49
+Ceuta,fotografia,2020,4,4,2,4.44
+Ceuta,Dj,2020,5,4,0,2.78
+Madrid,Dj,2020,1,3,1,1.38
+Madrid,publicidad,2020,2,4,2,1.27
+Madrid,fotografia,2020,3,0,2,1.54
+Madrid,catering,2020,4,0,3,1.84
+Madrid,Maquillaje,2020,5,1,2,1.95
+Extremadura,Maquillaje,2020,1,1,2,4.12
+Extremadura,Dj,2020,2,2,1,1.28
+Extremadura,publicidad,2020,3,1,2,1.79
+Extremadura,fotografia,2020,4,1,2,1.59
+Extremadura,catering,2020,5,1,3,2.04
+Galicia,Maquillaje,2020,1,1,2,4.97
+Galicia,Dj,2020,2,3,4,1.31
+Galicia,fotografia,2020,3,0,2,1.61
+Galicia,publicidad,2020,4,0,2,1.29
+Galicia,catering,2020,5,1,3,2.61
+La Rioja,Maquillaje,2020,1,1,4,2.5
+La Rioja,fotografia,2020,2,1,3,2.03
+La Rioja,Dj,2020,3,1,2,1.22
+La Rioja,publicidad,2020,4,0,1,2.18
+La Rioja,Pastelería,2020,5,1,3,3.67
+Melilla,Maquillaje,2020,1,0,3,2.47
+Melilla,Mago,2020,2,2,3,7.96
+Melilla,Joyeria,2020,3,1,2,6.67
+Melilla,publicidad,2020,4,1,4,22.16
+Melilla,fotografia,2020,5,4,2,6.43
+Navarra,Maquillaje,2020,1,1,4,2.03
+Navarra,publicidad,2020,2,0,1,1.26
+Navarra,fotografia,2020,3,1,2,1.5
+Navarra,catering,2020,4,1,3,4.21
+Navarra,Mago,2020,5,0,3,1.41
+Murcia,Dj,2020,1,3,1,1.33
+Murcia,Maquillaje,2020,2,1,2,2.86
+Murcia,publicidad,2020,3,4,2,1.66
+Murcia,fotografia,2020,4,0,4,2.92
+Murcia,catering,2020,5,1,4,5.14
+España,Dj,2020,1,3,1,1.3
+España,Maquillaje,2020,2,1,2,2.66
+España,publicidad,2020,3,4,2,1.32
+España,fotografia,2020,4,0,2,1.35
+España,catering,2020,5,1,3,1.87
+Valencia,Dj,2020,1,3,1,1.37
+Valencia,publicidad,2020,2,1,2,1.42
+Valencia,fotografia,2020,3,0,2,1.29
+Valencia,Maquillaje,2020,4,1,2,2.04
+Valencia,catering,2020,5,1,3,2.54

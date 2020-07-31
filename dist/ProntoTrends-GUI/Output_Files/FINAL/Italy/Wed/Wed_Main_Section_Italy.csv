@@ -1,0 +1,379 @@
+Year,ticket_geo_region_name,Type,sub_type,Percentage
+2018,Abruzzo,Costo,standard,0.71
+2018,Abruzzo,Professionista più richiesto,Fotografo di matrimonio,0.47
+2018,Abruzzo,Tipo di cerimonia,NA,NA
+2018,Abruzzo,Location,Villa,0.72
+2018,Abruzzo,Cibo,NA,NA
+2018,Abruzzo,Stile,NA,NA
+2018,Valle d'Aosta,Costo,NA,NA
+2018,Valle d'Aosta,Professionista più richiesto,Wedding planner,0.22
+2018,Valle d'Aosta,Tipo di cerimonia,NA,NA
+2018,Valle d'Aosta,Location,NA,NA
+2018,Valle d'Aosta,Cibo,NA,NA
+2018,Valle d'Aosta,Stile,NA,NA
+2018,Puglia,Costo,standard,0.74
+2018,Puglia,Professionista più richiesto,Fotografo di matrimonio,0.32
+2018,Puglia,Tipo di cerimonia,Religioso,0.67
+2018,Puglia,Location,Ristorante,0.28
+2018,Puglia,Cibo,NA,NA
+2018,Puglia,Stile,Elegante,0.5
+2018,Basilicata,Costo,NA,NA
+2018,Basilicata,Professionista più richiesto,Fotografo di matrimonio,0.38
+2018,Basilicata,Tipo di cerimonia,NA,NA
+2018,Basilicata,Location,NA,NA
+2018,Basilicata,Cibo,NA,NA
+2018,Basilicata,Stile,NA,NA
+2018,Calabria,Costo,standard,0.72
+2018,Calabria,Professionista più richiesto,Fotografo di matrimonio,0.29
+2018,Calabria,Tipo di cerimonia,NA,NA
+2018,Calabria,Location,Ristorante,0.35
+2018,Calabria,Cibo,NA,NA
+2018,Calabria,Stile,NA,NA
+2018,Campania,Costo,standard,0.71
+2018,Campania,Professionista più richiesto,Fotografo di matrimonio,0.27
+2018,Campania,Tipo di cerimonia,Religioso,0.71
+2018,Campania,Location,Ristorante,0.36
+2018,Campania,Cibo,NA,NA
+2018,Campania,Stile,Elegante,0.61
+2018,Emilia-Romagna,Costo,standard,0.81
+2018,Emilia-Romagna,Professionista più richiesto,Fotografo di matrimonio,0.25
+2018,Emilia-Romagna,Tipo di cerimonia,Civile,0.55
+2018,Emilia-Romagna,Location,Villa,0.17
+2018,Emilia-Romagna,Cibo,NA,NA
+2018,Emilia-Romagna,Stile,Elegante,0.58
+2018,Friuli Venezia Giulia,Costo,standard,0.76
+2018,Friuli Venezia Giulia,Professionista più richiesto,Affitto location matrimonio,0.31
+2018,Friuli Venezia Giulia,Tipo di cerimonia,NA,NA
+2018,Friuli Venezia Giulia,Location,Villa,0.5
+2018,Friuli Venezia Giulia,Cibo,NA,NA
+2018,Friuli Venezia Giulia,Stile,NA,NA
+2018,Italia,Costo,standard,0.78
+2018,Italia,Professionista più richiesto,Fotografo di matrimonio,0.3
+2018,Italia,Tipo di cerimonia,Religioso,0.48
+2018,Italia,Location,Villa,0.52
+2018,Italia,Cibo,NA,NA
+2018,Italia,Stile,Elegante,0.35
+2018,Lazio,Costo,standard,0.81
+2018,Lazio,Professionista più richiesto,Fotografo di matrimonio,0.34
+2018,Lazio,Tipo di cerimonia,Civile,0.49
+2018,Lazio,Location,Villa,0.33
+2018,Lazio,Cibo,NA,NA
+2018,Lazio,Stile,Elegante,0.46
+2018,Liguria,Costo,standard,0.82
+2018,Liguria,Professionista più richiesto,Affitto location matrimonio,0.27
+2018,Liguria,Tipo di cerimonia,NA,NA
+2018,Liguria,Location,Ristorante,0.37
+2018,Liguria,Cibo,NA,NA
+2018,Liguria,Stile,NA,NA
+2018,Lombardia,Costo,standard,0.8
+2018,Lombardia,Professionista più richiesto,Fotografo di matrimonio,0.32
+2018,Lombardia,Tipo di cerimonia,Civile,0.5
+2018,Lombardia,Location,Villa,0.32
+2018,Lombardia,Cibo,NA,NA
+2018,Lombardia,Stile,Elegante,0.41
+2018,Marche,Costo,standard,0.76
+2018,Marche,Professionista più richiesto,Affitto location matrimonio,0.28
+2018,Marche,Tipo di cerimonia,NA,NA
+2018,Marche,Location,Villa,0.84
+2018,Marche,Cibo,NA,NA
+2018,Marche,Stile,NA,NA
+2018,Molise,Costo,NA,NA
+2018,Molise,Professionista più richiesto,Fotografo di matrimonio,0.34
+2018,Molise,Tipo di cerimonia,NA,NA
+2018,Molise,Location,NA,NA
+2018,Molise,Cibo,NA,NA
+2018,Molise,Stile,NA,NA
+2018,Piemonte,Costo,standard,0.83
+2018,Piemonte,Professionista più richiesto,Fotografo di matrimonio,0.31
+2018,Piemonte,Tipo di cerimonia,Civile,0.62
+2018,Piemonte,Location,Ristorante,0.2
+2018,Piemonte,Cibo,NA,NA
+2018,Piemonte,Stile,NA,NA
+2018,Sardegna,Costo,standard,0.78
+2018,Sardegna,Professionista più richiesto,Affitto location matrimonio,0.29
+2018,Sardegna,Tipo di cerimonia,NA,NA
+2018,Sardegna,Location,Ristorante,0.35
+2018,Sardegna,Cibo,NA,NA
+2018,Sardegna,Stile,NA,NA
+2018,Sicilia,Costo,standard,0.73
+2018,Sicilia,Professionista più richiesto,Fotografo di matrimonio,0.31
+2018,Sicilia,Tipo di cerimonia,Religioso,0.58
+2018,Sicilia,Location,Villa,0.25
+2018,Sicilia,Cibo,NA,NA
+2018,Sicilia,Stile,Elegante,0.61
+2018,Toscana,Costo,standard,0.79
+2018,Toscana,Professionista più richiesto,Fotografo di matrimonio,0.28
+2018,Toscana,Tipo di cerimonia,Civile,0.6
+2018,Toscana,Location,Villa,0.17
+2018,Toscana,Cibo,NA,NA
+2018,Toscana,Stile,NA,NA
+2018,Trentino-Alto Adige,Costo,standard,0.81
+2018,Trentino-Alto Adige,Professionista più richiesto,Fotografo di matrimonio,0.32
+2018,Trentino-Alto Adige,Tipo di cerimonia,NA,NA
+2018,Trentino-Alto Adige,Location,NA,NA
+2018,Trentino-Alto Adige,Cibo,NA,NA
+2018,Trentino-Alto Adige,Stile,NA,NA
+2018,Umbria,Costo,standard,0.81
+2018,Umbria,Professionista più richiesto,Fotografo di matrimonio,0.28
+2018,Umbria,Tipo di cerimonia,NA,NA
+2018,Umbria,Location,NA,NA
+2018,Umbria,Cibo,NA,NA
+2018,Umbria,Stile,NA,NA
+2018,Veneto,Costo,standard,0.81
+2018,Veneto,Professionista più richiesto,Fotografo di matrimonio,0.33
+2018,Veneto,Tipo di cerimonia,Civile,0.61
+2018,Veneto,Location,Ristorante,0.28
+2018,Veneto,Cibo,NA,NA
+2018,Veneto,Stile,Elegante,0.55
+2019,Abruzzo,Costo,standard,0.79
+2019,Abruzzo,Professionista più richiesto,Affitto location matrimonio,0.43
+2019,Abruzzo,Tipo di cerimonia,Civile,0.63
+2019,Abruzzo,Location,Ristorante,0.36
+2019,Abruzzo,Cibo,NA,NA
+2019,Abruzzo,Stile,NA,NA
+2019,Valle d'Aosta,Costo,NA,NA
+2019,Valle d'Aosta,Professionista più richiesto,Affitto location matrimonio,0.44
+2019,Valle d'Aosta,Tipo di cerimonia,NA,NA
+2019,Valle d'Aosta,Location,NA,NA
+2019,Valle d'Aosta,Cibo,NA,NA
+2019,Valle d'Aosta,Stile,NA,NA
+2019,Puglia,Costo,standard,0.82
+2019,Puglia,Professionista più richiesto,Affitto location matrimonio,0.34
+2019,Puglia,Tipo di cerimonia,Civile,0.55
+2019,Puglia,Location,Ristorante,0.25
+2019,Puglia,Cibo,NA,NA
+2019,Puglia,Stile,Elegante,0.73
+2019,Basilicata,Costo,NA,NA
+2019,Basilicata,Professionista più richiesto,Affitto location matrimonio,0.22
+2019,Basilicata,Tipo di cerimonia,NA,NA
+2019,Basilicata,Location,NA,NA
+2019,Basilicata,Cibo,NA,NA
+2019,Basilicata,Stile,NA,NA
+2019,Calabria,Costo,standard,0.81
+2019,Calabria,Professionista più richiesto,Affitto location matrimonio,0.37
+2019,Calabria,Tipo di cerimonia,Religioso,0.56
+2019,Calabria,Location,Ristorante,0.42
+2019,Calabria,Cibo,NA,NA
+2019,Calabria,Stile,NA,NA
+2019,Campania,Costo,standard,0.78
+2019,Campania,Professionista più richiesto,Affitto location matrimonio,0.4
+2019,Campania,Tipo di cerimonia,Religioso,0.68
+2019,Campania,Location,Villa,0.44
+2019,Campania,Cibo,NA,NA
+2019,Campania,Stile,Elegante,0.64
+2019,Emilia-Romagna,Costo,standard,0.86
+2019,Emilia-Romagna,Professionista più richiesto,Affitto location matrimonio,0.47
+2019,Emilia-Romagna,Tipo di cerimonia,Civile,0.73
+2019,Emilia-Romagna,Location,Villa,0.24
+2019,Emilia-Romagna,Cibo,NA,NA
+2019,Emilia-Romagna,Stile,Elegante,0.5
+2019,Friuli Venezia Giulia,Costo,standard,0.87
+2019,Friuli Venezia Giulia,Professionista più richiesto,Affitto location matrimonio,0.49
+2019,Friuli Venezia Giulia,Tipo di cerimonia,Civile,0.76
+2019,Friuli Venezia Giulia,Location,Villa,0.5
+2019,Friuli Venezia Giulia,Cibo,NA,NA
+2019,Friuli Venezia Giulia,Stile,NA,NA
+2019,Italia,Costo,standard,0.83
+2019,Italia,Professionista più richiesto,Affitto location matrimonio,0.42
+2019,Italia,Tipo di cerimonia,Civile,0.61
+2019,Italia,Location,Villa,0.52
+2019,Italia,Cibo,NA,NA
+2019,Italia,Stile,Elegante,0.36
+2019,Lazio,Costo,standard,0.82
+2019,Lazio,Professionista più richiesto,Affitto location matrimonio,0.4
+2019,Lazio,Tipo di cerimonia,Civile,0.63
+2019,Lazio,Location,Villa,0.35
+2019,Lazio,Cibo,NA,NA
+2019,Lazio,Stile,Elegante,0.5
+2019,Liguria,Costo,standard,0.84
+2019,Liguria,Professionista più richiesto,Affitto location matrimonio,0.51
+2019,Liguria,Tipo di cerimonia,Civile,0.75
+2019,Liguria,Location,Ristorante,0.29
+2019,Liguria,Cibo,NA,NA
+2019,Liguria,Stile,NA,NA
+2019,Lombardia,Costo,standard,0.85
+2019,Lombardia,Professionista più richiesto,Affitto location matrimonio,0.4
+2019,Lombardia,Tipo di cerimonia,Civile,0.69
+2019,Lombardia,Location,Villa,0.29
+2019,Lombardia,Cibo,NA,NA
+2019,Lombardia,Stile,Elegante,0.35
+2019,Marche,Costo,standard,0.85
+2019,Marche,Professionista più richiesto,Affitto location matrimonio,0.48
+2019,Marche,Tipo di cerimonia,Civile,0.71
+2019,Marche,Location,Villa,0.34
+2019,Marche,Cibo,NA,NA
+2019,Marche,Stile,NA,NA
+2019,Molise,Costo,NA,NA
+2019,Molise,Professionista più richiesto,Affitto location matrimonio,0.35
+2019,Molise,Tipo di cerimonia,NA,NA
+2019,Molise,Location,NA,NA
+2019,Molise,Cibo,NA,NA
+2019,Molise,Stile,NA,NA
+2019,Piemonte,Costo,standard,0.86
+2019,Piemonte,Professionista più richiesto,Affitto location matrimonio,0.42
+2019,Piemonte,Tipo di cerimonia,Civile,0.65
+2019,Piemonte,Location,Ristorante,0.21
+2019,Piemonte,Cibo,NA,NA
+2019,Piemonte,Stile,NA,NA
+2019,Sardegna,Costo,standard,0.83
+2019,Sardegna,Professionista più richiesto,Affitto location matrimonio,0.49
+2019,Sardegna,Tipo di cerimonia,Civile,0.5
+2019,Sardegna,Location,Ristorante,0.46
+2019,Sardegna,Cibo,NA,NA
+2019,Sardegna,Stile,NA,NA
+2019,Sicilia,Costo,standard,0.81
+2019,Sicilia,Professionista più richiesto,Affitto location matrimonio,0.47
+2019,Sicilia,Tipo di cerimonia,Civile,0.52
+2019,Sicilia,Location,Villa,0.27
+2019,Sicilia,Cibo,NA,NA
+2019,Sicilia,Stile,Elegante,0.67
+2019,Toscana,Costo,standard,0.84
+2019,Toscana,Professionista più richiesto,Affitto location matrimonio,0.44
+2019,Toscana,Tipo di cerimonia,Civile,0.66
+2019,Toscana,Location,Villa,0.22
+2019,Toscana,Cibo,NA,NA
+2019,Toscana,Stile,NA,NA
+2019,Trentino-Alto Adige,Costo,standard,0.87
+2019,Trentino-Alto Adige,Professionista più richiesto,Affitto location matrimonio,0.48
+2019,Trentino-Alto Adige,Tipo di cerimonia,NA,NA
+2019,Trentino-Alto Adige,Location,NA,NA
+2019,Trentino-Alto Adige,Cibo,NA,NA
+2019,Trentino-Alto Adige,Stile,NA,NA
+2019,Umbria,Costo,standard,0.83
+2019,Umbria,Professionista più richiesto,Affitto location matrimonio,0.42
+2019,Umbria,Tipo di cerimonia,NA,NA
+2019,Umbria,Location,NA,NA
+2019,Umbria,Cibo,NA,NA
+2019,Umbria,Stile,NA,NA
+2019,Veneto,Costo,standard,0.83
+2019,Veneto,Professionista più richiesto,Affitto location matrimonio,0.34
+2019,Veneto,Tipo di cerimonia,Civile,0.67
+2019,Veneto,Location,Villa,0.28
+2019,Veneto,Cibo,NA,NA
+2019,Veneto,Stile,Elegante,0.74
+2020,Abruzzo,Costo,NA,NA
+2020,Abruzzo,Professionista più richiesto,Affitto location matrimonio,0.54
+2020,Abruzzo,Tipo di cerimonia,NA,NA
+2020,Abruzzo,Location,Villa,0.84
+2020,Abruzzo,Cibo,NA,NA
+2020,Abruzzo,Stile,NA,NA
+2020,Valle d'Aosta,Costo,NA,NA
+2020,Valle d'Aosta,Professionista più richiesto,Affitto location matrimonio,0.42
+2020,Valle d'Aosta,Tipo di cerimonia,NA,NA
+2020,Valle d'Aosta,Location,NA,NA
+2020,Valle d'Aosta,Cibo,NA,NA
+2020,Valle d'Aosta,Stile,NA,NA
+2020,Puglia,Costo,standard,0.8
+2020,Puglia,Professionista più richiesto,Affitto location matrimonio,0.38
+2020,Puglia,Tipo di cerimonia,Civile,0.7
+2020,Puglia,Location,Villa,0.62
+2020,Puglia,Cibo,NA,NA
+2020,Puglia,Stile,Elegante,0.72
+2020,Basilicata,Costo,NA,NA
+2020,Basilicata,Professionista più richiesto,Affitto location matrimonio,0.36
+2020,Basilicata,Tipo di cerimonia,NA,NA
+2020,Basilicata,Location,NA,NA
+2020,Basilicata,Cibo,NA,NA
+2020,Basilicata,Stile,NA,NA
+2020,Calabria,Costo,NA,NA
+2020,Calabria,Professionista più richiesto,Affitto location matrimonio,0.45
+2020,Calabria,Tipo di cerimonia,NA,NA
+2020,Calabria,Location,Villa,0.67
+2020,Calabria,Cibo,NA,NA
+2020,Calabria,Stile,NA,NA
+2020,Campania,Costo,standard,0.86
+2020,Campania,Professionista più richiesto,Affitto location matrimonio,0.51
+2020,Campania,Tipo di cerimonia,NA,NA
+2020,Campania,Location,Ristorante,0.42
+2020,Campania,Cibo,NA,NA
+2020,Campania,Stile,In Spiaggia,0.59
+2020,Emilia-Romagna,Costo,standard,0.86
+2020,Emilia-Romagna,Professionista più richiesto,Affitto location matrimonio,0.61
+2020,Emilia-Romagna,Tipo di cerimonia,Civile,0.82
+2020,Emilia-Romagna,Location,Villa,0.38
+2020,Emilia-Romagna,Cibo,NA,NA
+2020,Emilia-Romagna,Stile,In Spiaggia,0.81
+2020,Friuli Venezia Giulia,Costo,NA,NA
+2020,Friuli Venezia Giulia,Professionista più richiesto,Affitto location matrimonio,0.54
+2020,Friuli Venezia Giulia,Tipo di cerimonia,NA,NA
+2020,Friuli Venezia Giulia,Location,Villa,0.55
+2020,Friuli Venezia Giulia,Cibo,NA,NA
+2020,Friuli Venezia Giulia,Stile,NA,NA
+2020,Italia,Costo,standard,0.87
+2020,Italia,Professionista più richiesto,Affitto location matrimonio,0.5
+2020,Italia,Tipo di cerimonia,Civile,0.69
+2020,Italia,Location,Villa,0.46
+2020,Italia,Cibo,NA,NA
+2020,Italia,Stile,Elegante,0.33
+2020,Lazio,Costo,standard,0.84
+2020,Lazio,Professionista più richiesto,Affitto location matrimonio,0.46
+2020,Lazio,Tipo di cerimonia,NA,NA
+2020,Lazio,Location,Villa,0.55
+2020,Lazio,Cibo,NA,NA
+2020,Lazio,Stile,In Spiaggia,0.41
+2020,Liguria,Costo,standard,0.93
+2020,Liguria,Professionista più richiesto,Affitto location matrimonio,0.68
+2020,Liguria,Tipo di cerimonia,NA,NA
+2020,Liguria,Location,Villa,0.69
+2020,Liguria,Cibo,NA,NA
+2020,Liguria,Stile,NA,NA
+2020,Lombardia,Costo,standard,0.87
+2020,Lombardia,Professionista più richiesto,Affitto location matrimonio,0.53
+2020,Lombardia,Tipo di cerimonia,Civile,0.72
+2020,Lombardia,Location,Castello,0.21
+2020,Lombardia,Cibo,NA,NA
+2020,Lombardia,Stile,Elegante,0.39
+2020,Marche,Costo,NA,NA
+2020,Marche,Professionista più richiesto,Affitto location matrimonio,0.52
+2020,Marche,Tipo di cerimonia,NA,NA
+2020,Marche,Location,Villa,0.58
+2020,Marche,Cibo,NA,NA
+2020,Marche,Stile,NA,NA
+2020,Molise,Costo,NA,NA
+2020,Molise,Professionista più richiesto,Dj per matrimoni,0.3
+2020,Molise,Tipo di cerimonia,NA,NA
+2020,Molise,Location,NA,NA
+2020,Molise,Cibo,NA,NA
+2020,Molise,Stile,NA,NA
+2020,Piemonte,Costo,standard,0.88
+2020,Piemonte,Professionista più richiesto,Affitto location matrimonio,0.57
+2020,Piemonte,Tipo di cerimonia,Civile,0.87
+2020,Piemonte,Location,Castello,0.37
+2020,Piemonte,Cibo,NA,NA
+2020,Piemonte,Stile,NA,NA
+2020,Sardegna,Costo,standard,0.88
+2020,Sardegna,Professionista più richiesto,Affitto location matrimonio,0.55
+2020,Sardegna,Tipo di cerimonia,NA,NA
+2020,Sardegna,Location,NA,NA
+2020,Sardegna,Cibo,NA,NA
+2020,Sardegna,Stile,NA,NA
+2020,Sicilia,Costo,standard,0.84
+2020,Sicilia,Professionista più richiesto,Affitto location matrimonio,0.59
+2020,Sicilia,Tipo di cerimonia,Civile,0.62
+2020,Sicilia,Location,Villa,0.51
+2020,Sicilia,Cibo,NA,NA
+2020,Sicilia,Stile,Elegante,0.6
+2020,Toscana,Costo,standard,0.9
+2020,Toscana,Professionista più richiesto,Affitto location matrimonio,0.57
+2020,Toscana,Tipo di cerimonia,Civile,0.71
+2020,Toscana,Location,Villa,0.47
+2020,Toscana,Cibo,NA,NA
+2020,Toscana,Stile,NA,NA
+2020,Trentino-Alto Adige,Costo,NA,NA
+2020,Trentino-Alto Adige,Professionista più richiesto,Affitto location matrimonio,0.45
+2020,Trentino-Alto Adige,Tipo di cerimonia,NA,NA
+2020,Trentino-Alto Adige,Location,NA,NA
+2020,Trentino-Alto Adige,Cibo,NA,NA
+2020,Trentino-Alto Adige,Stile,NA,NA
+2020,Umbria,Costo,NA,NA
+2020,Umbria,Professionista più richiesto,Affitto location matrimonio,0.59
+2020,Umbria,Tipo di cerimonia,NA,NA
+2020,Umbria,Location,NA,NA
+2020,Umbria,Cibo,NA,NA
+2020,Umbria,Stile,NA,NA
+2020,Veneto,Costo,standard,0.89
+2020,Veneto,Professionista più richiesto,Affitto location matrimonio,0.5
+2020,Veneto,Tipo di cerimonia,Civile,0.73
+2020,Veneto,Location,Villa,0.44
+2020,Veneto,Cibo,NA,NA
+2020,Veneto,Stile,Elegante,0.79

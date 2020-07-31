@@ -1,0 +1,14 @@
+[dataBasedOnScaleFromMinToMax]
+other = "Les données sont basées sur une échelle allant de {{ .min }} à {{ .max }}"
+
+[discoverOtherStories]
+other = "Découvrez d'autres histoires"
+
+[goToStory]
+other = "Voir l'histoire"
+
+[nationalAverage]
+other = "Moyenne nationale"
+
+[seeAllTheData]
+other = "Voir toutes les données"

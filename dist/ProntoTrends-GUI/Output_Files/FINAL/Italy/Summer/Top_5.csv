@@ -1,0 +1,16 @@
+ticket_geo_region_name,ticket_taxonomy_tag_name,year,Rank,Max,Min,Demand_factor_max_to_min
+Italia,Personal trainer,2018,1,8,11,2.9
+Italia,Lezioni di inglese,2018,2,8,6,2.7
+Italia,Aria Condizionata,2018,3,4,11,6.9
+Italia,Imbianchino,2018,4,4,11,3.9
+Italia,Psicologo,2018,5,8,11,1.7
+Italia,Aria Condizionata,2019,1,5,11,10.7
+Italia,Lezioni di inglese,2019,2,8,11,3.0
+Italia,Personal trainer,2019,3,0,11,2.8
+Italia,Psicologo,2019,4,10,1,2.0
+Italia,Imbianchino,2019,5,2,11,3.4
+Italia,Aria Condizionata,2020,1,4,2,3.8
+Italia,Psicologo,2020,2,0,5,7.8
+Italia,Installazione zanzariera,2020,3,4,0,20.6
+Italia,Installazione tende da sole,2020,4,4,0,21.7
+Italia,Lezioni di inglese,2020,5,0,5,17.4

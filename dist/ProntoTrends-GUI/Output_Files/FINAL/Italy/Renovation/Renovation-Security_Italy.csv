@@ -1,0 +1,436 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Abruzzo,Certificato conformità impianto elettrico,0.12
+2018,Abruzzo,Finestre blindate,0.01
+2018,Abruzzo,Impianto di allarme,0.46
+2018,Abruzzo,Installazione o sostituzione impianto di videosorveglianza,0.1
+2018,Abruzzo,Installazione o sostituzione inferriate,0.0
+2018,Abruzzo,Installazione o sostituzione porte blindate,0.3
+2018,Abruzzo,Installazione o sostituzione vetro antisfondamento,0.01
+2018,Valle d'Aosta,Certificato conformità impianto elettrico,0.1
+2018,Valle d'Aosta,Finestre blindate,0.0
+2018,Valle d'Aosta,Impianto di allarme,0.5
+2018,Valle d'Aosta,Installazione o sostituzione impianto di videosorveglianza,0.1
+2018,Valle d'Aosta,Installazione o sostituzione porte blindate,0.3
+2018,Valle d'Aosta,Installazione o sostituzione vetro antisfondamento,0.0
+2018,Puglia,Certificato conformità impianto elettrico,0.06
+2018,Puglia,Finestre blindate,0.02
+2018,Puglia,Impianto di allarme,0.46
+2018,Puglia,Installazione o sostituzione impianto di videosorveglianza,0.18
+2018,Puglia,Installazione o sostituzione inferriate,0.0
+2018,Puglia,Installazione o sostituzione porte blindate,0.27
+2018,Puglia,Installazione o sostituzione vetro antisfondamento,0.01
+2018,Basilicata,Certificato conformità impianto elettrico,0.03
+2018,Basilicata,Finestre blindate,0.03
+2018,Basilicata,Impianto di allarme,0.59
+2018,Basilicata,Installazione o sostituzione impianto di videosorveglianza,0.09
+2018,Basilicata,Installazione o sostituzione inferriate,0.0
+2018,Basilicata,Installazione o sostituzione porte blindate,0.25
+2018,Calabria,Certificato conformità impianto elettrico,0.09
+2018,Calabria,Finestre blindate,0.01
+2018,Calabria,Impianto di allarme,0.44
+2018,Calabria,Installazione o sostituzione impianto di videosorveglianza,0.28
+2018,Calabria,Installazione o sostituzione inferriate,0.0
+2018,Calabria,Installazione o sostituzione porte blindate,0.18
+2018,Calabria,Installazione o sostituzione vetro antisfondamento,0.0
+2018,Campania,Certificato conformità impianto elettrico,0.09
+2018,Campania,Finestre blindate,0.02
+2018,Campania,Impianto di allarme,0.52
+2018,Campania,Installazione o sostituzione impianto di videosorveglianza,0.16
+2018,Campania,Installazione o sostituzione inferriate,0.0
+2018,Campania,Installazione o sostituzione porte blindate,0.2
+2018,Campania,Installazione o sostituzione vetro antisfondamento,0.01
+2018,Emilia-Romagna,Certificato conformità impianto elettrico,0.19
+2018,Emilia-Romagna,Finestre blindate,0.01
+2018,Emilia-Romagna,Impianto di allarme,0.4
+2018,Emilia-Romagna,Installazione o sostituzione impianto di videosorveglianza,0.07
+2018,Emilia-Romagna,Installazione o sostituzione inferriate,0.0
+2018,Emilia-Romagna,Installazione o sostituzione porte blindate,0.33
+2018,Emilia-Romagna,Installazione o sostituzione vetro antisfondamento,0.01
+2018,Friuli Venezia Giulia,Certificato conformità impianto elettrico,0.17
+2018,Friuli Venezia Giulia,Finestre blindate,0.01
+2018,Friuli Venezia Giulia,Impianto di allarme,0.35
+2018,Friuli Venezia Giulia,Installazione o sostituzione impianto di videosorveglianza,0.08
+2018,Friuli Venezia Giulia,Installazione o sostituzione inferriate,0.0
+2018,Friuli Venezia Giulia,Installazione o sostituzione porte blindate,0.37
+2018,Friuli Venezia Giulia,Installazione o sostituzione vetro antisfondamento,0.01
+2018,Italia,Certificato conformità impianto elettrico,0.15
+2018,Italia,Finestre blindate,0.02
+2018,Italia,Impianto di allarme,0.44
+2018,Italia,Installazione o sostituzione impianto di videosorveglianza,0.1
+2018,Italia,Installazione o sostituzione inferriate,0.0
+2018,Italia,Installazione o sostituzione porte blindate,0.29
+2018,Italia,Installazione o sostituzione vetro antisfondamento,0.01
+2018,Lazio,Certificato conformità impianto elettrico,0.15
+2018,Lazio,Finestre blindate,0.03
+2018,Lazio,Impianto di allarme,0.47
+2018,Lazio,Installazione o sostituzione impianto di videosorveglianza,0.09
+2018,Lazio,Installazione o sostituzione inferriate,0.0
+2018,Lazio,Installazione o sostituzione porte blindate,0.25
+2018,Lazio,Installazione o sostituzione vetro antisfondamento,0.01
+2018,Liguria,Certificato conformità impianto elettrico,0.23
+2018,Liguria,Finestre blindate,0.02
+2018,Liguria,Impianto di allarme,0.32
+2018,Liguria,Installazione o sostituzione impianto di videosorveglianza,0.06
+2018,Liguria,Installazione o sostituzione inferriate,0.0
+2018,Liguria,Installazione o sostituzione porte blindate,0.35
+2018,Liguria,Installazione o sostituzione vetro antisfondamento,0.02
+2018,Lombardia,Certificato conformità impianto elettrico,0.17
+2018,Lombardia,Finestre blindate,0.01
+2018,Lombardia,Impianto di allarme,0.44
+2018,Lombardia,Installazione o sostituzione impianto di videosorveglianza,0.06
+2018,Lombardia,Installazione o sostituzione inferriate,0.0
+2018,Lombardia,Installazione o sostituzione porte blindate,0.31
+2018,Lombardia,Installazione o sostituzione vetro antisfondamento,0.01
+2018,Marche,Certificato conformità impianto elettrico,0.05
+2018,Marche,Finestre blindate,0.03
+2018,Marche,Impianto di allarme,0.51
+2018,Marche,Installazione o sostituzione impianto di videosorveglianza,0.09
+2018,Marche,Installazione o sostituzione inferriate,0.0
+2018,Marche,Installazione o sostituzione porte blindate,0.3
+2018,Marche,Installazione o sostituzione vetro antisfondamento,0.03
+2018,Molise,Certificato conformità impianto elettrico,0.25
+2018,Molise,Finestre blindate,0.0
+2018,Molise,Impianto di allarme,0.38
+2018,Molise,Installazione o sostituzione impianto di videosorveglianza,0.12
+2018,Molise,Installazione o sostituzione inferriate,0.0
+2018,Molise,Installazione o sostituzione porte blindate,0.25
+2018,Molise,Installazione o sostituzione vetro antisfondamento,0.0
+2018,Piemonte,Certificato conformità impianto elettrico,0.16
+2018,Piemonte,Finestre blindate,0.01
+2018,Piemonte,Impianto di allarme,0.47
+2018,Piemonte,Installazione o sostituzione impianto di videosorveglianza,0.05
+2018,Piemonte,Installazione o sostituzione inferriate,0.0
+2018,Piemonte,Installazione o sostituzione porte blindate,0.31
+2018,Piemonte,Installazione o sostituzione vetro antisfondamento,0.01
+2018,Sardegna,Certificato conformità impianto elettrico,0.17
+2018,Sardegna,Finestre blindate,0.03
+2018,Sardegna,Impianto di allarme,0.39
+2018,Sardegna,Installazione o sostituzione impianto di videosorveglianza,0.2
+2018,Sardegna,Installazione o sostituzione inferriate,0.0
+2018,Sardegna,Installazione o sostituzione porte blindate,0.2
+2018,Sardegna,Installazione o sostituzione vetro antisfondamento,0.01
+2018,Sicilia,Certificato conformità impianto elettrico,0.12
+2018,Sicilia,Finestre blindate,0.02
+2018,Sicilia,Impianto di allarme,0.51
+2018,Sicilia,Installazione o sostituzione impianto di videosorveglianza,0.18
+2018,Sicilia,Installazione o sostituzione inferriate,0.0
+2018,Sicilia,Installazione o sostituzione porte blindate,0.14
+2018,Sicilia,Installazione o sostituzione vetro antisfondamento,0.03
+2018,Trentino-Alto Adige,Certificato conformità impianto elettrico,0.17
+2018,Trentino-Alto Adige,Finestre blindate,0.0
+2018,Trentino-Alto Adige,Impianto di allarme,0.45
+2018,Trentino-Alto Adige,Installazione o sostituzione impianto di videosorveglianza,0.08
+2018,Trentino-Alto Adige,Installazione o sostituzione inferriate,0.0
+2018,Trentino-Alto Adige,Installazione o sostituzione porte blindate,0.3
+2018,Trentino-Alto Adige,Installazione o sostituzione vetro antisfondamento,0.0
+2018,Toscana,Certificato conformità impianto elettrico,0.12
+2018,Toscana,Finestre blindate,0.02
+2018,Toscana,Impianto di allarme,0.43
+2018,Toscana,Installazione o sostituzione impianto di videosorveglianza,0.1
+2018,Toscana,Installazione o sostituzione inferriate,0.0
+2018,Toscana,Installazione o sostituzione porte blindate,0.32
+2018,Toscana,Installazione o sostituzione vetro antisfondamento,0.01
+2018,Umbria,Certificato conformità impianto elettrico,0.13
+2018,Umbria,Finestre blindate,0.02
+2018,Umbria,Impianto di allarme,0.5
+2018,Umbria,Installazione o sostituzione impianto di videosorveglianza,0.13
+2018,Umbria,Installazione o sostituzione inferriate,0.0
+2018,Umbria,Installazione o sostituzione porte blindate,0.22
+2018,Umbria,Installazione o sostituzione vetro antisfondamento,0.0
+2018,Veneto,Certificato conformità impianto elettrico,0.16
+2018,Veneto,Finestre blindate,0.01
+2018,Veneto,Impianto di allarme,0.37
+2018,Veneto,Installazione o sostituzione impianto di videosorveglianza,0.09
+2018,Veneto,Installazione o sostituzione inferriate,0.0
+2018,Veneto,Installazione o sostituzione porte blindate,0.34
+2018,Veneto,Installazione o sostituzione vetro antisfondamento,0.03
+2019,Abruzzo,Certificato conformità impianto elettrico,0.12
+2019,Abruzzo,Finestre blindate,0.0
+2019,Abruzzo,Impianto di allarme,0.42
+2019,Abruzzo,Installazione o sostituzione impianto di videosorveglianza,0.11
+2019,Abruzzo,Installazione o sostituzione inferriate,0.1
+2019,Abruzzo,Installazione o sostituzione porte blindate,0.21
+2019,Abruzzo,Installazione o sostituzione vetro antisfondamento,0.03
+2019,Valle d'Aosta,Certificato conformità impianto elettrico,0.14
+2019,Valle d'Aosta,Finestre blindate,0.0
+2019,Valle d'Aosta,Impianto di allarme,0.21
+2019,Valle d'Aosta,Installazione o sostituzione impianto di videosorveglianza,0.21
+2019,Valle d'Aosta,Installazione o sostituzione porte blindate,0.29
+2019,Valle d'Aosta,Installazione o sostituzione vetro antisfondamento,0.14
+2019,Puglia,Certificato conformità impianto elettrico,0.13
+2019,Puglia,Finestre blindate,0.03
+2019,Puglia,Impianto di allarme,0.35
+2019,Puglia,Installazione o sostituzione impianto di videosorveglianza,0.14
+2019,Puglia,Installazione o sostituzione inferriate,0.11
+2019,Puglia,Installazione o sostituzione porte blindate,0.24
+2019,Puglia,Installazione o sostituzione vetro antisfondamento,0.01
+2019,Basilicata,Certificato conformità impianto elettrico,0.08
+2019,Basilicata,Finestre blindate,0.0
+2019,Basilicata,Impianto di allarme,0.58
+2019,Basilicata,Installazione o sostituzione impianto di videosorveglianza,0.1
+2019,Basilicata,Installazione o sostituzione inferriate,0.05
+2019,Basilicata,Installazione o sostituzione porte blindate,0.2
+2019,Calabria,Certificato conformità impianto elettrico,0.1
+2019,Calabria,Finestre blindate,0.03
+2019,Calabria,Impianto di allarme,0.47
+2019,Calabria,Installazione o sostituzione impianto di videosorveglianza,0.15
+2019,Calabria,Installazione o sostituzione inferriate,0.05
+2019,Calabria,Installazione o sostituzione porte blindate,0.17
+2019,Calabria,Installazione o sostituzione vetro antisfondamento,0.03
+2019,Campania,Certificato conformità impianto elettrico,0.15
+2019,Campania,Finestre blindate,0.03
+2019,Campania,Impianto di allarme,0.42
+2019,Campania,Installazione o sostituzione impianto di videosorveglianza,0.14
+2019,Campania,Installazione o sostituzione inferriate,0.09
+2019,Campania,Installazione o sostituzione porte blindate,0.16
+2019,Campania,Installazione o sostituzione vetro antisfondamento,0.01
+2019,Emilia-Romagna,Certificato conformità impianto elettrico,0.22
+2019,Emilia-Romagna,Finestre blindate,0.01
+2019,Emilia-Romagna,Impianto di allarme,0.28
+2019,Emilia-Romagna,Installazione o sostituzione impianto di videosorveglianza,0.07
+2019,Emilia-Romagna,Installazione o sostituzione inferriate,0.13
+2019,Emilia-Romagna,Installazione o sostituzione porte blindate,0.26
+2019,Emilia-Romagna,Installazione o sostituzione vetro antisfondamento,0.02
+2019,Friuli Venezia Giulia,Certificato conformità impianto elettrico,0.27
+2019,Friuli Venezia Giulia,Finestre blindate,0.01
+2019,Friuli Venezia Giulia,Impianto di allarme,0.24
+2019,Friuli Venezia Giulia,Installazione o sostituzione impianto di videosorveglianza,0.07
+2019,Friuli Venezia Giulia,Installazione o sostituzione inferriate,0.09
+2019,Friuli Venezia Giulia,Installazione o sostituzione porte blindate,0.32
+2019,Friuli Venezia Giulia,Installazione o sostituzione vetro antisfondamento,0.01
+2019,Italia,Certificato conformità impianto elettrico,0.19
+2019,Italia,Finestre blindate,0.02
+2019,Italia,Impianto di allarme,0.35
+2019,Italia,Installazione o sostituzione impianto di videosorveglianza,0.09
+2019,Italia,Installazione o sostituzione inferriate,0.11
+2019,Italia,Installazione o sostituzione porte blindate,0.23
+2019,Italia,Installazione o sostituzione vetro antisfondamento,0.01
+2019,Lazio,Certificato conformità impianto elettrico,0.17
+2019,Lazio,Finestre blindate,0.02
+2019,Lazio,Impianto di allarme,0.32
+2019,Lazio,Installazione o sostituzione impianto di videosorveglianza,0.1
+2019,Lazio,Installazione o sostituzione inferriate,0.17
+2019,Lazio,Installazione o sostituzione porte blindate,0.2
+2019,Lazio,Installazione o sostituzione vetro antisfondamento,0.01
+2019,Liguria,Certificato conformità impianto elettrico,0.25
+2019,Liguria,Finestre blindate,0.01
+2019,Liguria,Impianto di allarme,0.21
+2019,Liguria,Installazione o sostituzione impianto di videosorveglianza,0.09
+2019,Liguria,Installazione o sostituzione inferriate,0.09
+2019,Liguria,Installazione o sostituzione porte blindate,0.33
+2019,Liguria,Installazione o sostituzione vetro antisfondamento,0.02
+2019,Lombardia,Certificato conformità impianto elettrico,0.23
+2019,Lombardia,Finestre blindate,0.02
+2019,Lombardia,Impianto di allarme,0.36
+2019,Lombardia,Installazione o sostituzione impianto di videosorveglianza,0.06
+2019,Lombardia,Installazione o sostituzione inferriate,0.09
+2019,Lombardia,Installazione o sostituzione porte blindate,0.24
+2019,Lombardia,Installazione o sostituzione vetro antisfondamento,0.01
+2019,Marche,Certificato conformità impianto elettrico,0.11
+2019,Marche,Finestre blindate,0.02
+2019,Marche,Impianto di allarme,0.41
+2019,Marche,Installazione o sostituzione impianto di videosorveglianza,0.08
+2019,Marche,Installazione o sostituzione inferriate,0.13
+2019,Marche,Installazione o sostituzione porte blindate,0.23
+2019,Marche,Installazione o sostituzione vetro antisfondamento,0.02
+2019,Molise,Certificato conformità impianto elettrico,0.14
+2019,Molise,Finestre blindate,0.1
+2019,Molise,Impianto di allarme,0.19
+2019,Molise,Installazione o sostituzione impianto di videosorveglianza,0.14
+2019,Molise,Installazione o sostituzione inferriate,0.05
+2019,Molise,Installazione o sostituzione porte blindate,0.33
+2019,Molise,Installazione o sostituzione vetro antisfondamento,0.05
+2019,Piemonte,Certificato conformità impianto elettrico,0.2
+2019,Piemonte,Finestre blindate,0.02
+2019,Piemonte,Impianto di allarme,0.39
+2019,Piemonte,Installazione o sostituzione impianto di videosorveglianza,0.07
+2019,Piemonte,Installazione o sostituzione inferriate,0.08
+2019,Piemonte,Installazione o sostituzione porte blindate,0.23
+2019,Piemonte,Installazione o sostituzione vetro antisfondamento,0.01
+2019,Sardegna,Certificato conformità impianto elettrico,0.18
+2019,Sardegna,Finestre blindate,0.0
+2019,Sardegna,Impianto di allarme,0.37
+2019,Sardegna,Installazione o sostituzione impianto di videosorveglianza,0.17
+2019,Sardegna,Installazione o sostituzione inferriate,0.08
+2019,Sardegna,Installazione o sostituzione porte blindate,0.18
+2019,Sardegna,Installazione o sostituzione vetro antisfondamento,0.01
+2019,Sicilia,Certificato conformità impianto elettrico,0.16
+2019,Sicilia,Finestre blindate,0.02
+2019,Sicilia,Impianto di allarme,0.38
+2019,Sicilia,Installazione o sostituzione impianto di videosorveglianza,0.17
+2019,Sicilia,Installazione o sostituzione inferriate,0.07
+2019,Sicilia,Installazione o sostituzione porte blindate,0.17
+2019,Sicilia,Installazione o sostituzione vetro antisfondamento,0.03
+2019,Trentino-Alto Adige,Certificato conformità impianto elettrico,0.19
+2019,Trentino-Alto Adige,Finestre blindate,0.01
+2019,Trentino-Alto Adige,Impianto di allarme,0.41
+2019,Trentino-Alto Adige,Installazione o sostituzione impianto di videosorveglianza,0.09
+2019,Trentino-Alto Adige,Installazione o sostituzione inferriate,0.08
+2019,Trentino-Alto Adige,Installazione o sostituzione porte blindate,0.2
+2019,Trentino-Alto Adige,Installazione o sostituzione vetro antisfondamento,0.02
+2019,Toscana,Certificato conformità impianto elettrico,0.17
+2019,Toscana,Finestre blindate,0.03
+2019,Toscana,Impianto di allarme,0.34
+2019,Toscana,Installazione o sostituzione impianto di videosorveglianza,0.07
+2019,Toscana,Installazione o sostituzione inferriate,0.13
+2019,Toscana,Installazione o sostituzione porte blindate,0.24
+2019,Toscana,Installazione o sostituzione vetro antisfondamento,0.01
+2019,Umbria,Certificato conformità impianto elettrico,0.18
+2019,Umbria,Finestre blindate,0.04
+2019,Umbria,Impianto di allarme,0.4
+2019,Umbria,Installazione o sostituzione impianto di videosorveglianza,0.1
+2019,Umbria,Installazione o sostituzione inferriate,0.12
+2019,Umbria,Installazione o sostituzione porte blindate,0.16
+2019,Umbria,Installazione o sostituzione vetro antisfondamento,0.0
+2019,Veneto,Certificato conformità impianto elettrico,0.16
+2019,Veneto,Finestre blindate,0.01
+2019,Veneto,Impianto di allarme,0.33
+2019,Veneto,Installazione o sostituzione impianto di videosorveglianza,0.1
+2019,Veneto,Installazione o sostituzione inferriate,0.1
+2019,Veneto,Installazione o sostituzione porte blindate,0.27
+2019,Veneto,Installazione o sostituzione vetro antisfondamento,0.02
+2020,Abruzzo,Certificato conformità impianto elettrico,0.1
+2020,Abruzzo,Finestre blindate,0.02
+2020,Abruzzo,Impianto di allarme,0.23
+2020,Abruzzo,Installazione o sostituzione impianto di videosorveglianza,0.14
+2020,Abruzzo,Installazione o sostituzione inferriate,0.16
+2020,Abruzzo,Installazione o sostituzione porte blindate,0.33
+2020,Abruzzo,Installazione o sostituzione vetro antisfondamento,0.02
+2020,Valle d'Aosta,Certificato conformità impianto elettrico,0.0
+2020,Valle d'Aosta,Finestre blindate,0.33
+2020,Valle d'Aosta,Impianto di allarme,0.67
+2020,Valle d'Aosta,Installazione o sostituzione impianto di videosorveglianza,0.0
+2020,Valle d'Aosta,Installazione o sostituzione porte blindate,0.0
+2020,Valle d'Aosta,Installazione o sostituzione vetro antisfondamento,0.0
+2020,Puglia,Certificato conformità impianto elettrico,0.1
+2020,Puglia,Finestre blindate,0.09
+2020,Puglia,Impianto di allarme,0.27
+2020,Puglia,Installazione o sostituzione impianto di videosorveglianza,0.14
+2020,Puglia,Installazione o sostituzione inferriate,0.13
+2020,Puglia,Installazione o sostituzione porte blindate,0.25
+2020,Puglia,Installazione o sostituzione vetro antisfondamento,0.01
+2020,Basilicata,Certificato conformità impianto elettrico,0.08
+2020,Basilicata,Finestre blindate,0.28
+2020,Basilicata,Impianto di allarme,0.12
+2020,Basilicata,Installazione o sostituzione impianto di videosorveglianza,0.08
+2020,Basilicata,Installazione o sostituzione inferriate,0.16
+2020,Basilicata,Installazione o sostituzione porte blindate,0.28
+2020,Calabria,Certificato conformità impianto elettrico,0.11
+2020,Calabria,Finestre blindate,0.12
+2020,Calabria,Impianto di allarme,0.24
+2020,Calabria,Installazione o sostituzione impianto di videosorveglianza,0.22
+2020,Calabria,Installazione o sostituzione inferriate,0.16
+2020,Calabria,Installazione o sostituzione porte blindate,0.14
+2020,Calabria,Installazione o sostituzione vetro antisfondamento,0.01
+2020,Campania,Certificato conformità impianto elettrico,0.12
+2020,Campania,Finestre blindate,0.12
+2020,Campania,Impianto di allarme,0.3
+2020,Campania,Installazione o sostituzione impianto di videosorveglianza,0.17
+2020,Campania,Installazione o sostituzione inferriate,0.15
+2020,Campania,Installazione o sostituzione porte blindate,0.13
+2020,Campania,Installazione o sostituzione vetro antisfondamento,0.01
+2020,Emilia-Romagna,Certificato conformità impianto elettrico,0.21
+2020,Emilia-Romagna,Finestre blindate,0.04
+2020,Emilia-Romagna,Impianto di allarme,0.19
+2020,Emilia-Romagna,Installazione o sostituzione impianto di videosorveglianza,0.09
+2020,Emilia-Romagna,Installazione o sostituzione inferriate,0.23
+2020,Emilia-Romagna,Installazione o sostituzione porte blindate,0.23
+2020,Emilia-Romagna,Installazione o sostituzione vetro antisfondamento,0.02
+2020,Friuli Venezia Giulia,Certificato conformità impianto elettrico,0.09
+2020,Friuli Venezia Giulia,Finestre blindate,0.03
+2020,Friuli Venezia Giulia,Impianto di allarme,0.22
+2020,Friuli Venezia Giulia,Installazione o sostituzione impianto di videosorveglianza,0.08
+2020,Friuli Venezia Giulia,Installazione o sostituzione inferriate,0.16
+2020,Friuli Venezia Giulia,Installazione o sostituzione porte blindate,0.42
+2020,Friuli Venezia Giulia,Installazione o sostituzione vetro antisfondamento,0.0
+2020,Italia,Certificato conformità impianto elettrico,0.17
+2020,Italia,Finestre blindate,0.05
+2020,Italia,Impianto di allarme,0.24
+2020,Italia,Installazione o sostituzione impianto di videosorveglianza,0.09
+2020,Italia,Installazione o sostituzione inferriate,0.17
+2020,Italia,Installazione o sostituzione porte blindate,0.25
+2020,Italia,Installazione o sostituzione vetro antisfondamento,0.02
+2020,Lazio,Certificato conformità impianto elettrico,0.17
+2020,Lazio,Finestre blindate,0.06
+2020,Lazio,Impianto di allarme,0.2
+2020,Lazio,Installazione o sostituzione impianto di videosorveglianza,0.08
+2020,Lazio,Installazione o sostituzione inferriate,0.28
+2020,Lazio,Installazione o sostituzione porte blindate,0.2
+2020,Lazio,Installazione o sostituzione vetro antisfondamento,0.01
+2020,Liguria,Certificato conformità impianto elettrico,0.28
+2020,Liguria,Finestre blindate,0.02
+2020,Liguria,Impianto di allarme,0.14
+2020,Liguria,Installazione o sostituzione impianto di videosorveglianza,0.08
+2020,Liguria,Installazione o sostituzione inferriate,0.1
+2020,Liguria,Installazione o sostituzione porte blindate,0.36
+2020,Liguria,Installazione o sostituzione vetro antisfondamento,0.02
+2020,Lombardia,Certificato conformità impianto elettrico,0.21
+2020,Lombardia,Finestre blindate,0.05
+2020,Lombardia,Impianto di allarme,0.27
+2020,Lombardia,Installazione o sostituzione impianto di videosorveglianza,0.05
+2020,Lombardia,Installazione o sostituzione inferriate,0.15
+2020,Lombardia,Installazione o sostituzione porte blindate,0.25
+2020,Lombardia,Installazione o sostituzione vetro antisfondamento,0.01
+2020,Marche,Certificato conformità impianto elettrico,0.09
+2020,Marche,Finestre blindate,0.04
+2020,Marche,Impianto di allarme,0.23
+2020,Marche,Installazione o sostituzione impianto di videosorveglianza,0.08
+2020,Marche,Installazione o sostituzione inferriate,0.22
+2020,Marche,Installazione o sostituzione porte blindate,0.31
+2020,Marche,Installazione o sostituzione vetro antisfondamento,0.03
+2020,Molise,Certificato conformità impianto elettrico,0.17
+2020,Molise,Finestre blindate,0.0
+2020,Molise,Impianto di allarme,0.25
+2020,Molise,Installazione o sostituzione impianto di videosorveglianza,0.17
+2020,Molise,Installazione o sostituzione inferriate,0.0
+2020,Molise,Installazione o sostituzione porte blindate,0.33
+2020,Molise,Installazione o sostituzione vetro antisfondamento,0.08
+2020,Piemonte,Certificato conformità impianto elettrico,0.19
+2020,Piemonte,Finestre blindate,0.03
+2020,Piemonte,Impianto di allarme,0.25
+2020,Piemonte,Installazione o sostituzione impianto di videosorveglianza,0.08
+2020,Piemonte,Installazione o sostituzione inferriate,0.12
+2020,Piemonte,Installazione o sostituzione porte blindate,0.31
+2020,Piemonte,Installazione o sostituzione vetro antisfondamento,0.02
+2020,Sardegna,Certificato conformità impianto elettrico,0.14
+2020,Sardegna,Finestre blindate,0.05
+2020,Sardegna,Impianto di allarme,0.24
+2020,Sardegna,Installazione o sostituzione impianto di videosorveglianza,0.25
+2020,Sardegna,Installazione o sostituzione inferriate,0.11
+2020,Sardegna,Installazione o sostituzione porte blindate,0.17
+2020,Sardegna,Installazione o sostituzione vetro antisfondamento,0.04
+2020,Sicilia,Certificato conformità impianto elettrico,0.19
+2020,Sicilia,Finestre blindate,0.06
+2020,Sicilia,Impianto di allarme,0.22
+2020,Sicilia,Installazione o sostituzione impianto di videosorveglianza,0.18
+2020,Sicilia,Installazione o sostituzione inferriate,0.1
+2020,Sicilia,Installazione o sostituzione porte blindate,0.21
+2020,Sicilia,Installazione o sostituzione vetro antisfondamento,0.03
+2020,Trentino-Alto Adige,Certificato conformità impianto elettrico,0.14
+2020,Trentino-Alto Adige,Finestre blindate,0.05
+2020,Trentino-Alto Adige,Impianto di allarme,0.19
+2020,Trentino-Alto Adige,Installazione o sostituzione impianto di videosorveglianza,0.14
+2020,Trentino-Alto Adige,Installazione o sostituzione inferriate,0.09
+2020,Trentino-Alto Adige,Installazione o sostituzione porte blindate,0.35
+2020,Trentino-Alto Adige,Installazione o sostituzione vetro antisfondamento,0.05
+2020,Toscana,Certificato conformità impianto elettrico,0.16
+2020,Toscana,Finestre blindate,0.06
+2020,Toscana,Impianto di allarme,0.23
+2020,Toscana,Installazione o sostituzione impianto di videosorveglianza,0.07
+2020,Toscana,Installazione o sostituzione inferriate,0.19
+2020,Toscana,Installazione o sostituzione porte blindate,0.27
+2020,Toscana,Installazione o sostituzione vetro antisfondamento,0.02
+2020,Umbria,Certificato conformità impianto elettrico,0.12
+2020,Umbria,Finestre blindate,0.04
+2020,Umbria,Impianto di allarme,0.25
+2020,Umbria,Installazione o sostituzione impianto di videosorveglianza,0.12
+2020,Umbria,Installazione o sostituzione inferriate,0.24
+2020,Umbria,Installazione o sostituzione porte blindate,0.19
+2020,Umbria,Installazione o sostituzione vetro antisfondamento,0.03
+2020,Veneto,Certificato conformità impianto elettrico,0.16
+2020,Veneto,Finestre blindate,0.03
+2020,Veneto,Impianto di allarme,0.27
+2020,Veneto,Installazione o sostituzione impianto di videosorveglianza,0.07
+2020,Veneto,Installazione o sostituzione inferriate,0.17
+2020,Veneto,Installazione o sostituzione porte blindate,0.29
+2020,Veneto,Installazione o sostituzione vetro antisfondamento,0.02

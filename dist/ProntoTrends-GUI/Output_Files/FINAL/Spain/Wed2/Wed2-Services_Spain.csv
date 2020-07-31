@@ -1,0 +1,481 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Andalucía,Fotógrafo de bodas,0.15
+2018,Andalucía,Dj,0.27
+2018,Andalucía,Wedding Planner,0.04
+2018,Andalucía,Servicio de Catering,0.29
+2018,Andalucía,Floristería,0.04
+2018,Andalucía,Maquillaje,0.04
+2018,Andalucía,Peluquero,0.12
+2018,Andalucía,Modista,0.05
+2018,Aragón,Fotógrafo de bodas,0.15
+2018,Aragón,Dj,0.17
+2018,Aragón,Wedding Planner,0.07
+2018,Aragón,Servicio de Catering,0.11
+2018,Aragón,Floristería,0.08
+2018,Aragón,Maquillaje,0.26
+2018,Aragón,Peluquero,0.08
+2018,Aragón,Modista,0.08
+2018,Asturias,Fotógrafo de bodas,0.11
+2018,Asturias,Dj,0.12
+2018,Asturias,Wedding Planner,0.08
+2018,Asturias,Servicio de Catering,0.11
+2018,Asturias,Floristería,0.08
+2018,Asturias,Maquillaje,0.34
+2018,Asturias,Peluquero,0.08
+2018,Asturias,Modista,0.08
+2018,Illes Balears,Fotógrafo de bodas,0.15
+2018,Illes Balears,Dj,0.23
+2018,Illes Balears,Wedding Planner,0.06
+2018,Illes Balears,Servicio de Catering,0.12
+2018,Illes Balears,Floristería,0.06
+2018,Illes Balears,Maquillaje,0.23
+2018,Illes Balears,Peluquero,0.08
+2018,Illes Balears,Modista,0.07
+2018,País Vasco,Fotógrafo de bodas,0.13
+2018,País Vasco,Dj,0.15
+2018,País Vasco,Wedding Planner,0.07
+2018,País Vasco,Servicio de Catering,0.13
+2018,País Vasco,Floristería,0.08
+2018,País Vasco,Maquillaje,0.28
+2018,País Vasco,Peluquero,0.08
+2018,País Vasco,Modista,0.08
+2018,Islas Canarias,Fotógrafo de bodas,0.12
+2018,Islas Canarias,Dj,0.17
+2018,Islas Canarias,Wedding Planner,0.07
+2018,Islas Canarias,Servicio de Catering,0.11
+2018,Islas Canarias,Floristería,0.08
+2018,Islas Canarias,Maquillaje,0.3
+2018,Islas Canarias,Peluquero,0.08
+2018,Islas Canarias,Modista,0.07
+2018,Cantabria,Fotógrafo de bodas,0.13
+2018,Cantabria,Dj,0.16
+2018,Cantabria,Wedding Planner,0.07
+2018,Cantabria,Servicio de Catering,0.1
+2018,Cantabria,Floristería,0.08
+2018,Cantabria,Maquillaje,0.3
+2018,Cantabria,Peluquero,0.08
+2018,Cantabria,Modista,0.08
+2018,Castilla y León,Fotógrafo de bodas,0.13
+2018,Castilla y León,Dj,0.15
+2018,Castilla y León,Wedding Planner,0.08
+2018,Castilla y León,Servicio de Catering,0.1
+2018,Castilla y León,Floristería,0.08
+2018,Castilla y León,Maquillaje,0.28
+2018,Castilla y León,Peluquero,0.09
+2018,Castilla y León,Modista,0.09
+2018,Castilla-La Mancha,Fotógrafo de bodas,0.13
+2018,Castilla-La Mancha,Dj,0.15
+2018,Castilla-La Mancha,Wedding Planner,0.07
+2018,Castilla-La Mancha,Servicio de Catering,0.1
+2018,Castilla-La Mancha,Floristería,0.09
+2018,Castilla-La Mancha,Maquillaje,0.29
+2018,Castilla-La Mancha,Peluquero,0.09
+2018,Castilla-La Mancha,Modista,0.08
+2018,Cataluña,Fotógrafo de bodas,0.14
+2018,Cataluña,Dj,0.18
+2018,Cataluña,Wedding Planner,0.07
+2018,Cataluña,Servicio de Catering,0.12
+2018,Cataluña,Floristería,0.07
+2018,Cataluña,Maquillaje,0.26
+2018,Cataluña,Peluquero,0.08
+2018,Cataluña,Modista,0.08
+2018,Ceuta,Fotógrafo de bodas,0.13
+2018,Ceuta,Dj,0.18
+2018,Ceuta,Wedding Planner,0.07
+2018,Ceuta,Servicio de Catering,0.06
+2018,Ceuta,Floristería,0.06
+2018,Ceuta,Maquillaje,0.36
+2018,Ceuta,Peluquero,0.07
+2018,Ceuta,Modista,0.07
+2018,Madrid,Fotógrafo de bodas,0.16
+2018,Madrid,Dj,0.17
+2018,Madrid,Wedding Planner,0.07
+2018,Madrid,Servicio de Catering,0.13
+2018,Madrid,Floristería,0.08
+2018,Madrid,Maquillaje,0.23
+2018,Madrid,Peluquero,0.08
+2018,Madrid,Modista,0.08
+2018,Extremadura,Fotógrafo de bodas,0.13
+2018,Extremadura,Dj,0.15
+2018,Extremadura,Wedding Planner,0.08
+2018,Extremadura,Servicio de Catering,0.11
+2018,Extremadura,Floristería,0.09
+2018,Extremadura,Maquillaje,0.25
+2018,Extremadura,Peluquero,0.1
+2018,Extremadura,Modista,0.09
+2018,Galicia,Fotógrafo de bodas,0.14
+2018,Galicia,Dj,0.11
+2018,Galicia,Wedding Planner,0.08
+2018,Galicia,Servicio de Catering,0.11
+2018,Galicia,Floristería,0.09
+2018,Galicia,Maquillaje,0.29
+2018,Galicia,Peluquero,0.09
+2018,Galicia,Modista,0.09
+2018,La Rioja,Fotógrafo de bodas,0.13
+2018,La Rioja,Dj,0.2
+2018,La Rioja,Wedding Planner,0.07
+2018,La Rioja,Servicio de Catering,0.13
+2018,La Rioja,Floristería,0.08
+2018,La Rioja,Maquillaje,0.23
+2018,La Rioja,Peluquero,0.08
+2018,La Rioja,Modista,0.08
+2018,Melilla,Fotógrafo de bodas,0.16
+2018,Melilla,Dj,0.17
+2018,Melilla,Wedding Planner,0.08
+2018,Melilla,Servicio de Catering,0.07
+2018,Melilla,Floristería,0.07
+2018,Melilla,Maquillaje,0.31
+2018,Melilla,Peluquero,0.07
+2018,Melilla,Modista,0.07
+2018,Navarra,Fotógrafo de bodas,0.14
+2018,Navarra,Dj,0.15
+2018,Navarra,Wedding Planner,0.07
+2018,Navarra,Servicio de Catering,0.14
+2018,Navarra,Floristería,0.08
+2018,Navarra,Maquillaje,0.26
+2018,Navarra,Peluquero,0.08
+2018,Navarra,Modista,0.08
+2018,Murcia,Fotógrafo de bodas,0.12
+2018,Murcia,Dj,0.15
+2018,Murcia,Wedding Planner,0.07
+2018,Murcia,Servicio de Catering,0.11
+2018,Murcia,Floristería,0.08
+2018,Murcia,Maquillaje,0.31
+2018,Murcia,Peluquero,0.08
+2018,Murcia,Modista,0.08
+2018,España,Fotógrafo de bodas,0.13
+2018,España,Dj,0.15
+2018,España,Wedding Planner,0.07
+2018,España,Servicio de Catering,0.13
+2018,España,Floristería,0.08
+2018,España,Maquillaje,0.29
+2018,España,Peluquero,0.08
+2018,España,Modista,0.07
+2018,Valencia,Fotógrafo de bodas,0.13
+2018,Valencia,Dj,0.15
+2018,Valencia,Wedding Planner,0.07
+2018,Valencia,Servicio de Catering,0.13
+2018,Valencia,Floristería,0.08
+2018,Valencia,Maquillaje,0.28
+2018,Valencia,Peluquero,0.08
+2018,Valencia,Modista,0.08
+2019,Andalucía,Fotógrafo de bodas,0.11
+2019,Andalucía,Dj,0.1
+2019,Andalucía,Wedding Planner,0.08
+2019,Andalucía,Servicio de Catering,0.14
+2019,Andalucía,Floristería,0.08
+2019,Andalucía,Maquillaje,0.31
+2019,Andalucía,Peluquero,0.09
+2019,Andalucía,Modista,0.09
+2019,Aragón,Fotógrafo de bodas,0.13
+2019,Aragón,Dj,0.16
+2019,Aragón,Wedding Planner,0.07
+2019,Aragón,Servicio de Catering,0.13
+2019,Aragón,Floristería,0.08
+2019,Aragón,Maquillaje,0.27
+2019,Aragón,Peluquero,0.08
+2019,Aragón,Modista,0.08
+2019,Asturias,Fotógrafo de bodas,0.12
+2019,Asturias,Dj,0.13
+2019,Asturias,Wedding Planner,0.08
+2019,Asturias,Servicio de Catering,0.12
+2019,Asturias,Floristería,0.09
+2019,Asturias,Maquillaje,0.28
+2019,Asturias,Peluquero,0.09
+2019,Asturias,Modista,0.09
+2019,Illes Balears,Fotógrafo de bodas,0.12
+2019,Illes Balears,Dj,0.24
+2019,Illes Balears,Wedding Planner,0.07
+2019,Illes Balears,Servicio de Catering,0.12
+2019,Illes Balears,Floristería,0.07
+2019,Illes Balears,Maquillaje,0.23
+2019,Illes Balears,Peluquero,0.07
+2019,Illes Balears,Modista,0.08
+2019,País Vasco,Fotógrafo de bodas,0.13
+2019,País Vasco,Dj,0.18
+2019,País Vasco,Wedding Planner,0.08
+2019,País Vasco,Servicio de Catering,0.1
+2019,País Vasco,Floristería,0.09
+2019,País Vasco,Maquillaje,0.26
+2019,País Vasco,Peluquero,0.09
+2019,País Vasco,Modista,0.07
+2019,Islas Canarias,Fotógrafo de bodas,0.12
+2019,Islas Canarias,Dj,0.17
+2019,Islas Canarias,Wedding Planner,0.07
+2019,Islas Canarias,Servicio de Catering,0.13
+2019,Islas Canarias,Floristería,0.08
+2019,Islas Canarias,Maquillaje,0.28
+2019,Islas Canarias,Peluquero,0.08
+2019,Islas Canarias,Modista,0.07
+2019,Cantabria,Fotógrafo de bodas,0.1
+2019,Cantabria,Dj,0.16
+2019,Cantabria,Wedding Planner,0.08
+2019,Cantabria,Servicio de Catering,0.11
+2019,Cantabria,Floristería,0.09
+2019,Cantabria,Maquillaje,0.28
+2019,Cantabria,Peluquero,0.09
+2019,Cantabria,Modista,0.09
+2019,Castilla y León,Fotógrafo de bodas,0.13
+2019,Castilla y León,Dj,0.14
+2019,Castilla y León,Wedding Planner,0.08
+2019,Castilla y León,Servicio de Catering,0.1
+2019,Castilla y León,Floristería,0.09
+2019,Castilla y León,Maquillaje,0.28
+2019,Castilla y León,Peluquero,0.09
+2019,Castilla y León,Modista,0.09
+2019,Castilla-La Mancha,Fotógrafo de bodas,0.12
+2019,Castilla-La Mancha,Dj,0.15
+2019,Castilla-La Mancha,Wedding Planner,0.08
+2019,Castilla-La Mancha,Servicio de Catering,0.1
+2019,Castilla-La Mancha,Floristería,0.09
+2019,Castilla-La Mancha,Maquillaje,0.29
+2019,Castilla-La Mancha,Peluquero,0.09
+2019,Castilla-La Mancha,Modista,0.08
+2019,Cataluña,Fotógrafo de bodas,0.14
+2019,Cataluña,Dj,0.18
+2019,Cataluña,Wedding Planner,0.07
+2019,Cataluña,Servicio de Catering,0.13
+2019,Cataluña,Floristería,0.07
+2019,Cataluña,Maquillaje,0.25
+2019,Cataluña,Peluquero,0.08
+2019,Cataluña,Modista,0.08
+2019,Ceuta,Fotógrafo de bodas,0.11
+2019,Ceuta,Dj,0.21
+2019,Ceuta,Wedding Planner,0.07
+2019,Ceuta,Servicio de Catering,0.07
+2019,Ceuta,Floristería,0.07
+2019,Ceuta,Maquillaje,0.33
+2019,Ceuta,Peluquero,0.07
+2019,Ceuta,Modista,0.07
+2019,Madrid,Fotógrafo de bodas,0.14
+2019,Madrid,Dj,0.16
+2019,Madrid,Wedding Planner,0.07
+2019,Madrid,Servicio de Catering,0.12
+2019,Madrid,Floristería,0.09
+2019,Madrid,Maquillaje,0.24
+2019,Madrid,Peluquero,0.09
+2019,Madrid,Modista,0.09
+2019,Extremadura,Fotógrafo de bodas,0.13
+2019,Extremadura,Dj,0.11
+2019,Extremadura,Wedding Planner,0.08
+2019,Extremadura,Servicio de Catering,0.11
+2019,Extremadura,Floristería,0.09
+2019,Extremadura,Maquillaje,0.29
+2019,Extremadura,Peluquero,0.1
+2019,Extremadura,Modista,0.09
+2019,Galicia,Fotógrafo de bodas,0.1
+2019,Galicia,Dj,0.15
+2019,Galicia,Wedding Planner,0.08
+2019,Galicia,Servicio de Catering,0.12
+2019,Galicia,Floristería,0.09
+2019,Galicia,Maquillaje,0.28
+2019,Galicia,Peluquero,0.09
+2019,Galicia,Modista,0.09
+2019,La Rioja,Fotógrafo de bodas,0.14
+2019,La Rioja,Dj,0.19
+2019,La Rioja,Wedding Planner,0.08
+2019,La Rioja,Servicio de Catering,0.11
+2019,La Rioja,Floristería,0.09
+2019,La Rioja,Maquillaje,0.23
+2019,La Rioja,Peluquero,0.08
+2019,La Rioja,Modista,0.08
+2019,Melilla,Fotógrafo de bodas,0.15
+2019,Melilla,Dj,0.16
+2019,Melilla,Wedding Planner,0.06
+2019,Melilla,Servicio de Catering,0.06
+2019,Melilla,Floristería,0.09
+2019,Melilla,Maquillaje,0.36
+2019,Melilla,Peluquero,0.07
+2019,Melilla,Modista,0.05
+2019,Navarra,Fotógrafo de bodas,0.13
+2019,Navarra,Dj,0.15
+2019,Navarra,Wedding Planner,0.09
+2019,Navarra,Servicio de Catering,0.12
+2019,Navarra,Floristería,0.09
+2019,Navarra,Maquillaje,0.26
+2019,Navarra,Peluquero,0.08
+2019,Navarra,Modista,0.08
+2019,Murcia,Fotógrafo de bodas,0.11
+2019,Murcia,Dj,0.15
+2019,Murcia,Wedding Planner,0.07
+2019,Murcia,Servicio de Catering,0.1
+2019,Murcia,Floristería,0.08
+2019,Murcia,Maquillaje,0.31
+2019,Murcia,Peluquero,0.09
+2019,Murcia,Modista,0.09
+2019,España,Fotógrafo de bodas,0.13
+2019,España,Dj,0.16
+2019,España,Wedding Planner,0.08
+2019,España,Servicio de Catering,0.12
+2019,España,Floristería,0.09
+2019,España,Maquillaje,0.27
+2019,España,Peluquero,0.08
+2019,España,Modista,0.07
+2019,Valencia,Fotógrafo de bodas,0.14
+2019,Valencia,Dj,0.16
+2019,Valencia,Wedding Planner,0.07
+2019,Valencia,Servicio de Catering,0.11
+2019,Valencia,Floristería,0.08
+2019,Valencia,Maquillaje,0.28
+2019,Valencia,Peluquero,0.08
+2019,Valencia,Modista,0.08
+2020,Andalucía,Fotógrafo de bodas,0.14
+2020,Andalucía,Dj,0.12
+2020,Andalucía,Wedding Planner,0.07
+2020,Andalucía,Servicio de Catering,0.12
+2020,Andalucía,Floristería,0.08
+2020,Andalucía,Maquillaje,0.32
+2020,Andalucía,Peluquero,0.08
+2020,Andalucía,Modista,0.07
+2020,Aragón,Fotógrafo de bodas,0.14
+2020,Aragón,Dj,0.18
+2020,Aragón,Wedding Planner,0.08
+2020,Aragón,Servicio de Catering,0.1
+2020,Aragón,Floristería,0.09
+2020,Aragón,Maquillaje,0.25
+2020,Aragón,Peluquero,0.08
+2020,Aragón,Modista,0.08
+2020,Asturias,Fotógrafo de bodas,0.1
+2020,Asturias,Dj,0.15
+2020,Asturias,Wedding Planner,0.07
+2020,Asturias,Servicio de Catering,0.12
+2020,Asturias,Floristería,0.08
+2020,Asturias,Maquillaje,0.33
+2020,Asturias,Peluquero,0.08
+2020,Asturias,Modista,0.07
+2020,Illes Balears,Fotógrafo de bodas,0.14
+2020,Illes Balears,Dj,0.2
+2020,Illes Balears,Wedding Planner,0.07
+2020,Illes Balears,Servicio de Catering,0.1
+2020,Illes Balears,Floristería,0.07
+2020,Illes Balears,Maquillaje,0.25
+2020,Illes Balears,Peluquero,0.09
+2020,Illes Balears,Modista,0.08
+2020,País Vasco,Fotógrafo de bodas,0.11
+2020,País Vasco,Dj,0.16
+2020,País Vasco,Wedding Planner,0.07
+2020,País Vasco,Servicio de Catering,0.1
+2020,País Vasco,Floristería,0.08
+2020,País Vasco,Maquillaje,0.32
+2020,País Vasco,Peluquero,0.08
+2020,País Vasco,Modista,0.08
+2020,Islas Canarias,Fotógrafo de bodas,0.11
+2020,Islas Canarias,Dj,0.15
+2020,Islas Canarias,Wedding Planner,0.07
+2020,Islas Canarias,Servicio de Catering,0.1
+2020,Islas Canarias,Floristería,0.1
+2020,Islas Canarias,Maquillaje,0.32
+2020,Islas Canarias,Peluquero,0.08
+2020,Islas Canarias,Modista,0.07
+2020,Cantabria,Fotógrafo de bodas,0.13
+2020,Cantabria,Dj,0.16
+2020,Cantabria,Wedding Planner,0.07
+2020,Cantabria,Servicio de Catering,0.11
+2020,Cantabria,Floristería,0.09
+2020,Cantabria,Maquillaje,0.29
+2020,Cantabria,Peluquero,0.07
+2020,Cantabria,Modista,0.08
+2020,Castilla y León,Fotógrafo de bodas,0.13
+2020,Castilla y León,Dj,0.16
+2020,Castilla y León,Wedding Planner,0.07
+2020,Castilla y León,Servicio de Catering,0.1
+2020,Castilla y León,Floristería,0.1
+2020,Castilla y León,Maquillaje,0.27
+2020,Castilla y León,Peluquero,0.09
+2020,Castilla y León,Modista,0.08
+2020,Castilla-La Mancha,Fotógrafo de bodas,0.12
+2020,Castilla-La Mancha,Dj,0.17
+2020,Castilla-La Mancha,Wedding Planner,0.07
+2020,Castilla-La Mancha,Servicio de Catering,0.1
+2020,Castilla-La Mancha,Floristería,0.09
+2020,Castilla-La Mancha,Maquillaje,0.3
+2020,Castilla-La Mancha,Peluquero,0.08
+2020,Castilla-La Mancha,Modista,0.07
+2020,Cataluña,Fotógrafo de bodas,0.14
+2020,Cataluña,Dj,0.18
+2020,Cataluña,Wedding Planner,0.07
+2020,Cataluña,Servicio de Catering,0.12
+2020,Cataluña,Floristería,0.08
+2020,Cataluña,Maquillaje,0.26
+2020,Cataluña,Peluquero,0.07
+2020,Cataluña,Modista,0.08
+2020,Ceuta,Fotógrafo de bodas,0.13
+2020,Ceuta,Dj,0.13
+2020,Ceuta,Wedding Planner,0.06
+2020,Ceuta,Servicio de Catering,0.06
+2020,Ceuta,Floristería,0.06
+2020,Ceuta,Maquillaje,0.44
+2020,Ceuta,Peluquero,0.06
+2020,Ceuta,Modista,0.06
+2020,Madrid,Fotógrafo de bodas,0.15
+2020,Madrid,Dj,0.17
+2020,Madrid,Wedding Planner,0.07
+2020,Madrid,Servicio de Catering,0.12
+2020,Madrid,Floristería,0.09
+2020,Madrid,Maquillaje,0.24
+2020,Madrid,Peluquero,0.08
+2020,Madrid,Modista,0.08
+2020,Extremadura,Fotógrafo de bodas,0.09
+2020,Extremadura,Dj,0.14
+2020,Extremadura,Wedding Planner,0.07
+2020,Extremadura,Servicio de Catering,0.1
+2020,Extremadura,Floristería,0.1
+2020,Extremadura,Maquillaje,0.33
+2020,Extremadura,Peluquero,0.09
+2020,Extremadura,Modista,0.08
+2020,Galicia,Fotógrafo de bodas,0.12
+2020,Galicia,Dj,0.15
+2020,Galicia,Wedding Planner,0.07
+2020,Galicia,Servicio de Catering,0.1
+2020,Galicia,Floristería,0.08
+2020,Galicia,Maquillaje,0.32
+2020,Galicia,Peluquero,0.08
+2020,Galicia,Modista,0.08
+2020,La Rioja,Fotógrafo de bodas,0.16
+2020,La Rioja,Dj,0.17
+2020,La Rioja,Wedding Planner,0.07
+2020,La Rioja,Servicio de Catering,0.09
+2020,La Rioja,Floristería,0.1
+2020,La Rioja,Maquillaje,0.24
+2020,La Rioja,Peluquero,0.09
+2020,La Rioja,Modista,0.08
+2020,Melilla,Fotógrafo de bodas,0.16
+2020,Melilla,Dj,0.12
+2020,Melilla,Wedding Planner,0.09
+2020,Melilla,Servicio de Catering,0.09
+2020,Melilla,Floristería,0.09
+2020,Melilla,Maquillaje,0.27
+2020,Melilla,Peluquero,0.09
+2020,Melilla,Modista,0.09
+2020,Navarra,Fotógrafo de bodas,0.13
+2020,Navarra,Dj,0.15
+2020,Navarra,Wedding Planner,0.07
+2020,Navarra,Servicio de Catering,0.13
+2020,Navarra,Floristería,0.09
+2020,Navarra,Maquillaje,0.28
+2020,Navarra,Peluquero,0.07
+2020,Navarra,Modista,0.08
+2020,Murcia,Fotógrafo de bodas,0.13
+2020,Murcia,Dj,0.15
+2020,Murcia,Wedding Planner,0.07
+2020,Murcia,Servicio de Catering,0.09
+2020,Murcia,Floristería,0.09
+2020,Murcia,Maquillaje,0.3
+2020,Murcia,Peluquero,0.09
+2020,Murcia,Modista,0.08
+2020,España,Fotógrafo de bodas,0.09
+2020,España,Dj,0.15
+2020,España,Wedding Planner,0.08
+2020,España,Servicio de Catering,0.11
+2020,España,Floristería,0.09
+2020,España,Maquillaje,0.3
+2020,España,Peluquero,0.09
+2020,España,Modista,0.09
+2020,Valencia,Fotógrafo de bodas,0.12
+2020,Valencia,Dj,0.18
+2020,Valencia,Wedding Planner,0.07
+2020,Valencia,Servicio de Catering,0.1
+2020,Valencia,Floristería,0.08
+2020,Valencia,Maquillaje,0.29
+2020,Valencia,Peluquero,0.08
+2020,Valencia,Modista,0.08

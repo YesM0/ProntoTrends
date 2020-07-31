@@ -1,0 +1,127 @@
+Year,ticket_geo_region_name,Spend_type,Distribution
+2018,Abruzzo,premium,0.29
+2018,Abruzzo,standard,0.71
+2018,Valle d'Aosta,premium,NA
+2018,Valle d'Aosta,standard,NA
+2018,Puglia,premium,0.26
+2018,Puglia,standard,0.74
+2018,Basilicata,premium,NA
+2018,Basilicata,standard,NA
+2018,Calabria,premium,0.28
+2018,Calabria,standard,0.72
+2018,Campania,premium,0.29
+2018,Campania,standard,0.71
+2018,Emilia-Romagna,premium,0.19
+2018,Emilia-Romagna,standard,0.81
+2018,Friuli Venezia Giulia,premium,0.24
+2018,Friuli Venezia Giulia,standard,0.76
+2018,Italia,premium,0.22
+2018,Italia,standard,0.78
+2018,Lazio,premium,0.19
+2018,Lazio,standard,0.81
+2018,Liguria,premium,0.18
+2018,Liguria,standard,0.82
+2018,Lombardia,premium,0.2
+2018,Lombardia,standard,0.8
+2018,Marche,premium,0.24
+2018,Marche,standard,0.76
+2018,Molise,premium,NA
+2018,Molise,standard,NA
+2018,Piemonte,premium,0.17
+2018,Piemonte,standard,0.83
+2018,Sardegna,premium,0.22
+2018,Sardegna,standard,0.78
+2018,Sicilia,premium,0.27
+2018,Sicilia,standard,0.73
+2018,Trentino-Alto Adige,premium,0.19
+2018,Trentino-Alto Adige,standard,0.81
+2018,Toscana,premium,0.21
+2018,Toscana,standard,0.79
+2018,Umbria,premium,0.19
+2018,Umbria,standard,0.81
+2018,Veneto,premium,0.19
+2018,Veneto,standard,0.81
+2019,Abruzzo,premium,0.21
+2019,Abruzzo,standard,0.79
+2019,Valle d'Aosta,premium,NA
+2019,Valle d'Aosta,standard,NA
+2019,Puglia,premium,0.18
+2019,Puglia,standard,0.82
+2019,Basilicata,premium,NA
+2019,Basilicata,standard,NA
+2019,Calabria,premium,0.19
+2019,Calabria,standard,0.81
+2019,Campania,premium,0.22
+2019,Campania,standard,0.78
+2019,Emilia-Romagna,premium,0.14
+2019,Emilia-Romagna,standard,0.86
+2019,Friuli Venezia Giulia,premium,0.13
+2019,Friuli Venezia Giulia,standard,0.87
+2019,Italia,premium,0.17
+2019,Italia,standard,0.83
+2019,Lazio,premium,0.18
+2019,Lazio,standard,0.82
+2019,Liguria,premium,0.16
+2019,Liguria,standard,0.84
+2019,Lombardia,premium,0.15
+2019,Lombardia,standard,0.85
+2019,Marche,premium,0.15
+2019,Marche,standard,0.85
+2019,Molise,premium,NA
+2019,Molise,standard,NA
+2019,Piemonte,premium,0.14
+2019,Piemonte,standard,0.86
+2019,Sardegna,premium,0.17
+2019,Sardegna,standard,0.83
+2019,Sicilia,premium,0.19
+2019,Sicilia,standard,0.81
+2019,Trentino-Alto Adige,premium,0.13
+2019,Trentino-Alto Adige,standard,0.87
+2019,Toscana,premium,0.16
+2019,Toscana,standard,0.84
+2019,Umbria,premium,0.17
+2019,Umbria,standard,0.83
+2019,Veneto,premium,0.17
+2019,Veneto,standard,0.83
+2020,Abruzzo,premium,NA
+2020,Abruzzo,standard,NA
+2020,Valle d'Aosta,premium,NA
+2020,Valle d'Aosta,standard,NA
+2020,Puglia,premium,0.2
+2020,Puglia,standard,0.8
+2020,Basilicata,premium,NA
+2020,Basilicata,standard,NA
+2020,Calabria,premium,NA
+2020,Calabria,standard,NA
+2020,Campania,premium,0.14
+2020,Campania,standard,0.86
+2020,Emilia-Romagna,premium,0.14
+2020,Emilia-Romagna,standard,0.86
+2020,Friuli Venezia Giulia,premium,NA
+2020,Friuli Venezia Giulia,standard,NA
+2020,Italia,premium,0.13
+2020,Italia,standard,0.87
+2020,Lazio,premium,0.16
+2020,Lazio,standard,0.84
+2020,Liguria,premium,0.07
+2020,Liguria,standard,0.93
+2020,Lombardia,premium,0.13
+2020,Lombardia,standard,0.87
+2020,Marche,premium,NA
+2020,Marche,standard,NA
+2020,Molise,premium,NA
+2020,Molise,standard,NA
+2020,Piemonte,premium,0.12
+2020,Piemonte,standard,0.88
+2020,Sardegna,premium,0.12
+2020,Sardegna,standard,0.88
+2020,Sicilia,premium,0.16
+2020,Sicilia,standard,0.84
+2020,Trentino-Alto Adige,premium,NA
+2020,Trentino-Alto Adige,standard,NA
+2020,Toscana,premium,0.1
+2020,Toscana,standard,0.9
+2020,Umbria,premium,NA
+2020,Umbria,standard,NA
+2020,Veneto,premium,0.11
+2020,Veneto,standard,0.89

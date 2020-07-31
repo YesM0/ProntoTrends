@@ -1,0 +1,253 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Abruzzo,Cura giardino,0.44
+2018,Abruzzo,Installazione pannelli solari,0.09
+2018,Abruzzo,Installazione piscina,0.16
+2018,Abruzzo,Installazione tende da sole,0.31
+2018,Basilicata,Cura giardino,0.25
+2018,Basilicata,Installazione pannelli solari,0.19
+2018,Basilicata,Installazione piscina,0.15
+2018,Basilicata,Installazione tende da sole,0.41
+2018,Calabria,Cura giardino,0.28
+2018,Calabria,Installazione pannelli solari,0.24
+2018,Calabria,Installazione piscina,0.14
+2018,Calabria,Installazione tende da sole,0.34
+2018,Campania,Cura giardino,0.34
+2018,Campania,Installazione pannelli solari,0.13
+2018,Campania,Installazione piscina,0.16
+2018,Campania,Installazione tende da sole,0.37
+2018,Emilia-Romagna,Cura giardino,0.51
+2018,Emilia-Romagna,Installazione pannelli solari,0.07
+2018,Emilia-Romagna,Installazione piscina,0.1
+2018,Emilia-Romagna,Installazione tende da sole,0.32
+2018,Friuli Venezia Giulia,Cura giardino,0.63
+2018,Friuli Venezia Giulia,Installazione pannelli solari,0.12
+2018,Friuli Venezia Giulia,Installazione piscina,0.06
+2018,Friuli Venezia Giulia,Installazione tende da sole,0.19
+2018,Italia,Cura giardino,0.46
+2018,Italia,Installazione pannelli solari,0.11
+2018,Italia,Installazione piscina,0.12
+2018,Italia,Installazione tende da sole,0.31
+2018,Lazio,Cura giardino,0.52
+2018,Lazio,Installazione pannelli solari,0.08
+2018,Lazio,Installazione piscina,0.08
+2018,Lazio,Installazione tende da sole,0.32
+2018,Liguria,Cura giardino,0.38
+2018,Liguria,Installazione pannelli solari,0.13
+2018,Liguria,Installazione piscina,0.08
+2018,Liguria,Installazione tende da sole,0.41
+2018,Lombardia,Cura giardino,0.54
+2018,Lombardia,Installazione pannelli solari,0.07
+2018,Lombardia,Installazione piscina,0.08
+2018,Lombardia,Installazione tende da sole,0.3
+2018,Marche,Cura giardino,0.46
+2018,Marche,Installazione pannelli solari,0.11
+2018,Marche,Installazione piscina,0.12
+2018,Marche,Installazione tende da sole,0.32
+2018,Molise,Cura giardino,0.41
+2018,Molise,Installazione pannelli solari,0.15
+2018,Molise,Installazione piscina,0.09
+2018,Molise,Installazione tende da sole,0.35
+2018,Piemonte,Cura giardino,0.49
+2018,Piemonte,Installazione pannelli solari,0.08
+2018,Piemonte,Installazione piscina,0.13
+2018,Piemonte,Installazione tende da sole,0.3
+2018,Puglia,Cura giardino,0.29
+2018,Puglia,Installazione pannelli solari,0.15
+2018,Puglia,Installazione piscina,0.22
+2018,Puglia,Installazione tende da sole,0.34
+2018,Sardegna,Cura giardino,0.35
+2018,Sardegna,Installazione pannelli solari,0.19
+2018,Sardegna,Installazione piscina,0.15
+2018,Sardegna,Installazione tende da sole,0.31
+2018,Sicilia,Cura giardino,0.29
+2018,Sicilia,Installazione pannelli solari,0.22
+2018,Sicilia,Installazione piscina,0.21
+2018,Sicilia,Installazione tende da sole,0.28
+2018,Toscana,Cura giardino,0.51
+2018,Toscana,Installazione pannelli solari,0.09
+2018,Toscana,Installazione piscina,0.11
+2018,Toscana,Installazione tende da sole,0.29
+2018,Trentino-Alto Adige,Cura giardino,0.34
+2018,Trentino-Alto Adige,Installazione pannelli solari,0.15
+2018,Trentino-Alto Adige,Installazione piscina,0.03
+2018,Trentino-Alto Adige,Installazione tende da sole,0.48
+2018,Umbria,Cura giardino,0.42
+2018,Umbria,Installazione pannelli solari,0.13
+2018,Umbria,Installazione piscina,0.19
+2018,Umbria,Installazione tende da sole,0.26
+2018,Valle d'Aosta,Cura giardino,0.56
+2018,Valle d'Aosta,Installazione pannelli solari,0.0
+2018,Valle d'Aosta,Installazione piscina,0.11
+2018,Valle d'Aosta,Installazione tende da sole,0.33
+2018,Veneto,Cura giardino,0.51
+2018,Veneto,Installazione pannelli solari,0.1
+2018,Veneto,Installazione piscina,0.09
+2018,Veneto,Installazione tende da sole,0.29
+2019,Abruzzo,Cura giardino,0.46
+2019,Abruzzo,Installazione pannelli solari,0.14
+2019,Abruzzo,Installazione piscina,0.19
+2019,Abruzzo,Installazione tende da sole,0.21
+2019,Basilicata,Cura giardino,0.26
+2019,Basilicata,Installazione pannelli solari,0.37
+2019,Basilicata,Installazione piscina,0.23
+2019,Basilicata,Installazione tende da sole,0.15
+2019,Calabria,Cura giardino,0.27
+2019,Calabria,Installazione pannelli solari,0.29
+2019,Calabria,Installazione piscina,0.28
+2019,Calabria,Installazione tende da sole,0.17
+2019,Campania,Cura giardino,0.33
+2019,Campania,Installazione pannelli solari,0.17
+2019,Campania,Installazione piscina,0.32
+2019,Campania,Installazione tende da sole,0.17
+2019,Emilia-Romagna,Cura giardino,0.44
+2019,Emilia-Romagna,Installazione pannelli solari,0.12
+2019,Emilia-Romagna,Installazione piscina,0.15
+2019,Emilia-Romagna,Installazione tende da sole,0.29
+2019,Friuli Venezia Giulia,Cura giardino,0.53
+2019,Friuli Venezia Giulia,Installazione pannelli solari,0.13
+2019,Friuli Venezia Giulia,Installazione piscina,0.15
+2019,Friuli Venezia Giulia,Installazione tende da sole,0.19
+2019,Italia,Cura giardino,0.42
+2019,Italia,Installazione pannelli solari,0.14
+2019,Italia,Installazione piscina,0.2
+2019,Italia,Installazione tende da sole,0.24
+2019,Lazio,Cura giardino,0.43
+2019,Lazio,Installazione pannelli solari,0.11
+2019,Lazio,Installazione piscina,0.2
+2019,Lazio,Installazione tende da sole,0.26
+2019,Liguria,Cura giardino,0.37
+2019,Liguria,Installazione pannelli solari,0.16
+2019,Liguria,Installazione piscina,0.14
+2019,Liguria,Installazione tende da sole,0.32
+2019,Lombardia,Cura giardino,0.49
+2019,Lombardia,Installazione pannelli solari,0.09
+2019,Lombardia,Installazione piscina,0.16
+2019,Lombardia,Installazione tende da sole,0.27
+2019,Marche,Cura giardino,0.47
+2019,Marche,Installazione pannelli solari,0.16
+2019,Marche,Installazione piscina,0.21
+2019,Marche,Installazione tende da sole,0.16
+2019,Molise,Cura giardino,0.41
+2019,Molise,Installazione pannelli solari,0.26
+2019,Molise,Installazione piscina,0.3
+2019,Molise,Installazione tende da sole,0.03
+2019,Piemonte,Cura giardino,0.5
+2019,Piemonte,Installazione pannelli solari,0.11
+2019,Piemonte,Installazione piscina,0.2
+2019,Piemonte,Installazione tende da sole,0.19
+2019,Puglia,Cura giardino,0.22
+2019,Puglia,Installazione pannelli solari,0.2
+2019,Puglia,Installazione piscina,0.35
+2019,Puglia,Installazione tende da sole,0.23
+2019,Sardegna,Cura giardino,0.29
+2019,Sardegna,Installazione pannelli solari,0.25
+2019,Sardegna,Installazione piscina,0.23
+2019,Sardegna,Installazione tende da sole,0.24
+2019,Sicilia,Cura giardino,0.27
+2019,Sicilia,Installazione pannelli solari,0.22
+2019,Sicilia,Installazione piscina,0.33
+2019,Sicilia,Installazione tende da sole,0.18
+2019,Toscana,Cura giardino,0.46
+2019,Toscana,Installazione pannelli solari,0.13
+2019,Toscana,Installazione piscina,0.18
+2019,Toscana,Installazione tende da sole,0.23
+2019,Trentino-Alto Adige,Cura giardino,0.35
+2019,Trentino-Alto Adige,Installazione pannelli solari,0.11
+2019,Trentino-Alto Adige,Installazione piscina,0.08
+2019,Trentino-Alto Adige,Installazione tende da sole,0.46
+2019,Umbria,Cura giardino,0.45
+2019,Umbria,Installazione pannelli solari,0.13
+2019,Umbria,Installazione piscina,0.24
+2019,Umbria,Installazione tende da sole,0.18
+2019,Valle d'Aosta,Cura giardino,0.62
+2019,Valle d'Aosta,Installazione pannelli solari,0.24
+2019,Valle d'Aosta,Installazione piscina,0.1
+2019,Valle d'Aosta,Installazione tende da sole,0.05
+2019,Veneto,Cura giardino,0.52
+2019,Veneto,Installazione pannelli solari,0.13
+2019,Veneto,Installazione piscina,0.13
+2019,Veneto,Installazione tende da sole,0.22
+2020,Abruzzo,Cura giardino,0.19
+2020,Abruzzo,Installazione pannelli solari,0.17
+2020,Abruzzo,Installazione piscina,0.4
+2020,Abruzzo,Installazione tende da sole,0.24
+2020,Basilicata,Cura giardino,0.14
+2020,Basilicata,Installazione pannelli solari,0.26
+2020,Basilicata,Installazione piscina,0.35
+2020,Basilicata,Installazione tende da sole,0.25
+2020,Calabria,Cura giardino,0.09
+2020,Calabria,Installazione pannelli solari,0.19
+2020,Calabria,Installazione piscina,0.44
+2020,Calabria,Installazione tende da sole,0.27
+2020,Campania,Cura giardino,0.12
+2020,Campania,Installazione pannelli solari,0.15
+2020,Campania,Installazione piscina,0.43
+2020,Campania,Installazione tende da sole,0.3
+2020,Emilia-Romagna,Cura giardino,0.21
+2020,Emilia-Romagna,Installazione pannelli solari,0.19
+2020,Emilia-Romagna,Installazione piscina,0.26
+2020,Emilia-Romagna,Installazione tende da sole,0.33
+2020,Friuli Venezia Giulia,Cura giardino,0.23
+2020,Friuli Venezia Giulia,Installazione pannelli solari,0.23
+2020,Friuli Venezia Giulia,Installazione piscina,0.24
+2020,Friuli Venezia Giulia,Installazione tende da sole,0.3
+2020,Italia,Cura giardino,0.2
+2020,Italia,Installazione pannelli solari,0.17
+2020,Italia,Installazione piscina,0.31
+2020,Italia,Installazione tende da sole,0.31
+2020,Lazio,Cura giardino,0.2
+2020,Lazio,Installazione pannelli solari,0.17
+2020,Lazio,Installazione piscina,0.31
+2020,Lazio,Installazione tende da sole,0.31
+2020,Liguria,Cura giardino,0.17
+2020,Liguria,Installazione pannelli solari,0.15
+2020,Liguria,Installazione piscina,0.29
+2020,Liguria,Installazione tende da sole,0.38
+2020,Lombardia,Cura giardino,0.26
+2020,Lombardia,Installazione pannelli solari,0.13
+2020,Lombardia,Installazione piscina,0.24
+2020,Lombardia,Installazione tende da sole,0.38
+2020,Marche,Cura giardino,0.19
+2020,Marche,Installazione pannelli solari,0.17
+2020,Marche,Installazione piscina,0.36
+2020,Marche,Installazione tende da sole,0.27
+2020,Molise,Cura giardino,0.15
+2020,Molise,Installazione pannelli solari,0.37
+2020,Molise,Installazione piscina,0.35
+2020,Molise,Installazione tende da sole,0.13
+2020,Piemonte,Cura giardino,0.23
+2020,Piemonte,Installazione pannelli solari,0.15
+2020,Piemonte,Installazione piscina,0.34
+2020,Piemonte,Installazione tende da sole,0.28
+2020,Puglia,Cura giardino,0.09
+2020,Puglia,Installazione pannelli solari,0.17
+2020,Puglia,Installazione piscina,0.45
+2020,Puglia,Installazione tende da sole,0.29
+2020,Sardegna,Cura giardino,0.17
+2020,Sardegna,Installazione pannelli solari,0.27
+2020,Sardegna,Installazione piscina,0.31
+2020,Sardegna,Installazione tende da sole,0.25
+2020,Sicilia,Cura giardino,0.15
+2020,Sicilia,Installazione pannelli solari,0.22
+2020,Sicilia,Installazione piscina,0.42
+2020,Sicilia,Installazione tende da sole,0.21
+2020,Toscana,Cura giardino,0.23
+2020,Toscana,Installazione pannelli solari,0.18
+2020,Toscana,Installazione piscina,0.31
+2020,Toscana,Installazione tende da sole,0.27
+2020,Trentino-Alto Adige,Cura giardino,0.23
+2020,Trentino-Alto Adige,Installazione pannelli solari,0.18
+2020,Trentino-Alto Adige,Installazione piscina,0.13
+2020,Trentino-Alto Adige,Installazione tende da sole,0.47
+2020,Umbria,Cura giardino,0.17
+2020,Umbria,Installazione pannelli solari,0.21
+2020,Umbria,Installazione piscina,0.45
+2020,Umbria,Installazione tende da sole,0.17
+2020,Valle d'Aosta,Cura giardino,0.23
+2020,Valle d'Aosta,Installazione pannelli solari,0.31
+2020,Valle d'Aosta,Installazione piscina,0.08
+2020,Valle d'Aosta,Installazione tende da sole,0.38
+2020,Veneto,Cura giardino,0.28
+2020,Veneto,Installazione pannelli solari,0.23
+2020,Veneto,Installazione piscina,0.19
+2020,Veneto,Installazione tende da sole,0.29

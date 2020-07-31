@@ -1,0 +1,820 @@
+date,ticket_geo_region_name,ticket_taxonomy_tag_name,Index
+2018-12-31,Liguria,Aria Condizionata,0.006129681881405652
+2019-12-31,Liguria,Aria Condizionata,0.008672712370262943
+2020-12-31,Liguria,Aria Condizionata,0.007411054143034054
+2018-12-31,Apulia,Aria Condizionata,0.00769760199915217
+2019-12-31,Apulia,Aria Condizionata,0.007280368226887953
+2020-12-31,Apulia,Aria Condizionata,0.0075263678760272585
+2018-12-31,Calabria,Aria Condizionata,0.006444922663877943
+2019-12-31,Calabria,Aria Condizionata,0.007167109032311634
+2020-12-31,Calabria,Aria Condizionata,0.006578935783114441
+2018-12-31,Sicily,Aria Condizionata,0.0061160322805150985
+2019-12-31,Sicily,Aria Condizionata,0.008319791941730536
+2020-12-31,Sicily,Aria Condizionata,0.007626943422944659
+2018-12-31,Veneto,Aria Condizionata,0.005416283877129062
+2019-12-31,Veneto,Aria Condizionata,0.006281120294797085
+2020-12-31,Veneto,Aria Condizionata,0.0061171048697660855
+2018-12-31,Lombardy,Aria Condizionata,0.005096573498551971
+2019-12-31,Lombardy,Aria Condizionata,0.0068300135426857846
+2020-12-31,Lombardy,Aria Condizionata,0.008592623355960685
+2018-12-31,Basilicata,Aria Condizionata,0.004168183679355843
+2019-12-31,Basilicata,Aria Condizionata,0.003091437725906386
+2020-12-31,Basilicata,Aria Condizionata,0.003321250190026371
+2018-12-31,Sardinia,Aria Condizionata,0.006594894014648372
+2019-12-31,Sardinia,Aria Condizionata,0.008050004233464763
+2020-12-31,Sardinia,Aria Condizionata,0.0059113305255333055
+2018-12-31,Friuli-Venezia Giulia,Aria Condizionata,0.006934554597706124
+2019-12-31,Friuli-Venezia Giulia,Aria Condizionata,0.007663051465453459
+2020-12-31,Friuli-Venezia Giulia,Aria Condizionata,0.006707225461387448
+2018-12-31,Emilia-Romagna,Aria Condizionata,0.007934142231999773
+2019-12-31,Emilia-Romagna,Aria Condizionata,0.007334233628216333
+2020-12-31,Emilia-Romagna,Aria Condizionata,0.008836581120655638
+2018-12-31,Campania,Aria Condizionata,0.0057504903731804115
+2019-12-31,Campania,Aria Condizionata,0.006723983361883731
+2020-12-31,Campania,Aria Condizionata,0.007412488857270314
+2018-12-31,Marche,Aria Condizionata,0.00926130147024737
+2019-12-31,Marche,Aria Condizionata,0.008985433402417234
+2020-12-31,Marche,Aria Condizionata,0.008468819775011812
+2018-12-31,Italy,Aria Condizionata,0.006514079401799826
+2019-12-31,Italy,Aria Condizionata,0.007679686803867834
+2020-12-31,Italy,Aria Condizionata,0.008403041873626782
+2018-12-31,Piedmont,Aria Condizionata,0.006063210901052763
+2019-12-31,Piedmont,Aria Condizionata,0.00803154164043603
+2020-12-31,Piedmont,Aria Condizionata,0.008951172023934853
+2018-12-31,Abruzzo,Aria Condizionata,0.00970644413317375
+2019-12-31,Abruzzo,Aria Condizionata,0.008658953130384383
+2020-12-31,Abruzzo,Aria Condizionata,0.007856327354920048
+2018-12-31,Tuscany,Aria Condizionata,0.007406722425403022
+2019-12-31,Tuscany,Aria Condizionata,0.008359207635363032
+2020-12-31,Tuscany,Aria Condizionata,0.008913351694236571
+2018-12-31,Lazio,Aria Condizionata,0.007346965964711599
+2019-12-31,Lazio,Aria Condizionata,0.008217159781552403
+2020-12-31,Lazio,Aria Condizionata,0.008692958781932726
+2018-12-31,Umbria,Aria Condizionata,0.007075036493876508
+2019-12-31,Umbria,Aria Condizionata,0.006315995924754114
+2020-12-31,Umbria,Aria Condizionata,0.007035566496553121
+2018-12-31,Aosta,Aria Condizionata,0.004644135448970871
+2019-12-31,Aosta,Aria Condizionata,0.006927320933602726
+2020-12-31,Aosta,Aria Condizionata,0.007897589578422782
+2018-12-31,Trentino-Alto Adige/South Tyrol,Aria Condizionata,0.003841713919406297
+2019-12-31,Trentino-Alto Adige/South Tyrol,Aria Condizionata,0.006580919175401129
+2020-12-31,Trentino-Alto Adige/South Tyrol,Aria Condizionata,0.0076148418829450485
+2018-12-31,Molise,Aria Condizionata,0.006664635936510146
+2019-12-31,Molise,Aria Condizionata,0.00636291656937266
+2020-12-31,Molise,Aria Condizionata,0.006944432215509687
+2018-12-31,Liguria,Cura giardino,0.0012185064588491237
+2019-12-31,Liguria,Cura giardino,0.001211984108451935
+2020-12-31,Liguria,Cura giardino,0.0013175207365393872
+2018-12-31,Apulia,Cura giardino,0.002551865328504744
+2019-12-31,Apulia,Cura giardino,0.0018992264939707692
+2020-12-31,Apulia,Cura giardino,0.0023148107385032287
+2018-12-31,Calabria,Cura giardino,0.0025157812152856885
+2019-12-31,Calabria,Cura giardino,0.002138438126190883
+2020-12-31,Calabria,Cura giardino,0.002297406146484408
+2018-12-31,Sicily,Cura giardino,0.002240219681963072
+2019-12-31,Sicily,Cura giardino,0.0020982735183439345
+2020-12-31,Sicily,Cura giardino,0.002949593889474217
+2018-12-31,Veneto,Cura giardino,0.002064005876450717
+2019-12-31,Veneto,Cura giardino,0.002097527397715085
+2020-12-31,Veneto,Cura giardino,0.002510981140071299
+2018-12-31,Lombardy,Cura giardino,0.0015904663550325804
+2019-12-31,Lombardy,Cura giardino,0.0013183143127622164
+2020-12-31,Lombardy,Cura giardino,0.001892006397914163
+2018-12-31,Basilicata,Cura giardino,0.0014711236515373564
+2019-12-31,Basilicata,Cura giardino,0.0011592891472148946
+2020-12-31,Basilicata,Cura giardino,0.0019122349578939717
+2018-12-31,Sardinia,Cura giardino,0.0013548693826012299
+2019-12-31,Sardinia,Cura giardino,0.0011666672802122845
+2020-12-31,Sardinia,Cura giardino,0.0012817090485268475
+2018-12-31,Friuli-Venezia Giulia,Cura giardino,0.002869470868016328
+2019-12-31,Friuli-Venezia Giulia,Cura giardino,0.0023397431728536186
+2020-12-31,Friuli-Venezia Giulia,Cura giardino,0.002617453838590223
+2018-12-31,Emilia-Romagna,Cura giardino,0.002133863873260838
+2019-12-31,Emilia-Romagna,Cura giardino,0.0017627950036943638
+2020-12-31,Emilia-Romagna,Cura giardino,0.002106756270145189
+2018-12-31,Campania,Cura giardino,0.0016806738950392388
+2019-12-31,Campania,Cura giardino,0.0014303746424370845
+2020-12-31,Campania,Cura giardino,0.0016684468046433178
+2018-12-31,Marche,Cura giardino,0.003319397160623315
+2019-12-31,Marche,Cura giardino,0.0025146206868043404
+2020-12-31,Marche,Cura giardino,0.002868106963804001
+2018-12-31,Italy,Cura giardino,0.0020872797666001788
+2019-12-31,Italy,Cura giardino,0.001801335718216979
+2020-12-31,Italy,Cura giardino,0.0022768115863199684
+2018-12-31,Piedmont,Cura giardino,0.001782479766326686
+2019-12-31,Piedmont,Cura giardino,0.0016243798101725642
+2020-12-31,Piedmont,Cura giardino,0.001942558364658902
+2018-12-31,Abruzzo,Cura giardino,0.002620284214354416
+2019-12-31,Abruzzo,Cura giardino,0.0032858235829141347
+2020-12-31,Abruzzo,Cura giardino,0.0029180644461131613
+2018-12-31,Tuscany,Cura giardino,0.0023723982564447252
+2019-12-31,Tuscany,Cura giardino,0.001999773778945693
+2020-12-31,Tuscany,Cura giardino,0.002639416382293337
+2018-12-31,Lazio,Cura giardino,0.0029608380406835537
+2019-12-31,Lazio,Cura giardino,0.002291904140231831
+2020-12-31,Lazio,Cura giardino,0.0029473269774933815
+2018-12-31,Umbria,Cura giardino,0.0029306636522752052
+2019-12-31,Umbria,Cura giardino,0.002729350039505932
+2020-12-31,Umbria,Cura giardino,0.003390195254815753
+2018-12-31,Aosta,Cura giardino,0.0011057465354692548
+2019-12-31,Aosta,Cura giardino,0.0016991541912610463
+2020-12-31,Aosta,Cura giardino,0.001633984050708161
+2018-12-31,Trentino-Alto Adige/South Tyrol,Cura giardino,0.0009655644610272511
+2019-12-31,Trentino-Alto Adige/South Tyrol,Cura giardino,0.0012506174816721701
+2020-12-31,Trentino-Alto Adige/South Tyrol,Cura giardino,0.0016444010710678677
+2018-12-31,Molise,Cura giardino,0.002392433413106206
+2019-12-31,Molise,Cura giardino,0.0028279629197211823
+2020-12-31,Molise,Cura giardino,0.002735685418231089
+2018-12-31,Liguria,Imbianchino,0.004086454587603768
+2019-12-31,Liguria,Imbianchino,0.003179262661301453
+2020-12-31,Liguria,Imbianchino,0.0038061710166693405
+2018-12-31,Apulia,Imbianchino,0.008453710244635055
+2019-12-31,Apulia,Imbianchino,0.0065045404107234184
+2020-12-31,Apulia,Imbianchino,0.007034955540479086
+2018-12-31,Calabria,Imbianchino,0.006416655459211812
+2019-12-31,Calabria,Imbianchino,0.005730345916277132
+2020-12-31,Calabria,Imbianchino,0.0058827521023615895
+2018-12-31,Sicily,Imbianchino,0.0060695225293324745
+2019-12-31,Sicily,Imbianchino,0.004961638035734676
+2020-12-31,Sicily,Imbianchino,0.0051164476529390965
+2018-12-31,Veneto,Imbianchino,0.006133837597935418
+2019-12-31,Veneto,Imbianchino,0.005162766498825654
+2020-12-31,Veneto,Imbianchino,0.005956756889353924
+2018-12-31,Lombardy,Imbianchino,0.005746922365460432
+2019-12-31,Lombardy,Imbianchino,0.0050276565060647605
+2020-12-31,Lombardy,Imbianchino,0.005147083505787105
+2018-12-31,Basilicata,Imbianchino,0.004331641862859994
+2019-12-31,Basilicata,Imbianchino,0.00478206773226144
+2020-12-31,Basilicata,Imbianchino,0.004327689641549515
+2018-12-31,Sardinia,Imbianchino,0.002889191663560238
+2019-12-31,Sardinia,Imbianchino,0.0034628806089937354
+2020-12-31,Sardinia,Imbianchino,0.003027485166347898
+2018-12-31,Friuli-Venezia Giulia,Imbianchino,0.007186961757392747
+2019-12-31,Friuli-Venezia Giulia,Imbianchino,0.0050406547549396745
+2020-12-31,Friuli-Venezia Giulia,Imbianchino,0.005643884839460169
+2018-12-31,Emilia-Romagna,Imbianchino,0.006774086560251986
+2019-12-31,Emilia-Romagna,Imbianchino,0.0052522170493659
+2020-12-31,Emilia-Romagna,Imbianchino,0.006153169946085016
+2018-12-31,Campania,Imbianchino,0.005662578200209128
+2019-12-31,Campania,Imbianchino,0.004330856556267839
+2020-12-31,Campania,Imbianchino,0.00568036087687725
+2018-12-31,Marche,Imbianchino,0.008289323296142199
+2019-12-31,Marche,Imbianchino,0.007251212239103896
+2020-12-31,Marche,Imbianchino,0.007926815309411056
+2018-12-31,Italy,Imbianchino,0.006439058496042462
+2019-12-31,Italy,Imbianchino,0.005346115443848125
+2020-12-31,Italy,Imbianchino,0.005749376310149887
+2018-12-31,Piedmont,Imbianchino,0.006223043394719483
+2019-12-31,Piedmont,Imbianchino,0.005316712172612857
+2020-12-31,Piedmont,Imbianchino,0.005570949318911653
+2018-12-31,Abruzzo,Imbianchino,0.009387453011426256
+2019-12-31,Abruzzo,Imbianchino,0.007999095115782772
+2020-12-31,Abruzzo,Imbianchino,0.007351277739246618
+2018-12-31,Tuscany,Imbianchino,0.006460355907804852
+2019-12-31,Tuscany,Imbianchino,0.004934307715099719
+2020-12-31,Tuscany,Imbianchino,0.005140476260676136
+2018-12-31,Lazio,Imbianchino,0.0072205723335470855
+2019-12-31,Lazio,Imbianchino,0.005858501151799257
+2020-12-31,Lazio,Imbianchino,0.006199321462772597
+2018-12-31,Umbria,Imbianchino,0.007134241820185097
+2019-12-31,Umbria,Imbianchino,0.005703641749223937
+2020-12-31,Umbria,Imbianchino,0.005613871712275546
+2018-12-31,Aosta,Imbianchino,0.009730569512129443
+2019-12-31,Aosta,Imbianchino,0.00588168758513439
+2020-12-31,Aosta,Imbianchino,0.005718944177478566
+2018-12-31,Trentino-Alto Adige/South Tyrol,Imbianchino,0.0056290353685418465
+2019-12-31,Trentino-Alto Adige/South Tyrol,Imbianchino,0.005208882520751077
+2020-12-31,Trentino-Alto Adige/South Tyrol,Imbianchino,0.0049079047351871736
+2018-12-31,Molise,Imbianchino,0.008031740743999405
+2019-12-31,Molise,Imbianchino,0.005049933785216397
+2020-12-31,Molise,Imbianchino,0.008627930934421126
+2018-12-31,Liguria,Installazione barbecue,0.0
+2019-12-31,Liguria,Installazione barbecue,1.3173740309260166e-05
+2020-12-31,Liguria,Installazione barbecue,0.0
+2018-12-31,Apulia,Installazione barbecue,0.0
+2019-12-31,Apulia,Installazione barbecue,2.4826490117264965e-05
+2020-12-31,Apulia,Installazione barbecue,9.052332496940001e-05
+2018-12-31,Calabria,Installazione barbecue,0.0
+2019-12-31,Calabria,Installazione barbecue,1.6706547860866275e-05
+2020-12-31,Calabria,Installazione barbecue,0.0
+2018-12-31,Sicily,Installazione barbecue,0.0
+2019-12-31,Sicily,Installazione barbecue,9.16276645565037e-06
+2020-12-31,Sicily,Installazione barbecue,0.00010500172422076502
+2018-12-31,Veneto,Installazione barbecue,0.0
+2019-12-31,Veneto,Installazione barbecue,4.912242149215655e-06
+2020-12-31,Veneto,Installazione barbecue,4.0939909892466834e-05
+2018-12-31,Lombardy,Installazione barbecue,0.0
+2019-12-31,Lombardy,Installazione barbecue,8.810789057725758e-06
+2020-12-31,Lombardy,Installazione barbecue,3.671570935915902e-05
+2018-12-31,Basilicata,Installazione barbecue,0.0
+2019-12-31,Basilicata,Installazione barbecue,0.0
+2020-12-31,Basilicata,Installazione barbecue,0.0
+2018-12-31,Sardinia,Installazione barbecue,0.0
+2019-12-31,Sardinia,Installazione barbecue,3.181819855124413e-05
+2020-12-31,Sardinia,Installazione barbecue,7.73445115490339e-05
+2018-12-31,Friuli-Venezia Giulia,Installazione barbecue,0.0
+2019-12-31,Friuli-Venezia Giulia,Installazione barbecue,0.0
+2020-12-31,Friuli-Venezia Giulia,Installazione barbecue,0.0
+2018-12-31,Emilia-Romagna,Installazione barbecue,0.0
+2019-12-31,Emilia-Romagna,Installazione barbecue,9.435120447962695e-06
+2020-12-31,Emilia-Romagna,Installazione barbecue,3.2764483205990506e-05
+2018-12-31,Campania,Installazione barbecue,0.0
+2019-12-31,Campania,Installazione barbecue,1.8338136441501082e-05
+2020-12-31,Campania,Installazione barbecue,1.2736235149948988e-05
+2018-12-31,Marche,Installazione barbecue,0.0
+2019-12-31,Marche,Installazione barbecue,0.0
+2020-12-31,Marche,Installazione barbecue,2.25835194000315e-05
+2018-12-31,Italy,Installazione barbecue,0.0
+2019-12-31,Italy,Installazione barbecue,1.0373659161197537e-05
+2020-12-31,Italy,Installazione barbecue,3.974223255863977e-05
+2018-12-31,Piedmont,Installazione barbecue,0.0
+2019-12-31,Piedmont,Installazione barbecue,1.0267887548499143e-05
+2020-12-31,Piedmont,Installazione barbecue,2.9951340424256196e-05
+2018-12-31,Abruzzo,Installazione barbecue,0.0
+2019-12-31,Abruzzo,Installazione barbecue,4.039947028173118e-05
+2020-12-31,Abruzzo,Installazione barbecue,2.8058311981857318e-05
+2018-12-31,Tuscany,Installazione barbecue,0.0
+2019-12-31,Tuscany,Installazione barbecue,7.661968501707635e-06
+2020-12-31,Tuscany,Installazione barbecue,2.1285615986236587e-05
+2018-12-31,Lazio,Installazione barbecue,0.0
+2019-12-31,Lazio,Installazione barbecue,3.178785215300736e-06
+2020-12-31,Lazio,Installazione barbecue,5.2985653527970904e-05
+2018-12-31,Umbria,Installazione barbecue,0.0
+2019-12-31,Umbria,Installazione barbecue,1.7495833586576492e-05
+2020-12-31,Umbria,Installazione barbecue,7.290742483474736e-05
+2018-12-31,Aosta,Installazione barbecue,0.0
+2019-12-31,Aosta,Installazione barbecue,0.0
+2020-12-31,Aosta,Installazione barbecue,0.0
+2018-12-31,Trentino-Alto Adige/South Tyrol,Installazione barbecue,0.0
+2019-12-31,Trentino-Alto Adige/South Tyrol,Installazione barbecue,1.2141917297788058e-05
+2020-12-31,Trentino-Alto Adige/South Tyrol,Installazione barbecue,5.059695603285746e-05
+2018-12-31,Molise,Installazione barbecue,0.0
+2019-12-31,Molise,Installazione barbecue,0.0
+2020-12-31,Molise,Installazione barbecue,0.0
+2018-12-31,Liguria,Installazione pannelli solari,0.00041607537619238363
+2019-12-31,Liguria,Installazione pannelli solari,0.0005049933785216396
+2020-12-31,Liguria,Installazione pannelli solari,0.0011619800940312652
+2018-12-31,Apulia,Installazione pannelli solari,0.0013651954432329905
+2019-12-31,Apulia,Installazione pannelli solari,0.001663374837856753
+2020-12-31,Apulia,Installazione pannelli solari,0.004138209141458287
+2018-12-31,Calabria,Installazione pannelli solari,0.002204841963958244
+2019-12-31,Calabria,Installazione pannelli solari,0.002322210152660412
+2020-12-31,Calabria,Installazione pannelli solari,0.0046992398450817425
+2018-12-31,Sicily,Installazione pannelli solari,0.0016898542929686838
+2019-12-31,Sicily,Installazione pannelli solari,0.001663042111700542
+2020-12-31,Sicily,Installazione pannelli solari,0.004677349533470441
+2018-12-31,Veneto,Installazione pannelli solari,0.0004183421306631654
+2019-12-31,Veneto,Installazione pannelli solari,0.0005157854256676437
+2020-12-31,Veneto,Installazione pannelli solari,0.001995820607257758
+2018-12-31,Lombardy,Installazione pannelli solari,0.00020218582252025188
+2019-12-31,Lombardy,Installazione pannelli solari,0.00023623928161027193
+2020-12-31,Lombardy,Installazione pannelli solari,0.0008467560470956049
+2018-12-31,Basilicata,Installazione pannelli solari,0.001144207284529055
+2019-12-31,Basilicata,Installazione pannelli solari,0.001642326291887767
+2020-12-31,Basilicata,Installazione pannelli solari,0.0036231820254833146
+2018-12-31,Sardinia,Installazione pannelli solari,0.0007357568832668931
+2019-12-31,Sardinia,Installazione pannelli solari,0.0010553035852829303
+2020-12-31,Sardinia,Installazione pannelli solari,0.0020883018118239153
+2018-12-31,Friuli-Venezia Giulia,Installazione pannelli solari,0.0005446680814290253
+2019-12-31,Friuli-Venezia Giulia,Installazione pannelli solari,0.000581010049634791
+2020-12-31,Friuli-Venezia Giulia,Installazione pannelli solari,0.0025192993196430902
+2018-12-31,Emilia-Romagna,Installazione pannelli solari,0.0003006566305217889
+2019-12-31,Emilia-Romagna,Installazione pannelli solari,0.0004576033417261907
+2020-12-31,Emilia-Romagna,Installazione pannelli solari,0.0019625925440388313
+2018-12-31,Campania,Installazione pannelli solari,0.0006464130365535535
+2019-12-31,Campania,Installazione pannelli solari,0.0007579763062487114
+2020-12-31,Campania,Installazione pannelli solari,0.0020123251536919404
+2018-12-31,Marche,Installazione pannelli solari,0.0007885860657834394
+2019-12-31,Marche,Installazione pannelli solari,0.0008779494639273777
+2020-12-31,Marche,Installazione pannelli solari,0.002619688250403654
+2018-12-31,Italy,Installazione pannelli solari,0.00047928450357440685
+2019-12-31,Italy,Installazione pannelli solari,0.0005876175963568669
+2020-12-31,Italy,Installazione pannelli solari,0.0019240121183432708
+2018-12-31,Piedmont,Installazione pannelli solari,0.0003022918901957538
+2019-12-31,Piedmont,Installazione pannelli solari,0.0003614296417071699
+2020-12-31,Piedmont,Installazione pannelli solari,0.0012108899057235005
+2018-12-31,Abruzzo,Installazione pannelli solari,0.0005696270031205252
+2019-12-31,Abruzzo,Installazione pannelli solari,0.0010099867570432792
+2020-12-31,Abruzzo,Installazione pannelli solari,0.002581364702330873
+2018-12-31,Tuscany,Installazione pannelli solari,0.00040620298015629183
+2019-12-31,Tuscany,Installazione pannelli solari,0.000589971574631488
+2020-12-31,Tuscany,Installazione pannelli solari,0.002032776326685594
+2018-12-31,Lazio,Installazione pannelli solari,0.00044103309597829515
+2019-12-31,Lazio,Installazione pannelli solari,0.0005944328352612378
+2020-12-31,Lazio,Installazione pannelli solari,0.002460521285705149
+2018-12-31,Umbria,Installazione pannelli solari,0.0008880798946288503
+2019-12-31,Umbria,Installazione pannelli solari,0.0007698166778093655
+2020-12-31,Umbria,Installazione pannelli solari,0.004410899202502216
+2018-12-31,Aosta,Installazione pannelli solari,0.0
+2019-12-31,Aosta,Installazione pannelli solari,0.0006535208427927101
+2020-12-31,Aosta,Installazione pannelli solari,0.0021786454009442148
+2018-12-31,Trentino-Alto Adige/South Tyrol,Installazione pannelli solari,0.0004108784940541493
+2019-12-31,Trentino-Alto Adige/South Tyrol,Installazione pannelli solari,0.0004006832708270059
+2020-12-31,Trentino-Alto Adige/South Tyrol,Installazione pannelli solari,0.0013661178128871515
+2018-12-31,Molise,Installazione pannelli solari,0.000854440504680788
+2019-12-31,Molise,Installazione pannelli solari,0.001817976162677903
+2020-12-31,Molise,Installazione pannelli solari,0.006523557535781828
+2018-12-31,Liguria,Installazione piscina,0.00026004711012023987
+2019-12-31,Liguria,Installazione piscina,0.0004698634043636126
+2020-12-31,Liguria,Installazione piscina,0.0022416151420288186
+2018-12-31,Apulia,Installazione piscina,0.001974282640983094
+2019-12-31,Apulia,Installazione piscina,0.00292331921130795
+2020-12-31,Apulia,Installazione piscina,0.011173164681937374
+2018-12-31,Calabria,Installazione piscina,0.00127202420997591
+2019-12-31,Calabria,Installazione piscina,0.0022219708654952143
+2020-12-31,Calabria,Installazione piscina,0.010790847051669187
+2018-12-31,Sicily,Installazione piscina,0.0015968347906034353
+2019-12-31,Sicily,Installazione piscina,0.002556411841126453
+2020-12-31,Sicily,Installazione piscina,0.008715143110323497
+2018-12-31,Veneto,Installazione piscina,0.00037401448767898887
+2019-12-31,Veneto,Installazione piscina,0.0005239724959163366
+2020-12-31,Veneto,Installazione piscina,0.0017262995337990184
+2018-12-31,Lombardy,Installazione piscina,0.00024225029426389622
+2019-12-31,Lombardy,Installazione piscina,0.00043117798951245416
+2020-12-31,Lombardy,Installazione piscina,0.0017508803900648958
+2018-12-31,Basilicata,Installazione piscina,0.0008990200092728289
+2019-12-31,Basilicata,Installazione piscina,0.0010143780038130328
+2020-12-31,Basilicata,Installazione piscina,0.004730265422158772
+2018-12-31,Sardinia,Installazione piscina,0.0005652766298270032
+2019-12-31,Sardinia,Installazione piscina,0.0009545459565373237
+2020-12-31,Sardinia,Installazione piscina,0.002441876721762356
+2018-12-31,Friuli-Venezia Giulia,Installazione piscina,0.0002656917470385489
+2019-12-31,Friuli-Venezia Giulia,Installazione piscina,0.0006359704597353795
+2020-12-31,Friuli-Venezia Giulia,Installazione piscina,0.0026501720115726006
+2018-12-31,Emilia-Romagna,Installazione piscina,0.00042038714710126225
+2019-12-31,Emilia-Romagna,Installazione piscina,0.0005802599075497058
+2020-12-31,Emilia-Romagna,Installazione piscina,0.0026506466913646313
+2018-12-31,Campania,Installazione piscina,0.0008170660782036917
+2019-12-31,Campania,Installazione piscina,0.001384529301333332
+2020-12-31,Campania,Installazione piscina,0.005915981227151305
+2018-12-31,Marche,Installazione piscina,0.0008619429091121315
+2019-12-31,Marche,Installazione piscina,0.0011164048738829613
+2020-12-31,Marche,Installazione piscina,0.0055103787336076866
+2018-12-31,Italy,Installazione piscina,0.0005231646559985258
+2019-12-31,Italy,Installazione piscina,0.0008509746853846885
+2020-12-31,Italy,Installazione piscina,0.003477096732805904
+2018-12-31,Piedmont,Installazione piscina,0.0004760228615726238
+2019-12-31,Piedmont,Installazione piscina,0.0006509840705748456
+2020-12-31,Piedmont,Installazione piscina,0.002802589711126829
+2018-12-31,Abruzzo,Installazione piscina,0.0009569733652424824
+2019-12-31,Abruzzo,Installazione piscina,0.0013870484796727704
+2020-12-31,Abruzzo,Installazione piscina,0.006088653700063037
+2018-12-31,Tuscany,Installazione piscina,0.0005012717627460623
+2019-12-31,Tuscany,Installazione piscina,0.0007738588186724713
+2020-12-31,Tuscany,Installazione piscina,0.003496162425739359
+2018-12-31,Lazio,Installazione piscina,0.0004706145841231807
+2019-12-31,Lazio,Installazione piscina,0.0010410521580109912
+2020-12-31,Lazio,Installazione piscina,0.004467352913077046
+2018-12-31,Umbria,Installazione piscina,0.0013025171787889804
+2019-12-31,Umbria,Installazione piscina,0.0014696500212724255
+2020-12-31,Umbria,Installazione piscina,0.009149881816760795
+2018-12-31,Aosta,Installazione piscina,0.0002211493070938509
+2019-12-31,Aosta,Installazione piscina,0.000261408337117084
+2020-12-31,Aosta,Installazione piscina,0.0005446613502360537
+2018-12-31,Trentino-Alto Adige/South Tyrol,Installazione piscina,8.217569881082986e-05
+2019-12-31,Trentino-Alto Adige/South Tyrol,Installazione piscina,0.00026712218055133724
+2020-12-31,Trentino-Alto Adige/South Tyrol,Installazione piscina,0.0009613421646242918
+2018-12-31,Molise,Installazione piscina,0.0005126643028084727
+2019-12-31,Molise,Installazione piscina,0.002120972189790887
+2020-12-31,Molise,Installazione piscina,0.006102682856053968
+2018-12-31,Liguria,Installazione tende da sole,0.0013150953854652123
+2019-12-31,Liguria,Installazione tende da sole,0.00104950797797106
+2020-12-31,Liguria,Installazione tende da sole,0.0029186744094171152
+2018-12-31,Apulia,Installazione tende da sole,0.0029824269682936105
+2019-12-31,Apulia,Installazione tende da sole,0.0019550860967346164
+2020-12-31,Apulia,Installazione tende da sole,0.007267729804686115
+2018-12-31,Calabria,Installazione tende da sole,0.0031093925132744463
+2019-12-31,Calabria,Installazione tende da sole,0.0013365238288693022
+2020-12-31,Calabria,Installazione tende da sole,0.006613744967152083
+2018-12-31,Sicily,Installazione tende da sole,0.0021782066803862393
+2019-12-31,Sicily,Installazione tende da sole,0.0013560894354362545
+2020-12-31,Sicily,Installazione tende da sole,0.004476891696321709
+2018-12-31,Veneto,Installazione tende da sole,0.0011829939721402095
+2019-12-31,Veneto,Installazione tende da sole,0.0008891158290080336
+2020-12-31,Veneto,Installazione tende da sole,0.00257921432322541
+2018-12-31,Lombardy,Installazione tende da sole,0.0008842135740632215
+2019-12-31,Lombardy,Installazione tende da sole,0.000719180656836865
+2020-12-31,Lombardy,Installazione tende da sole,0.0027238466880826094
+2018-12-31,Basilicata,Installazione tende da sole,0.0024518727525622607
+2019-12-31,Basilicata,Installazione tende da sole,0.0006762520025420218
+2020-12-31,Basilicata,Installazione tende da sole,0.0034218941351786864
+2018-12-31,Sardinia,Installazione tende da sole,0.001211307063915007
+2019-12-31,Sardinia,Installazione tende da sole,0.0009863641550885678
+2020-12-31,Sardinia,Installazione tende da sole,0.0019336127887258476
+2018-12-31,Friuli-Venezia Giulia,Installazione tende da sole,0.0008502135905233563
+2019-12-31,Friuli-Venezia Giulia,Installazione tende da sole,0.000824406151508825
+2020-12-31,Friuli-Venezia Giulia,Installazione tende da sole,0.003353612730693724
+2018-12-31,Emilia-Romagna,Installazione tende da sole,0.0013702492452984188
+2019-12-31,Emilia-Romagna,Installazione tende da sole,0.001162092335174072
+2020-12-31,Emilia-Romagna,Installazione tende da sole,0.0033223185970874367
+2018-12-31,Campania,Installazione tende da sole,0.0018720121538590908
+2019-12-31,Campania,Installazione tende da sole,0.0007457508819543774
+2020-12-31,Campania,Installazione tende da sole,0.0040755952479836766
+2018-12-31,Marche,Installazione tende da sole,0.002292401354021626
+2019-12-31,Marche,Installazione tende da sole,0.0008887883461980859
+2020-12-31,Marche,Installazione tende da sole,0.004132784050205765
+2018-12-31,Italy,Installazione tende da sole,0.0014112423215111747
+2019-12-31,Italy,Installazione tende da sole,0.0010050737190534452
+2020-12-31,Italy,Installazione tende da sole,0.0034087679820910505
+2018-12-31,Piedmont,Installazione tende da sole,0.0010945051196742806
+2019-12-31,Piedmont,Installazione tende da sole,0.0006325018729875471
+2020-12-31,Piedmont,Installazione tende da sole,0.0022976956868322254
+2018-12-31,Abruzzo,Installazione tende da sole,0.0018683765702353227
+2019-12-31,Abruzzo,Installazione tende da sole,0.0014005149697666809
+2020-12-31,Abruzzo,Installazione tende da sole,0.0037036971816051664
+2018-12-31,Tuscany,Installazione tende da sole,0.0013568908060539963
+2019-12-31,Tuscany,Installazione tende da sole,0.0010011638842231311
+2020-12-31,Tuscany,Installazione tende da sole,0.003075771510011187
+2018-12-31,Lazio,Installazione tende da sole,0.0018125384554229932
+2019-12-31,Lazio,Installazione tende da sole,0.0013557518943257637
+2020-12-31,Lazio,Installazione tende da sole,0.004473976119768044
+2018-12-31,Umbria,Installazione tende da sole,0.0017761597892577009
+2019-12-31,Umbria,Installazione tende da sole,0.0011197333495408953
+2020-12-31,Umbria,Installazione tende da sole,0.0034995563920678734
+2018-12-31,Aosta,Installazione tende da sole,0.0006634479212815526
+2019-12-31,Aosta,Installazione tende da sole,0.000130704168558542
+2020-12-31,Aosta,Installazione tende da sole,0.00272330675118027
+2018-12-31,Trentino-Alto Adige/South Tyrol,Installazione tende da sole,0.0013558990303786927
+2019-12-31,Trentino-Alto Adige/South Tyrol,Installazione tende da sole,0.0016270169179036
+2020-12-31,Trentino-Alto Adige/South Tyrol,Installazione tende da sole,0.0035923838783328797
+2018-12-31,Molise,Installazione tende da sole,0.002050657211233891
+2019-12-31,Molise,Installazione tende da sole,0.0002019973514086559
+2020-12-31,Molise,Installazione tende da sole,0.002314810738503229
+2018-12-31,Liguria,Installazione zanzariera,0.0015379929084254178
+2019-12-31,Liguria,Installazione zanzariera,0.0014315464469396046
+2020-12-31,Liguria,Installazione zanzariera,0.002388006334977639
+2018-12-31,Apulia,Installazione zanzariera,0.002992928471703095
+2019-12-31,Apulia,Installazione zanzariera,0.0017378543082085473
+2020-12-31,Apulia,Installazione zanzariera,0.0035821372880748296
+2018-12-31,Calabria,Installazione zanzariera,0.0030528581039421833
+2019-12-31,Calabria,Installazione zanzariera,0.0014367631160344995
+2020-12-31,Calabria,Installazione zanzariera,0.004281529636630033
+2018-12-31,Sicily,Installazione zanzariera,0.0019456579244731176
+2019-12-31,Sicily,Installazione zanzariera,0.0014064846509423317
+2020-12-31,Sicily,Installazione zanzariera,0.0031214148927445604
+2018-12-31,Veneto,Installazione zanzariera,0.001872842916081456
+2019-12-31,Veneto,Installazione zanzariera,0.001370515559631168
+2020-12-31,Veneto,Installazione zanzariera,0.002087935404515809
+2018-12-31,Lombardy,Installazione zanzariera,0.0022454738814461153
+2019-12-31,Lombardy,Installazione zanzariera,0.0015589589889013515
+2020-12-31,Lombardy,Installazione zanzariera,0.0028064570341407176
+2018-12-31,Basilicata,Installazione zanzariera,0.002370143660810185
+2019-12-31,Basilicata,Installazione zanzariera,0.0010143780038130328
+2020-12-31,Basilicata,Installazione zanzariera,0.0032206062448740577
+2018-12-31,Sardinia,Installazione zanzariera,0.0017317204691525657
+2019-12-31,Sardinia,Installazione zanzariera,0.0011931824456716546
+2020-12-31,Sardinia,Installazione zanzariera,0.002033055732146034
+2018-12-31,Friuli-Venezia Giulia,Installazione zanzariera,0.002178672325716101
+2019-12-31,Friuli-Venezia Giulia,Installazione zanzariera,0.001444673636929751
+2020-12-31,Friuli-Venezia Giulia,Installazione zanzariera,0.0021921175898193123
+2018-12-31,Emilia-Romagna,Installazione zanzariera,0.002373324906419785
+2019-12-31,Emilia-Romagna,Installazione zanzariera,0.0016763063995880387
+2020-12-31,Emilia-Romagna,Installazione zanzariera,0.00296846217846274
+2018-12-31,Campania,Installazione zanzariera,0.00206852171697137
+2019-12-31,Campania,Installazione zanzariera,0.0012347678537277394
+2020-12-31,Campania,Installazione zanzariera,0.0029038616141883705
+2018-12-31,Marche,Installazione zanzariera,0.0033744147931198325
+2019-12-31,Marche,Installazione zanzariera,0.0024495873931800905
+2020-12-31,Marche,Installazione zanzariera,0.004607037957606426
+2018-12-31,Italy,Installazione zanzariera,0.0022882791744784003
+2019-12-31,Italy,Installazione zanzariera,0.0015505274104325414
+2020-12-31,Italy,Installazione zanzariera,0.0029712548078709364
+2018-12-31,Piedmont,Installazione zanzariera,0.002018753887399229
+2019-12-31,Piedmont,Installazione zanzariera,0.0011397355178834048
+2020-12-31,Piedmont,Installazione zanzariera,0.002242071768901464
+2018-12-31,Abruzzo,Installazione zanzariera,0.002984845496351552
+2019-12-31,Abruzzo,Installazione zanzariera,0.0019257080834291865
+2020-12-31,Abruzzo,Installazione zanzariera,0.003535347309714022
+2018-12-31,Tuscany,Installazione zanzariera,0.0026835324540112463
+2019-12-31,Tuscany,Installazione zanzariera,0.001665201154371126
+2020-12-31,Tuscany,Installazione zanzariera,0.0031502711659630155
+2018-12-31,Lazio,Installazione zanzariera,0.002014230420047214
+2019-12-31,Lazio,Installazione zanzariera,0.0014447578803541846
+2020-12-31,Lazio,Installazione zanzariera,0.0035500387863740507
+2018-12-31,Umbria,Installazione zanzariera,0.002338610389189306
+2019-12-31,Umbria,Installazione zanzariera,0.0014696500212724253
+2020-12-31,Umbria,Installazione zanzariera,0.004228630640415347
+2018-12-31,Aosta,Installazione zanzariera,0.002432642378032361
+2019-12-31,Aosta,Installazione zanzariera,0.001829858359819588
+2020-12-31,Aosta,Installazione zanzariera,0.0038126294516523766
+2018-12-31,Trentino-Alto Adige/South Tyrol,Installazione zanzariera,0.001848953223243672
+2019-12-31,Trentino-Alto Adige/South Tyrol,Installazione zanzariera,0.0012020498124810178
+2020-12-31,Trentino-Alto Adige/South Tyrol,Installazione zanzariera,0.0025804447576757306
+2018-12-31,Molise,Installazione zanzariera,0.003759538220595467
+2019-12-31,Molise,Installazione zanzariera,0.001817976162677903
+2020-12-31,Molise,Installazione zanzariera,0.0031565600979589488
+2018-12-31,Liguria,Lezioni di inglese,0.00457682913811622
+2019-12-31,Liguria,Lezioni di inglese,0.00588427067146954
+2020-12-31,Liguria,Lezioni di inglese,0.0022416151420288186
+2018-12-31,Apulia,Lezioni di inglese,0.013347410833454854
+2019-12-31,Apulia,Lezioni di inglese,0.01423799208225146
+2020-12-31,Apulia,Lezioni di inglese,0.006000403255114515
+2018-12-31,Calabria,Lezioni di inglese,0.01365305985374143
+2019-12-31,Calabria,Lezioni di inglese,0.014233978777458066
+2020-12-31,Calabria,Lezioni di inglese,0.005639087814098093
+2018-12-31,Sicily,Lezioni di inglese,0.01290645595317825
+2019-12-31,Sicily,Lezioni di inglese,0.013973218844866814
+2020-12-31,Sicily,Lezioni di inglese,0.005431452825601391
+2018-12-31,Veneto,Lezioni di inglese,0.006095050910324265
+2019-12-31,Veneto,Lezioni di inglese,0.006752695541121787
+2020-12-31,Veneto,Lezioni di inglese,0.00296473180804614
+2018-12-31,Lombardy,Lezioni di inglese,0.005120798527978361
+2019-12-31,Lombardy,Lezioni di inglese,0.006379561952109558
+2020-12-31,Lombardy,Lezioni di inglese,0.0026504152693642914
+2018-12-31,Basilicata,Lezioni di inglese,0.012341092854563382
+2019-12-31,Basilicata,Lezioni di inglese,0.01135137289981251
+2020-12-31,Basilicata,Lezioni di inglese,0.0037238259706356288
+2018-12-31,Sardinia,Lezioni di inglese,0.0056258483635163664
+2019-12-31,Sardinia,Lezioni di inglese,0.0067772762914149985
+2020-12-31,Sardinia,Lezioni di inglese,0.002574467312989271
+2018-12-31,Friuli-Venezia Giulia,Lezioni di inglese,0.006735285787427214
+2019-12-31,Friuli-Venezia Giulia,Lezioni di inglese,0.00685434828825909
+2020-12-31,Friuli-Venezia Giulia,Lezioni di inglese,0.0023884266277135785
+2018-12-31,Emilia-Romagna,Lezioni di inglese,0.006319110597249989
+2019-12-31,Emilia-Romagna,Lezioni di inglese,0.007576401719714045
+2020-12-31,Emilia-Romagna,Lezioni di inglese,0.0031716019743398805
+2018-12-31,Campania,Lezioni di inglese,0.012783464210883073
+2019-12-31,Campania,Lezioni di inglese,0.012809188304388507
+2020-12-31,Campania,Lezioni di inglese,0.005521157937502887
+2018-12-31,Marche,Lezioni di inglese,0.01116857939679336
+2019-12-31,Marche,Lezioni di inglese,0.012312970259524703
+2020-12-31,Marche,Lezioni di inglese,0.005194209462007245
+2018-12-31,Italy,Lezioni di inglese,0.007323738988464209
+2019-12-31,Italy,Lezioni di inglese,0.008331386843107585
+2020-12-31,Italy,Lezioni di inglese,0.003469427179154238
+2018-12-31,Piedmont,Lezioni di inglese,0.005788715966277308
+2019-12-31,Piedmont,Lezioni di inglese,0.006955467025353319
+2020-12-31,Piedmont,Lezioni di inglese,0.0025886515652392855
+2018-12-31,Abruzzo,Lezioni di inglese,0.014195104917763483
+2019-12-31,Abruzzo,Lezioni di inglese,0.014341811950014565
+2020-12-31,Abruzzo,Lezioni di inglese,0.005948362140153752
+2018-12-31,Tuscany,Lezioni di inglese,0.008426551184093287
+2019-12-31,Tuscany,Lezioni di inglese,0.00874996802895012
+2020-12-31,Tuscany,Lezioni di inglese,0.003826089473526027
+2018-12-31,Lazio,Lezioni di inglese,0.006265897034325777
+2019-12-31,Lazio,Lezioni di inglese,0.007452661937272577
+2020-12-31,Lazio,Lezioni di inglese,0.0033712122057171496
+2018-12-31,Umbria,Lezioni di inglese,0.012344310535341022
+2019-12-31,Umbria,Lezioni di inglese,0.013454296028077324
+2020-12-31,Umbria,Lezioni di inglese,0.005322242012936558
+2018-12-31,Aosta,Lezioni di inglese,0.007519076441190932
+2019-12-31,Aosta,Lezioni di inglese,0.007450137607836895
+2020-12-31,Aosta,Lezioni di inglese,0.0019063147258261883
+2018-12-31,Trentino-Alto Adige/South Tyrol,Lezioni di inglese,0.00657405590486639
+2019-12-31,Trentino-Alto Adige/South Tyrol,Lezioni di inglese,0.0064595000024232465
+2020-12-31,Trentino-Alto Adige/South Tyrol,Lezioni di inglese,0.0033141006201521644
+2018-12-31,Molise,Lezioni di inglese,0.009911509854297139
+2019-12-31,Molise,Lezioni di inglese,0.009392876840502497
+2020-12-31,Molise,Lezioni di inglese,0.0029461227580950184
+2018-12-31,Liguria,Personal trainer,0.006166831468565687
+2019-12-31,Liguria,Personal trainer,0.004540549159925003
+2020-12-31,Liguria,Personal trainer,0.0027814326660275945
+2018-12-31,Apulia,Personal trainer,0.014292546140308464
+2019-12-31,Apulia,Personal trainer,0.012500137774042908
+2020-12-31,Apulia,Personal trainer,0.007009091733344973
+2018-12-31,Calabria,Personal trainer,0.012833310918423624
+2019-12-31,Calabria,Personal trainer,0.009589558472137242
+2020-12-31,Calabria,Personal trainer,0.0058827521023615895
+2018-12-31,Sicily,Personal trainer,0.011480156916911106
+2019-12-31,Sicily,Personal trainer,0.009346021784763375
+2020-12-31,Sicily,Personal trainer,0.006462378845223447
+2018-12-31,Veneto,Personal trainer,0.006851391318741775
+2019-12-31,Veneto,Personal trainer,0.005526272417867612
+2020-12-31,Veneto,Personal trainer,0.003520832250752148
+2018-12-31,Lombardy,Personal trainer,0.006364660615833365
+2019-12-31,Lombardy,Personal trainer,0.005528219459406806
+2020-12-31,Lombardy,Personal trainer,0.003668128838163481
+2018-12-31,Basilicata,Personal trainer,0.007600805532943008
+2019-12-31,Basilicata,Personal trainer,0.006279482880747345
+2020-12-31,Basilicata,Personal trainer,0.003019318354569429
+2018-12-31,Sardinia,Personal trainer,0.0059309182907245905
+2019-12-31,Sardinia,Personal trainer,0.005037881437280319
+2020-12-31,Sardinia,Personal trainer,0.0038561763615161185
+2018-12-31,Friuli-Venezia Giulia,Personal trainer,0.008289582507602724
+2019-12-31,Friuli-Venezia Giulia,Personal trainer,0.006909308698359678
+2020-12-31,Friuli-Venezia Giulia,Personal trainer,0.005218548590689258
+2018-12-31,Emilia-Romagna,Personal trainer,0.008644543297037982
+2019-12-31,Emilia-Romagna,Personal trainer,0.007310645827096426
+2020-12-31,Emilia-Romagna,Personal trainer,0.0047410207199068246
+2018-12-31,Campania,Personal trainer,0.01118035988023026
+2019-12-31,Campania,Personal trainer,0.010984543728459148
+2020-12-31,Campania,Personal trainer,0.006941248156722201
+2018-12-31,Marche,Personal trainer,0.013057518112507181
+2019-12-31,Marche,Personal trainer,0.010427004744421445
+2020-12-31,Marche,Personal trainer,0.006910556936409638
+2018-12-31,Italy,Personal trainer,0.008697612405975491
+2019-12-31,Italy,Personal trainer,0.007389224347354304
+2020-12-31,Italy,Personal trainer,0.00479242518406685
+2018-12-31,Piedmont,Personal trainer,0.008422477492350656
+2019-12-31,Piedmont,Personal trainer,0.007238860721691897
+2020-12-31,Piedmont,Personal trainer,0.004603948899499953
+2018-12-31,Abruzzo,Personal trainer,0.012167232786654419
+2019-12-31,Abruzzo,Personal trainer,0.011648513931232488
+2020-12-31,Abruzzo,Personal trainer,0.006621761627718327
+2018-12-31,Tuscany,Personal trainer,0.009813691148244028
+2019-12-31,Tuscany,Personal trainer,0.008216184223331155
+2020-12-31,Tuscany,Personal trainer,0.005348011016541942
+2018-12-31,Lazio,Personal trainer,0.009751134183032303
+2019-12-31,Lazio,Personal trainer,0.008101134121193928
+2020-12-31,Lazio,Personal trainer,0.00518928244239565
+2018-12-31,Umbria,Personal trainer,0.012107489230106662
+2019-12-31,Umbria,Personal trainer,0.007838133446786268
+2020-12-31,Umbria,Personal trainer,0.0053951494377713054
+2018-12-31,Aosta,Personal trainer,0.010615166740504847
+2019-12-31,Aosta,Personal trainer,0.013593233530088369
+2020-12-31,Aosta,Personal trainer,0.005174282827242512
+2018-12-31,Trentino-Alto Adige/South Tyrol,Personal trainer,0.00836137735400194
+2019-12-31,Trentino-Alto Adige/South Tyrol,Personal trainer,0.006787331769463524
+2020-12-31,Trentino-Alto Adige/South Tyrol,Personal trainer,0.004882606257170745
+2018-12-31,Molise,Personal trainer,0.012474831368339503
+2019-12-31,Molise,Personal trainer,0.01080685830036309
+2020-12-31,Molise,Personal trainer,0.008627930934421124
+2018-12-31,Liguria,Psicologo,0.003551500532499275
+2019-12-31,Liguria,Psicologo,0.004386855522983635
+2020-12-31,Liguria,Psicologo,0.0034676413829751933
+2018-12-31,Apulia,Psicologo,0.012402275526601246
+2019-12-31,Apulia,Psicologo,0.014809001354948552
+2020-12-31,Apulia,Psicologo,0.010151544300139856
+2018-12-31,Calabria,Psicologo,0.011843958755109026
+2019-12-31,Calabria,Psicologo,0.016790080600170607
+2020-12-31,Calabria,Psicologo,0.010790847051669187
+2018-12-31,Sicily,Psicologo,0.010015099754658436
+2019-12-31,Sicily,Psicologo,0.013107337414807853
+2020-12-31,Sicily,Psicologo,0.008810599223251465
+2018-12-31,Veneto,Psicologo,0.005042269389450073
+2019-12-31,Veneto,Psicologo,0.00566381519804565
+2020-12-31,Veneto,Psicologo,0.004325983811970662
+2018-12-31,Lombardy,Psicologo,0.004135026176704505
+2019-12-31,Lombardy,Psicologo,0.00511796709390645
+2020-12-31,Lombardy,Psicologo,0.004359990486400134
+2018-12-31,Basilicata,Psicologo,0.008499825542215837
+2019-12-31,Basilicata,Psicologo,0.00864636488964442
+2020-12-31,Basilicata,Psicologo,0.0056360609285296005
+2018-12-31,Sardinia,Psicologo,0.003974881698624801
+2019-12-31,Sardinia,Psicologo,0.005992427393817643
+2020-12-31,Sardinia,Psicologo,0.004021914600549762
+2018-12-31,Friuli-Venezia Giulia,Psicologo,0.0044370521755437665
+2019-12-31,Friuli-Venezia Giulia,Psicologo,0.005134872600826397
+2020-12-31,Friuli-Venezia Giulia,Psicologo,0.004138848882270791
+2018-12-31,Emilia-Romagna,Psicologo,0.005387873246076306
+2019-12-31,Emilia-Romagna,Psicologo,0.006184721453639547
+2020-12-31,Emilia-Romagna,Psicologo,0.005655149801353959
+2018-12-31,Campania,Psicologo,0.011428582486266823
+2019-12-31,Campania,Psicologo,0.013249303578984534
+2020-12-31,Campania,Psicologo,0.009698643066686156
+2018-12-31,Marche,Psicologo,0.00937133673524041
+2019-12-31,Marche,Psicologo,0.011445859677868033
+2020-12-31,Marche,Psicologo,0.00840106921681172
+2018-12-31,Italy,Psicologo,0.006188516980588622
+2019-12-31,Italy,Psicologo,0.007529938014363453
+2020-12-31,Italy,Psicologo,0.005952619481919072
+2018-12-31,Piedmont,Psicologo,0.006014566229067241
+2019-12-31,Piedmont,Psicologo,0.006750109274383337
+2020-12-31,Piedmont,Psicologo,0.005570949318911653
+2018-12-31,Abruzzo,Psicologo,0.010959623540038904
+2019-12-31,Abruzzo,Psicologo,0.010207599491184079
+2020-12-31,Abruzzo,Psicologo,0.008333318658611625
+2018-12-31,Tuscany,Psicologo,0.0066591360895834634
+2019-12-31,Tuscany,Psicologo,0.006995377242059073
+2020-12-31,Tuscany,Psicologo,0.00573647350829076
+2018-12-31,Lazio,Psicologo,0.005811417807372535
+2019-12-31,Lazio,Psicologo,0.009061127256214748
+2020-12-31,Lazio,Psicologo,0.007249099723295521
+2018-12-31,Umbria,Psicologo,0.01050894541977473
+2019-12-31,Umbria,Psicologo,0.008905379295567435
+2020-12-31,Umbria,Psicologo,0.006561668235127263
+2018-12-31,Aosta,Psicologo,0.006413329905721679
+2019-12-31,Aosta,Psicologo,0.008103658450629606
+2020-12-31,Aosta,Psicologo,0.006808266877950673
+2018-12-31,Trentino-Alto Adige/South Tyrol,Psicologo,0.005526315745028308
+2019-12-31,Trentino-Alto Adige/South Tyrol,Psicologo,0.006896609025143616
+2020-12-31,Trentino-Alto Adige/South Tyrol,Psicologo,0.005439172773532178
+2018-12-31,Molise,Psicologo,0.006493747835573989
+2019-12-31,Molise,Psicologo,0.008988882137685186
+2020-12-31,Molise,Psicologo,0.006313120195917896
+2018-12-31,Liguria,Riparazione console videogiochi,0.00011887867891210959
+2019-12-31,Liguria,Riparazione console videogiochi,0.0005489058462191736
+2020-12-31,Liguria,Riparazione console videogiochi,0.0011253822957940597
+2018-12-31,Apulia,Riparazione console videogiochi,0.0004305616397888662
+2019-12-31,Apulia,Riparazione console videogiochi,0.001353043711390941
+2020-12-31,Apulia,Riparazione console videogiochi,0.002159627895698543
+2018-12-31,Calabria,Riparazione console videogiochi,0.0003109392513274447
+2019-12-31,Calabria,Riparazione console videogiochi,0.0008186208451824475
+2020-12-31,Calabria,Riparazione console videogiochi,0.0011835122572798464
+2018-12-31,Sicily,Riparazione console videogiochi,0.000418587760643619
+2019-12-31,Sicily,Riparazione console videogiochi,0.0015026936987266601
+2020-12-31,Sicily,Riparazione console videogiochi,0.0027586816636182812
+2018-12-31,Veneto,Riparazione console videogiochi,0.0002548839471590147
+2019-12-31,Veneto,Riparazione console videogiochi,0.0007613975331284265
+2020-12-31,Veneto,Riparazione console videogiochi,0.0012964304799281167
+2018-12-31,Lombardy,Riparazione console videogiochi,0.00017982425689589218
+2019-12-31,Lombardy,Riparazione console videogiochi,0.0005236912746185748
+2020-12-31,Lombardy,Riparazione console videogiochi,0.0009591979070080294
+2018-12-31,Basilicata,Riparazione console videogiochi,0.0
+2019-12-31,Basilicata,Riparazione console videogiochi,4.8303714467287275e-05
+2020-12-31,Basilicata,Riparazione console videogiochi,0.0006038636709138859
+2018-12-31,Sardinia,Riparazione console videogiochi,0.00032301521704400187
+2019-12-31,Sardinia,Riparazione console videogiochi,0.0009704550558129457
+2020-12-31,Sardinia,Riparazione console videogiochi,0.0015800378787874068
+2018-12-31,Friuli-Venezia Giulia,Riparazione console videogiochi,0.00010627669881541956
+2019-12-31,Friuli-Venezia Giulia,Riparazione console videogiochi,0.00039257435786134535
+2020-12-31,Friuli-Venezia Giulia,Riparazione console videogiochi,0.0007525179785946893
+2018-12-31,Emilia-Romagna,Riparazione console videogiochi,0.0003299240901301046
+2019-12-31,Emilia-Romagna,Riparazione console videogiochi,0.0008365806797193589
+2020-12-31,Emilia-Romagna,Riparazione console videogiochi,0.0015432071590021528
+2018-12-31,Campania,Riparazione console videogiochi,0.00046541738631855845
+2019-12-31,Campania,Riparazione console videogiochi,0.0012928386191258263
+2020-12-31,Campania,Riparazione console videogiochi,0.002050533859141787
+2018-12-31,Marche,Riparazione console videogiochi,0.00014671368665738406
+2019-12-31,Marche,Riparazione console videogiochi,0.0007370439944081687
+2020-12-31,Marche,Riparazione console videogiochi,0.0010162583730014176
+2018-12-31,Italy,Riparazione console videogiochi,0.0002791343889689104
+2019-12-31,Italy,Riparazione console videogiochi,0.0008747337112054957
+2020-12-31,Italy,Riparazione console videogiochi,0.0015537818466127848
+2018-12-31,Piedmont,Riparazione console videogiochi,0.00021195178507978137
+2019-12-31,Piedmont,Riparazione console videogiochi,0.0006242875629487479
+2020-12-31,Piedmont,Riparazione console videogiochi,0.0011723810394637423
+2018-12-31,Abruzzo,Riparazione console videogiochi,0.0005012717627460621
+2019-12-31,Abruzzo,Riparazione console videogiochi,0.0014274479499545012
+2020-12-31,Abruzzo,Riparazione console videogiochi,0.002356898206476015
+2018-12-31,Tuscany,Riparazione console videogiochi,0.00014692448218419065
+2019-12-31,Tuscany,Riparazione console videogiochi,0.0005797556166292112
+2020-12-31,Tuscany,Riparazione console videogiochi,0.0009844597393634422
+2018-12-31,Lazio,Riparazione console videogiochi,0.000449100774563264
+2019-12-31,Lazio,Riparazione console videogiochi,0.0016354849932722288
+2020-12-31,Lazio,Riparazione console videogiochi,0.0029638849942208723
+2018-12-31,Umbria,Riparazione console videogiochi,0.00029602663154295006
+2019-12-31,Umbria,Riparazione console videogiochi,0.0016796000243113431
+2020-12-31,Umbria,Riparazione console videogiochi,0.0032443804051462584
+2018-12-31,Aosta,Riparazione console videogiochi,0.0
+2019-12-31,Aosta,Riparazione console videogiochi,0.000130704168558542
+2020-12-31,Aosta,Riparazione console videogiochi,0.0005446613502360537
+2018-12-31,Trentino-Alto Adige/South Tyrol,Riparazione console videogiochi,0.00039033456935144185
+2019-12-31,Trentino-Alto Adige/South Tyrol,Riparazione console videogiochi,0.000862076128142952
+2020-12-31,Trentino-Alto Adige/South Tyrol,Riparazione console videogiochi,0.001644401071067868
+2018-12-31,Molise,Riparazione console videogiochi,0.0
+2019-12-31,Molise,Riparazione console videogiochi,0.00010099867570432795
+2020-12-31,Molise,Riparazione console videogiochi,0.00021043733986392992
+2018-12-31,Liguria,Sgombero cantine e soffitte,0.00043093521105639737
+2019-12-31,Liguria,Sgombero cantine e soffitte,0.000733338210548816
+2020-12-31,Liguria,Sgombero cantine e soffitte,0.0008966460568115275
+2018-12-31,Apulia,Sgombero cantine e soffitte,0.00031504510228453627
+2019-12-31,Apulia,Sgombero cantine e soffitte,0.0008130675513404277
+2020-12-31,Apulia,Sgombero cantine e soffitte,0.0009569608639622288
+2018-12-31,Calabria,Sgombero cantine e soffitte,0.0007632145259855458
+2019-12-31,Calabria,Sgombero cantine e soffitte,0.0010190994195128427
+2020-12-31,Calabria,Sgombero cantine e soffitte,0.0008006112328657784
+2018-12-31,Sicily,Sgombero cantine e soffitte,0.00020154225512470544
+2019-12-31,Sicily,Sgombero cantine e soffitte,0.0002977899098086371
+2020-12-31,Sicily,Sgombero cantine e soffitte,0.00039137006300466967
+2018-12-31,Veneto,Sgombero cantine e soffitte,0.0002604249025320367
+2019-12-31,Veneto,Sgombero cantine e soffitte,0.00034876919259431145
+2020-12-31,Veneto,Sgombero cantine e soffitte,0.00039575246229384614
+2018-12-31,Lombardy,Sgombero cantine e soffitte,0.0003205157739491551
+2019-12-31,Lombardy,Sgombero cantine e soffitte,0.00046311709984671014
+2020-12-31,Lombardy,Sgombero cantine e soffitte,0.0006333459864454931
+2018-12-31,Basilicata,Sgombero cantine e soffitte,0.0003269163670083014
+2019-12-31,Basilicata,Sgombero cantine e soffitte,0.0009660742893457454
+2020-12-31,Basilicata,Sgombero cantine e soffitte,0.0009057955063708287
+2018-12-31,Sardinia,Sgombero cantine e soffitte,0.00028712463737244615
+2019-12-31,Sardinia,Sgombero cantine e soffitte,0.00051439420991178
+2020-12-31,Sardinia,Sgombero cantine e soffitte,0.00044196863742305086
+2018-12-31,Friuli-Venezia Giulia,Sgombero cantine e soffitte,0.0006509447802444447
+2019-12-31,Friuli-Venezia Giulia,Sgombero cantine e soffitte,0.0009735844074961362
+2020-12-31,Friuli-Venezia Giulia,Sgombero cantine e soffitte,0.0009488270164889559
+2018-12-31,Emilia-Romagna,Sgombero cantine e soffitte,0.0002846925616445257
+2019-12-31,Emilia-Romagna,Sgombero cantine e soffitte,0.0006950538729999185
+2020-12-31,Emilia-Romagna,Sgombero cantine e soffitte,0.0007863475969437721
+2018-12-31,Campania,Sgombero cantine e soffitte,0.00030510695325327723
+2019-12-31,Campania,Sgombero cantine e soffitte,0.0005745949418337007
+2020-12-31,Campania,Sgombero cantine e soffitte,0.000630443639922475
+2018-12-31,Marche,Sgombero cantine e soffitte,0.0010086565957695155
+2019-12-31,Marche,Sgombero cantine e soffitte,0.0013331825192971288
+2020-12-31,Marche,Sgombero cantine e soffitte,0.001535679319202142
+2018-12-31,Italy,Sgombero cantine e soffitte,0.0004271945161806143
+2019-12-31,Italy,Sgombero cantine e soffitte,0.0007176229700383265
+2020-12-31,Italy,Sgombero cantine e soffitte,0.0008446967499086332
+2018-12-31,Piedmont,Sgombero cantine e soffitte,0.0005559391084059839
+2019-12-31,Piedmont,Sgombero cantine e soffitte,0.0008583953990545282
+2020-12-31,Piedmont,Sgombero cantine e soffitte,0.001048296914848967
+2018-12-31,Abruzzo,Sgombero cantine e soffitte,0.0012531794068651552
+2019-12-31,Abruzzo,Sgombero cantine e soffitte,0.0015621128508936052
+2020-12-31,Abruzzo,Sgombero cantine e soffitte,0.00115039079125615
+2018-12-31,Tuscany,Sgombero cantine e soffitte,0.000453737371451177
+2019-12-31,Tuscany,Sgombero cantine e soffitte,0.0009092202622026395
+2020-12-31,Tuscany,Sgombero cantine e soffitte,0.0008939958714219366
+2018-12-31,Lazio,Sgombero cantine e soffitte,0.0006400358344075259
+2019-12-31,Lazio,Sgombero cantine e soffitte,0.0012270110931060843
+2020-12-31,Lazio,Sgombero cantine e soffitte,0.0015763231924571343
+2018-12-31,Umbria,Sgombero cantine e soffitte,0.0008584772314745552
+2019-12-31,Umbria,Sgombero cantine e soffitte,0.001102237515954319
+2020-12-31,Umbria,Sgombero cantine e soffitte,0.0016768707711991894
+2018-12-31,Aosta,Sgombero cantine e soffitte,0.0013268958425631053
+2019-12-31,Aosta,Sgombero cantine e soffitte,0.0020912666969366725
+2020-12-31,Aosta,Sgombero cantine e soffitte,0.0005446613502360537
+2018-12-31,Trentino-Alto Adige/South Tyrol,Sgombero cantine e soffitte,0.0005546859669731015
+2019-12-31,Trentino-Alto Adige/South Tyrol,Sgombero cantine e soffitte,0.000825650376249588
+2020-12-31,Trentino-Alto Adige/South Tyrol,Sgombero cantine e soffitte,0.0006071634723942895
+2018-12-31,Molise,Sgombero cantine e soffitte,0.0006835524037446304
+2019-12-31,Molise,Sgombero cantine e soffitte,0.0008079894056346236
+2020-12-31,Molise,Sgombero cantine e soffitte,0.0006313120195917898

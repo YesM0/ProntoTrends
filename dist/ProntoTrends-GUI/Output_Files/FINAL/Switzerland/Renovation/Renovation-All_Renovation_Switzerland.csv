@@ -1,0 +1,811 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Aargau,Energiezertifizierer,0.0
+2018,Aargau,Dachdecker,0.03
+2018,Aargau,Elektriker,0.04
+2018,Aargau,Fenster,0.22
+2018,Aargau,Solar,0.13
+2018,Aargau,Smart Home,0.02
+2018,Aargau,bauen,0.26
+2018,Aargau,Einbruch,0.02
+2018,Aargau,Schlüsseldienst,0.01
+2018,Aargau,Blumen,0.27
+2018,Appenzell Innerrhoden,Energiezertifizierer,0.0
+2018,Appenzell Innerrhoden,Dachdecker,0.09
+2018,Appenzell Innerrhoden,Elektriker,0.0
+2018,Appenzell Innerrhoden,Solar,0.17
+2018,Appenzell Innerrhoden,Smart Home,0.0
+2018,Appenzell Innerrhoden,bauen,0.16
+2018,Appenzell Innerrhoden,Blumen,0.28
+2018,Appenzell Innerrhoden,Einbruch,0.0
+2018,Appenzell Innerrhoden,Fenster,0.3
+2018,Appenzell Innerrhoden,Schlüsseldienst,0.0
+2018,Appenzell Outer Rhodes,Energiezertifizierer,0.0
+2018,Appenzell Outer Rhodes,Dachdecker,0.02
+2018,Appenzell Outer Rhodes,Elektriker,0.0
+2018,Appenzell Outer Rhodes,Solar,0.18
+2018,Appenzell Outer Rhodes,Fenster,0.33
+2018,Appenzell Outer Rhodes,Smart Home,0.0
+2018,Appenzell Outer Rhodes,bauen,0.34
+2018,Appenzell Outer Rhodes,Einbruch,0.01
+2018,Appenzell Outer Rhodes,Schlüsseldienst,0.0
+2018,Appenzell Outer Rhodes,Blumen,0.12
+2018,Basel-Landschaft,Energiezertifizierer,0.0
+2018,Basel-Landschaft,Dachdecker,0.02
+2018,Basel-Landschaft,Elektriker,0.11
+2018,Basel-Landschaft,Solar,0.22
+2018,Basel-Landschaft,Fenster,0.21
+2018,Basel-Landschaft,Smart Home,0.03
+2018,Basel-Landschaft,bauen,0.21
+2018,Basel-Landschaft,Einbruch,0.01
+2018,Basel-Landschaft,Schlüsseldienst,0.02
+2018,Basel-Landschaft,Blumen,0.17
+2018,Basel-Stadt,Energiezertifizierer,0.0
+2018,Basel-Stadt,Dachdecker,0.05
+2018,Basel-Stadt,Elektriker,0.06
+2018,Basel-Stadt,Solar,0.23
+2018,Basel-Stadt,Fenster,0.2
+2018,Basel-Stadt,Smart Home,0.03
+2018,Basel-Stadt,bauen,0.18
+2018,Basel-Stadt,Einbruch,0.01
+2018,Basel-Stadt,Schlüsseldienst,0.03
+2018,Basel-Stadt,Blumen,0.22
+2018,Canton of Bern,Energiezertifizierer,0.0
+2018,Canton of Bern,Dachdecker,0.06
+2018,Canton of Bern,Elektriker,0.08
+2018,Canton of Bern,Solar,0.23
+2018,Canton of Bern,Fenster,0.18
+2018,Canton of Bern,Smart Home,0.01
+2018,Canton of Bern,bauen,0.19
+2018,Canton of Bern,Einbruch,0.01
+2018,Canton of Bern,Schlüsseldienst,0.01
+2018,Canton of Bern,Blumen,0.22
+2018,Canton of Fribourg,Energiezertifizierer,0.0
+2018,Canton of Fribourg,Dachdecker,0.03
+2018,Canton of Fribourg,Elektriker,0.03
+2018,Canton of Fribourg,Fenster,0.22
+2018,Canton of Fribourg,Smart Home,0.0
+2018,Canton of Fribourg,bauen,0.22
+2018,Canton of Fribourg,Blumen,0.22
+2018,Canton of Fribourg,Einbruch,0.0
+2018,Canton of Fribourg,Schlüsseldienst,0.0
+2018,Canton of Fribourg,Solar,0.28
+2018,Canton of Glarus,Energiezertifizierer,0.0
+2018,Canton of Glarus,Dachdecker,0.0
+2018,Canton of Glarus,Elektriker,0.0
+2018,Canton of Glarus,Solar,0.16
+2018,Canton of Glarus,Smart Home,0.0
+2018,Canton of Glarus,bauen,0.27
+2018,Canton of Glarus,Blumen,0.29
+2018,Canton of Glarus,Einbruch,0.0
+2018,Canton of Glarus,Fenster,0.28
+2018,Canton of Glarus,Schlüsseldienst,0.0
+2018,Canton of Jura,Energiezertifizierer,0.0
+2018,Canton of Jura,Dachdecker,0.0
+2018,Canton of Jura,Elektriker,0.0
+2018,Canton of Jura,Fenster,0.19
+2018,Canton of Jura,Solar,0.21
+2018,Canton of Jura,Smart Home,0.0
+2018,Canton of Jura,Blumen,0.18
+2018,Canton of Jura,Einbruch,0.0
+2018,Canton of Jura,bauen,0.42
+2018,Canton of Jura,Schlüsseldienst,0.0
+2018,Canton of Neuchâtel,Energiezertifizierer,0.0
+2018,Canton of Neuchâtel,Dachdecker,0.0
+2018,Canton of Neuchâtel,Elektriker,0.0
+2018,Canton of Neuchâtel,Fenster,0.13
+2018,Canton of Neuchâtel,Smart Home,0.0
+2018,Canton of Neuchâtel,bauen,0.16
+2018,Canton of Neuchâtel,Blumen,0.17
+2018,Canton of Neuchâtel,Einbruch,0.0
+2018,Canton of Neuchâtel,Schlüsseldienst,0.0
+2018,Canton of Neuchâtel,Solar,0.55
+2018,Canton of Obwalden,Energiezertifizierer,0.0
+2018,Canton of Obwalden,Dachdecker,0.0
+2018,Canton of Obwalden,Elektriker,0.0
+2018,Canton of Obwalden,Solar,0.06
+2018,Canton of Obwalden,Fenster,0.32
+2018,Canton of Obwalden,Smart Home,0.0
+2018,Canton of Obwalden,bauen,0.35
+2018,Canton of Obwalden,Einbruch,0.0
+2018,Canton of Obwalden,Schlüsseldienst,0.0
+2018,Canton of Obwalden,Blumen,0.26
+2018,Canton of Schaffhausen,Energiezertifizierer,0.0
+2018,Canton of Schaffhausen,Dachdecker,0.01
+2018,Canton of Schaffhausen,Elektriker,0.01
+2018,Canton of Schaffhausen,Fenster,0.13
+2018,Canton of Schaffhausen,Solar,0.16
+2018,Canton of Schaffhausen,Smart Home,0.0
+2018,Canton of Schaffhausen,bauen,0.34
+2018,Canton of Schaffhausen,Einbruch,0.0
+2018,Canton of Schaffhausen,Schlüsseldienst,0.0
+2018,Canton of Schaffhausen,Blumen,0.35
+2018,Canton of Schwyz,Energiezertifizierer,0.0
+2018,Canton of Schwyz,Dachdecker,0.03
+2018,Canton of Schwyz,Elektriker,0.04
+2018,Canton of Schwyz,Solar,0.17
+2018,Canton of Schwyz,Fenster,0.25
+2018,Canton of Schwyz,Smart Home,0.0
+2018,Canton of Schwyz,bauen,0.24
+2018,Canton of Schwyz,Einbruch,0.0
+2018,Canton of Schwyz,Schlüsseldienst,0.02
+2018,Canton of Schwyz,Blumen,0.25
+2018,Canton of Solothurn,Energiezertifizierer,0.0
+2018,Canton of Solothurn,Dachdecker,0.06
+2018,Canton of Solothurn,Elektriker,0.08
+2018,Canton of Solothurn,Solar,0.23
+2018,Canton of Solothurn,Fenster,0.18
+2018,Canton of Solothurn,Smart Home,0.02
+2018,Canton of Solothurn,bauen,0.21
+2018,Canton of Solothurn,Einbruch,0.01
+2018,Canton of Solothurn,Schlüsseldienst,0.01
+2018,Canton of Solothurn,Blumen,0.2
+2018,Canton of Uri,Energiezertifizierer,0.0
+2018,Canton of Uri,Dachdecker,0.0
+2018,Canton of Uri,Elektriker,0.0
+2018,Canton of Uri,Solar,0.06
+2018,Canton of Uri,Fenster,0.23
+2018,Canton of Uri,Smart Home,0.0
+2018,Canton of Uri,Blumen,0.24
+2018,Canton of Uri,Einbruch,0.0
+2018,Canton of Uri,bauen,0.47
+2018,Canton of Uri,Schlüsseldienst,0.0
+2018,Canton of Zug,Energiezertifizierer,0.0
+2018,Canton of Zug,Dachdecker,0.04
+2018,Canton of Zug,Elektriker,0.04
+2018,Canton of Zug,Solar,0.25
+2018,Canton of Zug,Fenster,0.2
+2018,Canton of Zug,Smart Home,0.0
+2018,Canton of Zug,bauen,0.18
+2018,Canton of Zug,Einbruch,0.01
+2018,Canton of Zug,Schlüsseldienst,0.0
+2018,Canton of Zug,Blumen,0.27
+2018,Geneva,Energiezertifizierer,0.0
+2018,Geneva,Dachdecker,0.01
+2018,Geneva,Elektriker,0.03
+2018,Geneva,Fenster,0.16
+2018,Geneva,Smart Home,0.03
+2018,Geneva,bauen,0.09
+2018,Geneva,Blumen,0.1
+2018,Geneva,Einbruch,0.01
+2018,Geneva,Schlüsseldienst,0.01
+2018,Geneva,Solar,0.56
+2018,Grisons,Energiezertifizierer,0.0
+2018,Grisons,Dachdecker,0.04
+2018,Grisons,Elektriker,0.04
+2018,Grisons,Solar,0.15
+2018,Grisons,Fenster,0.23
+2018,Grisons,Smart Home,0.0
+2018,Grisons,bauen,0.24
+2018,Grisons,Einbruch,0.03
+2018,Grisons,Schlüsseldienst,0.01
+2018,Grisons,Blumen,0.27
+2018,Lucerne,Energiezertifizierer,0.0
+2018,Lucerne,Dachdecker,0.05
+2018,Lucerne,Elektriker,0.06
+2018,Lucerne,Solar,0.22
+2018,Lucerne,Fenster,0.2
+2018,Lucerne,Smart Home,0.01
+2018,Lucerne,bauen,0.21
+2018,Lucerne,Einbruch,0.02
+2018,Lucerne,Schlüsseldienst,0.02
+2018,Lucerne,Blumen,0.22
+2018,Nidwalden,Energiezertifizierer,0.0
+2018,Nidwalden,Dachdecker,0.03
+2018,Nidwalden,Elektriker,0.0
+2018,Nidwalden,Solar,0.11
+2018,Nidwalden,Fenster,0.33
+2018,Nidwalden,Smart Home,0.0
+2018,Nidwalden,bauen,0.27
+2018,Nidwalden,Einbruch,0.0
+2018,Nidwalden,Schlüsseldienst,0.0
+2018,Nidwalden,Blumen,0.26
+2018,St. Gallen,Energiezertifizierer,0.0
+2018,St. Gallen,Dachdecker,0.06
+2018,St. Gallen,Elektriker,0.09
+2018,St. Gallen,Solar,0.22
+2018,St. Gallen,Fenster,0.19
+2018,St. Gallen,Smart Home,0.02
+2018,St. Gallen,bauen,0.19
+2018,St. Gallen,Einbruch,0.01
+2018,St. Gallen,Schlüsseldienst,0.0
+2018,St. Gallen,Blumen,0.22
+2018,Switzerland,Energiezertifizierer,0.0
+2018,Switzerland,Dachdecker,0.04
+2018,Switzerland,Elektriker,0.08
+2018,Switzerland,Solar,0.34
+2018,Switzerland,Fenster,0.17
+2018,Switzerland,Smart Home,0.01
+2018,Switzerland,bauen,0.16
+2018,Switzerland,Einbruch,0.01
+2018,Switzerland,Schlüsseldienst,0.01
+2018,Switzerland,Blumen,0.19
+2018,Thurgau,Energiezertifizierer,0.0
+2018,Thurgau,Dachdecker,0.03
+2018,Thurgau,Elektriker,0.04
+2018,Thurgau,Solar,0.12
+2018,Thurgau,Fenster,0.27
+2018,Thurgau,Smart Home,0.02
+2018,Thurgau,bauen,0.25
+2018,Thurgau,Einbruch,0.02
+2018,Thurgau,Schlüsseldienst,0.01
+2018,Thurgau,Blumen,0.25
+2018,Ticino,Energiezertifizierer,0.0
+2018,Ticino,Dachdecker,0.0
+2018,Ticino,Elektriker,0.01
+2018,Ticino,Fenster,0.19
+2018,Ticino,Smart Home,0.05
+2018,Ticino,bauen,0.13
+2018,Ticino,Blumen,0.23
+2018,Ticino,Einbruch,0.0
+2018,Ticino,Schlüsseldienst,0.0
+2018,Ticino,Solar,0.38
+2018,Valais,Energiezertifizierer,0.0
+2018,Valais,Dachdecker,0.0
+2018,Valais,Elektriker,0.03
+2018,Valais,Fenster,0.22
+2018,Valais,Smart Home,0.0
+2018,Valais,bauen,0.2
+2018,Valais,Blumen,0.25
+2018,Valais,Einbruch,0.0
+2018,Valais,Schlüsseldienst,0.0
+2018,Valais,Solar,0.3
+2018,Vaud,Energiezertifizierer,0.0
+2018,Vaud,Dachdecker,0.03
+2018,Vaud,Elektriker,0.05
+2018,Vaud,Fenster,0.16
+2018,Vaud,Smart Home,0.03
+2018,Vaud,bauen,0.2
+2018,Vaud,Blumen,0.26
+2018,Vaud,Einbruch,0.01
+2018,Vaud,Schlüsseldienst,0.01
+2018,Vaud,Solar,0.24
+2018,Zurich,Energiezertifizierer,0.0
+2018,Zurich,Dachdecker,0.04
+2018,Zurich,Elektriker,0.08
+2018,Zurich,Solar,0.24
+2018,Zurich,Fenster,0.19
+2018,Zurich,Smart Home,0.01
+2018,Zurich,bauen,0.18
+2018,Zurich,Einbruch,0.01
+2018,Zurich,Schlüsseldienst,0.01
+2018,Zurich,Blumen,0.24
+2019,Aargau,Energiezertifizierer,0.0
+2019,Aargau,Dachdecker,0.02
+2019,Aargau,Elektriker,0.05
+2019,Aargau,Fenster,0.22
+2019,Aargau,Solar,0.13
+2019,Aargau,Smart Home,0.02
+2019,Aargau,bauen,0.24
+2019,Aargau,Einbruch,0.02
+2019,Aargau,Schlüsseldienst,0.01
+2019,Aargau,Blumen,0.28
+2019,Appenzell Innerrhoden,Energiezertifizierer,0.0
+2019,Appenzell Innerrhoden,Dachdecker,0.0
+2019,Appenzell Innerrhoden,Elektriker,0.0
+2019,Appenzell Innerrhoden,Solar,0.09
+2019,Appenzell Innerrhoden,Smart Home,0.0
+2019,Appenzell Innerrhoden,bauen,0.32
+2019,Appenzell Innerrhoden,Blumen,0.31
+2019,Appenzell Innerrhoden,Einbruch,0.0
+2019,Appenzell Innerrhoden,Fenster,0.28
+2019,Appenzell Innerrhoden,Schlüsseldienst,0.0
+2019,Appenzell Outer Rhodes,Energiezertifizierer,0.0
+2019,Appenzell Outer Rhodes,Dachdecker,0.06
+2019,Appenzell Outer Rhodes,Elektriker,0.0
+2019,Appenzell Outer Rhodes,Solar,0.22
+2019,Appenzell Outer Rhodes,Fenster,0.27
+2019,Appenzell Outer Rhodes,Smart Home,0.0
+2019,Appenzell Outer Rhodes,bauen,0.28
+2019,Appenzell Outer Rhodes,Einbruch,0.0
+2019,Appenzell Outer Rhodes,Schlüsseldienst,0.0
+2019,Appenzell Outer Rhodes,Blumen,0.17
+2019,Basel-Landschaft,Energiezertifizierer,0.0
+2019,Basel-Landschaft,Dachdecker,0.02
+2019,Basel-Landschaft,Elektriker,0.1
+2019,Basel-Landschaft,Solar,0.22
+2019,Basel-Landschaft,Fenster,0.24
+2019,Basel-Landschaft,Smart Home,0.03
+2019,Basel-Landschaft,bauen,0.19
+2019,Basel-Landschaft,Einbruch,0.01
+2019,Basel-Landschaft,Schlüsseldienst,0.02
+2019,Basel-Landschaft,Blumen,0.18
+2019,Basel-Stadt,Energiezertifizierer,0.0
+2019,Basel-Stadt,Dachdecker,0.04
+2019,Basel-Stadt,Elektriker,0.05
+2019,Basel-Stadt,Solar,0.25
+2019,Basel-Stadt,Fenster,0.2
+2019,Basel-Stadt,Smart Home,0.02
+2019,Basel-Stadt,bauen,0.2
+2019,Basel-Stadt,Einbruch,0.02
+2019,Basel-Stadt,Schlüsseldienst,0.02
+2019,Basel-Stadt,Blumen,0.21
+2019,Canton of Bern,Energiezertifizierer,0.0
+2019,Canton of Bern,Dachdecker,0.06
+2019,Canton of Bern,Elektriker,0.08
+2019,Canton of Bern,Solar,0.25
+2019,Canton of Bern,Fenster,0.18
+2019,Canton of Bern,Smart Home,0.02
+2019,Canton of Bern,bauen,0.18
+2019,Canton of Bern,Einbruch,0.01
+2019,Canton of Bern,Schlüsseldienst,0.01
+2019,Canton of Bern,Blumen,0.22
+2019,Canton of Fribourg,Energiezertifizierer,0.0
+2019,Canton of Fribourg,Dachdecker,0.01
+2019,Canton of Fribourg,Elektriker,0.04
+2019,Canton of Fribourg,Fenster,0.22
+2019,Canton of Fribourg,Smart Home,0.0
+2019,Canton of Fribourg,bauen,0.23
+2019,Canton of Fribourg,Blumen,0.2
+2019,Canton of Fribourg,Einbruch,0.0
+2019,Canton of Fribourg,Schlüsseldienst,0.0
+2019,Canton of Fribourg,Solar,0.31
+2019,Canton of Glarus,Energiezertifizierer,0.0
+2019,Canton of Glarus,Dachdecker,0.0
+2019,Canton of Glarus,Elektriker,0.0
+2019,Canton of Glarus,Solar,0.18
+2019,Canton of Glarus,Smart Home,0.0
+2019,Canton of Glarus,bauen,0.21
+2019,Canton of Glarus,Blumen,0.24
+2019,Canton of Glarus,Einbruch,0.0
+2019,Canton of Glarus,Fenster,0.38
+2019,Canton of Glarus,Schlüsseldienst,0.0
+2019,Canton of Jura,Energiezertifizierer,0.0
+2019,Canton of Jura,Dachdecker,0.0
+2019,Canton of Jura,Elektriker,0.0
+2019,Canton of Jura,Fenster,0.14
+2019,Canton of Jura,Solar,0.23
+2019,Canton of Jura,Smart Home,0.0
+2019,Canton of Jura,Blumen,0.34
+2019,Canton of Jura,Einbruch,0.0
+2019,Canton of Jura,bauen,0.29
+2019,Canton of Jura,Schlüsseldienst,0.0
+2019,Canton of Neuchâtel,Energiezertifizierer,0.0
+2019,Canton of Neuchâtel,Dachdecker,0.0
+2019,Canton of Neuchâtel,Elektriker,0.0
+2019,Canton of Neuchâtel,Fenster,0.17
+2019,Canton of Neuchâtel,Smart Home,0.0
+2019,Canton of Neuchâtel,bauen,0.08
+2019,Canton of Neuchâtel,Blumen,0.16
+2019,Canton of Neuchâtel,Einbruch,0.0
+2019,Canton of Neuchâtel,Schlüsseldienst,0.0
+2019,Canton of Neuchâtel,Solar,0.59
+2019,Canton of Obwalden,Energiezertifizierer,0.0
+2019,Canton of Obwalden,Dachdecker,0.0
+2019,Canton of Obwalden,Elektriker,0.0
+2019,Canton of Obwalden,Solar,0.08
+2019,Canton of Obwalden,Fenster,0.35
+2019,Canton of Obwalden,Smart Home,0.0
+2019,Canton of Obwalden,bauen,0.31
+2019,Canton of Obwalden,Einbruch,0.0
+2019,Canton of Obwalden,Schlüsseldienst,0.0
+2019,Canton of Obwalden,Blumen,0.26
+2019,Canton of Schaffhausen,Energiezertifizierer,0.0
+2019,Canton of Schaffhausen,Dachdecker,0.02
+2019,Canton of Schaffhausen,Elektriker,0.01
+2019,Canton of Schaffhausen,Fenster,0.09
+2019,Canton of Schaffhausen,Solar,0.2
+2019,Canton of Schaffhausen,Smart Home,0.0
+2019,Canton of Schaffhausen,bauen,0.31
+2019,Canton of Schaffhausen,Einbruch,0.0
+2019,Canton of Schaffhausen,Schlüsseldienst,0.0
+2019,Canton of Schaffhausen,Blumen,0.37
+2019,Canton of Schwyz,Energiezertifizierer,0.0
+2019,Canton of Schwyz,Dachdecker,0.03
+2019,Canton of Schwyz,Elektriker,0.05
+2019,Canton of Schwyz,Solar,0.17
+2019,Canton of Schwyz,Fenster,0.23
+2019,Canton of Schwyz,Smart Home,0.0
+2019,Canton of Schwyz,bauen,0.24
+2019,Canton of Schwyz,Einbruch,0.0
+2019,Canton of Schwyz,Schlüsseldienst,0.01
+2019,Canton of Schwyz,Blumen,0.27
+2019,Canton of Solothurn,Energiezertifizierer,0.0
+2019,Canton of Solothurn,Dachdecker,0.06
+2019,Canton of Solothurn,Elektriker,0.09
+2019,Canton of Solothurn,Solar,0.22
+2019,Canton of Solothurn,Fenster,0.22
+2019,Canton of Solothurn,Smart Home,0.01
+2019,Canton of Solothurn,bauen,0.17
+2019,Canton of Solothurn,Einbruch,0.01
+2019,Canton of Solothurn,Schlüsseldienst,0.01
+2019,Canton of Solothurn,Blumen,0.21
+2019,Canton of Uri,Energiezertifizierer,0.0
+2019,Canton of Uri,Dachdecker,0.0
+2019,Canton of Uri,Elektriker,0.0
+2019,Canton of Uri,Solar,0.05
+2019,Canton of Uri,Fenster,0.34
+2019,Canton of Uri,Smart Home,0.0
+2019,Canton of Uri,Blumen,0.22
+2019,Canton of Uri,Einbruch,0.0
+2019,Canton of Uri,bauen,0.39
+2019,Canton of Uri,Schlüsseldienst,0.0
+2019,Canton of Zug,Energiezertifizierer,0.0
+2019,Canton of Zug,Dachdecker,0.05
+2019,Canton of Zug,Elektriker,0.06
+2019,Canton of Zug,Solar,0.25
+2019,Canton of Zug,Fenster,0.19
+2019,Canton of Zug,Smart Home,0.0
+2019,Canton of Zug,bauen,0.16
+2019,Canton of Zug,Einbruch,0.01
+2019,Canton of Zug,Schlüsseldienst,0.02
+2019,Canton of Zug,Blumen,0.27
+2019,Geneva,Energiezertifizierer,0.0
+2019,Geneva,Dachdecker,0.01
+2019,Geneva,Elektriker,0.02
+2019,Geneva,Fenster,0.11
+2019,Geneva,Smart Home,0.05
+2019,Geneva,bauen,0.09
+2019,Geneva,Blumen,0.12
+2019,Geneva,Einbruch,0.01
+2019,Geneva,Schlüsseldienst,0.01
+2019,Geneva,Solar,0.59
+2019,Grisons,Energiezertifizierer,0.0
+2019,Grisons,Dachdecker,0.02
+2019,Grisons,Elektriker,0.05
+2019,Grisons,Solar,0.16
+2019,Grisons,Fenster,0.23
+2019,Grisons,Smart Home,0.0
+2019,Grisons,bauen,0.25
+2019,Grisons,Einbruch,0.01
+2019,Grisons,Schlüsseldienst,0.01
+2019,Grisons,Blumen,0.27
+2019,Lucerne,Energiezertifizierer,0.0
+2019,Lucerne,Dachdecker,0.05
+2019,Lucerne,Elektriker,0.08
+2019,Lucerne,Solar,0.24
+2019,Lucerne,Fenster,0.21
+2019,Lucerne,Smart Home,0.02
+2019,Lucerne,bauen,0.19
+2019,Lucerne,Einbruch,0.02
+2019,Lucerne,Schlüsseldienst,0.01
+2019,Lucerne,Blumen,0.19
+2019,Nidwalden,Energiezertifizierer,0.0
+2019,Nidwalden,Dachdecker,0.05
+2019,Nidwalden,Elektriker,0.0
+2019,Nidwalden,Solar,0.07
+2019,Nidwalden,Fenster,0.32
+2019,Nidwalden,Smart Home,0.0
+2019,Nidwalden,bauen,0.28
+2019,Nidwalden,Einbruch,0.0
+2019,Nidwalden,Schlüsseldienst,0.0
+2019,Nidwalden,Blumen,0.27
+2019,St. Gallen,Energiezertifizierer,0.0
+2019,St. Gallen,Dachdecker,0.08
+2019,St. Gallen,Elektriker,0.08
+2019,St. Gallen,Solar,0.21
+2019,St. Gallen,Fenster,0.19
+2019,St. Gallen,Smart Home,0.01
+2019,St. Gallen,bauen,0.16
+2019,St. Gallen,Einbruch,0.01
+2019,St. Gallen,Schlüsseldienst,0.01
+2019,St. Gallen,Blumen,0.24
+2019,Switzerland,Energiezertifizierer,0.0
+2019,Switzerland,Dachdecker,0.04
+2019,Switzerland,Elektriker,0.08
+2019,Switzerland,Solar,0.34
+2019,Switzerland,Fenster,0.16
+2019,Switzerland,Smart Home,0.01
+2019,Switzerland,bauen,0.15
+2019,Switzerland,Einbruch,0.01
+2019,Switzerland,Schlüsseldienst,0.01
+2019,Switzerland,Blumen,0.2
+2019,Thurgau,Energiezertifizierer,0.0
+2019,Thurgau,Dachdecker,0.03
+2019,Thurgau,Elektriker,0.03
+2019,Thurgau,Solar,0.12
+2019,Thurgau,Fenster,0.25
+2019,Thurgau,Smart Home,0.02
+2019,Thurgau,bauen,0.26
+2019,Thurgau,Einbruch,0.02
+2019,Thurgau,Schlüsseldienst,0.01
+2019,Thurgau,Blumen,0.27
+2019,Ticino,Energiezertifizierer,0.0
+2019,Ticino,Dachdecker,0.0
+2019,Ticino,Elektriker,0.04
+2019,Ticino,Fenster,0.2
+2019,Ticino,Smart Home,0.06
+2019,Ticino,bauen,0.16
+2019,Ticino,Blumen,0.19
+2019,Ticino,Einbruch,0.0
+2019,Ticino,Schlüsseldienst,0.0
+2019,Ticino,Solar,0.36
+2019,Valais,Energiezertifizierer,0.0
+2019,Valais,Dachdecker,0.0
+2019,Valais,Elektriker,0.04
+2019,Valais,Fenster,0.23
+2019,Valais,Smart Home,0.0
+2019,Valais,bauen,0.21
+2019,Valais,Blumen,0.22
+2019,Valais,Einbruch,0.0
+2019,Valais,Schlüsseldienst,0.0
+2019,Valais,Solar,0.31
+2019,Vaud,Energiezertifizierer,0.0
+2019,Vaud,Dachdecker,0.03
+2019,Vaud,Elektriker,0.04
+2019,Vaud,Fenster,0.18
+2019,Vaud,Smart Home,0.04
+2019,Vaud,bauen,0.18
+2019,Vaud,Blumen,0.24
+2019,Vaud,Einbruch,0.02
+2019,Vaud,Schlüsseldienst,0.01
+2019,Vaud,Solar,0.26
+2019,Zurich,Energiezertifizierer,0.0
+2019,Zurich,Dachdecker,0.04
+2019,Zurich,Elektriker,0.07
+2019,Zurich,Solar,0.25
+2019,Zurich,Fenster,0.18
+2019,Zurich,Smart Home,0.02
+2019,Zurich,bauen,0.17
+2019,Zurich,Einbruch,0.01
+2019,Zurich,Schlüsseldienst,0.01
+2019,Zurich,Blumen,0.24
+2020,Aargau,Energiezertifizierer,0.0
+2020,Aargau,Dachdecker,0.02
+2020,Aargau,Elektriker,0.03
+2020,Aargau,Fenster,0.19
+2020,Aargau,Solar,0.15
+2020,Aargau,Smart Home,0.01
+2020,Aargau,bauen,0.23
+2020,Aargau,Einbruch,0.01
+2020,Aargau,Schlüsseldienst,0.05
+2020,Aargau,Blumen,0.32
+2020,Appenzell Innerrhoden,Energiezertifizierer,0.0
+2020,Appenzell Innerrhoden,Dachdecker,0.07
+2020,Appenzell Innerrhoden,Elektriker,0.0
+2020,Appenzell Innerrhoden,Solar,0.17
+2020,Appenzell Innerrhoden,Smart Home,0.0
+2020,Appenzell Innerrhoden,bauen,0.15
+2020,Appenzell Innerrhoden,Blumen,0.27
+2020,Appenzell Innerrhoden,Einbruch,0.0
+2020,Appenzell Innerrhoden,Fenster,0.34
+2020,Appenzell Innerrhoden,Schlüsseldienst,0.0
+2020,Appenzell Outer Rhodes,Energiezertifizierer,0.0
+2020,Appenzell Outer Rhodes,Dachdecker,0.04
+2020,Appenzell Outer Rhodes,Elektriker,0.0
+2020,Appenzell Outer Rhodes,Solar,0.22
+2020,Appenzell Outer Rhodes,Fenster,0.24
+2020,Appenzell Outer Rhodes,Smart Home,0.0
+2020,Appenzell Outer Rhodes,bauen,0.32
+2020,Appenzell Outer Rhodes,Einbruch,0.02
+2020,Appenzell Outer Rhodes,Schlüsseldienst,0.0
+2020,Appenzell Outer Rhodes,Blumen,0.16
+2020,Basel-Landschaft,Energiezertifizierer,0.0
+2020,Basel-Landschaft,Dachdecker,0.02
+2020,Basel-Landschaft,Elektriker,0.08
+2020,Basel-Landschaft,Solar,0.2
+2020,Basel-Landschaft,Fenster,0.21
+2020,Basel-Landschaft,Smart Home,0.0
+2020,Basel-Landschaft,bauen,0.17
+2020,Basel-Landschaft,Einbruch,0.01
+2020,Basel-Landschaft,Schlüsseldienst,0.03
+2020,Basel-Landschaft,Blumen,0.27
+2020,Basel-Stadt,Energiezertifizierer,0.0
+2020,Basel-Stadt,Dachdecker,0.01
+2020,Basel-Stadt,Elektriker,0.04
+2020,Basel-Stadt,Solar,0.21
+2020,Basel-Stadt,Fenster,0.22
+2020,Basel-Stadt,Smart Home,0.01
+2020,Basel-Stadt,bauen,0.18
+2020,Basel-Stadt,Einbruch,0.02
+2020,Basel-Stadt,Schlüsseldienst,0.02
+2020,Basel-Stadt,Blumen,0.3
+2020,Canton of Bern,Energiezertifizierer,0.0
+2020,Canton of Bern,Dachdecker,0.04
+2020,Canton of Bern,Elektriker,0.06
+2020,Canton of Bern,Solar,0.24
+2020,Canton of Bern,Fenster,0.15
+2020,Canton of Bern,Smart Home,0.01
+2020,Canton of Bern,bauen,0.18
+2020,Canton of Bern,Einbruch,0.01
+2020,Canton of Bern,Schlüsseldienst,0.01
+2020,Canton of Bern,Blumen,0.3
+2020,Canton of Fribourg,Energiezertifizierer,0.0
+2020,Canton of Fribourg,Dachdecker,0.0
+2020,Canton of Fribourg,Elektriker,0.02
+2020,Canton of Fribourg,Fenster,0.2
+2020,Canton of Fribourg,Smart Home,0.0
+2020,Canton of Fribourg,bauen,0.2
+2020,Canton of Fribourg,Blumen,0.26
+2020,Canton of Fribourg,Einbruch,0.0
+2020,Canton of Fribourg,Schlüsseldienst,0.0
+2020,Canton of Fribourg,Solar,0.31
+2020,Canton of Glarus,Energiezertifizierer,0.0
+2020,Canton of Glarus,Dachdecker,0.0
+2020,Canton of Glarus,Elektriker,0.0
+2020,Canton of Glarus,Solar,0.16
+2020,Canton of Glarus,Smart Home,0.0
+2020,Canton of Glarus,bauen,0.19
+2020,Canton of Glarus,Blumen,0.39
+2020,Canton of Glarus,Einbruch,0.0
+2020,Canton of Glarus,Fenster,0.26
+2020,Canton of Glarus,Schlüsseldienst,0.0
+2020,Canton of Jura,Energiezertifizierer,0.0
+2020,Canton of Jura,Dachdecker,0.0
+2020,Canton of Jura,Elektriker,0.0
+2020,Canton of Jura,Fenster,0.11
+2020,Canton of Jura,Solar,0.19
+2020,Canton of Jura,Smart Home,0.0
+2020,Canton of Jura,Blumen,0.29
+2020,Canton of Jura,Einbruch,0.0
+2020,Canton of Jura,bauen,0.41
+2020,Canton of Jura,Schlüsseldienst,0.0
+2020,Canton of Neuchâtel,Energiezertifizierer,0.0
+2020,Canton of Neuchâtel,Dachdecker,0.0
+2020,Canton of Neuchâtel,Elektriker,0.0
+2020,Canton of Neuchâtel,Fenster,0.19
+2020,Canton of Neuchâtel,Smart Home,0.0
+2020,Canton of Neuchâtel,bauen,0.1
+2020,Canton of Neuchâtel,Blumen,0.21
+2020,Canton of Neuchâtel,Einbruch,0.0
+2020,Canton of Neuchâtel,Schlüsseldienst,0.0
+2020,Canton of Neuchâtel,Solar,0.5
+2020,Canton of Obwalden,Energiezertifizierer,0.0
+2020,Canton of Obwalden,Dachdecker,0.0
+2020,Canton of Obwalden,Elektriker,0.0
+2020,Canton of Obwalden,Solar,0.1
+2020,Canton of Obwalden,Fenster,0.31
+2020,Canton of Obwalden,Smart Home,0.0
+2020,Canton of Obwalden,bauen,0.33
+2020,Canton of Obwalden,Einbruch,0.0
+2020,Canton of Obwalden,Schlüsseldienst,0.0
+2020,Canton of Obwalden,Blumen,0.25
+2020,Canton of Schaffhausen,Energiezertifizierer,0.0
+2020,Canton of Schaffhausen,Dachdecker,0.01
+2020,Canton of Schaffhausen,Elektriker,0.01
+2020,Canton of Schaffhausen,Fenster,0.11
+2020,Canton of Schaffhausen,Solar,0.18
+2020,Canton of Schaffhausen,Smart Home,0.0
+2020,Canton of Schaffhausen,bauen,0.28
+2020,Canton of Schaffhausen,Einbruch,0.0
+2020,Canton of Schaffhausen,Schlüsseldienst,0.0
+2020,Canton of Schaffhausen,Blumen,0.4
+2020,Canton of Schwyz,Energiezertifizierer,0.0
+2020,Canton of Schwyz,Dachdecker,0.01
+2020,Canton of Schwyz,Elektriker,0.05
+2020,Canton of Schwyz,Solar,0.11
+2020,Canton of Schwyz,Fenster,0.19
+2020,Canton of Schwyz,Smart Home,0.0
+2020,Canton of Schwyz,bauen,0.22
+2020,Canton of Schwyz,Einbruch,0.0
+2020,Canton of Schwyz,Schlüsseldienst,0.1
+2020,Canton of Schwyz,Blumen,0.31
+2020,Canton of Solothurn,Energiezertifizierer,0.0
+2020,Canton of Solothurn,Dachdecker,0.07
+2020,Canton of Solothurn,Elektriker,0.06
+2020,Canton of Solothurn,Solar,0.19
+2020,Canton of Solothurn,Fenster,0.18
+2020,Canton of Solothurn,Smart Home,0.02
+2020,Canton of Solothurn,bauen,0.21
+2020,Canton of Solothurn,Einbruch,0.01
+2020,Canton of Solothurn,Schlüsseldienst,0.0
+2020,Canton of Solothurn,Blumen,0.25
+2020,Canton of Uri,Energiezertifizierer,0.0
+2020,Canton of Uri,Dachdecker,0.0
+2020,Canton of Uri,Elektriker,0.0
+2020,Canton of Uri,Solar,0.06
+2020,Canton of Uri,Fenster,0.21
+2020,Canton of Uri,Smart Home,0.0
+2020,Canton of Uri,Blumen,0.26
+2020,Canton of Uri,Einbruch,0.0
+2020,Canton of Uri,bauen,0.47
+2020,Canton of Uri,Schlüsseldienst,0.0
+2020,Canton of Zug,Energiezertifizierer,0.0
+2020,Canton of Zug,Dachdecker,0.02
+2020,Canton of Zug,Elektriker,0.04
+2020,Canton of Zug,Solar,0.25
+2020,Canton of Zug,Fenster,0.15
+2020,Canton of Zug,Smart Home,0.0
+2020,Canton of Zug,bauen,0.1
+2020,Canton of Zug,Einbruch,0.01
+2020,Canton of Zug,Schlüsseldienst,0.1
+2020,Canton of Zug,Blumen,0.34
+2020,Geneva,Energiezertifizierer,0.0
+2020,Geneva,Dachdecker,0.02
+2020,Geneva,Elektriker,0.02
+2020,Geneva,Fenster,0.18
+2020,Geneva,Smart Home,0.04
+2020,Geneva,bauen,0.08
+2020,Geneva,Blumen,0.11
+2020,Geneva,Einbruch,0.01
+2020,Geneva,Schlüsseldienst,0.0
+2020,Geneva,Solar,0.53
+2020,Grisons,Energiezertifizierer,0.0
+2020,Grisons,Dachdecker,0.02
+2020,Grisons,Elektriker,0.03
+2020,Grisons,Solar,0.16
+2020,Grisons,Fenster,0.2
+2020,Grisons,Smart Home,0.0
+2020,Grisons,bauen,0.22
+2020,Grisons,Einbruch,0.02
+2020,Grisons,Schlüsseldienst,0.01
+2020,Grisons,Blumen,0.34
+2020,Lucerne,Energiezertifizierer,0.0
+2020,Lucerne,Dachdecker,0.04
+2020,Lucerne,Elektriker,0.05
+2020,Lucerne,Solar,0.22
+2020,Lucerne,Fenster,0.17
+2020,Lucerne,Smart Home,0.02
+2020,Lucerne,bauen,0.19
+2020,Lucerne,Einbruch,0.01
+2020,Lucerne,Schlüsseldienst,0.04
+2020,Lucerne,Blumen,0.26
+2020,Nidwalden,Energiezertifizierer,0.0
+2020,Nidwalden,Dachdecker,0.03
+2020,Nidwalden,Elektriker,0.0
+2020,Nidwalden,Solar,0.14
+2020,Nidwalden,Fenster,0.23
+2020,Nidwalden,Smart Home,0.0
+2020,Nidwalden,bauen,0.36
+2020,Nidwalden,Einbruch,0.0
+2020,Nidwalden,Schlüsseldienst,0.0
+2020,Nidwalden,Blumen,0.24
+2020,St. Gallen,Energiezertifizierer,0.0
+2020,St. Gallen,Dachdecker,0.08
+2020,St. Gallen,Elektriker,0.06
+2020,St. Gallen,Solar,0.2
+2020,St. Gallen,Fenster,0.16
+2020,St. Gallen,Smart Home,0.01
+2020,St. Gallen,bauen,0.15
+2020,St. Gallen,Einbruch,0.0
+2020,St. Gallen,Schlüsseldienst,0.04
+2020,St. Gallen,Blumen,0.29
+2020,Switzerland,Energiezertifizierer,0.0
+2020,Switzerland,Dachdecker,0.04
+2020,Switzerland,Elektriker,0.06
+2020,Switzerland,Solar,0.32
+2020,Switzerland,Fenster,0.14
+2020,Switzerland,Smart Home,0.01
+2020,Switzerland,bauen,0.14
+2020,Switzerland,Einbruch,0.01
+2020,Switzerland,Schlüsseldienst,0.03
+2020,Switzerland,Blumen,0.25
+2020,Thurgau,Energiezertifizierer,0.0
+2020,Thurgau,Dachdecker,0.03
+2020,Thurgau,Elektriker,0.02
+2020,Thurgau,Solar,0.13
+2020,Thurgau,Fenster,0.19
+2020,Thurgau,Smart Home,0.01
+2020,Thurgau,bauen,0.24
+2020,Thurgau,Einbruch,0.01
+2020,Thurgau,Schlüsseldienst,0.05
+2020,Thurgau,Blumen,0.32
+2020,Ticino,Energiezertifizierer,0.0
+2020,Ticino,Dachdecker,0.0
+2020,Ticino,Elektriker,0.05
+2020,Ticino,Fenster,0.16
+2020,Ticino,Smart Home,0.04
+2020,Ticino,bauen,0.14
+2020,Ticino,Blumen,0.2
+2020,Ticino,Einbruch,0.0
+2020,Ticino,Schlüsseldienst,0.0
+2020,Ticino,Solar,0.4
+2020,Valais,Energiezertifizierer,0.0
+2020,Valais,Dachdecker,0.0
+2020,Valais,Elektriker,0.02
+2020,Valais,Fenster,0.24
+2020,Valais,Smart Home,0.0
+2020,Valais,bauen,0.18
+2020,Valais,Blumen,0.24
+2020,Valais,Einbruch,0.0
+2020,Valais,Schlüsseldienst,0.0
+2020,Valais,Solar,0.32
+2020,Vaud,Energiezertifizierer,0.0
+2020,Vaud,Dachdecker,0.01
+2020,Vaud,Elektriker,0.02
+2020,Vaud,Fenster,0.14
+2020,Vaud,Smart Home,0.03
+2020,Vaud,bauen,0.17
+2020,Vaud,Blumen,0.28
+2020,Vaud,Einbruch,0.01
+2020,Vaud,Schlüsseldienst,0.01
+2020,Vaud,Solar,0.32
+2020,Zurich,Energiezertifizierer,0.0
+2020,Zurich,Dachdecker,0.04
+2020,Zurich,Elektriker,0.05
+2020,Zurich,Solar,0.23
+2020,Zurich,Fenster,0.16
+2020,Zurich,Smart Home,0.02
+2020,Zurich,bauen,0.15
+2020,Zurich,Einbruch,0.01
+2020,Zurich,Schlüsseldienst,0.06
+2020,Zurich,Blumen,0.29

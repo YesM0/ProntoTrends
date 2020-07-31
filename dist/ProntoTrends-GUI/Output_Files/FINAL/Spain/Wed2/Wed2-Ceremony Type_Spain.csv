@@ -1,0 +1,163 @@
+Year,ticket_geo_region_name,Wed_type,Distribution
+2018,Andalucía,Civil,0.79
+2018,Andalucía,Religiosa,0.185
+2018,Andalucía,Simbólica,0.025
+2018,Aragón,Civil,0.79
+2018,Aragón,Religiosa,0.19
+2018,Aragón,Simbólica,0.02
+2018,Asturias,Civil,0.67
+2018,Asturias,Religiosa,0.31
+2018,Asturias,Simbólica,0.02
+2018,Illes Balears,Civil,0.79
+2018,Illes Balears,Religiosa,0.19
+2018,Illes Balears,Simbólica,0.02
+2018,País Vasco,Civil,0.811
+2018,País Vasco,Religiosa,0.164
+2018,País Vasco,Simbólica,0.025
+2018,Islas Canarias,Civil,0.79
+2018,Islas Canarias,Religiosa,0.19
+2018,Islas Canarias,Simbólica,0.02
+2018,Cantabria,Civil,0.79
+2018,Cantabria,Religiosa,0.19
+2018,Cantabria,Simbólica,0.02
+2018,Castilla y León,Civil,0.825
+2018,Castilla y León,Religiosa,0.15
+2018,Castilla y León,Simbólica,0.025
+2018,Castilla-La Mancha,Civil,0.85
+2018,Castilla-La Mancha,Religiosa,0.13
+2018,Castilla-La Mancha,Simbólica,0.02
+2018,Cataluña,Civil,0.784
+2018,Cataluña,Religiosa,0.19
+2018,Cataluña,Simbólica,0.026
+2018,Madrid,Civil,0.864
+2018,Madrid,Religiosa,0.11
+2018,Madrid,Simbólica,0.026
+2018,Extremadura,Civil,0.79
+2018,Extremadura,Religiosa,0.19
+2018,Extremadura,Simbólica,0.02
+2018,Galicia,Civil,0.834
+2018,Galicia,Religiosa,0.14
+2018,Galicia,Simbólica,0.026
+2018,La Rioja,Civil,0.79
+2018,La Rioja,Religiosa,0.19
+2018,La Rioja,Simbólica,0.02
+2018,Navarra,Civil,0.79
+2018,Navarra,Religiosa,0.19
+2018,Navarra,Simbólica,0.02
+2018,Murcia,Civil,0.79
+2018,Murcia,Religiosa,0.19
+2018,Murcia,Simbólica,0.02
+2018,Valencia,Civil,0.8
+2018,Valencia,Religiosa,0.174
+2018,Valencia,Simbólica,0.026
+2018,España,Civil,0.797
+2018,España,Religiosa,0.181
+2018,España,Simbólica,0.022
+2019,Andalucía,Civil,0.79
+2019,Andalucía,Religiosa,0.185
+2019,Andalucía,Simbólica,0.025
+2019,Aragón,Civil,0.79
+2019,Aragón,Religiosa,0.19
+2019,Aragón,Simbólica,0.02
+2019,Asturias,Civil,0.67
+2019,Asturias,Religiosa,0.31
+2019,Asturias,Simbólica,0.02
+2019,Illes Balears,Civil,0.79
+2019,Illes Balears,Religiosa,0.19
+2019,Illes Balears,Simbólica,0.02
+2019,País Vasco,Civil,0.811
+2019,País Vasco,Religiosa,0.164
+2019,País Vasco,Simbólica,0.025
+2019,Islas Canarias,Civil,0.79
+2019,Islas Canarias,Religiosa,0.19
+2019,Islas Canarias,Simbólica,0.02
+2019,Cantabria,Civil,0.79
+2019,Cantabria,Religiosa,0.19
+2019,Cantabria,Simbólica,0.02
+2019,Castilla y León,Civil,0.825
+2019,Castilla y León,Religiosa,0.15
+2019,Castilla y León,Simbólica,0.025
+2019,Castilla-La Mancha,Civil,0.85
+2019,Castilla-La Mancha,Religiosa,0.13
+2019,Castilla-La Mancha,Simbólica,0.02
+2019,Cataluña,Civil,0.784
+2019,Cataluña,Religiosa,0.19
+2019,Cataluña,Simbólica,0.026
+2019,Madrid,Civil,0.864
+2019,Madrid,Religiosa,0.11
+2019,Madrid,Simbólica,0.026
+2019,Extremadura,Civil,0.79
+2019,Extremadura,Religiosa,0.19
+2019,Extremadura,Simbólica,0.02
+2019,Galicia,Civil,0.834
+2019,Galicia,Religiosa,0.14
+2019,Galicia,Simbólica,0.026
+2019,La Rioja,Civil,0.79
+2019,La Rioja,Religiosa,0.19
+2019,La Rioja,Simbólica,0.02
+2019,Navarra,Civil,0.79
+2019,Navarra,Religiosa,0.19
+2019,Navarra,Simbólica,0.02
+2019,Murcia,Civil,0.79
+2019,Murcia,Religiosa,0.19
+2019,Murcia,Simbólica,0.02
+2019,Valencia,Civil,0.8
+2019,Valencia,Religiosa,0.174
+2019,Valencia,Simbólica,0.026
+2019,España,Civil,0.797
+2019,España,Religiosa,0.181
+2019,España,Simbólica,0.022
+2020,Andalucía,Civil,0.79
+2020,Andalucía,Religiosa,0.185
+2020,Andalucía,Simbólica,0.025
+2020,Aragón,Civil,0.79
+2020,Aragón,Religiosa,0.19
+2020,Aragón,Simbólica,0.02
+2020,Asturias,Civil,0.67
+2020,Asturias,Religiosa,0.31
+2020,Asturias,Simbólica,0.02
+2020,Illes Balears,Civil,0.79
+2020,Illes Balears,Religiosa,0.19
+2020,Illes Balears,Simbólica,0.02
+2020,País Vasco,Civil,0.811
+2020,País Vasco,Religiosa,0.164
+2020,País Vasco,Simbólica,0.025
+2020,Islas Canarias,Civil,0.79
+2020,Islas Canarias,Religiosa,0.19
+2020,Islas Canarias,Simbólica,0.02
+2020,Cantabria,Civil,0.79
+2020,Cantabria,Religiosa,0.19
+2020,Cantabria,Simbólica,0.02
+2020,Castilla y León,Civil,0.825
+2020,Castilla y León,Religiosa,0.15
+2020,Castilla y León,Simbólica,0.025
+2020,Castilla-La Mancha,Civil,0.85
+2020,Castilla-La Mancha,Religiosa,0.13
+2020,Castilla-La Mancha,Simbólica,0.02
+2020,Cataluña,Civil,0.784
+2020,Cataluña,Religiosa,0.19
+2020,Cataluña,Simbólica,0.026
+2020,Madrid,Civil,0.864
+2020,Madrid,Religiosa,0.11
+2020,Madrid,Simbólica,0.026
+2020,Extremadura,Civil,0.79
+2020,Extremadura,Religiosa,0.19
+2020,Extremadura,Simbólica,0.02
+2020,Galicia,Civil,0.834
+2020,Galicia,Religiosa,0.14
+2020,Galicia,Simbólica,0.026
+2020,La Rioja,Civil,0.79
+2020,La Rioja,Religiosa,0.19
+2020,La Rioja,Simbólica,0.02
+2020,Navarra,Civil,0.79
+2020,Navarra,Religiosa,0.19
+2020,Navarra,Simbólica,0.02
+2020,Murcia,Civil,0.79
+2020,Murcia,Religiosa,0.19
+2020,Murcia,Simbólica,0.02
+2020,Valencia,Civil,0.8
+2020,Valencia,Religiosa,0.174
+2020,Valencia,Simbólica,0.026
+2020,España,Civil,0.797
+2020,España,Religiosa,0.181
+2020,España,Simbólica,0.022

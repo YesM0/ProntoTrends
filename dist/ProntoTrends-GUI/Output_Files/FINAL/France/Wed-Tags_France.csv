@@ -1,0 +1,622 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Alsace,costume mariage,0.09
+2018,Alsace,Maquillage de mariée,0.0
+2018,Alsace,organisateur de mariage,0.0
+2018,Alsace,wedding planner,0.05
+2018,Alsace,Fleuriste,0.29
+2018,Alsace,Wedding planner,0.03
+2018,Alsace,bouquet mariage,0.02
+2018,Alsace,Cérémonies,0.01
+2018,Alsace,Maquillage,0.52
+2018,Aquitaine,costume mariage,0.11
+2018,Aquitaine,Maquillage de mariée,0.0
+2018,Aquitaine,organisateur de mariage,0.0
+2018,Aquitaine,wedding planner,0.07
+2018,Aquitaine,Fleuriste,0.3
+2018,Aquitaine,Wedding planner,0.02
+2018,Aquitaine,bouquet mariage,0.01
+2018,Aquitaine,Cérémonies,0.0
+2018,Aquitaine,Maquillage,0.5
+2018,Auvergne,costume mariage,0.15
+2018,Auvergne,Maquillage de mariée,0.0
+2018,Auvergne,organisateur de mariage,0.0
+2018,Auvergne,wedding planner,0.06
+2018,Auvergne,Fleuriste,0.25
+2018,Auvergne,Wedding planner,0.02
+2018,Auvergne,bouquet mariage,0.02
+2018,Auvergne,Cérémonies,0.01
+2018,Auvergne,Maquillage,0.5
+2018,Bretagne,costume mariage,0.11
+2018,Bretagne,Maquillage de mariée,0.0
+2018,Bretagne,organisateur de mariage,0.0
+2018,Bretagne,wedding planner,0.07
+2018,Bretagne,Fleuriste,0.28
+2018,Bretagne,Wedding planner,0.03
+2018,Bretagne,bouquet mariage,0.03
+2018,Bretagne,Cérémonies,0.01
+2018,Bretagne,Maquillage,0.47
+2018,Bourgogne,costume mariage,0.14
+2018,Bourgogne,Maquillage de mariée,0.0
+2018,Bourgogne,organisateur de mariage,0.0
+2018,Bourgogne,wedding planner,0.07
+2018,Bourgogne,Fleuriste,0.23
+2018,Bourgogne,Wedding planner,0.02
+2018,Bourgogne,bouquet mariage,0.02
+2018,Bourgogne,Cérémonies,0.01
+2018,Bourgogne,Maquillage,0.51
+2018,Centre-Val de Loire,costume mariage,0.14
+2018,Centre-Val de Loire,Maquillage de mariée,0.0
+2018,Centre-Val de Loire,organisateur de mariage,0.0
+2018,Centre-Val de Loire,wedding planner,0.07
+2018,Centre-Val de Loire,Fleuriste,0.26
+2018,Centre-Val de Loire,Wedding planner,0.03
+2018,Centre-Val de Loire,bouquet mariage,0.03
+2018,Centre-Val de Loire,Cérémonies,0.01
+2018,Centre-Val de Loire,Maquillage,0.47
+2018,Champagne-Ardenne,costume mariage,0.14
+2018,Champagne-Ardenne,Maquillage de mariée,0.0
+2018,Champagne-Ardenne,organisateur de mariage,0.0
+2018,Champagne-Ardenne,wedding planner,0.09
+2018,Champagne-Ardenne,Fleuriste,0.21
+2018,Champagne-Ardenne,Wedding planner,0.03
+2018,Champagne-Ardenne,bouquet mariage,0.02
+2018,Champagne-Ardenne,Cérémonies,0.01
+2018,Champagne-Ardenne,Maquillage,0.5
+2018,Corse,costume mariage,0.16
+2018,Corse,Maquillage de mariée,0.0
+2018,Corse,organisateur de mariage,0.0
+2018,Corse,wedding planner,0.09
+2018,Corse,Fleuriste,0.21
+2018,Corse,Wedding planner,0.04
+2018,Corse,bouquet mariage,0.0
+2018,Corse,Cérémonies,0.0
+2018,Corse,Maquillage,0.51
+2018,France,costume mariage,0.09
+2018,France,Maquillage de mariée,0.0
+2018,France,organisateur de mariage,0.0
+2018,France,wedding planner,0.05
+2018,France,Fleuriste,0.3
+2018,France,Wedding planner,0.0
+2018,France,bouquet mariage,0.0
+2018,France,Cérémonies,0.0
+2018,France,Maquillage,0.56
+2018,Franche-Comté,costume mariage,0.16
+2018,Franche-Comté,Maquillage de mariée,0.0
+2018,Franche-Comté,organisateur de mariage,0.0
+2018,Franche-Comté,wedding planner,0.07
+2018,Franche-Comté,Fleuriste,0.24
+2018,Franche-Comté,Wedding planner,0.01
+2018,Franche-Comté,bouquet mariage,0.0
+2018,Franche-Comté,Cérémonies,0.01
+2018,Franche-Comté,Maquillage,0.51
+2018,Languedoc-Roussillon,costume mariage,0.09
+2018,Languedoc-Roussillon,Maquillage de mariée,0.0
+2018,Languedoc-Roussillon,organisateur de mariage,0.0
+2018,Languedoc-Roussillon,wedding planner,0.06
+2018,Languedoc-Roussillon,Fleuriste,0.26
+2018,Languedoc-Roussillon,Wedding planner,0.03
+2018,Languedoc-Roussillon,bouquet mariage,0.02
+2018,Languedoc-Roussillon,Cérémonies,0.01
+2018,Languedoc-Roussillon,Maquillage,0.54
+2018,Limousin,costume mariage,0.15
+2018,Limousin,Maquillage de mariée,0.0
+2018,Limousin,organisateur de mariage,0.03
+2018,Limousin,wedding planner,0.14
+2018,Limousin,Fleuriste,0.21
+2018,Limousin,Wedding planner,0.04
+2018,Limousin,bouquet mariage,0.03
+2018,Limousin,Cérémonies,0.01
+2018,Limousin,Maquillage,0.39
+2018,Lorraine,costume mariage,0.1
+2018,Lorraine,Maquillage de mariée,0.0
+2018,Lorraine,organisateur de mariage,0.0
+2018,Lorraine,wedding planner,0.08
+2018,Lorraine,Fleuriste,0.22
+2018,Lorraine,Wedding planner,0.03
+2018,Lorraine,bouquet mariage,0.02
+2018,Lorraine,Cérémonies,0.0
+2018,Lorraine,Maquillage,0.53
+2018,Basse Normandie,costume mariage,0.14
+2018,Basse Normandie,Maquillage de mariée,0.0
+2018,Basse Normandie,organisateur de mariage,0.0
+2018,Basse Normandie,wedding planner,0.1
+2018,Basse Normandie,Fleuriste,0.26
+2018,Basse Normandie,Wedding planner,0.03
+2018,Basse Normandie,bouquet mariage,0.0
+2018,Basse Normandie,Cérémonies,0.01
+2018,Basse Normandie,Maquillage,0.47
+2018,Midi-Pyrénées,costume mariage,0.09
+2018,Midi-Pyrénées,Maquillage de mariée,0.0
+2018,Midi-Pyrénées,organisateur de mariage,0.0
+2018,Midi-Pyrénées,wedding planner,0.08
+2018,Midi-Pyrénées,Fleuriste,0.27
+2018,Midi-Pyrénées,Wedding planner,0.03
+2018,Midi-Pyrénées,bouquet mariage,0.02
+2018,Midi-Pyrénées,Cérémonies,0.01
+2018,Midi-Pyrénées,Maquillage,0.5
+2018,Nord-Pas-de-Calais,costume mariage,0.1
+2018,Nord-Pas-de-Calais,Maquillage de mariée,0.0
+2018,Nord-Pas-de-Calais,organisateur de mariage,0.0
+2018,Nord-Pas-de-Calais,wedding planner,0.05
+2018,Nord-Pas-de-Calais,Fleuriste,0.25
+2018,Nord-Pas-de-Calais,Wedding planner,0.01
+2018,Nord-Pas-de-Calais,bouquet mariage,0.01
+2018,Nord-Pas-de-Calais,Cérémonies,0.0
+2018,Nord-Pas-de-Calais,Maquillage,0.58
+2018,Pays de la Loire,costume mariage,0.11
+2018,Pays de la Loire,Maquillage de mariée,0.0
+2018,Pays de la Loire,organisateur de mariage,0.0
+2018,Pays de la Loire,wedding planner,0.07
+2018,Pays de la Loire,Fleuriste,0.3
+2018,Pays de la Loire,Wedding planner,0.03
+2018,Pays de la Loire,bouquet mariage,0.02
+2018,Pays de la Loire,Cérémonies,0.01
+2018,Pays de la Loire,Maquillage,0.47
+2018,Picardie,costume mariage,0.13
+2018,Picardie,Maquillage de mariée,0.0
+2018,Picardie,organisateur de mariage,0.0
+2018,Picardie,wedding planner,0.08
+2018,Picardie,Fleuriste,0.22
+2018,Picardie,Wedding planner,0.02
+2018,Picardie,bouquet mariage,0.02
+2018,Picardie,Cérémonies,0.0
+2018,Picardie,Maquillage,0.53
+2018,Poitou-Charentes,costume mariage,0.15
+2018,Poitou-Charentes,Maquillage de mariée,0.0
+2018,Poitou-Charentes,organisateur de mariage,0.0
+2018,Poitou-Charentes,wedding planner,0.1
+2018,Poitou-Charentes,Fleuriste,0.25
+2018,Poitou-Charentes,Wedding planner,0.03
+2018,Poitou-Charentes,bouquet mariage,0.02
+2018,Poitou-Charentes,Cérémonies,0.01
+2018,Poitou-Charentes,Maquillage,0.44
+2018,Provence-Alpes-Côte d'Azur,costume mariage,0.09
+2018,Provence-Alpes-Côte d'Azur,Maquillage de mariée,0.0
+2018,Provence-Alpes-Côte d'Azur,organisateur de mariage,0.01
+2018,Provence-Alpes-Côte d'Azur,wedding planner,0.06
+2018,Provence-Alpes-Côte d'Azur,Fleuriste,0.25
+2018,Provence-Alpes-Côte d'Azur,Wedding planner,0.02
+2018,Provence-Alpes-Côte d'Azur,bouquet mariage,0.01
+2018,Provence-Alpes-Côte d'Azur,Cérémonies,0.0
+2018,Provence-Alpes-Côte d'Azur,Maquillage,0.57
+2018,Rhône-Alpes,costume mariage,0.08
+2018,Rhône-Alpes,Maquillage de mariée,0.0
+2018,Rhône-Alpes,organisateur de mariage,0.01
+2018,Rhône-Alpes,wedding planner,0.05
+2018,Rhône-Alpes,Fleuriste,0.29
+2018,Rhône-Alpes,Wedding planner,0.01
+2018,Rhône-Alpes,bouquet mariage,0.01
+2018,Rhône-Alpes,Cérémonies,0.0
+2018,Rhône-Alpes,Maquillage,0.55
+2018,Rhône-Alpes,costume mariage,0.11
+2018,Rhône-Alpes,Maquillage de mariée,0.0
+2018,Rhône-Alpes,organisateur de mariage,0.0
+2018,Rhône-Alpes,wedding planner,0.08
+2018,Rhône-Alpes,Fleuriste,0.23
+2018,Rhône-Alpes,Wedding planner,0.02
+2018,Rhône-Alpes,bouquet mariage,0.01
+2018,Rhône-Alpes,Cérémonies,0.01
+2018,Rhône-Alpes,Maquillage,0.53
+2018,Île-de-France,costume mariage,0.07
+2018,Île-de-France,Maquillage de mariée,0.0
+2018,Île-de-France,organisateur de mariage,0.0
+2018,Île-de-France,wedding planner,0.04
+2018,Île-de-France,Fleuriste,0.33
+2018,Île-de-France,Wedding planner,0.02
+2018,Île-de-France,bouquet mariage,0.0
+2018,Île-de-France,Cérémonies,0.0
+2018,Île-de-France,Maquillage,0.55
+2019,Alsace,costume mariage,0.08
+2019,Alsace,Maquillage de mariée,0.0
+2019,Alsace,organisateur de mariage,0.0
+2019,Alsace,wedding planner,0.05
+2019,Alsace,Fleuriste,0.34
+2019,Alsace,Wedding planner,0.02
+2019,Alsace,bouquet mariage,0.02
+2019,Alsace,Cérémonies,0.01
+2019,Alsace,Maquillage,0.48
+2019,Aquitaine,costume mariage,0.1
+2019,Aquitaine,Maquillage de mariée,0.0
+2019,Aquitaine,organisateur de mariage,0.0
+2019,Aquitaine,wedding planner,0.06
+2019,Aquitaine,Fleuriste,0.34
+2019,Aquitaine,Wedding planner,0.02
+2019,Aquitaine,bouquet mariage,0.01
+2019,Aquitaine,Cérémonies,0.0
+2019,Aquitaine,Maquillage,0.47
+2019,Auvergne,costume mariage,0.14
+2019,Auvergne,Maquillage de mariée,0.0
+2019,Auvergne,organisateur de mariage,0.0
+2019,Auvergne,wedding planner,0.07
+2019,Auvergne,Fleuriste,0.27
+2019,Auvergne,Wedding planner,0.02
+2019,Auvergne,bouquet mariage,0.02
+2019,Auvergne,Cérémonies,0.0
+2019,Auvergne,Maquillage,0.47
+2019,Bretagne,costume mariage,0.12
+2019,Bretagne,Maquillage de mariée,0.0
+2019,Bretagne,organisateur de mariage,0.0
+2019,Bretagne,wedding planner,0.08
+2019,Bretagne,Fleuriste,0.3
+2019,Bretagne,Wedding planner,0.03
+2019,Bretagne,bouquet mariage,0.02
+2019,Bretagne,Cérémonies,0.01
+2019,Bretagne,Maquillage,0.43
+2019,Bourgogne,costume mariage,0.13
+2019,Bourgogne,Maquillage de mariée,0.0
+2019,Bourgogne,organisateur de mariage,0.0
+2019,Bourgogne,wedding planner,0.08
+2019,Bourgogne,Fleuriste,0.27
+2019,Bourgogne,Wedding planner,0.03
+2019,Bourgogne,bouquet mariage,0.01
+2019,Bourgogne,Cérémonies,0.01
+2019,Bourgogne,Maquillage,0.48
+2019,Centre-Val de Loire,costume mariage,0.12
+2019,Centre-Val de Loire,Maquillage de mariée,0.0
+2019,Centre-Val de Loire,organisateur de mariage,0.0
+2019,Centre-Val de Loire,wedding planner,0.08
+2019,Centre-Val de Loire,Fleuriste,0.28
+2019,Centre-Val de Loire,Wedding planner,0.03
+2019,Centre-Val de Loire,bouquet mariage,0.02
+2019,Centre-Val de Loire,Cérémonies,0.01
+2019,Centre-Val de Loire,Maquillage,0.45
+2019,Champagne-Ardenne,costume mariage,0.15
+2019,Champagne-Ardenne,Maquillage de mariée,0.0
+2019,Champagne-Ardenne,organisateur de mariage,0.0
+2019,Champagne-Ardenne,wedding planner,0.08
+2019,Champagne-Ardenne,Fleuriste,0.24
+2019,Champagne-Ardenne,Wedding planner,0.02
+2019,Champagne-Ardenne,bouquet mariage,0.02
+2019,Champagne-Ardenne,Cérémonies,0.01
+2019,Champagne-Ardenne,Maquillage,0.49
+2019,Corse,costume mariage,0.13
+2019,Corse,Maquillage de mariée,0.0
+2019,Corse,organisateur de mariage,0.0
+2019,Corse,wedding planner,0.09
+2019,Corse,Fleuriste,0.27
+2019,Corse,Wedding planner,0.04
+2019,Corse,bouquet mariage,0.0
+2019,Corse,Cérémonies,0.0
+2019,Corse,Maquillage,0.47
+2019,France,costume mariage,0.09
+2019,France,Maquillage de mariée,0.0
+2019,France,organisateur de mariage,0.0
+2019,France,wedding planner,0.05
+2019,France,Fleuriste,0.33
+2019,France,Wedding planner,0.01
+2019,France,bouquet mariage,0.0
+2019,France,Cérémonies,0.0
+2019,France,Maquillage,0.52
+2019,Franche-Comté,costume mariage,0.17
+2019,Franche-Comté,Maquillage de mariée,0.0
+2019,Franche-Comté,organisateur de mariage,0.0
+2019,Franche-Comté,wedding planner,0.09
+2019,Franche-Comté,Fleuriste,0.24
+2019,Franche-Comté,Wedding planner,0.02
+2019,Franche-Comté,bouquet mariage,0.0
+2019,Franche-Comté,Cérémonies,0.0
+2019,Franche-Comté,Maquillage,0.48
+2019,Languedoc-Roussillon,costume mariage,0.1
+2019,Languedoc-Roussillon,Maquillage de mariée,0.0
+2019,Languedoc-Roussillon,organisateur de mariage,0.0
+2019,Languedoc-Roussillon,wedding planner,0.06
+2019,Languedoc-Roussillon,Fleuriste,0.28
+2019,Languedoc-Roussillon,Wedding planner,0.02
+2019,Languedoc-Roussillon,bouquet mariage,0.01
+2019,Languedoc-Roussillon,Cérémonies,0.0
+2019,Languedoc-Roussillon,Maquillage,0.52
+2019,Limousin,costume mariage,0.13
+2019,Limousin,Maquillage de mariée,0.0
+2019,Limousin,organisateur de mariage,0.03
+2019,Limousin,wedding planner,0.17
+2019,Limousin,Fleuriste,0.23
+2019,Limousin,Wedding planner,0.05
+2019,Limousin,bouquet mariage,0.02
+2019,Limousin,Cérémonies,0.0
+2019,Limousin,Maquillage,0.37
+2019,Lorraine,costume mariage,0.12
+2019,Lorraine,Maquillage de mariée,0.0
+2019,Lorraine,organisateur de mariage,0.0
+2019,Lorraine,wedding planner,0.07
+2019,Lorraine,Fleuriste,0.25
+2019,Lorraine,Wedding planner,0.03
+2019,Lorraine,bouquet mariage,0.03
+2019,Lorraine,Cérémonies,0.01
+2019,Lorraine,Maquillage,0.5
+2019,Basse Normandie,costume mariage,0.18
+2019,Basse Normandie,Maquillage de mariée,0.0
+2019,Basse Normandie,organisateur de mariage,0.0
+2019,Basse Normandie,wedding planner,0.07
+2019,Basse Normandie,Fleuriste,0.3
+2019,Basse Normandie,Wedding planner,0.02
+2019,Basse Normandie,bouquet mariage,0.0
+2019,Basse Normandie,Cérémonies,0.01
+2019,Basse Normandie,Maquillage,0.42
+2019,Midi-Pyrénées,costume mariage,0.09
+2019,Midi-Pyrénées,Maquillage de mariée,0.0
+2019,Midi-Pyrénées,organisateur de mariage,0.0
+2019,Midi-Pyrénées,wedding planner,0.07
+2019,Midi-Pyrénées,Fleuriste,0.3
+2019,Midi-Pyrénées,Wedding planner,0.03
+2019,Midi-Pyrénées,bouquet mariage,0.02
+2019,Midi-Pyrénées,Cérémonies,0.01
+2019,Midi-Pyrénées,Maquillage,0.47
+2019,Nord-Pas-de-Calais,costume mariage,0.11
+2019,Nord-Pas-de-Calais,Maquillage de mariée,0.0
+2019,Nord-Pas-de-Calais,organisateur de mariage,0.0
+2019,Nord-Pas-de-Calais,wedding planner,0.04
+2019,Nord-Pas-de-Calais,Fleuriste,0.28
+2019,Nord-Pas-de-Calais,Wedding planner,0.01
+2019,Nord-Pas-de-Calais,bouquet mariage,0.01
+2019,Nord-Pas-de-Calais,Cérémonies,0.0
+2019,Nord-Pas-de-Calais,Maquillage,0.55
+2019,Pays de la Loire,costume mariage,0.11
+2019,Pays de la Loire,Maquillage de mariée,0.0
+2019,Pays de la Loire,organisateur de mariage,0.0
+2019,Pays de la Loire,wedding planner,0.07
+2019,Pays de la Loire,Fleuriste,0.34
+2019,Pays de la Loire,Wedding planner,0.02
+2019,Pays de la Loire,bouquet mariage,0.01
+2019,Pays de la Loire,Cérémonies,0.0
+2019,Pays de la Loire,Maquillage,0.44
+2019,Picardie,costume mariage,0.14
+2019,Picardie,Maquillage de mariée,0.0
+2019,Picardie,organisateur de mariage,0.0
+2019,Picardie,wedding planner,0.08
+2019,Picardie,Fleuriste,0.25
+2019,Picardie,Wedding planner,0.03
+2019,Picardie,bouquet mariage,0.02
+2019,Picardie,Cérémonies,0.0
+2019,Picardie,Maquillage,0.48
+2019,Poitou-Charentes,costume mariage,0.17
+2019,Poitou-Charentes,Maquillage de mariée,0.0
+2019,Poitou-Charentes,organisateur de mariage,0.0
+2019,Poitou-Charentes,wedding planner,0.11
+2019,Poitou-Charentes,Fleuriste,0.26
+2019,Poitou-Charentes,Wedding planner,0.03
+2019,Poitou-Charentes,bouquet mariage,0.02
+2019,Poitou-Charentes,Cérémonies,0.01
+2019,Poitou-Charentes,Maquillage,0.41
+2019,Provence-Alpes-Côte d'Azur,costume mariage,0.1
+2019,Provence-Alpes-Côte d'Azur,Maquillage de mariée,0.0
+2019,Provence-Alpes-Côte d'Azur,organisateur de mariage,0.01
+2019,Provence-Alpes-Côte d'Azur,wedding planner,0.06
+2019,Provence-Alpes-Côte d'Azur,Fleuriste,0.28
+2019,Provence-Alpes-Côte d'Azur,Wedding planner,0.02
+2019,Provence-Alpes-Côte d'Azur,bouquet mariage,0.01
+2019,Provence-Alpes-Côte d'Azur,Cérémonies,0.0
+2019,Provence-Alpes-Côte d'Azur,Maquillage,0.52
+2019,Rhône-Alpes,costume mariage,0.08
+2019,Rhône-Alpes,Maquillage de mariée,0.0
+2019,Rhône-Alpes,organisateur de mariage,0.01
+2019,Rhône-Alpes,wedding planner,0.05
+2019,Rhône-Alpes,Fleuriste,0.34
+2019,Rhône-Alpes,Wedding planner,0.01
+2019,Rhône-Alpes,bouquet mariage,0.01
+2019,Rhône-Alpes,Cérémonies,0.0
+2019,Rhône-Alpes,Maquillage,0.51
+2019,Rhône-Alpes,costume mariage,0.15
+2019,Rhône-Alpes,Maquillage de mariée,0.0
+2019,Rhône-Alpes,organisateur de mariage,0.0
+2019,Rhône-Alpes,wedding planner,0.09
+2019,Rhône-Alpes,Fleuriste,0.24
+2019,Rhône-Alpes,Wedding planner,0.02
+2019,Rhône-Alpes,bouquet mariage,0.02
+2019,Rhône-Alpes,Cérémonies,0.01
+2019,Rhône-Alpes,Maquillage,0.47
+2019,Île-de-France,costume mariage,0.07
+2019,Île-de-France,Maquillage de mariée,0.0
+2019,Île-de-France,organisateur de mariage,0.0
+2019,Île-de-France,wedding planner,0.04
+2019,Île-de-France,Fleuriste,0.35
+2019,Île-de-France,Wedding planner,0.02
+2019,Île-de-France,bouquet mariage,0.0
+2019,Île-de-France,Cérémonies,0.0
+2019,Île-de-France,Maquillage,0.51
+2020,Alsace,costume mariage,0.08
+2020,Alsace,Maquillage de mariée,0.0
+2020,Alsace,organisateur de mariage,0.0
+2020,Alsace,wedding planner,0.05
+2020,Alsace,Fleuriste,0.37
+2020,Alsace,Wedding planner,0.03
+2020,Alsace,bouquet mariage,0.02
+2020,Alsace,Cérémonies,0.0
+2020,Alsace,Maquillage,0.44
+2020,Aquitaine,costume mariage,0.09
+2020,Aquitaine,Maquillage de mariée,0.0
+2020,Aquitaine,organisateur de mariage,0.0
+2020,Aquitaine,wedding planner,0.07
+2020,Aquitaine,Fleuriste,0.37
+2020,Aquitaine,Wedding planner,0.03
+2020,Aquitaine,bouquet mariage,0.01
+2020,Aquitaine,Cérémonies,0.0
+2020,Aquitaine,Maquillage,0.43
+2020,Auvergne,costume mariage,0.13
+2020,Auvergne,Maquillage de mariée,0.0
+2020,Auvergne,organisateur de mariage,0.0
+2020,Auvergne,wedding planner,0.05
+2020,Auvergne,Fleuriste,0.32
+2020,Auvergne,Wedding planner,0.02
+2020,Auvergne,bouquet mariage,0.03
+2020,Auvergne,Cérémonies,0.01
+2020,Auvergne,Maquillage,0.43
+2020,Bretagne,costume mariage,0.1
+2020,Bretagne,Maquillage de mariée,0.0
+2020,Bretagne,organisateur de mariage,0.0
+2020,Bretagne,wedding planner,0.11
+2020,Bretagne,Fleuriste,0.35
+2020,Bretagne,Wedding planner,0.03
+2020,Bretagne,bouquet mariage,0.01
+2020,Bretagne,Cérémonies,0.0
+2020,Bretagne,Maquillage,0.41
+2020,Bourgogne,costume mariage,0.13
+2020,Bourgogne,Maquillage de mariée,0.0
+2020,Bourgogne,organisateur de mariage,0.0
+2020,Bourgogne,wedding planner,0.05
+2020,Bourgogne,Fleuriste,0.32
+2020,Bourgogne,Wedding planner,0.02
+2020,Bourgogne,bouquet mariage,0.01
+2020,Bourgogne,Cérémonies,0.01
+2020,Bourgogne,Maquillage,0.46
+2020,Centre-Val de Loire,costume mariage,0.14
+2020,Centre-Val de Loire,Maquillage de mariée,0.0
+2020,Centre-Val de Loire,organisateur de mariage,0.0
+2020,Centre-Val de Loire,wedding planner,0.08
+2020,Centre-Val de Loire,Fleuriste,0.33
+2020,Centre-Val de Loire,Wedding planner,0.02
+2020,Centre-Val de Loire,bouquet mariage,0.01
+2020,Centre-Val de Loire,Cérémonies,0.01
+2020,Centre-Val de Loire,Maquillage,0.4
+2020,Champagne-Ardenne,costume mariage,0.14
+2020,Champagne-Ardenne,Maquillage de mariée,0.0
+2020,Champagne-Ardenne,organisateur de mariage,0.0
+2020,Champagne-Ardenne,wedding planner,0.1
+2020,Champagne-Ardenne,Fleuriste,0.26
+2020,Champagne-Ardenne,Wedding planner,0.04
+2020,Champagne-Ardenne,bouquet mariage,0.02
+2020,Champagne-Ardenne,Cérémonies,0.01
+2020,Champagne-Ardenne,Maquillage,0.43
+2020,Corse,costume mariage,0.21
+2020,Corse,Maquillage de mariée,0.0
+2020,Corse,organisateur de mariage,0.0
+2020,Corse,wedding planner,0.08
+2020,Corse,Fleuriste,0.26
+2020,Corse,Wedding planner,0.03
+2020,Corse,bouquet mariage,0.0
+2020,Corse,Cérémonies,0.0
+2020,Corse,Maquillage,0.42
+2020,France,costume mariage,0.08
+2020,France,Maquillage de mariée,0.0
+2020,France,organisateur de mariage,0.0
+2020,France,wedding planner,0.05
+2020,France,Fleuriste,0.38
+2020,France,Wedding planner,0.0
+2020,France,bouquet mariage,0.0
+2020,France,Cérémonies,0.0
+2020,France,Maquillage,0.48
+2020,Franche-Comté,costume mariage,0.17
+2020,Franche-Comté,Maquillage de mariée,0.0
+2020,Franche-Comté,organisateur de mariage,0.0
+2020,Franche-Comté,wedding planner,0.08
+2020,Franche-Comté,Fleuriste,0.26
+2020,Franche-Comté,Wedding planner,0.02
+2020,Franche-Comté,bouquet mariage,0.0
+2020,Franche-Comté,Cérémonies,0.01
+2020,Franche-Comté,Maquillage,0.47
+2020,Languedoc-Roussillon,costume mariage,0.1
+2020,Languedoc-Roussillon,Maquillage de mariée,0.0
+2020,Languedoc-Roussillon,organisateur de mariage,0.0
+2020,Languedoc-Roussillon,wedding planner,0.07
+2020,Languedoc-Roussillon,Fleuriste,0.32
+2020,Languedoc-Roussillon,Wedding planner,0.02
+2020,Languedoc-Roussillon,bouquet mariage,0.01
+2020,Languedoc-Roussillon,Cérémonies,0.0
+2020,Languedoc-Roussillon,Maquillage,0.47
+2020,Limousin,costume mariage,0.09
+2020,Limousin,Maquillage de mariée,0.0
+2020,Limousin,organisateur de mariage,0.03
+2020,Limousin,wedding planner,0.21
+2020,Limousin,Fleuriste,0.24
+2020,Limousin,Wedding planner,0.06
+2020,Limousin,bouquet mariage,0.02
+2020,Limousin,Cérémonies,0.01
+2020,Limousin,Maquillage,0.32
+2020,Lorraine,costume mariage,0.13
+2020,Lorraine,Maquillage de mariée,0.0
+2020,Lorraine,organisateur de mariage,0.0
+2020,Lorraine,wedding planner,0.08
+2020,Lorraine,Fleuriste,0.31
+2020,Lorraine,Wedding planner,0.02
+2020,Lorraine,bouquet mariage,0.01
+2020,Lorraine,Cérémonies,0.0
+2020,Lorraine,Maquillage,0.45
+2020,Basse Normandie,costume mariage,0.15
+2020,Basse Normandie,Maquillage de mariée,0.0
+2020,Basse Normandie,organisateur de mariage,0.0
+2020,Basse Normandie,wedding planner,0.07
+2020,Basse Normandie,Fleuriste,0.35
+2020,Basse Normandie,Wedding planner,0.02
+2020,Basse Normandie,bouquet mariage,0.0
+2020,Basse Normandie,Cérémonies,0.01
+2020,Basse Normandie,Maquillage,0.4
+2020,Midi-Pyrénées,costume mariage,0.1
+2020,Midi-Pyrénées,Maquillage de mariée,0.0
+2020,Midi-Pyrénées,organisateur de mariage,0.0
+2020,Midi-Pyrénées,wedding planner,0.06
+2020,Midi-Pyrénées,Fleuriste,0.35
+2020,Midi-Pyrénées,Wedding planner,0.02
+2020,Midi-Pyrénées,bouquet mariage,0.01
+2020,Midi-Pyrénées,Cérémonies,0.0
+2020,Midi-Pyrénées,Maquillage,0.45
+2020,Nord-Pas-de-Calais,costume mariage,0.1
+2020,Nord-Pas-de-Calais,Maquillage de mariée,0.0
+2020,Nord-Pas-de-Calais,organisateur de mariage,0.0
+2020,Nord-Pas-de-Calais,wedding planner,0.05
+2020,Nord-Pas-de-Calais,Fleuriste,0.34
+2020,Nord-Pas-de-Calais,Wedding planner,0.01
+2020,Nord-Pas-de-Calais,bouquet mariage,0.0
+2020,Nord-Pas-de-Calais,Cérémonies,0.0
+2020,Nord-Pas-de-Calais,Maquillage,0.5
+2020,Pays de la Loire,costume mariage,0.11
+2020,Pays de la Loire,Maquillage de mariée,0.0
+2020,Pays de la Loire,organisateur de mariage,0.0
+2020,Pays de la Loire,wedding planner,0.07
+2020,Pays de la Loire,Fleuriste,0.4
+2020,Pays de la Loire,Wedding planner,0.01
+2020,Pays de la Loire,bouquet mariage,0.01
+2020,Pays de la Loire,Cérémonies,0.0
+2020,Pays de la Loire,Maquillage,0.4
+2020,Picardie,costume mariage,0.13
+2020,Picardie,Maquillage de mariée,0.0
+2020,Picardie,organisateur de mariage,0.0
+2020,Picardie,wedding planner,0.08
+2020,Picardie,Fleuriste,0.3
+2020,Picardie,Wedding planner,0.02
+2020,Picardie,bouquet mariage,0.01
+2020,Picardie,Cérémonies,0.0
+2020,Picardie,Maquillage,0.46
+2020,Poitou-Charentes,costume mariage,0.16
+2020,Poitou-Charentes,Maquillage de mariée,0.0
+2020,Poitou-Charentes,organisateur de mariage,0.0
+2020,Poitou-Charentes,wedding planner,0.08
+2020,Poitou-Charentes,Fleuriste,0.31
+2020,Poitou-Charentes,Wedding planner,0.03
+2020,Poitou-Charentes,bouquet mariage,0.02
+2020,Poitou-Charentes,Cérémonies,0.02
+2020,Poitou-Charentes,Maquillage,0.38
+2020,Provence-Alpes-Côte d'Azur,costume mariage,0.08
+2020,Provence-Alpes-Côte d'Azur,Maquillage de mariée,0.0
+2020,Provence-Alpes-Côte d'Azur,organisateur de mariage,0.0
+2020,Provence-Alpes-Côte d'Azur,wedding planner,0.06
+2020,Provence-Alpes-Côte d'Azur,Fleuriste,0.34
+2020,Provence-Alpes-Côte d'Azur,Wedding planner,0.01
+2020,Provence-Alpes-Côte d'Azur,bouquet mariage,0.0
+2020,Provence-Alpes-Côte d'Azur,Cérémonies,0.0
+2020,Provence-Alpes-Côte d'Azur,Maquillage,0.5
+2020,Rhône-Alpes,costume mariage,0.07
+2020,Rhône-Alpes,Maquillage de mariée,0.0
+2020,Rhône-Alpes,organisateur de mariage,0.01
+2020,Rhône-Alpes,wedding planner,0.05
+2020,Rhône-Alpes,Fleuriste,0.36
+2020,Rhône-Alpes,Wedding planner,0.01
+2020,Rhône-Alpes,bouquet mariage,0.0
+2020,Rhône-Alpes,Cérémonies,0.0
+2020,Rhône-Alpes,Maquillage,0.49
+2020,Rhône-Alpes,costume mariage,0.13
+2020,Rhône-Alpes,Maquillage de mariée,0.0
+2020,Rhône-Alpes,organisateur de mariage,0.0
+2020,Rhône-Alpes,wedding planner,0.08
+2020,Rhône-Alpes,Fleuriste,0.3
+2020,Rhône-Alpes,Wedding planner,0.03
+2020,Rhône-Alpes,bouquet mariage,0.02
+2020,Rhône-Alpes,Cérémonies,0.0
+2020,Rhône-Alpes,Maquillage,0.44
+2020,Île-de-France,costume mariage,0.06
+2020,Île-de-France,Maquillage de mariée,0.0
+2020,Île-de-France,organisateur de mariage,0.0
+2020,Île-de-France,wedding planner,0.04
+2020,Île-de-France,Fleuriste,0.39
+2020,Île-de-France,Wedding planner,0.03
+2020,Île-de-France,bouquet mariage,0.0
+2020,Île-de-France,Cérémonies,0.0
+2020,Île-de-France,Maquillage,0.48

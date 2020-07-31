@@ -1,0 +1,301 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Andalucía,pintar habitacion,0.3
+2018,Andalucía,instalar aire acondicionado,0.2
+2018,Andalucía,decorador,0.28
+2018,Andalucía,arreglar muebles,0.06
+2018,Andalucía,empresa de reformas,0.17
+2018,Aragón,pintar habitacion,0.44
+2018,Aragón,instalar aire acondicionado,0.2
+2018,Aragón,decorador,0.37
+2018,Aragón,arreglar muebles,0.0
+2018,Aragón,empresa de reformas,0.0
+2018,Asturias,pintar habitacion,0.7
+2018,Asturias,instalar aire acondicionado,0.0
+2018,Asturias,decorador,0.3
+2018,Asturias,arreglar muebles,0.0
+2018,Asturias,empresa de reformas,0.0
+2018,Illes Balears,pintar habitacion,0.26
+2018,Illes Balears,instalar aire acondicionado,0.25
+2018,Illes Balears,decorador,0.5
+2018,Illes Balears,arreglar muebles,0.0
+2018,Illes Balears,empresa de reformas,0.0
+2018,País Vasco,pintar habitacion,0.52
+2018,País Vasco,instalar aire acondicionado,0.11
+2018,País Vasco,decorador,0.37
+2018,País Vasco,arreglar muebles,0.0
+2018,País Vasco,empresa de reformas,0.0
+2018,Islas Canarias,pintar habitacion,0.44
+2018,Islas Canarias,instalar aire acondicionado,0.12
+2018,Islas Canarias,decorador,0.25
+2018,Islas Canarias,arreglar muebles,0.0
+2018,Islas Canarias,empresa de reformas,0.18
+2018,Cantabria,pintar habitacion,0.64
+2018,Cantabria,instalar aire acondicionado,0.0
+2018,Cantabria,decorador,0.36
+2018,Cantabria,arreglar muebles,0.0
+2018,Cantabria,empresa de reformas,0.0
+2018,Castilla y León,pintar habitacion,0.53
+2018,Castilla y León,instalar aire acondicionado,0.15
+2018,Castilla y León,decorador,0.23
+2018,Castilla y León,arreglar muebles,0.0
+2018,Castilla y León,empresa de reformas,0.09
+2018,Castilla-La Mancha,pintar habitacion,0.4
+2018,Castilla-La Mancha,instalar aire acondicionado,0.22
+2018,Castilla-La Mancha,decorador,0.18
+2018,Castilla-La Mancha,arreglar muebles,0.0
+2018,Castilla-La Mancha,empresa de reformas,0.2
+2018,Cataluña,pintar habitacion,0.36
+2018,Cataluña,instalar aire acondicionado,0.22
+2018,Cataluña,decorador,0.26
+2018,Cataluña,arreglar muebles,0.0
+2018,Cataluña,empresa de reformas,0.15
+2018,Ceuta,pintar habitacion,0.0
+2018,Ceuta,instalar aire acondicionado,0.0
+2018,Ceuta,decorador,0.0
+2018,Ceuta,arreglar muebles,0.0
+2018,Ceuta,empresa de reformas,0.0
+2018,Madrid,pintar habitacion,0.28
+2018,Madrid,instalar aire acondicionado,0.2
+2018,Madrid,decorador,0.28
+2018,Madrid,arreglar muebles,0.05
+2018,Madrid,empresa de reformas,0.2
+2018,Extremadura,pintar habitacion,0.59
+2018,Extremadura,instalar aire acondicionado,0.13
+2018,Extremadura,decorador,0.28
+2018,Extremadura,arreglar muebles,0.0
+2018,Extremadura,empresa de reformas,0.0
+2018,Galicia,pintar habitacion,0.57
+2018,Galicia,instalar aire acondicionado,0.13
+2018,Galicia,decorador,0.23
+2018,Galicia,arreglar muebles,0.0
+2018,Galicia,empresa de reformas,0.08
+2018,La Rioja,pintar habitacion,0.0
+2018,La Rioja,instalar aire acondicionado,0.0
+2018,La Rioja,decorador,0.0
+2018,La Rioja,arreglar muebles,0.0
+2018,La Rioja,empresa de reformas,0.0
+2018,Melilla,pintar habitacion,0.0
+2018,Melilla,instalar aire acondicionado,0.0
+2018,Melilla,decorador,0.0
+2018,Melilla,arreglar muebles,0.0
+2018,Melilla,empresa de reformas,0.0
+2018,Navarra,pintar habitacion,0.47
+2018,Navarra,instalar aire acondicionado,0.25
+2018,Navarra,decorador,0.28
+2018,Navarra,arreglar muebles,0.0
+2018,Navarra,empresa de reformas,0.0
+2018,Murcia,pintar habitacion,0.38
+2018,Murcia,instalar aire acondicionado,0.35
+2018,Murcia,decorador,0.27
+2018,Murcia,arreglar muebles,0.0
+2018,Murcia,empresa de reformas,0.0
+2018,España,pintar habitacion,0.39
+2018,España,instalar aire acondicionado,0.17
+2018,España,decorador,0.25
+2018,España,arreglar muebles,0.05
+2018,España,empresa de reformas,0.13
+2018,Valencia,pintar habitacion,0.41
+2018,Valencia,instalar aire acondicionado,0.24
+2018,Valencia,decorador,0.26
+2018,Valencia,arreglar muebles,0.0
+2018,Valencia,empresa de reformas,0.1
+2019,Andalucía,pintar habitacion,0.25
+2019,Andalucía,instalar aire acondicionado,0.21
+2019,Andalucía,decorador,0.31
+2019,Andalucía,arreglar muebles,0.08
+2019,Andalucía,empresa de reformas,0.16
+2019,Aragón,pintar habitacion,0.47
+2019,Aragón,instalar aire acondicionado,0.27
+2019,Aragón,decorador,0.26
+2019,Aragón,arreglar muebles,0.0
+2019,Aragón,empresa de reformas,0.0
+2019,Asturias,pintar habitacion,0.82
+2019,Asturias,instalar aire acondicionado,0.0
+2019,Asturias,decorador,0.18
+2019,Asturias,arreglar muebles,0.0
+2019,Asturias,empresa de reformas,0.0
+2019,Illes Balears,pintar habitacion,0.31
+2019,Illes Balears,instalar aire acondicionado,0.21
+2019,Illes Balears,decorador,0.47
+2019,Illes Balears,arreglar muebles,0.0
+2019,Illes Balears,empresa de reformas,0.0
+2019,País Vasco,pintar habitacion,0.36
+2019,País Vasco,instalar aire acondicionado,0.14
+2019,País Vasco,decorador,0.5
+2019,País Vasco,arreglar muebles,0.0
+2019,País Vasco,empresa de reformas,0.0
+2019,Islas Canarias,pintar habitacion,0.24
+2019,Islas Canarias,instalar aire acondicionado,0.11
+2019,Islas Canarias,decorador,0.5
+2019,Islas Canarias,arreglar muebles,0.0
+2019,Islas Canarias,empresa de reformas,0.15
+2019,Cantabria,pintar habitacion,0.63
+2019,Cantabria,instalar aire acondicionado,0.0
+2019,Cantabria,decorador,0.37
+2019,Cantabria,arreglar muebles,0.0
+2019,Cantabria,empresa de reformas,0.0
+2019,Castilla y León,pintar habitacion,0.47
+2019,Castilla y León,instalar aire acondicionado,0.14
+2019,Castilla y León,decorador,0.23
+2019,Castilla y León,arreglar muebles,0.0
+2019,Castilla y León,empresa de reformas,0.16
+2019,Castilla-La Mancha,pintar habitacion,0.35
+2019,Castilla-La Mancha,instalar aire acondicionado,0.24
+2019,Castilla-La Mancha,decorador,0.16
+2019,Castilla-La Mancha,arreglar muebles,0.0
+2019,Castilla-La Mancha,empresa de reformas,0.25
+2019,Cataluña,pintar habitacion,0.34
+2019,Cataluña,instalar aire acondicionado,0.24
+2019,Cataluña,decorador,0.24
+2019,Cataluña,arreglar muebles,0.0
+2019,Cataluña,empresa de reformas,0.18
+2019,Ceuta,pintar habitacion,0.0
+2019,Ceuta,instalar aire acondicionado,0.0
+2019,Ceuta,decorador,0.0
+2019,Ceuta,arreglar muebles,0.0
+2019,Ceuta,empresa de reformas,0.0
+2019,Madrid,pintar habitacion,0.25
+2019,Madrid,instalar aire acondicionado,0.19
+2019,Madrid,decorador,0.26
+2019,Madrid,arreglar muebles,0.06
+2019,Madrid,empresa de reformas,0.24
+2019,Extremadura,pintar habitacion,0.54
+2019,Extremadura,instalar aire acondicionado,0.15
+2019,Extremadura,decorador,0.31
+2019,Extremadura,arreglar muebles,0.0
+2019,Extremadura,empresa de reformas,0.0
+2019,Galicia,pintar habitacion,0.54
+2019,Galicia,instalar aire acondicionado,0.14
+2019,Galicia,decorador,0.23
+2019,Galicia,arreglar muebles,0.0
+2019,Galicia,empresa de reformas,0.1
+2019,La Rioja,pintar habitacion,0.0
+2019,La Rioja,instalar aire acondicionado,0.0
+2019,La Rioja,decorador,0.0
+2019,La Rioja,arreglar muebles,0.0
+2019,La Rioja,empresa de reformas,0.0
+2019,Melilla,pintar habitacion,0.0
+2019,Melilla,instalar aire acondicionado,0.0
+2019,Melilla,decorador,0.0
+2019,Melilla,arreglar muebles,0.0
+2019,Melilla,empresa de reformas,0.0
+2019,Navarra,pintar habitacion,0.47
+2019,Navarra,instalar aire acondicionado,0.27
+2019,Navarra,decorador,0.26
+2019,Navarra,arreglar muebles,0.0
+2019,Navarra,empresa de reformas,0.0
+2019,Murcia,pintar habitacion,0.31
+2019,Murcia,instalar aire acondicionado,0.41
+2019,Murcia,decorador,0.27
+2019,Murcia,arreglar muebles,0.0
+2019,Murcia,empresa de reformas,0.0
+2019,España,pintar habitacion,0.34
+2019,España,instalar aire acondicionado,0.19
+2019,España,decorador,0.27
+2019,España,arreglar muebles,0.05
+2019,España,empresa de reformas,0.15
+2019,Valencia,pintar habitacion,0.32
+2019,Valencia,instalar aire acondicionado,0.27
+2019,Valencia,decorador,0.27
+2019,Valencia,arreglar muebles,0.0
+2019,Valencia,empresa de reformas,0.14
+2020,Andalucía,pintar habitacion,0.29
+2020,Andalucía,instalar aire acondicionado,0.14
+2020,Andalucía,decorador,0.33
+2020,Andalucía,arreglar muebles,0.07
+2020,Andalucía,empresa de reformas,0.17
+2020,Aragón,pintar habitacion,0.56
+2020,Aragón,instalar aire acondicionado,0.19
+2020,Aragón,decorador,0.25
+2020,Aragón,arreglar muebles,0.0
+2020,Aragón,empresa de reformas,0.0
+2020,Asturias,pintar habitacion,0.84
+2020,Asturias,instalar aire acondicionado,0.0
+2020,Asturias,decorador,0.16
+2020,Asturias,arreglar muebles,0.0
+2020,Asturias,empresa de reformas,0.0
+2020,Illes Balears,pintar habitacion,0.49
+2020,Illes Balears,instalar aire acondicionado,0.13
+2020,Illes Balears,decorador,0.38
+2020,Illes Balears,arreglar muebles,0.0
+2020,Illes Balears,empresa de reformas,0.0
+2020,País Vasco,pintar habitacion,0.43
+2020,País Vasco,instalar aire acondicionado,0.15
+2020,País Vasco,decorador,0.43
+2020,País Vasco,arreglar muebles,0.0
+2020,País Vasco,empresa de reformas,0.0
+2020,Islas Canarias,pintar habitacion,0.36
+2020,Islas Canarias,instalar aire acondicionado,0.14
+2020,Islas Canarias,decorador,0.34
+2020,Islas Canarias,arreglar muebles,0.0
+2020,Islas Canarias,empresa de reformas,0.15
+2020,Cantabria,pintar habitacion,0.75
+2020,Cantabria,instalar aire acondicionado,0.0
+2020,Cantabria,decorador,0.25
+2020,Cantabria,arreglar muebles,0.0
+2020,Cantabria,empresa de reformas,0.0
+2020,Castilla y León,pintar habitacion,0.47
+2020,Castilla y León,instalar aire acondicionado,0.1
+2020,Castilla y León,decorador,0.31
+2020,Castilla y León,arreglar muebles,0.0
+2020,Castilla y León,empresa de reformas,0.13
+2020,Castilla-La Mancha,pintar habitacion,0.5
+2020,Castilla-La Mancha,instalar aire acondicionado,0.18
+2020,Castilla-La Mancha,decorador,0.29
+2020,Castilla-La Mancha,arreglar muebles,0.0
+2020,Castilla-La Mancha,empresa de reformas,0.02
+2020,Cataluña,pintar habitacion,0.39
+2020,Cataluña,instalar aire acondicionado,0.22
+2020,Cataluña,decorador,0.24
+2020,Cataluña,arreglar muebles,0.0
+2020,Cataluña,empresa de reformas,0.16
+2020,Ceuta,pintar habitacion,0.0
+2020,Ceuta,instalar aire acondicionado,0.0
+2020,Ceuta,decorador,0.0
+2020,Ceuta,arreglar muebles,0.0
+2020,Ceuta,empresa de reformas,0.0
+2020,Madrid,pintar habitacion,0.29
+2020,Madrid,instalar aire acondicionado,0.2
+2020,Madrid,decorador,0.23
+2020,Madrid,arreglar muebles,0.04
+2020,Madrid,empresa de reformas,0.24
+2020,Extremadura,pintar habitacion,0.85
+2020,Extremadura,instalar aire acondicionado,0.15
+2020,Extremadura,decorador,0.0
+2020,Extremadura,arreglar muebles,0.0
+2020,Extremadura,empresa de reformas,0.0
+2020,Galicia,pintar habitacion,0.48
+2020,Galicia,instalar aire acondicionado,0.08
+2020,Galicia,decorador,0.3
+2020,Galicia,arreglar muebles,0.0
+2020,Galicia,empresa de reformas,0.14
+2020,La Rioja,pintar habitacion,0.0
+2020,La Rioja,instalar aire acondicionado,0.0
+2020,La Rioja,decorador,0.0
+2020,La Rioja,arreglar muebles,0.0
+2020,La Rioja,empresa de reformas,0.0
+2020,Melilla,pintar habitacion,0.0
+2020,Melilla,instalar aire acondicionado,0.0
+2020,Melilla,decorador,0.0
+2020,Melilla,arreglar muebles,0.0
+2020,Melilla,empresa de reformas,0.0
+2020,Navarra,pintar habitacion,0.49
+2020,Navarra,instalar aire acondicionado,0.19
+2020,Navarra,decorador,0.33
+2020,Navarra,arreglar muebles,0.0
+2020,Navarra,empresa de reformas,0.0
+2020,Murcia,pintar habitacion,0.47
+2020,Murcia,instalar aire acondicionado,0.42
+2020,Murcia,decorador,0.11
+2020,Murcia,arreglar muebles,0.0
+2020,Murcia,empresa de reformas,0.0
+2020,España,pintar habitacion,0.38
+2020,España,instalar aire acondicionado,0.17
+2020,España,decorador,0.24
+2020,España,arreglar muebles,0.06
+2020,España,empresa de reformas,0.15
+2020,Valencia,pintar habitacion,0.38
+2020,Valencia,instalar aire acondicionado,0.19
+2020,Valencia,decorador,0.34
+2020,Valencia,arreglar muebles,0.0
+2020,Valencia,empresa de reformas,0.09

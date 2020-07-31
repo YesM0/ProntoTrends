@@ -1,12 +1,11 @@
+import sys
 if __name__ == '__main__':
-    import sys
     sys.path.append('../')
+    from matplotlib import pyplot as plt
 
 import os
-import sys
 from pprint import pprint
 import pandas as pd
-from matplotlib import pyplot as plt
 
 import utils.user_interaction_utils
 from utils.misc_utils import getRegions

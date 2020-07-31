@@ -1,0 +1,301 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Andalucía,cuidar jardin,0.0
+2018,Andalucía,construir piscina,0.62
+2018,Andalucía,instalar paneles solares,0.0
+2018,Andalucía,instalar cesped,0.24
+2018,Andalucía,barbacoa para jardin,0.14
+2018,Aragón,cuidar jardin,0.0
+2018,Aragón,construir piscina,0.0
+2018,Aragón,instalar paneles solares,0.0
+2018,Aragón,instalar cesped,0.0
+2018,Aragón,barbacoa para jardin,0.0
+2018,Asturias,cuidar jardin,0.0
+2018,Asturias,construir piscina,0.0
+2018,Asturias,instalar paneles solares,0.0
+2018,Asturias,instalar cesped,0.0
+2018,Asturias,barbacoa para jardin,0.0
+2018,Illes Balears,cuidar jardin,0.0
+2018,Illes Balears,construir piscina,0.0
+2018,Illes Balears,instalar paneles solares,0.0
+2018,Illes Balears,instalar cesped,0.0
+2018,Illes Balears,barbacoa para jardin,0.0
+2018,País Vasco,cuidar jardin,0.0
+2018,País Vasco,construir piscina,1.0
+2018,País Vasco,instalar paneles solares,0.0
+2018,País Vasco,instalar cesped,0.0
+2018,País Vasco,barbacoa para jardin,0.0
+2018,Islas Canarias,cuidar jardin,0.0
+2018,Islas Canarias,construir piscina,1.0
+2018,Islas Canarias,instalar paneles solares,0.0
+2018,Islas Canarias,instalar cesped,0.0
+2018,Islas Canarias,barbacoa para jardin,0.0
+2018,Cantabria,cuidar jardin,0.0
+2018,Cantabria,construir piscina,0.0
+2018,Cantabria,instalar paneles solares,0.0
+2018,Cantabria,instalar cesped,0.0
+2018,Cantabria,barbacoa para jardin,0.0
+2018,Castilla y León,cuidar jardin,0.0
+2018,Castilla y León,construir piscina,0.75
+2018,Castilla y León,instalar paneles solares,0.0
+2018,Castilla y León,instalar cesped,0.25
+2018,Castilla y León,barbacoa para jardin,0.0
+2018,Castilla-La Mancha,cuidar jardin,0.0
+2018,Castilla-La Mancha,construir piscina,1.0
+2018,Castilla-La Mancha,instalar paneles solares,0.0
+2018,Castilla-La Mancha,instalar cesped,0.0
+2018,Castilla-La Mancha,barbacoa para jardin,0.0
+2018,Cataluña,cuidar jardin,0.0
+2018,Cataluña,construir piscina,0.66
+2018,Cataluña,instalar paneles solares,0.0
+2018,Cataluña,instalar cesped,0.27
+2018,Cataluña,barbacoa para jardin,0.07
+2018,Ceuta,cuidar jardin,0.0
+2018,Ceuta,construir piscina,0.0
+2018,Ceuta,instalar paneles solares,0.0
+2018,Ceuta,instalar cesped,0.0
+2018,Ceuta,barbacoa para jardin,0.0
+2018,Madrid,cuidar jardin,0.0
+2018,Madrid,construir piscina,0.48
+2018,Madrid,instalar paneles solares,0.14
+2018,Madrid,instalar cesped,0.31
+2018,Madrid,barbacoa para jardin,0.08
+2018,Extremadura,cuidar jardin,0.0
+2018,Extremadura,construir piscina,0.0
+2018,Extremadura,instalar paneles solares,0.0
+2018,Extremadura,instalar cesped,0.0
+2018,Extremadura,barbacoa para jardin,0.0
+2018,Galicia,cuidar jardin,0.0
+2018,Galicia,construir piscina,1.0
+2018,Galicia,instalar paneles solares,0.0
+2018,Galicia,instalar cesped,0.0
+2018,Galicia,barbacoa para jardin,0.0
+2018,La Rioja,cuidar jardin,0.0
+2018,La Rioja,construir piscina,0.0
+2018,La Rioja,instalar paneles solares,0.0
+2018,La Rioja,instalar cesped,0.0
+2018,La Rioja,barbacoa para jardin,0.0
+2018,Melilla,cuidar jardin,0.0
+2018,Melilla,construir piscina,0.0
+2018,Melilla,instalar paneles solares,0.0
+2018,Melilla,instalar cesped,0.0
+2018,Melilla,barbacoa para jardin,0.0
+2018,Navarra,cuidar jardin,0.0
+2018,Navarra,construir piscina,0.0
+2018,Navarra,instalar paneles solares,0.0
+2018,Navarra,instalar cesped,0.0
+2018,Navarra,barbacoa para jardin,0.0
+2018,Murcia,cuidar jardin,0.0
+2018,Murcia,construir piscina,1.0
+2018,Murcia,instalar paneles solares,0.0
+2018,Murcia,instalar cesped,0.0
+2018,Murcia,barbacoa para jardin,0.0
+2018,España,cuidar jardin,0.11
+2018,España,construir piscina,0.38
+2018,España,instalar paneles solares,0.13
+2018,España,instalar cesped,0.25
+2018,España,barbacoa para jardin,0.13
+2018,Valencia,cuidar jardin,0.0
+2018,Valencia,construir piscina,0.6
+2018,Valencia,instalar paneles solares,0.0
+2018,Valencia,instalar cesped,0.4
+2018,Valencia,barbacoa para jardin,0.0
+2019,Andalucía,cuidar jardin,0.0
+2019,Andalucía,construir piscina,0.6
+2019,Andalucía,instalar paneles solares,0.0
+2019,Andalucía,instalar cesped,0.27
+2019,Andalucía,barbacoa para jardin,0.12
+2019,Aragón,cuidar jardin,0.0
+2019,Aragón,construir piscina,0.0
+2019,Aragón,instalar paneles solares,0.0
+2019,Aragón,instalar cesped,0.0
+2019,Aragón,barbacoa para jardin,0.0
+2019,Asturias,cuidar jardin,0.0
+2019,Asturias,construir piscina,0.0
+2019,Asturias,instalar paneles solares,0.0
+2019,Asturias,instalar cesped,0.0
+2019,Asturias,barbacoa para jardin,0.0
+2019,Illes Balears,cuidar jardin,0.0
+2019,Illes Balears,construir piscina,0.0
+2019,Illes Balears,instalar paneles solares,0.0
+2019,Illes Balears,instalar cesped,0.0
+2019,Illes Balears,barbacoa para jardin,0.0
+2019,País Vasco,cuidar jardin,0.0
+2019,País Vasco,construir piscina,1.0
+2019,País Vasco,instalar paneles solares,0.0
+2019,País Vasco,instalar cesped,0.0
+2019,País Vasco,barbacoa para jardin,0.0
+2019,Islas Canarias,cuidar jardin,0.0
+2019,Islas Canarias,construir piscina,1.0
+2019,Islas Canarias,instalar paneles solares,0.0
+2019,Islas Canarias,instalar cesped,0.0
+2019,Islas Canarias,barbacoa para jardin,0.0
+2019,Cantabria,cuidar jardin,0.0
+2019,Cantabria,construir piscina,0.0
+2019,Cantabria,instalar paneles solares,0.0
+2019,Cantabria,instalar cesped,0.0
+2019,Cantabria,barbacoa para jardin,0.0
+2019,Castilla y León,cuidar jardin,0.0
+2019,Castilla y León,construir piscina,0.51
+2019,Castilla y León,instalar paneles solares,0.0
+2019,Castilla y León,instalar cesped,0.49
+2019,Castilla y León,barbacoa para jardin,0.0
+2019,Castilla-La Mancha,cuidar jardin,0.0
+2019,Castilla-La Mancha,construir piscina,1.0
+2019,Castilla-La Mancha,instalar paneles solares,0.0
+2019,Castilla-La Mancha,instalar cesped,0.0
+2019,Castilla-La Mancha,barbacoa para jardin,0.0
+2019,Cataluña,cuidar jardin,0.0
+2019,Cataluña,construir piscina,0.55
+2019,Cataluña,instalar paneles solares,0.0
+2019,Cataluña,instalar cesped,0.33
+2019,Cataluña,barbacoa para jardin,0.11
+2019,Ceuta,cuidar jardin,0.0
+2019,Ceuta,construir piscina,0.0
+2019,Ceuta,instalar paneles solares,0.0
+2019,Ceuta,instalar cesped,0.0
+2019,Ceuta,barbacoa para jardin,0.0
+2019,Madrid,cuidar jardin,0.0
+2019,Madrid,construir piscina,0.36
+2019,Madrid,instalar paneles solares,0.19
+2019,Madrid,instalar cesped,0.3
+2019,Madrid,barbacoa para jardin,0.15
+2019,Extremadura,cuidar jardin,0.0
+2019,Extremadura,construir piscina,0.0
+2019,Extremadura,instalar paneles solares,0.0
+2019,Extremadura,instalar cesped,0.0
+2019,Extremadura,barbacoa para jardin,0.0
+2019,Galicia,cuidar jardin,0.0
+2019,Galicia,construir piscina,1.0
+2019,Galicia,instalar paneles solares,0.0
+2019,Galicia,instalar cesped,0.0
+2019,Galicia,barbacoa para jardin,0.0
+2019,La Rioja,cuidar jardin,0.0
+2019,La Rioja,construir piscina,0.0
+2019,La Rioja,instalar paneles solares,0.0
+2019,La Rioja,instalar cesped,0.0
+2019,La Rioja,barbacoa para jardin,0.0
+2019,Melilla,cuidar jardin,0.0
+2019,Melilla,construir piscina,0.0
+2019,Melilla,instalar paneles solares,0.0
+2019,Melilla,instalar cesped,0.0
+2019,Melilla,barbacoa para jardin,0.0
+2019,Navarra,cuidar jardin,0.0
+2019,Navarra,construir piscina,0.0
+2019,Navarra,instalar paneles solares,0.0
+2019,Navarra,instalar cesped,0.0
+2019,Navarra,barbacoa para jardin,0.0
+2019,Murcia,cuidar jardin,0.0
+2019,Murcia,construir piscina,1.0
+2019,Murcia,instalar paneles solares,0.0
+2019,Murcia,instalar cesped,0.0
+2019,Murcia,barbacoa para jardin,0.0
+2019,España,cuidar jardin,0.13
+2019,España,construir piscina,0.35
+2019,España,instalar paneles solares,0.13
+2019,España,instalar cesped,0.22
+2019,España,barbacoa para jardin,0.17
+2019,Valencia,cuidar jardin,0.0
+2019,Valencia,construir piscina,0.66
+2019,Valencia,instalar paneles solares,0.0
+2019,Valencia,instalar cesped,0.34
+2019,Valencia,barbacoa para jardin,0.0
+2020,Andalucía,cuidar jardin,0.0
+2020,Andalucía,construir piscina,0.49
+2020,Andalucía,instalar paneles solares,0.0
+2020,Andalucía,instalar cesped,0.34
+2020,Andalucía,barbacoa para jardin,0.17
+2020,Aragón,cuidar jardin,0.0
+2020,Aragón,construir piscina,0.0
+2020,Aragón,instalar paneles solares,0.0
+2020,Aragón,instalar cesped,0.0
+2020,Aragón,barbacoa para jardin,0.0
+2020,Asturias,cuidar jardin,0.0
+2020,Asturias,construir piscina,0.0
+2020,Asturias,instalar paneles solares,0.0
+2020,Asturias,instalar cesped,0.0
+2020,Asturias,barbacoa para jardin,0.0
+2020,Illes Balears,cuidar jardin,0.0
+2020,Illes Balears,construir piscina,0.0
+2020,Illes Balears,instalar paneles solares,0.0
+2020,Illes Balears,instalar cesped,0.0
+2020,Illes Balears,barbacoa para jardin,0.0
+2020,País Vasco,cuidar jardin,0.0
+2020,País Vasco,construir piscina,1.0
+2020,País Vasco,instalar paneles solares,0.0
+2020,País Vasco,instalar cesped,0.0
+2020,País Vasco,barbacoa para jardin,0.0
+2020,Islas Canarias,cuidar jardin,0.0
+2020,Islas Canarias,construir piscina,1.0
+2020,Islas Canarias,instalar paneles solares,0.0
+2020,Islas Canarias,instalar cesped,0.0
+2020,Islas Canarias,barbacoa para jardin,0.0
+2020,Cantabria,cuidar jardin,0.0
+2020,Cantabria,construir piscina,0.0
+2020,Cantabria,instalar paneles solares,0.0
+2020,Cantabria,instalar cesped,0.0
+2020,Cantabria,barbacoa para jardin,0.0
+2020,Castilla y León,cuidar jardin,0.0
+2020,Castilla y León,construir piscina,0.64
+2020,Castilla y León,instalar paneles solares,0.0
+2020,Castilla y León,instalar cesped,0.36
+2020,Castilla y León,barbacoa para jardin,0.0
+2020,Castilla-La Mancha,cuidar jardin,0.0
+2020,Castilla-La Mancha,construir piscina,1.0
+2020,Castilla-La Mancha,instalar paneles solares,0.0
+2020,Castilla-La Mancha,instalar cesped,0.0
+2020,Castilla-La Mancha,barbacoa para jardin,0.0
+2020,Cataluña,cuidar jardin,0.0
+2020,Cataluña,construir piscina,0.65
+2020,Cataluña,instalar paneles solares,0.0
+2020,Cataluña,instalar cesped,0.33
+2020,Cataluña,barbacoa para jardin,0.02
+2020,Ceuta,cuidar jardin,0.0
+2020,Ceuta,construir piscina,0.0
+2020,Ceuta,instalar paneles solares,0.0
+2020,Ceuta,instalar cesped,0.0
+2020,Ceuta,barbacoa para jardin,0.0
+2020,Madrid,cuidar jardin,0.0
+2020,Madrid,construir piscina,0.48
+2020,Madrid,instalar paneles solares,0.23
+2020,Madrid,instalar cesped,0.19
+2020,Madrid,barbacoa para jardin,0.11
+2020,Extremadura,cuidar jardin,0.0
+2020,Extremadura,construir piscina,0.0
+2020,Extremadura,instalar paneles solares,0.0
+2020,Extremadura,instalar cesped,0.0
+2020,Extremadura,barbacoa para jardin,0.0
+2020,Galicia,cuidar jardin,0.0
+2020,Galicia,construir piscina,1.0
+2020,Galicia,instalar paneles solares,0.0
+2020,Galicia,instalar cesped,0.0
+2020,Galicia,barbacoa para jardin,0.0
+2020,La Rioja,cuidar jardin,0.0
+2020,La Rioja,construir piscina,0.0
+2020,La Rioja,instalar paneles solares,0.0
+2020,La Rioja,instalar cesped,0.0
+2020,La Rioja,barbacoa para jardin,0.0
+2020,Melilla,cuidar jardin,0.0
+2020,Melilla,construir piscina,0.0
+2020,Melilla,instalar paneles solares,0.0
+2020,Melilla,instalar cesped,0.0
+2020,Melilla,barbacoa para jardin,0.0
+2020,Navarra,cuidar jardin,0.0
+2020,Navarra,construir piscina,0.0
+2020,Navarra,instalar paneles solares,0.0
+2020,Navarra,instalar cesped,0.0
+2020,Navarra,barbacoa para jardin,0.0
+2020,Murcia,cuidar jardin,0.0
+2020,Murcia,construir piscina,1.0
+2020,Murcia,instalar paneles solares,0.0
+2020,Murcia,instalar cesped,0.0
+2020,Murcia,barbacoa para jardin,0.0
+2020,España,cuidar jardin,0.11
+2020,España,construir piscina,0.45
+2020,España,instalar paneles solares,0.08
+2020,España,instalar cesped,0.22
+2020,España,barbacoa para jardin,0.14
+2020,Valencia,cuidar jardin,0.0
+2020,Valencia,construir piscina,0.82
+2020,Valencia,instalar paneles solares,0.0
+2020,Valencia,instalar cesped,0.18
+2020,Valencia,barbacoa para jardin,0.0

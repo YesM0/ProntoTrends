@@ -1,0 +1,442 @@
+Year,ticket_geo_region_name,Style_type,Distribution
+2018,Abruzzo,Country chic,NA
+2018,Abruzzo,Bucolico,NA
+2018,Abruzzo,Originale,NA
+2018,Abruzzo,Romantico,NA
+2018,Abruzzo,Elegante,NA
+2018,Abruzzo,In Spiaggia,NA
+2018,Abruzzo,Tradizionale,NA
+2018,Valle d'Aosta,Country chic,NA
+2018,Valle d'Aosta,Bucolico,NA
+2018,Valle d'Aosta,Originale,NA
+2018,Valle d'Aosta,Romantico,NA
+2018,Valle d'Aosta,Elegante,NA
+2018,Valle d'Aosta,In Spiaggia,NA
+2018,Valle d'Aosta,Tradizionale,NA
+2018,Puglia,Country chic,0.0
+2018,Puglia,Bucolico,0.0
+2018,Puglia,Originale,0.0
+2018,Puglia,Romantico,0.0
+2018,Puglia,Elegante,0.5
+2018,Puglia,In Spiaggia,0.5
+2018,Puglia,Tradizionale,0.0
+2018,Basilicata,Country chic,NA
+2018,Basilicata,Bucolico,NA
+2018,Basilicata,Originale,NA
+2018,Basilicata,Romantico,NA
+2018,Basilicata,Elegante,NA
+2018,Basilicata,In Spiaggia,NA
+2018,Basilicata,Tradizionale,NA
+2018,Calabria,Country chic,NA
+2018,Calabria,Bucolico,NA
+2018,Calabria,Originale,NA
+2018,Calabria,Romantico,NA
+2018,Calabria,Elegante,NA
+2018,Calabria,In Spiaggia,NA
+2018,Calabria,Tradizionale,NA
+2018,Campania,Country chic,0.0
+2018,Campania,Bucolico,0.0
+2018,Campania,Originale,0.0
+2018,Campania,Romantico,0.0
+2018,Campania,Elegante,0.61
+2018,Campania,In Spiaggia,0.39
+2018,Campania,Tradizionale,0.0
+2018,Emilia-Romagna,Country chic,0.0
+2018,Emilia-Romagna,Bucolico,0.0
+2018,Emilia-Romagna,Originale,0.0
+2018,Emilia-Romagna,Romantico,0.0
+2018,Emilia-Romagna,Elegante,0.58
+2018,Emilia-Romagna,In Spiaggia,0.42
+2018,Emilia-Romagna,Tradizionale,0.0
+2018,Friuli Venezia Giulia,Country chic,NA
+2018,Friuli Venezia Giulia,Bucolico,NA
+2018,Friuli Venezia Giulia,Originale,NA
+2018,Friuli Venezia Giulia,Romantico,NA
+2018,Friuli Venezia Giulia,Elegante,NA
+2018,Friuli Venezia Giulia,In Spiaggia,NA
+2018,Friuli Venezia Giulia,Tradizionale,NA
+2018,Italia,Country chic,0.12
+2018,Italia,Bucolico,0.02
+2018,Italia,Originale,0.14
+2018,Italia,Romantico,0.1
+2018,Italia,Elegante,0.35
+2018,Italia,In Spiaggia,0.23
+2018,Italia,Tradizionale,0.04
+2018,Lazio,Country chic,0.28
+2018,Lazio,Bucolico,0.0
+2018,Lazio,Originale,0.0
+2018,Lazio,Romantico,0.0
+2018,Lazio,Elegante,0.46
+2018,Lazio,In Spiaggia,0.27
+2018,Lazio,Tradizionale,0.0
+2018,Liguria,Country chic,NA
+2018,Liguria,Bucolico,NA
+2018,Liguria,Originale,NA
+2018,Liguria,Romantico,NA
+2018,Liguria,Elegante,NA
+2018,Liguria,In Spiaggia,NA
+2018,Liguria,Tradizionale,NA
+2018,Lombardia,Country chic,0.1
+2018,Lombardia,Bucolico,0.0
+2018,Lombardia,Originale,0.18
+2018,Lombardia,Romantico,0.09
+2018,Lombardia,Elegante,0.41
+2018,Lombardia,In Spiaggia,0.22
+2018,Lombardia,Tradizionale,0.0
+2018,Marche,Country chic,NA
+2018,Marche,Bucolico,NA
+2018,Marche,Originale,NA
+2018,Marche,Romantico,NA
+2018,Marche,Elegante,NA
+2018,Marche,In Spiaggia,NA
+2018,Marche,Tradizionale,NA
+2018,Molise,Country chic,NA
+2018,Molise,Bucolico,NA
+2018,Molise,Originale,NA
+2018,Molise,Romantico,NA
+2018,Molise,Elegante,NA
+2018,Molise,In Spiaggia,NA
+2018,Molise,Tradizionale,NA
+2018,Piemonte,Country chic,NA
+2018,Piemonte,Bucolico,NA
+2018,Piemonte,Originale,NA
+2018,Piemonte,Romantico,NA
+2018,Piemonte,Elegante,NA
+2018,Piemonte,In Spiaggia,NA
+2018,Piemonte,Tradizionale,NA
+2018,Sardegna,Country chic,NA
+2018,Sardegna,Bucolico,NA
+2018,Sardegna,Originale,NA
+2018,Sardegna,Romantico,NA
+2018,Sardegna,Elegante,NA
+2018,Sardegna,In Spiaggia,NA
+2018,Sardegna,Tradizionale,NA
+2018,Sicilia,Country chic,0.0
+2018,Sicilia,Bucolico,0.0
+2018,Sicilia,Originale,0.0
+2018,Sicilia,Romantico,0.0
+2018,Sicilia,Elegante,0.61
+2018,Sicilia,In Spiaggia,0.39
+2018,Sicilia,Tradizionale,0.0
+2018,Trentino-Alto Adige,Country chic,NA
+2018,Trentino-Alto Adige,Bucolico,NA
+2018,Trentino-Alto Adige,Originale,NA
+2018,Trentino-Alto Adige,Romantico,NA
+2018,Trentino-Alto Adige,Elegante,NA
+2018,Trentino-Alto Adige,In Spiaggia,NA
+2018,Trentino-Alto Adige,Tradizionale,NA
+2018,Toscana,Country chic,NA
+2018,Toscana,Bucolico,NA
+2018,Toscana,Originale,NA
+2018,Toscana,Romantico,NA
+2018,Toscana,Elegante,NA
+2018,Toscana,In Spiaggia,NA
+2018,Toscana,Tradizionale,NA
+2018,Umbria,Country chic,NA
+2018,Umbria,Bucolico,NA
+2018,Umbria,Originale,NA
+2018,Umbria,Romantico,NA
+2018,Umbria,Elegante,NA
+2018,Umbria,In Spiaggia,NA
+2018,Umbria,Tradizionale,NA
+2018,Veneto,Country chic,0.0
+2018,Veneto,Bucolico,0.0
+2018,Veneto,Originale,0.0
+2018,Veneto,Romantico,0.0
+2018,Veneto,Elegante,0.55
+2018,Veneto,In Spiaggia,0.45
+2018,Veneto,Tradizionale,0.0
+2019,Abruzzo,Country chic,NA
+2019,Abruzzo,Bucolico,NA
+2019,Abruzzo,Originale,NA
+2019,Abruzzo,Romantico,NA
+2019,Abruzzo,Elegante,NA
+2019,Abruzzo,In Spiaggia,NA
+2019,Abruzzo,Tradizionale,NA
+2019,Valle d'Aosta,Country chic,NA
+2019,Valle d'Aosta,Bucolico,NA
+2019,Valle d'Aosta,Originale,NA
+2019,Valle d'Aosta,Romantico,NA
+2019,Valle d'Aosta,Elegante,NA
+2019,Valle d'Aosta,In Spiaggia,NA
+2019,Valle d'Aosta,Tradizionale,NA
+2019,Puglia,Country chic,0.0
+2019,Puglia,Bucolico,0.0
+2019,Puglia,Originale,0.0
+2019,Puglia,Romantico,0.0
+2019,Puglia,Elegante,0.73
+2019,Puglia,In Spiaggia,0.27
+2019,Puglia,Tradizionale,0.0
+2019,Basilicata,Country chic,NA
+2019,Basilicata,Bucolico,NA
+2019,Basilicata,Originale,NA
+2019,Basilicata,Romantico,NA
+2019,Basilicata,Elegante,NA
+2019,Basilicata,In Spiaggia,NA
+2019,Basilicata,Tradizionale,NA
+2019,Calabria,Country chic,NA
+2019,Calabria,Bucolico,NA
+2019,Calabria,Originale,NA
+2019,Calabria,Romantico,NA
+2019,Calabria,Elegante,NA
+2019,Calabria,In Spiaggia,NA
+2019,Calabria,Tradizionale,NA
+2019,Campania,Country chic,0.0
+2019,Campania,Bucolico,0.0
+2019,Campania,Originale,0.0
+2019,Campania,Romantico,0.0
+2019,Campania,Elegante,0.64
+2019,Campania,In Spiaggia,0.36
+2019,Campania,Tradizionale,0.0
+2019,Emilia-Romagna,Country chic,0.0
+2019,Emilia-Romagna,Bucolico,0.0
+2019,Emilia-Romagna,Originale,0.0
+2019,Emilia-Romagna,Romantico,0.0
+2019,Emilia-Romagna,Elegante,0.5
+2019,Emilia-Romagna,In Spiaggia,0.5
+2019,Emilia-Romagna,Tradizionale,0.0
+2019,Friuli Venezia Giulia,Country chic,NA
+2019,Friuli Venezia Giulia,Bucolico,NA
+2019,Friuli Venezia Giulia,Originale,NA
+2019,Friuli Venezia Giulia,Romantico,NA
+2019,Friuli Venezia Giulia,Elegante,NA
+2019,Friuli Venezia Giulia,In Spiaggia,NA
+2019,Friuli Venezia Giulia,Tradizionale,NA
+2019,Italia,Country chic,0.1
+2019,Italia,Bucolico,0.01
+2019,Italia,Originale,0.14
+2019,Italia,Romantico,0.11
+2019,Italia,Elegante,0.36
+2019,Italia,In Spiaggia,0.23
+2019,Italia,Tradizionale,0.04
+2019,Lazio,Country chic,0.28
+2019,Lazio,Bucolico,0.0
+2019,Lazio,Originale,0.0
+2019,Lazio,Romantico,0.0
+2019,Lazio,Elegante,0.5
+2019,Lazio,In Spiaggia,0.22
+2019,Lazio,Tradizionale,0.0
+2019,Liguria,Country chic,NA
+2019,Liguria,Bucolico,NA
+2019,Liguria,Originale,NA
+2019,Liguria,Romantico,NA
+2019,Liguria,Elegante,NA
+2019,Liguria,In Spiaggia,NA
+2019,Liguria,Tradizionale,NA
+2019,Lombardia,Country chic,0.12
+2019,Lombardia,Bucolico,0.0
+2019,Lombardia,Originale,0.18
+2019,Lombardia,Romantico,0.11
+2019,Lombardia,Elegante,0.35
+2019,Lombardia,In Spiaggia,0.24
+2019,Lombardia,Tradizionale,0.0
+2019,Marche,Country chic,NA
+2019,Marche,Bucolico,NA
+2019,Marche,Originale,NA
+2019,Marche,Romantico,NA
+2019,Marche,Elegante,NA
+2019,Marche,In Spiaggia,NA
+2019,Marche,Tradizionale,NA
+2019,Molise,Country chic,NA
+2019,Molise,Bucolico,NA
+2019,Molise,Originale,NA
+2019,Molise,Romantico,NA
+2019,Molise,Elegante,NA
+2019,Molise,In Spiaggia,NA
+2019,Molise,Tradizionale,NA
+2019,Piemonte,Country chic,NA
+2019,Piemonte,Bucolico,NA
+2019,Piemonte,Originale,NA
+2019,Piemonte,Romantico,NA
+2019,Piemonte,Elegante,NA
+2019,Piemonte,In Spiaggia,NA
+2019,Piemonte,Tradizionale,NA
+2019,Sardegna,Country chic,NA
+2019,Sardegna,Bucolico,NA
+2019,Sardegna,Originale,NA
+2019,Sardegna,Romantico,NA
+2019,Sardegna,Elegante,NA
+2019,Sardegna,In Spiaggia,NA
+2019,Sardegna,Tradizionale,NA
+2019,Sicilia,Country chic,0.0
+2019,Sicilia,Bucolico,0.0
+2019,Sicilia,Originale,0.0
+2019,Sicilia,Romantico,0.0
+2019,Sicilia,Elegante,0.67
+2019,Sicilia,In Spiaggia,0.33
+2019,Sicilia,Tradizionale,0.0
+2019,Trentino-Alto Adige,Country chic,NA
+2019,Trentino-Alto Adige,Bucolico,NA
+2019,Trentino-Alto Adige,Originale,NA
+2019,Trentino-Alto Adige,Romantico,NA
+2019,Trentino-Alto Adige,Elegante,NA
+2019,Trentino-Alto Adige,In Spiaggia,NA
+2019,Trentino-Alto Adige,Tradizionale,NA
+2019,Toscana,Country chic,NA
+2019,Toscana,Bucolico,NA
+2019,Toscana,Originale,NA
+2019,Toscana,Romantico,NA
+2019,Toscana,Elegante,NA
+2019,Toscana,In Spiaggia,NA
+2019,Toscana,Tradizionale,NA
+2019,Umbria,Country chic,NA
+2019,Umbria,Bucolico,NA
+2019,Umbria,Originale,NA
+2019,Umbria,Romantico,NA
+2019,Umbria,Elegante,NA
+2019,Umbria,In Spiaggia,NA
+2019,Umbria,Tradizionale,NA
+2019,Veneto,Country chic,0.0
+2019,Veneto,Bucolico,0.0
+2019,Veneto,Originale,0.0
+2019,Veneto,Romantico,0.0
+2019,Veneto,Elegante,0.74
+2019,Veneto,In Spiaggia,0.26
+2019,Veneto,Tradizionale,0.0
+2020,Abruzzo,Country chic,NA
+2020,Abruzzo,Bucolico,NA
+2020,Abruzzo,Originale,NA
+2020,Abruzzo,Romantico,NA
+2020,Abruzzo,Elegante,NA
+2020,Abruzzo,In Spiaggia,NA
+2020,Abruzzo,Tradizionale,NA
+2020,Valle d'Aosta,Country chic,NA
+2020,Valle d'Aosta,Bucolico,NA
+2020,Valle d'Aosta,Originale,NA
+2020,Valle d'Aosta,Romantico,NA
+2020,Valle d'Aosta,Elegante,NA
+2020,Valle d'Aosta,In Spiaggia,NA
+2020,Valle d'Aosta,Tradizionale,NA
+2020,Puglia,Country chic,0.0
+2020,Puglia,Bucolico,0.0
+2020,Puglia,Originale,0.0
+2020,Puglia,Romantico,0.0
+2020,Puglia,Elegante,0.72
+2020,Puglia,In Spiaggia,0.28
+2020,Puglia,Tradizionale,0.0
+2020,Basilicata,Country chic,NA
+2020,Basilicata,Bucolico,NA
+2020,Basilicata,Originale,NA
+2020,Basilicata,Romantico,NA
+2020,Basilicata,Elegante,NA
+2020,Basilicata,In Spiaggia,NA
+2020,Basilicata,Tradizionale,NA
+2020,Calabria,Country chic,NA
+2020,Calabria,Bucolico,NA
+2020,Calabria,Originale,NA
+2020,Calabria,Romantico,NA
+2020,Calabria,Elegante,NA
+2020,Calabria,In Spiaggia,NA
+2020,Calabria,Tradizionale,NA
+2020,Campania,Country chic,0.0
+2020,Campania,Bucolico,0.0
+2020,Campania,Originale,0.0
+2020,Campania,Romantico,0.0
+2020,Campania,Elegante,0.41
+2020,Campania,In Spiaggia,0.59
+2020,Campania,Tradizionale,0.0
+2020,Emilia-Romagna,Country chic,0.0
+2020,Emilia-Romagna,Bucolico,0.0
+2020,Emilia-Romagna,Originale,0.0
+2020,Emilia-Romagna,Romantico,0.0
+2020,Emilia-Romagna,Elegante,0.19
+2020,Emilia-Romagna,In Spiaggia,0.81
+2020,Emilia-Romagna,Tradizionale,0.0
+2020,Friuli Venezia Giulia,Country chic,NA
+2020,Friuli Venezia Giulia,Bucolico,NA
+2020,Friuli Venezia Giulia,Originale,NA
+2020,Friuli Venezia Giulia,Romantico,NA
+2020,Friuli Venezia Giulia,Elegante,NA
+2020,Friuli Venezia Giulia,In Spiaggia,NA
+2020,Friuli Venezia Giulia,Tradizionale,NA
+2020,Italia,Country chic,0.1
+2020,Italia,Bucolico,0.03
+2020,Italia,Originale,0.14
+2020,Italia,Romantico,0.16
+2020,Italia,Elegante,0.33
+2020,Italia,In Spiaggia,0.2
+2020,Italia,Tradizionale,0.05
+2020,Lazio,Country chic,0.29
+2020,Lazio,Bucolico,0.0
+2020,Lazio,Originale,0.0
+2020,Lazio,Romantico,0.0
+2020,Lazio,Elegante,0.3
+2020,Lazio,In Spiaggia,0.41
+2020,Lazio,Tradizionale,0.0
+2020,Liguria,Country chic,NA
+2020,Liguria,Bucolico,NA
+2020,Liguria,Originale,NA
+2020,Liguria,Romantico,NA
+2020,Liguria,Elegante,NA
+2020,Liguria,In Spiaggia,NA
+2020,Liguria,Tradizionale,NA
+2020,Lombardia,Country chic,0.07
+2020,Lombardia,Bucolico,0.0
+2020,Lombardia,Originale,0.19
+2020,Lombardia,Romantico,0.1
+2020,Lombardia,Elegante,0.39
+2020,Lombardia,In Spiaggia,0.25
+2020,Lombardia,Tradizionale,0.0
+2020,Marche,Country chic,NA
+2020,Marche,Bucolico,NA
+2020,Marche,Originale,NA
+2020,Marche,Romantico,NA
+2020,Marche,Elegante,NA
+2020,Marche,In Spiaggia,NA
+2020,Marche,Tradizionale,NA
+2020,Molise,Country chic,NA
+2020,Molise,Bucolico,NA
+2020,Molise,Originale,NA
+2020,Molise,Romantico,NA
+2020,Molise,Elegante,NA
+2020,Molise,In Spiaggia,NA
+2020,Molise,Tradizionale,NA
+2020,Piemonte,Country chic,NA
+2020,Piemonte,Bucolico,NA
+2020,Piemonte,Originale,NA
+2020,Piemonte,Romantico,NA
+2020,Piemonte,Elegante,NA
+2020,Piemonte,In Spiaggia,NA
+2020,Piemonte,Tradizionale,NA
+2020,Sardegna,Country chic,NA
+2020,Sardegna,Bucolico,NA
+2020,Sardegna,Originale,NA
+2020,Sardegna,Romantico,NA
+2020,Sardegna,Elegante,NA
+2020,Sardegna,In Spiaggia,NA
+2020,Sardegna,Tradizionale,NA
+2020,Sicilia,Country chic,0.0
+2020,Sicilia,Bucolico,0.0
+2020,Sicilia,Originale,0.0
+2020,Sicilia,Romantico,0.0
+2020,Sicilia,Elegante,0.6
+2020,Sicilia,In Spiaggia,0.4
+2020,Sicilia,Tradizionale,0.0
+2020,Trentino-Alto Adige,Country chic,NA
+2020,Trentino-Alto Adige,Bucolico,NA
+2020,Trentino-Alto Adige,Originale,NA
+2020,Trentino-Alto Adige,Romantico,NA
+2020,Trentino-Alto Adige,Elegante,NA
+2020,Trentino-Alto Adige,In Spiaggia,NA
+2020,Trentino-Alto Adige,Tradizionale,NA
+2020,Toscana,Country chic,NA
+2020,Toscana,Bucolico,NA
+2020,Toscana,Originale,NA
+2020,Toscana,Romantico,NA
+2020,Toscana,Elegante,NA
+2020,Toscana,In Spiaggia,NA
+2020,Toscana,Tradizionale,NA
+2020,Umbria,Country chic,NA
+2020,Umbria,Bucolico,NA
+2020,Umbria,Originale,NA
+2020,Umbria,Romantico,NA
+2020,Umbria,Elegante,NA
+2020,Umbria,In Spiaggia,NA
+2020,Umbria,Tradizionale,NA
+2020,Veneto,Country chic,0.0
+2020,Veneto,Bucolico,0.0
+2020,Veneto,Originale,0.0
+2020,Veneto,Romantico,0.0
+2020,Veneto,Elegante,0.79
+2020,Veneto,In Spiaggia,0.21
+2020,Veneto,Tradizionale,0.0

@@ -1,0 +1,190 @@
+Year,ticket_geo_region_name,Wed_type,Distribution
+2018,Abruzzo,Religioso,NA
+2018,Abruzzo,Simbolico,NA
+2018,Abruzzo,Civile,NA
+2018,Valle d'Aosta,Religioso,NA
+2018,Valle d'Aosta,Simbolico,NA
+2018,Valle d'Aosta,Civile,NA
+2018,Basilicata,Religioso,NA
+2018,Basilicata,Simbolico,NA
+2018,Basilicata,Civile,NA
+2018,Calabria,Religioso,NA
+2018,Calabria,Simbolico,NA
+2018,Calabria,Civile,NA
+2018,Campania,Religioso,0.71
+2018,Campania,Simbolico,0.02
+2018,Campania,Civile,0.26
+2018,Emilia-Romagna,Religioso,0.4
+2018,Emilia-Romagna,Simbolico,0.05
+2018,Emilia-Romagna,Civile,0.55
+2018,Friuli Venezia Giulia,Religioso,NA
+2018,Friuli Venezia Giulia,Simbolico,NA
+2018,Friuli Venezia Giulia,Civile,NA
+2018,Italia,Religioso,0.48
+2018,Italia,Simbolico,0.05
+2018,Italia,Civile,0.47
+2018,Lazio,Religioso,0.45
+2018,Lazio,Simbolico,0.06
+2018,Lazio,Civile,0.49
+2018,Liguria,Religioso,NA
+2018,Liguria,Simbolico,NA
+2018,Liguria,Civile,NA
+2018,Lombardia,Religioso,0.47
+2018,Lombardia,Simbolico,0.03
+2018,Lombardia,Civile,0.5
+2018,Marche,Religioso,NA
+2018,Marche,Simbolico,NA
+2018,Marche,Civile,NA
+2018,Molise,Religioso,NA
+2018,Molise,Simbolico,NA
+2018,Molise,Civile,NA
+2018,Piemonte,Religioso,0.33
+2018,Piemonte,Simbolico,0.05
+2018,Piemonte,Civile,0.62
+2018,Puglia,Religioso,0.67
+2018,Puglia,Simbolico,0.07
+2018,Puglia,Civile,0.26
+2018,Sardegna,Religioso,NA
+2018,Sardegna,Simbolico,NA
+2018,Sardegna,Civile,NA
+2018,Sicilia,Religioso,0.58
+2018,Sicilia,Simbolico,0.06
+2018,Sicilia,Civile,0.37
+2018,Trentino-Alto Adige,Religioso,NA
+2018,Trentino-Alto Adige,Simbolico,NA
+2018,Trentino-Alto Adige,Civile,NA
+2018,Toscana,Religioso,0.36
+2018,Toscana,Simbolico,0.04
+2018,Toscana,Civile,0.6
+2018,Umbria,Religioso,NA
+2018,Umbria,Simbolico,NA
+2018,Umbria,Civile,NA
+2018,Veneto,Religioso,0.36
+2018,Veneto,Simbolico,0.03
+2018,Veneto,Civile,0.61
+2019,Abruzzo,Religioso,0.37
+2019,Abruzzo,Simbolico,0.0
+2019,Abruzzo,Civile,0.63
+2019,Valle d'Aosta,Religioso,NA
+2019,Valle d'Aosta,Simbolico,NA
+2019,Valle d'Aosta,Civile,NA
+2019,Basilicata,Religioso,NA
+2019,Basilicata,Simbolico,NA
+2019,Basilicata,Civile,NA
+2019,Calabria,Religioso,0.56
+2019,Calabria,Simbolico,0.05
+2019,Calabria,Civile,0.38
+2019,Campania,Religioso,0.68
+2019,Campania,Simbolico,0.01
+2019,Campania,Civile,0.31
+2019,Emilia-Romagna,Religioso,0.23
+2019,Emilia-Romagna,Simbolico,0.04
+2019,Emilia-Romagna,Civile,0.73
+2019,Friuli Venezia Giulia,Religioso,0.22
+2019,Friuli Venezia Giulia,Simbolico,0.03
+2019,Friuli Venezia Giulia,Civile,0.76
+2019,Italia,Religioso,0.36
+2019,Italia,Simbolico,0.03
+2019,Italia,Civile,0.61
+2019,Lazio,Religioso,0.34
+2019,Lazio,Simbolico,0.03
+2019,Lazio,Civile,0.63
+2019,Liguria,Religioso,0.18
+2019,Liguria,Simbolico,0.07
+2019,Liguria,Civile,0.75
+2019,Lombardia,Religioso,0.28
+2019,Lombardia,Simbolico,0.03
+2019,Lombardia,Civile,0.69
+2019,Marche,Religioso,0.22
+2019,Marche,Simbolico,0.07
+2019,Marche,Civile,0.71
+2019,Molise,Religioso,NA
+2019,Molise,Simbolico,NA
+2019,Molise,Civile,NA
+2019,Piemonte,Religioso,0.33
+2019,Piemonte,Simbolico,0.01
+2019,Piemonte,Civile,0.65
+2019,Puglia,Religioso,0.41
+2019,Puglia,Simbolico,0.04
+2019,Puglia,Civile,0.55
+2019,Sardegna,Religioso,0.47
+2019,Sardegna,Simbolico,0.03
+2019,Sardegna,Civile,0.5
+2019,Sicilia,Religioso,0.45
+2019,Sicilia,Simbolico,0.03
+2019,Sicilia,Civile,0.52
+2019,Trentino-Alto Adige,Religioso,NA
+2019,Trentino-Alto Adige,Simbolico,NA
+2019,Trentino-Alto Adige,Civile,NA
+2019,Toscana,Religioso,0.3
+2019,Toscana,Simbolico,0.04
+2019,Toscana,Civile,0.66
+2019,Umbria,Religioso,NA
+2019,Umbria,Simbolico,NA
+2019,Umbria,Civile,NA
+2019,Veneto,Religioso,0.31
+2019,Veneto,Simbolico,0.02
+2019,Veneto,Civile,0.67
+2020,Abruzzo,Religioso,NA
+2020,Abruzzo,Simbolico,NA
+2020,Abruzzo,Civile,NA
+2020,Valle d'Aosta,Religioso,NA
+2020,Valle d'Aosta,Simbolico,NA
+2020,Valle d'Aosta,Civile,NA
+2020,Basilicata,Religioso,NA
+2020,Basilicata,Simbolico,NA
+2020,Basilicata,Civile,NA
+2020,Calabria,Religioso,NA
+2020,Calabria,Simbolico,NA
+2020,Calabria,Civile,NA
+2020,Campania,Religioso,NA
+2020,Campania,Simbolico,NA
+2020,Campania,Civile,NA
+2020,Emilia-Romagna,Religioso,0.18
+2020,Emilia-Romagna,Simbolico,0.0
+2020,Emilia-Romagna,Civile,0.82
+2020,Friuli Venezia Giulia,Religioso,NA
+2020,Friuli Venezia Giulia,Simbolico,NA
+2020,Friuli Venezia Giulia,Civile,NA
+2020,Italia,Religioso,0.29
+2020,Italia,Simbolico,0.03
+2020,Italia,Civile,0.69
+2020,Lazio,Religioso,NA
+2020,Lazio,Simbolico,NA
+2020,Lazio,Civile,NA
+2020,Liguria,Religioso,NA
+2020,Liguria,Simbolico,NA
+2020,Liguria,Civile,NA
+2020,Lombardia,Religioso,0.23
+2020,Lombardia,Simbolico,0.05
+2020,Lombardia,Civile,0.72
+2020,Marche,Religioso,NA
+2020,Marche,Simbolico,NA
+2020,Marche,Civile,NA
+2020,Molise,Religioso,NA
+2020,Molise,Simbolico,NA
+2020,Molise,Civile,NA
+2020,Piemonte,Religioso,0.13
+2020,Piemonte,Simbolico,0.0
+2020,Piemonte,Civile,0.87
+2020,Puglia,Religioso,0.3
+2020,Puglia,Simbolico,0.0
+2020,Puglia,Civile,0.7
+2020,Sardegna,Religioso,NA
+2020,Sardegna,Simbolico,NA
+2020,Sardegna,Civile,NA
+2020,Sicilia,Religioso,0.38
+2020,Sicilia,Simbolico,0.0
+2020,Sicilia,Civile,0.62
+2020,Trentino-Alto Adige,Religioso,NA
+2020,Trentino-Alto Adige,Simbolico,NA
+2020,Trentino-Alto Adige,Civile,NA
+2020,Toscana,Religioso,0.29
+2020,Toscana,Simbolico,0.0
+2020,Toscana,Civile,0.71
+2020,Umbria,Religioso,NA
+2020,Umbria,Simbolico,NA
+2020,Umbria,Civile,NA
+2020,Veneto,Religioso,0.27
+2020,Veneto,Simbolico,0.0
+2020,Veneto,Civile,0.73

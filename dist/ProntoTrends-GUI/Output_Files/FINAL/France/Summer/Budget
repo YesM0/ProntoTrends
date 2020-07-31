@@ -1,0 +1,127 @@
+Year,ticket_geo_region_name,Category_type,Distribution
+2018,Auvergne-Rhône-Alpes,Extérieur,0.12568
+2018,Auvergne-Rhône-Alpes,Intérieur,0.03936
+2018,Auvergne-Rhône-Alpes,Temps libre,0.035
+2018,Bourgogne-Franche-Comté,Extérieur,0.13612
+2018,Bourgogne-Franche-Comté,Intérieur,0.031333333330000004
+2018,Bourgogne-Franche-Comté,Temps libre,0.04506
+2018,Bretagne,Extérieur,0.094
+2018,Bretagne,Intérieur,0.069725
+2018,Bretagne,Temps libre,0.05024
+2018,Centre-Val de Loire,Extérieur,0.1098
+2018,Centre-Val de Loire,Intérieur,0.057975
+2018,Centre-Val de Loire,Temps libre,0.0438
+2018,Corse,Extérieur,0.119725
+2018,Corse,Intérieur,0.1369
+2018,Corse,Temps libre,0.04942
+2018,France,Extérieur,0.12936
+2018,France,Intérieur,0.03192
+2018,France,Temps libre,0.03872
+2018,Grand-Est,Extérieur,0.11874000000000001
+2018,Grand-Est,Intérieur,0.048775
+2018,Grand-Est,Temps libre,0.0422
+2018,Hauts-de-France,Extérieur,0.08598333332999998
+2018,Hauts-de-France,Intérieur,0.0478
+2018,Hauts-de-France,Temps libre,0.049
+2018,Normandie,Extérieur,0.11192
+2018,Normandie,Intérieur,0.045625
+2018,Normandie,Temps libre,0.051579999999999994
+2018,Nouvelle-Aquitaine,Extérieur,0.1067666667
+2018,Nouvelle-Aquitaine,Intérieur,0.043539999999999995
+2018,Nouvelle-Aquitaine,Temps libre,0.028339999999999997
+2018,Occitanie,Extérieur,0.09876666667000002
+2018,Occitanie,Intérieur,0.05024
+2018,Occitanie,Temps libre,0.03126
+2018,Pays de la Loire,Extérieur,0.10046000000000001
+2018,Pays de la Loire,Intérieur,0.068475
+2018,Pays de la Loire,Temps libre,0.04478
+2018,Provence-Alpes-Côte d'Azur,Extérieur,0.11232
+2018,Provence-Alpes-Côte d'Azur,Intérieur,0.05192000000000001
+2018,Provence-Alpes-Côte d'Azur,Temps libre,0.03576
+2018,Île-de-France,Extérieur,0.08422
+2018,Île-de-France,Intérieur,0.054079999999999996
+2018,Île-de-France,Temps libre,0.0617
+2019,Auvergne-Rhône-Alpes,Extérieur,0.1306
+2019,Auvergne-Rhône-Alpes,Intérieur,0.0374
+2019,Auvergne-Rhône-Alpes,Temps libre,0.03198
+2019,Bourgogne-Franche-Comté,Extérieur,0.13194
+2019,Bourgogne-Franche-Comté,Intérieur,0.0463
+2019,Bourgogne-Franche-Comté,Temps libre,0.040260000000000004
+2019,Bretagne,Extérieur,0.08832000000000001
+2019,Bretagne,Intérieur,0.085575
+2019,Bretagne,Temps libre,0.04322
+2019,Centre-Val de Loire,Extérieur,0.10554000000000001
+2019,Centre-Val de Loire,Intérieur,0.070575
+2019,Centre-Val de Loire,Temps libre,0.038
+2019,Corse,Extérieur,0.142375
+2019,Corse,Intérieur,0.09695
+2019,Corse,Temps libre,0.04734
+2019,France,Extérieur,0.13124
+2019,France,Intérieur,0.03444
+2019,France,Temps libre,0.034319999999999996
+2019,Grand-Est,Extérieur,0.11975999999999999
+2019,Grand-Est,Intérieur,0.0517
+2019,Grand-Est,Temps libre,0.038860000000000006
+2019,Hauts-de-France,Extérieur,0.09561666667000002
+2019,Hauts-de-France,Intérieur,0.04112
+2019,Hauts-de-France,Temps libre,0.04414
+2019,Normandie,Extérieur,0.11796
+2019,Normandie,Intérieur,0.04545
+2019,Normandie,Temps libre,0.04568
+2019,Nouvelle-Aquitaine,Extérieur,0.1011666667
+2019,Nouvelle-Aquitaine,Intérieur,0.052739999999999995
+2019,Nouvelle-Aquitaine,Temps libre,0.02588
+2019,Occitanie,Extérieur,0.1010833333
+2019,Occitanie,Intérieur,0.04908
+2019,Occitanie,Temps libre,0.02962
+2019,Pays de la Loire,Extérieur,0.10468
+2019,Pays de la Loire,Intérieur,0.067
+2019,Pays de la Loire,Temps libre,0.04172
+2019,Provence-Alpes-Côte d'Azur,Extérieur,0.11614000000000001
+2019,Provence-Alpes-Côte d'Azur,Intérieur,0.05284
+2019,Provence-Alpes-Côte d'Azur,Temps libre,0.03102
+2019,Île-de-France,Extérieur,0.08274
+2019,Île-de-France,Intérieur,0.0597
+2019,Île-de-France,Temps libre,0.05754
+2020,Auvergne-Rhône-Alpes,Extérieur,0.13738
+2020,Auvergne-Rhône-Alpes,Intérieur,0.03302
+2020,Auvergne-Rhône-Alpes,Temps libre,0.02962
+2020,Bourgogne-Franche-Comté,Extérieur,0.13652
+2020,Bourgogne-Franche-Comté,Intérieur,0.0473
+2020,Bourgogne-Franche-Comté,Temps libre,0.03514
+2020,Bretagne,Extérieur,0.11202000000000001
+2020,Bretagne,Intérieur,0.05095
+2020,Bretagne,Temps libre,0.04722
+2020,Centre-Val de Loire,Extérieur,0.12124000000000001
+2020,Centre-Val de Loire,Intérieur,0.05275
+2020,Centre-Val de Loire,Temps libre,0.03658
+2020,Corse,Extérieur,0.18115
+2020,Corse,Intérieur,0.0226
+2020,Corse,Temps libre,0.05058
+2020,France,Extérieur,0.1451
+2020,France,Intérieur,0.02658
+2020,France,Temps libre,0.0283
+2020,Grand-Est,Extérieur,0.12942
+2020,Grand-Est,Intérieur,0.0477
+2020,Grand-Est,Temps libre,0.03238
+2020,Hauts-de-France,Extérieur,0.1045833333
+2020,Hauts-de-France,Intérieur,0.03562
+2020,Hauts-de-France,Temps libre,0.0389
+2020,Normandie,Extérieur,0.12634
+2020,Normandie,Intérieur,0.0396
+2020,Normandie,Temps libre,0.042
+2020,Nouvelle-Aquitaine,Extérieur,0.1094
+2020,Nouvelle-Aquitaine,Intérieur,0.04332
+2020,Nouvelle-Aquitaine,Temps libre,0.0254
+2020,Occitanie,Extérieur,0.1109666667
+2020,Occitanie,Intérieur,0.04028
+2020,Occitanie,Temps libre,0.02652
+2020,Pays de la Loire,Extérieur,0.11654
+2020,Pays de la Loire,Intérieur,0.055775
+2020,Pays de la Loire,Temps libre,0.03884
+2020,Provence-Alpes-Côte d'Azur,Extérieur,0.12195999999999999
+2020,Provence-Alpes-Côte d'Azur,Intérieur,0.048960000000000004
+2020,Provence-Alpes-Côte d'Azur,Temps libre,0.02912
+2020,Île-de-France,Extérieur,0.09746
+2020,Île-de-France,Intérieur,0.053739999999999996
+2020,Île-de-France,Temps libre,0.048780000000000004

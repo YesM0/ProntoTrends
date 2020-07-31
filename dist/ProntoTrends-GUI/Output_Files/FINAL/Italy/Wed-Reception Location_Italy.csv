@@ -1,0 +1,316 @@
+Year,ticket_geo_region_name,Loc_type,Distribution
+2018,Abruzzo,matrimonio ristorante,0.0
+2018,Abruzzo,matrimonio cascina,0.0
+2018,Abruzzo,matrimonio borgo,0.0
+2018,Abruzzo,matrimonio villa,0.72
+2018,Abruzzo,matrimonio castello,0.28
+2018,Aosta,matrimonio ristorante,0.0
+2018,Aosta,matrimonio cascina,0.0
+2018,Aosta,matrimonio borgo,0.0
+2018,Aosta,matrimonio villa,0.0
+2018,Aosta,matrimonio castello,0.0
+2018,Apulia,matrimonio ristorante,0.2
+2018,Apulia,matrimonio cascina,0.0
+2018,Apulia,matrimonio borgo,0.0
+2018,Apulia,matrimonio villa,0.54
+2018,Apulia,matrimonio castello,0.26
+2018,Basilicata,matrimonio ristorante,0.0
+2018,Basilicata,matrimonio cascina,0.0
+2018,Basilicata,matrimonio borgo,0.0
+2018,Basilicata,matrimonio villa,0.0
+2018,Basilicata,matrimonio castello,0.0
+2018,Calabria,matrimonio ristorante,0.0
+2018,Calabria,matrimonio cascina,0.0
+2018,Calabria,matrimonio borgo,0.0
+2018,Calabria,matrimonio villa,0.71
+2018,Calabria,matrimonio castello,0.29
+2018,Campania,matrimonio ristorante,0.21
+2018,Campania,matrimonio cascina,0.0
+2018,Campania,matrimonio borgo,0.0
+2018,Campania,matrimonio villa,0.63
+2018,Campania,matrimonio castello,0.16
+2018,Emilia-Romagna,matrimonio ristorante,0.3
+2018,Emilia-Romagna,matrimonio cascina,0.0
+2018,Emilia-Romagna,matrimonio borgo,0.0
+2018,Emilia-Romagna,matrimonio villa,0.5
+2018,Emilia-Romagna,matrimonio castello,0.21
+2018,Friuli-Venezia Giulia,matrimonio ristorante,0.0
+2018,Friuli-Venezia Giulia,matrimonio cascina,0.0
+2018,Friuli-Venezia Giulia,matrimonio borgo,0.0
+2018,Friuli-Venezia Giulia,matrimonio villa,0.5
+2018,Friuli-Venezia Giulia,matrimonio castello,0.5
+2018,Italy,matrimonio ristorante,0.21
+2018,Italy,matrimonio cascina,0.04
+2018,Italy,matrimonio borgo,0.05
+2018,Italy,matrimonio villa,0.52
+2018,Italy,matrimonio castello,0.19
+2018,Lazio,matrimonio ristorante,0.22
+2018,Lazio,matrimonio cascina,0.0
+2018,Lazio,matrimonio borgo,0.09
+2018,Lazio,matrimonio villa,0.5
+2018,Lazio,matrimonio castello,0.19
+2018,Liguria,matrimonio ristorante,0.0
+2018,Liguria,matrimonio cascina,0.0
+2018,Liguria,matrimonio borgo,0.0
+2018,Liguria,matrimonio villa,0.66
+2018,Liguria,matrimonio castello,0.34
+2018,Lombardy,matrimonio ristorante,0.19
+2018,Lombardy,matrimonio cascina,0.12
+2018,Lombardy,matrimonio borgo,0.05
+2018,Lombardy,matrimonio villa,0.46
+2018,Lombardy,matrimonio castello,0.18
+2018,Marche,matrimonio ristorante,0.0
+2018,Marche,matrimonio cascina,0.0
+2018,Marche,matrimonio borgo,0.0
+2018,Marche,matrimonio villa,0.84
+2018,Marche,matrimonio castello,0.16
+2018,Molise,matrimonio ristorante,0.0
+2018,Molise,matrimonio cascina,0.0
+2018,Molise,matrimonio borgo,0.0
+2018,Molise,matrimonio villa,0.0
+2018,Molise,matrimonio castello,0.0
+2018,Piedmont,matrimonio ristorante,0.29
+2018,Piedmont,matrimonio cascina,0.0
+2018,Piedmont,matrimonio borgo,0.0
+2018,Piedmont,matrimonio villa,0.36
+2018,Piedmont,matrimonio castello,0.35
+2018,Sardinia,matrimonio ristorante,0.0
+2018,Sardinia,matrimonio cascina,0.0
+2018,Sardinia,matrimonio borgo,0.0
+2018,Sardinia,matrimonio villa,1.0
+2018,Sardinia,matrimonio castello,0.0
+2018,Sicily,matrimonio ristorante,0.12
+2018,Sicily,matrimonio cascina,0.0
+2018,Sicily,matrimonio borgo,0.0
+2018,Sicily,matrimonio villa,0.66
+2018,Sicily,matrimonio castello,0.22
+2018,Trentino-Alto Adige/South Tyrol,matrimonio ristorante,0.0
+2018,Trentino-Alto Adige/South Tyrol,matrimonio cascina,0.0
+2018,Trentino-Alto Adige/South Tyrol,matrimonio borgo,0.0
+2018,Trentino-Alto Adige/South Tyrol,matrimonio villa,1.0
+2018,Trentino-Alto Adige/South Tyrol,matrimonio castello,0.0
+2018,Tuscany,matrimonio ristorante,0.23
+2018,Tuscany,matrimonio cascina,0.0
+2018,Tuscany,matrimonio borgo,0.0
+2018,Tuscany,matrimonio villa,0.58
+2018,Tuscany,matrimonio castello,0.2
+2018,Umbria,matrimonio ristorante,0.0
+2018,Umbria,matrimonio cascina,0.0
+2018,Umbria,matrimonio borgo,0.0
+2018,Umbria,matrimonio villa,1.0
+2018,Umbria,matrimonio castello,0.0
+2018,Veneto,matrimonio ristorante,0.25
+2018,Veneto,matrimonio cascina,0.0
+2018,Veneto,matrimonio borgo,0.0
+2018,Veneto,matrimonio villa,0.57
+2018,Veneto,matrimonio castello,0.18
+2019,Abruzzo,matrimonio ristorante,0.0
+2019,Abruzzo,matrimonio cascina,0.0
+2019,Abruzzo,matrimonio borgo,0.0
+2019,Abruzzo,matrimonio villa,0.6
+2019,Abruzzo,matrimonio castello,0.4
+2019,Aosta,matrimonio ristorante,0.0
+2019,Aosta,matrimonio cascina,0.0
+2019,Aosta,matrimonio borgo,0.0
+2019,Aosta,matrimonio villa,0.0
+2019,Aosta,matrimonio castello,0.0
+2019,Apulia,matrimonio ristorante,0.25
+2019,Apulia,matrimonio cascina,0.0
+2019,Apulia,matrimonio borgo,0.0
+2019,Apulia,matrimonio villa,0.5
+2019,Apulia,matrimonio castello,0.25
+2019,Basilicata,matrimonio ristorante,0.0
+2019,Basilicata,matrimonio cascina,0.0
+2019,Basilicata,matrimonio borgo,0.0
+2019,Basilicata,matrimonio villa,0.0
+2019,Basilicata,matrimonio castello,0.0
+2019,Calabria,matrimonio ristorante,0.0
+2019,Calabria,matrimonio cascina,0.0
+2019,Calabria,matrimonio borgo,0.0
+2019,Calabria,matrimonio villa,0.6
+2019,Calabria,matrimonio castello,0.4
+2019,Campania,matrimonio ristorante,0.22
+2019,Campania,matrimonio cascina,0.0
+2019,Campania,matrimonio borgo,0.0
+2019,Campania,matrimonio villa,0.58
+2019,Campania,matrimonio castello,0.2
+2019,Emilia-Romagna,matrimonio ristorante,0.22
+2019,Emilia-Romagna,matrimonio cascina,0.0
+2019,Emilia-Romagna,matrimonio borgo,0.0
+2019,Emilia-Romagna,matrimonio villa,0.52
+2019,Emilia-Romagna,matrimonio castello,0.26
+2019,Friuli-Venezia Giulia,matrimonio ristorante,0.0
+2019,Friuli-Venezia Giulia,matrimonio cascina,0.0
+2019,Friuli-Venezia Giulia,matrimonio borgo,0.0
+2019,Friuli-Venezia Giulia,matrimonio villa,0.5
+2019,Friuli-Venezia Giulia,matrimonio castello,0.5
+2019,Italy,matrimonio ristorante,0.19
+2019,Italy,matrimonio cascina,0.04
+2019,Italy,matrimonio borgo,0.05
+2019,Italy,matrimonio villa,0.52
+2019,Italy,matrimonio castello,0.2
+2019,Lazio,matrimonio ristorante,0.16
+2019,Lazio,matrimonio cascina,0.0
+2019,Lazio,matrimonio borgo,0.11
+2019,Lazio,matrimonio villa,0.54
+2019,Lazio,matrimonio castello,0.19
+2019,Liguria,matrimonio ristorante,0.0
+2019,Liguria,matrimonio cascina,0.0
+2019,Liguria,matrimonio borgo,0.0
+2019,Liguria,matrimonio villa,0.68
+2019,Liguria,matrimonio castello,0.32
+2019,Lombardy,matrimonio ristorante,0.2
+2019,Lombardy,matrimonio cascina,0.1
+2019,Lombardy,matrimonio borgo,0.05
+2019,Lombardy,matrimonio villa,0.46
+2019,Lombardy,matrimonio castello,0.18
+2019,Marche,matrimonio ristorante,0.0
+2019,Marche,matrimonio cascina,0.0
+2019,Marche,matrimonio borgo,0.0
+2019,Marche,matrimonio villa,0.82
+2019,Marche,matrimonio castello,0.18
+2019,Molise,matrimonio ristorante,0.0
+2019,Molise,matrimonio cascina,0.0
+2019,Molise,matrimonio borgo,0.0
+2019,Molise,matrimonio villa,0.0
+2019,Molise,matrimonio castello,0.0
+2019,Piedmont,matrimonio ristorante,0.3
+2019,Piedmont,matrimonio cascina,0.0
+2019,Piedmont,matrimonio borgo,0.0
+2019,Piedmont,matrimonio villa,0.34
+2019,Piedmont,matrimonio castello,0.36
+2019,Sardinia,matrimonio ristorante,0.0
+2019,Sardinia,matrimonio cascina,0.0
+2019,Sardinia,matrimonio borgo,0.0
+2019,Sardinia,matrimonio villa,1.0
+2019,Sardinia,matrimonio castello,0.0
+2019,Sicily,matrimonio ristorante,0.15
+2019,Sicily,matrimonio cascina,0.0
+2019,Sicily,matrimonio borgo,0.0
+2019,Sicily,matrimonio villa,0.63
+2019,Sicily,matrimonio castello,0.22
+2019,Trentino-Alto Adige/South Tyrol,matrimonio ristorante,0.0
+2019,Trentino-Alto Adige/South Tyrol,matrimonio cascina,0.0
+2019,Trentino-Alto Adige/South Tyrol,matrimonio borgo,0.0
+2019,Trentino-Alto Adige/South Tyrol,matrimonio villa,1.0
+2019,Trentino-Alto Adige/South Tyrol,matrimonio castello,0.0
+2019,Tuscany,matrimonio ristorante,0.21
+2019,Tuscany,matrimonio cascina,0.0
+2019,Tuscany,matrimonio borgo,0.0
+2019,Tuscany,matrimonio villa,0.61
+2019,Tuscany,matrimonio castello,0.19
+2019,Umbria,matrimonio ristorante,0.0
+2019,Umbria,matrimonio cascina,0.0
+2019,Umbria,matrimonio borgo,0.0
+2019,Umbria,matrimonio villa,1.0
+2019,Umbria,matrimonio castello,0.0
+2019,Veneto,matrimonio ristorante,0.28
+2019,Veneto,matrimonio cascina,0.0
+2019,Veneto,matrimonio borgo,0.0
+2019,Veneto,matrimonio villa,0.55
+2019,Veneto,matrimonio castello,0.17
+2020,Abruzzo,matrimonio ristorante,0.0
+2020,Abruzzo,matrimonio cascina,0.0
+2020,Abruzzo,matrimonio borgo,0.0
+2020,Abruzzo,matrimonio villa,0.84
+2020,Abruzzo,matrimonio castello,0.16
+2020,Aosta,matrimonio ristorante,0.0
+2020,Aosta,matrimonio cascina,0.0
+2020,Aosta,matrimonio borgo,0.0
+2020,Aosta,matrimonio villa,0.0
+2020,Aosta,matrimonio castello,0.0
+2020,Apulia,matrimonio ristorante,0.13
+2020,Apulia,matrimonio cascina,0.0
+2020,Apulia,matrimonio borgo,0.0
+2020,Apulia,matrimonio villa,0.62
+2020,Apulia,matrimonio castello,0.25
+2020,Basilicata,matrimonio ristorante,0.0
+2020,Basilicata,matrimonio cascina,0.0
+2020,Basilicata,matrimonio borgo,0.0
+2020,Basilicata,matrimonio villa,0.0
+2020,Basilicata,matrimonio castello,0.0
+2020,Calabria,matrimonio ristorante,0.0
+2020,Calabria,matrimonio cascina,0.0
+2020,Calabria,matrimonio borgo,0.0
+2020,Calabria,matrimonio villa,0.67
+2020,Calabria,matrimonio castello,0.33
+2020,Campania,matrimonio ristorante,0.22
+2020,Campania,matrimonio cascina,0.0
+2020,Campania,matrimonio borgo,0.0
+2020,Campania,matrimonio villa,0.49
+2020,Campania,matrimonio castello,0.29
+2020,Emilia-Romagna,matrimonio ristorante,0.34
+2020,Emilia-Romagna,matrimonio cascina,0.0
+2020,Emilia-Romagna,matrimonio borgo,0.0
+2020,Emilia-Romagna,matrimonio villa,0.38
+2020,Emilia-Romagna,matrimonio castello,0.29
+2020,Friuli-Venezia Giulia,matrimonio ristorante,0.0
+2020,Friuli-Venezia Giulia,matrimonio cascina,0.0
+2020,Friuli-Venezia Giulia,matrimonio borgo,0.0
+2020,Friuli-Venezia Giulia,matrimonio villa,0.55
+2020,Friuli-Venezia Giulia,matrimonio castello,0.45
+2020,Italy,matrimonio ristorante,0.2
+2020,Italy,matrimonio cascina,0.04
+2020,Italy,matrimonio borgo,0.05
+2020,Italy,matrimonio villa,0.46
+2020,Italy,matrimonio castello,0.26
+2020,Lazio,matrimonio ristorante,0.1
+2020,Lazio,matrimonio cascina,0.0
+2020,Lazio,matrimonio borgo,0.1
+2020,Lazio,matrimonio villa,0.55
+2020,Lazio,matrimonio castello,0.25
+2020,Liguria,matrimonio ristorante,0.0
+2020,Liguria,matrimonio cascina,0.0
+2020,Liguria,matrimonio borgo,0.0
+2020,Liguria,matrimonio villa,0.69
+2020,Liguria,matrimonio castello,0.31
+2020,Lombardy,matrimonio ristorante,0.18
+2020,Lombardy,matrimonio cascina,0.1
+2020,Lombardy,matrimonio borgo,0.08
+2020,Lombardy,matrimonio villa,0.42
+2020,Lombardy,matrimonio castello,0.21
+2020,Marche,matrimonio ristorante,0.0
+2020,Marche,matrimonio cascina,0.0
+2020,Marche,matrimonio borgo,0.0
+2020,Marche,matrimonio villa,0.58
+2020,Marche,matrimonio castello,0.42
+2020,Molise,matrimonio ristorante,0.0
+2020,Molise,matrimonio cascina,0.0
+2020,Molise,matrimonio borgo,0.0
+2020,Molise,matrimonio villa,0.0
+2020,Molise,matrimonio castello,0.0
+2020,Piedmont,matrimonio ristorante,0.28
+2020,Piedmont,matrimonio cascina,0.0
+2020,Piedmont,matrimonio borgo,0.0
+2020,Piedmont,matrimonio villa,0.35
+2020,Piedmont,matrimonio castello,0.37
+2020,Sardinia,matrimonio ristorante,0.0
+2020,Sardinia,matrimonio cascina,0.0
+2020,Sardinia,matrimonio borgo,0.0
+2020,Sardinia,matrimonio villa,1.0
+2020,Sardinia,matrimonio castello,0.0
+2020,Sicily,matrimonio ristorante,0.17
+2020,Sicily,matrimonio cascina,0.0
+2020,Sicily,matrimonio borgo,0.0
+2020,Sicily,matrimonio villa,0.51
+2020,Sicily,matrimonio castello,0.32
+2020,Trentino-Alto Adige/South Tyrol,matrimonio ristorante,0.0
+2020,Trentino-Alto Adige/South Tyrol,matrimonio cascina,0.0
+2020,Trentino-Alto Adige/South Tyrol,matrimonio borgo,0.0
+2020,Trentino-Alto Adige/South Tyrol,matrimonio villa,1.0
+2020,Trentino-Alto Adige/South Tyrol,matrimonio castello,0.0
+2020,Tuscany,matrimonio ristorante,0.25
+2020,Tuscany,matrimonio cascina,0.0
+2020,Tuscany,matrimonio borgo,0.0
+2020,Tuscany,matrimonio villa,0.47
+2020,Tuscany,matrimonio castello,0.28
+2020,Umbria,matrimonio ristorante,0.0
+2020,Umbria,matrimonio cascina,0.0
+2020,Umbria,matrimonio borgo,0.0
+2020,Umbria,matrimonio villa,1.0
+2020,Umbria,matrimonio castello,0.0
+2020,Veneto,matrimonio ristorante,0.25
+2020,Veneto,matrimonio cascina,0.0
+2020,Veneto,matrimonio borgo,0.0
+2020,Veneto,matrimonio villa,0.44
+2020,Veneto,matrimonio castello,0.31

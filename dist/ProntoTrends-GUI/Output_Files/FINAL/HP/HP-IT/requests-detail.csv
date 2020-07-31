@@ -1,0 +1,3361 @@
+ticket_taxonomy_tag_name,ticket_geo_region_name,Year,Month,Distribution_of_tickets
+Nutrizionista,Abruzzo,2019,0,0.05
+Nutrizionista,Abruzzo,2019,1,0.09
+Nutrizionista,Abruzzo,2019,2,0.09
+Nutrizionista,Abruzzo,2019,3,0.10
+Nutrizionista,Abruzzo,2019,4,0.12
+Nutrizionista,Abruzzo,2019,5,0.08
+Nutrizionista,Abruzzo,2019,6,0.06
+Nutrizionista,Abruzzo,2019,7,0.09
+Nutrizionista,Abruzzo,2019,8,0.11
+Nutrizionista,Abruzzo,2019,9,0.08
+Nutrizionista,Abruzzo,2019,10,0.07
+Nutrizionista,Abruzzo,2019,11,0.04
+Nutrizionista,Abruzzo,2020,0,0.47
+Nutrizionista,Abruzzo,2020,1,0.29
+Nutrizionista,Abruzzo,2020,2,0.12
+Nutrizionista,Abruzzo,2020,3,0.12
+Nutrizionista,Basilicata,2019,0,0.05
+Nutrizionista,Basilicata,2019,1,0.10
+Nutrizionista,Basilicata,2019,2,0.13
+Nutrizionista,Basilicata,2019,3,0.07
+Nutrizionista,Basilicata,2019,4,0.10
+Nutrizionista,Basilicata,2019,5,0.07
+Nutrizionista,Basilicata,2019,6,0.08
+Nutrizionista,Basilicata,2019,7,0.09
+Nutrizionista,Basilicata,2019,8,0.11
+Nutrizionista,Basilicata,2019,9,0.09
+Nutrizionista,Basilicata,2019,10,0.10
+Nutrizionista,Basilicata,2019,11,0.03
+Nutrizionista,Basilicata,2020,0,0.53
+Nutrizionista,Basilicata,2020,1,0.26
+Nutrizionista,Basilicata,2020,2,0.15
+Nutrizionista,Basilicata,2020,3,0.06
+Nutrizionista,Calabria,2019,0,0.04
+Nutrizionista,Calabria,2019,1,0.06
+Nutrizionista,Calabria,2019,2,0.11
+Nutrizionista,Calabria,2019,3,0.12
+Nutrizionista,Calabria,2019,4,0.10
+Nutrizionista,Calabria,2019,5,0.10
+Nutrizionista,Calabria,2019,6,0.07
+Nutrizionista,Calabria,2019,7,0.09
+Nutrizionista,Calabria,2019,8,0.11
+Nutrizionista,Calabria,2019,9,0.10
+Nutrizionista,Calabria,2019,10,0.06
+Nutrizionista,Calabria,2019,11,0.05
+Nutrizionista,Calabria,2020,0,0.42
+Nutrizionista,Calabria,2020,1,0.31
+Nutrizionista,Calabria,2020,2,0.18
+Nutrizionista,Calabria,2020,3,0.08
+Nutrizionista,Campania,2019,0,0.05
+Nutrizionista,Campania,2019,1,0.05
+Nutrizionista,Campania,2019,2,0.11
+Nutrizionista,Campania,2019,3,0.11
+Nutrizionista,Campania,2019,4,0.14
+Nutrizionista,Campania,2019,5,0.08
+Nutrizionista,Campania,2019,6,0.06
+Nutrizionista,Campania,2019,7,0.07
+Nutrizionista,Campania,2019,8,0.12
+Nutrizionista,Campania,2019,9,0.10
+Nutrizionista,Campania,2019,10,0.06
+Nutrizionista,Campania,2019,11,0.04
+Nutrizionista,Campania,2020,0,0.47
+Nutrizionista,Campania,2020,1,0.27
+Nutrizionista,Campania,2020,2,0.17
+Nutrizionista,Campania,2020,3,0.09
+Nutrizionista,Emilia-Romagna,2019,0,0.06
+Nutrizionista,Emilia-Romagna,2019,1,0.08
+Nutrizionista,Emilia-Romagna,2019,2,0.10
+Nutrizionista,Emilia-Romagna,2019,3,0.09
+Nutrizionista,Emilia-Romagna,2019,4,0.12
+Nutrizionista,Emilia-Romagna,2019,5,0.10
+Nutrizionista,Emilia-Romagna,2019,6,0.06
+Nutrizionista,Emilia-Romagna,2019,7,0.07
+Nutrizionista,Emilia-Romagna,2019,8,0.10
+Nutrizionista,Emilia-Romagna,2019,9,0.09
+Nutrizionista,Emilia-Romagna,2019,10,0.07
+Nutrizionista,Emilia-Romagna,2019,11,0.05
+Nutrizionista,Emilia-Romagna,2020,0,0.48
+Nutrizionista,Emilia-Romagna,2020,1,0.30
+Nutrizionista,Emilia-Romagna,2020,2,0.13
+Nutrizionista,Emilia-Romagna,2020,3,0.08
+Nutrizionista,Friuli Venezia Giulia,2019,0,0.03
+Nutrizionista,Friuli Venezia Giulia,2019,1,0.05
+Nutrizionista,Friuli Venezia Giulia,2019,2,0.08
+Nutrizionista,Friuli Venezia Giulia,2019,3,0.09
+Nutrizionista,Friuli Venezia Giulia,2019,4,0.14
+Nutrizionista,Friuli Venezia Giulia,2019,5,0.10
+Nutrizionista,Friuli Venezia Giulia,2019,6,0.07
+Nutrizionista,Friuli Venezia Giulia,2019,7,0.09
+Nutrizionista,Friuli Venezia Giulia,2019,8,0.11
+Nutrizionista,Friuli Venezia Giulia,2019,9,0.09
+Nutrizionista,Friuli Venezia Giulia,2019,10,0.11
+Nutrizionista,Friuli Venezia Giulia,2019,11,0.05
+Nutrizionista,Friuli Venezia Giulia,2020,0,0.49
+Nutrizionista,Friuli Venezia Giulia,2020,1,0.32
+Nutrizionista,Friuli Venezia Giulia,2020,2,0.12
+Nutrizionista,Friuli Venezia Giulia,2020,3,0.07
+Nutrizionista,Italia,2019,0,0.06
+Nutrizionista,Italia,2019,1,0.07
+Nutrizionista,Italia,2019,2,0.10
+Nutrizionista,Italia,2019,3,0.09
+Nutrizionista,Italia,2019,4,0.12
+Nutrizionista,Italia,2019,5,0.09
+Nutrizionista,Italia,2019,6,0.06
+Nutrizionista,Italia,2019,7,0.08
+Nutrizionista,Italia,2019,8,0.11
+Nutrizionista,Italia,2019,9,0.09
+Nutrizionista,Italia,2019,10,0.07
+Nutrizionista,Italia,2019,11,0.05
+Nutrizionista,Italia,2020,0,0.47
+Nutrizionista,Italia,2020,1,0.30
+Nutrizionista,Italia,2020,2,0.13
+Nutrizionista,Italia,2020,3,0.10
+Nutrizionista,Lazio,2019,0,0.05
+Nutrizionista,Lazio,2019,1,0.07
+Nutrizionista,Lazio,2019,2,0.09
+Nutrizionista,Lazio,2019,3,0.10
+Nutrizionista,Lazio,2019,4,0.13
+Nutrizionista,Lazio,2019,5,0.09
+Nutrizionista,Lazio,2019,6,0.06
+Nutrizionista,Lazio,2019,7,0.08
+Nutrizionista,Lazio,2019,8,0.11
+Nutrizionista,Lazio,2019,9,0.10
+Nutrizionista,Lazio,2019,10,0.07
+Nutrizionista,Lazio,2019,11,0.05
+Nutrizionista,Lazio,2020,0,0.48
+Nutrizionista,Lazio,2020,1,0.29
+Nutrizionista,Lazio,2020,2,0.13
+Nutrizionista,Lazio,2020,3,0.10
+Nutrizionista,Liguria,2019,0,0.05
+Nutrizionista,Liguria,2019,1,0.08
+Nutrizionista,Liguria,2019,2,0.08
+Nutrizionista,Liguria,2019,3,0.09
+Nutrizionista,Liguria,2019,4,0.13
+Nutrizionista,Liguria,2019,5,0.13
+Nutrizionista,Liguria,2019,6,0.07
+Nutrizionista,Liguria,2019,7,0.07
+Nutrizionista,Liguria,2019,8,0.10
+Nutrizionista,Liguria,2019,9,0.10
+Nutrizionista,Liguria,2019,10,0.08
+Nutrizionista,Liguria,2019,11,0.04
+Nutrizionista,Liguria,2020,0,0.49
+Nutrizionista,Liguria,2020,1,0.25
+Nutrizionista,Liguria,2020,2,0.13
+Nutrizionista,Liguria,2020,3,0.13
+Nutrizionista,Lombardia,2019,0,0.06
+Nutrizionista,Lombardia,2019,1,0.08
+Nutrizionista,Lombardia,2019,2,0.09
+Nutrizionista,Lombardia,2019,3,0.09
+Nutrizionista,Lombardia,2019,4,0.12
+Nutrizionista,Lombardia,2019,5,0.09
+Nutrizionista,Lombardia,2019,6,0.06
+Nutrizionista,Lombardia,2019,7,0.08
+Nutrizionista,Lombardia,2019,8,0.11
+Nutrizionista,Lombardia,2019,9,0.09
+Nutrizionista,Lombardia,2019,10,0.07
+Nutrizionista,Lombardia,2019,11,0.05
+Nutrizionista,Lombardia,2020,0,0.49
+Nutrizionista,Lombardia,2020,1,0.30
+Nutrizionista,Lombardia,2020,2,0.11
+Nutrizionista,Lombardia,2020,3,0.10
+Nutrizionista,Marche,2019,0,0.07
+Nutrizionista,Marche,2019,1,0.07
+Nutrizionista,Marche,2019,2,0.09
+Nutrizionista,Marche,2019,3,0.10
+Nutrizionista,Marche,2019,4,0.13
+Nutrizionista,Marche,2019,5,0.10
+Nutrizionista,Marche,2019,6,0.05
+Nutrizionista,Marche,2019,7,0.08
+Nutrizionista,Marche,2019,8,0.10
+Nutrizionista,Marche,2019,9,0.09
+Nutrizionista,Marche,2019,10,0.07
+Nutrizionista,Marche,2019,11,0.05
+Nutrizionista,Marche,2020,0,0.45
+Nutrizionista,Marche,2020,1,0.27
+Nutrizionista,Marche,2020,2,0.16
+Nutrizionista,Marche,2020,3,0.11
+Nutrizionista,Molise,2019,0,0.06
+Nutrizionista,Molise,2019,1,0.05
+Nutrizionista,Molise,2019,2,0.10
+Nutrizionista,Molise,2019,3,0.10
+Nutrizionista,Molise,2019,4,0.10
+Nutrizionista,Molise,2019,5,0.10
+Nutrizionista,Molise,2019,6,0.10
+Nutrizionista,Molise,2019,7,0.10
+Nutrizionista,Molise,2019,8,0.09
+Nutrizionista,Molise,2019,9,0.10
+Nutrizionista,Molise,2019,10,0.07
+Nutrizionista,Molise,2019,11,0.03
+Nutrizionista,Molise,2020,0,0.34
+Nutrizionista,Molise,2020,1,0.37
+Nutrizionista,Molise,2020,2,0.17
+Nutrizionista,Molise,2020,3,0.11
+Nutrizionista,Piemonte,2019,0,0.06
+Nutrizionista,Piemonte,2019,1,0.07
+Nutrizionista,Piemonte,2019,2,0.10
+Nutrizionista,Piemonte,2019,3,0.10
+Nutrizionista,Piemonte,2019,4,0.12
+Nutrizionista,Piemonte,2019,5,0.10
+Nutrizionista,Piemonte,2019,6,0.07
+Nutrizionista,Piemonte,2019,7,0.07
+Nutrizionista,Piemonte,2019,8,0.10
+Nutrizionista,Piemonte,2019,9,0.09
+Nutrizionista,Piemonte,2019,10,0.07
+Nutrizionista,Piemonte,2019,11,0.05
+Nutrizionista,Piemonte,2020,0,0.46
+Nutrizionista,Piemonte,2020,1,0.33
+Nutrizionista,Piemonte,2020,2,0.11
+Nutrizionista,Piemonte,2020,3,0.09
+Nutrizionista,Puglia,2019,0,0.05
+Nutrizionista,Puglia,2019,1,0.08
+Nutrizionista,Puglia,2019,2,0.12
+Nutrizionista,Puglia,2019,3,0.09
+Nutrizionista,Puglia,2019,4,0.10
+Nutrizionista,Puglia,2019,5,0.07
+Nutrizionista,Puglia,2019,6,0.07
+Nutrizionista,Puglia,2019,7,0.09
+Nutrizionista,Puglia,2019,8,0.11
+Nutrizionista,Puglia,2019,9,0.10
+Nutrizionista,Puglia,2019,10,0.06
+Nutrizionista,Puglia,2019,11,0.05
+Nutrizionista,Puglia,2020,0,0.49
+Nutrizionista,Puglia,2020,1,0.30
+Nutrizionista,Puglia,2020,2,0.11
+Nutrizionista,Puglia,2020,3,0.10
+Nutrizionista,Sardegna,2019,0,0.06
+Nutrizionista,Sardegna,2019,1,0.06
+Nutrizionista,Sardegna,2019,2,0.12
+Nutrizionista,Sardegna,2019,3,0.10
+Nutrizionista,Sardegna,2019,4,0.13
+Nutrizionista,Sardegna,2019,5,0.08
+Nutrizionista,Sardegna,2019,6,0.07
+Nutrizionista,Sardegna,2019,7,0.06
+Nutrizionista,Sardegna,2019,8,0.10
+Nutrizionista,Sardegna,2019,9,0.10
+Nutrizionista,Sardegna,2019,10,0.08
+Nutrizionista,Sardegna,2019,11,0.05
+Nutrizionista,Sardegna,2020,0,0.45
+Nutrizionista,Sardegna,2020,1,0.30
+Nutrizionista,Sardegna,2020,2,0.16
+Nutrizionista,Sardegna,2020,3,0.10
+Nutrizionista,Sicilia,2019,0,0.04
+Nutrizionista,Sicilia,2019,1,0.07
+Nutrizionista,Sicilia,2019,2,0.09
+Nutrizionista,Sicilia,2019,3,0.08
+Nutrizionista,Sicilia,2019,4,0.12
+Nutrizionista,Sicilia,2019,5,0.09
+Nutrizionista,Sicilia,2019,6,0.07
+Nutrizionista,Sicilia,2019,7,0.08
+Nutrizionista,Sicilia,2019,8,0.11
+Nutrizionista,Sicilia,2019,9,0.12
+Nutrizionista,Sicilia,2019,10,0.09
+Nutrizionista,Sicilia,2019,11,0.05
+Nutrizionista,Sicilia,2020,0,0.48
+Nutrizionista,Sicilia,2020,1,0.29
+Nutrizionista,Sicilia,2020,2,0.13
+Nutrizionista,Sicilia,2020,3,0.11
+Nutrizionista,Toscana,2019,0,0.05
+Nutrizionista,Toscana,2019,1,0.08
+Nutrizionista,Toscana,2019,2,0.11
+Nutrizionista,Toscana,2019,3,0.09
+Nutrizionista,Toscana,2019,4,0.12
+Nutrizionista,Toscana,2019,5,0.09
+Nutrizionista,Toscana,2019,6,0.06
+Nutrizionista,Toscana,2019,7,0.08
+Nutrizionista,Toscana,2019,8,0.11
+Nutrizionista,Toscana,2019,9,0.09
+Nutrizionista,Toscana,2019,10,0.07
+Nutrizionista,Toscana,2019,11,0.05
+Nutrizionista,Toscana,2020,0,0.45
+Nutrizionista,Toscana,2020,1,0.32
+Nutrizionista,Toscana,2020,2,0.16
+Nutrizionista,Toscana,2020,3,0.07
+Nutrizionista,Trentino-Alto Adige,2019,0,0.04
+Nutrizionista,Trentino-Alto Adige,2019,1,0.06
+Nutrizionista,Trentino-Alto Adige,2019,2,0.10
+Nutrizionista,Trentino-Alto Adige,2019,3,0.10
+Nutrizionista,Trentino-Alto Adige,2019,4,0.12
+Nutrizionista,Trentino-Alto Adige,2019,5,0.13
+Nutrizionista,Trentino-Alto Adige,2019,6,0.07
+Nutrizionista,Trentino-Alto Adige,2019,7,0.08
+Nutrizionista,Trentino-Alto Adige,2019,8,0.09
+Nutrizionista,Trentino-Alto Adige,2019,9,0.07
+Nutrizionista,Trentino-Alto Adige,2019,10,0.08
+Nutrizionista,Trentino-Alto Adige,2019,11,0.06
+Nutrizionista,Trentino-Alto Adige,2020,0,0.43
+Nutrizionista,Trentino-Alto Adige,2020,1,0.31
+Nutrizionista,Trentino-Alto Adige,2020,2,0.12
+Nutrizionista,Trentino-Alto Adige,2020,3,0.14
+Nutrizionista,Umbria,2019,0,0.06
+Nutrizionista,Umbria,2019,1,0.07
+Nutrizionista,Umbria,2019,2,0.11
+Nutrizionista,Umbria,2019,3,0.11
+Nutrizionista,Umbria,2019,4,0.11
+Nutrizionista,Umbria,2019,5,0.11
+Nutrizionista,Umbria,2019,6,0.08
+Nutrizionista,Umbria,2019,7,0.08
+Nutrizionista,Umbria,2019,8,0.09
+Nutrizionista,Umbria,2019,9,0.09
+Nutrizionista,Umbria,2019,10,0.07
+Nutrizionista,Umbria,2019,11,0.03
+Nutrizionista,Umbria,2020,0,0.39
+Nutrizionista,Umbria,2020,1,0.38
+Nutrizionista,Umbria,2020,2,0.12
+Nutrizionista,Umbria,2020,3,0.11
+Nutrizionista,Valle d'Aosta,2019,0,0.00
+Nutrizionista,Valle d'Aosta,2019,1,0.00
+Nutrizionista,Valle d'Aosta,2019,2,0.00
+Nutrizionista,Valle d'Aosta,2019,3,0.00
+Nutrizionista,Valle d'Aosta,2019,4,0.13
+Nutrizionista,Valle d'Aosta,2019,5,0.00
+Nutrizionista,Valle d'Aosta,2019,6,0.13
+Nutrizionista,Valle d'Aosta,2019,7,0.13
+Nutrizionista,Valle d'Aosta,2019,8,0.00
+Nutrizionista,Valle d'Aosta,2019,9,0.25
+Nutrizionista,Valle d'Aosta,2019,10,0.38
+Nutrizionista,Valle d'Aosta,2019,11,0.00
+Nutrizionista,Valle d'Aosta,2020,0,1.00
+Nutrizionista,Valle d'Aosta,2020,1,0.00
+Nutrizionista,Valle d'Aosta,2020,2,0.00
+Nutrizionista,Valle d'Aosta,2020,3,0.00
+Nutrizionista,Veneto,2019,0,0.06
+Nutrizionista,Veneto,2019,1,0.07
+Nutrizionista,Veneto,2019,2,0.09
+Nutrizionista,Veneto,2019,3,0.10
+Nutrizionista,Veneto,2019,4,0.13
+Nutrizionista,Veneto,2019,5,0.10
+Nutrizionista,Veneto,2019,6,0.06
+Nutrizionista,Veneto,2019,7,0.07
+Nutrizionista,Veneto,2019,8,0.11
+Nutrizionista,Veneto,2019,9,0.08
+Nutrizionista,Veneto,2019,10,0.07
+Nutrizionista,Veneto,2019,11,0.06
+Nutrizionista,Veneto,2020,0,0.42
+Nutrizionista,Veneto,2020,1,0.33
+Nutrizionista,Veneto,2020,2,0.14
+Nutrizionista,Veneto,2020,3,0.11
+Idraulico,Abruzzo,2019,0,0.08
+Idraulico,Abruzzo,2019,1,0.06
+Idraulico,Abruzzo,2019,2,0.05
+Idraulico,Abruzzo,2019,3,0.04
+Idraulico,Abruzzo,2019,4,0.10
+Idraulico,Abruzzo,2019,5,0.09
+Idraulico,Abruzzo,2019,6,0.11
+Idraulico,Abruzzo,2019,7,0.10
+Idraulico,Abruzzo,2019,8,0.11
+Idraulico,Abruzzo,2019,9,0.09
+Idraulico,Abruzzo,2019,10,0.10
+Idraulico,Abruzzo,2019,11,0.09
+Idraulico,Abruzzo,2020,0,0.25
+Idraulico,Abruzzo,2020,1,0.33
+Idraulico,Abruzzo,2020,2,0.25
+Idraulico,Abruzzo,2020,3,0.17
+Idraulico,Basilicata,2019,0,0.13
+Idraulico,Basilicata,2019,1,0.06
+Idraulico,Basilicata,2019,2,0.06
+Idraulico,Basilicata,2019,3,0.09
+Idraulico,Basilicata,2019,4,0.09
+Idraulico,Basilicata,2019,5,0.10
+Idraulico,Basilicata,2019,6,0.12
+Idraulico,Basilicata,2019,7,0.09
+Idraulico,Basilicata,2019,8,0.07
+Idraulico,Basilicata,2019,9,0.09
+Idraulico,Basilicata,2019,10,0.07
+Idraulico,Basilicata,2019,11,0.01
+Idraulico,Basilicata,2020,0,0.50
+Idraulico,Basilicata,2020,1,0.30
+Idraulico,Basilicata,2020,2,0.00
+Idraulico,Basilicata,2020,3,0.20
+Idraulico,Calabria,2019,0,0.08
+Idraulico,Calabria,2019,1,0.06
+Idraulico,Calabria,2019,2,0.09
+Idraulico,Calabria,2019,3,0.06
+Idraulico,Calabria,2019,4,0.09
+Idraulico,Calabria,2019,5,0.10
+Idraulico,Calabria,2019,6,0.09
+Idraulico,Calabria,2019,7,0.14
+Idraulico,Calabria,2019,8,0.09
+Idraulico,Calabria,2019,9,0.10
+Idraulico,Calabria,2019,10,0.03
+Idraulico,Calabria,2019,11,0.07
+Idraulico,Calabria,2020,0,0.30
+Idraulico,Calabria,2020,1,0.22
+Idraulico,Calabria,2020,2,0.25
+Idraulico,Calabria,2020,3,0.22
+Idraulico,Campania,2019,0,0.08
+Idraulico,Campania,2019,1,0.08
+Idraulico,Campania,2019,2,0.07
+Idraulico,Campania,2019,3,0.07
+Idraulico,Campania,2019,4,0.09
+Idraulico,Campania,2019,5,0.09
+Idraulico,Campania,2019,6,0.09
+Idraulico,Campania,2019,7,0.08
+Idraulico,Campania,2019,8,0.10
+Idraulico,Campania,2019,9,0.08
+Idraulico,Campania,2019,10,0.08
+Idraulico,Campania,2019,11,0.08
+Idraulico,Campania,2020,0,0.25
+Idraulico,Campania,2020,1,0.22
+Idraulico,Campania,2020,2,0.31
+Idraulico,Campania,2020,3,0.22
+Idraulico,Emilia-Romagna,2019,0,0.08
+Idraulico,Emilia-Romagna,2019,1,0.07
+Idraulico,Emilia-Romagna,2019,2,0.08
+Idraulico,Emilia-Romagna,2019,3,0.05
+Idraulico,Emilia-Romagna,2019,4,0.08
+Idraulico,Emilia-Romagna,2019,5,0.09
+Idraulico,Emilia-Romagna,2019,6,0.10
+Idraulico,Emilia-Romagna,2019,7,0.07
+Idraulico,Emilia-Romagna,2019,8,0.09
+Idraulico,Emilia-Romagna,2019,9,0.11
+Idraulico,Emilia-Romagna,2019,10,0.10
+Idraulico,Emilia-Romagna,2019,11,0.08
+Idraulico,Emilia-Romagna,2020,0,0.38
+Idraulico,Emilia-Romagna,2020,1,0.27
+Idraulico,Emilia-Romagna,2020,2,0.18
+Idraulico,Emilia-Romagna,2020,3,0.16
+Idraulico,Friuli Venezia Giulia,2019,0,0.07
+Idraulico,Friuli Venezia Giulia,2019,1,0.09
+Idraulico,Friuli Venezia Giulia,2019,2,0.09
+Idraulico,Friuli Venezia Giulia,2019,3,0.06
+Idraulico,Friuli Venezia Giulia,2019,4,0.07
+Idraulico,Friuli Venezia Giulia,2019,5,0.09
+Idraulico,Friuli Venezia Giulia,2019,6,0.10
+Idraulico,Friuli Venezia Giulia,2019,7,0.08
+Idraulico,Friuli Venezia Giulia,2019,8,0.10
+Idraulico,Friuli Venezia Giulia,2019,9,0.07
+Idraulico,Friuli Venezia Giulia,2019,10,0.09
+Idraulico,Friuli Venezia Giulia,2019,11,0.09
+Idraulico,Friuli Venezia Giulia,2020,0,0.29
+Idraulico,Friuli Venezia Giulia,2020,1,0.27
+Idraulico,Friuli Venezia Giulia,2020,2,0.22
+Idraulico,Friuli Venezia Giulia,2020,3,0.22
+Idraulico,Italia,2019,0,0.08
+Idraulico,Italia,2019,1,0.07
+Idraulico,Italia,2019,2,0.08
+Idraulico,Italia,2019,3,0.06
+Idraulico,Italia,2019,4,0.08
+Idraulico,Italia,2019,5,0.09
+Idraulico,Italia,2019,6,0.10
+Idraulico,Italia,2019,7,0.08
+Idraulico,Italia,2019,8,0.09
+Idraulico,Italia,2019,9,0.10
+Idraulico,Italia,2019,10,0.09
+Idraulico,Italia,2019,11,0.07
+Idraulico,Italia,2020,0,0.34
+Idraulico,Italia,2020,1,0.27
+Idraulico,Italia,2020,2,0.21
+Idraulico,Italia,2020,3,0.18
+Idraulico,Lazio,2019,0,0.10
+Idraulico,Lazio,2019,1,0.08
+Idraulico,Lazio,2019,2,0.07
+Idraulico,Lazio,2019,3,0.06
+Idraulico,Lazio,2019,4,0.09
+Idraulico,Lazio,2019,5,0.08
+Idraulico,Lazio,2019,6,0.10
+Idraulico,Lazio,2019,7,0.08
+Idraulico,Lazio,2019,8,0.08
+Idraulico,Lazio,2019,9,0.09
+Idraulico,Lazio,2019,10,0.10
+Idraulico,Lazio,2019,11,0.07
+Idraulico,Lazio,2020,0,0.33
+Idraulico,Lazio,2020,1,0.27
+Idraulico,Lazio,2020,2,0.20
+Idraulico,Lazio,2020,3,0.21
+Idraulico,Liguria,2019,0,0.08
+Idraulico,Liguria,2019,1,0.09
+Idraulico,Liguria,2019,2,0.09
+Idraulico,Liguria,2019,3,0.08
+Idraulico,Liguria,2019,4,0.06
+Idraulico,Liguria,2019,5,0.08
+Idraulico,Liguria,2019,6,0.12
+Idraulico,Liguria,2019,7,0.09
+Idraulico,Liguria,2019,8,0.06
+Idraulico,Liguria,2019,9,0.08
+Idraulico,Liguria,2019,10,0.11
+Idraulico,Liguria,2019,11,0.05
+Idraulico,Liguria,2020,0,0.30
+Idraulico,Liguria,2020,1,0.29
+Idraulico,Liguria,2020,2,0.22
+Idraulico,Liguria,2020,3,0.19
+Idraulico,Lombardia,2019,0,0.08
+Idraulico,Lombardia,2019,1,0.07
+Idraulico,Lombardia,2019,2,0.07
+Idraulico,Lombardia,2019,3,0.07
+Idraulico,Lombardia,2019,4,0.09
+Idraulico,Lombardia,2019,5,0.10
+Idraulico,Lombardia,2019,6,0.09
+Idraulico,Lombardia,2019,7,0.08
+Idraulico,Lombardia,2019,8,0.09
+Idraulico,Lombardia,2019,9,0.10
+Idraulico,Lombardia,2019,10,0.09
+Idraulico,Lombardia,2019,11,0.07
+Idraulico,Lombardia,2020,0,0.34
+Idraulico,Lombardia,2020,1,0.29
+Idraulico,Lombardia,2020,2,0.20
+Idraulico,Lombardia,2020,3,0.18
+Idraulico,Marche,2019,0,0.10
+Idraulico,Marche,2019,1,0.09
+Idraulico,Marche,2019,2,0.07
+Idraulico,Marche,2019,3,0.07
+Idraulico,Marche,2019,4,0.07
+Idraulico,Marche,2019,5,0.08
+Idraulico,Marche,2019,6,0.09
+Idraulico,Marche,2019,7,0.10
+Idraulico,Marche,2019,8,0.08
+Idraulico,Marche,2019,9,0.10
+Idraulico,Marche,2019,10,0.08
+Idraulico,Marche,2019,11,0.07
+Idraulico,Marche,2020,0,0.33
+Idraulico,Marche,2020,1,0.30
+Idraulico,Marche,2020,2,0.16
+Idraulico,Marche,2020,3,0.20
+Idraulico,Molise,2019,0,0.10
+Idraulico,Molise,2019,1,0.07
+Idraulico,Molise,2019,2,0.07
+Idraulico,Molise,2019,3,0.00
+Idraulico,Molise,2019,4,0.02
+Idraulico,Molise,2019,5,0.10
+Idraulico,Molise,2019,6,0.12
+Idraulico,Molise,2019,7,0.17
+Idraulico,Molise,2019,8,0.19
+Idraulico,Molise,2019,9,0.05
+Idraulico,Molise,2019,10,0.07
+Idraulico,Molise,2019,11,0.05
+Idraulico,Molise,2020,0,0.43
+Idraulico,Molise,2020,1,0.29
+Idraulico,Molise,2020,2,0.29
+Idraulico,Molise,2020,3,0.00
+Idraulico,Piemonte,2019,0,0.07
+Idraulico,Piemonte,2019,1,0.07
+Idraulico,Piemonte,2019,2,0.07
+Idraulico,Piemonte,2019,3,0.06
+Idraulico,Piemonte,2019,4,0.09
+Idraulico,Piemonte,2019,5,0.08
+Idraulico,Piemonte,2019,6,0.11
+Idraulico,Piemonte,2019,7,0.08
+Idraulico,Piemonte,2019,8,0.10
+Idraulico,Piemonte,2019,9,0.10
+Idraulico,Piemonte,2019,10,0.10
+Idraulico,Piemonte,2019,11,0.07
+Idraulico,Piemonte,2020,0,0.34
+Idraulico,Piemonte,2020,1,0.30
+Idraulico,Piemonte,2020,2,0.21
+Idraulico,Piemonte,2020,3,0.15
+Idraulico,Puglia,2019,0,0.09
+Idraulico,Puglia,2019,1,0.08
+Idraulico,Puglia,2019,2,0.08
+Idraulico,Puglia,2019,3,0.07
+Idraulico,Puglia,2019,4,0.07
+Idraulico,Puglia,2019,5,0.10
+Idraulico,Puglia,2019,6,0.11
+Idraulico,Puglia,2019,7,0.11
+Idraulico,Puglia,2019,8,0.10
+Idraulico,Puglia,2019,9,0.07
+Idraulico,Puglia,2019,10,0.07
+Idraulico,Puglia,2019,11,0.05
+Idraulico,Puglia,2020,0,0.31
+Idraulico,Puglia,2020,1,0.28
+Idraulico,Puglia,2020,2,0.24
+Idraulico,Puglia,2020,3,0.17
+Idraulico,Sardegna,2019,0,0.06
+Idraulico,Sardegna,2019,1,0.06
+Idraulico,Sardegna,2019,2,0.09
+Idraulico,Sardegna,2019,3,0.07
+Idraulico,Sardegna,2019,4,0.06
+Idraulico,Sardegna,2019,5,0.08
+Idraulico,Sardegna,2019,6,0.12
+Idraulico,Sardegna,2019,7,0.09
+Idraulico,Sardegna,2019,8,0.10
+Idraulico,Sardegna,2019,9,0.10
+Idraulico,Sardegna,2019,10,0.10
+Idraulico,Sardegna,2019,11,0.08
+Idraulico,Sardegna,2020,0,0.28
+Idraulico,Sardegna,2020,1,0.28
+Idraulico,Sardegna,2020,2,0.18
+Idraulico,Sardegna,2020,3,0.27
+Idraulico,Sicilia,2019,0,0.06
+Idraulico,Sicilia,2019,1,0.06
+Idraulico,Sicilia,2019,2,0.08
+Idraulico,Sicilia,2019,3,0.05
+Idraulico,Sicilia,2019,4,0.08
+Idraulico,Sicilia,2019,5,0.08
+Idraulico,Sicilia,2019,6,0.12
+Idraulico,Sicilia,2019,7,0.10
+Idraulico,Sicilia,2019,8,0.10
+Idraulico,Sicilia,2019,9,0.09
+Idraulico,Sicilia,2019,10,0.09
+Idraulico,Sicilia,2019,11,0.09
+Idraulico,Sicilia,2020,0,0.30
+Idraulico,Sicilia,2020,1,0.16
+Idraulico,Sicilia,2020,2,0.31
+Idraulico,Sicilia,2020,3,0.23
+Idraulico,Toscana,2019,0,0.08
+Idraulico,Toscana,2019,1,0.07
+Idraulico,Toscana,2019,2,0.07
+Idraulico,Toscana,2019,3,0.06
+Idraulico,Toscana,2019,4,0.08
+Idraulico,Toscana,2019,5,0.08
+Idraulico,Toscana,2019,6,0.12
+Idraulico,Toscana,2019,7,0.09
+Idraulico,Toscana,2019,8,0.08
+Idraulico,Toscana,2019,9,0.08
+Idraulico,Toscana,2019,10,0.09
+Idraulico,Toscana,2019,11,0.09
+Idraulico,Toscana,2020,0,0.34
+Idraulico,Toscana,2020,1,0.27
+Idraulico,Toscana,2020,2,0.22
+Idraulico,Toscana,2020,3,0.17
+Idraulico,Trentino-Alto Adige,2019,0,0.05
+Idraulico,Trentino-Alto Adige,2019,1,0.07
+Idraulico,Trentino-Alto Adige,2019,2,0.11
+Idraulico,Trentino-Alto Adige,2019,3,0.09
+Idraulico,Trentino-Alto Adige,2019,4,0.11
+Idraulico,Trentino-Alto Adige,2019,5,0.07
+Idraulico,Trentino-Alto Adige,2019,6,0.10
+Idraulico,Trentino-Alto Adige,2019,7,0.08
+Idraulico,Trentino-Alto Adige,2019,8,0.10
+Idraulico,Trentino-Alto Adige,2019,9,0.07
+Idraulico,Trentino-Alto Adige,2019,10,0.09
+Idraulico,Trentino-Alto Adige,2019,11,0.06
+Idraulico,Trentino-Alto Adige,2020,0,0.38
+Idraulico,Trentino-Alto Adige,2020,1,0.25
+Idraulico,Trentino-Alto Adige,2020,2,0.21
+Idraulico,Trentino-Alto Adige,2020,3,0.16
+Idraulico,Umbria,2019,0,0.04
+Idraulico,Umbria,2019,1,0.06
+Idraulico,Umbria,2019,2,0.09
+Idraulico,Umbria,2019,3,0.04
+Idraulico,Umbria,2019,4,0.06
+Idraulico,Umbria,2019,5,0.11
+Idraulico,Umbria,2019,6,0.11
+Idraulico,Umbria,2019,7,0.07
+Idraulico,Umbria,2019,8,0.10
+Idraulico,Umbria,2019,9,0.10
+Idraulico,Umbria,2019,10,0.11
+Idraulico,Umbria,2019,11,0.09
+Idraulico,Umbria,2020,0,0.39
+Idraulico,Umbria,2020,1,0.28
+Idraulico,Umbria,2020,2,0.21
+Idraulico,Umbria,2020,3,0.12
+Idraulico,Valle d'Aosta,2019,0,0.11
+Idraulico,Valle d'Aosta,2019,1,0.08
+Idraulico,Valle d'Aosta,2019,2,0.03
+Idraulico,Valle d'Aosta,2019,3,0.14
+Idraulico,Valle d'Aosta,2019,4,0.08
+Idraulico,Valle d'Aosta,2019,5,0.08
+Idraulico,Valle d'Aosta,2019,6,0.03
+Idraulico,Valle d'Aosta,2019,7,0.14
+Idraulico,Valle d'Aosta,2019,8,0.08
+Idraulico,Valle d'Aosta,2019,9,0.05
+Idraulico,Valle d'Aosta,2019,10,0.11
+Idraulico,Valle d'Aosta,2019,11,0.08
+Idraulico,Valle d'Aosta,2020,0,0.50
+Idraulico,Valle d'Aosta,2020,1,0.17
+Idraulico,Valle d'Aosta,2020,2,0.17
+Idraulico,Valle d'Aosta,2020,3,0.17
+Idraulico,Veneto,2019,0,0.08
+Idraulico,Veneto,2019,1,0.07
+Idraulico,Veneto,2019,2,0.09
+Idraulico,Veneto,2019,3,0.07
+Idraulico,Veneto,2019,4,0.08
+Idraulico,Veneto,2019,5,0.11
+Idraulico,Veneto,2019,6,0.09
+Idraulico,Veneto,2019,7,0.06
+Idraulico,Veneto,2019,8,0.08
+Idraulico,Veneto,2019,9,0.11
+Idraulico,Veneto,2019,10,0.09
+Idraulico,Veneto,2019,11,0.07
+Idraulico,Veneto,2020,0,0.38
+Idraulico,Veneto,2020,1,0.28
+Idraulico,Veneto,2020,2,0.16
+Idraulico,Veneto,2020,3,0.17
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,0,0.06
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,1,0.06
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,2,0.12
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,3,0.12
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,4,0.12
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,5,0.09
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,6,0.07
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,7,0.07
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,8,0.09
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,9,0.09
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,10,0.07
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2019,11,0.04
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2020,0,0.30
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2020,1,0.26
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2020,2,0.18
+Imbiancatura o tinteggiatura pareti interne,Abruzzo,2020,3,0.26
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,0,0.13
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,1,0.04
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,2,0.21
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,3,0.07
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,4,0.06
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,5,0.13
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,6,0.07
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,7,0.08
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,8,0.09
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,9,0.03
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,10,0.05
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2019,11,0.02
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2020,0,0.21
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2020,1,0.25
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2020,2,0.36
+Imbiancatura o tinteggiatura pareti interne,Basilicata,2020,3,0.18
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,0,0.12
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,1,0.08
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,2,0.13
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,3,0.11
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,4,0.07
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,5,0.09
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,6,0.07
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,7,0.05
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,8,0.11
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,9,0.09
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,10,0.06
+Imbiancatura o tinteggiatura pareti interne,Calabria,2019,11,0.03
+Imbiancatura o tinteggiatura pareti interne,Calabria,2020,0,0.28
+Imbiancatura o tinteggiatura pareti interne,Calabria,2020,1,0.27
+Imbiancatura o tinteggiatura pareti interne,Calabria,2020,2,0.23
+Imbiancatura o tinteggiatura pareti interne,Calabria,2020,3,0.22
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,0,0.08
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,1,0.08
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,2,0.13
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,3,0.11
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,4,0.11
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,5,0.11
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,6,0.05
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,7,0.04
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,8,0.10
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,9,0.10
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,10,0.06
+Imbiancatura o tinteggiatura pareti interne,Campania,2019,11,0.03
+Imbiancatura o tinteggiatura pareti interne,Campania,2020,0,0.27
+Imbiancatura o tinteggiatura pareti interne,Campania,2020,1,0.30
+Imbiancatura o tinteggiatura pareti interne,Campania,2020,2,0.20
+Imbiancatura o tinteggiatura pareti interne,Campania,2020,3,0.22
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,0,0.08
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,1,0.07
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,2,0.13
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,3,0.09
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,4,0.11
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,5,0.10
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,6,0.07
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,7,0.08
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,8,0.09
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,9,0.08
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,10,0.06
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2019,11,0.04
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2020,0,0.26
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2020,1,0.30
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2020,2,0.19
+Imbiancatura o tinteggiatura pareti interne,Emilia-Romagna,2020,3,0.25
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,0,0.08
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,1,0.08
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,2,0.14
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,3,0.11
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,4,0.10
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,5,0.12
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,6,0.08
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,7,0.07
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,8,0.07
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,9,0.08
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,10,0.06
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2019,11,0.03
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2020,0,0.21
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2020,1,0.35
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2020,2,0.18
+Imbiancatura o tinteggiatura pareti interne,Friuli Venezia Giulia,2020,3,0.26
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,0,0.08
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,1,0.08
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,2,0.12
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,3,0.10
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,4,0.11
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,5,0.09
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,6,0.08
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,7,0.06
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,8,0.09
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,9,0.08
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,10,0.07
+Imbiancatura o tinteggiatura pareti interne,Italia,2019,11,0.04
+Imbiancatura o tinteggiatura pareti interne,Italia,2020,0,0.25
+Imbiancatura o tinteggiatura pareti interne,Italia,2020,1,0.31
+Imbiancatura o tinteggiatura pareti interne,Italia,2020,2,0.19
+Imbiancatura o tinteggiatura pareti interne,Italia,2020,3,0.25
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,0,0.08
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,1,0.08
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,2,0.12
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,3,0.10
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,4,0.12
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,5,0.09
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,6,0.07
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,7,0.06
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,8,0.10
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,9,0.08
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,10,0.07
+Imbiancatura o tinteggiatura pareti interne,Lazio,2019,11,0.04
+Imbiancatura o tinteggiatura pareti interne,Lazio,2020,0,0.25
+Imbiancatura o tinteggiatura pareti interne,Lazio,2020,1,0.30
+Imbiancatura o tinteggiatura pareti interne,Lazio,2020,2,0.22
+Imbiancatura o tinteggiatura pareti interne,Lazio,2020,3,0.23
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,0,0.08
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,1,0.07
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,2,0.13
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,3,0.09
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,4,0.09
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,5,0.08
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,6,0.07
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,7,0.07
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,8,0.10
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,9,0.11
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,10,0.08
+Imbiancatura o tinteggiatura pareti interne,Liguria,2019,11,0.03
+Imbiancatura o tinteggiatura pareti interne,Liguria,2020,0,0.28
+Imbiancatura o tinteggiatura pareti interne,Liguria,2020,1,0.32
+Imbiancatura o tinteggiatura pareti interne,Liguria,2020,2,0.19
+Imbiancatura o tinteggiatura pareti interne,Liguria,2020,3,0.21
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,0,0.09
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,1,0.08
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,2,0.12
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,3,0.10
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,4,0.11
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,5,0.10
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,6,0.08
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,7,0.06
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,8,0.09
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,9,0.08
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,10,0.07
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2019,11,0.04
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2020,0,0.25
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2020,1,0.32
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2020,2,0.18
+Imbiancatura o tinteggiatura pareti interne,Lombardia,2020,3,0.25
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,0,0.08
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,1,0.09
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,2,0.13
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,3,0.12
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,4,0.11
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,5,0.08
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,6,0.07
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,7,0.07
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,8,0.08
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,9,0.09
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,10,0.06
+Imbiancatura o tinteggiatura pareti interne,Marche,2019,11,0.03
+Imbiancatura o tinteggiatura pareti interne,Marche,2020,0,0.23
+Imbiancatura o tinteggiatura pareti interne,Marche,2020,1,0.33
+Imbiancatura o tinteggiatura pareti interne,Marche,2020,2,0.21
+Imbiancatura o tinteggiatura pareti interne,Marche,2020,3,0.24
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,0,0.08
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,1,0.04
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,2,0.08
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,3,0.12
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,4,0.08
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,5,0.14
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,6,0.02
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,7,0.06
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,8,0.12
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,9,0.14
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,10,0.02
+Imbiancatura o tinteggiatura pareti interne,Molise,2019,11,0.08
+Imbiancatura o tinteggiatura pareti interne,Molise,2020,0,0.17
+Imbiancatura o tinteggiatura pareti interne,Molise,2020,1,0.33
+Imbiancatura o tinteggiatura pareti interne,Molise,2020,2,0.21
+Imbiancatura o tinteggiatura pareti interne,Molise,2020,3,0.29
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,0,0.09
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,1,0.08
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,2,0.12
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,3,0.09
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,4,0.12
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,5,0.09
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,6,0.08
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,7,0.07
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,8,0.09
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,9,0.08
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,10,0.06
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2019,11,0.04
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2020,0,0.27
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2020,1,0.31
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2020,2,0.17
+Imbiancatura o tinteggiatura pareti interne,Piemonte,2020,3,0.25
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,0,0.08
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,1,0.08
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,2,0.13
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,3,0.10
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,4,0.12
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,5,0.08
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,6,0.09
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,7,0.07
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,8,0.08
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,9,0.09
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,10,0.06
+Imbiancatura o tinteggiatura pareti interne,Puglia,2019,11,0.03
+Imbiancatura o tinteggiatura pareti interne,Puglia,2020,0,0.27
+Imbiancatura o tinteggiatura pareti interne,Puglia,2020,1,0.27
+Imbiancatura o tinteggiatura pareti interne,Puglia,2020,2,0.19
+Imbiancatura o tinteggiatura pareti interne,Puglia,2020,3,0.27
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,0,0.06
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,1,0.08
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,2,0.15
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,3,0.10
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,4,0.09
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,5,0.06
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,6,0.08
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,7,0.08
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,8,0.10
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,9,0.08
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,10,0.08
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2019,11,0.04
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2020,0,0.23
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2020,1,0.36
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2020,2,0.23
+Imbiancatura o tinteggiatura pareti interne,Sardegna,2020,3,0.18
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,0,0.08
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,1,0.07
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,2,0.13
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,3,0.11
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,4,0.12
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,5,0.08
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,6,0.08
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,7,0.06
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,8,0.09
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,9,0.08
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,10,0.07
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2019,11,0.03
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2020,0,0.24
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2020,1,0.31
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2020,2,0.21
+Imbiancatura o tinteggiatura pareti interne,Sicilia,2020,3,0.24
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,0,0.09
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,1,0.07
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,2,0.12
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,3,0.11
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,4,0.11
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,5,0.08
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,6,0.08
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,7,0.06
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,8,0.09
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,9,0.08
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,10,0.06
+Imbiancatura o tinteggiatura pareti interne,Toscana,2019,11,0.03
+Imbiancatura o tinteggiatura pareti interne,Toscana,2020,0,0.25
+Imbiancatura o tinteggiatura pareti interne,Toscana,2020,1,0.30
+Imbiancatura o tinteggiatura pareti interne,Toscana,2020,2,0.23
+Imbiancatura o tinteggiatura pareti interne,Toscana,2020,3,0.22
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,0,0.06
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,1,0.07
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,2,0.13
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,3,0.13
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,4,0.14
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,5,0.08
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,6,0.08
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,7,0.08
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,8,0.07
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,9,0.07
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,10,0.05
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2019,11,0.04
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2020,0,0.35
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2020,1,0.29
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2020,2,0.11
+Imbiancatura o tinteggiatura pareti interne,Trentino-Alto Adige,2020,3,0.25
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,0,0.09
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,1,0.07
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,2,0.11
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,3,0.12
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,4,0.09
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,5,0.06
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,6,0.08
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,7,0.07
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,8,0.12
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,9,0.08
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,10,0.09
+Imbiancatura o tinteggiatura pareti interne,Umbria,2019,11,0.03
+Imbiancatura o tinteggiatura pareti interne,Umbria,2020,0,0.17
+Imbiancatura o tinteggiatura pareti interne,Umbria,2020,1,0.37
+Imbiancatura o tinteggiatura pareti interne,Umbria,2020,2,0.20
+Imbiancatura o tinteggiatura pareti interne,Umbria,2020,3,0.27
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,0,0.09
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,1,0.09
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,2,0.16
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,3,0.09
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,4,0.07
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,5,0.14
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,6,0.05
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,7,0.05
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,8,0.16
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,9,0.05
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,10,0.07
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2019,11,0.00
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2020,0,0.08
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2020,1,0.42
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2020,2,0.00
+Imbiancatura o tinteggiatura pareti interne,Valle d'Aosta,2020,3,0.50
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,0,0.09
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,1,0.07
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,2,0.12
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,3,0.10
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,4,0.11
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,5,0.10
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,6,0.08
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,7,0.06
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,8,0.09
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,9,0.07
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,10,0.07
+Imbiancatura o tinteggiatura pareti interne,Veneto,2019,11,0.04
+Imbiancatura o tinteggiatura pareti interne,Veneto,2020,0,0.23
+Imbiancatura o tinteggiatura pareti interne,Veneto,2020,1,0.29
+Imbiancatura o tinteggiatura pareti interne,Veneto,2020,2,0.20
+Imbiancatura o tinteggiatura pareti interne,Veneto,2020,3,0.28
+Installazione aria condizionata,Abruzzo,2019,0,0.03
+Installazione aria condizionata,Abruzzo,2019,1,0.04
+Installazione aria condizionata,Abruzzo,2019,2,0.05
+Installazione aria condizionata,Abruzzo,2019,3,0.07
+Installazione aria condizionata,Abruzzo,2019,4,0.08
+Installazione aria condizionata,Abruzzo,2019,5,0.24
+Installazione aria condizionata,Abruzzo,2019,6,0.26
+Installazione aria condizionata,Abruzzo,2019,7,0.07
+Installazione aria condizionata,Abruzzo,2019,8,0.04
+Installazione aria condizionata,Abruzzo,2019,9,0.03
+Installazione aria condizionata,Abruzzo,2019,10,0.05
+Installazione aria condizionata,Abruzzo,2019,11,0.04
+Installazione aria condizionata,Abruzzo,2020,0,0.19
+Installazione aria condizionata,Abruzzo,2020,1,0.33
+Installazione aria condizionata,Abruzzo,2020,2,0.28
+Installazione aria condizionata,Abruzzo,2020,3,0.20
+Installazione aria condizionata,Basilicata,2019,0,0.06
+Installazione aria condizionata,Basilicata,2019,1,0.04
+Installazione aria condizionata,Basilicata,2019,2,0.06
+Installazione aria condizionata,Basilicata,2019,3,0.08
+Installazione aria condizionata,Basilicata,2019,4,0.06
+Installazione aria condizionata,Basilicata,2019,5,0.26
+Installazione aria condizionata,Basilicata,2019,6,0.13
+Installazione aria condizionata,Basilicata,2019,7,0.11
+Installazione aria condizionata,Basilicata,2019,8,0.08
+Installazione aria condizionata,Basilicata,2019,9,0.04
+Installazione aria condizionata,Basilicata,2019,10,0.06
+Installazione aria condizionata,Basilicata,2019,11,0.04
+Installazione aria condizionata,Basilicata,2020,0,0.15
+Installazione aria condizionata,Basilicata,2020,1,0.30
+Installazione aria condizionata,Basilicata,2020,2,0.50
+Installazione aria condizionata,Basilicata,2020,3,0.05
+Installazione aria condizionata,Calabria,2019,0,0.04
+Installazione aria condizionata,Calabria,2019,1,0.04
+Installazione aria condizionata,Calabria,2019,2,0.05
+Installazione aria condizionata,Calabria,2019,3,0.04
+Installazione aria condizionata,Calabria,2019,4,0.08
+Installazione aria condizionata,Calabria,2019,5,0.28
+Installazione aria condizionata,Calabria,2019,6,0.22
+Installazione aria condizionata,Calabria,2019,7,0.12
+Installazione aria condizionata,Calabria,2019,8,0.05
+Installazione aria condizionata,Calabria,2019,9,0.02
+Installazione aria condizionata,Calabria,2019,10,0.04
+Installazione aria condizionata,Calabria,2019,11,0.03
+Installazione aria condizionata,Calabria,2020,0,0.27
+Installazione aria condizionata,Calabria,2020,1,0.23
+Installazione aria condizionata,Calabria,2020,2,0.30
+Installazione aria condizionata,Calabria,2020,3,0.20
+Installazione aria condizionata,Campania,2019,0,0.03
+Installazione aria condizionata,Campania,2019,1,0.03
+Installazione aria condizionata,Campania,2019,2,0.05
+Installazione aria condizionata,Campania,2019,3,0.06
+Installazione aria condizionata,Campania,2019,4,0.07
+Installazione aria condizionata,Campania,2019,5,0.26
+Installazione aria condizionata,Campania,2019,6,0.22
+Installazione aria condizionata,Campania,2019,7,0.10
+Installazione aria condizionata,Campania,2019,8,0.05
+Installazione aria condizionata,Campania,2019,9,0.04
+Installazione aria condizionata,Campania,2019,10,0.06
+Installazione aria condizionata,Campania,2019,11,0.04
+Installazione aria condizionata,Campania,2020,0,0.26
+Installazione aria condizionata,Campania,2020,1,0.21
+Installazione aria condizionata,Campania,2020,2,0.24
+Installazione aria condizionata,Campania,2020,3,0.29
+Installazione aria condizionata,Emilia-Romagna,2019,0,0.04
+Installazione aria condizionata,Emilia-Romagna,2019,1,0.04
+Installazione aria condizionata,Emilia-Romagna,2019,2,0.08
+Installazione aria condizionata,Emilia-Romagna,2019,3,0.06
+Installazione aria condizionata,Emilia-Romagna,2019,4,0.09
+Installazione aria condizionata,Emilia-Romagna,2019,5,0.29
+Installazione aria condizionata,Emilia-Romagna,2019,6,0.19
+Installazione aria condizionata,Emilia-Romagna,2019,7,0.05
+Installazione aria condizionata,Emilia-Romagna,2019,8,0.05
+Installazione aria condizionata,Emilia-Romagna,2019,9,0.04
+Installazione aria condizionata,Emilia-Romagna,2019,10,0.04
+Installazione aria condizionata,Emilia-Romagna,2019,11,0.03
+Installazione aria condizionata,Emilia-Romagna,2020,0,0.26
+Installazione aria condizionata,Emilia-Romagna,2020,1,0.28
+Installazione aria condizionata,Emilia-Romagna,2020,2,0.18
+Installazione aria condizionata,Emilia-Romagna,2020,3,0.29
+Installazione aria condizionata,Friuli Venezia Giulia,2019,0,0.05
+Installazione aria condizionata,Friuli Venezia Giulia,2019,1,0.03
+Installazione aria condizionata,Friuli Venezia Giulia,2019,2,0.07
+Installazione aria condizionata,Friuli Venezia Giulia,2019,3,0.08
+Installazione aria condizionata,Friuli Venezia Giulia,2019,4,0.10
+Installazione aria condizionata,Friuli Venezia Giulia,2019,5,0.29
+Installazione aria condizionata,Friuli Venezia Giulia,2019,6,0.17
+Installazione aria condizionata,Friuli Venezia Giulia,2019,7,0.06
+Installazione aria condizionata,Friuli Venezia Giulia,2019,8,0.05
+Installazione aria condizionata,Friuli Venezia Giulia,2019,9,0.04
+Installazione aria condizionata,Friuli Venezia Giulia,2019,10,0.03
+Installazione aria condizionata,Friuli Venezia Giulia,2019,11,0.02
+Installazione aria condizionata,Friuli Venezia Giulia,2020,0,0.21
+Installazione aria condizionata,Friuli Venezia Giulia,2020,1,0.27
+Installazione aria condizionata,Friuli Venezia Giulia,2020,2,0.27
+Installazione aria condizionata,Friuli Venezia Giulia,2020,3,0.25
+Installazione aria condizionata,Italia,2019,0,0.03
+Installazione aria condizionata,Italia,2019,1,0.03
+Installazione aria condizionata,Italia,2019,2,0.06
+Installazione aria condizionata,Italia,2019,3,0.06
+Installazione aria condizionata,Italia,2019,4,0.08
+Installazione aria condizionata,Italia,2019,5,0.28
+Installazione aria condizionata,Italia,2019,6,0.23
+Installazione aria condizionata,Italia,2019,7,0.06
+Installazione aria condizionata,Italia,2019,8,0.04
+Installazione aria condizionata,Italia,2019,9,0.04
+Installazione aria condizionata,Italia,2019,10,0.05
+Installazione aria condizionata,Italia,2019,11,0.03
+Installazione aria condizionata,Italia,2020,0,0.25
+Installazione aria condizionata,Italia,2020,1,0.28
+Installazione aria condizionata,Italia,2020,2,0.21
+Installazione aria condizionata,Italia,2020,3,0.26
+Installazione aria condizionata,Lazio,2019,0,0.03
+Installazione aria condizionata,Lazio,2019,1,0.03
+Installazione aria condizionata,Lazio,2019,2,0.06
+Installazione aria condizionata,Lazio,2019,3,0.06
+Installazione aria condizionata,Lazio,2019,4,0.08
+Installazione aria condizionata,Lazio,2019,5,0.27
+Installazione aria condizionata,Lazio,2019,6,0.24
+Installazione aria condizionata,Lazio,2019,7,0.06
+Installazione aria condizionata,Lazio,2019,8,0.04
+Installazione aria condizionata,Lazio,2019,9,0.04
+Installazione aria condizionata,Lazio,2019,10,0.05
+Installazione aria condizionata,Lazio,2019,11,0.04
+Installazione aria condizionata,Lazio,2020,0,0.27
+Installazione aria condizionata,Lazio,2020,1,0.26
+Installazione aria condizionata,Lazio,2020,2,0.20
+Installazione aria condizionata,Lazio,2020,3,0.27
+Installazione aria condizionata,Liguria,2019,0,0.03
+Installazione aria condizionata,Liguria,2019,1,0.03
+Installazione aria condizionata,Liguria,2019,2,0.07
+Installazione aria condizionata,Liguria,2019,3,0.07
+Installazione aria condizionata,Liguria,2019,4,0.07
+Installazione aria condizionata,Liguria,2019,5,0.24
+Installazione aria condizionata,Liguria,2019,6,0.26
+Installazione aria condizionata,Liguria,2019,7,0.08
+Installazione aria condizionata,Liguria,2019,8,0.05
+Installazione aria condizionata,Liguria,2019,9,0.04
+Installazione aria condizionata,Liguria,2019,10,0.04
+Installazione aria condizionata,Liguria,2019,11,0.02
+Installazione aria condizionata,Liguria,2020,0,0.22
+Installazione aria condizionata,Liguria,2020,1,0.32
+Installazione aria condizionata,Liguria,2020,2,0.23
+Installazione aria condizionata,Liguria,2020,3,0.22
+Installazione aria condizionata,Lombardia,2019,0,0.03
+Installazione aria condizionata,Lombardia,2019,1,0.03
+Installazione aria condizionata,Lombardia,2019,2,0.07
+Installazione aria condizionata,Lombardia,2019,3,0.06
+Installazione aria condizionata,Lombardia,2019,4,0.08
+Installazione aria condizionata,Lombardia,2019,5,0.31
+Installazione aria condizionata,Lombardia,2019,6,0.23
+Installazione aria condizionata,Lombardia,2019,7,0.04
+Installazione aria condizionata,Lombardia,2019,8,0.04
+Installazione aria condizionata,Lombardia,2019,9,0.04
+Installazione aria condizionata,Lombardia,2019,10,0.04
+Installazione aria condizionata,Lombardia,2019,11,0.02
+Installazione aria condizionata,Lombardia,2020,0,0.23
+Installazione aria condizionata,Lombardia,2020,1,0.27
+Installazione aria condizionata,Lombardia,2020,2,0.20
+Installazione aria condizionata,Lombardia,2020,3,0.30
+Installazione aria condizionata,Marche,2019,0,0.03
+Installazione aria condizionata,Marche,2019,1,0.02
+Installazione aria condizionata,Marche,2019,2,0.08
+Installazione aria condizionata,Marche,2019,3,0.08
+Installazione aria condizionata,Marche,2019,4,0.09
+Installazione aria condizionata,Marche,2019,5,0.25
+Installazione aria condizionata,Marche,2019,6,0.18
+Installazione aria condizionata,Marche,2019,7,0.08
+Installazione aria condizionata,Marche,2019,8,0.06
+Installazione aria condizionata,Marche,2019,9,0.04
+Installazione aria condizionata,Marche,2019,10,0.05
+Installazione aria condizionata,Marche,2019,11,0.04
+Installazione aria condizionata,Marche,2020,0,0.29
+Installazione aria condizionata,Marche,2020,1,0.32
+Installazione aria condizionata,Marche,2020,2,0.19
+Installazione aria condizionata,Marche,2020,3,0.20
+Installazione aria condizionata,Molise,2019,0,0.02
+Installazione aria condizionata,Molise,2019,1,0.00
+Installazione aria condizionata,Molise,2019,2,0.09
+Installazione aria condizionata,Molise,2019,3,0.04
+Installazione aria condizionata,Molise,2019,4,0.07
+Installazione aria condizionata,Molise,2019,5,0.23
+Installazione aria condizionata,Molise,2019,6,0.25
+Installazione aria condizionata,Molise,2019,7,0.05
+Installazione aria condizionata,Molise,2019,8,0.07
+Installazione aria condizionata,Molise,2019,9,0.04
+Installazione aria condizionata,Molise,2019,10,0.09
+Installazione aria condizionata,Molise,2019,11,0.05
+Installazione aria condizionata,Molise,2020,0,0.57
+Installazione aria condizionata,Molise,2020,1,0.36
+Installazione aria condizionata,Molise,2020,2,0.00
+Installazione aria condizionata,Molise,2020,3,0.07
+Installazione aria condizionata,Piemonte,2019,0,0.03
+Installazione aria condizionata,Piemonte,2019,1,0.03
+Installazione aria condizionata,Piemonte,2019,2,0.06
+Installazione aria condizionata,Piemonte,2019,3,0.06
+Installazione aria condizionata,Piemonte,2019,4,0.07
+Installazione aria condizionata,Piemonte,2019,5,0.26
+Installazione aria condizionata,Piemonte,2019,6,0.28
+Installazione aria condizionata,Piemonte,2019,7,0.06
+Installazione aria condizionata,Piemonte,2019,8,0.06
+Installazione aria condizionata,Piemonte,2019,9,0.05
+Installazione aria condizionata,Piemonte,2019,10,0.04
+Installazione aria condizionata,Piemonte,2019,11,0.03
+Installazione aria condizionata,Piemonte,2020,0,0.24
+Installazione aria condizionata,Piemonte,2020,1,0.28
+Installazione aria condizionata,Piemonte,2020,2,0.24
+Installazione aria condizionata,Piemonte,2020,3,0.24
+Installazione aria condizionata,Puglia,2019,0,0.03
+Installazione aria condizionata,Puglia,2019,1,0.03
+Installazione aria condizionata,Puglia,2019,2,0.07
+Installazione aria condizionata,Puglia,2019,3,0.07
+Installazione aria condizionata,Puglia,2019,4,0.08
+Installazione aria condizionata,Puglia,2019,5,0.24
+Installazione aria condizionata,Puglia,2019,6,0.22
+Installazione aria condizionata,Puglia,2019,7,0.10
+Installazione aria condizionata,Puglia,2019,8,0.04
+Installazione aria condizionata,Puglia,2019,9,0.04
+Installazione aria condizionata,Puglia,2019,10,0.04
+Installazione aria condizionata,Puglia,2019,11,0.04
+Installazione aria condizionata,Puglia,2020,0,0.25
+Installazione aria condizionata,Puglia,2020,1,0.25
+Installazione aria condizionata,Puglia,2020,2,0.26
+Installazione aria condizionata,Puglia,2020,3,0.23
+Installazione aria condizionata,Sardegna,2019,0,0.06
+Installazione aria condizionata,Sardegna,2019,1,0.03
+Installazione aria condizionata,Sardegna,2019,2,0.04
+Installazione aria condizionata,Sardegna,2019,3,0.03
+Installazione aria condizionata,Sardegna,2019,4,0.05
+Installazione aria condizionata,Sardegna,2019,5,0.13
+Installazione aria condizionata,Sardegna,2019,6,0.27
+Installazione aria condizionata,Sardegna,2019,7,0.11
+Installazione aria condizionata,Sardegna,2019,8,0.06
+Installazione aria condizionata,Sardegna,2019,9,0.06
+Installazione aria condizionata,Sardegna,2019,10,0.11
+Installazione aria condizionata,Sardegna,2019,11,0.05
+Installazione aria condizionata,Sardegna,2020,0,0.39
+Installazione aria condizionata,Sardegna,2020,1,0.31
+Installazione aria condizionata,Sardegna,2020,2,0.17
+Installazione aria condizionata,Sardegna,2020,3,0.13
+Installazione aria condizionata,Sicilia,2019,0,0.04
+Installazione aria condizionata,Sicilia,2019,1,0.03
+Installazione aria condizionata,Sicilia,2019,2,0.04
+Installazione aria condizionata,Sicilia,2019,3,0.05
+Installazione aria condizionata,Sicilia,2019,4,0.08
+Installazione aria condizionata,Sicilia,2019,5,0.27
+Installazione aria condizionata,Sicilia,2019,6,0.24
+Installazione aria condizionata,Sicilia,2019,7,0.10
+Installazione aria condizionata,Sicilia,2019,8,0.04
+Installazione aria condizionata,Sicilia,2019,9,0.03
+Installazione aria condizionata,Sicilia,2019,10,0.06
+Installazione aria condizionata,Sicilia,2019,11,0.03
+Installazione aria condizionata,Sicilia,2020,0,0.26
+Installazione aria condizionata,Sicilia,2020,1,0.31
+Installazione aria condizionata,Sicilia,2020,2,0.23
+Installazione aria condizionata,Sicilia,2020,3,0.20
+Installazione aria condizionata,Toscana,2019,0,0.04
+Installazione aria condizionata,Toscana,2019,1,0.03
+Installazione aria condizionata,Toscana,2019,2,0.06
+Installazione aria condizionata,Toscana,2019,3,0.06
+Installazione aria condizionata,Toscana,2019,4,0.08
+Installazione aria condizionata,Toscana,2019,5,0.26
+Installazione aria condizionata,Toscana,2019,6,0.26
+Installazione aria condizionata,Toscana,2019,7,0.05
+Installazione aria condizionata,Toscana,2019,8,0.05
+Installazione aria condizionata,Toscana,2019,9,0.04
+Installazione aria condizionata,Toscana,2019,10,0.05
+Installazione aria condizionata,Toscana,2019,11,0.02
+Installazione aria condizionata,Toscana,2020,0,0.28
+Installazione aria condizionata,Toscana,2020,1,0.30
+Installazione aria condizionata,Toscana,2020,2,0.18
+Installazione aria condizionata,Toscana,2020,3,0.23
+Installazione aria condizionata,Trentino-Alto Adige,2019,0,0.03
+Installazione aria condizionata,Trentino-Alto Adige,2019,1,0.01
+Installazione aria condizionata,Trentino-Alto Adige,2019,2,0.08
+Installazione aria condizionata,Trentino-Alto Adige,2019,3,0.04
+Installazione aria condizionata,Trentino-Alto Adige,2019,4,0.08
+Installazione aria condizionata,Trentino-Alto Adige,2019,5,0.33
+Installazione aria condizionata,Trentino-Alto Adige,2019,6,0.21
+Installazione aria condizionata,Trentino-Alto Adige,2019,7,0.10
+Installazione aria condizionata,Trentino-Alto Adige,2019,8,0.05
+Installazione aria condizionata,Trentino-Alto Adige,2019,9,0.02
+Installazione aria condizionata,Trentino-Alto Adige,2019,10,0.02
+Installazione aria condizionata,Trentino-Alto Adige,2019,11,0.01
+Installazione aria condizionata,Trentino-Alto Adige,2020,0,0.19
+Installazione aria condizionata,Trentino-Alto Adige,2020,1,0.28
+Installazione aria condizionata,Trentino-Alto Adige,2020,2,0.22
+Installazione aria condizionata,Trentino-Alto Adige,2020,3,0.31
+Installazione aria condizionata,Umbria,2019,0,0.04
+Installazione aria condizionata,Umbria,2019,1,0.03
+Installazione aria condizionata,Umbria,2019,2,0.05
+Installazione aria condizionata,Umbria,2019,3,0.04
+Installazione aria condizionata,Umbria,2019,4,0.06
+Installazione aria condizionata,Umbria,2019,5,0.22
+Installazione aria condizionata,Umbria,2019,6,0.24
+Installazione aria condizionata,Umbria,2019,7,0.09
+Installazione aria condizionata,Umbria,2019,8,0.04
+Installazione aria condizionata,Umbria,2019,9,0.07
+Installazione aria condizionata,Umbria,2019,10,0.06
+Installazione aria condizionata,Umbria,2019,11,0.06
+Installazione aria condizionata,Umbria,2020,0,0.24
+Installazione aria condizionata,Umbria,2020,1,0.22
+Installazione aria condizionata,Umbria,2020,2,0.28
+Installazione aria condizionata,Umbria,2020,3,0.26
+Installazione aria condizionata,Valle d'Aosta,2019,0,0.02
+Installazione aria condizionata,Valle d'Aosta,2019,1,0.04
+Installazione aria condizionata,Valle d'Aosta,2019,2,0.04
+Installazione aria condizionata,Valle d'Aosta,2019,3,0.08
+Installazione aria condizionata,Valle d'Aosta,2019,4,0.08
+Installazione aria condizionata,Valle d'Aosta,2019,5,0.18
+Installazione aria condizionata,Valle d'Aosta,2019,6,0.24
+Installazione aria condizionata,Valle d'Aosta,2019,7,0.10
+Installazione aria condizionata,Valle d'Aosta,2019,8,0.02
+Installazione aria condizionata,Valle d'Aosta,2019,9,0.10
+Installazione aria condizionata,Valle d'Aosta,2019,10,0.08
+Installazione aria condizionata,Valle d'Aosta,2019,11,0.00
+Installazione aria condizionata,Valle d'Aosta,2020,0,0.14
+Installazione aria condizionata,Valle d'Aosta,2020,1,0.36
+Installazione aria condizionata,Valle d'Aosta,2020,2,0.23
+Installazione aria condizionata,Valle d'Aosta,2020,3,0.27
+Installazione aria condizionata,Veneto,2019,0,0.04
+Installazione aria condizionata,Veneto,2019,1,0.04
+Installazione aria condizionata,Veneto,2019,2,0.07
+Installazione aria condizionata,Veneto,2019,3,0.06
+Installazione aria condizionata,Veneto,2019,4,0.09
+Installazione aria condizionata,Veneto,2019,5,0.35
+Installazione aria condizionata,Veneto,2019,6,0.17
+Installazione aria condizionata,Veneto,2019,7,0.05
+Installazione aria condizionata,Veneto,2019,8,0.03
+Installazione aria condizionata,Veneto,2019,9,0.03
+Installazione aria condizionata,Veneto,2019,10,0.04
+Installazione aria condizionata,Veneto,2019,11,0.02
+Installazione aria condizionata,Veneto,2020,0,0.22
+Installazione aria condizionata,Veneto,2020,1,0.27
+Installazione aria condizionata,Veneto,2020,2,0.24
+Installazione aria condizionata,Veneto,2020,3,0.26
+Organizzatore di feste e party,Abruzzo,2019,0,0.12
+Organizzatore di feste e party,Abruzzo,2019,1,0.09
+Organizzatore di feste e party,Abruzzo,2019,2,0.04
+Organizzatore di feste e party,Abruzzo,2019,3,0.07
+Organizzatore di feste e party,Abruzzo,2019,4,0.08
+Organizzatore di feste e party,Abruzzo,2019,5,0.07
+Organizzatore di feste e party,Abruzzo,2019,6,0.09
+Organizzatore di feste e party,Abruzzo,2019,7,0.06
+Organizzatore di feste e party,Abruzzo,2019,8,0.10
+Organizzatore di feste e party,Abruzzo,2019,9,0.10
+Organizzatore di feste e party,Abruzzo,2019,10,0.10
+Organizzatore di feste e party,Abruzzo,2019,11,0.09
+Organizzatore di feste e party,Abruzzo,2020,0,0.41
+Organizzatore di feste e party,Abruzzo,2020,1,0.34
+Organizzatore di feste e party,Abruzzo,2020,2,0.18
+Organizzatore di feste e party,Abruzzo,2020,3,0.06
+Organizzatore di feste e party,Basilicata,2019,0,0.11
+Organizzatore di feste e party,Basilicata,2019,1,0.07
+Organizzatore di feste e party,Basilicata,2019,2,0.06
+Organizzatore di feste e party,Basilicata,2019,3,0.07
+Organizzatore di feste e party,Basilicata,2019,4,0.08
+Organizzatore di feste e party,Basilicata,2019,5,0.09
+Organizzatore di feste e party,Basilicata,2019,6,0.08
+Organizzatore di feste e party,Basilicata,2019,7,0.10
+Organizzatore di feste e party,Basilicata,2019,8,0.05
+Organizzatore di feste e party,Basilicata,2019,9,0.09
+Organizzatore di feste e party,Basilicata,2019,10,0.10
+Organizzatore di feste e party,Basilicata,2019,11,0.10
+Organizzatore di feste e party,Basilicata,2020,0,0.52
+Organizzatore di feste e party,Basilicata,2020,1,0.22
+Organizzatore di feste e party,Basilicata,2020,2,0.17
+Organizzatore di feste e party,Basilicata,2020,3,0.09
+Organizzatore di feste e party,Calabria,2019,0,0.10
+Organizzatore di feste e party,Calabria,2019,1,0.10
+Organizzatore di feste e party,Calabria,2019,2,0.06
+Organizzatore di feste e party,Calabria,2019,3,0.08
+Organizzatore di feste e party,Calabria,2019,4,0.09
+Organizzatore di feste e party,Calabria,2019,5,0.06
+Organizzatore di feste e party,Calabria,2019,6,0.07
+Organizzatore di feste e party,Calabria,2019,7,0.05
+Organizzatore di feste e party,Calabria,2019,8,0.13
+Organizzatore di feste e party,Calabria,2019,9,0.11
+Organizzatore di feste e party,Calabria,2019,10,0.07
+Organizzatore di feste e party,Calabria,2019,11,0.09
+Organizzatore di feste e party,Calabria,2020,0,0.53
+Organizzatore di feste e party,Calabria,2020,1,0.35
+Organizzatore di feste e party,Calabria,2020,2,0.12
+Organizzatore di feste e party,Calabria,2020,3,0.00
+Organizzatore di feste e party,Campania,2019,0,0.11
+Organizzatore di feste e party,Campania,2019,1,0.08
+Organizzatore di feste e party,Campania,2019,2,0.08
+Organizzatore di feste e party,Campania,2019,3,0.07
+Organizzatore di feste e party,Campania,2019,4,0.09
+Organizzatore di feste e party,Campania,2019,5,0.07
+Organizzatore di feste e party,Campania,2019,6,0.05
+Organizzatore di feste e party,Campania,2019,7,0.06
+Organizzatore di feste e party,Campania,2019,8,0.14
+Organizzatore di feste e party,Campania,2019,9,0.10
+Organizzatore di feste e party,Campania,2019,10,0.09
+Organizzatore di feste e party,Campania,2019,11,0.08
+Organizzatore di feste e party,Campania,2020,0,0.49
+Organizzatore di feste e party,Campania,2020,1,0.39
+Organizzatore di feste e party,Campania,2020,2,0.10
+Organizzatore di feste e party,Campania,2020,3,0.02
+Organizzatore di feste e party,Emilia-Romagna,2019,0,0.07
+Organizzatore di feste e party,Emilia-Romagna,2019,1,0.06
+Organizzatore di feste e party,Emilia-Romagna,2019,2,0.07
+Organizzatore di feste e party,Emilia-Romagna,2019,3,0.05
+Organizzatore di feste e party,Emilia-Romagna,2019,4,0.07
+Organizzatore di feste e party,Emilia-Romagna,2019,5,0.07
+Organizzatore di feste e party,Emilia-Romagna,2019,6,0.06
+Organizzatore di feste e party,Emilia-Romagna,2019,7,0.06
+Organizzatore di feste e party,Emilia-Romagna,2019,8,0.14
+Organizzatore di feste e party,Emilia-Romagna,2019,9,0.11
+Organizzatore di feste e party,Emilia-Romagna,2019,10,0.12
+Organizzatore di feste e party,Emilia-Romagna,2019,11,0.11
+Organizzatore di feste e party,Emilia-Romagna,2020,0,0.51
+Organizzatore di feste e party,Emilia-Romagna,2020,1,0.34
+Organizzatore di feste e party,Emilia-Romagna,2020,2,0.11
+Organizzatore di feste e party,Emilia-Romagna,2020,3,0.04
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,0,0.07
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,1,0.07
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,2,0.07
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,3,0.05
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,4,0.06
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,5,0.05
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,6,0.08
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,7,0.06
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,8,0.14
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,9,0.11
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,10,0.13
+Organizzatore di feste e party,Friuli Venezia Giulia,2019,11,0.11
+Organizzatore di feste e party,Friuli Venezia Giulia,2020,0,0.53
+Organizzatore di feste e party,Friuli Venezia Giulia,2020,1,0.32
+Organizzatore di feste e party,Friuli Venezia Giulia,2020,2,0.11
+Organizzatore di feste e party,Friuli Venezia Giulia,2020,3,0.04
+Organizzatore di feste e party,Italia,2019,0,0.09
+Organizzatore di feste e party,Italia,2019,1,0.07
+Organizzatore di feste e party,Italia,2019,2,0.07
+Organizzatore di feste e party,Italia,2019,3,0.06
+Organizzatore di feste e party,Italia,2019,4,0.08
+Organizzatore di feste e party,Italia,2019,5,0.06
+Organizzatore di feste e party,Italia,2019,6,0.06
+Organizzatore di feste e party,Italia,2019,7,0.06
+Organizzatore di feste e party,Italia,2019,8,0.13
+Organizzatore di feste e party,Italia,2019,9,0.11
+Organizzatore di feste e party,Italia,2019,10,0.11
+Organizzatore di feste e party,Italia,2019,11,0.10
+Organizzatore di feste e party,Italia,2020,0,0.50
+Organizzatore di feste e party,Italia,2020,1,0.35
+Organizzatore di feste e party,Italia,2020,2,0.11
+Organizzatore di feste e party,Italia,2020,3,0.04
+Organizzatore di feste e party,Lazio,2019,0,0.12
+Organizzatore di feste e party,Lazio,2019,1,0.09
+Organizzatore di feste e party,Lazio,2019,2,0.06
+Organizzatore di feste e party,Lazio,2019,3,0.04
+Organizzatore di feste e party,Lazio,2019,4,0.08
+Organizzatore di feste e party,Lazio,2019,5,0.06
+Organizzatore di feste e party,Lazio,2019,6,0.05
+Organizzatore di feste e party,Lazio,2019,7,0.05
+Organizzatore di feste e party,Lazio,2019,8,0.13
+Organizzatore di feste e party,Lazio,2019,9,0.10
+Organizzatore di feste e party,Lazio,2019,10,0.10
+Organizzatore di feste e party,Lazio,2019,11,0.11
+Organizzatore di feste e party,Lazio,2020,0,0.47
+Organizzatore di feste e party,Lazio,2020,1,0.38
+Organizzatore di feste e party,Lazio,2020,2,0.12
+Organizzatore di feste e party,Lazio,2020,3,0.04
+Organizzatore di feste e party,Liguria,2019,0,0.12
+Organizzatore di feste e party,Liguria,2019,1,0.10
+Organizzatore di feste e party,Liguria,2019,2,0.08
+Organizzatore di feste e party,Liguria,2019,3,0.05
+Organizzatore di feste e party,Liguria,2019,4,0.07
+Organizzatore di feste e party,Liguria,2019,5,0.05
+Organizzatore di feste e party,Liguria,2019,6,0.06
+Organizzatore di feste e party,Liguria,2019,7,0.07
+Organizzatore di feste e party,Liguria,2019,8,0.12
+Organizzatore di feste e party,Liguria,2019,9,0.10
+Organizzatore di feste e party,Liguria,2019,10,0.10
+Organizzatore di feste e party,Liguria,2019,11,0.07
+Organizzatore di feste e party,Liguria,2020,0,0.44
+Organizzatore di feste e party,Liguria,2020,1,0.39
+Organizzatore di feste e party,Liguria,2020,2,0.14
+Organizzatore di feste e party,Liguria,2020,3,0.03
+Organizzatore di feste e party,Lombardia,2019,0,0.09
+Organizzatore di feste e party,Lombardia,2019,1,0.06
+Organizzatore di feste e party,Lombardia,2019,2,0.06
+Organizzatore di feste e party,Lombardia,2019,3,0.05
+Organizzatore di feste e party,Lombardia,2019,4,0.07
+Organizzatore di feste e party,Lombardia,2019,5,0.05
+Organizzatore di feste e party,Lombardia,2019,6,0.05
+Organizzatore di feste e party,Lombardia,2019,7,0.06
+Organizzatore di feste e party,Lombardia,2019,8,0.14
+Organizzatore di feste e party,Lombardia,2019,9,0.11
+Organizzatore di feste e party,Lombardia,2019,10,0.13
+Organizzatore di feste e party,Lombardia,2019,11,0.11
+Organizzatore di feste e party,Lombardia,2020,0,0.53
+Organizzatore di feste e party,Lombardia,2020,1,0.33
+Organizzatore di feste e party,Lombardia,2020,2,0.10
+Organizzatore di feste e party,Lombardia,2020,3,0.04
+Organizzatore di feste e party,Marche,2019,0,0.09
+Organizzatore di feste e party,Marche,2019,1,0.05
+Organizzatore di feste e party,Marche,2019,2,0.06
+Organizzatore di feste e party,Marche,2019,3,0.06
+Organizzatore di feste e party,Marche,2019,4,0.06
+Organizzatore di feste e party,Marche,2019,5,0.07
+Organizzatore di feste e party,Marche,2019,6,0.05
+Organizzatore di feste e party,Marche,2019,7,0.05
+Organizzatore di feste e party,Marche,2019,8,0.11
+Organizzatore di feste e party,Marche,2019,9,0.13
+Organizzatore di feste e party,Marche,2019,10,0.14
+Organizzatore di feste e party,Marche,2019,11,0.12
+Organizzatore di feste e party,Marche,2020,0,0.44
+Organizzatore di feste e party,Marche,2020,1,0.39
+Organizzatore di feste e party,Marche,2020,2,0.14
+Organizzatore di feste e party,Marche,2020,3,0.04
+Organizzatore di feste e party,Molise,2019,0,0.07
+Organizzatore di feste e party,Molise,2019,1,0.12
+Organizzatore di feste e party,Molise,2019,2,0.01
+Organizzatore di feste e party,Molise,2019,3,0.06
+Organizzatore di feste e party,Molise,2019,4,0.06
+Organizzatore di feste e party,Molise,2019,5,0.09
+Organizzatore di feste e party,Molise,2019,6,0.19
+Organizzatore di feste e party,Molise,2019,7,0.06
+Organizzatore di feste e party,Molise,2019,8,0.07
+Organizzatore di feste e party,Molise,2019,9,0.10
+Organizzatore di feste e party,Molise,2019,10,0.06
+Organizzatore di feste e party,Molise,2019,11,0.10
+Organizzatore di feste e party,Molise,2020,0,0.35
+Organizzatore di feste e party,Molise,2020,1,0.47
+Organizzatore di feste e party,Molise,2020,2,0.12
+Organizzatore di feste e party,Molise,2020,3,0.06
+Organizzatore di feste e party,Piemonte,2019,0,0.10
+Organizzatore di feste e party,Piemonte,2019,1,0.09
+Organizzatore di feste e party,Piemonte,2019,2,0.07
+Organizzatore di feste e party,Piemonte,2019,3,0.06
+Organizzatore di feste e party,Piemonte,2019,4,0.08
+Organizzatore di feste e party,Piemonte,2019,5,0.06
+Organizzatore di feste e party,Piemonte,2019,6,0.05
+Organizzatore di feste e party,Piemonte,2019,7,0.06
+Organizzatore di feste e party,Piemonte,2019,8,0.12
+Organizzatore di feste e party,Piemonte,2019,9,0.10
+Organizzatore di feste e party,Piemonte,2019,10,0.12
+Organizzatore di feste e party,Piemonte,2019,11,0.10
+Organizzatore di feste e party,Piemonte,2020,0,0.47
+Organizzatore di feste e party,Piemonte,2020,1,0.35
+Organizzatore di feste e party,Piemonte,2020,2,0.13
+Organizzatore di feste e party,Piemonte,2020,3,0.05
+Organizzatore di feste e party,Puglia,2019,0,0.09
+Organizzatore di feste e party,Puglia,2019,1,0.07
+Organizzatore di feste e party,Puglia,2019,2,0.08
+Organizzatore di feste e party,Puglia,2019,3,0.07
+Organizzatore di feste e party,Puglia,2019,4,0.09
+Organizzatore di feste e party,Puglia,2019,5,0.09
+Organizzatore di feste e party,Puglia,2019,6,0.09
+Organizzatore di feste e party,Puglia,2019,7,0.06
+Organizzatore di feste e party,Puglia,2019,8,0.11
+Organizzatore di feste e party,Puglia,2019,9,0.10
+Organizzatore di feste e party,Puglia,2019,10,0.07
+Organizzatore di feste e party,Puglia,2019,11,0.08
+Organizzatore di feste e party,Puglia,2020,0,0.50
+Organizzatore di feste e party,Puglia,2020,1,0.36
+Organizzatore di feste e party,Puglia,2020,2,0.11
+Organizzatore di feste e party,Puglia,2020,3,0.03
+Organizzatore di feste e party,Sardegna,2019,0,0.07
+Organizzatore di feste e party,Sardegna,2019,1,0.06
+Organizzatore di feste e party,Sardegna,2019,2,0.08
+Organizzatore di feste e party,Sardegna,2019,3,0.06
+Organizzatore di feste e party,Sardegna,2019,4,0.07
+Organizzatore di feste e party,Sardegna,2019,5,0.07
+Organizzatore di feste e party,Sardegna,2019,6,0.08
+Organizzatore di feste e party,Sardegna,2019,7,0.07
+Organizzatore di feste e party,Sardegna,2019,8,0.13
+Organizzatore di feste e party,Sardegna,2019,9,0.11
+Organizzatore di feste e party,Sardegna,2019,10,0.10
+Organizzatore di feste e party,Sardegna,2019,11,0.10
+Organizzatore di feste e party,Sardegna,2020,0,0.48
+Organizzatore di feste e party,Sardegna,2020,1,0.38
+Organizzatore di feste e party,Sardegna,2020,2,0.11
+Organizzatore di feste e party,Sardegna,2020,3,0.04
+Organizzatore di feste e party,Sicilia,2019,0,0.08
+Organizzatore di feste e party,Sicilia,2019,1,0.08
+Organizzatore di feste e party,Sicilia,2019,2,0.08
+Organizzatore di feste e party,Sicilia,2019,3,0.06
+Organizzatore di feste e party,Sicilia,2019,4,0.08
+Organizzatore di feste e party,Sicilia,2019,5,0.06
+Organizzatore di feste e party,Sicilia,2019,6,0.08
+Organizzatore di feste e party,Sicilia,2019,7,0.08
+Organizzatore di feste e party,Sicilia,2019,8,0.12
+Organizzatore di feste e party,Sicilia,2019,9,0.09
+Organizzatore di feste e party,Sicilia,2019,10,0.10
+Organizzatore di feste e party,Sicilia,2019,11,0.09
+Organizzatore di feste e party,Sicilia,2020,0,0.46
+Organizzatore di feste e party,Sicilia,2020,1,0.39
+Organizzatore di feste e party,Sicilia,2020,2,0.10
+Organizzatore di feste e party,Sicilia,2020,3,0.05
+Organizzatore di feste e party,Toscana,2019,0,0.09
+Organizzatore di feste e party,Toscana,2019,1,0.07
+Organizzatore di feste e party,Toscana,2019,2,0.07
+Organizzatore di feste e party,Toscana,2019,3,0.07
+Organizzatore di feste e party,Toscana,2019,4,0.06
+Organizzatore di feste e party,Toscana,2019,5,0.06
+Organizzatore di feste e party,Toscana,2019,6,0.05
+Organizzatore di feste e party,Toscana,2019,7,0.06
+Organizzatore di feste e party,Toscana,2019,8,0.12
+Organizzatore di feste e party,Toscana,2019,9,0.13
+Organizzatore di feste e party,Toscana,2019,10,0.12
+Organizzatore di feste e party,Toscana,2019,11,0.09
+Organizzatore di feste e party,Toscana,2020,0,0.50
+Organizzatore di feste e party,Toscana,2020,1,0.35
+Organizzatore di feste e party,Toscana,2020,2,0.12
+Organizzatore di feste e party,Toscana,2020,3,0.03
+Organizzatore di feste e party,Trentino-Alto Adige,2019,0,0.05
+Organizzatore di feste e party,Trentino-Alto Adige,2019,1,0.06
+Organizzatore di feste e party,Trentino-Alto Adige,2019,2,0.08
+Organizzatore di feste e party,Trentino-Alto Adige,2019,3,0.07
+Organizzatore di feste e party,Trentino-Alto Adige,2019,4,0.09
+Organizzatore di feste e party,Trentino-Alto Adige,2019,5,0.06
+Organizzatore di feste e party,Trentino-Alto Adige,2019,6,0.05
+Organizzatore di feste e party,Trentino-Alto Adige,2019,7,0.09
+Organizzatore di feste e party,Trentino-Alto Adige,2019,8,0.12
+Organizzatore di feste e party,Trentino-Alto Adige,2019,9,0.10
+Organizzatore di feste e party,Trentino-Alto Adige,2019,10,0.10
+Organizzatore di feste e party,Trentino-Alto Adige,2019,11,0.12
+Organizzatore di feste e party,Trentino-Alto Adige,2020,0,0.50
+Organizzatore di feste e party,Trentino-Alto Adige,2020,1,0.38
+Organizzatore di feste e party,Trentino-Alto Adige,2020,2,0.10
+Organizzatore di feste e party,Trentino-Alto Adige,2020,3,0.01
+Organizzatore di feste e party,Umbria,2019,0,0.06
+Organizzatore di feste e party,Umbria,2019,1,0.06
+Organizzatore di feste e party,Umbria,2019,2,0.07
+Organizzatore di feste e party,Umbria,2019,3,0.05
+Organizzatore di feste e party,Umbria,2019,4,0.07
+Organizzatore di feste e party,Umbria,2019,5,0.04
+Organizzatore di feste e party,Umbria,2019,6,0.08
+Organizzatore di feste e party,Umbria,2019,7,0.07
+Organizzatore di feste e party,Umbria,2019,8,0.13
+Organizzatore di feste e party,Umbria,2019,9,0.13
+Organizzatore di feste e party,Umbria,2019,10,0.14
+Organizzatore di feste e party,Umbria,2019,11,0.10
+Organizzatore di feste e party,Umbria,2020,0,0.50
+Organizzatore di feste e party,Umbria,2020,1,0.40
+Organizzatore di feste e party,Umbria,2020,2,0.10
+Organizzatore di feste e party,Umbria,2020,3,0.00
+Organizzatore di feste e party,Valle d'Aosta,2019,0,0.07
+Organizzatore di feste e party,Valle d'Aosta,2019,1,0.04
+Organizzatore di feste e party,Valle d'Aosta,2019,2,0.01
+Organizzatore di feste e party,Valle d'Aosta,2019,3,0.04
+Organizzatore di feste e party,Valle d'Aosta,2019,4,0.07
+Organizzatore di feste e party,Valle d'Aosta,2019,5,0.01
+Organizzatore di feste e party,Valle d'Aosta,2019,6,0.07
+Organizzatore di feste e party,Valle d'Aosta,2019,7,0.07
+Organizzatore di feste e party,Valle d'Aosta,2019,8,0.15
+Organizzatore di feste e party,Valle d'Aosta,2019,9,0.09
+Organizzatore di feste e party,Valle d'Aosta,2019,10,0.12
+Organizzatore di feste e party,Valle d'Aosta,2019,11,0.27
+Organizzatore di feste e party,Valle d'Aosta,2020,0,0.17
+Organizzatore di feste e party,Valle d'Aosta,2020,1,0.72
+Organizzatore di feste e party,Valle d'Aosta,2020,2,0.06
+Organizzatore di feste e party,Valle d'Aosta,2020,3,0.06
+Organizzatore di feste e party,Veneto,2019,0,0.07
+Organizzatore di feste e party,Veneto,2019,1,0.07
+Organizzatore di feste e party,Veneto,2019,2,0.07
+Organizzatore di feste e party,Veneto,2019,3,0.05
+Organizzatore di feste e party,Veneto,2019,4,0.08
+Organizzatore di feste e party,Veneto,2019,5,0.07
+Organizzatore di feste e party,Veneto,2019,6,0.07
+Organizzatore di feste e party,Veneto,2019,7,0.06
+Organizzatore di feste e party,Veneto,2019,8,0.12
+Organizzatore di feste e party,Veneto,2019,9,0.12
+Organizzatore di feste e party,Veneto,2019,10,0.12
+Organizzatore di feste e party,Veneto,2019,11,0.10
+Organizzatore di feste e party,Veneto,2020,0,0.53
+Organizzatore di feste e party,Veneto,2020,1,0.32
+Organizzatore di feste e party,Veneto,2020,2,0.12
+Organizzatore di feste e party,Veneto,2020,3,0.03
+Personal trainer,Abruzzo,2019,0,0.14
+Personal trainer,Abruzzo,2019,1,0.10
+Personal trainer,Abruzzo,2019,2,0.07
+Personal trainer,Abruzzo,2019,3,0.06
+Personal trainer,Abruzzo,2019,4,0.10
+Personal trainer,Abruzzo,2019,5,0.08
+Personal trainer,Abruzzo,2019,6,0.07
+Personal trainer,Abruzzo,2019,7,0.10
+Personal trainer,Abruzzo,2019,8,0.10
+Personal trainer,Abruzzo,2019,9,0.06
+Personal trainer,Abruzzo,2019,10,0.06
+Personal trainer,Abruzzo,2019,11,0.05
+Personal trainer,Abruzzo,2020,0,0.40
+Personal trainer,Abruzzo,2020,1,0.32
+Personal trainer,Abruzzo,2020,2,0.18
+Personal trainer,Abruzzo,2020,3,0.11
+Personal trainer,Basilicata,2019,0,0.17
+Personal trainer,Basilicata,2019,1,0.13
+Personal trainer,Basilicata,2019,2,0.06
+Personal trainer,Basilicata,2019,3,0.04
+Personal trainer,Basilicata,2019,4,0.12
+Personal trainer,Basilicata,2019,5,0.07
+Personal trainer,Basilicata,2019,6,0.08
+Personal trainer,Basilicata,2019,7,0.05
+Personal trainer,Basilicata,2019,8,0.05
+Personal trainer,Basilicata,2019,9,0.08
+Personal trainer,Basilicata,2019,10,0.04
+Personal trainer,Basilicata,2019,11,0.11
+Personal trainer,Basilicata,2020,0,0.27
+Personal trainer,Basilicata,2020,1,0.27
+Personal trainer,Basilicata,2020,2,0.31
+Personal trainer,Basilicata,2020,3,0.15
+Personal trainer,Calabria,2019,0,0.16
+Personal trainer,Calabria,2019,1,0.11
+Personal trainer,Calabria,2019,2,0.05
+Personal trainer,Calabria,2019,3,0.06
+Personal trainer,Calabria,2019,4,0.09
+Personal trainer,Calabria,2019,5,0.06
+Personal trainer,Calabria,2019,6,0.09
+Personal trainer,Calabria,2019,7,0.07
+Personal trainer,Calabria,2019,8,0.11
+Personal trainer,Calabria,2019,9,0.08
+Personal trainer,Calabria,2019,10,0.06
+Personal trainer,Calabria,2019,11,0.05
+Personal trainer,Calabria,2020,0,0.41
+Personal trainer,Calabria,2020,1,0.34
+Personal trainer,Calabria,2020,2,0.15
+Personal trainer,Calabria,2020,3,0.09
+Personal trainer,Campania,2019,0,0.13
+Personal trainer,Campania,2019,1,0.08
+Personal trainer,Campania,2019,2,0.08
+Personal trainer,Campania,2019,3,0.07
+Personal trainer,Campania,2019,4,0.09
+Personal trainer,Campania,2019,5,0.07
+Personal trainer,Campania,2019,6,0.08
+Personal trainer,Campania,2019,7,0.10
+Personal trainer,Campania,2019,8,0.12
+Personal trainer,Campania,2019,9,0.08
+Personal trainer,Campania,2019,10,0.06
+Personal trainer,Campania,2019,11,0.04
+Personal trainer,Campania,2020,0,0.40
+Personal trainer,Campania,2020,1,0.30
+Personal trainer,Campania,2020,2,0.16
+Personal trainer,Campania,2020,3,0.14
+Personal trainer,Emilia-Romagna,2019,0,0.14
+Personal trainer,Emilia-Romagna,2019,1,0.08
+Personal trainer,Emilia-Romagna,2019,2,0.08
+Personal trainer,Emilia-Romagna,2019,3,0.07
+Personal trainer,Emilia-Romagna,2019,4,0.10
+Personal trainer,Emilia-Romagna,2019,5,0.08
+Personal trainer,Emilia-Romagna,2019,6,0.08
+Personal trainer,Emilia-Romagna,2019,7,0.09
+Personal trainer,Emilia-Romagna,2019,8,0.09
+Personal trainer,Emilia-Romagna,2019,9,0.07
+Personal trainer,Emilia-Romagna,2019,10,0.07
+Personal trainer,Emilia-Romagna,2019,11,0.04
+Personal trainer,Emilia-Romagna,2020,0,0.42
+Personal trainer,Emilia-Romagna,2020,1,0.31
+Personal trainer,Emilia-Romagna,2020,2,0.15
+Personal trainer,Emilia-Romagna,2020,3,0.12
+Personal trainer,Friuli Venezia Giulia,2019,0,0.12
+Personal trainer,Friuli Venezia Giulia,2019,1,0.09
+Personal trainer,Friuli Venezia Giulia,2019,2,0.08
+Personal trainer,Friuli Venezia Giulia,2019,3,0.07
+Personal trainer,Friuli Venezia Giulia,2019,4,0.13
+Personal trainer,Friuli Venezia Giulia,2019,5,0.07
+Personal trainer,Friuli Venezia Giulia,2019,6,0.08
+Personal trainer,Friuli Venezia Giulia,2019,7,0.09
+Personal trainer,Friuli Venezia Giulia,2019,8,0.10
+Personal trainer,Friuli Venezia Giulia,2019,9,0.07
+Personal trainer,Friuli Venezia Giulia,2019,10,0.05
+Personal trainer,Friuli Venezia Giulia,2019,11,0.04
+Personal trainer,Friuli Venezia Giulia,2020,0,0.42
+Personal trainer,Friuli Venezia Giulia,2020,1,0.30
+Personal trainer,Friuli Venezia Giulia,2020,2,0.15
+Personal trainer,Friuli Venezia Giulia,2020,3,0.13
+Personal trainer,Italia,2019,0,0.13
+Personal trainer,Italia,2019,1,0.08
+Personal trainer,Italia,2019,2,0.08
+Personal trainer,Italia,2019,3,0.07
+Personal trainer,Italia,2019,4,0.10
+Personal trainer,Italia,2019,5,0.08
+Personal trainer,Italia,2019,6,0.08
+Personal trainer,Italia,2019,7,0.09
+Personal trainer,Italia,2019,8,0.10
+Personal trainer,Italia,2019,9,0.08
+Personal trainer,Italia,2019,10,0.07
+Personal trainer,Italia,2019,11,0.05
+Personal trainer,Italia,2020,0,0.39
+Personal trainer,Italia,2020,1,0.31
+Personal trainer,Italia,2020,2,0.17
+Personal trainer,Italia,2020,3,0.13
+Personal trainer,Lazio,2019,0,0.13
+Personal trainer,Lazio,2019,1,0.08
+Personal trainer,Lazio,2019,2,0.08
+Personal trainer,Lazio,2019,3,0.07
+Personal trainer,Lazio,2019,4,0.11
+Personal trainer,Lazio,2019,5,0.07
+Personal trainer,Lazio,2019,6,0.08
+Personal trainer,Lazio,2019,7,0.08
+Personal trainer,Lazio,2019,8,0.10
+Personal trainer,Lazio,2019,9,0.08
+Personal trainer,Lazio,2019,10,0.07
+Personal trainer,Lazio,2019,11,0.05
+Personal trainer,Lazio,2020,0,0.39
+Personal trainer,Lazio,2020,1,0.31
+Personal trainer,Lazio,2020,2,0.17
+Personal trainer,Lazio,2020,3,0.13
+Personal trainer,Liguria,2019,0,0.13
+Personal trainer,Liguria,2019,1,0.09
+Personal trainer,Liguria,2019,2,0.08
+Personal trainer,Liguria,2019,3,0.08
+Personal trainer,Liguria,2019,4,0.12
+Personal trainer,Liguria,2019,5,0.09
+Personal trainer,Liguria,2019,6,0.08
+Personal trainer,Liguria,2019,7,0.08
+Personal trainer,Liguria,2019,8,0.10
+Personal trainer,Liguria,2019,9,0.06
+Personal trainer,Liguria,2019,10,0.05
+Personal trainer,Liguria,2019,11,0.04
+Personal trainer,Liguria,2020,0,0.36
+Personal trainer,Liguria,2020,1,0.28
+Personal trainer,Liguria,2020,2,0.19
+Personal trainer,Liguria,2020,3,0.17
+Personal trainer,Lombardia,2019,0,0.13
+Personal trainer,Lombardia,2019,1,0.08
+Personal trainer,Lombardia,2019,2,0.08
+Personal trainer,Lombardia,2019,3,0.07
+Personal trainer,Lombardia,2019,4,0.11
+Personal trainer,Lombardia,2019,5,0.08
+Personal trainer,Lombardia,2019,6,0.07
+Personal trainer,Lombardia,2019,7,0.09
+Personal trainer,Lombardia,2019,8,0.10
+Personal trainer,Lombardia,2019,9,0.07
+Personal trainer,Lombardia,2019,10,0.07
+Personal trainer,Lombardia,2019,11,0.05
+Personal trainer,Lombardia,2020,0,0.40
+Personal trainer,Lombardia,2020,1,0.31
+Personal trainer,Lombardia,2020,2,0.16
+Personal trainer,Lombardia,2020,3,0.14
+Personal trainer,Marche,2019,0,0.13
+Personal trainer,Marche,2019,1,0.09
+Personal trainer,Marche,2019,2,0.08
+Personal trainer,Marche,2019,3,0.06
+Personal trainer,Marche,2019,4,0.11
+Personal trainer,Marche,2019,5,0.08
+Personal trainer,Marche,2019,6,0.08
+Personal trainer,Marche,2019,7,0.10
+Personal trainer,Marche,2019,8,0.10
+Personal trainer,Marche,2019,9,0.08
+Personal trainer,Marche,2019,10,0.06
+Personal trainer,Marche,2019,11,0.04
+Personal trainer,Marche,2020,0,0.39
+Personal trainer,Marche,2020,1,0.25
+Personal trainer,Marche,2020,2,0.20
+Personal trainer,Marche,2020,3,0.17
+Personal trainer,Molise,2019,0,0.12
+Personal trainer,Molise,2019,1,0.09
+Personal trainer,Molise,2019,2,0.05
+Personal trainer,Molise,2019,3,0.06
+Personal trainer,Molise,2019,4,0.10
+Personal trainer,Molise,2019,5,0.05
+Personal trainer,Molise,2019,6,0.07
+Personal trainer,Molise,2019,7,0.07
+Personal trainer,Molise,2019,8,0.21
+Personal trainer,Molise,2019,9,0.07
+Personal trainer,Molise,2019,10,0.07
+Personal trainer,Molise,2019,11,0.05
+Personal trainer,Molise,2020,0,0.50
+Personal trainer,Molise,2020,1,0.28
+Personal trainer,Molise,2020,2,0.14
+Personal trainer,Molise,2020,3,0.08
+Personal trainer,Piemonte,2019,0,0.12
+Personal trainer,Piemonte,2019,1,0.08
+Personal trainer,Piemonte,2019,2,0.10
+Personal trainer,Piemonte,2019,3,0.08
+Personal trainer,Piemonte,2019,4,0.10
+Personal trainer,Piemonte,2019,5,0.08
+Personal trainer,Piemonte,2019,6,0.07
+Personal trainer,Piemonte,2019,7,0.08
+Personal trainer,Piemonte,2019,8,0.11
+Personal trainer,Piemonte,2019,9,0.08
+Personal trainer,Piemonte,2019,10,0.07
+Personal trainer,Piemonte,2019,11,0.05
+Personal trainer,Piemonte,2020,0,0.36
+Personal trainer,Piemonte,2020,1,0.33
+Personal trainer,Piemonte,2020,2,0.17
+Personal trainer,Piemonte,2020,3,0.14
+Personal trainer,Puglia,2019,0,0.13
+Personal trainer,Puglia,2019,1,0.08
+Personal trainer,Puglia,2019,2,0.09
+Personal trainer,Puglia,2019,3,0.07
+Personal trainer,Puglia,2019,4,0.09
+Personal trainer,Puglia,2019,5,0.08
+Personal trainer,Puglia,2019,6,0.07
+Personal trainer,Puglia,2019,7,0.07
+Personal trainer,Puglia,2019,8,0.12
+Personal trainer,Puglia,2019,9,0.09
+Personal trainer,Puglia,2019,10,0.07
+Personal trainer,Puglia,2019,11,0.04
+Personal trainer,Puglia,2020,0,0.36
+Personal trainer,Puglia,2020,1,0.34
+Personal trainer,Puglia,2020,2,0.17
+Personal trainer,Puglia,2020,3,0.12
+Personal trainer,Sardegna,2019,0,0.13
+Personal trainer,Sardegna,2019,1,0.09
+Personal trainer,Sardegna,2019,2,0.08
+Personal trainer,Sardegna,2019,3,0.10
+Personal trainer,Sardegna,2019,4,0.10
+Personal trainer,Sardegna,2019,5,0.07
+Personal trainer,Sardegna,2019,6,0.06
+Personal trainer,Sardegna,2019,7,0.07
+Personal trainer,Sardegna,2019,8,0.10
+Personal trainer,Sardegna,2019,9,0.09
+Personal trainer,Sardegna,2019,10,0.07
+Personal trainer,Sardegna,2019,11,0.05
+Personal trainer,Sardegna,2020,0,0.43
+Personal trainer,Sardegna,2020,1,0.29
+Personal trainer,Sardegna,2020,2,0.15
+Personal trainer,Sardegna,2020,3,0.13
+Personal trainer,Sicilia,2019,0,0.13
+Personal trainer,Sicilia,2019,1,0.08
+Personal trainer,Sicilia,2019,2,0.07
+Personal trainer,Sicilia,2019,3,0.07
+Personal trainer,Sicilia,2019,4,0.11
+Personal trainer,Sicilia,2019,5,0.07
+Personal trainer,Sicilia,2019,6,0.08
+Personal trainer,Sicilia,2019,7,0.08
+Personal trainer,Sicilia,2019,8,0.11
+Personal trainer,Sicilia,2019,9,0.08
+Personal trainer,Sicilia,2019,10,0.07
+Personal trainer,Sicilia,2019,11,0.05
+Personal trainer,Sicilia,2020,0,0.39
+Personal trainer,Sicilia,2020,1,0.30
+Personal trainer,Sicilia,2020,2,0.18
+Personal trainer,Sicilia,2020,3,0.13
+Personal trainer,Toscana,2019,0,0.13
+Personal trainer,Toscana,2019,1,0.07
+Personal trainer,Toscana,2019,2,0.09
+Personal trainer,Toscana,2019,3,0.06
+Personal trainer,Toscana,2019,4,0.11
+Personal trainer,Toscana,2019,5,0.07
+Personal trainer,Toscana,2019,6,0.07
+Personal trainer,Toscana,2019,7,0.09
+Personal trainer,Toscana,2019,8,0.11
+Personal trainer,Toscana,2019,9,0.08
+Personal trainer,Toscana,2019,10,0.06
+Personal trainer,Toscana,2019,11,0.05
+Personal trainer,Toscana,2020,0,0.41
+Personal trainer,Toscana,2020,1,0.32
+Personal trainer,Toscana,2020,2,0.16
+Personal trainer,Toscana,2020,3,0.12
+Personal trainer,Trentino-Alto Adige,2019,0,0.13
+Personal trainer,Trentino-Alto Adige,2019,1,0.10
+Personal trainer,Trentino-Alto Adige,2019,2,0.07
+Personal trainer,Trentino-Alto Adige,2019,3,0.04
+Personal trainer,Trentino-Alto Adige,2019,4,0.08
+Personal trainer,Trentino-Alto Adige,2019,5,0.09
+Personal trainer,Trentino-Alto Adige,2019,6,0.10
+Personal trainer,Trentino-Alto Adige,2019,7,0.08
+Personal trainer,Trentino-Alto Adige,2019,8,0.11
+Personal trainer,Trentino-Alto Adige,2019,9,0.07
+Personal trainer,Trentino-Alto Adige,2019,10,0.07
+Personal trainer,Trentino-Alto Adige,2019,11,0.06
+Personal trainer,Trentino-Alto Adige,2020,0,0.43
+Personal trainer,Trentino-Alto Adige,2020,1,0.26
+Personal trainer,Trentino-Alto Adige,2020,2,0.16
+Personal trainer,Trentino-Alto Adige,2020,3,0.15
+Personal trainer,Umbria,2019,0,0.15
+Personal trainer,Umbria,2019,1,0.07
+Personal trainer,Umbria,2019,2,0.06
+Personal trainer,Umbria,2019,3,0.06
+Personal trainer,Umbria,2019,4,0.13
+Personal trainer,Umbria,2019,5,0.09
+Personal trainer,Umbria,2019,6,0.08
+Personal trainer,Umbria,2019,7,0.09
+Personal trainer,Umbria,2019,8,0.08
+Personal trainer,Umbria,2019,9,0.09
+Personal trainer,Umbria,2019,10,0.06
+Personal trainer,Umbria,2019,11,0.04
+Personal trainer,Umbria,2020,0,0.43
+Personal trainer,Umbria,2020,1,0.31
+Personal trainer,Umbria,2020,2,0.14
+Personal trainer,Umbria,2020,3,0.12
+Personal trainer,Valle d'Aosta,2019,0,0.16
+Personal trainer,Valle d'Aosta,2019,1,0.09
+Personal trainer,Valle d'Aosta,2019,2,0.04
+Personal trainer,Valle d'Aosta,2019,3,0.11
+Personal trainer,Valle d'Aosta,2019,4,0.11
+Personal trainer,Valle d'Aosta,2019,5,0.07
+Personal trainer,Valle d'Aosta,2019,6,0.10
+Personal trainer,Valle d'Aosta,2019,7,0.14
+Personal trainer,Valle d'Aosta,2019,8,0.04
+Personal trainer,Valle d'Aosta,2019,9,0.03
+Personal trainer,Valle d'Aosta,2019,10,0.08
+Personal trainer,Valle d'Aosta,2019,11,0.05
+Personal trainer,Valle d'Aosta,2020,0,0.12
+Personal trainer,Valle d'Aosta,2020,1,0.59
+Personal trainer,Valle d'Aosta,2020,2,0.18
+Personal trainer,Valle d'Aosta,2020,3,0.12
+Personal trainer,Veneto,2019,0,0.14
+Personal trainer,Veneto,2019,1,0.07
+Personal trainer,Veneto,2019,2,0.09
+Personal trainer,Veneto,2019,3,0.07
+Personal trainer,Veneto,2019,4,0.10
+Personal trainer,Veneto,2019,5,0.08
+Personal trainer,Veneto,2019,6,0.09
+Personal trainer,Veneto,2019,7,0.09
+Personal trainer,Veneto,2019,8,0.09
+Personal trainer,Veneto,2019,9,0.06
+Personal trainer,Veneto,2019,10,0.07
+Personal trainer,Veneto,2019,11,0.05
+Personal trainer,Veneto,2020,0,0.37
+Personal trainer,Veneto,2020,1,0.31
+Personal trainer,Veneto,2020,2,0.18
+Personal trainer,Veneto,2020,3,0.14
+Psicologo,Abruzzo,2019,0,0.08
+Psicologo,Abruzzo,2019,1,0.06
+Psicologo,Abruzzo,2019,2,0.08
+Psicologo,Abruzzo,2019,3,0.07
+Psicologo,Abruzzo,2019,4,0.08
+Psicologo,Abruzzo,2019,5,0.07
+Psicologo,Abruzzo,2019,6,0.10
+Psicologo,Abruzzo,2019,7,0.07
+Psicologo,Abruzzo,2019,8,0.12
+Psicologo,Abruzzo,2019,9,0.12
+Psicologo,Abruzzo,2019,10,0.10
+Psicologo,Abruzzo,2019,11,0.06
+Psicologo,Abruzzo,2020,0,0.35
+Psicologo,Abruzzo,2020,1,0.29
+Psicologo,Abruzzo,2020,2,0.21
+Psicologo,Abruzzo,2020,3,0.14
+Psicologo,Basilicata,2019,0,0.12
+Psicologo,Basilicata,2019,1,0.06
+Psicologo,Basilicata,2019,2,0.09
+Psicologo,Basilicata,2019,3,0.06
+Psicologo,Basilicata,2019,4,0.07
+Psicologo,Basilicata,2019,5,0.10
+Psicologo,Basilicata,2019,6,0.09
+Psicologo,Basilicata,2019,7,0.06
+Psicologo,Basilicata,2019,8,0.08
+Psicologo,Basilicata,2019,9,0.12
+Psicologo,Basilicata,2019,10,0.11
+Psicologo,Basilicata,2019,11,0.06
+Psicologo,Basilicata,2020,0,0.43
+Psicologo,Basilicata,2020,1,0.30
+Psicologo,Basilicata,2020,2,0.11
+Psicologo,Basilicata,2020,3,0.15
+Psicologo,Calabria,2019,0,0.09
+Psicologo,Calabria,2019,1,0.07
+Psicologo,Calabria,2019,2,0.06
+Psicologo,Calabria,2019,3,0.05
+Psicologo,Calabria,2019,4,0.10
+Psicologo,Calabria,2019,5,0.08
+Psicologo,Calabria,2019,6,0.10
+Psicologo,Calabria,2019,7,0.09
+Psicologo,Calabria,2019,8,0.09
+Psicologo,Calabria,2019,9,0.12
+Psicologo,Calabria,2019,10,0.10
+Psicologo,Calabria,2019,11,0.06
+Psicologo,Calabria,2020,0,0.40
+Psicologo,Calabria,2020,1,0.30
+Psicologo,Calabria,2020,2,0.15
+Psicologo,Calabria,2020,3,0.15
+Psicologo,Campania,2019,0,0.06
+Psicologo,Campania,2019,1,0.07
+Psicologo,Campania,2019,2,0.07
+Psicologo,Campania,2019,3,0.07
+Psicologo,Campania,2019,4,0.09
+Psicologo,Campania,2019,5,0.09
+Psicologo,Campania,2019,6,0.09
+Psicologo,Campania,2019,7,0.07
+Psicologo,Campania,2019,8,0.11
+Psicologo,Campania,2019,9,0.13
+Psicologo,Campania,2019,10,0.11
+Psicologo,Campania,2019,11,0.05
+Psicologo,Campania,2020,0,0.36
+Psicologo,Campania,2020,1,0.35
+Psicologo,Campania,2020,2,0.18
+Psicologo,Campania,2020,3,0.12
+Psicologo,Emilia-Romagna,2019,0,0.07
+Psicologo,Emilia-Romagna,2019,1,0.06
+Psicologo,Emilia-Romagna,2019,2,0.07
+Psicologo,Emilia-Romagna,2019,3,0.06
+Psicologo,Emilia-Romagna,2019,4,0.09
+Psicologo,Emilia-Romagna,2019,5,0.07
+Psicologo,Emilia-Romagna,2019,6,0.09
+Psicologo,Emilia-Romagna,2019,7,0.07
+Psicologo,Emilia-Romagna,2019,8,0.12
+Psicologo,Emilia-Romagna,2019,9,0.12
+Psicologo,Emilia-Romagna,2019,10,0.12
+Psicologo,Emilia-Romagna,2019,11,0.06
+Psicologo,Emilia-Romagna,2020,0,0.36
+Psicologo,Emilia-Romagna,2020,1,0.35
+Psicologo,Emilia-Romagna,2020,2,0.17
+Psicologo,Emilia-Romagna,2020,3,0.12
+Psicologo,Friuli Venezia Giulia,2019,0,0.07
+Psicologo,Friuli Venezia Giulia,2019,1,0.04
+Psicologo,Friuli Venezia Giulia,2019,2,0.06
+Psicologo,Friuli Venezia Giulia,2019,3,0.07
+Psicologo,Friuli Venezia Giulia,2019,4,0.13
+Psicologo,Friuli Venezia Giulia,2019,5,0.09
+Psicologo,Friuli Venezia Giulia,2019,6,0.08
+Psicologo,Friuli Venezia Giulia,2019,7,0.07
+Psicologo,Friuli Venezia Giulia,2019,8,0.11
+Psicologo,Friuli Venezia Giulia,2019,9,0.10
+Psicologo,Friuli Venezia Giulia,2019,10,0.13
+Psicologo,Friuli Venezia Giulia,2019,11,0.06
+Psicologo,Friuli Venezia Giulia,2020,0,0.37
+Psicologo,Friuli Venezia Giulia,2020,1,0.33
+Psicologo,Friuli Venezia Giulia,2020,2,0.18
+Psicologo,Friuli Venezia Giulia,2020,3,0.13
+Psicologo,Italia,2019,0,0.07
+Psicologo,Italia,2019,1,0.06
+Psicologo,Italia,2019,2,0.07
+Psicologo,Italia,2019,3,0.06
+Psicologo,Italia,2019,4,0.09
+Psicologo,Italia,2019,5,0.08
+Psicologo,Italia,2019,6,0.09
+Psicologo,Italia,2019,7,0.07
+Psicologo,Italia,2019,8,0.11
+Psicologo,Italia,2019,9,0.12
+Psicologo,Italia,2019,10,0.12
+Psicologo,Italia,2019,11,0.06
+Psicologo,Italia,2020,0,0.37
+Psicologo,Italia,2020,1,0.34
+Psicologo,Italia,2020,2,0.16
+Psicologo,Italia,2020,3,0.12
+Psicologo,Lazio,2019,0,0.06
+Psicologo,Lazio,2019,1,0.06
+Psicologo,Lazio,2019,2,0.07
+Psicologo,Lazio,2019,3,0.07
+Psicologo,Lazio,2019,4,0.10
+Psicologo,Lazio,2019,5,0.09
+Psicologo,Lazio,2019,6,0.09
+Psicologo,Lazio,2019,7,0.06
+Psicologo,Lazio,2019,8,0.12
+Psicologo,Lazio,2019,9,0.12
+Psicologo,Lazio,2019,10,0.12
+Psicologo,Lazio,2019,11,0.06
+Psicologo,Lazio,2020,0,0.36
+Psicologo,Lazio,2020,1,0.36
+Psicologo,Lazio,2020,2,0.14
+Psicologo,Lazio,2020,3,0.13
+Psicologo,Liguria,2019,0,0.06
+Psicologo,Liguria,2019,1,0.06
+Psicologo,Liguria,2019,2,0.07
+Psicologo,Liguria,2019,3,0.05
+Psicologo,Liguria,2019,4,0.08
+Psicologo,Liguria,2019,5,0.09
+Psicologo,Liguria,2019,6,0.11
+Psicologo,Liguria,2019,7,0.08
+Psicologo,Liguria,2019,8,0.10
+Psicologo,Liguria,2019,9,0.12
+Psicologo,Liguria,2019,10,0.12
+Psicologo,Liguria,2019,11,0.06
+Psicologo,Liguria,2020,0,0.37
+Psicologo,Liguria,2020,1,0.31
+Psicologo,Liguria,2020,2,0.19
+Psicologo,Liguria,2020,3,0.13
+Psicologo,Lombardia,2019,0,0.07
+Psicologo,Lombardia,2019,1,0.06
+Psicologo,Lombardia,2019,2,0.07
+Psicologo,Lombardia,2019,3,0.06
+Psicologo,Lombardia,2019,4,0.10
+Psicologo,Lombardia,2019,5,0.08
+Psicologo,Lombardia,2019,6,0.09
+Psicologo,Lombardia,2019,7,0.07
+Psicologo,Lombardia,2019,8,0.12
+Psicologo,Lombardia,2019,9,0.11
+Psicologo,Lombardia,2019,10,0.12
+Psicologo,Lombardia,2019,11,0.05
+Psicologo,Lombardia,2020,0,0.38
+Psicologo,Lombardia,2020,1,0.33
+Psicologo,Lombardia,2020,2,0.16
+Psicologo,Lombardia,2020,3,0.13
+Psicologo,Marche,2019,0,0.07
+Psicologo,Marche,2019,1,0.05
+Psicologo,Marche,2019,2,0.07
+Psicologo,Marche,2019,3,0.06
+Psicologo,Marche,2019,4,0.08
+Psicologo,Marche,2019,5,0.07
+Psicologo,Marche,2019,6,0.09
+Psicologo,Marche,2019,7,0.08
+Psicologo,Marche,2019,8,0.12
+Psicologo,Marche,2019,9,0.10
+Psicologo,Marche,2019,10,0.14
+Psicologo,Marche,2019,11,0.07
+Psicologo,Marche,2020,0,0.40
+Psicologo,Marche,2020,1,0.33
+Psicologo,Marche,2020,2,0.15
+Psicologo,Marche,2020,3,0.12
+Psicologo,Molise,2019,0,0.06
+Psicologo,Molise,2019,1,0.07
+Psicologo,Molise,2019,2,0.06
+Psicologo,Molise,2019,3,0.06
+Psicologo,Molise,2019,4,0.12
+Psicologo,Molise,2019,5,0.07
+Psicologo,Molise,2019,6,0.06
+Psicologo,Molise,2019,7,0.09
+Psicologo,Molise,2019,8,0.18
+Psicologo,Molise,2019,9,0.08
+Psicologo,Molise,2019,10,0.11
+Psicologo,Molise,2019,11,0.06
+Psicologo,Molise,2020,0,0.40
+Psicologo,Molise,2020,1,0.30
+Psicologo,Molise,2020,2,0.20
+Psicologo,Molise,2020,3,0.10
+Psicologo,Piemonte,2019,0,0.06
+Psicologo,Piemonte,2019,1,0.05
+Psicologo,Piemonte,2019,2,0.07
+Psicologo,Piemonte,2019,3,0.06
+Psicologo,Piemonte,2019,4,0.09
+Psicologo,Piemonte,2019,5,0.07
+Psicologo,Piemonte,2019,6,0.08
+Psicologo,Piemonte,2019,7,0.08
+Psicologo,Piemonte,2019,8,0.11
+Psicologo,Piemonte,2019,9,0.12
+Psicologo,Piemonte,2019,10,0.12
+Psicologo,Piemonte,2019,11,0.07
+Psicologo,Piemonte,2020,0,0.35
+Psicologo,Piemonte,2020,1,0.37
+Psicologo,Piemonte,2020,2,0.16
+Psicologo,Piemonte,2020,3,0.12
+Psicologo,Puglia,2019,0,0.08
+Psicologo,Puglia,2019,1,0.06
+Psicologo,Puglia,2019,2,0.07
+Psicologo,Puglia,2019,3,0.08
+Psicologo,Puglia,2019,4,0.08
+Psicologo,Puglia,2019,5,0.07
+Psicologo,Puglia,2019,6,0.09
+Psicologo,Puglia,2019,7,0.08
+Psicologo,Puglia,2019,8,0.10
+Psicologo,Puglia,2019,9,0.12
+Psicologo,Puglia,2019,10,0.11
+Psicologo,Puglia,2019,11,0.05
+Psicologo,Puglia,2020,0,0.36
+Psicologo,Puglia,2020,1,0.34
+Psicologo,Puglia,2020,2,0.16
+Psicologo,Puglia,2020,3,0.14
+Psicologo,Sardegna,2019,0,0.06
+Psicologo,Sardegna,2019,1,0.05
+Psicologo,Sardegna,2019,2,0.08
+Psicologo,Sardegna,2019,3,0.08
+Psicologo,Sardegna,2019,4,0.07
+Psicologo,Sardegna,2019,5,0.06
+Psicologo,Sardegna,2019,6,0.08
+Psicologo,Sardegna,2019,7,0.08
+Psicologo,Sardegna,2019,8,0.11
+Psicologo,Sardegna,2019,9,0.12
+Psicologo,Sardegna,2019,10,0.12
+Psicologo,Sardegna,2019,11,0.08
+Psicologo,Sardegna,2020,0,0.44
+Psicologo,Sardegna,2020,1,0.29
+Psicologo,Sardegna,2020,2,0.18
+Psicologo,Sardegna,2020,3,0.10
+Psicologo,Sicilia,2019,0,0.06
+Psicologo,Sicilia,2019,1,0.05
+Psicologo,Sicilia,2019,2,0.07
+Psicologo,Sicilia,2019,3,0.06
+Psicologo,Sicilia,2019,4,0.08
+Psicologo,Sicilia,2019,5,0.07
+Psicologo,Sicilia,2019,6,0.10
+Psicologo,Sicilia,2019,7,0.09
+Psicologo,Sicilia,2019,8,0.11
+Psicologo,Sicilia,2019,9,0.12
+Psicologo,Sicilia,2019,10,0.11
+Psicologo,Sicilia,2019,11,0.07
+Psicologo,Sicilia,2020,0,0.39
+Psicologo,Sicilia,2020,1,0.32
+Psicologo,Sicilia,2020,2,0.18
+Psicologo,Sicilia,2020,3,0.12
+Psicologo,Toscana,2019,0,0.07
+Psicologo,Toscana,2019,1,0.06
+Psicologo,Toscana,2019,2,0.07
+Psicologo,Toscana,2019,3,0.05
+Psicologo,Toscana,2019,4,0.08
+Psicologo,Toscana,2019,5,0.08
+Psicologo,Toscana,2019,6,0.09
+Psicologo,Toscana,2019,7,0.08
+Psicologo,Toscana,2019,8,0.13
+Psicologo,Toscana,2019,9,0.12
+Psicologo,Toscana,2019,10,0.11
+Psicologo,Toscana,2019,11,0.06
+Psicologo,Toscana,2020,0,0.38
+Psicologo,Toscana,2020,1,0.36
+Psicologo,Toscana,2020,2,0.15
+Psicologo,Toscana,2020,3,0.11
+Psicologo,Trentino-Alto Adige,2019,0,0.06
+Psicologo,Trentino-Alto Adige,2019,1,0.05
+Psicologo,Trentino-Alto Adige,2019,2,0.08
+Psicologo,Trentino-Alto Adige,2019,3,0.04
+Psicologo,Trentino-Alto Adige,2019,4,0.10
+Psicologo,Trentino-Alto Adige,2019,5,0.09
+Psicologo,Trentino-Alto Adige,2019,6,0.10
+Psicologo,Trentino-Alto Adige,2019,7,0.07
+Psicologo,Trentino-Alto Adige,2019,8,0.11
+Psicologo,Trentino-Alto Adige,2019,9,0.12
+Psicologo,Trentino-Alto Adige,2019,10,0.11
+Psicologo,Trentino-Alto Adige,2019,11,0.08
+Psicologo,Trentino-Alto Adige,2020,0,0.44
+Psicologo,Trentino-Alto Adige,2020,1,0.34
+Psicologo,Trentino-Alto Adige,2020,2,0.13
+Psicologo,Trentino-Alto Adige,2020,3,0.10
+Psicologo,Umbria,2019,0,0.09
+Psicologo,Umbria,2019,1,0.06
+Psicologo,Umbria,2019,2,0.07
+Psicologo,Umbria,2019,3,0.07
+Psicologo,Umbria,2019,4,0.07
+Psicologo,Umbria,2019,5,0.07
+Psicologo,Umbria,2019,6,0.07
+Psicologo,Umbria,2019,7,0.09
+Psicologo,Umbria,2019,8,0.11
+Psicologo,Umbria,2019,9,0.12
+Psicologo,Umbria,2019,10,0.11
+Psicologo,Umbria,2019,11,0.06
+Psicologo,Umbria,2020,0,0.29
+Psicologo,Umbria,2020,1,0.33
+Psicologo,Umbria,2020,2,0.21
+Psicologo,Umbria,2020,3,0.16
+Psicologo,Valle d'Aosta,2019,0,0.08
+Psicologo,Valle d'Aosta,2019,1,0.03
+Psicologo,Valle d'Aosta,2019,2,0.05
+Psicologo,Valle d'Aosta,2019,3,0.13
+Psicologo,Valle d'Aosta,2019,4,0.03
+Psicologo,Valle d'Aosta,2019,5,0.05
+Psicologo,Valle d'Aosta,2019,6,0.05
+Psicologo,Valle d'Aosta,2019,7,0.11
+Psicologo,Valle d'Aosta,2019,8,0.08
+Psicologo,Valle d'Aosta,2019,9,0.13
+Psicologo,Valle d'Aosta,2019,10,0.16
+Psicologo,Valle d'Aosta,2019,11,0.10
+Psicologo,Valle d'Aosta,2020,0,0.33
+Psicologo,Valle d'Aosta,2020,1,0.29
+Psicologo,Valle d'Aosta,2020,2,0.13
+Psicologo,Valle d'Aosta,2020,3,0.25
+Psicologo,Veneto,2019,0,0.06
+Psicologo,Veneto,2019,1,0.06
+Psicologo,Veneto,2019,2,0.08
+Psicologo,Veneto,2019,3,0.07
+Psicologo,Veneto,2019,4,0.09
+Psicologo,Veneto,2019,5,0.07
+Psicologo,Veneto,2019,6,0.10
+Psicologo,Veneto,2019,7,0.08
+Psicologo,Veneto,2019,8,0.11
+Psicologo,Veneto,2019,9,0.11
+Psicologo,Veneto,2019,10,0.11
+Psicologo,Veneto,2019,11,0.07
+Psicologo,Veneto,2020,0,0.38
+Psicologo,Veneto,2020,1,0.35
+Psicologo,Veneto,2020,2,0.14
+Psicologo,Veneto,2020,3,0.13
+Ripetizioni,Abruzzo,2019,0,0.07
+Ripetizioni,Abruzzo,2019,1,0.06
+Ripetizioni,Abruzzo,2019,2,0.07
+Ripetizioni,Abruzzo,2019,3,0.06
+Ripetizioni,Abruzzo,2019,4,0.07
+Ripetizioni,Abruzzo,2019,5,0.09
+Ripetizioni,Abruzzo,2019,6,0.07
+Ripetizioni,Abruzzo,2019,7,0.07
+Ripetizioni,Abruzzo,2019,8,0.08
+Ripetizioni,Abruzzo,2019,9,0.11
+Ripetizioni,Abruzzo,2019,10,0.14
+Ripetizioni,Abruzzo,2019,11,0.10
+Ripetizioni,Abruzzo,2020,0,0.47
+Ripetizioni,Abruzzo,2020,1,0.36
+Ripetizioni,Abruzzo,2020,2,0.12
+Ripetizioni,Abruzzo,2020,3,0.05
+Ripetizioni,Basilicata,2019,0,0.10
+Ripetizioni,Basilicata,2019,1,0.03
+Ripetizioni,Basilicata,2019,2,0.05
+Ripetizioni,Basilicata,2019,3,0.06
+Ripetizioni,Basilicata,2019,4,0.08
+Ripetizioni,Basilicata,2019,5,0.04
+Ripetizioni,Basilicata,2019,6,0.13
+Ripetizioni,Basilicata,2019,7,0.06
+Ripetizioni,Basilicata,2019,8,0.13
+Ripetizioni,Basilicata,2019,9,0.14
+Ripetizioni,Basilicata,2019,10,0.08
+Ripetizioni,Basilicata,2019,11,0.10
+Ripetizioni,Basilicata,2020,0,0.55
+Ripetizioni,Basilicata,2020,1,0.35
+Ripetizioni,Basilicata,2020,2,0.03
+Ripetizioni,Basilicata,2020,3,0.06
+Ripetizioni,Calabria,2019,0,0.10
+Ripetizioni,Calabria,2019,1,0.05
+Ripetizioni,Calabria,2019,2,0.05
+Ripetizioni,Calabria,2019,3,0.06
+Ripetizioni,Calabria,2019,4,0.07
+Ripetizioni,Calabria,2019,5,0.05
+Ripetizioni,Calabria,2019,6,0.11
+Ripetizioni,Calabria,2019,7,0.09
+Ripetizioni,Calabria,2019,8,0.06
+Ripetizioni,Calabria,2019,9,0.17
+Ripetizioni,Calabria,2019,10,0.13
+Ripetizioni,Calabria,2019,11,0.06
+Ripetizioni,Calabria,2020,0,0.47
+Ripetizioni,Calabria,2020,1,0.31
+Ripetizioni,Calabria,2020,2,0.16
+Ripetizioni,Calabria,2020,3,0.06
+Ripetizioni,Campania,2019,0,0.08
+Ripetizioni,Campania,2019,1,0.06
+Ripetizioni,Campania,2019,2,0.07
+Ripetizioni,Campania,2019,3,0.06
+Ripetizioni,Campania,2019,4,0.08
+Ripetizioni,Campania,2019,5,0.07
+Ripetizioni,Campania,2019,6,0.06
+Ripetizioni,Campania,2019,7,0.04
+Ripetizioni,Campania,2019,8,0.10
+Ripetizioni,Campania,2019,9,0.17
+Ripetizioni,Campania,2019,10,0.13
+Ripetizioni,Campania,2019,11,0.07
+Ripetizioni,Campania,2020,0,0.49
+Ripetizioni,Campania,2020,1,0.36
+Ripetizioni,Campania,2020,2,0.10
+Ripetizioni,Campania,2020,3,0.04
+Ripetizioni,Emilia-Romagna,2019,0,0.06
+Ripetizioni,Emilia-Romagna,2019,1,0.06
+Ripetizioni,Emilia-Romagna,2019,2,0.08
+Ripetizioni,Emilia-Romagna,2019,3,0.07
+Ripetizioni,Emilia-Romagna,2019,4,0.10
+Ripetizioni,Emilia-Romagna,2019,5,0.10
+Ripetizioni,Emilia-Romagna,2019,6,0.07
+Ripetizioni,Emilia-Romagna,2019,7,0.06
+Ripetizioni,Emilia-Romagna,2019,8,0.06
+Ripetizioni,Emilia-Romagna,2019,9,0.13
+Ripetizioni,Emilia-Romagna,2019,10,0.13
+Ripetizioni,Emilia-Romagna,2019,11,0.08
+Ripetizioni,Emilia-Romagna,2020,0,0.53
+Ripetizioni,Emilia-Romagna,2020,1,0.37
+Ripetizioni,Emilia-Romagna,2020,2,0.06
+Ripetizioni,Emilia-Romagna,2020,3,0.04
+Ripetizioni,Friuli Venezia Giulia,2019,0,0.06
+Ripetizioni,Friuli Venezia Giulia,2019,1,0.04
+Ripetizioni,Friuli Venezia Giulia,2019,2,0.07
+Ripetizioni,Friuli Venezia Giulia,2019,3,0.06
+Ripetizioni,Friuli Venezia Giulia,2019,4,0.08
+Ripetizioni,Friuli Venezia Giulia,2019,5,0.11
+Ripetizioni,Friuli Venezia Giulia,2019,6,0.12
+Ripetizioni,Friuli Venezia Giulia,2019,7,0.06
+Ripetizioni,Friuli Venezia Giulia,2019,8,0.03
+Ripetizioni,Friuli Venezia Giulia,2019,9,0.15
+Ripetizioni,Friuli Venezia Giulia,2019,10,0.13
+Ripetizioni,Friuli Venezia Giulia,2019,11,0.08
+Ripetizioni,Friuli Venezia Giulia,2020,0,0.44
+Ripetizioni,Friuli Venezia Giulia,2020,1,0.43
+Ripetizioni,Friuli Venezia Giulia,2020,2,0.09
+Ripetizioni,Friuli Venezia Giulia,2020,3,0.04
+Ripetizioni,Italia,2019,0,0.07
+Ripetizioni,Italia,2019,1,0.06
+Ripetizioni,Italia,2019,2,0.07
+Ripetizioni,Italia,2019,3,0.07
+Ripetizioni,Italia,2019,4,0.09
+Ripetizioni,Italia,2019,5,0.09
+Ripetizioni,Italia,2019,6,0.08
+Ripetizioni,Italia,2019,7,0.06
+Ripetizioni,Italia,2019,8,0.07
+Ripetizioni,Italia,2019,9,0.13
+Ripetizioni,Italia,2019,10,0.14
+Ripetizioni,Italia,2019,11,0.07
+Ripetizioni,Italia,2020,0,0.51
+Ripetizioni,Italia,2020,1,0.35
+Ripetizioni,Italia,2020,2,0.09
+Ripetizioni,Italia,2020,3,0.05
+Ripetizioni,Lazio,2019,0,0.06
+Ripetizioni,Lazio,2019,1,0.07
+Ripetizioni,Lazio,2019,2,0.08
+Ripetizioni,Lazio,2019,3,0.06
+Ripetizioni,Lazio,2019,4,0.09
+Ripetizioni,Lazio,2019,5,0.09
+Ripetizioni,Lazio,2019,6,0.06
+Ripetizioni,Lazio,2019,7,0.05
+Ripetizioni,Lazio,2019,8,0.08
+Ripetizioni,Lazio,2019,9,0.15
+Ripetizioni,Lazio,2019,10,0.15
+Ripetizioni,Lazio,2019,11,0.07
+Ripetizioni,Lazio,2020,0,0.47
+Ripetizioni,Lazio,2020,1,0.35
+Ripetizioni,Lazio,2020,2,0.11
+Ripetizioni,Lazio,2020,3,0.07
+Ripetizioni,Liguria,2019,0,0.03
+Ripetizioni,Liguria,2019,1,0.07
+Ripetizioni,Liguria,2019,2,0.06
+Ripetizioni,Liguria,2019,3,0.08
+Ripetizioni,Liguria,2019,4,0.10
+Ripetizioni,Liguria,2019,5,0.08
+Ripetizioni,Liguria,2019,6,0.10
+Ripetizioni,Liguria,2019,7,0.07
+Ripetizioni,Liguria,2019,8,0.07
+Ripetizioni,Liguria,2019,9,0.12
+Ripetizioni,Liguria,2019,10,0.15
+Ripetizioni,Liguria,2019,11,0.07
+Ripetizioni,Liguria,2020,0,0.51
+Ripetizioni,Liguria,2020,1,0.31
+Ripetizioni,Liguria,2020,2,0.11
+Ripetizioni,Liguria,2020,3,0.08
+Ripetizioni,Lombardia,2019,0,0.08
+Ripetizioni,Lombardia,2019,1,0.06
+Ripetizioni,Lombardia,2019,2,0.07
+Ripetizioni,Lombardia,2019,3,0.07
+Ripetizioni,Lombardia,2019,4,0.09
+Ripetizioni,Lombardia,2019,5,0.09
+Ripetizioni,Lombardia,2019,6,0.07
+Ripetizioni,Lombardia,2019,7,0.06
+Ripetizioni,Lombardia,2019,8,0.07
+Ripetizioni,Lombardia,2019,9,0.13
+Ripetizioni,Lombardia,2019,10,0.14
+Ripetizioni,Lombardia,2019,11,0.07
+Ripetizioni,Lombardia,2020,0,0.54
+Ripetizioni,Lombardia,2020,1,0.33
+Ripetizioni,Lombardia,2020,2,0.08
+Ripetizioni,Lombardia,2020,3,0.04
+Ripetizioni,Marche,2019,0,0.06
+Ripetizioni,Marche,2019,1,0.05
+Ripetizioni,Marche,2019,2,0.11
+Ripetizioni,Marche,2019,3,0.08
+Ripetizioni,Marche,2019,4,0.08
+Ripetizioni,Marche,2019,5,0.07
+Ripetizioni,Marche,2019,6,0.07
+Ripetizioni,Marche,2019,7,0.03
+Ripetizioni,Marche,2019,8,0.11
+Ripetizioni,Marche,2019,9,0.12
+Ripetizioni,Marche,2019,10,0.14
+Ripetizioni,Marche,2019,11,0.08
+Ripetizioni,Marche,2020,0,0.54
+Ripetizioni,Marche,2020,1,0.29
+Ripetizioni,Marche,2020,2,0.12
+Ripetizioni,Marche,2020,3,0.05
+Ripetizioni,Molise,2019,0,0.00
+Ripetizioni,Molise,2019,1,0.07
+Ripetizioni,Molise,2019,2,0.04
+Ripetizioni,Molise,2019,3,0.15
+Ripetizioni,Molise,2019,4,0.15
+Ripetizioni,Molise,2019,5,0.02
+Ripetizioni,Molise,2019,6,0.19
+Ripetizioni,Molise,2019,7,0.02
+Ripetizioni,Molise,2019,8,0.04
+Ripetizioni,Molise,2019,9,0.15
+Ripetizioni,Molise,2019,10,0.09
+Ripetizioni,Molise,2019,11,0.09
+Ripetizioni,Molise,2020,0,0.50
+Ripetizioni,Molise,2020,1,0.36
+Ripetizioni,Molise,2020,2,0.07
+Ripetizioni,Molise,2020,3,0.07
+Ripetizioni,Piemonte,2019,0,0.07
+Ripetizioni,Piemonte,2019,1,0.07
+Ripetizioni,Piemonte,2019,2,0.07
+Ripetizioni,Piemonte,2019,3,0.08
+Ripetizioni,Piemonte,2019,4,0.09
+Ripetizioni,Piemonte,2019,5,0.09
+Ripetizioni,Piemonte,2019,6,0.09
+Ripetizioni,Piemonte,2019,7,0.06
+Ripetizioni,Piemonte,2019,8,0.07
+Ripetizioni,Piemonte,2019,9,0.13
+Ripetizioni,Piemonte,2019,10,0.12
+Ripetizioni,Piemonte,2019,11,0.08
+Ripetizioni,Piemonte,2020,0,0.49
+Ripetizioni,Piemonte,2020,1,0.36
+Ripetizioni,Piemonte,2020,2,0.10
+Ripetizioni,Piemonte,2020,3,0.04
+Ripetizioni,Puglia,2019,0,0.09
+Ripetizioni,Puglia,2019,1,0.08
+Ripetizioni,Puglia,2019,2,0.08
+Ripetizioni,Puglia,2019,3,0.05
+Ripetizioni,Puglia,2019,4,0.09
+Ripetizioni,Puglia,2019,5,0.07
+Ripetizioni,Puglia,2019,6,0.08
+Ripetizioni,Puglia,2019,7,0.05
+Ripetizioni,Puglia,2019,8,0.07
+Ripetizioni,Puglia,2019,9,0.15
+Ripetizioni,Puglia,2019,10,0.13
+Ripetizioni,Puglia,2019,11,0.06
+Ripetizioni,Puglia,2020,0,0.50
+Ripetizioni,Puglia,2020,1,0.31
+Ripetizioni,Puglia,2020,2,0.10
+Ripetizioni,Puglia,2020,3,0.09
+Ripetizioni,Sardegna,2019,0,0.06
+Ripetizioni,Sardegna,2019,1,0.05
+Ripetizioni,Sardegna,2019,2,0.08
+Ripetizioni,Sardegna,2019,3,0.07
+Ripetizioni,Sardegna,2019,4,0.10
+Ripetizioni,Sardegna,2019,5,0.11
+Ripetizioni,Sardegna,2019,6,0.13
+Ripetizioni,Sardegna,2019,7,0.09
+Ripetizioni,Sardegna,2019,8,0.07
+Ripetizioni,Sardegna,2019,9,0.10
+Ripetizioni,Sardegna,2019,10,0.10
+Ripetizioni,Sardegna,2019,11,0.06
+Ripetizioni,Sardegna,2020,0,0.47
+Ripetizioni,Sardegna,2020,1,0.40
+Ripetizioni,Sardegna,2020,2,0.08
+Ripetizioni,Sardegna,2020,3,0.06
+Ripetizioni,Sicilia,2019,0,0.08
+Ripetizioni,Sicilia,2019,1,0.07
+Ripetizioni,Sicilia,2019,2,0.08
+Ripetizioni,Sicilia,2019,3,0.09
+Ripetizioni,Sicilia,2019,4,0.09
+Ripetizioni,Sicilia,2019,5,0.10
+Ripetizioni,Sicilia,2019,6,0.06
+Ripetizioni,Sicilia,2019,7,0.06
+Ripetizioni,Sicilia,2019,8,0.07
+Ripetizioni,Sicilia,2019,9,0.11
+Ripetizioni,Sicilia,2019,10,0.13
+Ripetizioni,Sicilia,2019,11,0.06
+Ripetizioni,Sicilia,2020,0,0.53
+Ripetizioni,Sicilia,2020,1,0.26
+Ripetizioni,Sicilia,2020,2,0.15
+Ripetizioni,Sicilia,2020,3,0.05
+Ripetizioni,Toscana,2019,0,0.07
+Ripetizioni,Toscana,2019,1,0.07
+Ripetizioni,Toscana,2019,2,0.07
+Ripetizioni,Toscana,2019,3,0.07
+Ripetizioni,Toscana,2019,4,0.07
+Ripetizioni,Toscana,2019,5,0.09
+Ripetizioni,Toscana,2019,6,0.07
+Ripetizioni,Toscana,2019,7,0.05
+Ripetizioni,Toscana,2019,8,0.05
+Ripetizioni,Toscana,2019,9,0.14
+Ripetizioni,Toscana,2019,10,0.16
+Ripetizioni,Toscana,2019,11,0.07
+Ripetizioni,Toscana,2020,0,0.49
+Ripetizioni,Toscana,2020,1,0.36
+Ripetizioni,Toscana,2020,2,0.11
+Ripetizioni,Toscana,2020,3,0.05
+Ripetizioni,Trentino-Alto Adige,2019,0,0.08
+Ripetizioni,Trentino-Alto Adige,2019,1,0.05
+Ripetizioni,Trentino-Alto Adige,2019,2,0.07
+Ripetizioni,Trentino-Alto Adige,2019,3,0.04
+Ripetizioni,Trentino-Alto Adige,2019,4,0.08
+Ripetizioni,Trentino-Alto Adige,2019,5,0.06
+Ripetizioni,Trentino-Alto Adige,2019,6,0.10
+Ripetizioni,Trentino-Alto Adige,2019,7,0.05
+Ripetizioni,Trentino-Alto Adige,2019,8,0.03
+Ripetizioni,Trentino-Alto Adige,2019,9,0.16
+Ripetizioni,Trentino-Alto Adige,2019,10,0.18
+Ripetizioni,Trentino-Alto Adige,2019,11,0.08
+Ripetizioni,Trentino-Alto Adige,2020,0,0.51
+Ripetizioni,Trentino-Alto Adige,2020,1,0.28
+Ripetizioni,Trentino-Alto Adige,2020,2,0.14
+Ripetizioni,Trentino-Alto Adige,2020,3,0.06
+Ripetizioni,Umbria,2019,0,0.07
+Ripetizioni,Umbria,2019,1,0.08
+Ripetizioni,Umbria,2019,2,0.08
+Ripetizioni,Umbria,2019,3,0.11
+Ripetizioni,Umbria,2019,4,0.10
+Ripetizioni,Umbria,2019,5,0.06
+Ripetizioni,Umbria,2019,6,0.10
+Ripetizioni,Umbria,2019,7,0.04
+Ripetizioni,Umbria,2019,8,0.07
+Ripetizioni,Umbria,2019,9,0.10
+Ripetizioni,Umbria,2019,10,0.15
+Ripetizioni,Umbria,2019,11,0.07
+Ripetizioni,Umbria,2020,0,0.55
+Ripetizioni,Umbria,2020,1,0.31
+Ripetizioni,Umbria,2020,2,0.08
+Ripetizioni,Umbria,2020,3,0.06
+Ripetizioni,Valle d'Aosta,2019,0,0.00
+Ripetizioni,Valle d'Aosta,2019,1,0.03
+Ripetizioni,Valle d'Aosta,2019,2,0.03
+Ripetizioni,Valle d'Aosta,2019,3,0.09
+Ripetizioni,Valle d'Aosta,2019,4,0.11
+Ripetizioni,Valle d'Aosta,2019,5,0.14
+Ripetizioni,Valle d'Aosta,2019,6,0.11
+Ripetizioni,Valle d'Aosta,2019,7,0.20
+Ripetizioni,Valle d'Aosta,2019,8,0.09
+Ripetizioni,Valle d'Aosta,2019,9,0.14
+Ripetizioni,Valle d'Aosta,2019,10,0.03
+Ripetizioni,Valle d'Aosta,2019,11,0.03
+Ripetizioni,Valle d'Aosta,2020,0,0.20
+Ripetizioni,Valle d'Aosta,2020,1,0.40
+Ripetizioni,Valle d'Aosta,2020,2,0.20
+Ripetizioni,Valle d'Aosta,2020,3,0.20
+Ripetizioni,Veneto,2019,0,0.06
+Ripetizioni,Veneto,2019,1,0.06
+Ripetizioni,Veneto,2019,2,0.08
+Ripetizioni,Veneto,2019,3,0.07
+Ripetizioni,Veneto,2019,4,0.09
+Ripetizioni,Veneto,2019,5,0.10
+Ripetizioni,Veneto,2019,6,0.09
+Ripetizioni,Veneto,2019,7,0.06
+Ripetizioni,Veneto,2019,8,0.06
+Ripetizioni,Veneto,2019,9,0.12
+Ripetizioni,Veneto,2019,10,0.13
+Ripetizioni,Veneto,2019,11,0.08
+Ripetizioni,Veneto,2020,0,0.51
+Ripetizioni,Veneto,2020,1,0.39
+Ripetizioni,Veneto,2020,2,0.07
+Ripetizioni,Veneto,2020,3,0.04
+Spedizioni,Abruzzo,2019,0,0.08
+Spedizioni,Abruzzo,2019,1,0.07
+Spedizioni,Abruzzo,2019,2,0.06
+Spedizioni,Abruzzo,2019,3,0.08
+Spedizioni,Abruzzo,2019,4,0.07
+Spedizioni,Abruzzo,2019,5,0.07
+Spedizioni,Abruzzo,2019,6,0.07
+Spedizioni,Abruzzo,2019,7,0.06
+Spedizioni,Abruzzo,2019,8,0.12
+Spedizioni,Abruzzo,2019,9,0.11
+Spedizioni,Abruzzo,2019,10,0.11
+Spedizioni,Abruzzo,2019,11,0.09
+Spedizioni,Abruzzo,2020,0,0.12
+Spedizioni,Abruzzo,2020,1,0.05
+Spedizioni,Abruzzo,2020,2,0.32
+Spedizioni,Abruzzo,2020,3,0.52
+Spedizioni,Basilicata,2019,0,0.12
+Spedizioni,Basilicata,2019,1,0.04
+Spedizioni,Basilicata,2019,2,0.02
+Spedizioni,Basilicata,2019,3,0.10
+Spedizioni,Basilicata,2019,4,0.08
+Spedizioni,Basilicata,2019,5,0.04
+Spedizioni,Basilicata,2019,6,0.08
+Spedizioni,Basilicata,2019,7,0.04
+Spedizioni,Basilicata,2019,8,0.06
+Spedizioni,Basilicata,2019,9,0.16
+Spedizioni,Basilicata,2019,10,0.12
+Spedizioni,Basilicata,2019,11,0.14
+Spedizioni,Basilicata,2020,0,0.17
+Spedizioni,Basilicata,2020,1,0.10
+Spedizioni,Basilicata,2020,2,0.25
+Spedizioni,Basilicata,2020,3,0.48
+Spedizioni,Calabria,2019,0,0.04
+Spedizioni,Calabria,2019,1,0.04
+Spedizioni,Calabria,2019,2,0.06
+Spedizioni,Calabria,2019,3,0.07
+Spedizioni,Calabria,2019,4,0.09
+Spedizioni,Calabria,2019,5,0.06
+Spedizioni,Calabria,2019,6,0.10
+Spedizioni,Calabria,2019,7,0.11
+Spedizioni,Calabria,2019,8,0.15
+Spedizioni,Calabria,2019,9,0.12
+Spedizioni,Calabria,2019,10,0.09
+Spedizioni,Calabria,2019,11,0.09
+Spedizioni,Calabria,2020,0,0.10
+Spedizioni,Calabria,2020,1,0.10
+Spedizioni,Calabria,2020,2,0.26
+Spedizioni,Calabria,2020,3,0.54
+Spedizioni,Campania,2019,0,0.07
+Spedizioni,Campania,2019,1,0.05
+Spedizioni,Campania,2019,2,0.05
+Spedizioni,Campania,2019,3,0.06
+Spedizioni,Campania,2019,4,0.07
+Spedizioni,Campania,2019,5,0.05
+Spedizioni,Campania,2019,6,0.10
+Spedizioni,Campania,2019,7,0.08
+Spedizioni,Campania,2019,8,0.15
+Spedizioni,Campania,2019,9,0.14
+Spedizioni,Campania,2019,10,0.08
+Spedizioni,Campania,2019,11,0.09
+Spedizioni,Campania,2020,0,0.10
+Spedizioni,Campania,2020,1,0.05
+Spedizioni,Campania,2020,2,0.28
+Spedizioni,Campania,2020,3,0.57
+Spedizioni,Emilia-Romagna,2019,0,0.04
+Spedizioni,Emilia-Romagna,2019,1,0.05
+Spedizioni,Emilia-Romagna,2019,2,0.08
+Spedizioni,Emilia-Romagna,2019,3,0.06
+Spedizioni,Emilia-Romagna,2019,4,0.06
+Spedizioni,Emilia-Romagna,2019,5,0.06
+Spedizioni,Emilia-Romagna,2019,6,0.12
+Spedizioni,Emilia-Romagna,2019,7,0.10
+Spedizioni,Emilia-Romagna,2019,8,0.14
+Spedizioni,Emilia-Romagna,2019,9,0.12
+Spedizioni,Emilia-Romagna,2019,10,0.10
+Spedizioni,Emilia-Romagna,2019,11,0.08
+Spedizioni,Emilia-Romagna,2020,0,0.09
+Spedizioni,Emilia-Romagna,2020,1,0.05
+Spedizioni,Emilia-Romagna,2020,2,0.35
+Spedizioni,Emilia-Romagna,2020,3,0.51
+Spedizioni,Friuli Venezia Giulia,2019,0,0.06
+Spedizioni,Friuli Venezia Giulia,2019,1,0.09
+Spedizioni,Friuli Venezia Giulia,2019,2,0.07
+Spedizioni,Friuli Venezia Giulia,2019,3,0.04
+Spedizioni,Friuli Venezia Giulia,2019,4,0.05
+Spedizioni,Friuli Venezia Giulia,2019,5,0.05
+Spedizioni,Friuli Venezia Giulia,2019,6,0.09
+Spedizioni,Friuli Venezia Giulia,2019,7,0.09
+Spedizioni,Friuli Venezia Giulia,2019,8,0.13
+Spedizioni,Friuli Venezia Giulia,2019,9,0.15
+Spedizioni,Friuli Venezia Giulia,2019,10,0.06
+Spedizioni,Friuli Venezia Giulia,2019,11,0.11
+Spedizioni,Friuli Venezia Giulia,2020,0,0.06
+Spedizioni,Friuli Venezia Giulia,2020,1,0.08
+Spedizioni,Friuli Venezia Giulia,2020,2,0.32
+Spedizioni,Friuli Venezia Giulia,2020,3,0.54
+Spedizioni,Italia,2019,0,0.06
+Spedizioni,Italia,2019,1,0.05
+Spedizioni,Italia,2019,2,0.06
+Spedizioni,Italia,2019,3,0.06
+Spedizioni,Italia,2019,4,0.07
+Spedizioni,Italia,2019,5,0.06
+Spedizioni,Italia,2019,6,0.10
+Spedizioni,Italia,2019,7,0.10
+Spedizioni,Italia,2019,8,0.13
+Spedizioni,Italia,2019,9,0.13
+Spedizioni,Italia,2019,10,0.09
+Spedizioni,Italia,2019,11,0.09
+Spedizioni,Italia,2020,0,0.09
+Spedizioni,Italia,2020,1,0.06
+Spedizioni,Italia,2020,2,0.30
+Spedizioni,Italia,2020,3,0.54
+Spedizioni,Lazio,2019,0,0.06
+Spedizioni,Lazio,2019,1,0.04
+Spedizioni,Lazio,2019,2,0.06
+Spedizioni,Lazio,2019,3,0.05
+Spedizioni,Lazio,2019,4,0.04
+Spedizioni,Lazio,2019,5,0.06
+Spedizioni,Lazio,2019,6,0.12
+Spedizioni,Lazio,2019,7,0.11
+Spedizioni,Lazio,2019,8,0.15
+Spedizioni,Lazio,2019,9,0.15
+Spedizioni,Lazio,2019,10,0.09
+Spedizioni,Lazio,2019,11,0.08
+Spedizioni,Lazio,2020,0,0.07
+Spedizioni,Lazio,2020,1,0.06
+Spedizioni,Lazio,2020,2,0.31
+Spedizioni,Lazio,2020,3,0.56
+Spedizioni,Liguria,2019,0,0.06
+Spedizioni,Liguria,2019,1,0.05
+Spedizioni,Liguria,2019,2,0.07
+Spedizioni,Liguria,2019,3,0.06
+Spedizioni,Liguria,2019,4,0.07
+Spedizioni,Liguria,2019,5,0.08
+Spedizioni,Liguria,2019,6,0.11
+Spedizioni,Liguria,2019,7,0.10
+Spedizioni,Liguria,2019,8,0.09
+Spedizioni,Liguria,2019,9,0.10
+Spedizioni,Liguria,2019,10,0.12
+Spedizioni,Liguria,2019,11,0.09
+Spedizioni,Liguria,2020,0,0.11
+Spedizioni,Liguria,2020,1,0.05
+Spedizioni,Liguria,2020,2,0.32
+Spedizioni,Liguria,2020,3,0.52
+Spedizioni,Lombardia,2019,0,0.06
+Spedizioni,Lombardia,2019,1,0.05
+Spedizioni,Lombardia,2019,2,0.06
+Spedizioni,Lombardia,2019,3,0.06
+Spedizioni,Lombardia,2019,4,0.07
+Spedizioni,Lombardia,2019,5,0.07
+Spedizioni,Lombardia,2019,6,0.11
+Spedizioni,Lombardia,2019,7,0.09
+Spedizioni,Lombardia,2019,8,0.13
+Spedizioni,Lombardia,2019,9,0.12
+Spedizioni,Lombardia,2019,10,0.10
+Spedizioni,Lombardia,2019,11,0.08
+Spedizioni,Lombardia,2020,0,0.07
+Spedizioni,Lombardia,2020,1,0.05
+Spedizioni,Lombardia,2020,2,0.31
+Spedizioni,Lombardia,2020,3,0.57
+Spedizioni,Marche,2019,0,0.06
+Spedizioni,Marche,2019,1,0.03
+Spedizioni,Marche,2019,2,0.07
+Spedizioni,Marche,2019,3,0.06
+Spedizioni,Marche,2019,4,0.06
+Spedizioni,Marche,2019,5,0.06
+Spedizioni,Marche,2019,6,0.08
+Spedizioni,Marche,2019,7,0.08
+Spedizioni,Marche,2019,8,0.15
+Spedizioni,Marche,2019,9,0.14
+Spedizioni,Marche,2019,10,0.12
+Spedizioni,Marche,2019,11,0.09
+Spedizioni,Marche,2020,0,0.07
+Spedizioni,Marche,2020,1,0.09
+Spedizioni,Marche,2020,2,0.25
+Spedizioni,Marche,2020,3,0.59
+Spedizioni,Molise,2019,0,0.14
+Spedizioni,Molise,2019,1,0.07
+Spedizioni,Molise,2019,2,0.10
+Spedizioni,Molise,2019,3,0.07
+Spedizioni,Molise,2019,4,0.10
+Spedizioni,Molise,2019,5,0.00
+Spedizioni,Molise,2019,6,0.07
+Spedizioni,Molise,2019,7,0.03
+Spedizioni,Molise,2019,8,0.07
+Spedizioni,Molise,2019,9,0.10
+Spedizioni,Molise,2019,10,0.03
+Spedizioni,Molise,2019,11,0.21
+Spedizioni,Molise,2020,0,0.15
+Spedizioni,Molise,2020,1,0.12
+Spedizioni,Molise,2020,2,0.35
+Spedizioni,Molise,2020,3,0.38
+Spedizioni,Piemonte,2019,0,0.05
+Spedizioni,Piemonte,2019,1,0.04
+Spedizioni,Piemonte,2019,2,0.06
+Spedizioni,Piemonte,2019,3,0.06
+Spedizioni,Piemonte,2019,4,0.08
+Spedizioni,Piemonte,2019,5,0.05
+Spedizioni,Piemonte,2019,6,0.11
+Spedizioni,Piemonte,2019,7,0.11
+Spedizioni,Piemonte,2019,8,0.13
+Spedizioni,Piemonte,2019,9,0.12
+Spedizioni,Piemonte,2019,10,0.09
+Spedizioni,Piemonte,2019,11,0.10
+Spedizioni,Piemonte,2020,0,0.08
+Spedizioni,Piemonte,2020,1,0.07
+Spedizioni,Piemonte,2020,2,0.31
+Spedizioni,Piemonte,2020,3,0.54
+Spedizioni,Puglia,2019,0,0.06
+Spedizioni,Puglia,2019,1,0.06
+Spedizioni,Puglia,2019,2,0.07
+Spedizioni,Puglia,2019,3,0.05
+Spedizioni,Puglia,2019,4,0.08
+Spedizioni,Puglia,2019,5,0.08
+Spedizioni,Puglia,2019,6,0.07
+Spedizioni,Puglia,2019,7,0.10
+Spedizioni,Puglia,2019,8,0.13
+Spedizioni,Puglia,2019,9,0.12
+Spedizioni,Puglia,2019,10,0.10
+Spedizioni,Puglia,2019,11,0.08
+Spedizioni,Puglia,2020,0,0.15
+Spedizioni,Puglia,2020,1,0.07
+Spedizioni,Puglia,2020,2,0.29
+Spedizioni,Puglia,2020,3,0.49
+Spedizioni,Sardegna,2019,0,0.04
+Spedizioni,Sardegna,2019,1,0.03
+Spedizioni,Sardegna,2019,2,0.06
+Spedizioni,Sardegna,2019,3,0.08
+Spedizioni,Sardegna,2019,4,0.06
+Spedizioni,Sardegna,2019,5,0.04
+Spedizioni,Sardegna,2019,6,0.10
+Spedizioni,Sardegna,2019,7,0.10
+Spedizioni,Sardegna,2019,8,0.18
+Spedizioni,Sardegna,2019,9,0.13
+Spedizioni,Sardegna,2019,10,0.08
+Spedizioni,Sardegna,2019,11,0.10
+Spedizioni,Sardegna,2020,0,0.08
+Spedizioni,Sardegna,2020,1,0.08
+Spedizioni,Sardegna,2020,2,0.35
+Spedizioni,Sardegna,2020,3,0.49
+Spedizioni,Sicilia,2019,0,0.06
+Spedizioni,Sicilia,2019,1,0.05
+Spedizioni,Sicilia,2019,2,0.06
+Spedizioni,Sicilia,2019,3,0.05
+Spedizioni,Sicilia,2019,4,0.06
+Spedizioni,Sicilia,2019,5,0.04
+Spedizioni,Sicilia,2019,6,0.09
+Spedizioni,Sicilia,2019,7,0.11
+Spedizioni,Sicilia,2019,8,0.14
+Spedizioni,Sicilia,2019,9,0.13
+Spedizioni,Sicilia,2019,10,0.11
+Spedizioni,Sicilia,2019,11,0.10
+Spedizioni,Sicilia,2020,0,0.13
+Spedizioni,Sicilia,2020,1,0.08
+Spedizioni,Sicilia,2020,2,0.31
+Spedizioni,Sicilia,2020,3,0.49
+Spedizioni,Toscana,2019,0,0.06
+Spedizioni,Toscana,2019,1,0.05
+Spedizioni,Toscana,2019,2,0.07
+Spedizioni,Toscana,2019,3,0.06
+Spedizioni,Toscana,2019,4,0.08
+Spedizioni,Toscana,2019,5,0.07
+Spedizioni,Toscana,2019,6,0.10
+Spedizioni,Toscana,2019,7,0.09
+Spedizioni,Toscana,2019,8,0.12
+Spedizioni,Toscana,2019,9,0.12
+Spedizioni,Toscana,2019,10,0.08
+Spedizioni,Toscana,2019,11,0.09
+Spedizioni,Toscana,2020,0,0.09
+Spedizioni,Toscana,2020,1,0.08
+Spedizioni,Toscana,2020,2,0.27
+Spedizioni,Toscana,2020,3,0.56
+Spedizioni,Trentino-Alto Adige,2019,0,0.08
+Spedizioni,Trentino-Alto Adige,2019,1,0.04
+Spedizioni,Trentino-Alto Adige,2019,2,0.05
+Spedizioni,Trentino-Alto Adige,2019,3,0.04
+Spedizioni,Trentino-Alto Adige,2019,4,0.05
+Spedizioni,Trentino-Alto Adige,2019,5,0.06
+Spedizioni,Trentino-Alto Adige,2019,6,0.05
+Spedizioni,Trentino-Alto Adige,2019,7,0.18
+Spedizioni,Trentino-Alto Adige,2019,8,0.14
+Spedizioni,Trentino-Alto Adige,2019,9,0.10
+Spedizioni,Trentino-Alto Adige,2019,10,0.08
+Spedizioni,Trentino-Alto Adige,2019,11,0.14
+Spedizioni,Trentino-Alto Adige,2020,0,0.13
+Spedizioni,Trentino-Alto Adige,2020,1,0.06
+Spedizioni,Trentino-Alto Adige,2020,2,0.39
+Spedizioni,Trentino-Alto Adige,2020,3,0.43
+Spedizioni,Umbria,2019,0,0.06
+Spedizioni,Umbria,2019,1,0.04
+Spedizioni,Umbria,2019,2,0.04
+Spedizioni,Umbria,2019,3,0.05
+Spedizioni,Umbria,2019,4,0.05
+Spedizioni,Umbria,2019,5,0.10
+Spedizioni,Umbria,2019,6,0.11
+Spedizioni,Umbria,2019,7,0.11
+Spedizioni,Umbria,2019,8,0.12
+Spedizioni,Umbria,2019,9,0.11
+Spedizioni,Umbria,2019,10,0.10
+Spedizioni,Umbria,2019,11,0.11
+Spedizioni,Umbria,2020,0,0.09
+Spedizioni,Umbria,2020,1,0.08
+Spedizioni,Umbria,2020,2,0.29
+Spedizioni,Umbria,2020,3,0.54
+Spedizioni,Valle d'Aosta,2019,0,0.00
+Spedizioni,Valle d'Aosta,2019,1,0.00
+Spedizioni,Valle d'Aosta,2019,2,0.00
+Spedizioni,Valle d'Aosta,2019,3,0.00
+Spedizioni,Valle d'Aosta,2019,4,0.00
+Spedizioni,Valle d'Aosta,2019,5,0.00
+Spedizioni,Valle d'Aosta,2019,6,0.50
+Spedizioni,Valle d'Aosta,2019,7,0.00
+Spedizioni,Valle d'Aosta,2019,8,0.50
+Spedizioni,Valle d'Aosta,2019,9,0.00
+Spedizioni,Valle d'Aosta,2019,10,0.00
+Spedizioni,Valle d'Aosta,2019,11,0.00
+Spedizioni,Valle d'Aosta,2020,0,0.25
+Spedizioni,Valle d'Aosta,2020,1,0.00
+Spedizioni,Valle d'Aosta,2020,2,0.50
+Spedizioni,Valle d'Aosta,2020,3,0.25
+Spedizioni,Veneto,2019,0,0.07
+Spedizioni,Veneto,2019,1,0.03
+Spedizioni,Veneto,2019,2,0.08
+Spedizioni,Veneto,2019,3,0.05
+Spedizioni,Veneto,2019,4,0.06
+Spedizioni,Veneto,2019,5,0.06
+Spedizioni,Veneto,2019,6,0.12
+Spedizioni,Veneto,2019,7,0.10
+Spedizioni,Veneto,2019,8,0.12
+Spedizioni,Veneto,2019,9,0.15
+Spedizioni,Veneto,2019,10,0.09
+Spedizioni,Veneto,2019,11,0.07
+Spedizioni,Veneto,2020,0,0.09
+Spedizioni,Veneto,2020,1,0.07
+Spedizioni,Veneto,2020,2,0.29
+Spedizioni,Veneto,2020,3,0.55
+Trasloco,Abruzzo,2019,0,0.07
+Trasloco,Abruzzo,2019,1,0.06
+Trasloco,Abruzzo,2019,2,0.07
+Trasloco,Abruzzo,2019,3,0.07
+Trasloco,Abruzzo,2019,4,0.08
+Trasloco,Abruzzo,2019,5,0.09
+Trasloco,Abruzzo,2019,6,0.09
+Trasloco,Abruzzo,2019,7,0.10
+Trasloco,Abruzzo,2019,8,0.14
+Trasloco,Abruzzo,2019,9,0.12
+Trasloco,Abruzzo,2019,10,0.09
+Trasloco,Abruzzo,2019,11,0.03
+Trasloco,Abruzzo,2020,0,0.26
+Trasloco,Abruzzo,2020,1,0.28
+Trasloco,Abruzzo,2020,2,0.16
+Trasloco,Abruzzo,2020,3,0.30
+Trasloco,Basilicata,2019,0,0.06
+Trasloco,Basilicata,2019,1,0.13
+Trasloco,Basilicata,2019,2,0.05
+Trasloco,Basilicata,2019,3,0.06
+Trasloco,Basilicata,2019,4,0.13
+Trasloco,Basilicata,2019,5,0.11
+Trasloco,Basilicata,2019,6,0.09
+Trasloco,Basilicata,2019,7,0.08
+Trasloco,Basilicata,2019,8,0.05
+Trasloco,Basilicata,2019,9,0.13
+Trasloco,Basilicata,2019,10,0.08
+Trasloco,Basilicata,2019,11,0.04
+Trasloco,Basilicata,2020,0,0.31
+Trasloco,Basilicata,2020,1,0.44
+Trasloco,Basilicata,2020,2,0.11
+Trasloco,Basilicata,2020,3,0.14
+Trasloco,Calabria,2019,0,0.08
+Trasloco,Calabria,2019,1,0.07
+Trasloco,Calabria,2019,2,0.08
+Trasloco,Calabria,2019,3,0.07
+Trasloco,Calabria,2019,4,0.09
+Trasloco,Calabria,2019,5,0.05
+Trasloco,Calabria,2019,6,0.11
+Trasloco,Calabria,2019,7,0.11
+Trasloco,Calabria,2019,8,0.11
+Trasloco,Calabria,2019,9,0.10
+Trasloco,Calabria,2019,10,0.08
+Trasloco,Calabria,2019,11,0.05
+Trasloco,Calabria,2020,0,0.32
+Trasloco,Calabria,2020,1,0.28
+Trasloco,Calabria,2020,2,0.17
+Trasloco,Calabria,2020,3,0.23
+Trasloco,Campania,2019,0,0.09
+Trasloco,Campania,2019,1,0.07
+Trasloco,Campania,2019,2,0.08
+Trasloco,Campania,2019,3,0.07
+Trasloco,Campania,2019,4,0.10
+Trasloco,Campania,2019,5,0.08
+Trasloco,Campania,2019,6,0.09
+Trasloco,Campania,2019,7,0.06
+Trasloco,Campania,2019,8,0.07
+Trasloco,Campania,2019,9,0.12
+Trasloco,Campania,2019,10,0.10
+Trasloco,Campania,2019,11,0.05
+Trasloco,Campania,2020,0,0.30
+Trasloco,Campania,2020,1,0.29
+Trasloco,Campania,2020,2,0.17
+Trasloco,Campania,2020,3,0.24
+Trasloco,Emilia-Romagna,2019,0,0.06
+Trasloco,Emilia-Romagna,2019,1,0.06
+Trasloco,Emilia-Romagna,2019,2,0.09
+Trasloco,Emilia-Romagna,2019,3,0.08
+Trasloco,Emilia-Romagna,2019,4,0.09
+Trasloco,Emilia-Romagna,2019,5,0.08
+Trasloco,Emilia-Romagna,2019,6,0.09
+Trasloco,Emilia-Romagna,2019,7,0.08
+Trasloco,Emilia-Romagna,2019,8,0.11
+Trasloco,Emilia-Romagna,2019,9,0.10
+Trasloco,Emilia-Romagna,2019,10,0.10
+Trasloco,Emilia-Romagna,2019,11,0.07
+Trasloco,Emilia-Romagna,2020,0,0.27
+Trasloco,Emilia-Romagna,2020,1,0.26
+Trasloco,Emilia-Romagna,2020,2,0.21
+Trasloco,Emilia-Romagna,2020,3,0.25
+Trasloco,Friuli Venezia Giulia,2019,0,0.05
+Trasloco,Friuli Venezia Giulia,2019,1,0.05
+Trasloco,Friuli Venezia Giulia,2019,2,0.07
+Trasloco,Friuli Venezia Giulia,2019,3,0.06
+Trasloco,Friuli Venezia Giulia,2019,4,0.07
+Trasloco,Friuli Venezia Giulia,2019,5,0.11
+Trasloco,Friuli Venezia Giulia,2019,6,0.08
+Trasloco,Friuli Venezia Giulia,2019,7,0.10
+Trasloco,Friuli Venezia Giulia,2019,8,0.10
+Trasloco,Friuli Venezia Giulia,2019,9,0.12
+Trasloco,Friuli Venezia Giulia,2019,10,0.10
+Trasloco,Friuli Venezia Giulia,2019,11,0.08
+Trasloco,Friuli Venezia Giulia,2020,0,0.39
+Trasloco,Friuli Venezia Giulia,2020,1,0.16
+Trasloco,Friuli Venezia Giulia,2020,2,0.18
+Trasloco,Friuli Venezia Giulia,2020,3,0.27
+Trasloco,Italia,2019,0,0.07
+Trasloco,Italia,2019,1,0.06
+Trasloco,Italia,2019,2,0.09
+Trasloco,Italia,2019,3,0.08
+Trasloco,Italia,2019,4,0.10
+Trasloco,Italia,2019,5,0.09
+Trasloco,Italia,2019,6,0.09
+Trasloco,Italia,2019,7,0.08
+Trasloco,Italia,2019,8,0.09
+Trasloco,Italia,2019,9,0.10
+Trasloco,Italia,2019,10,0.09
+Trasloco,Italia,2019,11,0.06
+Trasloco,Italia,2020,0,0.29
+Trasloco,Italia,2020,1,0.27
+Trasloco,Italia,2020,2,0.19
+Trasloco,Italia,2020,3,0.25
+Trasloco,Lazio,2019,0,0.09
+Trasloco,Lazio,2019,1,0.08
+Trasloco,Lazio,2019,2,0.08
+Trasloco,Lazio,2019,3,0.09
+Trasloco,Lazio,2019,4,0.09
+Trasloco,Lazio,2019,5,0.10
+Trasloco,Lazio,2019,6,0.09
+Trasloco,Lazio,2019,7,0.07
+Trasloco,Lazio,2019,8,0.10
+Trasloco,Lazio,2019,9,0.08
+Trasloco,Lazio,2019,10,0.09
+Trasloco,Lazio,2019,11,0.05
+Trasloco,Lazio,2020,0,0.24
+Trasloco,Lazio,2020,1,0.28
+Trasloco,Lazio,2020,2,0.22
+Trasloco,Lazio,2020,3,0.26
+Trasloco,Liguria,2019,0,0.08
+Trasloco,Liguria,2019,1,0.08
+Trasloco,Liguria,2019,2,0.10
+Trasloco,Liguria,2019,3,0.06
+Trasloco,Liguria,2019,4,0.09
+Trasloco,Liguria,2019,5,0.08
+Trasloco,Liguria,2019,6,0.07
+Trasloco,Liguria,2019,7,0.07
+Trasloco,Liguria,2019,8,0.11
+Trasloco,Liguria,2019,9,0.10
+Trasloco,Liguria,2019,10,0.11
+Trasloco,Liguria,2019,11,0.07
+Trasloco,Liguria,2020,0,0.29
+Trasloco,Liguria,2020,1,0.28
+Trasloco,Liguria,2020,2,0.17
+Trasloco,Liguria,2020,3,0.26
+Trasloco,Lombardia,2019,0,0.08
+Trasloco,Lombardia,2019,1,0.06
+Trasloco,Lombardia,2019,2,0.08
+Trasloco,Lombardia,2019,3,0.08
+Trasloco,Lombardia,2019,4,0.10
+Trasloco,Lombardia,2019,5,0.10
+Trasloco,Lombardia,2019,6,0.09
+Trasloco,Lombardia,2019,7,0.06
+Trasloco,Lombardia,2019,8,0.09
+Trasloco,Lombardia,2019,9,0.09
+Trasloco,Lombardia,2019,10,0.10
+Trasloco,Lombardia,2019,11,0.06
+Trasloco,Lombardia,2020,0,0.28
+Trasloco,Lombardia,2020,1,0.27
+Trasloco,Lombardia,2020,2,0.21
+Trasloco,Lombardia,2020,3,0.24
+Trasloco,Marche,2019,0,0.07
+Trasloco,Marche,2019,1,0.06
+Trasloco,Marche,2019,2,0.08
+Trasloco,Marche,2019,3,0.08
+Trasloco,Marche,2019,4,0.09
+Trasloco,Marche,2019,5,0.10
+Trasloco,Marche,2019,6,0.10
+Trasloco,Marche,2019,7,0.09
+Trasloco,Marche,2019,8,0.09
+Trasloco,Marche,2019,9,0.10
+Trasloco,Marche,2019,10,0.09
+Trasloco,Marche,2019,11,0.05
+Trasloco,Marche,2020,0,0.26
+Trasloco,Marche,2020,1,0.33
+Trasloco,Marche,2020,2,0.17
+Trasloco,Marche,2020,3,0.25
+Trasloco,Molise,2019,0,0.09
+Trasloco,Molise,2019,1,0.03
+Trasloco,Molise,2019,2,0.06
+Trasloco,Molise,2019,3,0.06
+Trasloco,Molise,2019,4,0.04
+Trasloco,Molise,2019,5,0.14
+Trasloco,Molise,2019,6,0.07
+Trasloco,Molise,2019,7,0.07
+Trasloco,Molise,2019,8,0.09
+Trasloco,Molise,2019,9,0.15
+Trasloco,Molise,2019,10,0.16
+Trasloco,Molise,2019,11,0.03
+Trasloco,Molise,2020,0,0.11
+Trasloco,Molise,2020,1,0.22
+Trasloco,Molise,2020,2,0.28
+Trasloco,Molise,2020,3,0.39
+Trasloco,Piemonte,2019,0,0.07
+Trasloco,Piemonte,2019,1,0.06
+Trasloco,Piemonte,2019,2,0.10
+Trasloco,Piemonte,2019,3,0.07
+Trasloco,Piemonte,2019,4,0.10
+Trasloco,Piemonte,2019,5,0.09
+Trasloco,Piemonte,2019,6,0.09
+Trasloco,Piemonte,2019,7,0.07
+Trasloco,Piemonte,2019,8,0.09
+Trasloco,Piemonte,2019,9,0.11
+Trasloco,Piemonte,2019,10,0.08
+Trasloco,Piemonte,2019,11,0.06
+Trasloco,Piemonte,2020,0,0.31
+Trasloco,Piemonte,2020,1,0.28
+Trasloco,Piemonte,2020,2,0.19
+Trasloco,Piemonte,2020,3,0.22
+Trasloco,Puglia,2019,0,0.06
+Trasloco,Puglia,2019,1,0.06
+Trasloco,Puglia,2019,2,0.08
+Trasloco,Puglia,2019,3,0.08
+Trasloco,Puglia,2019,4,0.10
+Trasloco,Puglia,2019,5,0.09
+Trasloco,Puglia,2019,6,0.09
+Trasloco,Puglia,2019,7,0.07
+Trasloco,Puglia,2019,8,0.10
+Trasloco,Puglia,2019,9,0.11
+Trasloco,Puglia,2019,10,0.10
+Trasloco,Puglia,2019,11,0.05
+Trasloco,Puglia,2020,0,0.32
+Trasloco,Puglia,2020,1,0.27
+Trasloco,Puglia,2020,2,0.17
+Trasloco,Puglia,2020,3,0.25
+Trasloco,Sardegna,2019,0,0.06
+Trasloco,Sardegna,2019,1,0.07
+Trasloco,Sardegna,2019,2,0.10
+Trasloco,Sardegna,2019,3,0.06
+Trasloco,Sardegna,2019,4,0.10
+Trasloco,Sardegna,2019,5,0.07
+Trasloco,Sardegna,2019,6,0.09
+Trasloco,Sardegna,2019,7,0.09
+Trasloco,Sardegna,2019,8,0.10
+Trasloco,Sardegna,2019,9,0.11
+Trasloco,Sardegna,2019,10,0.09
+Trasloco,Sardegna,2019,11,0.06
+Trasloco,Sardegna,2020,0,0.30
+Trasloco,Sardegna,2020,1,0.28
+Trasloco,Sardegna,2020,2,0.18
+Trasloco,Sardegna,2020,3,0.24
+Trasloco,Sicilia,2019,0,0.08
+Trasloco,Sicilia,2019,1,0.06
+Trasloco,Sicilia,2019,2,0.10
+Trasloco,Sicilia,2019,3,0.07
+Trasloco,Sicilia,2019,4,0.10
+Trasloco,Sicilia,2019,5,0.09
+Trasloco,Sicilia,2019,6,0.09
+Trasloco,Sicilia,2019,7,0.08
+Trasloco,Sicilia,2019,8,0.08
+Trasloco,Sicilia,2019,9,0.11
+Trasloco,Sicilia,2019,10,0.11
+Trasloco,Sicilia,2019,11,0.06
+Trasloco,Sicilia,2020,0,0.31
+Trasloco,Sicilia,2020,1,0.29
+Trasloco,Sicilia,2020,2,0.19
+Trasloco,Sicilia,2020,3,0.22
+Trasloco,Toscana,2019,0,0.06
+Trasloco,Toscana,2019,1,0.05
+Trasloco,Toscana,2019,2,0.09
+Trasloco,Toscana,2019,3,0.08
+Trasloco,Toscana,2019,4,0.10
+Trasloco,Toscana,2019,5,0.10
+Trasloco,Toscana,2019,6,0.09
+Trasloco,Toscana,2019,7,0.07
+Trasloco,Toscana,2019,8,0.10
+Trasloco,Toscana,2019,9,0.10
+Trasloco,Toscana,2019,10,0.09
+Trasloco,Toscana,2019,11,0.06
+Trasloco,Toscana,2020,0,0.29
+Trasloco,Toscana,2020,1,0.22
+Trasloco,Toscana,2020,2,0.20
+Trasloco,Toscana,2020,3,0.29
+Trasloco,Trentino-Alto Adige,2019,0,0.04
+Trasloco,Trentino-Alto Adige,2019,1,0.04
+Trasloco,Trentino-Alto Adige,2019,2,0.06
+Trasloco,Trentino-Alto Adige,2019,3,0.05
+Trasloco,Trentino-Alto Adige,2019,4,0.09
+Trasloco,Trentino-Alto Adige,2019,5,0.04
+Trasloco,Trentino-Alto Adige,2019,6,0.13
+Trasloco,Trentino-Alto Adige,2019,7,0.13
+Trasloco,Trentino-Alto Adige,2019,8,0.12
+Trasloco,Trentino-Alto Adige,2019,9,0.14
+Trasloco,Trentino-Alto Adige,2019,10,0.11
+Trasloco,Trentino-Alto Adige,2019,11,0.05
+Trasloco,Trentino-Alto Adige,2020,0,0.26
+Trasloco,Trentino-Alto Adige,2020,1,0.25
+Trasloco,Trentino-Alto Adige,2020,2,0.16
+Trasloco,Trentino-Alto Adige,2020,3,0.32
+Trasloco,Umbria,2019,0,0.07
+Trasloco,Umbria,2019,1,0.06
+Trasloco,Umbria,2019,2,0.07
+Trasloco,Umbria,2019,3,0.08
+Trasloco,Umbria,2019,4,0.12
+Trasloco,Umbria,2019,5,0.09
+Trasloco,Umbria,2019,6,0.06
+Trasloco,Umbria,2019,7,0.08
+Trasloco,Umbria,2019,8,0.10
+Trasloco,Umbria,2019,9,0.14
+Trasloco,Umbria,2019,10,0.07
+Trasloco,Umbria,2019,11,0.06
+Trasloco,Umbria,2020,0,0.36
+Trasloco,Umbria,2020,1,0.25
+Trasloco,Umbria,2020,2,0.19
+Trasloco,Umbria,2020,3,0.20
+Trasloco,Valle d'Aosta,2019,0,0.04
+Trasloco,Valle d'Aosta,2019,1,0.07
+Trasloco,Valle d'Aosta,2019,2,0.13
+Trasloco,Valle d'Aosta,2019,3,0.13
+Trasloco,Valle d'Aosta,2019,4,0.09
+Trasloco,Valle d'Aosta,2019,5,0.04
+Trasloco,Valle d'Aosta,2019,6,0.00
+Trasloco,Valle d'Aosta,2019,7,0.17
+Trasloco,Valle d'Aosta,2019,8,0.04
+Trasloco,Valle d'Aosta,2019,9,0.00
+Trasloco,Valle d'Aosta,2019,10,0.17
+Trasloco,Valle d'Aosta,2019,11,0.11
+Trasloco,Valle d'Aosta,2020,0,0.21
+Trasloco,Valle d'Aosta,2020,1,0.16
+Trasloco,Valle d'Aosta,2020,2,0.21
+Trasloco,Valle d'Aosta,2020,3,0.42
+Trasloco,Veneto,2019,0,0.07
+Trasloco,Veneto,2019,1,0.06
+Trasloco,Veneto,2019,2,0.08
+Trasloco,Veneto,2019,3,0.08
+Trasloco,Veneto,2019,4,0.09
+Trasloco,Veneto,2019,5,0.09
+Trasloco,Veneto,2019,6,0.09
+Trasloco,Veneto,2019,7,0.09
+Trasloco,Veneto,2019,8,0.08
+Trasloco,Veneto,2019,9,0.11
+Trasloco,Veneto,2019,10,0.09
+Trasloco,Veneto,2019,11,0.06
+Trasloco,Veneto,2020,0,0.29
+Trasloco,Veneto,2020,1,0.26
+Trasloco,Veneto,2020,2,0.18
+Trasloco,Veneto,2020,3,0.26

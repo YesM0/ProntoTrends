@@ -1,0 +1,442 @@
+Year,ticket_geo_region_name,Style_type,Distribution
+2018,Abruzzo,matrimonio country chic,0.0
+2018,Abruzzo,matrimonio bucolico,0.0
+2018,Abruzzo,matrimonio originale,0.0
+2018,Abruzzo,matrimonio romantico,0.0
+2018,Abruzzo,matrimonio elegante,0.0
+2018,Abruzzo,matrimonio in spiaggia,0.0
+2018,Abruzzo,matrimonio tradizionale,0.0
+2018,Aosta,matrimonio country chic,0.0
+2018,Aosta,matrimonio bucolico,0.0
+2018,Aosta,matrimonio originale,0.0
+2018,Aosta,matrimonio romantico,0.0
+2018,Aosta,matrimonio elegante,0.0
+2018,Aosta,matrimonio in spiaggia,0.0
+2018,Aosta,matrimonio tradizionale,0.0
+2018,Apulia,matrimonio country chic,0.0
+2018,Apulia,matrimonio bucolico,0.0
+2018,Apulia,matrimonio originale,0.0
+2018,Apulia,matrimonio romantico,0.0
+2018,Apulia,matrimonio elegante,0.5
+2018,Apulia,matrimonio in spiaggia,0.5
+2018,Apulia,matrimonio tradizionale,0.0
+2018,Basilicata,matrimonio country chic,0.0
+2018,Basilicata,matrimonio bucolico,0.0
+2018,Basilicata,matrimonio originale,0.0
+2018,Basilicata,matrimonio romantico,0.0
+2018,Basilicata,matrimonio elegante,0.0
+2018,Basilicata,matrimonio in spiaggia,0.0
+2018,Basilicata,matrimonio tradizionale,0.0
+2018,Calabria,matrimonio country chic,0.0
+2018,Calabria,matrimonio bucolico,0.0
+2018,Calabria,matrimonio originale,0.0
+2018,Calabria,matrimonio romantico,0.0
+2018,Calabria,matrimonio elegante,1.0
+2018,Calabria,matrimonio in spiaggia,0.0
+2018,Calabria,matrimonio tradizionale,0.0
+2018,Campania,matrimonio country chic,0.0
+2018,Campania,matrimonio bucolico,0.0
+2018,Campania,matrimonio originale,0.0
+2018,Campania,matrimonio romantico,0.0
+2018,Campania,matrimonio elegante,0.61
+2018,Campania,matrimonio in spiaggia,0.39
+2018,Campania,matrimonio tradizionale,0.0
+2018,Emilia-Romagna,matrimonio country chic,0.0
+2018,Emilia-Romagna,matrimonio bucolico,0.0
+2018,Emilia-Romagna,matrimonio originale,0.0
+2018,Emilia-Romagna,matrimonio romantico,0.0
+2018,Emilia-Romagna,matrimonio elegante,0.58
+2018,Emilia-Romagna,matrimonio in spiaggia,0.42
+2018,Emilia-Romagna,matrimonio tradizionale,0.0
+2018,Friuli-Venezia Giulia,matrimonio country chic,0.0
+2018,Friuli-Venezia Giulia,matrimonio bucolico,0.0
+2018,Friuli-Venezia Giulia,matrimonio originale,0.0
+2018,Friuli-Venezia Giulia,matrimonio romantico,0.0
+2018,Friuli-Venezia Giulia,matrimonio elegante,0.0
+2018,Friuli-Venezia Giulia,matrimonio in spiaggia,0.0
+2018,Friuli-Venezia Giulia,matrimonio tradizionale,0.0
+2018,Italy,matrimonio country chic,0.12
+2018,Italy,matrimonio bucolico,0.02
+2018,Italy,matrimonio originale,0.14
+2018,Italy,matrimonio romantico,0.1
+2018,Italy,matrimonio elegante,0.35
+2018,Italy,matrimonio in spiaggia,0.23
+2018,Italy,matrimonio tradizionale,0.04
+2018,Lazio,matrimonio country chic,0.28
+2018,Lazio,matrimonio bucolico,0.0
+2018,Lazio,matrimonio originale,0.0
+2018,Lazio,matrimonio romantico,0.0
+2018,Lazio,matrimonio elegante,0.46
+2018,Lazio,matrimonio in spiaggia,0.27
+2018,Lazio,matrimonio tradizionale,0.0
+2018,Liguria,matrimonio country chic,0.0
+2018,Liguria,matrimonio bucolico,0.0
+2018,Liguria,matrimonio originale,0.0
+2018,Liguria,matrimonio romantico,0.0
+2018,Liguria,matrimonio elegante,0.0
+2018,Liguria,matrimonio in spiaggia,0.0
+2018,Liguria,matrimonio tradizionale,0.0
+2018,Lombardy,matrimonio country chic,0.1
+2018,Lombardy,matrimonio bucolico,0.0
+2018,Lombardy,matrimonio originale,0.18
+2018,Lombardy,matrimonio romantico,0.09
+2018,Lombardy,matrimonio elegante,0.41
+2018,Lombardy,matrimonio in spiaggia,0.22
+2018,Lombardy,matrimonio tradizionale,0.0
+2018,Marche,matrimonio country chic,0.0
+2018,Marche,matrimonio bucolico,0.0
+2018,Marche,matrimonio originale,0.0
+2018,Marche,matrimonio romantico,0.0
+2018,Marche,matrimonio elegante,0.0
+2018,Marche,matrimonio in spiaggia,0.0
+2018,Marche,matrimonio tradizionale,0.0
+2018,Molise,matrimonio country chic,0.0
+2018,Molise,matrimonio bucolico,0.0
+2018,Molise,matrimonio originale,0.0
+2018,Molise,matrimonio romantico,0.0
+2018,Molise,matrimonio elegante,0.0
+2018,Molise,matrimonio in spiaggia,0.0
+2018,Molise,matrimonio tradizionale,0.0
+2018,Piedmont,matrimonio country chic,0.0
+2018,Piedmont,matrimonio bucolico,0.0
+2018,Piedmont,matrimonio originale,0.0
+2018,Piedmont,matrimonio romantico,0.0
+2018,Piedmont,matrimonio elegante,1.0
+2018,Piedmont,matrimonio in spiaggia,0.0
+2018,Piedmont,matrimonio tradizionale,0.0
+2018,Sardinia,matrimonio country chic,0.0
+2018,Sardinia,matrimonio bucolico,0.0
+2018,Sardinia,matrimonio originale,0.0
+2018,Sardinia,matrimonio romantico,0.0
+2018,Sardinia,matrimonio elegante,0.0
+2018,Sardinia,matrimonio in spiaggia,0.0
+2018,Sardinia,matrimonio tradizionale,0.0
+2018,Sicily,matrimonio country chic,0.0
+2018,Sicily,matrimonio bucolico,0.0
+2018,Sicily,matrimonio originale,0.0
+2018,Sicily,matrimonio romantico,0.0
+2018,Sicily,matrimonio elegante,0.61
+2018,Sicily,matrimonio in spiaggia,0.39
+2018,Sicily,matrimonio tradizionale,0.0
+2018,Trentino-Alto Adige/South Tyrol,matrimonio country chic,0.0
+2018,Trentino-Alto Adige/South Tyrol,matrimonio bucolico,0.0
+2018,Trentino-Alto Adige/South Tyrol,matrimonio originale,0.0
+2018,Trentino-Alto Adige/South Tyrol,matrimonio romantico,0.0
+2018,Trentino-Alto Adige/South Tyrol,matrimonio elegante,0.0
+2018,Trentino-Alto Adige/South Tyrol,matrimonio in spiaggia,0.0
+2018,Trentino-Alto Adige/South Tyrol,matrimonio tradizionale,0.0
+2018,Tuscany,matrimonio country chic,0.0
+2018,Tuscany,matrimonio bucolico,0.0
+2018,Tuscany,matrimonio originale,0.0
+2018,Tuscany,matrimonio romantico,0.0
+2018,Tuscany,matrimonio elegante,1.0
+2018,Tuscany,matrimonio in spiaggia,0.0
+2018,Tuscany,matrimonio tradizionale,0.0
+2018,Umbria,matrimonio country chic,0.0
+2018,Umbria,matrimonio bucolico,0.0
+2018,Umbria,matrimonio originale,0.0
+2018,Umbria,matrimonio romantico,0.0
+2018,Umbria,matrimonio elegante,0.0
+2018,Umbria,matrimonio in spiaggia,0.0
+2018,Umbria,matrimonio tradizionale,0.0
+2018,Veneto,matrimonio country chic,0.0
+2018,Veneto,matrimonio bucolico,0.0
+2018,Veneto,matrimonio originale,0.0
+2018,Veneto,matrimonio romantico,0.0
+2018,Veneto,matrimonio elegante,0.55
+2018,Veneto,matrimonio in spiaggia,0.45
+2018,Veneto,matrimonio tradizionale,0.0
+2019,Abruzzo,matrimonio country chic,0.0
+2019,Abruzzo,matrimonio bucolico,0.0
+2019,Abruzzo,matrimonio originale,0.0
+2019,Abruzzo,matrimonio romantico,0.0
+2019,Abruzzo,matrimonio elegante,0.0
+2019,Abruzzo,matrimonio in spiaggia,0.0
+2019,Abruzzo,matrimonio tradizionale,0.0
+2019,Aosta,matrimonio country chic,0.0
+2019,Aosta,matrimonio bucolico,0.0
+2019,Aosta,matrimonio originale,0.0
+2019,Aosta,matrimonio romantico,0.0
+2019,Aosta,matrimonio elegante,0.0
+2019,Aosta,matrimonio in spiaggia,0.0
+2019,Aosta,matrimonio tradizionale,0.0
+2019,Apulia,matrimonio country chic,0.0
+2019,Apulia,matrimonio bucolico,0.0
+2019,Apulia,matrimonio originale,0.0
+2019,Apulia,matrimonio romantico,0.0
+2019,Apulia,matrimonio elegante,0.73
+2019,Apulia,matrimonio in spiaggia,0.27
+2019,Apulia,matrimonio tradizionale,0.0
+2019,Basilicata,matrimonio country chic,0.0
+2019,Basilicata,matrimonio bucolico,0.0
+2019,Basilicata,matrimonio originale,0.0
+2019,Basilicata,matrimonio romantico,0.0
+2019,Basilicata,matrimonio elegante,0.0
+2019,Basilicata,matrimonio in spiaggia,0.0
+2019,Basilicata,matrimonio tradizionale,0.0
+2019,Calabria,matrimonio country chic,0.0
+2019,Calabria,matrimonio bucolico,0.0
+2019,Calabria,matrimonio originale,0.0
+2019,Calabria,matrimonio romantico,0.0
+2019,Calabria,matrimonio elegante,1.0
+2019,Calabria,matrimonio in spiaggia,0.0
+2019,Calabria,matrimonio tradizionale,0.0
+2019,Campania,matrimonio country chic,0.0
+2019,Campania,matrimonio bucolico,0.0
+2019,Campania,matrimonio originale,0.0
+2019,Campania,matrimonio romantico,0.0
+2019,Campania,matrimonio elegante,0.64
+2019,Campania,matrimonio in spiaggia,0.36
+2019,Campania,matrimonio tradizionale,0.0
+2019,Emilia-Romagna,matrimonio country chic,0.0
+2019,Emilia-Romagna,matrimonio bucolico,0.0
+2019,Emilia-Romagna,matrimonio originale,0.0
+2019,Emilia-Romagna,matrimonio romantico,0.0
+2019,Emilia-Romagna,matrimonio elegante,0.5
+2019,Emilia-Romagna,matrimonio in spiaggia,0.5
+2019,Emilia-Romagna,matrimonio tradizionale,0.0
+2019,Friuli-Venezia Giulia,matrimonio country chic,0.0
+2019,Friuli-Venezia Giulia,matrimonio bucolico,0.0
+2019,Friuli-Venezia Giulia,matrimonio originale,0.0
+2019,Friuli-Venezia Giulia,matrimonio romantico,0.0
+2019,Friuli-Venezia Giulia,matrimonio elegante,0.0
+2019,Friuli-Venezia Giulia,matrimonio in spiaggia,0.0
+2019,Friuli-Venezia Giulia,matrimonio tradizionale,0.0
+2019,Italy,matrimonio country chic,0.1
+2019,Italy,matrimonio bucolico,0.01
+2019,Italy,matrimonio originale,0.14
+2019,Italy,matrimonio romantico,0.11
+2019,Italy,matrimonio elegante,0.36
+2019,Italy,matrimonio in spiaggia,0.23
+2019,Italy,matrimonio tradizionale,0.04
+2019,Lazio,matrimonio country chic,0.28
+2019,Lazio,matrimonio bucolico,0.0
+2019,Lazio,matrimonio originale,0.0
+2019,Lazio,matrimonio romantico,0.0
+2019,Lazio,matrimonio elegante,0.5
+2019,Lazio,matrimonio in spiaggia,0.22
+2019,Lazio,matrimonio tradizionale,0.0
+2019,Liguria,matrimonio country chic,0.0
+2019,Liguria,matrimonio bucolico,0.0
+2019,Liguria,matrimonio originale,0.0
+2019,Liguria,matrimonio romantico,0.0
+2019,Liguria,matrimonio elegante,0.0
+2019,Liguria,matrimonio in spiaggia,0.0
+2019,Liguria,matrimonio tradizionale,0.0
+2019,Lombardy,matrimonio country chic,0.12
+2019,Lombardy,matrimonio bucolico,0.0
+2019,Lombardy,matrimonio originale,0.18
+2019,Lombardy,matrimonio romantico,0.11
+2019,Lombardy,matrimonio elegante,0.35
+2019,Lombardy,matrimonio in spiaggia,0.24
+2019,Lombardy,matrimonio tradizionale,0.0
+2019,Marche,matrimonio country chic,0.0
+2019,Marche,matrimonio bucolico,0.0
+2019,Marche,matrimonio originale,0.0
+2019,Marche,matrimonio romantico,0.0
+2019,Marche,matrimonio elegante,0.0
+2019,Marche,matrimonio in spiaggia,0.0
+2019,Marche,matrimonio tradizionale,0.0
+2019,Molise,matrimonio country chic,0.0
+2019,Molise,matrimonio bucolico,0.0
+2019,Molise,matrimonio originale,0.0
+2019,Molise,matrimonio romantico,0.0
+2019,Molise,matrimonio elegante,0.0
+2019,Molise,matrimonio in spiaggia,0.0
+2019,Molise,matrimonio tradizionale,0.0
+2019,Piedmont,matrimonio country chic,0.0
+2019,Piedmont,matrimonio bucolico,0.0
+2019,Piedmont,matrimonio originale,0.0
+2019,Piedmont,matrimonio romantico,0.0
+2019,Piedmont,matrimonio elegante,1.0
+2019,Piedmont,matrimonio in spiaggia,0.0
+2019,Piedmont,matrimonio tradizionale,0.0
+2019,Sardinia,matrimonio country chic,0.0
+2019,Sardinia,matrimonio bucolico,0.0
+2019,Sardinia,matrimonio originale,0.0
+2019,Sardinia,matrimonio romantico,0.0
+2019,Sardinia,matrimonio elegante,0.0
+2019,Sardinia,matrimonio in spiaggia,0.0
+2019,Sardinia,matrimonio tradizionale,0.0
+2019,Sicily,matrimonio country chic,0.0
+2019,Sicily,matrimonio bucolico,0.0
+2019,Sicily,matrimonio originale,0.0
+2019,Sicily,matrimonio romantico,0.0
+2019,Sicily,matrimonio elegante,0.67
+2019,Sicily,matrimonio in spiaggia,0.33
+2019,Sicily,matrimonio tradizionale,0.0
+2019,Trentino-Alto Adige/South Tyrol,matrimonio country chic,0.0
+2019,Trentino-Alto Adige/South Tyrol,matrimonio bucolico,0.0
+2019,Trentino-Alto Adige/South Tyrol,matrimonio originale,0.0
+2019,Trentino-Alto Adige/South Tyrol,matrimonio romantico,0.0
+2019,Trentino-Alto Adige/South Tyrol,matrimonio elegante,0.0
+2019,Trentino-Alto Adige/South Tyrol,matrimonio in spiaggia,0.0
+2019,Trentino-Alto Adige/South Tyrol,matrimonio tradizionale,0.0
+2019,Tuscany,matrimonio country chic,0.0
+2019,Tuscany,matrimonio bucolico,0.0
+2019,Tuscany,matrimonio originale,0.0
+2019,Tuscany,matrimonio romantico,0.0
+2019,Tuscany,matrimonio elegante,1.0
+2019,Tuscany,matrimonio in spiaggia,0.0
+2019,Tuscany,matrimonio tradizionale,0.0
+2019,Umbria,matrimonio country chic,0.0
+2019,Umbria,matrimonio bucolico,0.0
+2019,Umbria,matrimonio originale,0.0
+2019,Umbria,matrimonio romantico,0.0
+2019,Umbria,matrimonio elegante,0.0
+2019,Umbria,matrimonio in spiaggia,0.0
+2019,Umbria,matrimonio tradizionale,0.0
+2019,Veneto,matrimonio country chic,0.0
+2019,Veneto,matrimonio bucolico,0.0
+2019,Veneto,matrimonio originale,0.0
+2019,Veneto,matrimonio romantico,0.0
+2019,Veneto,matrimonio elegante,0.74
+2019,Veneto,matrimonio in spiaggia,0.26
+2019,Veneto,matrimonio tradizionale,0.0
+2020,Abruzzo,matrimonio country chic,0.0
+2020,Abruzzo,matrimonio bucolico,0.0
+2020,Abruzzo,matrimonio originale,0.0
+2020,Abruzzo,matrimonio romantico,0.0
+2020,Abruzzo,matrimonio elegante,0.0
+2020,Abruzzo,matrimonio in spiaggia,0.0
+2020,Abruzzo,matrimonio tradizionale,0.0
+2020,Aosta,matrimonio country chic,0.0
+2020,Aosta,matrimonio bucolico,0.0
+2020,Aosta,matrimonio originale,0.0
+2020,Aosta,matrimonio romantico,0.0
+2020,Aosta,matrimonio elegante,0.0
+2020,Aosta,matrimonio in spiaggia,0.0
+2020,Aosta,matrimonio tradizionale,0.0
+2020,Apulia,matrimonio country chic,0.0
+2020,Apulia,matrimonio bucolico,0.0
+2020,Apulia,matrimonio originale,0.0
+2020,Apulia,matrimonio romantico,0.0
+2020,Apulia,matrimonio elegante,0.72
+2020,Apulia,matrimonio in spiaggia,0.28
+2020,Apulia,matrimonio tradizionale,0.0
+2020,Basilicata,matrimonio country chic,0.0
+2020,Basilicata,matrimonio bucolico,0.0
+2020,Basilicata,matrimonio originale,0.0
+2020,Basilicata,matrimonio romantico,0.0
+2020,Basilicata,matrimonio elegante,0.0
+2020,Basilicata,matrimonio in spiaggia,0.0
+2020,Basilicata,matrimonio tradizionale,0.0
+2020,Calabria,matrimonio country chic,0.0
+2020,Calabria,matrimonio bucolico,0.0
+2020,Calabria,matrimonio originale,0.0
+2020,Calabria,matrimonio romantico,0.0
+2020,Calabria,matrimonio elegante,1.0
+2020,Calabria,matrimonio in spiaggia,0.0
+2020,Calabria,matrimonio tradizionale,0.0
+2020,Campania,matrimonio country chic,0.0
+2020,Campania,matrimonio bucolico,0.0
+2020,Campania,matrimonio originale,0.0
+2020,Campania,matrimonio romantico,0.0
+2020,Campania,matrimonio elegante,0.41
+2020,Campania,matrimonio in spiaggia,0.59
+2020,Campania,matrimonio tradizionale,0.0
+2020,Emilia-Romagna,matrimonio country chic,0.0
+2020,Emilia-Romagna,matrimonio bucolico,0.0
+2020,Emilia-Romagna,matrimonio originale,0.0
+2020,Emilia-Romagna,matrimonio romantico,0.0
+2020,Emilia-Romagna,matrimonio elegante,0.19
+2020,Emilia-Romagna,matrimonio in spiaggia,0.81
+2020,Emilia-Romagna,matrimonio tradizionale,0.0
+2020,Friuli-Venezia Giulia,matrimonio country chic,0.0
+2020,Friuli-Venezia Giulia,matrimonio bucolico,0.0
+2020,Friuli-Venezia Giulia,matrimonio originale,0.0
+2020,Friuli-Venezia Giulia,matrimonio romantico,0.0
+2020,Friuli-Venezia Giulia,matrimonio elegante,0.0
+2020,Friuli-Venezia Giulia,matrimonio in spiaggia,0.0
+2020,Friuli-Venezia Giulia,matrimonio tradizionale,0.0
+2020,Italy,matrimonio country chic,0.1
+2020,Italy,matrimonio bucolico,0.03
+2020,Italy,matrimonio originale,0.14
+2020,Italy,matrimonio romantico,0.16
+2020,Italy,matrimonio elegante,0.33
+2020,Italy,matrimonio in spiaggia,0.2
+2020,Italy,matrimonio tradizionale,0.05
+2020,Lazio,matrimonio country chic,0.29
+2020,Lazio,matrimonio bucolico,0.0
+2020,Lazio,matrimonio originale,0.0
+2020,Lazio,matrimonio romantico,0.0
+2020,Lazio,matrimonio elegante,0.3
+2020,Lazio,matrimonio in spiaggia,0.41
+2020,Lazio,matrimonio tradizionale,0.0
+2020,Liguria,matrimonio country chic,0.0
+2020,Liguria,matrimonio bucolico,0.0
+2020,Liguria,matrimonio originale,0.0
+2020,Liguria,matrimonio romantico,0.0
+2020,Liguria,matrimonio elegante,0.0
+2020,Liguria,matrimonio in spiaggia,0.0
+2020,Liguria,matrimonio tradizionale,0.0
+2020,Lombardy,matrimonio country chic,0.07
+2020,Lombardy,matrimonio bucolico,0.0
+2020,Lombardy,matrimonio originale,0.19
+2020,Lombardy,matrimonio romantico,0.1
+2020,Lombardy,matrimonio elegante,0.39
+2020,Lombardy,matrimonio in spiaggia,0.25
+2020,Lombardy,matrimonio tradizionale,0.0
+2020,Marche,matrimonio country chic,0.0
+2020,Marche,matrimonio bucolico,0.0
+2020,Marche,matrimonio originale,0.0
+2020,Marche,matrimonio romantico,0.0
+2020,Marche,matrimonio elegante,0.0
+2020,Marche,matrimonio in spiaggia,0.0
+2020,Marche,matrimonio tradizionale,0.0
+2020,Molise,matrimonio country chic,0.0
+2020,Molise,matrimonio bucolico,0.0
+2020,Molise,matrimonio originale,0.0
+2020,Molise,matrimonio romantico,0.0
+2020,Molise,matrimonio elegante,0.0
+2020,Molise,matrimonio in spiaggia,0.0
+2020,Molise,matrimonio tradizionale,0.0
+2020,Piedmont,matrimonio country chic,0.0
+2020,Piedmont,matrimonio bucolico,0.0
+2020,Piedmont,matrimonio originale,0.0
+2020,Piedmont,matrimonio romantico,0.0
+2020,Piedmont,matrimonio elegante,1.0
+2020,Piedmont,matrimonio in spiaggia,0.0
+2020,Piedmont,matrimonio tradizionale,0.0
+2020,Sardinia,matrimonio country chic,0.0
+2020,Sardinia,matrimonio bucolico,0.0
+2020,Sardinia,matrimonio originale,0.0
+2020,Sardinia,matrimonio romantico,0.0
+2020,Sardinia,matrimonio elegante,0.0
+2020,Sardinia,matrimonio in spiaggia,0.0
+2020,Sardinia,matrimonio tradizionale,0.0
+2020,Sicily,matrimonio country chic,0.0
+2020,Sicily,matrimonio bucolico,0.0
+2020,Sicily,matrimonio originale,0.0
+2020,Sicily,matrimonio romantico,0.0
+2020,Sicily,matrimonio elegante,0.6
+2020,Sicily,matrimonio in spiaggia,0.4
+2020,Sicily,matrimonio tradizionale,0.0
+2020,Trentino-Alto Adige/South Tyrol,matrimonio country chic,0.0
+2020,Trentino-Alto Adige/South Tyrol,matrimonio bucolico,0.0
+2020,Trentino-Alto Adige/South Tyrol,matrimonio originale,0.0
+2020,Trentino-Alto Adige/South Tyrol,matrimonio romantico,0.0
+2020,Trentino-Alto Adige/South Tyrol,matrimonio elegante,0.0
+2020,Trentino-Alto Adige/South Tyrol,matrimonio in spiaggia,0.0
+2020,Trentino-Alto Adige/South Tyrol,matrimonio tradizionale,0.0
+2020,Tuscany,matrimonio country chic,0.0
+2020,Tuscany,matrimonio bucolico,0.0
+2020,Tuscany,matrimonio originale,0.0
+2020,Tuscany,matrimonio romantico,0.0
+2020,Tuscany,matrimonio elegante,1.0
+2020,Tuscany,matrimonio in spiaggia,0.0
+2020,Tuscany,matrimonio tradizionale,0.0
+2020,Umbria,matrimonio country chic,0.0
+2020,Umbria,matrimonio bucolico,0.0
+2020,Umbria,matrimonio originale,0.0
+2020,Umbria,matrimonio romantico,0.0
+2020,Umbria,matrimonio elegante,0.0
+2020,Umbria,matrimonio in spiaggia,0.0
+2020,Umbria,matrimonio tradizionale,0.0
+2020,Veneto,matrimonio country chic,0.0
+2020,Veneto,matrimonio bucolico,0.0
+2020,Veneto,matrimonio originale,0.0
+2020,Veneto,matrimonio romantico,0.0
+2020,Veneto,matrimonio elegante,0.79
+2020,Veneto,matrimonio in spiaggia,0.21
+2020,Veneto,matrimonio tradizionale,0.0

@@ -1,0 +1,301 @@
+Year,ticket_geo_region_name,Loc_type,Distribution
+2018,Andalucía,aldea antigua,
+2018,Andalucía,restaurante,0.37
+2018,Andalucía,finca/campo,0.15
+2018,Andalucía,palacio/castillo,0.25
+2018,Andalucía,villa,0.23
+2018,Aragón,aldea antigua,
+2018,Aragón,restaurante,
+2018,Aragón,finca/campo,
+2018,Aragón,palacio/castillo,
+2018,Aragón,villa,
+2018,Asturias,aldea antigua,
+2018,Asturias,restaurante,
+2018,Asturias,finca/campo,
+2018,Asturias,palacio/castillo,1.0
+2018,Asturias,villa,
+2018,Illes Balears,aldea antigua,
+2018,Illes Balears,restaurante,
+2018,Illes Balears,finca/campo,
+2018,Illes Balears,palacio/castillo,
+2018,Illes Balears,villa,
+2018,País Vasco,aldea antigua,
+2018,País Vasco,restaurante,
+2018,País Vasco,finca/campo,
+2018,País Vasco,palacio/castillo,1.0
+2018,País Vasco,villa,
+2018,Islas Canarias,aldea antigua,
+2018,Islas Canarias,restaurante,
+2018,Islas Canarias,finca/campo,1.0
+2018,Islas Canarias,palacio/castillo,
+2018,Islas Canarias,villa,
+2018,Cantabria,aldea antigua,
+2018,Cantabria,restaurante,
+2018,Cantabria,finca/campo,
+2018,Cantabria,palacio/castillo,1.0
+2018,Cantabria,villa,
+2018,Castilla y León,aldea antigua,
+2018,Castilla y León,restaurante,
+2018,Castilla y León,finca/campo,0.29
+2018,Castilla y León,palacio/castillo,0.71
+2018,Castilla y León,villa,
+2018,Castilla-La Mancha,aldea antigua,
+2018,Castilla-La Mancha,restaurante,
+2018,Castilla-La Mancha,finca/campo,1.0
+2018,Castilla-La Mancha,palacio/castillo,
+2018,Castilla-La Mancha,villa,
+2018,Cataluña,aldea antigua,
+2018,Cataluña,restaurante,1.0
+2018,Cataluña,finca/campo,
+2018,Cataluña,palacio/castillo,
+2018,Cataluña,villa,
+2018,Ceuta,aldea antigua,
+2018,Ceuta,restaurante,
+2018,Ceuta,finca/campo,
+2018,Ceuta,palacio/castillo,
+2018,Ceuta,villa,
+2018,Madrid,aldea antigua,
+2018,Madrid,restaurante,0.34
+2018,Madrid,finca/campo,0.23
+2018,Madrid,palacio/castillo,0.3
+2018,Madrid,villa,0.14
+2018,Extremadura,aldea antigua,
+2018,Extremadura,restaurante,
+2018,Extremadura,finca/campo,
+2018,Extremadura,palacio/castillo,
+2018,Extremadura,villa,
+2018,Galicia,aldea antigua,
+2018,Galicia,restaurante,
+2018,Galicia,finca/campo,
+2018,Galicia,palacio/castillo,
+2018,Galicia,villa,
+2018,La Rioja,aldea antigua,
+2018,La Rioja,restaurante,
+2018,La Rioja,finca/campo,
+2018,La Rioja,palacio/castillo,
+2018,La Rioja,villa,
+2018,Melilla,aldea antigua,
+2018,Melilla,restaurante,
+2018,Melilla,finca/campo,
+2018,Melilla,palacio/castillo,
+2018,Melilla,villa,
+2018,Navarra,aldea antigua,
+2018,Navarra,restaurante,
+2018,Navarra,finca/campo,
+2018,Navarra,palacio/castillo,
+2018,Navarra,villa,
+2018,Murcia,aldea antigua,
+2018,Murcia,restaurante,
+2018,Murcia,finca/campo,
+2018,Murcia,palacio/castillo,
+2018,Murcia,villa,
+2018,España,aldea antigua,0.02
+2018,España,restaurante,0.43
+2018,España,finca/campo,0.14
+2018,España,palacio/castillo,0.27
+2018,España,villa,0.14
+2018,Valencia,aldea antigua,
+2018,Valencia,restaurante,0.77
+2018,Valencia,finca/campo,0.23
+2018,Valencia,palacio/castillo,
+2018,Valencia,villa,
+2019,Andalucía,aldea antigua,
+2019,Andalucía,restaurante,0.35
+2019,Andalucía,finca/campo,0.2
+2019,Andalucía,palacio/castillo,0.24
+2019,Andalucía,villa,0.21
+2019,Aragón,aldea antigua,
+2019,Aragón,restaurante,
+2019,Aragón,finca/campo,
+2019,Aragón,palacio/castillo,
+2019,Aragón,villa,
+2019,Asturias,aldea antigua,
+2019,Asturias,restaurante,
+2019,Asturias,finca/campo,
+2019,Asturias,palacio/castillo,1.0
+2019,Asturias,villa,
+2019,Illes Balears,aldea antigua,
+2019,Illes Balears,restaurante,
+2019,Illes Balears,finca/campo,
+2019,Illes Balears,palacio/castillo,
+2019,Illes Balears,villa,
+2019,País Vasco,aldea antigua,
+2019,País Vasco,restaurante,
+2019,País Vasco,finca/campo,
+2019,País Vasco,palacio/castillo,1.0
+2019,País Vasco,villa,
+2019,Islas Canarias,aldea antigua,
+2019,Islas Canarias,restaurante,
+2019,Islas Canarias,finca/campo,1.0
+2019,Islas Canarias,palacio/castillo,
+2019,Islas Canarias,villa,
+2019,Cantabria,aldea antigua,
+2019,Cantabria,restaurante,
+2019,Cantabria,finca/campo,
+2019,Cantabria,palacio/castillo,1.0
+2019,Cantabria,villa,
+2019,Castilla y León,aldea antigua,
+2019,Castilla y León,restaurante,
+2019,Castilla y León,finca/campo,0.3
+2019,Castilla y León,palacio/castillo,0.7
+2019,Castilla y León,villa,
+2019,Castilla-La Mancha,aldea antigua,
+2019,Castilla-La Mancha,restaurante,
+2019,Castilla-La Mancha,finca/campo,1.0
+2019,Castilla-La Mancha,palacio/castillo,
+2019,Castilla-La Mancha,villa,
+2019,Cataluña,aldea antigua,
+2019,Cataluña,restaurante,1.0
+2019,Cataluña,finca/campo,
+2019,Cataluña,palacio/castillo,
+2019,Cataluña,villa,
+2019,Ceuta,aldea antigua,
+2019,Ceuta,restaurante,
+2019,Ceuta,finca/campo,
+2019,Ceuta,palacio/castillo,
+2019,Ceuta,villa,
+2019,Madrid,aldea antigua,
+2019,Madrid,restaurante,0.35
+2019,Madrid,finca/campo,0.22
+2019,Madrid,palacio/castillo,0.29
+2019,Madrid,villa,0.14
+2019,Extremadura,aldea antigua,
+2019,Extremadura,restaurante,
+2019,Extremadura,finca/campo,
+2019,Extremadura,palacio/castillo,
+2019,Extremadura,villa,
+2019,Galicia,aldea antigua,
+2019,Galicia,restaurante,
+2019,Galicia,finca/campo,
+2019,Galicia,palacio/castillo,
+2019,Galicia,villa,
+2019,La Rioja,aldea antigua,
+2019,La Rioja,restaurante,
+2019,La Rioja,finca/campo,
+2019,La Rioja,palacio/castillo,
+2019,La Rioja,villa,
+2019,Melilla,aldea antigua,
+2019,Melilla,restaurante,
+2019,Melilla,finca/campo,
+2019,Melilla,palacio/castillo,
+2019,Melilla,villa,
+2019,Navarra,aldea antigua,
+2019,Navarra,restaurante,
+2019,Navarra,finca/campo,
+2019,Navarra,palacio/castillo,
+2019,Navarra,villa,
+2019,Murcia,aldea antigua,
+2019,Murcia,restaurante,
+2019,Murcia,finca/campo,
+2019,Murcia,palacio/castillo,
+2019,Murcia,villa,
+2019,España,aldea antigua,0.02
+2019,España,restaurante,0.45
+2019,España,finca/campo,0.17
+2019,España,palacio/castillo,0.25
+2019,España,villa,0.12
+2019,Valencia,aldea antigua,
+2019,Valencia,restaurante,0.8
+2019,Valencia,finca/campo,0.2
+2019,Valencia,palacio/castillo,
+2019,Valencia,villa,
+2020,Andalucía,aldea antigua,
+2020,Andalucía,restaurante,0.35
+2020,Andalucía,finca/campo,0.12
+2020,Andalucía,palacio/castillo,0.13
+2020,Andalucía,villa,0.39
+2020,Aragón,aldea antigua,
+2020,Aragón,restaurante,
+2020,Aragón,finca/campo,
+2020,Aragón,palacio/castillo,
+2020,Aragón,villa,
+2020,Asturias,aldea antigua,
+2020,Asturias,restaurante,
+2020,Asturias,finca/campo,
+2020,Asturias,palacio/castillo,1.0
+2020,Asturias,villa,
+2020,Illes Balears,aldea antigua,
+2020,Illes Balears,restaurante,
+2020,Illes Balears,finca/campo,
+2020,Illes Balears,palacio/castillo,
+2020,Illes Balears,villa,
+2020,País Vasco,aldea antigua,
+2020,País Vasco,restaurante,
+2020,País Vasco,finca/campo,
+2020,País Vasco,palacio/castillo,1.0
+2020,País Vasco,villa,
+2020,Islas Canarias,aldea antigua,
+2020,Islas Canarias,restaurante,
+2020,Islas Canarias,finca/campo,1.0
+2020,Islas Canarias,palacio/castillo,
+2020,Islas Canarias,villa,
+2020,Cantabria,aldea antigua,
+2020,Cantabria,restaurante,
+2020,Cantabria,finca/campo,
+2020,Cantabria,palacio/castillo,1.0
+2020,Cantabria,villa,
+2020,Castilla y León,aldea antigua,
+2020,Castilla y León,restaurante,
+2020,Castilla y León,finca/campo,0.36
+2020,Castilla y León,palacio/castillo,0.64
+2020,Castilla y León,villa,
+2020,Castilla-La Mancha,aldea antigua,
+2020,Castilla-La Mancha,restaurante,
+2020,Castilla-La Mancha,finca/campo,1.0
+2020,Castilla-La Mancha,palacio/castillo,
+2020,Castilla-La Mancha,villa,
+2020,Cataluña,aldea antigua,
+2020,Cataluña,restaurante,1.0
+2020,Cataluña,finca/campo,
+2020,Cataluña,palacio/castillo,
+2020,Cataluña,villa,
+2020,Ceuta,aldea antigua,
+2020,Ceuta,restaurante,
+2020,Ceuta,finca/campo,
+2020,Ceuta,palacio/castillo,
+2020,Ceuta,villa,
+2020,Madrid,aldea antigua,
+2020,Madrid,restaurante,0.32
+2020,Madrid,finca/campo,0.26
+2020,Madrid,palacio/castillo,0.28
+2020,Madrid,villa,0.14
+2020,Extremadura,aldea antigua,
+2020,Extremadura,restaurante,
+2020,Extremadura,finca/campo,
+2020,Extremadura,palacio/castillo,
+2020,Extremadura,villa,
+2020,Galicia,aldea antigua,
+2020,Galicia,restaurante,
+2020,Galicia,finca/campo,
+2020,Galicia,palacio/castillo,
+2020,Galicia,villa,
+2020,La Rioja,aldea antigua,
+2020,La Rioja,restaurante,
+2020,La Rioja,finca/campo,
+2020,La Rioja,palacio/castillo,
+2020,La Rioja,villa,
+2020,Melilla,aldea antigua,
+2020,Melilla,restaurante,
+2020,Melilla,finca/campo,
+2020,Melilla,palacio/castillo,
+2020,Melilla,villa,
+2020,Navarra,aldea antigua,
+2020,Navarra,restaurante,
+2020,Navarra,finca/campo,
+2020,Navarra,palacio/castillo,
+2020,Navarra,villa,
+2020,Murcia,aldea antigua,
+2020,Murcia,restaurante,
+2020,Murcia,finca/campo,
+2020,Murcia,palacio/castillo,
+2020,Murcia,villa,
+2020,España,aldea antigua,0.02
+2020,España,restaurante,0.46
+2020,España,finca/campo,0.15
+2020,España,palacio/castillo,0.26
+2020,España,villa,0.12
+2020,Valencia,aldea antigua,
+2020,Valencia,restaurante,0.76
+2020,Valencia,finca/campo,0.24
+2020,Valencia,palacio/castillo,
+2020,Valencia,villa,

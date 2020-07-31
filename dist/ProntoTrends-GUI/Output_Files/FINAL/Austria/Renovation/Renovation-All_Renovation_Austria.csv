@@ -1,0 +1,301 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Austria,Energieausweis,0.0
+2018,Austria,Dachdecker,0.01
+2018,Austria,Solar,0.03
+2018,Austria,Fenster,0.08
+2018,Austria,Elektro,0.05
+2018,Austria,Bewegungsmelder,0.0
+2018,Austria,Smart Home,0.0
+2018,Austria,Balkon,0.02
+2018,Austria,Garten,0.1
+2018,Austria,Bad,0.71
+2018,Burgenland,Energieausweis,0.0
+2018,Burgenland,Elektro,0.06
+2018,Burgenland,Dachdecker,0.01
+2018,Burgenland,Solar,0.02
+2018,Burgenland,Fenster,0.05
+2018,Burgenland,Bewegungsmelder,0.01
+2018,Burgenland,Smart Home,0.01
+2018,Burgenland,Balkon,0.02
+2018,Burgenland,Garten,0.12
+2018,Burgenland,Bad,0.71
+2018,Carinthia,Energieausweis,0.0
+2018,Carinthia,Dachdecker,0.01
+2018,Carinthia,Solar,0.03
+2018,Carinthia,Fenster,0.08
+2018,Carinthia,Elektro,0.05
+2018,Carinthia,Bewegungsmelder,0.0
+2018,Carinthia,Smart Home,0.0
+2018,Carinthia,Balkon,0.02
+2018,Carinthia,Garten,0.1
+2018,Carinthia,Bad,0.7
+2018,Lower Austria,Energieausweis,0.01
+2018,Lower Austria,Dachdecker,0.01
+2018,Lower Austria,Solar,0.03
+2018,Lower Austria,Fenster,0.07
+2018,Lower Austria,Elektro,0.05
+2018,Lower Austria,Bewegungsmelder,0.01
+2018,Lower Austria,Smart Home,0.0
+2018,Lower Austria,Balkon,0.01
+2018,Lower Austria,Garten,0.13
+2018,Lower Austria,Bad,0.67
+2018,Salzburg,Energieausweis,0.0
+2018,Salzburg,Dachdecker,0.01
+2018,Salzburg,Solar,0.02
+2018,Salzburg,Fenster,0.04
+2018,Salzburg,Elektro,0.03
+2018,Salzburg,Bewegungsmelder,0.0
+2018,Salzburg,Smart Home,0.0
+2018,Salzburg,Balkon,0.01
+2018,Salzburg,Garten,0.06
+2018,Salzburg,Bad,0.82
+2018,Styria,Energieausweis,0.0
+2018,Styria,Dachdecker,0.01
+2018,Styria,Solar,0.03
+2018,Styria,Fenster,0.07
+2018,Styria,Elektro,0.04
+2018,Styria,Bewegungsmelder,0.0
+2018,Styria,Smart Home,0.0
+2018,Styria,Balkon,0.01
+2018,Styria,Garten,0.09
+2018,Styria,Bad,0.74
+2018,Tyrol,Energieausweis,0.01
+2018,Tyrol,Dachdecker,0.01
+2018,Tyrol,Solar,0.05
+2018,Tyrol,Fenster,0.1
+2018,Tyrol,Elektro,0.06
+2018,Tyrol,Bewegungsmelder,0.01
+2018,Tyrol,Smart Home,0.0
+2018,Tyrol,Balkon,0.02
+2018,Tyrol,Garten,0.13
+2018,Tyrol,Bad,0.62
+2018,Upper Austria,Energieausweis,0.0
+2018,Upper Austria,Dachdecker,0.01
+2018,Upper Austria,Solar,0.02
+2018,Upper Austria,Fenster,0.04
+2018,Upper Austria,Elektro,0.03
+2018,Upper Austria,Bewegungsmelder,0.0
+2018,Upper Austria,Smart Home,0.0
+2018,Upper Austria,Balkon,0.01
+2018,Upper Austria,Garten,0.08
+2018,Upper Austria,Bad,0.81
+2018,Vienna,Energieausweis,0.0
+2018,Vienna,Dachdecker,0.01
+2018,Vienna,Solar,0.04
+2018,Vienna,Fenster,0.09
+2018,Vienna,Elektro,0.06
+2018,Vienna,Bewegungsmelder,0.01
+2018,Vienna,Smart Home,0.0
+2018,Vienna,Balkon,0.02
+2018,Vienna,Garten,0.12
+2018,Vienna,Bad,0.66
+2018,Vorarlberg,Energieausweis,0.0
+2018,Vorarlberg,Dachdecker,0.02
+2018,Vorarlberg,Solar,0.03
+2018,Vorarlberg,Fenster,0.08
+2018,Vorarlberg,Elektro,0.08
+2018,Vorarlberg,Bewegungsmelder,0.01
+2018,Vorarlberg,Smart Home,0.0
+2018,Vorarlberg,Balkon,0.02
+2018,Vorarlberg,Garten,0.17
+2018,Vorarlberg,Bad,0.58
+2019,Austria,Energieausweis,0.0
+2019,Austria,Dachdecker,0.01
+2019,Austria,Solar,0.03
+2019,Austria,Fenster,0.07
+2019,Austria,Elektro,0.05
+2019,Austria,Bewegungsmelder,0.0
+2019,Austria,Smart Home,0.0
+2019,Austria,Balkon,0.01
+2019,Austria,Garten,0.1
+2019,Austria,Bad,0.72
+2019,Burgenland,Energieausweis,0.0
+2019,Burgenland,Elektro,0.06
+2019,Burgenland,Dachdecker,0.01
+2019,Burgenland,Solar,0.02
+2019,Burgenland,Fenster,0.04
+2019,Burgenland,Bewegungsmelder,0.01
+2019,Burgenland,Smart Home,0.0
+2019,Burgenland,Balkon,0.02
+2019,Burgenland,Garten,0.12
+2019,Burgenland,Bad,0.71
+2019,Carinthia,Energieausweis,0.0
+2019,Carinthia,Dachdecker,0.01
+2019,Carinthia,Solar,0.03
+2019,Carinthia,Fenster,0.07
+2019,Carinthia,Elektro,0.06
+2019,Carinthia,Bewegungsmelder,0.01
+2019,Carinthia,Smart Home,0.0
+2019,Carinthia,Balkon,0.02
+2019,Carinthia,Garten,0.1
+2019,Carinthia,Bad,0.69
+2019,Lower Austria,Energieausweis,0.01
+2019,Lower Austria,Dachdecker,0.01
+2019,Lower Austria,Solar,0.03
+2019,Lower Austria,Fenster,0.08
+2019,Lower Austria,Elektro,0.05
+2019,Lower Austria,Bewegungsmelder,0.01
+2019,Lower Austria,Smart Home,0.0
+2019,Lower Austria,Balkon,0.01
+2019,Lower Austria,Garten,0.14
+2019,Lower Austria,Bad,0.67
+2019,Salzburg,Energieausweis,0.0
+2019,Salzburg,Dachdecker,0.01
+2019,Salzburg,Solar,0.02
+2019,Salzburg,Fenster,0.04
+2019,Salzburg,Elektro,0.03
+2019,Salzburg,Bewegungsmelder,0.0
+2019,Salzburg,Smart Home,0.0
+2019,Salzburg,Balkon,0.01
+2019,Salzburg,Garten,0.05
+2019,Salzburg,Bad,0.84
+2019,Styria,Energieausweis,0.0
+2019,Styria,Dachdecker,0.01
+2019,Styria,Solar,0.03
+2019,Styria,Fenster,0.06
+2019,Styria,Elektro,0.04
+2019,Styria,Bewegungsmelder,0.0
+2019,Styria,Smart Home,0.0
+2019,Styria,Balkon,0.01
+2019,Styria,Garten,0.09
+2019,Styria,Bad,0.75
+2019,Tyrol,Energieausweis,0.01
+2019,Tyrol,Dachdecker,0.01
+2019,Tyrol,Solar,0.04
+2019,Tyrol,Fenster,0.08
+2019,Tyrol,Elektro,0.06
+2019,Tyrol,Bewegungsmelder,0.01
+2019,Tyrol,Smart Home,0.0
+2019,Tyrol,Balkon,0.02
+2019,Tyrol,Garten,0.12
+2019,Tyrol,Bad,0.65
+2019,Upper Austria,Energieausweis,0.0
+2019,Upper Austria,Dachdecker,0.0
+2019,Upper Austria,Solar,0.02
+2019,Upper Austria,Fenster,0.04
+2019,Upper Austria,Elektro,0.03
+2019,Upper Austria,Bewegungsmelder,0.0
+2019,Upper Austria,Smart Home,0.0
+2019,Upper Austria,Balkon,0.01
+2019,Upper Austria,Garten,0.07
+2019,Upper Austria,Bad,0.82
+2019,Vienna,Energieausweis,0.0
+2019,Vienna,Dachdecker,0.01
+2019,Vienna,Solar,0.03
+2019,Vienna,Fenster,0.09
+2019,Vienna,Elektro,0.06
+2019,Vienna,Bewegungsmelder,0.01
+2019,Vienna,Smart Home,0.0
+2019,Vienna,Balkon,0.02
+2019,Vienna,Garten,0.12
+2019,Vienna,Bad,0.65
+2019,Vorarlberg,Energieausweis,0.01
+2019,Vorarlberg,Dachdecker,0.01
+2019,Vorarlberg,Solar,0.04
+2019,Vorarlberg,Fenster,0.07
+2019,Vorarlberg,Elektro,0.09
+2019,Vorarlberg,Bewegungsmelder,0.0
+2019,Vorarlberg,Smart Home,0.0
+2019,Vorarlberg,Balkon,0.02
+2019,Vorarlberg,Garten,0.17
+2019,Vorarlberg,Bad,0.59
+2020,Austria,Energieausweis,0.0
+2020,Austria,Dachdecker,0.01
+2020,Austria,Solar,0.04
+2020,Austria,Fenster,0.08
+2020,Austria,Elektro,0.05
+2020,Austria,Bewegungsmelder,0.0
+2020,Austria,Smart Home,0.0
+2020,Austria,Balkon,0.03
+2020,Austria,Garten,0.15
+2020,Austria,Bad,0.65
+2020,Burgenland,Energieausweis,0.01
+2020,Burgenland,Elektro,0.05
+2020,Burgenland,Dachdecker,0.01
+2020,Burgenland,Solar,0.02
+2020,Burgenland,Fenster,0.05
+2020,Burgenland,Bewegungsmelder,0.01
+2020,Burgenland,Smart Home,0.01
+2020,Burgenland,Balkon,0.02
+2020,Burgenland,Garten,0.19
+2020,Burgenland,Bad,0.63
+2020,Carinthia,Energieausweis,0.01
+2020,Carinthia,Dachdecker,0.02
+2020,Carinthia,Solar,0.04
+2020,Carinthia,Fenster,0.08
+2020,Carinthia,Elektro,0.05
+2020,Carinthia,Bewegungsmelder,0.01
+2020,Carinthia,Smart Home,0.0
+2020,Carinthia,Balkon,0.02
+2020,Carinthia,Garten,0.13
+2020,Carinthia,Bad,0.63
+2020,Lower Austria,Energieausweis,0.0
+2020,Lower Austria,Dachdecker,0.01
+2020,Lower Austria,Solar,0.03
+2020,Lower Austria,Fenster,0.08
+2020,Lower Austria,Elektro,0.05
+2020,Lower Austria,Bewegungsmelder,0.01
+2020,Lower Austria,Smart Home,0.0
+2020,Lower Austria,Balkon,0.02
+2020,Lower Austria,Garten,0.19
+2020,Lower Austria,Bad,0.61
+2020,Salzburg,Energieausweis,0.0
+2020,Salzburg,Dachdecker,0.01
+2020,Salzburg,Solar,0.02
+2020,Salzburg,Fenster,0.05
+2020,Salzburg,Elektro,0.03
+2020,Salzburg,Bewegungsmelder,0.0
+2020,Salzburg,Smart Home,0.0
+2020,Salzburg,Balkon,0.02
+2020,Salzburg,Garten,0.1
+2020,Salzburg,Bad,0.77
+2020,Styria,Energieausweis,0.0
+2020,Styria,Dachdecker,0.01
+2020,Styria,Solar,0.03
+2020,Styria,Fenster,0.07
+2020,Styria,Elektro,0.04
+2020,Styria,Bewegungsmelder,0.0
+2020,Styria,Smart Home,0.0
+2020,Styria,Balkon,0.02
+2020,Styria,Garten,0.13
+2020,Styria,Bad,0.68
+2020,Tyrol,Energieausweis,0.0
+2020,Tyrol,Dachdecker,0.01
+2020,Tyrol,Solar,0.05
+2020,Tyrol,Fenster,0.09
+2020,Tyrol,Elektro,0.05
+2020,Tyrol,Bewegungsmelder,0.0
+2020,Tyrol,Smart Home,0.0
+2020,Tyrol,Balkon,0.03
+2020,Tyrol,Garten,0.18
+2020,Tyrol,Bad,0.56
+2020,Upper Austria,Energieausweis,0.0
+2020,Upper Austria,Dachdecker,0.01
+2020,Upper Austria,Solar,0.02
+2020,Upper Austria,Fenster,0.04
+2020,Upper Austria,Elektro,0.03
+2020,Upper Austria,Bewegungsmelder,0.0
+2020,Upper Austria,Smart Home,0.0
+2020,Upper Austria,Balkon,0.02
+2020,Upper Austria,Garten,0.11
+2020,Upper Austria,Bad,0.77
+2020,Vienna,Energieausweis,0.0
+2020,Vienna,Dachdecker,0.01
+2020,Vienna,Solar,0.04
+2020,Vienna,Fenster,0.1
+2020,Vienna,Elektro,0.06
+2020,Vienna,Bewegungsmelder,0.0
+2020,Vienna,Smart Home,0.0
+2020,Vienna,Balkon,0.04
+2020,Vienna,Garten,0.16
+2020,Vienna,Bad,0.58
+2020,Vorarlberg,Energieausweis,0.0
+2020,Vorarlberg,Dachdecker,0.01
+2020,Vorarlberg,Solar,0.04
+2020,Vorarlberg,Fenster,0.08
+2020,Vorarlberg,Elektro,0.1
+2020,Vorarlberg,Bewegungsmelder,0.01
+2020,Vorarlberg,Smart Home,0.01
+2020,Vorarlberg,Balkon,0.03
+2020,Vorarlberg,Garten,0.23
+2020,Vorarlberg,Bad,0.48

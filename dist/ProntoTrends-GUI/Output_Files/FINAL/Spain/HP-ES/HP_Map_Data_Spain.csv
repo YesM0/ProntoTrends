@@ -1,0 +1,894 @@
+ticket_taxonomy_tag_name,ticket_geo_region_name,Score
+Alquiler de coches,Andalucía,7.828473508004315
+Alquiler de coches,Aragón,3.6145791311963205
+Alquiler de coches,Asturias,3.6554195930779807
+Alquiler de coches,Cantabria,3.8488299526602314
+Alquiler de coches,Castilla y León,4.226341322134529
+Alquiler de coches,Castilla-La Mancha,4.325175584678878
+Alquiler de coches,Cataluña,10.0
+Alquiler de coches,Ceuta,1.0151156255710594
+Alquiler de coches,Extremadura,3.308913529933006
+Alquiler de coches,Galicia,4.901975995669428
+Alquiler de coches,Illes Balears,5.787777858228946
+Alquiler de coches,Islas Canarias,6.335322775841201
+Alquiler de coches,La Rioja,0.9548289665587468
+Alquiler de coches,Madrid,8.11723574376532
+Alquiler de coches,Melilla,2.0264040740472566
+Alquiler de coches,Murcia,4.518620423334056
+Alquiler de coches,Navarra,1.9832362747430443
+Alquiler de coches,País Vasco,3.5578696760001502
+Alquiler de coches,Valencia,5.985911850802155
+Alquiler de coches a largo plazo,Andalucía,7.511118536463118
+Alquiler de coches a largo plazo,Aragón,2.0730014200985716
+Alquiler de coches a largo plazo,Asturias,2.43949544733105
+Alquiler de coches a largo plazo,Cantabria,2.4797510650739283
+Alquiler de coches a largo plazo,Castilla y León,3.1915295296967674
+Alquiler de coches a largo plazo,Castilla-La Mancha,2.9844791579650827
+Alquiler de coches a largo plazo,Cataluña,9.949043521844459
+Alquiler de coches a largo plazo,Ceuta,0.5939687578314259
+Alquiler de coches a largo plazo,Extremadura,2.185013783309665
+Alquiler de coches a largo plazo,Galicia,3.596357864840031
+Alquiler de coches a largo plazo,Illes Balears,4.017208253278757
+Alquiler de coches a largo plazo,Islas Canarias,3.7523181020800274
+Alquiler de coches a largo plazo,La Rioja,0.5654832511903768
+Alquiler de coches a largo plazo,Madrid,10.0
+Alquiler de coches a largo plazo,Melilla,1.1572466794753986
+Alquiler de coches a largo plazo,Murcia,3.3645309497953377
+Alquiler de coches a largo plazo,Navarra,1.493709798680144
+Alquiler de coches a largo plazo,País Vasco,3.046913373987135
+Alquiler de coches a largo plazo,Valencia,6.5501294795756415
+Alquiler de coches antiguos,Andalucía,7.764003015454205
+Alquiler de coches antiguos,Aragón,2.8499623068224658
+Alquiler de coches antiguos,Asturias,2.751903505465511
+Alquiler de coches antiguos,Cantabria,2.7973143611006406
+Alquiler de coches antiguos,Castilla y León,3.829966076140219
+Alquiler de coches antiguos,Castilla-La Mancha,3.430484357331323
+Alquiler de coches antiguos,Cataluña,10.0
+Alquiler de coches antiguos,Ceuta,0.6700339238597813
+Alquiler de coches antiguos,Extremadura,3.093252921221259
+Alquiler de coches antiguos,Galicia,4.169411986430457
+Alquiler de coches antiguos,Illes Balears,4.531662269129288
+Alquiler de coches antiguos,Islas Canarias,4.232849604221637
+Alquiler de coches antiguos,La Rioja,0.6379004900113081
+Alquiler de coches antiguos,Madrid,8.394270637014701
+Alquiler de coches antiguos,Melilla,1.3054466641537885
+Alquiler de coches antiguos,Murcia,3.7954014323407472
+Alquiler de coches antiguos,Navarra,1.6849981153411235
+Alquiler de coches antiguos,País Vasco,2.859724839803996
+Alquiler de coches antiguos,Valencia,5.476696192989069
+Alquiler de coches de lujo,Andalucía,7.300149365197909
+Alquiler de coches de lujo,Aragón,2.136594473487677
+Alquiler de coches de lujo,Asturias,2.027184466019417
+Alquiler de coches de lujo,Cantabria,2.097124719940253
+Alquiler de coches de lujo,Castilla y León,2.901456310679611
+Alquiler de coches de lujo,Castilla-La Mancha,2.571807318894698
+Alquiler de coches de lujo,Cataluña,10.0
+Alquiler de coches de lujo,Ceuta,0.49783420463032113
+Alquiler de coches de lujo,Extremadura,2.298282300224048
+Alquiler de coches de lujo,Galicia,3.0758961911874527
+Alquiler de coches de lujo,Illes Balears,3.3670182972367435
+Alquiler de coches de lujo,Islas Canarias,3.0994212098581024
+Alquiler de coches de lujo,La Rioja,0.4595967139656459
+Alquiler de coches de lujo,Madrid,7.8074309185959665
+Alquiler de coches de lujo,Melilla,0.9797423450336072
+Alquiler de coches de lujo,Murcia,2.819977595220313
+Alquiler de coches de lujo,Navarra,1.2519510828976845
+Alquiler de coches de lujo,País Vasco,2.1439133681852125
+Alquiler de coches de lujo,Valencia,4.305041075429425
+Alquiler de limusinas,Andalucía,5.977620623934197
+Alquiler de limusinas,Aragón,0.28697963687431044
+Alquiler de limusinas,Asturias,0.2569365031597954
+Alquiler de limusinas,Cantabria,0.6267429029992978
+Alquiler de limusinas,Castilla y León,0.6107433042431538
+Alquiler de limusinas,Castilla-La Mancha,0.21769485404754746
+Alquiler de limusinas,Cataluña,10.0
+Alquiler de limusinas,Ceuta,0.0
+Alquiler de limusinas,Extremadura,0.3245561239843515
+Alquiler de limusinas,Galicia,0.45822048349884636
+Alquiler de limusinas,Illes Balears,0.18940716220282877
+Alquiler de limusinas,Islas Canarias,0.34266225298425124
+Alquiler de limusinas,La Rioja,0.1877821245862173
+Alquiler de limusinas,Madrid,9.229892667268535
+Alquiler de limusinas,Melilla,0.0
+Alquiler de limusinas,Murcia,0.20455411776507174
+Alquiler de limusinas,Navarra,0.1316882335239242
+Alquiler de limusinas,País Vasco,0.5192897983749625
+Alquiler de limusinas,Valencia,5.469254689537566
+Bordador,Andalucía,9.112504502849534
+Bordador,Aragón,2.714654963324201
+Bordador,Asturias,2.1772120651969558
+Bordador,Cantabria,3.3993464230511456
+Bordador,Castilla y León,4.048151427780034
+Bordador,Castilla-La Mancha,3.910841426502732
+Bordador,Cataluña,10.0
+Bordador,Ceuta,0.0
+Bordador,Extremadura,2.163642521825366
+Bordador,Galicia,3.6982064665942396
+Bordador,Illes Balears,4.222761527653596
+Bordador,Islas Canarias,3.3010802533364147
+Bordador,La Rioja,0.7721220871407231
+Bordador,Madrid,8.905954668683563
+Bordador,Melilla,0.0
+Bordador,Murcia,3.235126962417173
+Bordador,Navarra,1.6984676677463941
+Bordador,País Vasco,2.7529453300247853
+Bordador,Valencia,4.0610607924154065
+Catering para bodas,Andalucía,10.0
+Catering para bodas,Aragón,0.508194523095268
+Catering para bodas,Asturias,0.48350401331603077
+Catering para bodas,Cantabria,0.4533612006591524
+Catering para bodas,Castilla y León,3.238468434823371
+Catering para bodas,Castilla-La Mancha,3.287672143719158
+Catering para bodas,Cataluña,7.741937628758016
+Catering para bodas,Ceuta,0.0
+Catering para bodas,Extremadura,0.5346581395013804
+Catering para bodas,Galicia,0.6572130531677103
+Catering para bodas,Illes Balears,0.7713013826907116
+Catering para bodas,Islas Canarias,1.0711337132953076
+Catering para bodas,La Rioja,0.21237384623397698
+Catering para bodas,Madrid,9.575883976767871
+Catering para bodas,Melilla,0.0
+Catering para bodas,Murcia,0.38803330337521946
+Catering para bodas,Navarra,0.21620818931459457
+Catering para bodas,País Vasco,1.0522279638862508
+Catering para bodas,Valencia,2.3785117207888997
+Catering y banquetes,Andalucía,7.06695652173913
+Catering y banquetes,Aragón,0.8650782608695652
+Catering y banquetes,Asturias,0.6070260869565216
+Catering y banquetes,Cantabria,0.5691826086956522
+Catering y banquetes,Castilla y León,4.2930782608695655
+Catering y banquetes,Castilla-La Mancha,2.7588057971014486
+Catering y banquetes,Cataluña,6.8304347826086955
+Catering y banquetes,Ceuta,0.0
+Catering y banquetes,Extremadura,0.6526028985507247
+Catering y banquetes,Galicia,0.6875942028985507
+Catering y banquetes,Illes Balears,1.008695652173913
+Catering y banquetes,Islas Canarias,1.4408347826086954
+Catering y banquetes,La Rioja,0.2777391304347826
+Catering y banquetes,Madrid,10.0
+Catering y banquetes,Melilla,0.0
+Catering y banquetes,Murcia,0.48716521739130436
+Catering y banquetes,Navarra,0.27144347826086956
+Catering y banquetes,País Vasco,1.3259014492753622
+Catering y banquetes,Valencia,1.974295652173913
+Creación de joyas,Andalucía,6.625971796443899
+Creación de joyas,Aragón,6.766989576946659
+Creación de joyas,Asturias,7.849184549356224
+Creación de joyas,Cantabria,4.398136112814225
+Creación de joyas,Castilla y León,8.468951563458003
+Creación de joyas,Castilla-La Mancha,3.0923850398528514
+Creación de joyas,Cataluña,7.707222562844883
+Creación de joyas,Ceuta,0.0
+Creación de joyas,Extremadura,4.197719190680564
+Creación de joyas,Galicia,8.381900674432865
+Creación de joyas,Illes Balears,4.996811771919069
+Creación de joyas,Islas Canarias,3.8822317596566536
+Creación de joyas,La Rioja,4.260797057020234
+Creación de joyas,Madrid,10.0
+Creación de joyas,Melilla,1.1458001226241572
+Creación de joyas,Murcia,5.923874923359902
+Creación de joyas,Navarra,4.184034334763949
+Creación de joyas,País Vasco,4.80961373390558
+Creación de joyas,Valencia,6.245738810545678
+Dj,Andalucía,8.786263286999182
+Dj,Aragón,8.644570727718724
+Dj,Asturias,6.0849713818479145
+Dj,Cantabria,6.06721995094031
+Dj,Castilla y León,8.537416189697465
+Dj,Castilla-La Mancha,9.429599345870809
+Dj,Cataluña,8.72693376941946
+Dj,Ceuta,1.299215044971382
+Dj,Extremadura,5.146508585445626
+Dj,Galicia,7.953336058871628
+Dj,Illes Balears,8.74108748977923
+Dj,Islas Canarias,6.880261651676205
+Dj,La Rioja,5.070318887980376
+Dj,Madrid,10.0
+Dj,Melilla,1.2757481602616516
+Dj,Murcia,9.662093213409648
+Dj,Navarra,6.835241210139001
+Dj,País Vasco,5.570580539656582
+Dj,Valencia,8.804333605887162
+Dj para bodas,Andalucía,9.044230268299035
+Dj para bodas,Aragón,8.457740731093166
+Dj para bodas,Asturias,5.7726143961100975
+Dj para bodas,Cantabria,5.959312320916904
+Dj para bodas,Castilla y León,8.319770773638966
+Dj para bodas,Castilla-La Mancha,9.330641660154553
+Dj para bodas,Cataluña,8.686532951289397
+Dj para bodas,Ceuta,1.4720847442910479
+Dj para bodas,Extremadura,5.069097855344272
+Dj para bodas,Galicia,7.833706694451681
+Dj para bodas,Illes Balears,8.733237822349567
+Dj para bodas,Islas Canarias,6.736893288182683
+Dj para bodas,La Rioja,4.970044282365198
+Dj para bodas,Madrid,10.0
+Dj para bodas,Melilla,1.1699921854649646
+Dj para bodas,Murcia,9.387045237475034
+Dj para bodas,Navarra,6.677728575149779
+Dj para bodas,País Vasco,5.445966831640183
+Dj para bodas,Valencia,8.757662585742814
+Dj para fiestas,Andalucía,9.044230268299035
+Dj para fiestas,Aragón,8.457740731093166
+Dj para fiestas,Asturias,5.7726143961100975
+Dj para fiestas,Cantabria,5.959312320916904
+Dj para fiestas,Castilla y León,8.319770773638966
+Dj para fiestas,Castilla-La Mancha,9.330641660154553
+Dj para fiestas,Cataluña,8.686532951289397
+Dj para fiestas,Ceuta,1.4720847442910479
+Dj para fiestas,Extremadura,5.069097855344272
+Dj para fiestas,Galicia,7.833706694451681
+Dj para fiestas,Illes Balears,8.733237822349567
+Dj para fiestas,Islas Canarias,6.736893288182683
+Dj para fiestas,La Rioja,4.970044282365198
+Dj para fiestas,Madrid,10.0
+Dj para fiestas,Melilla,1.1699921854649646
+Dj para fiestas,Murcia,9.387045237475034
+Dj para fiestas,Navarra,6.677728575149779
+Dj para fiestas,País Vasco,5.445966831640183
+Dj para fiestas,Valencia,8.757662585742814
+Dj para karaoke,Andalucía,9.044230268299035
+Dj para karaoke,Aragón,8.457740731093166
+Dj para karaoke,Asturias,5.7726143961100975
+Dj para karaoke,Cantabria,5.959312320916904
+Dj para karaoke,Castilla y León,8.319770773638966
+Dj para karaoke,Castilla-La Mancha,9.330641660154553
+Dj para karaoke,Cataluña,8.686532951289397
+Dj para karaoke,Ceuta,1.4720847442910479
+Dj para karaoke,Extremadura,5.069097855344272
+Dj para karaoke,Galicia,7.833706694451681
+Dj para karaoke,Illes Balears,8.733237822349567
+Dj para karaoke,Islas Canarias,6.736893288182683
+Dj para karaoke,La Rioja,4.970044282365198
+Dj para karaoke,Madrid,10.0
+Dj para karaoke,Melilla,1.1699921854649646
+Dj para karaoke,Murcia,9.387045237475034
+Dj para karaoke,Navarra,6.677728575149779
+Dj para karaoke,País Vasco,5.445966831640183
+Dj para karaoke,Valencia,8.757662585742814
+Entrenador personal,Andalucía,5.357235871169372
+Entrenador personal,Aragón,3.3870127615244376
+Entrenador personal,Asturias,2.9400208351419392
+Entrenador personal,Cantabria,1.5455768729924473
+Entrenador personal,Castilla y León,2.6753711259657957
+Entrenador personal,Castilla-La Mancha,2.1402899557253234
+Entrenador personal,Cataluña,6.724021182394306
+Entrenador personal,Ceuta,0.0
+Entrenador personal,Extremadura,1.287238475562115
+Entrenador personal,Galicia,2.265873773765084
+Entrenador personal,Illes Balears,4.778218595364182
+Entrenador personal,Islas Canarias,4.566854761698066
+Entrenador personal,La Rioja,1.2163121798767256
+Entrenador personal,Madrid,10.0
+Entrenador personal,Melilla,0.0
+Entrenador personal,Murcia,3.703481204965709
+Entrenador personal,Navarra,1.2258095320774376
+Entrenador personal,País Vasco,3.4273808490320343
+Entrenador personal,Valencia,5.199670110252627
+Espectáculo de magia,Andalucía,5.778457318335519
+Espectáculo de magia,Aragón,3.20403612587123
+Espectáculo de magia,Asturias,2.1009160858463876
+Espectáculo de magia,Cantabria,2.26226623421434
+Espectáculo de magia,Castilla y León,2.1830791525774624
+Espectáculo de magia,Castilla-La Mancha,3.783943482161341
+Espectáculo de magia,Cataluña,10.0
+Espectáculo de magia,Ceuta,0.379373404181906
+Espectáculo de magia,Extremadura,5.480772548478367
+Espectáculo de magia,Galicia,3.3407050065557935
+Espectáculo de magia,Illes Balears,4.255162687185148
+Espectáculo de magia,Islas Canarias,1.4992064039748811
+Espectáculo de magia,La Rioja,2.662180405079015
+Espectáculo de magia,Madrid,6.026208077427368
+Espectáculo de magia,Melilla,0.7420122834863019
+Espectáculo de magia,Murcia,3.594256780070389
+Espectáculo de magia,Navarra,0.9233209405838105
+Espectáculo de magia,País Vasco,4.432169104961701
+Espectáculo de magia,Valencia,4.435436219032503
+Florista de boda,Andalucía,4.7654576856649395
+Florista de boda,Aragón,5.7590673575129525
+Florista de boda,Asturias,4.330569948186528
+Florista de boda,Cantabria,2.2765620237732396
+Florista de boda,Castilla y León,7.180737580006094
+Florista de boda,Castilla-La Mancha,4.820684750584172
+Florista de boda,Cataluña,5.1653357716143455
+Florista de boda,Ceuta,0.0
+Florista de boda,Extremadura,4.521538148938332
+Florista de boda,Galicia,10.0
+Florista de boda,Illes Balears,3.6489688103220566
+Florista de boda,Islas Canarias,7.942243218530935
+Florista de boda,La Rioja,1.0516001219140505
+Florista de boda,Madrid,5.730996647363609
+Florista de boda,Melilla,0.0
+Florista de boda,Murcia,5.702793863659452
+Florista de boda,Navarra,3.7232754241593007
+Florista de boda,País Vasco,4.980879813065123
+Florista de boda,Valencia,6.130813776287717
+Florista para eventos,Andalucía,10.0
+Florista para eventos,Aragón,4.9571791613722995
+Florista para eventos,Asturias,2.4593392630241424
+Florista para eventos,Cantabria,1.1149936467598474
+Florista para eventos,Castilla y León,7.017153748411689
+Florista para eventos,Castilla-La Mancha,9.010482846251588
+Florista para eventos,Cataluña,4.386467598475223
+Florista para eventos,Ceuta,0.0
+Florista para eventos,Extremadura,7.942153748411692
+Florista para eventos,Galicia,5.69591274883524
+Florista para eventos,Illes Balears,2.583121558661584
+Florista para eventos,Islas Canarias,4.784836933502753
+Florista para eventos,La Rioja,0.249152901313003
+Florista para eventos,Madrid,8.92333756882677
+Florista para eventos,Melilla,0.0
+Florista para eventos,Murcia,3.908831003811944
+Florista para eventos,Navarra,2.2773189326556547
+Florista para eventos,País Vasco,3.3926725963574764
+Florista para eventos,Valencia,6.293773824650572
+Floristería,Andalucía,10.0
+Floristería,Aragón,4.449046641243767
+Floristería,Asturias,2.015840422411264
+Floristería,Cantabria,1.8244059841595774
+Floristería,Castilla y León,6.280473257064632
+Floristería,Castilla-La Mancha,6.893839835728951
+Floristería,Cataluña,4.370949447540823
+Floristería,Ceuta,0.0
+Floristería,Extremadura,4.921619243179817
+Floristería,Galicia,5.230214139043707
+Floristería,Illes Balears,2.7406668622274366
+Floristería,Islas Canarias,5.165297741273101
+Floristería,La Rioja,0.3345849222645938
+Floristería,Madrid,7.733519116065317
+Floristería,Melilla,0.0
+Floristería,Murcia,3.948440402855187
+Floristería,Navarra,1.9376161142074897
+Floristería,País Vasco,2.734232912877677
+Floristería,Valencia,4.518236041850005
+Fotografia 3D,Andalucía,6.807967770814684
+Fotografia 3D,Aragón,5.235207943354765
+Fotografia 3D,Asturias,3.966761617970212
+Fotografia 3D,Cantabria,2.6317245869618295
+Fotografia 3D,Castilla y León,5.599088467485961
+Fotografia 3D,Castilla-La Mancha,5.577797672336616
+Fotografia 3D,Cataluña,5.726654187352488
+Fotografia 3D,Ceuta,0.046536990314967046
+Fotografia 3D,Extremadura,4.721624481158948
+Fotografia 3D,Galicia,7.535273052820052
+Fotografia 3D,Illes Balears,2.7821518678277855
+Fotografia 3D,Islas Canarias,5.633197688613984
+Fotografia 3D,La Rioja,3.4741840970131035
+Fotografia 3D,Madrid,10.0
+Fotografia 3D,Melilla,0.25526979734678934
+Fotografia 3D,Murcia,4.901163831692033
+Fotografia 3D,Navarra,2.5048913485798003
+Fotografia 3D,País Vasco,5.8367542931553675
+Fotografia 3D,Valencia,7.7966550012208025
+Fotografía Boudoir,Andalucía,6.752345215759851
+Fotografía Boudoir,Aragón,5.014829920874461
+Fotografía Boudoir,Asturias,3.728101802757158
+Fotografía Boudoir,Cantabria,2.795660331185252
+Fotografía Boudoir,Castilla y León,5.563422791418551
+Fotografía Boudoir,Castilla-La Mancha,5.597683334692879
+Fotografía Boudoir,Cataluña,5.498906925524105
+Fotografía Boudoir,Ceuta,0.04664328248633657
+Fotografía Boudoir,Extremadura,4.6228240476384705
+Fotografía Boudoir,Galicia,7.1577616445060785
+Fotografía Boudoir,Illes Balears,2.5968757647442695
+Fotografía Boudoir,Islas Canarias,5.277640916877396
+Fotografía Boudoir,La Rioja,3.27253446447508
+Fotografía Boudoir,Madrid,10.0
+Fotografía Boudoir,Melilla,0.2274247491638796
+Fotografía Boudoir,Murcia,5.0742148625499635
+Fotografía Boudoir,Navarra,2.389265029774044
+Fotografía Boudoir,País Vasco,5.638273921200751
+Fotografía Boudoir,Valencia,7.423068765804715
+Fotógrafo de bebés,Andalucía,6.807967770814684
+Fotógrafo de bebés,Aragón,5.235207943354765
+Fotógrafo de bebés,Asturias,3.966761617970212
+Fotógrafo de bebés,Cantabria,2.6317245869618295
+Fotógrafo de bebés,Castilla y León,5.599088467485961
+Fotógrafo de bebés,Castilla-La Mancha,5.577797672336616
+Fotógrafo de bebés,Cataluña,5.726654187352488
+Fotógrafo de bebés,Ceuta,0.046536990314967046
+Fotógrafo de bebés,Extremadura,4.721624481158948
+Fotógrafo de bebés,Galicia,7.535273052820052
+Fotógrafo de bebés,Illes Balears,2.7821518678277855
+Fotógrafo de bebés,Islas Canarias,5.633197688613984
+Fotógrafo de bebés,La Rioja,3.4741840970131035
+Fotógrafo de bebés,Madrid,10.0
+Fotógrafo de bebés,Melilla,0.25526979734678934
+Fotógrafo de bebés,Murcia,4.901163831692033
+Fotógrafo de bebés,Navarra,2.5048913485798003
+Fotógrafo de bebés,País Vasco,5.8367542931553675
+Fotógrafo de bebés,Valencia,7.7966550012208025
+Fotógrafo de moda,Andalucía,6.807967770814684
+Fotógrafo de moda,Aragón,5.235207943354765
+Fotógrafo de moda,Asturias,3.966761617970212
+Fotógrafo de moda,Cantabria,2.6317245869618295
+Fotógrafo de moda,Castilla y León,5.599088467485961
+Fotógrafo de moda,Castilla-La Mancha,5.577797672336616
+Fotógrafo de moda,Cataluña,5.726654187352488
+Fotógrafo de moda,Ceuta,0.046536990314967046
+Fotógrafo de moda,Extremadura,4.721624481158948
+Fotógrafo de moda,Galicia,7.535273052820052
+Fotógrafo de moda,Illes Balears,2.7821518678277855
+Fotógrafo de moda,Islas Canarias,5.633197688613984
+Fotógrafo de moda,La Rioja,3.4741840970131035
+Fotógrafo de moda,Madrid,10.0
+Fotógrafo de moda,Melilla,0.25526979734678934
+Fotógrafo de moda,Murcia,4.901163831692033
+Fotógrafo de moda,Navarra,2.5048913485798003
+Fotógrafo de moda,País Vasco,5.8367542931553675
+Fotógrafo de moda,Valencia,7.7966550012208025
+Fotógrafo para retratos,Andalucía,6.807967770814684
+Fotógrafo para retratos,Aragón,5.235207943354765
+Fotógrafo para retratos,Asturias,3.966761617970212
+Fotógrafo para retratos,Cantabria,2.6317245869618295
+Fotógrafo para retratos,Castilla y León,5.599088467485961
+Fotógrafo para retratos,Castilla-La Mancha,5.577797672336616
+Fotógrafo para retratos,Cataluña,5.726654187352488
+Fotógrafo para retratos,Ceuta,0.046536990314967046
+Fotógrafo para retratos,Extremadura,4.721624481158948
+Fotógrafo para retratos,Galicia,7.535273052820052
+Fotógrafo para retratos,Illes Balears,2.7821518678277855
+Fotógrafo para retratos,Islas Canarias,5.633197688613984
+Fotógrafo para retratos,La Rioja,3.4741840970131035
+Fotógrafo para retratos,Madrid,10.0
+Fotógrafo para retratos,Melilla,0.25526979734678934
+Fotógrafo para retratos,Murcia,4.901163831692033
+Fotógrafo para retratos,Navarra,2.5048913485798003
+Fotógrafo para retratos,País Vasco,5.8367542931553675
+Fotógrafo para retratos,Valencia,7.7966550012208025
+Instalación de aire acondicionado,Andalucía,9.159571341955594
+Instalación de aire acondicionado,Aragón,2.149762497256723
+Instalación de aire acondicionado,Asturias,0.8406332414567829
+Instalación de aire acondicionado,Cantabria,1.2026528889037678
+Instalación de aire acondicionado,Castilla y León,1.1747737493444035
+Instalación de aire acondicionado,Castilla-La Mancha,2.616882223189344
+Instalación de aire acondicionado,Cataluña,9.585662794460625
+Instalación de aire acondicionado,Ceuta,3.030810261903965
+Instalación de aire acondicionado,Extremadura,2.1996808498766924
+Instalación de aire acondicionado,Galicia,0.9797499618730912
+Instalación de aire acondicionado,Illes Balears,2.675393079129144
+Instalación de aire acondicionado,Islas Canarias,1.5940581537648928
+Instalación de aire acondicionado,La Rioja,1.283965496077578
+Instalación de aire acondicionado,Madrid,4.40025442737103
+Instalación de aire acondicionado,Melilla,4.7627390371188705
+Instalación de aire acondicionado,Murcia,5.153716536663207
+Instalación de aire acondicionado,Navarra,0.9134649362629678
+Instalación de aire acondicionado,País Vasco,1.1761314392629045
+Instalación de aire acondicionado,Valencia,10.0
+Manitas,Andalucía,5.69527104959631
+Manitas,Aragón,3.2674307958477504
+Manitas,Asturias,1.7618079584775086
+Manitas,Cantabria,1.8137831603229528
+Manitas,Castilla y León,3.0155853517877738
+Manitas,Castilla-La Mancha,4.057201557093426
+Manitas,Cataluña,8.091782006920416
+Manitas,Ceuta,0.0
+Manitas,Extremadura,2.099963956170704
+Manitas,Galicia,2.6185121107266434
+Manitas,Illes Balears,2.9065311418685127
+Manitas,Islas Canarias,2.7416378316032293
+Manitas,La Rioja,1.2321655132641292
+Manitas,Madrid,10.0
+Manitas,Melilla,0.0
+Manitas,Murcia,3.4471453287197233
+Manitas,Navarra,1.5865772779700116
+Manitas,País Vasco,2.325547866205306
+Manitas,Valencia,5.2919045559400235
+Maquillaje para eventos,Andalucía,0.0
+Maquillaje para eventos,Aragón,0.0
+Maquillaje para eventos,Asturias,0.0
+Maquillaje para eventos,Cantabria,0.0
+Maquillaje para eventos,Castilla y León,0.0
+Maquillaje para eventos,Castilla-La Mancha,0.0
+Maquillaje para eventos,Cataluña,0.0
+Maquillaje para eventos,Ceuta,0.0
+Maquillaje para eventos,Extremadura,0.0
+Maquillaje para eventos,Galicia,0.0
+Maquillaje para eventos,Illes Balears,0.0
+Maquillaje para eventos,Islas Canarias,0.0
+Maquillaje para eventos,La Rioja,0.0
+Maquillaje para eventos,Madrid,10.0
+Maquillaje para eventos,Melilla,0.0
+Maquillaje para eventos,Murcia,0.0
+Maquillaje para eventos,Navarra,0.0
+Maquillaje para eventos,País Vasco,0.0
+Maquillaje para eventos,Valencia,0.0
+Maquillar,Andalucía,6.414395209580838
+Maquillar,Aragón,4.850586826347306
+Maquillar,Asturias,4.502994011976049
+Maquillar,Cantabria,1.9082155688622753
+Maquillar,Castilla y León,5.15585628742515
+Maquillar,Castilla-La Mancha,10.0
+Maquillar,Cataluña,4.786491017964072
+Maquillar,Ceuta,1.2493413173652694
+Maquillar,Extremadura,8.364071856287424
+Maquillar,Galicia,4.725269461077844
+Maquillar,Illes Balears,3.299640718562874
+Maquillar,Islas Canarias,4.160598802395209
+Maquillar,La Rioja,2.8506826347305396
+Maquillar,Madrid,4.0550658682634735
+Maquillar,Melilla,2.1016526946107787
+Maquillar,Murcia,6.366395209580837
+Maquillar,Navarra,3.2843113772455093
+Maquillar,País Vasco,4.325964071856288
+Maquillar,Valencia,4.506562874251497
+Mudanza,Andalucía,2.4977493787717435
+Mudanza,Aragón,1.7693077742279022
+Mudanza,Asturias,1.5691018814341497
+Mudanza,Cantabria,1.1506709265175719
+Mudanza,Castilla y León,2.302066027689031
+Mudanza,Castilla-La Mancha,2.347660631877884
+Mudanza,Cataluña,4.919503017394392
+Mudanza,Ceuta,0.0
+Mudanza,Extremadura,0.8608306709265174
+Mudanza,Galicia,2.7013986510472145
+Mudanza,Illes Balears,1.220262690805822
+Mudanza,Islas Canarias,2.2103514376996807
+Mudanza,La Rioja,1.5117784877529288
+Mudanza,Madrid,10.0
+Mudanza,Melilla,0.0
+Mudanza,Murcia,1.4773730919417822
+Mudanza,Navarra,1.1797870074547392
+Mudanza,País Vasco,2.4295349662761803
+Mudanza,Valencia,2.47035853745119
+Notario,Andalucía,3.518693862275449
+Notario,Aragón,2.346656686626746
+Notario,Asturias,1.8020459081836326
+Notario,Cantabria,1.512244261477046
+Notario,Castilla y León,2.4149700598802397
+Notario,Castilla-La Mancha,2.001503243512974
+Notario,Cataluña,4.922043413173653
+Notario,Ceuta,0.0
+Notario,Extremadura,1.1002994011976048
+Notario,Galicia,3.655127245508982
+Notario,Illes Balears,1.9610903193612772
+Notario,Islas Canarias,2.0534680638722556
+Notario,La Rioja,1.0877120758483034
+Notario,Madrid,10.0
+Notario,Melilla,0.25311252495009984
+Notario,Murcia,1.0830713572854294
+Notario,Navarra,1.32875499001996
+Notario,País Vasco,2.165668662674651
+Notario,Valencia,5.329497255489023
+Nutricionista,Andalucía,5.39607358594179
+Nutricionista,Aragón,4.164332784184514
+Nutricionista,Asturias,3.9008511806699615
+Nutricionista,Cantabria,2.400013728720483
+Nutricionista,Castilla y León,3.9589923119165293
+Nutricionista,Castilla-La Mancha,2.9925041186161443
+Nutricionista,Cataluña,5.8305189456342665
+Nutricionista,Ceuta,0.0
+Nutricionista,Extremadura,1.7122734761120262
+Nutricionista,Galicia,4.432317408017573
+Nutricionista,Illes Balears,3.3838550247116967
+Nutricionista,Islas Canarias,3.6394838001098293
+Nutricionista,La Rioja,1.6361614497528831
+Nutricionista,Madrid,10.0
+Nutricionista,Melilla,0.0
+Nutricionista,Murcia,4.309170785282812
+Nutricionista,Navarra,3.303130148270181
+Nutricionista,País Vasco,7.180354200988469
+Nutricionista,Valencia,5.964579901153211
+Organizador de bodas,Andalucía,10.0
+Organizador de bodas,Aragón,4.017917133258679
+Organizador de bodas,Asturias,3.7936679222233547
+Organizador de bodas,Cantabria,2.1945943194543425
+Organizador de bodas,Castilla y León,5.767484475211241
+Organizador de bodas,Castilla-La Mancha,5.417285961518886
+Organizador de bodas,Cataluña,8.96895042247786
+Organizador de bodas,Ceuta,0.40249414639112296
+Organizador de bodas,Extremadura,5.88901557568971
+Organizador de bodas,Galicia,4.655726356510233
+Organizador de bodas,Illes Balears,5.271627812277311
+Organizador de bodas,Islas Canarias,3.906026672096103
+Organizador de bodas,La Rioja,2.5572228443449054
+Organizador de bodas,Madrid,9.78788557467169
+Organizador de bodas,Melilla,0.6754657436628322
+Organizador de bodas,Murcia,5.392731344803014
+Organizador de bodas,Navarra,1.258546268960603
+Organizador de bodas,País Vasco,4.1848213376768815
+Organizador de bodas,Valencia,7.089687468186911
+Organizador de eventos privados,Andalucía,0.0
+Organizador de eventos privados,Aragón,0.0
+Organizador de eventos privados,Asturias,0.0
+Organizador de eventos privados,Cantabria,0.0
+Organizador de eventos privados,Castilla y León,0.0
+Organizador de eventos privados,Castilla-La Mancha,0.0
+Organizador de eventos privados,Cataluña,0.0
+Organizador de eventos privados,Ceuta,0.0
+Organizador de eventos privados,Extremadura,0.0
+Organizador de eventos privados,Galicia,0.0
+Organizador de eventos privados,Illes Balears,0.0
+Organizador de eventos privados,Islas Canarias,0.0
+Organizador de eventos privados,La Rioja,0.0
+Organizador de eventos privados,Madrid,10.0
+Organizador de eventos privados,Melilla,0.0
+Organizador de eventos privados,Murcia,0.0
+Organizador de eventos privados,Navarra,0.0
+Organizador de eventos privados,País Vasco,0.0
+Organizador de eventos privados,Valencia,0.0
+Organizador de fiestas,Andalucía,5.135186960690316
+Organizador de fiestas,Aragón,0.0
+Organizador de fiestas,Asturias,0.0
+Organizador de fiestas,Cantabria,0.0
+Organizador de fiestas,Castilla y León,1.400296347947355
+Organizador de fiestas,Castilla-La Mancha,0.7034951625555653
+Organizador de fiestas,Cataluña,4.040695546064674
+Organizador de fiestas,Ceuta,0.0
+Organizador de fiestas,Extremadura,0.0
+Organizador de fiestas,Galicia,2.1887910746971144
+Organizador de fiestas,Illes Balears,0.8730410529068247
+Organizador de fiestas,Islas Canarias,0.4385078009239083
+Organizador de fiestas,La Rioja,0.0
+Organizador de fiestas,Madrid,10.0
+Organizador de fiestas,Melilla,0.0
+Organizador de fiestas,Murcia,0.0
+Organizador de fiestas,Navarra,0.0
+Organizador de fiestas,País Vasco,1.2248757953455938
+Organizador de fiestas,Valencia,2.076989453499521
+Organizador de fiestas infantiles,Andalucía,5.135186960690316
+Organizador de fiestas infantiles,Aragón,0.0
+Organizador de fiestas infantiles,Asturias,0.0
+Organizador de fiestas infantiles,Cantabria,0.0
+Organizador de fiestas infantiles,Castilla y León,1.400296347947355
+Organizador de fiestas infantiles,Castilla-La Mancha,0.7034951625555653
+Organizador de fiestas infantiles,Cataluña,4.040695546064674
+Organizador de fiestas infantiles,Ceuta,0.0
+Organizador de fiestas infantiles,Extremadura,0.0
+Organizador de fiestas infantiles,Galicia,2.1887910746971144
+Organizador de fiestas infantiles,Illes Balears,0.8730410529068247
+Organizador de fiestas infantiles,Islas Canarias,0.4385078009239083
+Organizador de fiestas infantiles,La Rioja,0.0
+Organizador de fiestas infantiles,Madrid,10.0
+Organizador de fiestas infantiles,Melilla,0.0
+Organizador de fiestas infantiles,Murcia,0.0
+Organizador de fiestas infantiles,Navarra,0.0
+Organizador de fiestas infantiles,País Vasco,1.2248757953455938
+Organizador de fiestas infantiles,Valencia,2.076989453499521
+Pastelería para eventos,Andalucía,7.161268683064613
+Pastelería para eventos,Aragón,2.0426621160409555
+Pastelería para eventos,Asturias,1.4193362363187005
+Pastelería para eventos,Cantabria,1.7028009885842066
+Pastelería para eventos,Castilla y León,3.3215958573614217
+Pastelería para eventos,Castilla-La Mancha,4.29471578204072
+Pastelería para eventos,Cataluña,9.606402259621042
+Pastelería para eventos,Ceuta,0.0
+Pastelería para eventos,Extremadura,1.4438272331411088
+Pastelería para eventos,Galicia,3.81066258679534
+Pastelería para eventos,Illes Balears,0.8972107802753914
+Pastelería para eventos,Islas Canarias,10.0
+Pastelería para eventos,La Rioja,1.367070730846181
+Pastelería para eventos,Madrid,6.37679180887372
+Pastelería para eventos,Melilla,0.0
+Pastelería para eventos,Murcia,0.9803460044721666
+Pastelería para eventos,Navarra,0.9688595975050018
+Pastelería para eventos,País Vasco,2.4032482052489113
+Pastelería para eventos,Valencia,6.481240437801576
+Peluquera para boda,Andalucía,5.443301628244397
+Peluquera para boda,Aragón,2.7647106238916646
+Peluquera para boda,Asturias,1.3336772529421246
+Peluquera para boda,Cantabria,0.0
+Peluquera para boda,Castilla y León,1.273512816379171
+Peluquera para boda,Castilla-La Mancha,10.0
+Peluquera para boda,Cataluña,2.105078187973561
+Peluquera para boda,Ceuta,0.0
+Peluquera para boda,Extremadura,4.909817830082218
+Peluquera para boda,Galicia,3.5741415444139935
+Peluquera para boda,Illes Balears,1.538255682734161
+Peluquera para boda,Islas Canarias,1.802418184749315
+Peluquera para boda,La Rioja,0.0
+Peluquera para boda,Madrid,3.9837497984846038
+Peluquera para boda,Melilla,0.0
+Peluquera para boda,Murcia,5.575850394970176
+Peluquera para boda,Navarra,0.0
+Peluquera para boda,País Vasco,1.0204739642108656
+Peluquera para boda,Valencia,3.3338868289537316
+Peluquera para eventos,Andalucía,8.604132106771225
+Peluquera para eventos,Aragón,3.994782084150202
+Peluquera para eventos,Asturias,4.422349570200573
+Peluquera para eventos,Cantabria,0.682973910420751
+Peluquera para eventos,Castilla y León,3.789775297843463
+Peluquera para eventos,Castilla-La Mancha,10.0
+Peluquera para eventos,Cataluña,4.0248831247172365
+Peluquera para eventos,Ceuta,0.0
+Peluquera para eventos,Extremadura,7.946222289247472
+Peluquera para eventos,Galicia,4.3332679837128625
+Peluquera para eventos,Illes Balears,4.896727492082641
+Peluquera para eventos,Islas Canarias,5.54860503694767
+Peluquera para eventos,La Rioja,0.9984014477454378
+Peluquera para eventos,Madrid,6.448212939224852
+Peluquera para eventos,Melilla,0.0
+Peluquera para eventos,Murcia,8.959613934549841
+Peluquera para eventos,Navarra,1.5545166641532193
+Peluquera para eventos,País Vasco,2.253355451666415
+Peluquera para eventos,Valencia,4.720554969084602
+Peluquero,Andalucía,10.0
+Peluquero,Aragón,4.480115622619458
+Peluquero,Asturias,4.912187333688132
+Peluquero,Cantabria,0.9845662586482172
+Peluquero,Castilla y León,4.6861075457325025
+Peluquero,Castilla-La Mancha,9.014755449811643
+Peluquero,Cataluña,4.636553131098101
+Peluquero,Ceuta,0.0
+Peluquero,Extremadura,8.670887727097224
+Peluquero,Galicia,3.8668618059251383
+Peluquero,Illes Balears,5.057028665644011
+Peluquero,Islas Canarias,6.2725010174373095
+Peluquero,La Rioja,1.391306389506308
+Peluquero,Madrid,7.292990639576745
+Peluquero,Melilla,0.0
+Peluquero,Murcia,9.935510127414457
+Peluquero,Navarra,2.691017332957664
+Peluquero,País Vasco,2.8178317628275362
+Peluquero,Valencia,5.304239843888594
+Pintor de interiores,Andalucía,9.871823178738685
+Pintor de interiores,Aragón,5.071932413745017
+Pintor de interiores,Asturias,5.373868429921095
+Pintor de interiores,Cantabria,3.696849615934367
+Pintor de interiores,Castilla y León,6.017359940966615
+Pintor de interiores,Castilla-La Mancha,5.078599816392223
+Pintor de interiores,Cataluña,7.562839180505037
+Pintor de interiores,Ceuta,0.17113000127828198
+Pintor de interiores,Extremadura,4.609339593041497
+Pintor de interiores,Galicia,4.599476485421775
+Pintor de interiores,Illes Balears,2.838054745331366
+Pintor de interiores,Islas Canarias,3.467339895180877
+Pintor de interiores,La Rioja,2.9328437125957256
+Pintor de interiores,Madrid,10.0
+Pintor de interiores,Melilla,0.18058638281059347
+Pintor de interiores,Murcia,4.956974190324567
+Pintor de interiores,Navarra,3.4702450815195283
+Pintor de interiores,País Vasco,4.437091095022835
+Pintor de interiores,Valencia,6.341680417882003
+Planificador de bodas,Andalucía,10.0
+Planificador de bodas,Aragón,3.5452927247489168
+Planificador de bodas,Asturias,2.356005552380175
+Planificador de bodas,Cantabria,1.7602269943659667
+Planificador de bodas,Castilla y León,5.457303829509267
+Planificador de bodas,Castilla-La Mancha,4.6555401322772925
+Planificador de bodas,Cataluña,8.18314689311668
+Planificador de bodas,Ceuta,0.3228300808361231
+Planificador de bodas,Extremadura,4.116722462643913
+Planificador de bodas,Galicia,3.9565934514574996
+Planificador de bodas,Illes Balears,4.1090062872540205
+Planificador de bodas,Islas Canarias,3.657124193680084
+Planificador de bodas,La Rioja,2.0510818976075775
+Planificador de bodas,Madrid,8.668865844696658
+Planificador de bodas,Melilla,0.5417734955499306
+Planificador de bodas,Murcia,4.793337143790316
+Planificador de bodas,Navarra,1.009447211562015
+Planificador de bodas,País Vasco,2.6040663019514976
+Planificador de bodas,Valencia,6.704009145096759
+Planificador de bodas LT,Andalucía,10.0
+Planificador de bodas LT,Aragón,3.5452927247489168
+Planificador de bodas LT,Asturias,2.356005552380175
+Planificador de bodas LT,Cantabria,1.7602269943659667
+Planificador de bodas LT,Castilla y León,5.457303829509267
+Planificador de bodas LT,Castilla-La Mancha,4.6555401322772925
+Planificador de bodas LT,Cataluña,8.18314689311668
+Planificador de bodas LT,Ceuta,0.3228300808361231
+Planificador de bodas LT,Extremadura,4.116722462643913
+Planificador de bodas LT,Galicia,3.9565934514574996
+Planificador de bodas LT,Illes Balears,4.1090062872540205
+Planificador de bodas LT,Islas Canarias,3.657124193680084
+Planificador de bodas LT,La Rioja,2.0510818976075775
+Planificador de bodas LT,Madrid,8.668865844696658
+Planificador de bodas LT,Melilla,0.5417734955499306
+Planificador de bodas LT,Murcia,4.793337143790316
+Planificador de bodas LT,Navarra,1.009447211562015
+Planificador de bodas LT,País Vasco,2.6040663019514976
+Planificador de bodas LT,Valencia,6.704009145096759
+Psicólogo,Andalucía,4.021267368082885
+Psicólogo,Aragón,1.2644767488555133
+Psicólogo,Asturias,1.3310256204320936
+Psicólogo,Cantabria,0.33435065456589835
+Psicólogo,Castilla y León,0.5483093727411452
+Psicólogo,Castilla-La Mancha,0.641153321018392
+Psicólogo,Cataluña,8.027234760260221
+Psicólogo,Ceuta,0.0
+Psicólogo,Extremadura,0.27514255883061606
+Psicólogo,Galicia,1.98779214520922
+Psicólogo,Illes Balears,0.22812625491928362
+Psicólogo,Islas Canarias,0.8906111958878804
+Psicólogo,La Rioja,0.0
+Psicólogo,Madrid,10.0
+Psicólogo,Melilla,0.0
+Psicólogo,Murcia,0.28924584370733275
+Psicólogo,Navarra,0.6425186731989398
+Psicólogo,País Vasco,1.9186892619066744
+Psicólogo,Valencia,3.0877600192755605
+Sastre para novias,Andalucía,7.439754854906594
+Sastre para novias,Aragón,3.157705087499077
+Sastre para novias,Asturias,2.5603780550838073
+Sastre para novias,Cantabria,3.9822195968396956
+Sastre para novias,Castilla y León,4.695665657535258
+Sastre para novias,Castilla-La Mancha,4.587609835339289
+Sastre para novias,Cataluña,9.760924462822121
+Sastre para novias,Ceuta,0.0
+Sastre para novias,Extremadura,2.520416451303257
+Sastre para novias,Galicia,4.281097245809644
+Sastre para novias,Illes Balears,4.944517462895962
+Sastre para novias,Islas Canarias,2.9863028871003467
+Sastre para novias,La Rioja,0.9136823451229417
+Sastre para novias,Madrid,10.0
+Sastre para novias,Melilla,0.0
+Sastre para novias,Murcia,3.7525954367569962
+Sastre para novias,Navarra,2.008004134977479
+Sastre para novias,País Vasco,3.3383666838957398
+Sastre para novias,Valencia,4.9664033079819845
+Sesión de fotos de embarazo,Andalucía,6.807967770814684
+Sesión de fotos de embarazo,Aragón,5.235207943354765
+Sesión de fotos de embarazo,Asturias,3.966761617970212
+Sesión de fotos de embarazo,Cantabria,2.6317245869618295
+Sesión de fotos de embarazo,Castilla y León,5.599088467485961
+Sesión de fotos de embarazo,Castilla-La Mancha,5.577797672336616
+Sesión de fotos de embarazo,Cataluña,5.726654187352488
+Sesión de fotos de embarazo,Ceuta,0.046536990314967046
+Sesión de fotos de embarazo,Extremadura,4.721624481158948
+Sesión de fotos de embarazo,Galicia,7.535273052820052
+Sesión de fotos de embarazo,Illes Balears,2.7821518678277855
+Sesión de fotos de embarazo,Islas Canarias,5.633197688613984
+Sesión de fotos de embarazo,La Rioja,3.4741840970131035
+Sesión de fotos de embarazo,Madrid,10.0
+Sesión de fotos de embarazo,Melilla,0.25526979734678934
+Sesión de fotos de embarazo,Murcia,4.901163831692033
+Sesión de fotos de embarazo,Navarra,2.5048913485798003
+Sesión de fotos de embarazo,País Vasco,5.8367542931553675
+Sesión de fotos de embarazo,Valencia,7.7966550012208025
+Tutoría para estudiantes universitarios - Ciencias,Andalucía,10.0
+Tutoría para estudiantes universitarios - Ciencias,Aragón,1.8573799983645434
+Tutoría para estudiantes universitarios - Ciencias,Asturias,0.1914138523182599
+Tutoría para estudiantes universitarios - Ciencias,Cantabria,0.0
+Tutoría para estudiantes universitarios - Ciencias,Castilla y León,4.657780685256359
+Tutoría para estudiantes universitarios - Ciencias,Castilla-La Mancha,1.8466595796876282
+Tutoría para estudiantes universitarios - Ciencias,Cataluña,4.150396598250062
+Tutoría para estudiantes universitarios - Ciencias,Ceuta,0.0
+Tutoría para estudiantes universitarios - Ciencias,Extremadura,1.9870798920598578
+Tutoría para estudiantes universitarios - Ciencias,Galicia,4.275509035898276
+Tutoría para estudiantes universitarios - Ciencias,Illes Balears,0.1635947338294219
+Tutoría para estudiantes universitarios - Ciencias,Islas Canarias,3.6424237468313034
+Tutoría para estudiantes universitarios - Ciencias,La Rioja,0.0
+Tutoría para estudiantes universitarios - Ciencias,Madrid,5.437173930820183
+Tutoría para estudiantes universitarios - Ciencias,Melilla,0.0
+Tutoría para estudiantes universitarios - Ciencias,Murcia,2.100367977757789
+Tutoría para estudiantes universitarios - Ciencias,Navarra,0.5215144329053889
+Tutoría para estudiantes universitarios - Ciencias,País Vasco,1.5807506746258893
+Tutoría para estudiantes universitarios - Ciencias,Valencia,4.306468231253577
+Vestido a medida,Andalucía,7.2728887310185595
+Vestido a medida,Aragón,2.8482017582807915
+Vestido a medida,Asturias,2.364408134268715
+Vestido a medida,Cantabria,3.624260722848771
+Vestido a medida,Castilla y León,4.280960838291449
+Vestido a medida,Castilla-La Mancha,4.162152561939437
+Vestido a medida,Cataluña,9.59108427315514
+Vestido a medida,Ceuta,0.0
+Vestido a medida,Extremadura,2.323896634401918
+Vestido a medida,Galicia,3.922777728443299
+Vestido a medida,Illes Balears,4.504928514341532
+Vestido a medida,Islas Canarias,3.501536275641595
+Vestido a medida,La Rioja,0.8121836426605098
+Vestido a medida,Madrid,10.0
+Vestido a medida,Melilla,0.0
+Vestido a medida,Murcia,3.42117929135956
+Vestido a medida,Navarra,1.833549418346506
+Vestido a medida,País Vasco,2.8957819021401305
+Vestido a medida,Valencia,4.057232927803925
+Video de boda,Andalucía,5.997956120917602
+Video de boda,Aragón,2.8155792181805186
+Video de boda,Asturias,2.7396626884871007
+Video de boda,Cantabria,1.7548274137068538
+Video de boda,Castilla y León,3.6665475594940333
+Video de boda,Castilla-La Mancha,4.231258486386051
+Video de boda,Cataluña,6.875323375973702
+Video de boda,Ceuta,1.1242764239262488
+Video de boda,Extremadura,2.7127492317587363
+Video de boda,Galicia,2.81219181019081
+Video de boda,Illes Balears,2.059779889944973
+Video de boda,Islas Canarias,2.8503823340241556
+Video de boda,La Rioja,1.4168584292146071
+Video de boda,Madrid,10.0
+Video de boda,Melilla,0.4019009504752377
+Video de boda,Murcia,4.007146430358036
+Video de boda,Navarra,1.893804044879583
+Video de boda,País Vasco,2.793003644679483
+Video de boda,Valencia,4.257378689344672

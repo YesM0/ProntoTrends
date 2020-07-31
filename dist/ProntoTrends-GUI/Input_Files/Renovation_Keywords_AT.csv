@@ -1,0 +1,519 @@
+kwd_id,Keyword
+33-1,Fenster- und Türarbeiten
+33-2,Fensterbauer
+33-3,Fenster
+33-4,Fenster Reparatur
+33-5,Rolladen Reparatur
+33-6,Dachfenster
+33-7,Fenster abdichten
+33-8,Fenster austauschen
+33-9,Fenster renovieren
+33-10,Fenster sanieren
+33-11,Fenster service
+33-12,Fensterbau
+33-13,Fensterfirma
+33-14,Fensterglas austauschen
+33-15,Fenstermontage
+33-16,Fensterreparatur
+33-17,Fenstersanierung
+33-18,Fenstertausch
+33-19,Fensterwartung
+33-20,Holzfenster sanieren
+33-21,Jalousien reparatur
+33-22,Kastenfenster sanieren
+33-23,Kellerfenster
+33-24,Kunststofffenster
+33-25,Kunststofffenster reparieren
+33-26,Fensterservice
+33-27,Fensterabdichtung
+33-28,Dachflächenfenster
+33-29,Fensterbeschläge
+33-30,Fenster Abdichten
+33-31,Holzfenster Sanieren
+33-32,Fenster Service
+33-33,Fenster Sanieren
+33-34,Alte Fenster Abdichten
+33-35,Kunststoff Fenster
+33-36,Pvc Fenster
+33-37,Fenster Renovieren
+33-38,Alte Kastenfenster
+33-39,Holzfenster Mit Alu Verkleiden
+33-40,Undichte Fenster
+33-41,Alte Fenster Sanieren
+33-42,Balkontür Reparieren
+33-43,Fenster Abdichten Zugluft
+33-44,Fenster Erneuern
+33-45,Fenster Sanieren Statt Austauschen
+33-46,Fenster Wartung
+33-47,Fensterdichtung Erneuern
+33-48,Fensterglas Reparieren
+33-49,Fensterrenovierung
+33-50,Holzfenster Reparieren
+33-51,Kellerfenster Abdichten
+33-52,Kunststofffenster Einstellen
+33-53,Kunststofffenster Holzoptik
+33-54,Kunststofffenster Reparieren
+33-55,Alte Kastenfenster Sanieren
+33-56,Alu Fenster Reparatur
+33-57,Doppelkastenfenster Sanieren
+33-58,Fenster Holzfenster
+33-59,Fenster Und Türen Firmen
+33-60,Fensterdichtung Einfräsen
+33-61,Fensterherstellung
+33-62,Fensterreperatur
+33-63,Fenstersanierung Altbau
+33-64,Kippmechanismus Fenster Reparieren
+33-65,Kunststoff Fensterprofile
+33-66,Undichte Fenster Reparieren
+33-67,Fenster Reparatur Zürich
+40-1,Gartenarbeiten
+40-2,Gärtnerei und Gartengestaltung
+40-3,Gärtner
+40-4,Gartengestaltung
+40-5,Gärtnerei
+40-6,Garten
+40-7,Rollrasen
+40-8,Schwimmteich
+40-9,Heckenpflanzen
+40-10,Steingarten
+40-11,Terrassengestaltung
+40-12,Gartenplaner
+40-13,Gartencenter
+40-14,Natursteinmauer
+40-15,Gartenideen
+40-16,Baumschnitt
+40-17,Gartenteich
+40-18,Gartenbau
+40-19,Rasen anlegen
+40-20,Badeteich
+40-21,Fertigrasen
+40-22,Gartenwege
+40-23,Garten Sichtschutz
+40-24,Terrassen Ideen
+40-25,Landschaftsgärtner
+40-26,Rasenpflege
+40-27,Landschaftsarchitektur
+40-28,Baumpflege
+40-29,Terrassenbau
+40-30,Teichbau
+40-31,Gartenanlage
+40-32,Garten Terrasse
+40-33,Vorgartengestaltung
+40-34,Dachgarten
+40-35,Gartenbau und Landschaftsarchitektur
+40-36,Landschaft
+40-37,Pflanzen
+40-38,Baumschule
+40-39,Japanischer Garten
+40-40,Gartenarbeit
+40-41,Vorgarten
+40-42,Naturgarten
+40-43,Baumfällung
+40-44,Moderner Garten
+40-45,Gartenarchitekt
+40-46,Gartenpflege
+40-47,moderne Gartengestaltung
+40-48,Traumgarten
+40-49,Zaunbau
+40-50,Gartendesign
+40-51,Gartenpflege und Gartenservice
+40-52,Gartenservice
+40-53,Hortensien schneiden
+40-54,Thuja schneiden
+40-55,Rasen vertikutieren
+40-56,Rasen düngen
+40-57,Rasen mähen
+40-58,Grünschnitt
+40-59,Rasen lüften
+40-60,Unkrautbekämpfung
+40-61,Rasen erneuern
+40-62,Rasenpflege im Frühjahr
+40-63,Rasenpflege Frühjahr
+40-64,Säcke für Grünschnitt
+40-65,Rasen neu anlegen
+40-66,Sträucher schneiden
+40-67,Wurzelstockfräse
+40-68,Rasen nachsäen
+40-69,Erde entsorgen
+40-70,Rasen mulchen
+40-71,Rasen belüften
+40-72,Unkraut entfernen
+40-73,Grünschnitt entsorgen
+40-74,Rasen pflegen
+101-1,Dachdeckung
+101-2,Dachdecker und Spenglerei
+101-3,Dachdecker
+101-4,Dachdeckerei
+101-5,Spenglerei
+101-6,Aluminiumdach
+101-7,Aufbau Blechdach
+101-8,Bauspengler
+101-9,Bedachungen
+101-10,Blechdach
+101-11,Blechdach Aufbau
+101-12,Blechdacheindeckung
+101-13,Dach abdichten
+101-14,Dach isolieren
+101-15,Dach renovieren
+101-16,Dachabdichtung
+101-17,Dacharbeiten
+101-18,Dachdämmung
+101-19,Dachdecken
+101-20,Dachdecker Spengler
+101-21,Dacheindeckung Blech
+101-22,Dachreparatur
+101-23,Dachsanierung
+101-24,Dachspengler
+101-25,Flachdach
+101-26,Flachdach Blechdach
+101-27,Flachdach Dachterrasse
+101-28,Spengler
+101-29,Spengler Firmen
+101-30,Spengler Dachdecker
+130-1,Kleine Renovierungsarbeiten in Innenräumen
+130-2,Renovierung und Sanierung
+130-3,Renovierung
+130-4,Trockenbau
+130-5,Sanierung
+130-6,Maler
+130-7,Altbausanierung
+130-8,tapezieren
+130-9,streichen
+130-10,Umbau
+130-11,Badezimmer
+130-12,Bad
+130-13,Haus
+130-14,Malerarbeiten
+130-15,altes Haus
+130-16,Wohnung
+130-17,Türen
+130-18,Bauernhaus
+130-19,Modernisierung
+130-20,Renovierungsarbeiten
+130-21,Hausrenovierung
+130-22,Wohnungsrenovierung
+130-23,Fliesen
+130-24,Treppenhaus
+130-25,Wohnzimmer
+130-26,Renovierung Altbau
+130-27,Altbaurenovierung
+130-28,Einfamilienhaus
+130-29,Komplettrenovierung Wohnung
+130-30,Altbau
+130-31,Renovierungsarbeiten Wohnung
+130-32,Zimmermann
+130-33,Carport
+130-34,Fertighaus
+130-35,Terrassenüberdachung
+130-36,Holzhaus
+130-37,Holzbau
+130-38,Zimmerei
+130-39,Dach
+130-40,Vordach
+130-41,Dachgaube
+130-42,Zimmerer
+130-43,Wärmedämmung
+130-44,Gerüstbau
+130-45,Dachausbau
+130-46,Dachstuhl
+130-47,Innenausbau
+130-48,Holzbalkon
+130-49,Fachwerk
+130-50,Holzarbeiten
+130-51,Massivholzhaus
+130-52,Dachkonstruktion
+130-53,Fassadenbau
+130-54,Holzrahmenbau
+130-55,Dachbau
+130-56,Holzbauer
+130-57,Anbau
+130-58,Zimmermeister
+142-1,Diebstahlwarn- und Alarmanlagen
+142-2,Alarmanlage
+142-3,Videoüberwachung
+142-4,Sicherheitsschloss
+142-5,Brandmeldeanlage
+142-6,Einbruchschutz
+142-7,Einbruch
+142-8,Sicherheitstechnik
+142-9,Alarmsirene
+142-10,Funk Alarmanlage
+142-11,Überwachungssystem
+142-12,Funk Bewegungsmelder
+142-13,Hausalarmanlage
+142-14,Sicherheitssystem
+142-15,Alarmanlage Wohnung
+142-16,Außensirene
+142-17,Alarmanlage Fahrrad
+142-18,Funküberwachung
+142-19,Glasbruchmelder
+142-20,Alarmanlage Motorrad
+142-21,Alarmanlage Auto
+142-22,Hausüberwachung
+142-23,Videoüberwachungssystem
+142-24,Alarmsystem
+142-25,Sicherheitsausrüstung
+142-26,Überwachungstechnik
+142-27,Videoüberwachungssoftware
+142-28,Bewegungsmelder
+163-1,Elektroniker
+163-2,Elektriker
+163-3,Elektro
+163-4,Elektroinstallation
+163-5,Elektrotechnik
+163-6,Elektroinstallateur
+163-7,Elektriker Notdienst
+163-8,Elektro Notdienst
+163-9,Elektrofirma
+163-10,Hausinstallation
+163-11,Elektroinstallation Haus
+163-12,Elektromonteur
+163-13,Elektromeister
+163-14,Elektromechaniker
+163-15,Hauselektrik
+163-16,Elektroarbeiten
+163-17,Elektriker Firma
+163-18,Elektroinstallation Einfamilienhaus
+163-19,Elektroanlagen
+163-20,Elektroinstallation Neubau
+163-21,Elektrobetrieb
+163-22,Elektrofachbetrieb
+163-23,elektrische Hausinstallation
+163-24,elektrische Installation
+163-25,Elektroinstallation Altbau
+163-26,Elektroservice
+163-27,moderne Elektroinstallation
+163-28,Elektrikermeister
+163-29,Elektriker Montage
+163-30,Elektroinstallation Kabel
+163-31,Elektriker Installation
+163-32,Bauelektriker
+163-33,Elektrikerfirma
+163-34,Planung Elektroinstallation
+163-35,Elektroinstallation Bad
+163-36,Elektroinstallation Küche
+163-37,Elektrofirmen
+163-38,Elektroinstallationen
+163-39,Montage Elektriker
+163-40,Elektro Installateur
+163-41,Steckdose Montieren
+163-42,Elektronik Reparaturen
+163-43,Elektrotechnik Firmen
+163-44,Elektronik Firmen
+163-45,Elektroinstallationsplan
+163-46,Elektriker Firmen
+163-47,Symbole Elektrotechnik
+163-48,Schaltzeichen Elektrotechnik
+163-49,Elektro Reparatur
+163-50,Elektroplanung
+163-51,Elektroplanung Haus
+163-52,Stromlaufplan
+163-53,Elektroplan
+163-54,Elektro Symbole
+163-55,Elektroplan Zeichnen
+163-56,Schaltschrankbau
+163-57,Elektrokonstrukteur
+163-58,Elektroplan Haus
+163-59,Elektroschaltplan
+168-1,Energiezertifizierer
+168-2,Energieausweis
+168-3,Energieberatung
+168-4,Heizwärmebedarf
+168-5,HWB Klassen
+168-6,HWB Energieklasse
+168-7,Energieausweis erstellen
+168-8,HWB Berechnung
+168-9,Energieausweis Haus
+168-10,Energieausweis Pflicht
+168-11,Energieausweis Werte
+168-12,Energieausweis Wohnung
+168-13,Baumeister stellen Energieausweis aus
+168-14,Elektrotechniker stellen Energieausweis aus
+168-15,Gas- und Sanitärtechnik stellen Energieausweis aus
+168-16,Heizungstechnik stellen Energieausweis aus
+168-17,Kälte- und Klimatechnik stellen Energieausweis aus
+168-18,Lüftungstechnik stellen Energieausweis aus
+168-19,Zimmermeister stellen Energieausweis aus
+168-20,Ingenieurbüro stellen Energieausweis aus
+168-21,Baumeister erstellt Energieausweis
+168-22,Baumeister erstellt Heizwärmebedarf
+168-23,Baumeister erstellt HWB
+168-24,Elektrotechnik erstellt Energieausweis
+168-25,Elektrotechnik erstellt Heizwärmebedarf
+168-26,Elektrotechnik erstellt HWB
+168-27,Gas- und Sanitärtechnik erstellt Energieausweis
+168-28,Gas- und Sanitärtechnik erstellt Heizwärmebedarf
+168-29,Gas- und Sanitärtechnik erstellt HWB
+168-30,Heizungstechnik erstellt Energieausweis
+168-31,Heizungstechnik erstellt Heizwärmebedarf
+168-32,Heizungstechnik erstellt HWB
+168-33,Kälte- und Klimatechnik erstellt Energieausweis
+168-34,Kälte- und Klimatechnik erstellt Heizwärmebedarf
+168-35,Kälte- und Klimatechnik erstellt HWB
+168-36,Lüftungstechnik erstellt Energieausweis
+168-37,Lüftungstechnik erstellt Heizwärmebedarf
+168-38,Lüftungstechnik erstellt HWB
+168-39,Zimmermeister erstellt Energieausweis
+178-1,Reparatur und Montage von Rollläden
+178-2,"Fliegengitter, Jalousien und Markisen"
+178-3,Fliegengitter
+178-4,Jalousien
+178-5,Markise
+178-6,Sonnensegel
+178-7,Plissee
+178-8,Raffstore
+178-9,Rolladen
+178-10,Sonnenschutz
+178-11,Rollo
+178-12,Außenjalousie
+178-13,Insektenschutz
+178-14,Schalosien
+178-15,Insektenschutzgitter
+178-16,Lichtschachtabdeckung
+178-17,Insektengitter
+178-18,Fliegenvorhang
+178-19,Mückenschutz
+178-20,Lichtschachtgitter
+178-21,Pollenschutzgitter
+178-22,Spannrahmen
+178-23,Senkrechtmarkise
+178-24,Innenjalousien
+178-25,Vertikaljalousien
+178-26,Holzjalousien
+178-27,Kassettenmarkise
+178-28,Vorbaurolladen
+178-29,elektrische Markise
+178-30,Tür
+178-31,Schiebetür
+178-32,Balkon
+178-33,Terrasse
+178-34,Haustür
+178-35,Rollladen Reparatur
+178-36,Rollladen reparieren
+178-37,Rollladen Ersatzteile
+178-38,Rollo reparieren
+178-39,Rollladenreparatur
+178-40,Rollo Ersatzteile
+178-41,Ersatzteile Rollladen
+178-42,Rollo Schnur wechseln
+178-43,Fenster Rollos außen Ersatzteile
+178-44,Velux Rollo Ersatzteile
+178-45,Rollladen Ersatzteile Lamellen
+178-46,Rollo Zubehör Ersatzteile
+178-47,Rollo Ersatzteile Kettenzug
+178-48,Rollo Teile
+178-49,Fenster Rolladen Ersatzteile
+178-50,Fenster Rolladen reparieren
+178-51,Ersatzteile für Rollos
+178-52,Rolladen reparieren Lamellen
+178-53,Plissee Rollo reparieren
+178-54,Rollo Kettenzug Ersatzteile
+178-55,Ersatzteile für Fenster Rollos
+178-56,Fenster Rollo Ersatzteile
+178-57,Rollo Halterung Ersatzteile
+178-58,Ersatzteile Rolladen Lamellen
+178-59,Rollo-Schnur reparieren
+178-60,Ersatzteile für Rollladen Lamellen
+178-61,Reparatur Rollladen
+178-62,Rolladen nachrüsten
+178-63,Rollläden und Außenrollos
+178-64,Rollladen
+178-65,Rollos
+178-66,Aussenrollos
+178-67,Raffrollo
+178-68,Verdunkelungsrollo
+178-69,Insektenschutzrollo
+178-70,Rollos innen
+178-71,Rollo Fenster
+178-72,Rollläden
+178-73,Plissee Rollo
+178-74,Rollos aussen
+178-75,Fliegengitter Rollo
+178-76,Fenster Rollo
+178-77,Fensterrollo
+178-78,Vorbaurollladen
+178-79,Rollladenkasten
+178-80,Außenrollladen
+178-81,Aussenrollo
+178-82,Dachfenster Rollo
+178-83,Sonnenschutzrollo
+178-84,Rolladen außen
+178-85,elektrische Rolläden
+178-86,Fenster Rollladen
+178-87,Rolläden Preise
+178-88,Fenster Rollos innen
+178-89,Fenster mit Rollladen
+178-90,Solar-Rollladen
+178-91,Fenster Rollos
+178-92,Fenster Rollos außen
+211-1,Montage und Service von Solarzellen
+211-2,Installation von Solaranlagen
+211-3,Photovoltaik
+211-4,Photovoltaikanlage
+211-5,Solaranlage
+211-6,Alternative Energien
+211-7,Batteriespeicher
+211-8,Brennwert
+211-9,Erdwärmeheizung
+211-10,Erneuerbare Energien
+211-11,Kollektor
+211-12,Laderegler
+211-13,Photovoltaik Inselanlage
+211-14,Photovoltaik Module
+211-15,Photovoltaik Panel
+211-16,Photovoltaik Set
+211-17,Photovoltaik Speicher
+211-18,Poolheizung Solar
+211-19,PV Anlage
+211-20,PV Module
+211-21,Röhrenkollektoren
+211-22,Solar
+211-23,Solar Carport
+211-24,Solaranlage Set
+211-25,Solarenergie
+211-26,Solarheizung
+211-27,Solarkollektor
+211-28,Solarmodul
+211-29,Solarpanel
+211-30,Solarregler
+211-31,Solarspeicher
+211-32,Solarsteuerung
+211-33,Solarstrom
+211-34,Solarzelle
+211-35,Sonnenenergie
+211-36,Sonnenkollektoren
+211-37,Sonnenkraft
+211-38,Stromerzeugung
+211-39,Thermische Solaranlage
+211-40,Vakuumröhrenkollektor
+211-41,Wechselrichter
+596-1,Heimautomatisierung
+596-2,Smart Home und Energie Smart Home
+596-3,Smart Home
+596-4,Energie Smart Home
+596-5,Hausautomatisierung
+596-6,Smart Automation
+596-7,Smart Haus
+596-8,Smart Elektro
+596-9,Smart Home Systems
+596-10,Smart Home Lösungen
+596-11,Home Automation
+596-12,Haussteuerung
+596-13,Smart Home Geräte
+596-14,Smarthome Systeme
+596-15,Hausautomation
+596-16,Smart Home Systeme
+596-17,Smart Home Nachrüsten
+596-18,Smart Home Steckdose
+596-19,Smart Home Steuerung
+596-20,Smart Home Alarmanlage
+596-21,Home Steuerung
+596-22,Smart Heizung
+596-23,Home Automatisierung
+596-24,Intelligentes Haus
+596-25,Smart Home Controller
+596-26,Smart Home Funk
+596-27,Smart Home Planung
+596-28,Smart Home Sicherheit
+596-29,Smart Home Technology
+596-30,Smarthome Rolladensteuerung

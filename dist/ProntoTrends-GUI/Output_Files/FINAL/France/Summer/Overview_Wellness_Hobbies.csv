@@ -1,0 +1,211 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Auvergne-Rhône-Alpes,Cours d'anglais,0.16
+2018,Auvergne-Rhône-Alpes,Cours de yoga,0.12
+2018,Auvergne-Rhône-Alpes,Cours de jardinage,0.3
+2018,Auvergne-Rhône-Alpes,Coach sportif,0.23
+2018,Auvergne-Rhône-Alpes,Cours de cuisine,0.18
+2018,Bourgogne-Franche-Comté,Cours d'anglais,0.18
+2018,Bourgogne-Franche-Comté,Cours de yoga,0.12
+2018,Bourgogne-Franche-Comté,Cours de jardinage,0.29
+2018,Bourgogne-Franche-Comté,Coach sportif,0.24
+2018,Bourgogne-Franche-Comté,Cours de cuisine,0.17
+2018,Bretagne,Cours d'anglais,0.19
+2018,Bretagne,Cours de yoga,0.16
+2018,Bretagne,Cours de jardinage,0.23
+2018,Bretagne,Coach sportif,0.21
+2018,Bretagne,Cours de cuisine,0.21
+2018,Centre-Val de Loire,Cours d'anglais,0.19
+2018,Centre-Val de Loire,Cours de yoga,0.14
+2018,Centre-Val de Loire,Cours de jardinage,0.27
+2018,Centre-Val de Loire,Coach sportif,0.22
+2018,Centre-Val de Loire,Cours de cuisine,0.19
+2018,Corse,Cours d'anglais,0.17
+2018,Corse,Cours de yoga,0.17
+2018,Corse,Cours de jardinage,0.25
+2018,Corse,Coach sportif,0.32
+2018,Corse,Cours de cuisine,0.09
+2018,France,Cours d'anglais,0.18
+2018,France,Cours de yoga,0.14
+2018,France,Cours de jardinage,0.22
+2018,France,Coach sportif,0.28
+2018,France,Cours de cuisine,0.18
+2018,Grand-Est,Cours d'anglais,0.2
+2018,Grand-Est,Cours de yoga,0.15
+2018,Grand-Est,Cours de jardinage,0.22
+2018,Grand-Est,Coach sportif,0.27
+2018,Grand-Est,Cours de cuisine,0.16
+2018,Hauts-de-France,Cours d'anglais,0.23
+2018,Hauts-de-France,Cours de yoga,0.15
+2018,Hauts-de-France,Cours de jardinage,0.2
+2018,Hauts-de-France,Coach sportif,0.25
+2018,Hauts-de-France,Cours de cuisine,0.17
+2018,Normandie,Cours d'anglais,0.21
+2018,Normandie,Cours de yoga,0.12
+2018,Normandie,Cours de jardinage,0.26
+2018,Normandie,Coach sportif,0.23
+2018,Normandie,Cours de cuisine,0.18
+2018,Nouvelle-Aquitaine,Cours d'anglais,0.17
+2018,Nouvelle-Aquitaine,Cours de yoga,0.15
+2018,Nouvelle-Aquitaine,Cours de jardinage,0.3
+2018,Nouvelle-Aquitaine,Coach sportif,0.23
+2018,Nouvelle-Aquitaine,Cours de cuisine,0.16
+2018,Occitanie,Cours d'anglais,0.19
+2018,Occitanie,Cours de yoga,0.17
+2018,Occitanie,Cours de jardinage,0.25
+2018,Occitanie,Coach sportif,0.24
+2018,Occitanie,Cours de cuisine,0.15
+2018,Pays de la Loire,Cours d'anglais,0.16
+2018,Pays de la Loire,Cours de yoga,0.14
+2018,Pays de la Loire,Cours de jardinage,0.29
+2018,Pays de la Loire,Coach sportif,0.24
+2018,Pays de la Loire,Cours de cuisine,0.17
+2018,Provence-Alpes-Côte d'Azur,Cours d'anglais,0.21
+2018,Provence-Alpes-Côte d'Azur,Cours de yoga,0.18
+2018,Provence-Alpes-Côte d'Azur,Cours de jardinage,0.16
+2018,Provence-Alpes-Côte d'Azur,Coach sportif,0.3
+2018,Provence-Alpes-Côte d'Azur,Cours de cuisine,0.16
+2018,Île-de-France,Cours d'anglais,0.2
+2018,Île-de-France,Cours de yoga,0.16
+2018,Île-de-France,Cours de jardinage,0.08
+2018,Île-de-France,Coach sportif,0.33
+2018,Île-de-France,Cours de cuisine,0.23
+2019,Auvergne-Rhône-Alpes,Cours d'anglais,0.15
+2019,Auvergne-Rhône-Alpes,Cours de yoga,0.15
+2019,Auvergne-Rhône-Alpes,Cours de jardinage,0.31
+2019,Auvergne-Rhône-Alpes,Coach sportif,0.23
+2019,Auvergne-Rhône-Alpes,Cours de cuisine,0.17
+2019,Bourgogne-Franche-Comté,Cours d'anglais,0.17
+2019,Bourgogne-Franche-Comté,Cours de yoga,0.11
+2019,Bourgogne-Franche-Comté,Cours de jardinage,0.34
+2019,Bourgogne-Franche-Comté,Coach sportif,0.23
+2019,Bourgogne-Franche-Comté,Cours de cuisine,0.15
+2019,Bretagne,Cours d'anglais,0.18
+2019,Bretagne,Cours de yoga,0.15
+2019,Bretagne,Cours de jardinage,0.26
+2019,Bretagne,Coach sportif,0.22
+2019,Bretagne,Cours de cuisine,0.2
+2019,Centre-Val de Loire,Cours d'anglais,0.17
+2019,Centre-Val de Loire,Cours de yoga,0.15
+2019,Centre-Val de Loire,Cours de jardinage,0.26
+2019,Centre-Val de Loire,Coach sportif,0.23
+2019,Centre-Val de Loire,Cours de cuisine,0.19
+2019,Corse,Cours d'anglais,0.2
+2019,Corse,Cours de yoga,0.15
+2019,Corse,Cours de jardinage,0.21
+2019,Corse,Coach sportif,0.34
+2019,Corse,Cours de cuisine,0.1
+2019,France,Cours d'anglais,0.16
+2019,France,Cours de yoga,0.14
+2019,France,Cours de jardinage,0.24
+2019,France,Coach sportif,0.28
+2019,France,Cours de cuisine,0.18
+2019,Grand-Est,Cours d'anglais,0.19
+2019,Grand-Est,Cours de yoga,0.15
+2019,Grand-Est,Cours de jardinage,0.22
+2019,Grand-Est,Coach sportif,0.24
+2019,Grand-Est,Cours de cuisine,0.21
+2019,Hauts-de-France,Cours d'anglais,0.19
+2019,Hauts-de-France,Cours de yoga,0.15
+2019,Hauts-de-France,Cours de jardinage,0.22
+2019,Hauts-de-France,Coach sportif,0.26
+2019,Hauts-de-France,Cours de cuisine,0.18
+2019,Normandie,Cours d'anglais,0.19
+2019,Normandie,Cours de yoga,0.13
+2019,Normandie,Cours de jardinage,0.27
+2019,Normandie,Coach sportif,0.24
+2019,Normandie,Cours de cuisine,0.17
+2019,Nouvelle-Aquitaine,Cours d'anglais,0.13
+2019,Nouvelle-Aquitaine,Cours de yoga,0.15
+2019,Nouvelle-Aquitaine,Cours de jardinage,0.3
+2019,Nouvelle-Aquitaine,Coach sportif,0.24
+2019,Nouvelle-Aquitaine,Cours de cuisine,0.17
+2019,Occitanie,Cours d'anglais,0.16
+2019,Occitanie,Cours de yoga,0.16
+2019,Occitanie,Cours de jardinage,0.27
+2019,Occitanie,Coach sportif,0.24
+2019,Occitanie,Cours de cuisine,0.17
+2019,Pays de la Loire,Cours d'anglais,0.15
+2019,Pays de la Loire,Cours de yoga,0.13
+2019,Pays de la Loire,Cours de jardinage,0.32
+2019,Pays de la Loire,Coach sportif,0.22
+2019,Pays de la Loire,Cours de cuisine,0.18
+2019,Provence-Alpes-Côte d'Azur,Cours d'anglais,0.18
+2019,Provence-Alpes-Côte d'Azur,Cours de yoga,0.2
+2019,Provence-Alpes-Côte d'Azur,Cours de jardinage,0.14
+2019,Provence-Alpes-Côte d'Azur,Coach sportif,0.29
+2019,Provence-Alpes-Côte d'Azur,Cours de cuisine,0.2
+2019,Île-de-France,Cours d'anglais,0.18
+2019,Île-de-France,Cours de yoga,0.17
+2019,Île-de-France,Cours de jardinage,0.08
+2019,Île-de-France,Coach sportif,0.32
+2019,Île-de-France,Cours de cuisine,0.25
+2020,Auvergne-Rhône-Alpes,Cours d'anglais,0.13
+2020,Auvergne-Rhône-Alpes,Cours de yoga,0.12
+2020,Auvergne-Rhône-Alpes,Cours de jardinage,0.47
+2020,Auvergne-Rhône-Alpes,Coach sportif,0.19
+2020,Auvergne-Rhône-Alpes,Cours de cuisine,0.1
+2020,Bourgogne-Franche-Comté,Cours d'anglais,0.13
+2020,Bourgogne-Franche-Comté,Cours de yoga,0.12
+2020,Bourgogne-Franche-Comté,Cours de jardinage,0.43
+2020,Bourgogne-Franche-Comté,Coach sportif,0.21
+2020,Bourgogne-Franche-Comté,Cours de cuisine,0.11
+2020,Bretagne,Cours d'anglais,0.14
+2020,Bretagne,Cours de yoga,0.15
+2020,Bretagne,Cours de jardinage,0.36
+2020,Bretagne,Coach sportif,0.24
+2020,Bretagne,Cours de cuisine,0.11
+2020,Centre-Val de Loire,Cours d'anglais,0.11
+2020,Centre-Val de Loire,Cours de yoga,0.13
+2020,Centre-Val de Loire,Cours de jardinage,0.43
+2020,Centre-Val de Loire,Coach sportif,0.19
+2020,Centre-Val de Loire,Cours de cuisine,0.14
+2020,Corse,Cours d'anglais,0.07
+2020,Corse,Cours de yoga,0.15
+2020,Corse,Cours de jardinage,0.37
+2020,Corse,Coach sportif,0.3
+2020,Corse,Cours de cuisine,0.1
+2020,France,Cours d'anglais,0.14
+2020,France,Cours de yoga,0.12
+2020,France,Cours de jardinage,0.36
+2020,France,Coach sportif,0.27
+2020,France,Cours de cuisine,0.1
+2020,Grand-Est,Cours d'anglais,0.14
+2020,Grand-Est,Cours de yoga,0.13
+2020,Grand-Est,Cours de jardinage,0.34
+2020,Grand-Est,Coach sportif,0.26
+2020,Grand-Est,Cours de cuisine,0.12
+2020,Hauts-de-France,Cours d'anglais,0.18
+2020,Hauts-de-France,Cours de yoga,0.12
+2020,Hauts-de-France,Cours de jardinage,0.31
+2020,Hauts-de-France,Coach sportif,0.28
+2020,Hauts-de-France,Cours de cuisine,0.11
+2020,Normandie,Cours d'anglais,0.17
+2020,Normandie,Cours de yoga,0.13
+2020,Normandie,Cours de jardinage,0.37
+2020,Normandie,Coach sportif,0.22
+2020,Normandie,Cours de cuisine,0.1
+2020,Nouvelle-Aquitaine,Cours d'anglais,0.12
+2020,Nouvelle-Aquitaine,Cours de yoga,0.13
+2020,Nouvelle-Aquitaine,Cours de jardinage,0.41
+2020,Nouvelle-Aquitaine,Coach sportif,0.23
+2020,Nouvelle-Aquitaine,Cours de cuisine,0.12
+2020,Occitanie,Cours d'anglais,0.14
+2020,Occitanie,Cours de yoga,0.15
+2020,Occitanie,Cours de jardinage,0.37
+2020,Occitanie,Coach sportif,0.23
+2020,Occitanie,Cours de cuisine,0.11
+2020,Pays de la Loire,Cours d'anglais,0.13
+2020,Pays de la Loire,Cours de yoga,0.12
+2020,Pays de la Loire,Cours de jardinage,0.44
+2020,Pays de la Loire,Coach sportif,0.2
+2020,Pays de la Loire,Cours de cuisine,0.11
+2020,Provence-Alpes-Côte d'Azur,Cours d'anglais,0.18
+2020,Provence-Alpes-Côte d'Azur,Cours de yoga,0.18
+2020,Provence-Alpes-Côte d'Azur,Cours de jardinage,0.22
+2020,Provence-Alpes-Côte d'Azur,Coach sportif,0.29
+2020,Provence-Alpes-Côte d'Azur,Cours de cuisine,0.13
+2020,Île-de-France,Cours d'anglais,0.2
+2020,Île-de-France,Cours de yoga,0.17
+2020,Île-de-France,Cours de jardinage,0.13
+2020,Île-de-France,Coach sportif,0.35
+2020,Île-de-France,Cours de cuisine,0.16

@@ -1,0 +1,1381 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Andalucía,Maquilladora a Domicilio,NA
+2018,Andalucía,Peluquero,0.01
+2018,Andalucía,fotografía,0.04
+2018,Andalucía,coches deportivos,NA
+2018,Andalucía,bodas,0.11
+2018,Andalucía,ramos de flores,NA
+2018,Andalucía,modista,NA
+2018,Andalucía,Pastelería,0.01
+2018,Andalucía,Registradores,0.01
+2018,Andalucía,Dj,0.05
+2018,Andalucía,peinados para boda,NA
+2018,Andalucía,tarta boda,NA
+2018,Andalucía,Floristería,NA
+2018,Andalucía,limusina,NA
+2018,Andalucía,organización de eventos,NA
+2018,Andalucía,Mago,0.06
+2018,Andalucía,Maquillaje,0.23
+2018,Andalucía,Fotógrafo de bodas,NA
+2018,Andalucía,Joyería,0.08
+2018,Andalucía,Eventos Musicales,NA
+2018,Andalucía,publicidad,0.08
+2018,Andalucía,Maquillaje,0.23
+2018,Andalucía,catering,0.06
+2018,Aragón,Maquilladora a Domicilio,NA
+2018,Aragón,Peluquero,0.01
+2018,Aragón,fotografía,0.07
+2018,Aragón,coches deportivos,NA
+2018,Aragón,bodas,0.13
+2018,Aragón,ramos de flores,0.01
+2018,Aragón,modista,0.01
+2018,Aragón,Pastelería,0.02
+2018,Aragón,Registradores,0.02
+2018,Aragón,Dj,0.09
+2018,Aragón,peinados para boda,NA
+2018,Aragón,tarta boda,NA
+2018,Aragón,Floristería,0.01
+2018,Aragón,limusina,0.01
+2018,Aragón,organización de eventos,NA
+2018,Aragón,Mago,0.07
+2018,Aragón,Maquillaje,0.19
+2018,Aragón,Fotógrafo de bodas,NA
+2018,Aragón,Joyería,0.07
+2018,Aragón,Eventos Musicales,NA
+2018,Aragón,publicidad,0.07
+2018,Aragón,Maquillaje,0.19
+2018,Aragón,catering,0.04
+2018,Asturias,Maquilladora a Domicilio,NA
+2018,Asturias,Peluquero,0.01
+2018,Asturias,fotografía,0.04
+2018,Asturias,coches deportivos,NA
+2018,Asturias,bodas,0.09
+2018,Asturias,ramos de flores,NA
+2018,Asturias,modista,0.01
+2018,Asturias,Pastelería,0.01
+2018,Asturias,Registradores,0.02
+2018,Asturias,Dj,0.05
+2018,Asturias,peinados para boda,NA
+2018,Asturias,tarta boda,NA
+2018,Asturias,Floristería,0.01
+2018,Asturias,limusina,NA
+2018,Asturias,organización de eventos,NA
+2018,Asturias,Mago,0.06
+2018,Asturias,Maquillaje,0.23
+2018,Asturias,Fotógrafo de bodas,NA
+2018,Asturias,Joyería,0.08
+2018,Asturias,Eventos Musicales,NA
+2018,Asturias,publicidad,0.08
+2018,Asturias,Maquillaje,0.27
+2018,Asturias,catering,0.04
+2018,Illes Balears,Maquilladora a Domicilio,NA
+2018,Illes Balears,Peluquero,0.02
+2018,Illes Balears,fotografía,0.06
+2018,Illes Balears,coches deportivos,0.01
+2018,Illes Balears,bodas,0.11
+2018,Illes Balears,ramos de flores,NA
+2018,Illes Balears,modista,0.01
+2018,Illes Balears,Pastelería,0.01
+2018,Illes Balears,Registradores,0.02
+2018,Illes Balears,Dj,0.17
+2018,Illes Balears,peinados para boda,NA
+2018,Illes Balears,tarta boda,NA
+2018,Illes Balears,Floristería,NA
+2018,Illes Balears,limusina,NA
+2018,Illes Balears,organización de eventos,NA
+2018,Illes Balears,Mago,0.07
+2018,Illes Balears,Maquillaje,0.16
+2018,Illes Balears,Fotógrafo de bodas,NA
+2018,Illes Balears,Joyería,0.05
+2018,Illes Balears,Eventos Musicales,NA
+2018,Illes Balears,publicidad,0.06
+2018,Illes Balears,Maquillaje,0.17
+2018,Illes Balears,catering,0.06
+2018,País Vasco,Maquilladora a Domicilio,NA
+2018,País Vasco,Peluquero,0.01
+2018,País Vasco,fotografía,0.06
+2018,País Vasco,coches deportivos,0.01
+2018,País Vasco,bodas,0.11
+2018,País Vasco,ramos de flores,0.01
+2018,País Vasco,modista,0.01
+2018,País Vasco,Pastelería,0.01
+2018,País Vasco,Registradores,0.02
+2018,País Vasco,Dj,0.08
+2018,País Vasco,peinados para boda,NA
+2018,País Vasco,tarta boda,NA
+2018,País Vasco,Floristería,0.01
+2018,País Vasco,limusina,0.01
+2018,País Vasco,organización de eventos,NA
+2018,País Vasco,Mago,0.07
+2018,País Vasco,Maquillaje,0.21
+2018,País Vasco,Fotógrafo de bodas,NA
+2018,País Vasco,Joyería,0.07
+2018,País Vasco,Eventos Musicales,NA
+2018,País Vasco,publicidad,0.08
+2018,País Vasco,Maquillaje,0.21
+2018,País Vasco,catering,0.03
+2018,Islas Canarias,Maquilladora a Domicilio,NA
+2018,Islas Canarias,Peluquero,0.01
+2018,Islas Canarias,fotografía,0.05
+2018,Islas Canarias,coches deportivos,NA
+2018,Islas Canarias,bodas,0.09
+2018,Islas Canarias,ramos de flores,NA
+2018,Islas Canarias,modista,NA
+2018,Islas Canarias,Pastelería,0.01
+2018,Islas Canarias,Registradores,0.01
+2018,Islas Canarias,Dj,0.08
+2018,Islas Canarias,peinados para boda,NA
+2018,Islas Canarias,tarta boda,NA
+2018,Islas Canarias,Floristería,0.01
+2018,Islas Canarias,limusina,NA
+2018,Islas Canarias,organización de eventos,NA
+2018,Islas Canarias,Mago,0.06
+2018,Islas Canarias,Maquillaje,0.23
+2018,Islas Canarias,Fotógrafo de bodas,NA
+2018,Islas Canarias,Joyería,0.06
+2018,Islas Canarias,Eventos Musicales,NA
+2018,Islas Canarias,publicidad,0.09
+2018,Islas Canarias,Maquillaje,0.23
+2018,Islas Canarias,catering,0.04
+2018,Cantabria,Maquilladora a Domicilio,NA
+2018,Cantabria,Peluquero,0.01
+2018,Cantabria,fotografía,0.05
+2018,Cantabria,coches deportivos,NA
+2018,Cantabria,bodas,0.13
+2018,Cantabria,ramos de flores,0.01
+2018,Cantabria,modista,0.01
+2018,Cantabria,Pastelería,0.02
+2018,Cantabria,Registradores,0.02
+2018,Cantabria,Dj,0.07
+2018,Cantabria,peinados para boda,NA
+2018,Cantabria,tarta boda,NA
+2018,Cantabria,Floristería,0.01
+2018,Cantabria,limusina,0.01
+2018,Cantabria,organización de eventos,NA
+2018,Cantabria,Mago,0.07
+2018,Cantabria,Maquillaje,0.23
+2018,Cantabria,Fotógrafo de bodas,NA
+2018,Cantabria,Joyería,0.08
+2018,Cantabria,Eventos Musicales,NA
+2018,Cantabria,publicidad,0.06
+2018,Cantabria,Maquillaje,0.2
+2018,Cantabria,catering,0.03
+2018,Castilla y León,Maquilladora a Domicilio,NA
+2018,Castilla y León,Peluquero,0.01
+2018,Castilla y León,fotografía,0.06
+2018,Castilla y León,coches deportivos,0.01
+2018,Castilla y León,bodas,0.14
+2018,Castilla y León,ramos de flores,0.01
+2018,Castilla y León,modista,0.01
+2018,Castilla y León,Pastelería,0.01
+2018,Castilla y León,Registradores,0.02
+2018,Castilla y León,Dj,0.07
+2018,Castilla y León,peinados para boda,NA
+2018,Castilla y León,tarta boda,NA
+2018,Castilla y León,Floristería,0.01
+2018,Castilla y León,limusina,NA
+2018,Castilla y León,organización de eventos,NA
+2018,Castilla y León,Mago,0.07
+2018,Castilla y León,Maquillaje,0.2
+2018,Castilla y León,Fotógrafo de bodas,NA
+2018,Castilla y León,Joyería,0.06
+2018,Castilla y León,Eventos Musicales,NA
+2018,Castilla y León,publicidad,0.08
+2018,Castilla y León,Maquillaje,0.2
+2018,Castilla y León,catering,0.03
+2018,Castilla-La Mancha,Maquilladora a Domicilio,NA
+2018,Castilla-La Mancha,Peluquero,0.01
+2018,Castilla-La Mancha,fotografía,0.05
+2018,Castilla-La Mancha,coches deportivos,0.01
+2018,Castilla-La Mancha,bodas,0.17
+2018,Castilla-La Mancha,ramos de flores,0.01
+2018,Castilla-La Mancha,modista,NA
+2018,Castilla-La Mancha,Pastelería,0.01
+2018,Castilla-La Mancha,Registradores,0.02
+2018,Castilla-La Mancha,Dj,0.07
+2018,Castilla-La Mancha,peinados para boda,0.01
+2018,Castilla-La Mancha,tarta boda,NA
+2018,Castilla-La Mancha,Floristería,0.01
+2018,Castilla-La Mancha,limusina,0.01
+2018,Castilla-La Mancha,organización de eventos,NA
+2018,Castilla-La Mancha,Mago,0.08
+2018,Castilla-La Mancha,Maquillaje,0.21
+2018,Castilla-La Mancha,Fotógrafo de bodas,NA
+2018,Castilla-La Mancha,Joyería,0.05
+2018,Castilla-La Mancha,Eventos Musicales,NA
+2018,Castilla-La Mancha,publicidad,0.06
+2018,Castilla-La Mancha,Maquillaje,0.21
+2018,Castilla-La Mancha,catering,0.03
+2018,Cataluña,Maquilladora a Domicilio,NA
+2018,Cataluña,Peluquero,0.01
+2018,Cataluña,fotografía,0.08
+2018,Cataluña,coches deportivos,NA
+2018,Cataluña,bodas,0.11
+2018,Cataluña,ramos de flores,0.01
+2018,Cataluña,modista,0.01
+2018,Cataluña,Pastelería,0.01
+2018,Cataluña,Registradores,0.02
+2018,Cataluña,Dj,0.11
+2018,Cataluña,peinados para boda,NA
+2018,Cataluña,tarta boda,NA
+2018,Cataluña,Floristería,NA
+2018,Cataluña,limusina,NA
+2018,Cataluña,organización de eventos,NA
+2018,Cataluña,Mago,0.07
+2018,Cataluña,Maquillaje,0.19
+2018,Cataluña,Fotógrafo de bodas,NA
+2018,Cataluña,Joyería,0.06
+2018,Cataluña,Eventos Musicales,NA
+2018,Cataluña,publicidad,0.08
+2018,Cataluña,Maquillaje,0.19
+2018,Cataluña,catering,0.05
+2018,Ceuta,Maquilladora a Domicilio,NA
+2018,Ceuta,Peluquero,NA
+2018,Ceuta,fotografía,0.06
+2018,Ceuta,coches deportivos,NA
+2018,Ceuta,Mago,0.09
+2018,Ceuta,ramos de flores,NA
+2018,Ceuta,modista,NA
+2018,Ceuta,Pastelería,NA
+2018,Ceuta,Dj,0.12
+2018,Ceuta,Registradores,NA
+2018,Ceuta,peinados para boda,NA
+2018,Ceuta,tarta boda,NA
+2018,Ceuta,Floristería,NA
+2018,Ceuta,limusina,NA
+2018,Ceuta,organización de eventos,NA
+2018,Ceuta,bodas,0.14
+2018,Ceuta,Maquillaje,0.18
+2018,Ceuta,Fotógrafo de bodas,NA
+2018,Ceuta,Joyería,0.04
+2018,Ceuta,Eventos Musicales,NA
+2018,Ceuta,publicidad,0.09
+2018,Ceuta,Maquillaje,0.29
+2018,Ceuta,catering,NA
+2018,Madrid,Maquilladora a Domicilio,NA
+2018,Madrid,Peluquero,0.01
+2018,Madrid,fotografía,0.08
+2018,Madrid,coches deportivos,NA
+2018,Madrid,bodas,0.14
+2018,Madrid,ramos de flores,0.01
+2018,Madrid,modista,0.01
+2018,Madrid,Pastelería,0.01
+2018,Madrid,Registradores,0.03
+2018,Madrid,Dj,0.09
+2018,Madrid,peinados para boda,NA
+2018,Madrid,tarta boda,NA
+2018,Madrid,Floristería,0.01
+2018,Madrid,limusina,0.01
+2018,Madrid,organización de eventos,NA
+2018,Madrid,Mago,0.09
+2018,Madrid,Maquillaje,0.16
+2018,Madrid,Fotógrafo de bodas,NA
+2018,Madrid,Joyería,0.06
+2018,Madrid,Eventos Musicales,NA
+2018,Madrid,publicidad,0.09
+2018,Madrid,Maquillaje,0.16
+2018,Madrid,catering,0.05
+2018,Extremadura,Maquilladora a Domicilio,NA
+2018,Extremadura,Peluquero,0.02
+2018,Extremadura,fotografía,0.05
+2018,Extremadura,coches deportivos,NA
+2018,Extremadura,bodas,0.19
+2018,Extremadura,ramos de flores,0.01
+2018,Extremadura,modista,0.01
+2018,Extremadura,Pastelería,0.01
+2018,Extremadura,Registradores,0.02
+2018,Extremadura,Dj,0.07
+2018,Extremadura,peinados para boda,0.01
+2018,Extremadura,tarta boda,NA
+2018,Extremadura,Floristería,0.01
+2018,Extremadura,limusina,NA
+2018,Extremadura,organización de eventos,NA
+2018,Extremadura,Mago,0.06
+2018,Extremadura,Maquillaje,0.2
+2018,Extremadura,Fotógrafo de bodas,NA
+2018,Extremadura,Joyería,0.05
+2018,Extremadura,Eventos Musicales,NA
+2018,Extremadura,publicidad,0.06
+2018,Extremadura,Maquillaje,0.19
+2018,Extremadura,catering,0.03
+2018,Galicia,Maquilladora a Domicilio,NA
+2018,Galicia,Peluquero,0.01
+2018,Galicia,fotografía,0.06
+2018,Galicia,coches deportivos,NA
+2018,Galicia,bodas,0.11
+2018,Galicia,ramos de flores,0.01
+2018,Galicia,modista,0.01
+2018,Galicia,Pastelería,0.01
+2018,Galicia,Registradores,0.02
+2018,Galicia,Dj,0.06
+2018,Galicia,peinados para boda,NA
+2018,Galicia,tarta boda,NA
+2018,Galicia,Floristería,0.01
+2018,Galicia,limusina,NA
+2018,Galicia,organización de eventos,NA
+2018,Galicia,Mago,0.07
+2018,Galicia,Maquillaje,0.21
+2018,Galicia,Fotógrafo de bodas,NA
+2018,Galicia,Joyería,0.09
+2018,Galicia,Eventos Musicales,NA
+2018,Galicia,publicidad,0.08
+2018,Galicia,Maquillaje,0.21
+2018,Galicia,catering,0.03
+2018,La Rioja,Maquilladora a Domicilio,NA
+2018,La Rioja,Peluquero,0.01
+2018,La Rioja,fotografía,0.06
+2018,La Rioja,coches deportivos,NA
+2018,La Rioja,Mago,0.09
+2018,La Rioja,ramos de flores,0.01
+2018,La Rioja,modista,0.01
+2018,La Rioja,Pastelería,0.03
+2018,La Rioja,Dj,0.12
+2018,La Rioja,Registradores,0.04
+2018,La Rioja,peinados para boda,NA
+2018,La Rioja,tarta boda,NA
+2018,La Rioja,Floristería,0.01
+2018,La Rioja,limusina,0.01
+2018,La Rioja,organización de eventos,NA
+2018,La Rioja,bodas,0.13
+2018,La Rioja,Maquillaje,0.16
+2018,La Rioja,Fotógrafo de bodas,NA
+2018,La Rioja,Joyería,0.05
+2018,La Rioja,Eventos Musicales,NA
+2018,La Rioja,publicidad,0.06
+2018,La Rioja,Maquillaje,0.16
+2018,La Rioja,catering,0.04
+2018,Melilla,Maquilladora a Domicilio,NA
+2018,Melilla,Peluquero,NA
+2018,Melilla,fotografía,0.08
+2018,Melilla,coches deportivos,NA
+2018,Melilla,bodas,0.19
+2018,Melilla,ramos de flores,NA
+2018,Melilla,modista,NA
+2018,Melilla,Pastelería,NA
+2018,Melilla,Registradores,0.04
+2018,Melilla,Dj,0.09
+2018,Melilla,peinados para boda,NA
+2018,Melilla,tarta boda,NA
+2018,Melilla,Floristería,NA
+2018,Melilla,limusina,NA
+2018,Melilla,organización de eventos,NA
+2018,Melilla,Maquillaje para novias,NA
+2018,Melilla,Maquillaje,0.24
+2018,Melilla,Fotógrafo de bodas,NA
+2018,Melilla,Joyería,0.07
+2018,Melilla,Eventos Musicales,NA
+2018,Melilla,Mago,0.13
+2018,Melilla,publicidad,0.16
+2018,Melilla,catering,NA
+2018,Navarra,Maquilladora a Domicilio,NA
+2018,Navarra,Peluquero,0.01
+2018,Navarra,fotografía,0.07
+2018,Navarra,coches deportivos,NA
+2018,Navarra,bodas,0.11
+2018,Navarra,ramos de flores,0.01
+2018,Navarra,modista,0.01
+2018,Navarra,Pastelería,0.01
+2018,Navarra,Registradores,0.02
+2018,Navarra,Dj,0.07
+2018,Navarra,peinados para boda,NA
+2018,Navarra,tarta boda,NA
+2018,Navarra,Floristería,0.01
+2018,Navarra,limusina,NA
+2018,Navarra,organización de eventos,NA
+2018,Navarra,Mago,0.08
+2018,Navarra,Maquillaje,0.19
+2018,Navarra,Fotógrafo de bodas,NA
+2018,Navarra,Joyería,0.08
+2018,Navarra,Eventos Musicales,NA
+2018,Navarra,publicidad,0.08
+2018,Navarra,Maquillaje,0.19
+2018,Navarra,catering,0.06
+2018,Murcia,Maquilladora a Domicilio,NA
+2018,Murcia,Peluquero,0.01
+2018,Murcia,fotografía,0.05
+2018,Murcia,coches deportivos,NA
+2018,Murcia,bodas,0.11
+2018,Murcia,ramos de flores,0.01
+2018,Murcia,modista,NA
+2018,Murcia,Pastelería,0.01
+2018,Murcia,Registradores,0.02
+2018,Murcia,Dj,0.07
+2018,Murcia,peinados para boda,0.01
+2018,Murcia,tarta boda,NA
+2018,Murcia,Floristería,0.01
+2018,Murcia,limusina,NA
+2018,Murcia,organización de eventos,NA
+2018,Murcia,Mago,0.07
+2018,Murcia,Maquillaje,0.24
+2018,Murcia,Fotógrafo de bodas,NA
+2018,Murcia,Joyería,0.06
+2018,Murcia,Eventos Musicales,NA
+2018,Murcia,publicidad,0.08
+2018,Murcia,Maquillaje,0.24
+2018,Murcia,catering,0.03
+2018,Spain,Maquilladora a Domicilio,NA
+2018,Spain,Peluquero,0.01
+2018,Spain,fotografía,0.06
+2018,Spain,coches deportivos,NA
+2018,Spain,bodas,0.12
+2018,Spain,ramos de flores,0.01
+2018,Spain,modista,NA
+2018,Spain,Pastelería,0.01
+2018,Spain,Registradores,0.02
+2018,Spain,Dj,0.08
+2018,Spain,peinados para boda,NA
+2018,Spain,tarta boda,NA
+2018,Spain,Floristería,NA
+2018,Spain,limusina,NA
+2018,Spain,organización de eventos,NA
+2018,Spain,Mago,0.08
+2018,Spain,Maquillaje,0.21
+2018,Spain,Fotógrafo de bodas,NA
+2018,Spain,Joyería,0.07
+2018,Spain,Eventos Musicales,NA
+2018,Spain,publicidad,0.08
+2018,Spain,Maquillaje,0.21
+2018,Spain,catering,0.05
+2018,Valencia,Maquilladora a Domicilio,NA
+2018,Valencia,Peluquero,0.01
+2018,Valencia,fotografía,0.06
+2018,Valencia,coches deportivos,NA
+2018,Valencia,bodas,0.11
+2018,Valencia,ramos de flores,0.01
+2018,Valencia,modista,0.01
+2018,Valencia,Pastelería,0.01
+2018,Valencia,Registradores,0.02
+2018,Valencia,Dj,0.08
+2018,Valencia,peinados para boda,NA
+2018,Valencia,tarta boda,NA
+2018,Valencia,Floristería,NA
+2018,Valencia,limusina,NA
+2018,Valencia,organización de eventos,NA
+2018,Valencia,Mago,0.07
+2018,Valencia,Maquillaje,0.21
+2018,Valencia,Fotógrafo de bodas,NA
+2018,Valencia,Joyería,0.07
+2018,Valencia,Eventos Musicales,NA
+2018,Valencia,publicidad,0.09
+2018,Valencia,Maquillaje,0.21
+2018,Valencia,catering,0.04
+2019,Andalucía,Maquilladora a Domicilio,NA
+2019,Andalucía,Peluquero,0.01
+2019,Andalucía,fotografía,0.03
+2019,Andalucía,coches deportivos,NA
+2019,Andalucía,bodas,0.1
+2019,Andalucía,ramos de flores,NA
+2019,Andalucía,modista,NA
+2019,Andalucía,Pastelería,0.01
+2019,Andalucía,Registradores,0.01
+2019,Andalucía,Dj,0.05
+2019,Andalucía,peinados para boda,NA
+2019,Andalucía,tarta boda,NA
+2019,Andalucía,Floristería,NA
+2019,Andalucía,limusina,NA
+2019,Andalucía,organización de eventos,NA
+2019,Andalucía,Mago,0.08
+2019,Andalucía,Maquillaje,0.23
+2019,Andalucía,Fotógrafo de bodas,NA
+2019,Andalucía,Joyería,0.08
+2019,Andalucía,Eventos Musicales,NA
+2019,Andalucía,publicidad,0.07
+2019,Andalucía,Maquillaje,0.23
+2019,Andalucía,catering,0.06
+2019,Aragón,Maquilladora a Domicilio,NA
+2019,Aragón,Peluquero,0.01
+2019,Aragón,fotografía,0.06
+2019,Aragón,coches deportivos,NA
+2019,Aragón,bodas,0.12
+2019,Aragón,ramos de flores,0.01
+2019,Aragón,modista,0.01
+2019,Aragón,Pastelería,0.02
+2019,Aragón,Registradores,0.02
+2019,Aragón,Dj,0.09
+2019,Aragón,peinados para boda,NA
+2019,Aragón,tarta boda,NA
+2019,Aragón,Floristería,0.01
+2019,Aragón,limusina,0.01
+2019,Aragón,organización de eventos,NA
+2019,Aragón,Mago,0.08
+2019,Aragón,Maquillaje,0.19
+2019,Aragón,Fotógrafo de bodas,NA
+2019,Aragón,Joyería,0.08
+2019,Aragón,Eventos Musicales,NA
+2019,Aragón,publicidad,0.07
+2019,Aragón,Maquillaje,0.19
+2019,Aragón,catering,0.04
+2019,Asturias,Maquilladora a Domicilio,NA
+2019,Asturias,Peluquero,0.01
+2019,Asturias,fotografía,0.04
+2019,Asturias,coches deportivos,NA
+2019,Asturias,bodas,0.09
+2019,Asturias,ramos de flores,0.01
+2019,Asturias,modista,0.01
+2019,Asturias,Pastelería,0.01
+2019,Asturias,Registradores,0.02
+2019,Asturias,Dj,0.05
+2019,Asturias,peinados para boda,NA
+2019,Asturias,tarta boda,NA
+2019,Asturias,Floristería,0.01
+2019,Asturias,limusina,NA
+2019,Asturias,organización de eventos,NA
+2019,Asturias,Mago,0.08
+2019,Asturias,Maquillaje,0.2
+2019,Asturias,Fotógrafo de bodas,NA
+2019,Asturias,Joyería,0.1
+2019,Asturias,Eventos Musicales,NA
+2019,Asturias,publicidad,0.09
+2019,Asturias,Maquillaje,0.24
+2019,Asturias,catering,0.04
+2019,Illes Balears,Maquilladora a Domicilio,NA
+2019,Illes Balears,Peluquero,0.01
+2019,Illes Balears,fotografía,0.06
+2019,Illes Balears,coches deportivos,0.01
+2019,Illes Balears,bodas,0.11
+2019,Illes Balears,ramos de flores,NA
+2019,Illes Balears,modista,0.01
+2019,Illes Balears,Pastelería,0.01
+2019,Illes Balears,Registradores,0.02
+2019,Illes Balears,Dj,0.17
+2019,Illes Balears,peinados para boda,NA
+2019,Illes Balears,tarta boda,NA
+2019,Illes Balears,Floristería,0.01
+2019,Illes Balears,limusina,NA
+2019,Illes Balears,organización de eventos,NA
+2019,Illes Balears,Mago,0.08
+2019,Illes Balears,Maquillaje,0.17
+2019,Illes Balears,Fotógrafo de bodas,NA
+2019,Illes Balears,Joyería,0.06
+2019,Illes Balears,Eventos Musicales,NA
+2019,Illes Balears,publicidad,0.06
+2019,Illes Balears,Maquillaje,0.16
+2019,Illes Balears,catering,0.05
+2019,País Vasco,Maquilladora a Domicilio,NA
+2019,País Vasco,Peluquero,0.01
+2019,País Vasco,fotografía,0.05
+2019,País Vasco,coches deportivos,NA
+2019,País Vasco,bodas,0.11
+2019,País Vasco,ramos de flores,0.01
+2019,País Vasco,modista,0.01
+2019,País Vasco,Pastelería,0.02
+2019,País Vasco,Registradores,0.01
+2019,País Vasco,Dj,0.08
+2019,País Vasco,peinados para boda,NA
+2019,País Vasco,tarta boda,NA
+2019,País Vasco,Floristería,0.01
+2019,País Vasco,limusina,NA
+2019,País Vasco,organización de eventos,NA
+2019,País Vasco,Mago,0.08
+2019,País Vasco,Maquillaje,0.21
+2019,País Vasco,Fotógrafo de bodas,NA
+2019,País Vasco,Joyería,0.07
+2019,País Vasco,Eventos Musicales,NA
+2019,País Vasco,publicidad,0.07
+2019,País Vasco,Maquillaje,0.21
+2019,País Vasco,catering,0.03
+2019,Islas Canarias,Maquilladora a Domicilio,NA
+2019,Islas Canarias,Peluquero,0.01
+2019,Islas Canarias,fotografía,0.05
+2019,Islas Canarias,coches deportivos,NA
+2019,Islas Canarias,bodas,0.08
+2019,Islas Canarias,ramos de flores,NA
+2019,Islas Canarias,modista,NA
+2019,Islas Canarias,Pastelería,0.02
+2019,Islas Canarias,Registradores,0.01
+2019,Islas Canarias,Dj,0.08
+2019,Islas Canarias,peinados para boda,NA
+2019,Islas Canarias,tarta boda,NA
+2019,Islas Canarias,Floristería,0.01
+2019,Islas Canarias,limusina,NA
+2019,Islas Canarias,organización de eventos,NA
+2019,Islas Canarias,Mago,0.08
+2019,Islas Canarias,Maquillaje,0.21
+2019,Islas Canarias,Fotógrafo de bodas,NA
+2019,Islas Canarias,Joyería,0.07
+2019,Islas Canarias,Eventos Musicales,NA
+2019,Islas Canarias,publicidad,0.08
+2019,Islas Canarias,Maquillaje,0.21
+2019,Islas Canarias,catering,0.05
+2019,Cantabria,Maquilladora a Domicilio,NA
+2019,Cantabria,Peluquero,0.01
+2019,Cantabria,fotografía,0.05
+2019,Cantabria,coches deportivos,NA
+2019,Cantabria,bodas,0.13
+2019,Cantabria,ramos de flores,0.01
+2019,Cantabria,modista,0.01
+2019,Cantabria,Pastelería,0.02
+2019,Cantabria,Registradores,0.02
+2019,Cantabria,Dj,0.08
+2019,Cantabria,peinados para boda,NA
+2019,Cantabria,tarta boda,NA
+2019,Cantabria,Floristería,0.01
+2019,Cantabria,limusina,NA
+2019,Cantabria,organización de eventos,NA
+2019,Cantabria,Mago,0.08
+2019,Cantabria,Maquillaje,0.2
+2019,Cantabria,Fotógrafo de bodas,NA
+2019,Cantabria,Joyería,0.07
+2019,Cantabria,Eventos Musicales,NA
+2019,Cantabria,publicidad,0.07
+2019,Cantabria,Maquillaje,0.2
+2019,Cantabria,catering,0.03
+2019,Castilla y León,Maquilladora a Domicilio,NA
+2019,Castilla y León,Peluquero,0.01
+2019,Castilla y León,fotografía,0.05
+2019,Castilla y León,coches deportivos,NA
+2019,Castilla y León,bodas,0.13
+2019,Castilla y León,ramos de flores,0.01
+2019,Castilla y León,modista,0.01
+2019,Castilla y León,Pastelería,0.02
+2019,Castilla y León,Registradores,0.01
+2019,Castilla y León,Dj,0.08
+2019,Castilla y León,peinados para boda,NA
+2019,Castilla y León,tarta boda,NA
+2019,Castilla y León,Floristería,0.01
+2019,Castilla y León,limusina,NA
+2019,Castilla y León,organización de eventos,NA
+2019,Castilla y León,Mago,0.09
+2019,Castilla y León,Maquillaje,0.2
+2019,Castilla y León,Fotógrafo de bodas,NA
+2019,Castilla y León,Joyería,0.06
+2019,Castilla y León,Eventos Musicales,NA
+2019,Castilla y León,publicidad,0.07
+2019,Castilla y León,Maquillaje,0.2
+2019,Castilla y León,catering,0.04
+2019,Castilla-La Mancha,Maquilladora a Domicilio,NA
+2019,Castilla-La Mancha,Peluquero,0.01
+2019,Castilla-La Mancha,fotografía,0.04
+2019,Castilla-La Mancha,coches deportivos,NA
+2019,Castilla-La Mancha,bodas,0.15
+2019,Castilla-La Mancha,ramos de flores,0.01
+2019,Castilla-La Mancha,modista,NA
+2019,Castilla-La Mancha,Pastelería,0.01
+2019,Castilla-La Mancha,Registradores,0.01
+2019,Castilla-La Mancha,Dj,0.08
+2019,Castilla-La Mancha,peinados para boda,0.01
+2019,Castilla-La Mancha,tarta boda,NA
+2019,Castilla-La Mancha,Floristería,0.01
+2019,Castilla-La Mancha,limusina,NA
+2019,Castilla-La Mancha,organización de eventos,NA
+2019,Castilla-La Mancha,Mago,0.1
+2019,Castilla-La Mancha,Maquillaje,0.21
+2019,Castilla-La Mancha,Fotógrafo de bodas,NA
+2019,Castilla-La Mancha,Joyería,0.05
+2019,Castilla-La Mancha,Eventos Musicales,NA
+2019,Castilla-La Mancha,publicidad,0.05
+2019,Castilla-La Mancha,Maquillaje,0.22
+2019,Castilla-La Mancha,catering,0.03
+2019,Cataluña,Maquilladora a Domicilio,NA
+2019,Cataluña,Peluquero,0.01
+2019,Cataluña,fotografía,0.07
+2019,Cataluña,coches deportivos,NA
+2019,Cataluña,bodas,0.09
+2019,Cataluña,ramos de flores,NA
+2019,Cataluña,modista,0.01
+2019,Cataluña,Pastelería,0.01
+2019,Cataluña,Registradores,0.02
+2019,Cataluña,Dj,0.1
+2019,Cataluña,peinados para boda,NA
+2019,Cataluña,tarta boda,NA
+2019,Cataluña,Floristería,NA
+2019,Cataluña,limusina,NA
+2019,Cataluña,organización de eventos,NA
+2019,Cataluña,Mago,0.12
+2019,Cataluña,Maquillaje,0.18
+2019,Cataluña,Fotógrafo de bodas,NA
+2019,Cataluña,Joyería,0.06
+2019,Cataluña,Eventos Musicales,NA
+2019,Cataluña,publicidad,0.07
+2019,Cataluña,Maquillaje,0.18
+2019,Cataluña,catering,0.06
+2019,Ceuta,Maquilladora a Domicilio,NA
+2019,Ceuta,Peluquero,NA
+2019,Ceuta,fotografía,0.04
+2019,Ceuta,coches deportivos,NA
+2019,Ceuta,Mago,0.12
+2019,Ceuta,ramos de flores,NA
+2019,Ceuta,modista,NA
+2019,Ceuta,Pastelería,NA
+2019,Ceuta,Dj,0.16
+2019,Ceuta,Registradores,NA
+2019,Ceuta,peinados para boda,NA
+2019,Ceuta,tarta boda,NA
+2019,Ceuta,Floristería,NA
+2019,Ceuta,limusina,NA
+2019,Ceuta,organización de eventos,NA
+2019,Ceuta,bodas,0.15
+2019,Ceuta,Maquillaje,0.15
+2019,Ceuta,Fotógrafo de bodas,NA
+2019,Ceuta,Joyería,0.02
+2019,Ceuta,Eventos Musicales,NA
+2019,Ceuta,publicidad,0.11
+2019,Ceuta,Maquillaje,0.26
+2019,Ceuta,catering,NA
+2019,Madrid,Maquilladora a Domicilio,NA
+2019,Madrid,Peluquero,0.01
+2019,Madrid,fotografía,0.07
+2019,Madrid,coches deportivos,NA
+2019,Madrid,bodas,0.14
+2019,Madrid,ramos de flores,0.01
+2019,Madrid,modista,0.01
+2019,Madrid,Pastelería,0.02
+2019,Madrid,Registradores,0.02
+2019,Madrid,Dj,0.09
+2019,Madrid,peinados para boda,NA
+2019,Madrid,tarta boda,NA
+2019,Madrid,Floristería,0.01
+2019,Madrid,limusina,NA
+2019,Madrid,organización de eventos,NA
+2019,Madrid,Mago,0.1
+2019,Madrid,Maquillaje,0.16
+2019,Madrid,Fotógrafo de bodas,NA
+2019,Madrid,Joyería,0.06
+2019,Madrid,Eventos Musicales,NA
+2019,Madrid,publicidad,0.09
+2019,Madrid,Maquillaje,0.16
+2019,Madrid,catering,0.05
+2019,Extremadura,Maquilladora a Domicilio,NA
+2019,Extremadura,Peluquero,0.02
+2019,Extremadura,fotografía,0.05
+2019,Extremadura,coches deportivos,0.01
+2019,Extremadura,bodas,0.17
+2019,Extremadura,ramos de flores,0.01
+2019,Extremadura,modista,0.01
+2019,Extremadura,Pastelería,0.02
+2019,Extremadura,Registradores,0.02
+2019,Extremadura,Dj,0.07
+2019,Extremadura,peinados para boda,0.01
+2019,Extremadura,tarta boda,NA
+2019,Extremadura,Floristería,0.01
+2019,Extremadura,limusina,0.01
+2019,Extremadura,organización de eventos,NA
+2019,Extremadura,Mago,0.07
+2019,Extremadura,Maquillaje,0.21
+2019,Extremadura,Fotógrafo de bodas,NA
+2019,Extremadura,Joyería,0.06
+2019,Extremadura,Eventos Musicales,NA
+2019,Extremadura,publicidad,0.06
+2019,Extremadura,Maquillaje,0.2
+2019,Extremadura,catering,0.03
+2019,Galicia,Maquilladora a Domicilio,NA
+2019,Galicia,Peluquero,0.01
+2019,Galicia,fotografía,0.06
+2019,Galicia,coches deportivos,NA
+2019,Galicia,bodas,0.1
+2019,Galicia,ramos de flores,0.01
+2019,Galicia,modista,0.01
+2019,Galicia,Pastelería,0.01
+2019,Galicia,Registradores,0.02
+2019,Galicia,Dj,0.07
+2019,Galicia,peinados para boda,NA
+2019,Galicia,tarta boda,NA
+2019,Galicia,Floristería,0.01
+2019,Galicia,limusina,NA
+2019,Galicia,organización de eventos,NA
+2019,Galicia,Mago,0.08
+2019,Galicia,Maquillaje,0.2
+2019,Galicia,Fotógrafo de bodas,NA
+2019,Galicia,Joyería,0.09
+2019,Galicia,Eventos Musicales,NA
+2019,Galicia,publicidad,0.08
+2019,Galicia,Maquillaje,0.2
+2019,Galicia,catering,0.04
+2019,La Rioja,Maquilladora a Domicilio,NA
+2019,La Rioja,Peluquero,0.01
+2019,La Rioja,fotografía,0.07
+2019,La Rioja,coches deportivos,NA
+2019,La Rioja,Mago,0.1
+2019,La Rioja,ramos de flores,0.01
+2019,La Rioja,modista,0.01
+2019,La Rioja,Pastelería,0.04
+2019,La Rioja,Dj,0.11
+2019,La Rioja,Registradores,0.04
+2019,La Rioja,peinados para boda,NA
+2019,La Rioja,tarta boda,NA
+2019,La Rioja,Floristería,0.02
+2019,La Rioja,limusina,0.01
+2019,La Rioja,organización de eventos,NA
+2019,La Rioja,bodas,0.12
+2019,La Rioja,Maquillaje,0.16
+2019,La Rioja,Fotógrafo de bodas,NA
+2019,La Rioja,Joyería,0.05
+2019,La Rioja,Eventos Musicales,NA
+2019,La Rioja,publicidad,0.06
+2019,La Rioja,Maquillaje,0.16
+2019,La Rioja,catering,0.03
+2019,Melilla,Maquilladora a Domicilio,NA
+2019,Melilla,Peluquero,NA
+2019,Melilla,fotografía,0.09
+2019,Melilla,coches deportivos,NA
+2019,Melilla,bodas,0.12
+2019,Melilla,ramos de flores,NA
+2019,Melilla,modista,NA
+2019,Melilla,Pastelería,NA
+2019,Melilla,Registradores,0.02
+2019,Melilla,Dj,0.1
+2019,Melilla,peinados para boda,NA
+2019,Melilla,tarta boda,NA
+2019,Melilla,Floristería,0.03
+2019,Melilla,limusina,NA
+2019,Melilla,organización de eventos,NA
+2019,Melilla,Maquillaje para novias,NA
+2019,Melilla,Maquillaje,0.29
+2019,Melilla,Fotógrafo de bodas,NA
+2019,Melilla,Joyería,0.08
+2019,Melilla,Eventos Musicales,NA
+2019,Melilla,Mago,0.17
+2019,Melilla,publicidad,0.09
+2019,Melilla,catering,NA
+2019,Navarra,Maquilladora a Domicilio,NA
+2019,Navarra,Peluquero,0.01
+2019,Navarra,fotografía,0.06
+2019,Navarra,coches deportivos,NA
+2019,Navarra,bodas,0.09
+2019,Navarra,ramos de flores,0.01
+2019,Navarra,modista,0.01
+2019,Navarra,Pastelería,0.02
+2019,Navarra,Registradores,0.03
+2019,Navarra,Dj,0.08
+2019,Navarra,peinados para boda,NA
+2019,Navarra,tarta boda,NA
+2019,Navarra,Floristería,0.02
+2019,Navarra,limusina,0.01
+2019,Navarra,organización de eventos,NA
+2019,Navarra,Mago,0.09
+2019,Navarra,Maquillaje,0.19
+2019,Navarra,Fotógrafo de bodas,NA
+2019,Navarra,Joyería,0.08
+2019,Navarra,Eventos Musicales,NA
+2019,Navarra,publicidad,0.08
+2019,Navarra,Maquillaje,0.19
+2019,Navarra,catering,0.05
+2019,Murcia,Maquilladora a Domicilio,NA
+2019,Murcia,Peluquero,0.01
+2019,Murcia,fotografía,0.04
+2019,Murcia,coches deportivos,NA
+2019,Murcia,bodas,0.09
+2019,Murcia,ramos de flores,NA
+2019,Murcia,modista,0.01
+2019,Murcia,Pastelería,0.01
+2019,Murcia,Registradores,0.02
+2019,Murcia,Dj,0.07
+2019,Murcia,peinados para boda,NA
+2019,Murcia,tarta boda,NA
+2019,Murcia,Floristería,0.01
+2019,Murcia,limusina,NA
+2019,Murcia,organización de eventos,NA
+2019,Murcia,Mago,0.08
+2019,Murcia,Maquillaje,0.23
+2019,Murcia,Fotógrafo de bodas,NA
+2019,Murcia,Joyería,0.07
+2019,Murcia,Eventos Musicales,NA
+2019,Murcia,publicidad,0.08
+2019,Murcia,Maquillaje,0.23
+2019,Murcia,catering,0.03
+2019,Spain,Maquilladora a Domicilio,NA
+2019,Spain,Peluquero,0.01
+2019,Spain,fotografía,0.05
+2019,Spain,coches deportivos,NA
+2019,Spain,bodas,0.11
+2019,Spain,ramos de flores,NA
+2019,Spain,modista,NA
+2019,Spain,Pastelería,0.01
+2019,Spain,Registradores,0.02
+2019,Spain,Dj,0.08
+2019,Spain,peinados para boda,NA
+2019,Spain,tarta boda,NA
+2019,Spain,Floristería,0.01
+2019,Spain,limusina,NA
+2019,Spain,organización de eventos,NA
+2019,Spain,Mago,0.1
+2019,Spain,Maquillaje,0.2
+2019,Spain,Fotógrafo de bodas,NA
+2019,Spain,Joyería,0.07
+2019,Spain,Eventos Musicales,NA
+2019,Spain,publicidad,0.08
+2019,Spain,Maquillaje,0.2
+2019,Spain,catering,0.05
+2019,Valencia,Maquilladora a Domicilio,NA
+2019,Valencia,Peluquero,0.01
+2019,Valencia,fotografía,0.05
+2019,Valencia,coches deportivos,NA
+2019,Valencia,bodas,0.1
+2019,Valencia,ramos de flores,0.01
+2019,Valencia,modista,0.01
+2019,Valencia,Pastelería,0.01
+2019,Valencia,Registradores,0.02
+2019,Valencia,Dj,0.09
+2019,Valencia,peinados para boda,NA
+2019,Valencia,tarta boda,NA
+2019,Valencia,Floristería,0.01
+2019,Valencia,limusina,NA
+2019,Valencia,organización de eventos,NA
+2019,Valencia,Mago,0.09
+2019,Valencia,Maquillaje,0.21
+2019,Valencia,Fotógrafo de bodas,NA
+2019,Valencia,Joyería,0.07
+2019,Valencia,Eventos Musicales,NA
+2019,Valencia,publicidad,0.08
+2019,Valencia,Maquillaje,0.21
+2019,Valencia,catering,0.04
+2020,Andalucía,Maquilladora a Domicilio,NA
+2020,Andalucía,Peluquero,0.01
+2020,Andalucía,fotografía,0.04
+2020,Andalucía,coches deportivos,NA
+2020,Andalucía,bodas,0.08
+2020,Andalucía,ramos de flores,0.01
+2020,Andalucía,modista,NA
+2020,Andalucía,Pastelería,0.01
+2020,Andalucía,Registradores,0.01
+2020,Andalucía,Dj,0.05
+2020,Andalucía,peinados para boda,NA
+2020,Andalucía,tarta boda,NA
+2020,Andalucía,Floristería,0.01
+2020,Andalucía,limusina,NA
+2020,Andalucía,organización de eventos,NA
+2020,Andalucía,Mago,0.07
+2020,Andalucía,Maquillaje,0.25
+2020,Andalucía,Fotógrafo de bodas,NA
+2020,Andalucía,Joyería,0.07
+2020,Andalucía,Eventos Musicales,NA
+2020,Andalucía,publicidad,0.09
+2020,Andalucía,Maquillaje,0.25
+2020,Andalucía,catering,0.05
+2020,Aragón,Maquilladora a Domicilio,NA
+2020,Aragón,Peluquero,0.01
+2020,Aragón,fotografía,0.07
+2020,Aragón,coches deportivos,NA
+2020,Aragón,bodas,0.11
+2020,Aragón,ramos de flores,0.01
+2020,Aragón,modista,0.01
+2020,Aragón,Pastelería,0.02
+2020,Aragón,Registradores,0.02
+2020,Aragón,Dj,0.11
+2020,Aragón,peinados para boda,NA
+2020,Aragón,tarta boda,NA
+2020,Aragón,Floristería,0.02
+2020,Aragón,limusina,NA
+2020,Aragón,organización de eventos,NA
+2020,Aragón,Mago,0.08
+2020,Aragón,Maquillaje,0.18
+2020,Aragón,Fotógrafo de bodas,NA
+2020,Aragón,Joyería,0.07
+2020,Aragón,Eventos Musicales,NA
+2020,Aragón,publicidad,0.07
+2020,Aragón,Maquillaje,0.18
+2020,Aragón,catering,0.03
+2020,Asturias,Maquilladora a Domicilio,NA
+2020,Asturias,Peluquero,0.01
+2020,Asturias,fotografía,0.03
+2020,Asturias,coches deportivos,NA
+2020,Asturias,bodas,0.07
+2020,Asturias,ramos de flores,0.01
+2020,Asturias,modista,0.01
+2020,Asturias,Pastelería,0.01
+2020,Asturias,Registradores,0.01
+2020,Asturias,Dj,0.06
+2020,Asturias,peinados para boda,NA
+2020,Asturias,tarta boda,NA
+2020,Asturias,Floristería,0.01
+2020,Asturias,limusina,0.01
+2020,Asturias,organización de eventos,NA
+2020,Asturias,Mago,0.07
+2020,Asturias,Maquillaje,0.22
+2020,Asturias,Fotógrafo de bodas,NA
+2020,Asturias,Joyería,0.08
+2020,Asturias,Eventos Musicales,NA
+2020,Asturias,publicidad,0.08
+2020,Asturias,Maquillaje,0.25
+2020,Asturias,catering,0.05
+2020,Illes Balears,Maquilladora a Domicilio,NA
+2020,Illes Balears,Peluquero,0.02
+2020,Illes Balears,fotografía,0.07
+2020,Illes Balears,coches deportivos,NA
+2020,Illes Balears,bodas,0.09
+2020,Illes Balears,ramos de flores,NA
+2020,Illes Balears,modista,0.01
+2020,Illes Balears,Pastelería,0.01
+2020,Illes Balears,Registradores,0.03
+2020,Illes Balears,Dj,0.13
+2020,Illes Balears,peinados para boda,NA
+2020,Illes Balears,tarta boda,NA
+2020,Illes Balears,Floristería,NA
+2020,Illes Balears,limusina,NA
+2020,Illes Balears,organización de eventos,NA
+2020,Illes Balears,Mago,0.08
+2020,Illes Balears,Maquillaje,0.18
+2020,Illes Balears,Fotógrafo de bodas,NA
+2020,Illes Balears,Joyería,0.07
+2020,Illes Balears,Eventos Musicales,NA
+2020,Illes Balears,publicidad,0.08
+2020,Illes Balears,Maquillaje,0.18
+2020,Illes Balears,catering,0.04
+2020,País Vasco,Maquilladora a Domicilio,NA
+2020,País Vasco,Peluquero,0.01
+2020,País Vasco,fotografía,0.04
+2020,País Vasco,coches deportivos,NA
+2020,País Vasco,bodas,0.09
+2020,País Vasco,ramos de flores,0.01
+2020,País Vasco,modista,0.01
+2020,País Vasco,Pastelería,0.02
+2020,País Vasco,Registradores,0.01
+2020,País Vasco,Dj,0.08
+2020,País Vasco,peinados para boda,NA
+2020,País Vasco,tarta boda,NA
+2020,País Vasco,Floristería,0.01
+2020,País Vasco,limusina,NA
+2020,País Vasco,organización de eventos,NA
+2020,País Vasco,Mago,0.07
+2020,País Vasco,Maquillaje,0.24
+2020,País Vasco,Fotógrafo de bodas,NA
+2020,País Vasco,Joyería,0.06
+2020,País Vasco,Eventos Musicales,NA
+2020,País Vasco,publicidad,0.06
+2020,País Vasco,Maquillaje,0.24
+2020,País Vasco,catering,0.03
+2020,Islas Canarias,Maquilladora a Domicilio,NA
+2020,Islas Canarias,Peluquero,0.01
+2020,Islas Canarias,fotografía,0.04
+2020,Islas Canarias,coches deportivos,NA
+2020,Islas Canarias,bodas,0.06
+2020,Islas Canarias,ramos de flores,NA
+2020,Islas Canarias,modista,NA
+2020,Islas Canarias,Pastelería,0.02
+2020,Islas Canarias,Registradores,0.01
+2020,Islas Canarias,Dj,0.08
+2020,Islas Canarias,peinados para boda,NA
+2020,Islas Canarias,tarta boda,NA
+2020,Islas Canarias,Floristería,0.03
+2020,Islas Canarias,limusina,NA
+2020,Islas Canarias,organización de eventos,NA
+2020,Islas Canarias,Mago,0.06
+2020,Islas Canarias,Maquillaje,0.25
+2020,Islas Canarias,Fotógrafo de bodas,NA
+2020,Islas Canarias,Joyería,0.05
+2020,Islas Canarias,Eventos Musicales,NA
+2020,Islas Canarias,publicidad,0.08
+2020,Islas Canarias,Maquillaje,0.25
+2020,Islas Canarias,catering,0.03
+2020,Cantabria,Maquilladora a Domicilio,NA
+2020,Cantabria,Peluquero,NA
+2020,Cantabria,fotografía,0.05
+2020,Cantabria,coches deportivos,NA
+2020,Cantabria,bodas,0.09
+2020,Cantabria,ramos de flores,0.02
+2020,Cantabria,modista,0.01
+2020,Cantabria,Pastelería,0.02
+2020,Cantabria,Registradores,0.02
+2020,Cantabria,Dj,0.09
+2020,Cantabria,peinados para boda,NA
+2020,Cantabria,tarta boda,NA
+2020,Cantabria,Floristería,0.02
+2020,Cantabria,limusina,NA
+2020,Cantabria,organización de eventos,NA
+2020,Cantabria,Mago,0.08
+2020,Cantabria,Maquillaje,0.22
+2020,Cantabria,Fotógrafo de bodas,NA
+2020,Cantabria,Joyería,0.09
+2020,Cantabria,Eventos Musicales,NA
+2020,Cantabria,publicidad,0.06
+2020,Cantabria,Maquillaje,0.21
+2020,Cantabria,catering,0.04
+2020,Castilla y León,Maquilladora a Domicilio,NA
+2020,Castilla y León,Peluquero,0.01
+2020,Castilla y León,fotografía,0.05
+2020,Castilla y León,coches deportivos,NA
+2020,Castilla y León,bodas,0.1
+2020,Castilla y León,ramos de flores,0.01
+2020,Castilla y León,modista,0.01
+2020,Castilla y León,Pastelería,0.02
+2020,Castilla y León,Registradores,0.01
+2020,Castilla y León,Dj,0.08
+2020,Castilla y León,peinados para boda,NA
+2020,Castilla y León,tarta boda,NA
+2020,Castilla y León,Floristería,0.02
+2020,Castilla y León,limusina,NA
+2020,Castilla y León,organización de eventos,NA
+2020,Castilla y León,Mago,0.1
+2020,Castilla y León,Maquillaje,0.21
+2020,Castilla y León,Fotógrafo de bodas,NA
+2020,Castilla y León,Joyería,0.06
+2020,Castilla y León,Eventos Musicales,NA
+2020,Castilla y León,publicidad,0.08
+2020,Castilla y León,Maquillaje,0.21
+2020,Castilla y León,catering,0.03
+2020,Castilla-La Mancha,Maquilladora a Domicilio,NA
+2020,Castilla-La Mancha,Peluquero,0.01
+2020,Castilla-La Mancha,fotografía,0.05
+2020,Castilla-La Mancha,coches deportivos,NA
+2020,Castilla-La Mancha,bodas,0.11
+2020,Castilla-La Mancha,ramos de flores,0.01
+2020,Castilla-La Mancha,modista,NA
+2020,Castilla-La Mancha,Pastelería,0.01
+2020,Castilla-La Mancha,Registradores,0.01
+2020,Castilla-La Mancha,Dj,0.09
+2020,Castilla-La Mancha,peinados para boda,NA
+2020,Castilla-La Mancha,tarta boda,NA
+2020,Castilla-La Mancha,Floristería,0.02
+2020,Castilla-La Mancha,limusina,NA
+2020,Castilla-La Mancha,organización de eventos,NA
+2020,Castilla-La Mancha,Mago,0.07
+2020,Castilla-La Mancha,Maquillaje,0.22
+2020,Castilla-La Mancha,Fotógrafo de bodas,NA
+2020,Castilla-La Mancha,Joyería,0.05
+2020,Castilla-La Mancha,Eventos Musicales,NA
+2020,Castilla-La Mancha,publicidad,0.07
+2020,Castilla-La Mancha,Maquillaje,0.23
+2020,Castilla-La Mancha,catering,0.03
+2020,Cataluña,Maquilladora a Domicilio,NA
+2020,Cataluña,Peluquero,0.01
+2020,Cataluña,fotografía,0.07
+2020,Cataluña,coches deportivos,NA
+2020,Cataluña,bodas,0.07
+2020,Cataluña,ramos de flores,0.01
+2020,Cataluña,modista,0.01
+2020,Cataluña,Pastelería,0.01
+2020,Cataluña,Registradores,0.02
+2020,Cataluña,Dj,0.1
+2020,Cataluña,peinados para boda,NA
+2020,Cataluña,tarta boda,NA
+2020,Cataluña,Floristería,0.01
+2020,Cataluña,limusina,NA
+2020,Cataluña,organización de eventos,NA
+2020,Cataluña,Mago,0.12
+2020,Cataluña,Maquillaje,0.19
+2020,Cataluña,Fotógrafo de bodas,NA
+2020,Cataluña,Joyería,0.06
+2020,Cataluña,Eventos Musicales,NA
+2020,Cataluña,publicidad,0.07
+2020,Cataluña,Maquillaje,0.19
+2020,Cataluña,catering,0.04
+2020,Ceuta,Maquilladora a Domicilio,NA
+2020,Ceuta,Peluquero,NA
+2020,Ceuta,fotografía,0.07
+2020,Ceuta,coches deportivos,NA
+2020,Ceuta,Mago,0.06
+2020,Ceuta,ramos de flores,NA
+2020,Ceuta,modista,NA
+2020,Ceuta,Pastelería,NA
+2020,Ceuta,Dj,0.05
+2020,Ceuta,Registradores,NA
+2020,Ceuta,peinados para boda,NA
+2020,Ceuta,tarta boda,NA
+2020,Ceuta,Floristería,NA
+2020,Ceuta,limusina,NA
+2020,Ceuta,organización de eventos,NA
+2020,Ceuta,bodas,0.06
+2020,Ceuta,Maquillaje,0.26
+2020,Ceuta,Fotógrafo de bodas,NA
+2020,Ceuta,Joyería,0.01
+2020,Ceuta,Eventos Musicales,NA
+2020,Ceuta,publicidad,0.11
+2020,Ceuta,Maquillaje,0.38
+2020,Ceuta,catering,NA
+2020,Madrid,Maquilladora a Domicilio,NA
+2020,Madrid,Peluquero,0.01
+2020,Madrid,fotografía,0.07
+2020,Madrid,coches deportivos,NA
+2020,Madrid,bodas,0.12
+2020,Madrid,ramos de flores,0.01
+2020,Madrid,modista,0.01
+2020,Madrid,Pastelería,0.02
+2020,Madrid,Registradores,0.02
+2020,Madrid,Dj,0.1
+2020,Madrid,peinados para boda,NA
+2020,Madrid,tarta boda,NA
+2020,Madrid,Floristería,0.02
+2020,Madrid,limusina,0.01
+2020,Madrid,organización de eventos,NA
+2020,Madrid,Mago,0.08
+2020,Madrid,Maquillaje,0.16
+2020,Madrid,Fotógrafo de bodas,NA
+2020,Madrid,Joyería,0.06
+2020,Madrid,Eventos Musicales,NA
+2020,Madrid,publicidad,0.1
+2020,Madrid,Maquillaje,0.16
+2020,Madrid,catering,0.04
+2020,Extremadura,Maquilladora a Domicilio,NA
+2020,Extremadura,Peluquero,0.02
+2020,Extremadura,fotografía,0.05
+2020,Extremadura,coches deportivos,NA
+2020,Extremadura,bodas,0.12
+2020,Extremadura,ramos de flores,0.01
+2020,Extremadura,modista,0.01
+2020,Extremadura,Pastelería,0.01
+2020,Extremadura,Registradores,0.02
+2020,Extremadura,Dj,0.07
+2020,Extremadura,peinados para boda,NA
+2020,Extremadura,tarta boda,NA
+2020,Extremadura,Floristería,0.02
+2020,Extremadura,limusina,0.01
+2020,Extremadura,organización de eventos,NA
+2020,Extremadura,Mago,0.06
+2020,Extremadura,Maquillaje,0.25
+2020,Extremadura,Fotógrafo de bodas,NA
+2020,Extremadura,Joyería,0.06
+2020,Extremadura,Eventos Musicales,NA
+2020,Extremadura,publicidad,0.06
+2020,Extremadura,Maquillaje,0.21
+2020,Extremadura,catering,0.03
+2020,Galicia,Maquilladora a Domicilio,NA
+2020,Galicia,Peluquero,0.01
+2020,Galicia,fotografía,0.05
+2020,Galicia,coches deportivos,NA
+2020,Galicia,bodas,0.08
+2020,Galicia,ramos de flores,0.01
+2020,Galicia,modista,0.01
+2020,Galicia,Pastelería,0.02
+2020,Galicia,Registradores,0.01
+2020,Galicia,Dj,0.07
+2020,Galicia,peinados para boda,NA
+2020,Galicia,tarta boda,NA
+2020,Galicia,Floristería,0.01
+2020,Galicia,limusina,NA
+2020,Galicia,organización de eventos,NA
+2020,Galicia,Mago,0.08
+2020,Galicia,Maquillaje,0.24
+2020,Galicia,Fotógrafo de bodas,NA
+2020,Galicia,Joyería,0.08
+2020,Galicia,Eventos Musicales,NA
+2020,Galicia,publicidad,0.07
+2020,Galicia,Maquillaje,0.24
+2020,Galicia,catering,0.03
+2020,La Rioja,Maquilladora a Domicilio,NA
+2020,La Rioja,Peluquero,0.02
+2020,La Rioja,fotografía,0.07
+2020,La Rioja,coches deportivos,NA
+2020,La Rioja,Mago,0.13
+2020,La Rioja,ramos de flores,0.01
+2020,La Rioja,modista,0.01
+2020,La Rioja,Pastelería,0.03
+2020,La Rioja,Dj,0.1
+2020,La Rioja,Registradores,0.04
+2020,La Rioja,peinados para boda,NA
+2020,La Rioja,tarta boda,NA
+2020,La Rioja,Floristería,0.03
+2020,La Rioja,limusina,NA
+2020,La Rioja,organización de eventos,NA
+2020,La Rioja,bodas,0.08
+2020,La Rioja,Maquillaje,0.16
+2020,La Rioja,Fotógrafo de bodas,NA
+2020,La Rioja,Joyería,0.06
+2020,La Rioja,Eventos Musicales,NA
+2020,La Rioja,publicidad,0.06
+2020,La Rioja,Maquillaje,0.16
+2020,La Rioja,catering,0.02
+2020,Melilla,Maquilladora a Domicilio,NA
+2020,Melilla,Peluquero,NA
+2020,Melilla,fotografía,0.07
+2020,Melilla,coches deportivos,NA
+2020,Melilla,bodas,0.16
+2020,Melilla,ramos de flores,NA
+2020,Melilla,modista,NA
+2020,Melilla,Pastelería,NA
+2020,Melilla,Registradores,NA
+2020,Melilla,Dj,0.03
+2020,Melilla,peinados para boda,NA
+2020,Melilla,tarta boda,NA
+2020,Melilla,Floristería,NA
+2020,Melilla,limusina,NA
+2020,Melilla,organización de eventos,NA
+2020,Melilla,Maquillaje para novias,NA
+2020,Melilla,Maquillaje,0.18
+2020,Melilla,Fotógrafo de bodas,NA
+2020,Melilla,Joyería,0.08
+2020,Melilla,Eventos Musicales,NA
+2020,Melilla,Mago,0.36
+2020,Melilla,publicidad,0.13
+2020,Melilla,catering,NA
+2020,Navarra,Maquilladora a Domicilio,NA
+2020,Navarra,Peluquero,NA
+2020,Navarra,fotografía,0.06
+2020,Navarra,coches deportivos,0.01
+2020,Navarra,bodas,0.08
+2020,Navarra,ramos de flores,0.01
+2020,Navarra,modista,0.01
+2020,Navarra,Pastelería,0.02
+2020,Navarra,Registradores,0.02
+2020,Navarra,Dj,0.07
+2020,Navarra,peinados para boda,NA
+2020,Navarra,tarta boda,NA
+2020,Navarra,Floristería,0.02
+2020,Navarra,limusina,NA
+2020,Navarra,organización de eventos,NA
+2020,Navarra,Mago,0.08
+2020,Navarra,Maquillaje,0.21
+2020,Navarra,Fotógrafo de bodas,NA
+2020,Navarra,Joyería,0.07
+2020,Navarra,Eventos Musicales,NA
+2020,Navarra,publicidad,0.1
+2020,Navarra,Maquillaje,0.21
+2020,Navarra,catering,0.04
+2020,Murcia,Maquilladora a Domicilio,NA
+2020,Murcia,Peluquero,0.02
+2020,Murcia,fotografía,0.04
+2020,Murcia,coches deportivos,NA
+2020,Murcia,bodas,0.07
+2020,Murcia,ramos de flores,0.01
+2020,Murcia,modista,0.01
+2020,Murcia,Pastelería,0.01
+2020,Murcia,Registradores,0.01
+2020,Murcia,Dj,0.08
+2020,Murcia,peinados para boda,NA
+2020,Murcia,tarta boda,NA
+2020,Murcia,Floristería,0.02
+2020,Murcia,limusina,NA
+2020,Murcia,organización de eventos,NA
+2020,Murcia,Mago,0.08
+2020,Murcia,Maquillaje,0.23
+2020,Murcia,Fotógrafo de bodas,NA
+2020,Murcia,Joyería,0.06
+2020,Murcia,Eventos Musicales,NA
+2020,Murcia,publicidad,0.09
+2020,Murcia,Maquillaje,0.23
+2020,Murcia,catering,0.02
+2020,Spain,Maquilladora a Domicilio,NA
+2020,Spain,Peluquero,0.01
+2020,Spain,fotografía,0.05
+2020,Spain,coches deportivos,NA
+2020,Spain,bodas,0.09
+2020,Spain,ramos de flores,0.01
+2020,Spain,modista,0.01
+2020,Spain,Pastelería,0.01
+2020,Spain,Registradores,0.01
+2020,Spain,Dj,0.08
+2020,Spain,peinados para boda,NA
+2020,Spain,tarta boda,NA
+2020,Spain,Floristería,0.01
+2020,Spain,limusina,NA
+2020,Spain,organización de eventos,NA
+2020,Spain,Mago,0.09
+2020,Spain,Maquillaje,0.21
+2020,Spain,Fotógrafo de bodas,NA
+2020,Spain,Joyería,0.07
+2020,Spain,Eventos Musicales,NA
+2020,Spain,publicidad,0.08
+2020,Spain,Maquillaje,0.22
+2020,Spain,catering,0.04
+2020,Valencia,Maquilladora a Domicilio,NA
+2020,Valencia,Peluquero,0.01
+2020,Valencia,fotografía,0.05
+2020,Valencia,coches deportivos,NA
+2020,Valencia,bodas,0.08
+2020,Valencia,ramos de flores,0.01
+2020,Valencia,modista,0.01
+2020,Valencia,Pastelería,0.01
+2020,Valencia,Registradores,0.02
+2020,Valencia,Dj,0.1
+2020,Valencia,peinados para boda,NA
+2020,Valencia,tarta boda,NA
+2020,Valencia,Floristería,0.01
+2020,Valencia,limusina,NA
+2020,Valencia,organización de eventos,NA
+2020,Valencia,Mago,0.08
+2020,Valencia,Maquillaje,0.21
+2020,Valencia,Fotógrafo de bodas,NA
+2020,Valencia,Joyería,0.07
+2020,Valencia,Eventos Musicales,NA
+2020,Valencia,publicidad,0.09
+2020,Valencia,Maquillaje,0.21
+2020,Valencia,catering,0.03

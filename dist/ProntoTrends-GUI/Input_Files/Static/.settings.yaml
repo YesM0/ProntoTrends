@@ -1,0 +1,10 @@
+--- # Database Settings
+host: prod-cluster-ro.data.prontopro.tech
+user: ppro-chahn
+password: 89V3WdrYM4LSm6dRnksm47BK
+
+Out_files_path: /Users/chris/Google Drive (christopher.hahn@prontopro.it)/ProntoTrends/Data_Repo/Chris/Output_Files
+Aggregated_path: /Users/chris/Google Drive (christopher.hahn@prontopro.it)/ProntoTrends/Data_Repo/Chris/Output_Files/Aggregated
+Final_path: /Users/chris/Google Drive (christopher.hahn@prontopro.it)/ProntoTrends/Data_Repo/Chris/Output_Files/FINAL
+Tag_out_path: /Users/chris/Google Drive (christopher.hahn@prontopro.it)/ProntoTrends/Data_Repo/Chris/Output_Files/out
+Comparisons_path: /Users/chris/Google Drive (christopher.hahn@prontopro.it)/ProntoTrends/Data_Repo/Chris/comparisons

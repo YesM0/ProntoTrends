@@ -1,0 +1,2170 @@
+ticket_taxonomy_tag_name,ticket_geo_region_name,Year,Month,Index,Country_chosen
+Couturier,Auvergne-Rhône-Alpes,2019,0,0.23057228920000003,0
+Couturier,Auvergne-Rhône-Alpes,2019,1,0.2569176707,0
+Couturier,Auvergne-Rhône-Alpes,2019,2,0.33567068270000006,0
+Couturier,Auvergne-Rhône-Alpes,2019,3,0.3377008032,0
+Couturier,Auvergne-Rhône-Alpes,2019,4,0.374126506,0
+Couturier,Auvergne-Rhône-Alpes,2019,5,0.3337831325,0
+Couturier,Auvergne-Rhône-Alpes,2019,6,0.24810240960000002,0
+Couturier,Auvergne-Rhône-Alpes,2019,7,0.2706927711,0
+Couturier,Auvergne-Rhône-Alpes,2019,8,0.27895582329999996,0
+Couturier,Auvergne-Rhône-Alpes,2019,9,0.24234939760000002,0
+Couturier,Auvergne-Rhône-Alpes,2019,10,0.3018273092,0
+Couturier,Auvergne-Rhône-Alpes,2019,11,0.27052208829999996,0
+Couturier,Auvergne-Rhône-Alpes,2020,0,0.2982429719,0
+Couturier,Auvergne-Rhône-Alpes,2020,1,0.30686746989999997,0
+Couturier,Auvergne-Rhône-Alpes,2020,2,0.1897108434,0
+Couturier,Auvergne-Rhône-Alpes,2020,3,0.1436947791,0
+Couturier,Bourgogne-Franche-Comté,2019,0,0.1676506025,0
+Couturier,Bourgogne-Franche-Comté,2019,1,0.176746988,0
+Couturier,Bourgogne-Franche-Comté,2019,2,0.1446746988,0
+Couturier,Bourgogne-Franche-Comté,2019,3,0.2204216868,0
+Couturier,Bourgogne-Franche-Comté,2019,4,0.19289156629999998,0
+Couturier,Bourgogne-Franche-Comté,2019,5,0.1818313253,0
+Couturier,Bourgogne-Franche-Comté,2019,6,0.1665662651,0
+Couturier,Bourgogne-Franche-Comté,2019,7,0.19608433739999998,0
+Couturier,Bourgogne-Franche-Comté,2019,8,0.1578313253,0
+Couturier,Bourgogne-Franche-Comté,2019,9,0.18439759039999998,0
+Couturier,Bourgogne-Franche-Comté,2019,10,0.1406024096,0
+Couturier,Bourgogne-Franche-Comté,2019,11,0.1586987952,0
+Couturier,Bourgogne-Franche-Comté,2020,0,0.19355421690000002,0
+Couturier,Bourgogne-Franche-Comté,2020,1,0.22457831329999997,0
+Couturier,Bourgogne-Franche-Comté,2020,2,0.11474698800000001,0
+Couturier,Bourgogne-Franche-Comté,2020,3,0.1196385542,0
+Couturier,Bretagne,2019,0,0.250753012,0
+Couturier,Bretagne,2019,1,0.2529819277,0
+Couturier,Bretagne,2019,2,0.2371566265,0
+Couturier,Bretagne,2019,3,0.2251204819,0
+Couturier,Bretagne,2019,4,0.2674698795,0
+Couturier,Bretagne,2019,5,0.2763855422,0
+Couturier,Bretagne,2019,6,0.22066265059999998,0
+Couturier,Bretagne,2019,7,0.1660542169,0
+Couturier,Bretagne,2019,8,0.21665060239999998,0
+Couturier,Bretagne,2019,9,0.2585542169,0
+Couturier,Bretagne,2019,10,0.15490963859999998,0
+Couturier,Bretagne,2019,11,0.2344819277,0
+Couturier,Bretagne,2020,0,0.2652409639,0
+Couturier,Bretagne,2020,1,0.290873494,0
+Couturier,Bretagne,2020,2,0.1667228916,0
+Couturier,Bretagne,2020,3,0.08469879518,0
+Couturier,Centre-Val de Loire,2019,0,0.3379518072,0
+Couturier,Centre-Val de Loire,2019,1,0.35120481929999997,0
+Couturier,Centre-Val de Loire,2019,2,0.35915662649999996,0
+Couturier,Centre-Val de Loire,2019,3,0.2998493976,0
+Couturier,Centre-Val de Loire,2019,4,0.4870481928,0
+Couturier,Centre-Val de Loire,2019,5,0.35120481929999997,0
+Couturier,Centre-Val de Loire,2019,6,0.3909638554,0
+Couturier,Centre-Val de Loire,2019,7,0.22364457829999998,0
+Couturier,Centre-Val de Loire,2019,8,0.3193975904,0
+Couturier,Centre-Val de Loire,2019,9,0.2865963855,0
+Couturier,Centre-Val de Loire,2019,10,0.3495481928,0
+Couturier,Centre-Val de Loire,2019,11,0.2836144578,0
+Couturier,Centre-Val de Loire,2020,0,0.2981927711,0
+Couturier,Centre-Val de Loire,2020,1,0.33629518070000003,0
+Couturier,Centre-Val de Loire,2020,2,0.2239759036,0
+Couturier,Centre-Val de Loire,2020,3,0.2219879518,0
+Couturier,Corse,2019,0,0.15804216869999999,0
+Couturier,Corse,2019,1,0.2314759036,0
+Couturier,Corse,2019,2,0.2043373494,0
+Couturier,Corse,2019,3,0.2697891566,0
+Couturier,Corse,2019,4,0.2107228916,0
+Couturier,Corse,2019,5,0.29118072289999997,0
+Couturier,Corse,2019,6,0.15006024099999998,0
+Couturier,Corse,2019,7,0.08939759036,0
+Couturier,Corse,2019,8,0.1673012048,0
+Couturier,Corse,2019,9,0.1356927711,0
+Couturier,Corse,2019,10,0.2378614458,0
+Couturier,Corse,2019,11,0.10344578310000001,0
+Couturier,Corse,2020,0,0.3272590361,0
+Couturier,Corse,2020,1,0.1596385542,0
+Couturier,Corse,2020,2,0.22093975899999999,0
+Couturier,Corse,2020,3,0.09897590361,0
+Couturier,Grand-Est,2019,0,0.2206425703,0
+Couturier,Grand-Est,2019,1,0.2754718875,0
+Couturier,Grand-Est,2019,2,0.2864417671,0
+Couturier,Grand-Est,2019,3,0.33807228920000004,0
+Couturier,Grand-Est,2019,4,0.27645582329999996,0
+Couturier,Grand-Est,2019,5,0.2523855422,0
+Couturier,Grand-Est,2019,6,0.21474899600000003,0
+Couturier,Grand-Est,2019,7,0.19446787149999997,0
+Couturier,Grand-Est,2019,8,0.2730923695,0
+Couturier,Grand-Est,2019,9,0.2600301205,0
+Couturier,Grand-Est,2019,10,0.23623493980000002,0
+Couturier,Grand-Est,2019,11,0.2103052209,0
+Couturier,Grand-Est,2020,0,0.285813253,0
+Couturier,Grand-Est,2020,1,0.2912349398,0
+Couturier,Grand-Est,2020,2,0.17693975899999997,0
+Couturier,Grand-Est,2020,3,0.1108835342,0
+Couturier,Hauts-de-France,2019,0,0.4482680723,0
+Couturier,Hauts-de-France,2019,1,0.4173644579,0
+Couturier,Hauts-de-France,2019,2,0.4235180723,0
+Couturier,Hauts-de-France,2019,3,0.45487951810000005,0
+Couturier,Hauts-de-France,2019,4,0.5174698795,0
+Couturier,Hauts-de-France,2019,5,0.4767228916,0
+Couturier,Hauts-de-France,2019,6,0.4522138554,0
+Couturier,Hauts-de-France,2019,7,0.43138554219999997,0
+Couturier,Hauts-de-France,2019,8,0.4230240964,0
+Couturier,Hauts-de-France,2019,9,0.4533885542,0
+Couturier,Hauts-de-France,2019,10,0.3977861446,0
+Couturier,Hauts-de-France,2019,11,0.3632168675,0
+Couturier,Hauts-de-France,2020,0,0.4406475904,0
+Couturier,Hauts-de-France,2020,1,0.4750301205,0
+Couturier,Hauts-de-France,2020,2,0.3200361446,0
+Couturier,Hauts-de-France,2020,3,0.2422891567,0
+Couturier,Normandie,2019,0,0.1563253012,0
+Couturier,Normandie,2019,1,0.234939759,0
+Couturier,Normandie,2019,2,0.18433734940000002,0
+Couturier,Normandie,2019,3,0.2024096386,0
+Couturier,Normandie,2019,4,0.234939759,0
+Couturier,Normandie,2019,5,0.1922891566,0
+Couturier,Normandie,2019,6,0.2204819277,0
+Couturier,Normandie,2019,7,0.1554216867,0
+Couturier,Normandie,2019,8,0.141686747,0
+Couturier,Normandie,2019,9,0.1635542169,0
+Couturier,Normandie,2019,10,0.1463855422,0
+Couturier,Normandie,2019,11,0.1930120482,0
+Couturier,Normandie,2020,0,0.1518072289,0
+Couturier,Normandie,2020,1,0.1825301205,0
+Couturier,Normandie,2020,2,0.125060241,0
+Couturier,Normandie,2020,3,0.13192771080000001,0
+Couturier,Nouvelle-Aquitaine,2019,0,0.21125502010000002,0
+Couturier,Nouvelle-Aquitaine,2019,1,0.2160542169,0
+Couturier,Nouvelle-Aquitaine,2019,2,0.272064257,0
+Couturier,Nouvelle-Aquitaine,2019,3,0.2646485944,0
+Couturier,Nouvelle-Aquitaine,2019,4,0.2611847389,0
+Couturier,Nouvelle-Aquitaine,2019,5,0.2312771084,0
+Couturier,Nouvelle-Aquitaine,2019,6,0.197309237,0
+Couturier,Nouvelle-Aquitaine,2019,7,0.2054417671,0
+Couturier,Nouvelle-Aquitaine,2019,8,0.2089799197,0
+Couturier,Nouvelle-Aquitaine,2019,9,0.2368172691,0
+Couturier,Nouvelle-Aquitaine,2019,10,0.1664257028,0
+Couturier,Nouvelle-Aquitaine,2019,11,0.21405622489999998,0
+Couturier,Nouvelle-Aquitaine,2020,0,0.2520582329,0
+Couturier,Nouvelle-Aquitaine,2020,1,0.23527108440000002,0
+Couturier,Nouvelle-Aquitaine,2020,2,0.158626506,0
+Couturier,Nouvelle-Aquitaine,2020,3,0.1191164659,0
+Couturier,Occitanie,2019,0,0.2853012049,0
+Couturier,Occitanie,2019,1,0.3500301205,0
+Couturier,Occitanie,2019,2,0.366433735,0
+Couturier,Occitanie,2019,3,0.3671385542,0
+Couturier,Occitanie,2019,4,0.37725903619999995,0
+Couturier,Occitanie,2019,5,0.3314216868,0
+Couturier,Occitanie,2019,6,0.3597590362,0
+Couturier,Occitanie,2019,7,0.2865963855,0
+Couturier,Occitanie,2019,8,0.3527951807,0
+Couturier,Occitanie,2019,9,0.3371686747,0
+Couturier,Occitanie,2019,10,0.3191566265,0
+Couturier,Occitanie,2019,11,0.4378554217,0
+Couturier,Occitanie,2020,0,0.39060240960000003,0
+Couturier,Occitanie,2020,1,0.3848493976,0
+Couturier,Occitanie,2020,2,0.20286746989999999,0
+Couturier,Occitanie,2020,3,0.15379518080000001,0
+Couturier,Pays de la Loire,2019,0,0.2873795181,0
+Couturier,Pays de la Loire,2019,1,0.37656626509999996,0
+Couturier,Pays de la Loire,2019,2,0.338626506,0
+Couturier,Pays de la Loire,2019,3,0.2519879518,0
+Couturier,Pays de la Loire,2019,4,0.3369277108,0
+Couturier,Pays de la Loire,2019,5,0.2865301205,0
+Couturier,Pays de la Loire,2019,6,0.2222590361,0
+Couturier,Pays de la Loire,2019,7,0.2519879518,0
+Couturier,Pays de la Loire,2019,8,0.3069156627,0
+Couturier,Pays de la Loire,2019,9,0.2689759036,0
+Couturier,Pays de la Loire,2019,10,0.26756024100000003,0
+Couturier,Pays de la Loire,2019,11,0.282,0
+Couturier,Pays de la Loire,2020,0,0.3185240964,0
+Couturier,Pays de la Loire,2020,1,0.3355120482,0
+Couturier,Pays de la Loire,2020,2,0.2129156627,0
+Couturier,Pays de la Loire,2020,3,0.206686747,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,0,0.29493975899999997,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,1,0.4101506024,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,2,0.4350361446,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,3,0.44548192770000006,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,4,0.5192168675,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,5,0.3871084337,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,6,0.4147590361,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,7,0.43933734939999997,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,8,0.302313253,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,9,0.3225903614,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,10,0.36867469880000003,0
+Couturier,Provence-Alpes-Côte d'Azur,2019,11,0.35638554219999996,0
+Couturier,Provence-Alpes-Côte d'Azur,2020,0,0.4500903614,0
+Couturier,Provence-Alpes-Côte d'Azur,2020,1,0.48695783130000003,0
+Couturier,Provence-Alpes-Côte d'Azur,2020,2,0.25561445780000003,0
+Couturier,Provence-Alpes-Côte d'Azur,2020,3,0.196626506,0
+Couturier,Île-de-France,2019,0,0.7078313253,0
+Couturier,Île-de-France,2019,1,0.8373493976,0
+Couturier,Île-de-France,2019,2,0.8096385542,0
+Couturier,Île-de-France,2019,3,0.9126506024,0
+Couturier,Île-de-France,2019,4,0.9789156627,0
+Couturier,Île-de-France,2019,5,0.8,0
+Couturier,Île-de-France,2019,6,0.6475903614,0
+Couturier,Île-de-France,2019,7,0.7921686747,0
+Couturier,Île-de-France,2019,8,0.7807228916,0
+Couturier,Île-de-France,2019,9,0.8072289156999999,0
+Couturier,Île-de-France,2019,10,0.7620481928,0
+Couturier,Île-de-France,2019,11,0.7204819277,0
+Couturier,Île-de-France,2020,0,1.0,0
+Couturier,Île-de-France,2020,1,0.7951807229000001,0
+Couturier,Île-de-France,2020,2,0.5253012048,0
+Couturier,Île-de-France,2020,3,0.3975903614,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,0,0.2217411226,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,1,0.30998854530000003,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,2,0.2718350516,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,3,0.2823825888,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,4,0.3119129439,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,5,0.29320504010000004,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,6,0.2956930126,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,7,0.2859106529,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,8,0.254790378,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,9,0.20469644899999997,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,10,0.21333333329999998,0
+Fleuriste,Auvergne-Rhône-Alpes,2019,11,0.23809392899999998,0
+Fleuriste,Auvergne-Rhône-Alpes,2020,0,0.24128293239999998,0
+Fleuriste,Auvergne-Rhône-Alpes,2020,1,0.3380526919,0
+Fleuriste,Auvergne-Rhône-Alpes,2020,2,0.1597434135,0
+Fleuriste,Auvergne-Rhône-Alpes,2020,3,0.1945933562,0
+Fleuriste,Bourgogne-Franche-Comté,2019,0,0.1309965636,0
+Fleuriste,Bourgogne-Franche-Comté,2019,1,0.1736941581,0
+Fleuriste,Bourgogne-Franche-Comté,2019,2,0.1551202749,0
+Fleuriste,Bourgogne-Franche-Comté,2019,3,0.1560309279,0
+Fleuriste,Bourgogne-Franche-Comté,2019,4,0.1795532646,0
+Fleuriste,Bourgogne-Franche-Comté,2019,5,0.1260893471,0
+Fleuriste,Bourgogne-Franche-Comté,2019,6,0.10219931269999999,0
+Fleuriste,Bourgogne-Franche-Comté,2019,7,0.0926975945,0
+Fleuriste,Bourgogne-Franche-Comté,2019,8,0.15081786949999998,0
+Fleuriste,Bourgogne-Franche-Comté,2019,9,0.10572164949999999,0
+Fleuriste,Bourgogne-Franche-Comté,2019,10,0.08798969072,0
+Fleuriste,Bourgogne-Franche-Comté,2019,11,0.07501030927999999,0
+Fleuriste,Bourgogne-Franche-Comté,2020,0,0.1345876289,0
+Fleuriste,Bourgogne-Franche-Comté,2020,1,0.1229037801,0
+Fleuriste,Bourgogne-Franche-Comté,2020,2,0.09811683849,0
+Fleuriste,Bourgogne-Franche-Comté,2020,3,0.03683848797,0
+Fleuriste,Bretagne,2019,0,0.2690034364,0
+Fleuriste,Bretagne,2019,1,0.24810996559999998,0
+Fleuriste,Bretagne,2019,2,0.2726597938,0
+Fleuriste,Bretagne,2019,3,0.293814433,0
+Fleuriste,Bretagne,2019,4,0.2454982818,0
+Fleuriste,Bretagne,2019,5,0.3760824742,0
+Fleuriste,Bretagne,2019,6,0.2024054983,0
+Fleuriste,Bretagne,2019,7,0.3303780069,0
+Fleuriste,Bretagne,2019,8,0.2340068729,0
+Fleuriste,Bretagne,2019,9,0.2376632302,0
+Fleuriste,Bretagne,2019,10,0.24680412370000002,0
+Fleuriste,Bretagne,2019,11,0.2058006873,0
+Fleuriste,Bretagne,2020,0,0.32515463920000004,0
+Fleuriste,Bretagne,2020,1,0.3212371134,0
+Fleuriste,Bretagne,2020,2,0.1890859107,0
+Fleuriste,Bretagne,2020,3,0.13319587630000002,0
+Fleuriste,Centre-Val de Loire,2019,0,0.2479725086,0
+Fleuriste,Centre-Val de Loire,2019,1,0.3991752577,0
+Fleuriste,Centre-Val de Loire,2019,2,0.35683848799999995,0
+Fleuriste,Centre-Val de Loire,2019,3,0.29635738829999997,0
+Fleuriste,Centre-Val de Loire,2019,4,0.41127147770000005,0
+Fleuriste,Centre-Val de Loire,2019,5,0.3894982818,0
+Fleuriste,Centre-Val de Loire,2019,6,0.2827491409,0
+Fleuriste,Centre-Val de Loire,2019,7,0.3054295533,0
+Fleuriste,Centre-Val de Loire,2019,8,0.2927285223,0
+Fleuriste,Centre-Val de Loire,2019,9,0.1315463918,0
+Fleuriste,Centre-Val de Loire,2019,10,0.1980756014,0
+Fleuriste,Centre-Val de Loire,2019,11,0.1560412371,0
+Fleuriste,Centre-Val de Loire,2020,0,0.2721649485,0
+Fleuriste,Centre-Val de Loire,2020,1,0.4127835052,0
+Fleuriste,Centre-Val de Loire,2020,2,0.23950515460000002,0
+Fleuriste,Centre-Val de Loire,2020,3,0.19051546390000001,0
+Fleuriste,Corse,2019,0,0.01041237113,0
+Fleuriste,Corse,2019,1,0.01721649485,0
+Fleuriste,Corse,2019,2,0.009402061856,0
+Fleuriste,Corse,2019,3,0.009587628866,0
+Fleuriste,Corse,2019,4,0.011443298970000002,0
+Fleuriste,Corse,2019,5,0.01228865979,0
+Fleuriste,Corse,2019,6,0.010721649479999998,0
+Fleuriste,Corse,2019,7,0.01030927835,0
+Fleuriste,Corse,2019,8,0.00824742268,0
+Fleuriste,Corse,2019,9,0.008762886598,0
+Fleuriste,Corse,2019,10,0.01010309278,0
+Fleuriste,Corse,2019,11,0.0064329896909999995,0
+Fleuriste,Corse,2020,0,0.007113402062,0
+Fleuriste,Corse,2020,1,0.018350515459999998,0
+Fleuriste,Corse,2020,2,0.0065979381440000005,0
+Fleuriste,Corse,2020,3,0.0,0
+Fleuriste,Grand-Est,2019,0,0.19388316149999998,0
+Fleuriste,Grand-Est,2019,1,0.22388316149999998,0
+Fleuriste,Grand-Est,2019,2,0.24889805269999998,0
+Fleuriste,Grand-Est,2019,3,0.2267010309,0
+Fleuriste,Grand-Est,2019,4,0.23581901489999998,0
+Fleuriste,Grand-Est,2019,5,0.2378739977,0
+Fleuriste,Grand-Est,2019,6,0.2904581901,0
+Fleuriste,Grand-Est,2019,7,0.2189919817,0
+Fleuriste,Grand-Est,2019,8,0.232558992,0
+Fleuriste,Grand-Est,2019,9,0.153997709,0
+Fleuriste,Grand-Est,2019,10,0.147583047,0
+Fleuriste,Grand-Est,2019,11,0.1377411226,0
+Fleuriste,Grand-Est,2020,0,0.20508591059999998,0
+Fleuriste,Grand-Est,2020,1,0.23441008019999998,0
+Fleuriste,Grand-Est,2020,2,0.1337273769,0
+Fleuriste,Grand-Est,2020,3,0.2207560137,0
+Fleuriste,Hauts-de-France,2019,0,0.3425257732,0
+Fleuriste,Hauts-de-France,2019,1,0.36439862549999996,0
+Fleuriste,Hauts-de-France,2019,2,0.4271340206,0
+Fleuriste,Hauts-de-France,2019,3,0.4454982818,0
+Fleuriste,Hauts-de-France,2019,4,0.44137457049999995,0
+Fleuriste,Hauts-de-France,2019,5,0.4443848797,0
+Fleuriste,Hauts-de-France,2019,6,0.3682130585,0
+Fleuriste,Hauts-de-France,2019,7,0.47884879729999996,0
+Fleuriste,Hauts-de-France,2019,8,0.3972371134,0
+Fleuriste,Hauts-de-France,2019,9,0.34072164950000006,0
+Fleuriste,Hauts-de-France,2019,10,0.2892611684,0
+Fleuriste,Hauts-de-France,2019,11,0.2122199313,0
+Fleuriste,Hauts-de-France,2020,0,0.3352749141,0
+Fleuriste,Hauts-de-France,2020,1,0.36616838490000003,0
+Fleuriste,Hauts-de-France,2020,2,0.2165360825,0
+Fleuriste,Hauts-de-France,2020,3,0.2574914089,0
+Fleuriste,Normandie,2019,0,0.1724398625,0
+Fleuriste,Normandie,2019,1,0.2278350515,0
+Fleuriste,Normandie,2019,2,0.1579656357,0
+Fleuriste,Normandie,2019,3,0.21711340210000002,0
+Fleuriste,Normandie,2019,4,0.1885223368,0
+Fleuriste,Normandie,2019,5,0.1965635739,0
+Fleuriste,Normandie,2019,6,0.1501030928,0
+Fleuriste,Normandie,2019,7,0.2528522337,0
+Fleuriste,Normandie,2019,8,0.2244398625,0
+Fleuriste,Normandie,2019,9,0.1724398625,0
+Fleuriste,Normandie,2019,10,0.09560137457000001,0
+Fleuriste,Normandie,2019,11,0.1658281787,0
+Fleuriste,Normandie,2020,0,0.1215120275,0
+Fleuriste,Normandie,2020,1,0.2305154639,0
+Fleuriste,Normandie,2020,2,0.13795189,0
+Fleuriste,Normandie,2020,3,0.1000687285,0
+Fleuriste,Nouvelle-Aquitaine,2019,0,0.2712943872,0
+Fleuriste,Nouvelle-Aquitaine,2019,1,0.431626575,0
+Fleuriste,Nouvelle-Aquitaine,2019,2,0.34020618560000004,0
+Fleuriste,Nouvelle-Aquitaine,2019,3,0.413161512,0
+Fleuriste,Nouvelle-Aquitaine,2019,4,0.47178694159999995,0
+Fleuriste,Nouvelle-Aquitaine,2019,5,0.3425612829,0
+Fleuriste,Nouvelle-Aquitaine,2019,6,0.3817411226,0
+Fleuriste,Nouvelle-Aquitaine,2019,7,0.3756242841,0
+Fleuriste,Nouvelle-Aquitaine,2019,8,0.3053379152,0
+Fleuriste,Nouvelle-Aquitaine,2019,9,0.37333333329999996,0
+Fleuriste,Nouvelle-Aquitaine,2019,10,0.2604925544,0
+Fleuriste,Nouvelle-Aquitaine,2019,11,0.19046964489999998,0
+Fleuriste,Nouvelle-Aquitaine,2020,0,0.32419243989999996,0
+Fleuriste,Nouvelle-Aquitaine,2020,1,0.33013745699999997,0
+Fleuriste,Nouvelle-Aquitaine,2020,2,0.2907399771,0
+Fleuriste,Nouvelle-Aquitaine,2020,3,0.10776632300000001,0
+Fleuriste,Occitanie,2019,0,0.2048281787,0
+Fleuriste,Occitanie,2019,1,0.2276116839,0
+Fleuriste,Occitanie,2019,2,0.2575120275,0
+Fleuriste,Occitanie,2019,3,0.20895189,0
+Fleuriste,Occitanie,2019,4,0.29135738829999996,0
+Fleuriste,Occitanie,2019,5,0.2565085911,0
+Fleuriste,Occitanie,2019,6,0.2576116839,0
+Fleuriste,Occitanie,2019,7,0.2254639175,0
+Fleuriste,Occitanie,2019,8,0.2071752578,0
+Fleuriste,Occitanie,2019,9,0.1699484536,0
+Fleuriste,Occitanie,2019,10,0.1988487973,0
+Fleuriste,Occitanie,2019,11,0.1487835052,0
+Fleuriste,Occitanie,2020,0,0.22591065300000002,0
+Fleuriste,Occitanie,2020,1,0.2795532646,0
+Fleuriste,Occitanie,2020,2,0.1411134021,0
+Fleuriste,Occitanie,2020,3,0.09326460482000001,0
+Fleuriste,Pays de la Loire,2019,0,0.2535738832,0
+Fleuriste,Pays de la Loire,2019,1,0.2891065292,0
+Fleuriste,Pays de la Loire,2019,2,0.387628866,0
+Fleuriste,Pays de la Loire,2019,3,0.4280068729,0
+Fleuriste,Pays de la Loire,2019,4,0.387628866,0
+Fleuriste,Pays de la Loire,2019,5,0.39279725090000006,0
+Fleuriste,Pays de la Loire,2019,6,0.3553264605,0
+Fleuriste,Pays de la Loire,2019,7,0.3327147766,0
+Fleuriste,Pays de la Loire,2019,8,0.3398213058,0
+Fleuriste,Pays de la Loire,2019,9,0.2503436426,0
+Fleuriste,Pays de la Loire,2019,10,0.19219931269999999,0
+Fleuriste,Pays de la Loire,2019,11,0.2041512027,0
+Fleuriste,Pays de la Loire,2020,0,0.3795532646,0
+Fleuriste,Pays de la Loire,2020,1,0.38439862539999997,0
+Fleuriste,Pays de la Loire,2020,2,0.2222405498,0
+Fleuriste,Pays de la Loire,2020,3,0.10659793810000001,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,0,0.24539518899999999,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,1,0.3076975945,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,2,0.2919312715,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,3,0.3293127148,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,4,0.2695532646,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,5,0.3234639175,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,6,0.237766323,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,7,0.2822680412,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,8,0.24208934710000002,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,9,0.18690721649999997,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,10,0.18690721649999997,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,11,0.11595876289999998,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2020,0,0.2250515464,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2020,1,0.2237800687,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2020,2,0.1332508591,0
+Fleuriste,Provence-Alpes-Côte d'Azur,2020,3,0.18309278350000002,0
+Fleuriste,Île-de-France,2019,0,0.8041237112999999,0
+Fleuriste,Île-de-France,2019,1,0.8419243986,0
+Fleuriste,Île-de-France,2019,2,0.7862542954999999,0
+Fleuriste,Île-de-France,2019,3,1.0,0
+Fleuriste,Île-de-France,2019,4,0.8625429553,0
+Fleuriste,Île-de-France,2019,5,0.8742268041,0
+Fleuriste,Île-de-France,2019,6,0.6907216495,0
+Fleuriste,Île-de-France,2019,7,0.824742268,0
+Fleuriste,Île-de-France,2019,8,0.8659793814,0
+Fleuriste,Île-de-France,2019,9,0.7319587629000001,0
+Fleuriste,Île-de-France,2019,10,0.5807560137,0
+Fleuriste,Île-de-France,2019,11,0.6240549828,0
+Fleuriste,Île-de-France,2020,0,0.6529209622,0
+Fleuriste,Île-de-France,2020,1,0.8178694157999999,0
+Fleuriste,Île-de-France,2020,2,0.6020618557,0
+Fleuriste,Île-de-France,2020,3,0.41924398630000004,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,0,0.13138124810000001,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,1,0.1434782609,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,2,0.1372020112,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,3,0.1415113871,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,4,0.1014049098,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,5,0.1157882283,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,6,0.1166666667,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,7,0.1762200532,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,8,0.1362082224,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,9,0.3741792369,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,10,0.1747264123,0
+Maquilleur,Auvergne-Rhône-Alpes,2019,11,0.2152144336,0
+Maquilleur,Auvergne-Rhône-Alpes,2020,0,0.1312037859,0
+Maquilleur,Auvergne-Rhône-Alpes,2020,1,0.1452528838,0
+Maquilleur,Auvergne-Rhône-Alpes,2020,2,0.1485359361,0
+Maquilleur,Auvergne-Rhône-Alpes,2020,3,0.1756580893,0
+Maquilleur,Bourgogne-Franche-Comté,2019,0,0.06690328305,0
+Maquilleur,Bourgogne-Franche-Comté,2019,1,0.07526619343999999,0
+Maquilleur,Bourgogne-Franche-Comté,2019,2,0.10292812779999999,0
+Maquilleur,Bourgogne-Franche-Comté,2019,3,0.17176131320000002,0
+Maquilleur,Bourgogne-Franche-Comté,2019,4,0.1685448092,0
+Maquilleur,Bourgogne-Franche-Comté,2019,5,0.06381543922,0
+Maquilleur,Bourgogne-Franche-Comté,2019,6,0.0469609583,0
+Maquilleur,Bourgogne-Franche-Comté,2019,7,0.06047027507,0
+Maquilleur,Bourgogne-Franche-Comté,2019,8,0.21511978699999998,0
+Maquilleur,Bourgogne-Franche-Comté,2019,9,0.2959183673,0
+Maquilleur,Bourgogne-Franche-Comté,2019,10,0.17948092280000003,0
+Maquilleur,Bourgogne-Franche-Comté,2019,11,0.1765217391,0
+Maquilleur,Bourgogne-Franche-Comté,2020,0,0.05982697427,0
+Maquilleur,Bourgogne-Franche-Comté,2020,1,0.10099822539999999,0
+Maquilleur,Bourgogne-Franche-Comté,2020,2,0.203797693,0
+Maquilleur,Bourgogne-Franche-Comté,2020,3,0.06433007986,0
+Maquilleur,Bretagne,2019,0,0.1430789707,0
+Maquilleur,Bretagne,2019,1,0.3959627329,0
+Maquilleur,Bretagne,2019,2,0.338065661,0
+Maquilleur,Bretagne,2019,3,0.1597160603,0
+Maquilleur,Bretagne,2019,4,0.1563886424,0
+Maquilleur,Bretagne,2019,5,0.298136646,0
+Maquilleur,Bretagne,2019,6,0.03327417923999999,0
+Maquilleur,Bretagne,2019,7,0.1464063886,0
+Maquilleur,Bretagne,2019,8,0.1277728483,0
+Maquilleur,Bretagne,2019,9,0.3726708075,0
+Maquilleur,Bretagne,2019,10,0.2395740905,0
+Maquilleur,Bretagne,2019,11,0.3194321207,0
+Maquilleur,Bretagne,2020,0,0.04325643301,0
+Maquilleur,Bretagne,2020,1,0.1364241349,0
+Maquilleur,Bretagne,2020,2,0.5403726708,0
+Maquilleur,Bretagne,2020,3,0.2129547471,0
+Maquilleur,Centre-Val de Loire,2019,0,0.2673469388,0
+Maquilleur,Centre-Val de Loire,2019,1,0.04489795918,0
+Maquilleur,Centre-Val de Loire,2019,2,0.13387755099999998,0
+Maquilleur,Centre-Val de Loire,2019,3,0.1346938776,0
+Maquilleur,Centre-Val de Loire,2019,4,0.3020408163,0
+Maquilleur,Centre-Val de Loire,2019,5,0.1142857143,0
+Maquilleur,Centre-Val de Loire,2019,6,0.03673469388,0
+Maquilleur,Centre-Val de Loire,2019,7,0.03673469388,0
+Maquilleur,Centre-Val de Loire,2019,8,0.23836734690000003,0
+Maquilleur,Centre-Val de Loire,2019,9,0.4142857143,0
+Maquilleur,Centre-Val de Loire,2019,10,0.1408163265,0
+Maquilleur,Centre-Val de Loire,2019,11,0.1208163265,0
+Maquilleur,Centre-Val de Loire,2020,0,0.34693877549999996,0
+Maquilleur,Centre-Val de Loire,2020,1,0.04693877551,0
+Maquilleur,Centre-Val de Loire,2020,2,0.09469387755000001,0
+Maquilleur,Centre-Val de Loire,2020,3,0.048979591839999996,0
+Maquilleur,Corse,2019,0,0.049245785269999995,0
+Maquilleur,Corse,2019,1,0.04125998225,0
+Maquilleur,Corse,2019,2,0.06175687666,0
+Maquilleur,Corse,2019,3,0.046583850930000004,0
+Maquilleur,Corse,2019,4,0.03726708075,0
+Maquilleur,Corse,2019,5,0.051109139309999996,0
+Maquilleur,Corse,2019,6,0.042590949419999996,0
+Maquilleur,Corse,2019,7,0.04125998225,0
+Maquilleur,Corse,2019,8,0.036202307010000004,0
+Maquilleur,Corse,2019,9,0.1677018634,0
+Maquilleur,Corse,2019,10,0.06388642413,0
+Maquilleur,Corse,2019,11,0.07559893523,0
+Maquilleur,Corse,2020,0,0.05323868678,0
+Maquilleur,Corse,2020,1,0.08385093167999999,0
+Maquilleur,Corse,2020,2,0.044720496889999996,0
+Maquilleur,Corse,2020,3,0.0479148181,0
+Maquilleur,Grand-Est,2019,0,0.1275805974,0
+Maquilleur,Grand-Est,2019,1,0.1568618752,0
+Maquilleur,Grand-Est,2019,2,0.20214137829999998,0
+Maquilleur,Grand-Est,2019,3,0.08714877254,0
+Maquilleur,Grand-Est,2019,4,0.1612984324,0
+Maquilleur,Grand-Est,2019,5,0.1607690032,0
+Maquilleur,Grand-Est,2019,6,0.07391304347,0
+Maquilleur,Grand-Est,2019,7,0.08450162673,0
+Maquilleur,Grand-Est,2019,8,0.07346938775,0
+Maquilleur,Grand-Est,2019,9,0.2729074239,0
+Maquilleur,Grand-Est,2019,10,0.15418515230000002,0
+Maquilleur,Grand-Est,2019,11,0.09347530316,0
+Maquilleur,Grand-Est,2020,0,0.18504880210000002,0
+Maquilleur,Grand-Est,2020,1,0.1112392783,0
+Maquilleur,Grand-Est,2020,2,0.1718544809,0
+Maquilleur,Grand-Est,2020,3,0.2554569654,0
+Maquilleur,Hauts-de-France,2019,0,0.2077639752,0
+Maquilleur,Hauts-de-France,2019,1,0.2615350488,0
+Maquilleur,Hauts-de-France,2019,2,0.4406388643,0
+Maquilleur,Hauts-de-France,2019,3,0.22668589179999998,0
+Maquilleur,Hauts-de-France,2019,4,0.3017968057,0
+Maquilleur,Hauts-de-France,2019,5,0.2087133984,0
+Maquilleur,Hauts-de-France,2019,6,0.1522182786,0
+Maquilleur,Hauts-de-France,2019,7,0.10860692109999999,0
+Maquilleur,Hauts-de-France,2019,8,0.1799290151,0
+Maquilleur,Hauts-de-France,2019,9,0.5358030169,0
+Maquilleur,Hauts-de-France,2019,10,0.3035048803,0
+Maquilleur,Hauts-de-France,2019,11,0.1157054126,0
+Maquilleur,Hauts-de-France,2020,0,0.1367125111,0
+Maquilleur,Hauts-de-France,2020,1,0.36608252,0
+Maquilleur,Hauts-de-France,2020,2,0.2514108252,0
+Maquilleur,Hauts-de-France,2020,3,0.2971162378,0
+Maquilleur,Normandie,2019,0,0.05434782609,0
+Maquilleur,Normandie,2019,1,0.048802129550000004,0
+Maquilleur,Normandie,2019,2,0.05856255546,0
+Maquilleur,Normandie,2019,3,0.04436557232,0
+Maquilleur,Normandie,2019,4,0.02218278616,0
+Maquilleur,Normandie,2019,5,0.039041703639999994,0
+Maquilleur,Normandie,2019,6,0.02218278616,0
+Maquilleur,Normandie,2019,7,0.0421472937,0
+Maquilleur,Normandie,2019,8,0.03726708075,0
+Maquilleur,Normandie,2019,9,0.18078970719999998,0
+Maquilleur,Normandie,2019,10,0.05545696539,0
+Maquilleur,Normandie,2019,11,0.05767524401000001,0
+Maquilleur,Normandie,2020,0,0.0421472937,0
+Maquilleur,Normandie,2020,1,0.052129547469999996,0
+Maquilleur,Normandie,2020,2,0.04436557232,0
+Maquilleur,Normandie,2020,3,0.046583850930000004,0
+Maquilleur,Nouvelle-Aquitaine,2019,0,0.2263383614,0
+Maquilleur,Nouvelle-Aquitaine,2019,1,0.24767820170000002,0
+Maquilleur,Nouvelle-Aquitaine,2019,2,0.1332505176,0
+Maquilleur,Nouvelle-Aquitaine,2019,3,0.2674356699,0
+Maquilleur,Nouvelle-Aquitaine,2019,4,0.21018929309999998,0
+Maquilleur,Nouvelle-Aquitaine,2019,5,0.1360899142,0
+Maquilleur,Nouvelle-Aquitaine,2019,6,0.059568175099999995,0
+Maquilleur,Nouvelle-Aquitaine,2019,7,0.1427979888,0
+Maquilleur,Nouvelle-Aquitaine,2019,8,0.22091688850000002,0
+Maquilleur,Nouvelle-Aquitaine,2019,9,0.33803608399999996,0
+Maquilleur,Nouvelle-Aquitaine,2019,10,0.13007985800000002,0
+Maquilleur,Nouvelle-Aquitaine,2019,11,0.3547707779,0
+Maquilleur,Nouvelle-Aquitaine,2020,0,0.07925170069,0
+Maquilleur,Nouvelle-Aquitaine,2020,1,0.2549837326,0
+Maquilleur,Nouvelle-Aquitaine,2020,2,0.1585566401,0
+Maquilleur,Nouvelle-Aquitaine,2020,3,0.428216504,0
+Maquilleur,Occitanie,2019,0,0.1246672582,0
+Maquilleur,Occitanie,2019,1,0.6095829636,0
+Maquilleur,Occitanie,2019,2,0.5494232475999999,0
+Maquilleur,Occitanie,2019,3,0.4685004437,0
+Maquilleur,Occitanie,2019,4,0.1863354038,0
+Maquilleur,Occitanie,2019,5,0.2338952973,0
+Maquilleur,Occitanie,2019,6,0.3913043479,0
+Maquilleur,Occitanie,2019,7,0.1086956522,0
+Maquilleur,Occitanie,2019,8,0.2299911269,0
+Maquilleur,Occitanie,2019,9,0.5638864242,0
+Maquilleur,Occitanie,2019,10,0.4338952973,0
+Maquilleur,Occitanie,2019,11,0.46992014200000004,0
+Maquilleur,Occitanie,2020,0,0.2311446318,0
+Maquilleur,Occitanie,2020,1,0.3651286602,0
+Maquilleur,Occitanie,2020,2,0.1118012423,0
+Maquilleur,Occitanie,2020,3,0.3034605146,0
+Maquilleur,Pays de la Loire,2019,0,0.09862466725999999,0
+Maquilleur,Pays de la Loire,2019,1,0.33886424130000004,0
+Maquilleur,Pays de la Loire,2019,2,0.2791836735,0
+Maquilleur,Pays de la Loire,2019,3,0.09862466725999999,0
+Maquilleur,Pays de la Loire,2019,4,0.15931677019999999,0
+Maquilleur,Pays de la Loire,2019,5,0.11733806570000001,0
+Maquilleur,Pays de la Loire,2019,6,0.1466725821,0
+Maquilleur,Pays de la Loire,2019,7,0.09862466725999999,0
+Maquilleur,Pays de la Loire,2019,8,0.1739840284,0
+Maquilleur,Pays de la Loire,2019,9,0.47289263530000003,0
+Maquilleur,Pays de la Loire,2019,10,0.19219165929999998,0
+Maquilleur,Pays de la Loire,2019,11,0.27513753329999996,0
+Maquilleur,Pays de la Loire,2020,0,0.1846051464,0
+Maquilleur,Pays de la Loire,2020,1,0.1441437445,0
+Maquilleur,Pays de la Loire,2020,2,0.06878438332,0
+Maquilleur,Pays de la Loire,2020,3,0.3439219166,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,0,0.052795031060000004,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,1,0.3136645963,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,2,0.2906832298,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,3,0.2391304348,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,4,0.28881987579999996,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,5,0.21614906829999997,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,6,0.301242236,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,7,0.3633540373,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,8,0.4198757764,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,9,0.5341614907,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,10,0.5,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,11,0.2782608696,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2020,0,0.47204968939999997,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2020,1,0.13664596269999998,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2020,2,0.2086956522,0
+Maquilleur,Provence-Alpes-Côte d'Azur,2020,3,0.5590062111999999,0
+Maquilleur,Île-de-France,2019,0,0.6040816327,0
+Maquilleur,Île-de-France,2019,1,0.6367346939,0
+Maquilleur,Île-de-France,2019,2,0.7020408162999999,0
+Maquilleur,Île-de-France,2019,3,0.5551020408,0
+Maquilleur,Île-de-France,2019,4,0.6612244897999999,0
+Maquilleur,Île-de-France,2019,5,0.5812244898,0
+Maquilleur,Île-de-France,2019,6,0.6204081633,0
+Maquilleur,Île-de-France,2019,7,0.5428571429,0
+Maquilleur,Île-de-France,2019,8,0.5746938776,0
+Maquilleur,Île-de-France,2019,9,1.0,0
+Maquilleur,Île-de-France,2019,10,0.4489795918,0
+Maquilleur,Île-de-France,2019,11,0.6726530612,0
+Maquilleur,Île-de-France,2020,0,0.6408163265,0
+Maquilleur,Île-de-France,2020,1,0.5469387754999999,0
+Maquilleur,Île-de-France,2020,2,0.4636734694,0
+Maquilleur,Île-de-France,2020,3,0.9469387754999999,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,0,0.02346602814,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,1,0.08939439289,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,2,0.058297914779999994,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,3,0.09554025741000001,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,4,0.10408061460000001,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,5,0.0292447371,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,6,0.05363663573,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,7,0.12156041109999999,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,8,0.09437493765,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,9,0.1318168213,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,10,0.05962286741,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,11,0.07368652099999999,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2020,0,0.04645315773,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2020,1,0.03942931258,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2020,2,0.036715554219999995,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2020,3,0.06712561110000001,0
+Organisation de mariage,Auvergne-Rhône-Alpes,2020,4,0.2886161828,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,0,0.010296318470000001,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,1,0.011673151750000001,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,2,0.012834480700000001,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,3,0.0,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,4,0.02927267285,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,5,0.01302604011,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,6,0.033522897339999996,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,7,0.01053576774,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,8,0.02121520503,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,9,0.06082011374,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,10,0.01520502844,0
+Organisation de mariage,Bourgogne-Franche-Comté,2019,11,0.01848548339,0
+Organisation de mariage,Bourgogne-Franche-Comté,2020,0,0.023885064350000002,0
+Organisation de mariage,Bourgogne-Franche-Comté,2020,1,0.004310086801,0
+Organisation de mariage,Bourgogne-Franche-Comté,2020,2,0.012595031429999999,0
+Organisation de mariage,Bourgogne-Franche-Comté,2020,3,0.01771924574,0
+Organisation de mariage,Bretagne,2019,0,0.010535767730000001,0
+Organisation de mariage,Bretagne,2019,1,0.03112840467,0
+Organisation de mariage,Bretagne,2019,2,0.008045495361,0
+Organisation de mariage,Bretagne,2019,3,0.040706375339999996,0
+Organisation de mariage,Bretagne,2019,4,0.041185273870000004,0
+Organisation de mariage,Bretagne,2019,5,0.05401975456,0
+Organisation de mariage,Bretagne,2019,6,0.059862316670000006,0
+Organisation de mariage,Bretagne,2019,7,0.02825501347,0
+Organisation de mariage,Bretagne,2019,8,0.04903920982,0
+Organisation de mariage,Bretagne,2019,9,0.032086201739999994,0
+Organisation de mariage,Bretagne,2019,10,0.03543849147,0
+Organisation de mariage,Bretagne,2019,11,0.02183777312,0
+Organisation de mariage,Bretagne,2020,0,0.07039808441,0
+Organisation de mariage,Bretagne,2020,1,0.04262196947,0
+Organisation de mariage,Bretagne,2020,2,0.03754564502,0
+Organisation de mariage,Bretagne,2020,3,0.08332834481000001,0
+Organisation de mariage,Centre-Val de Loire,2019,0,0.06082011374,0
+Organisation de mariage,Centre-Val de Loire,2019,1,0.0531577372,0
+Organisation de mariage,Centre-Val de Loire,2019,2,0.043292427419999994,0
+Organisation de mariage,Centre-Val de Loire,2019,3,0.03687518707,0
+Organisation de mariage,Centre-Val de Loire,2019,4,0.08715953307,0
+Organisation de mariage,Centre-Val de Loire,2019,5,0.07700688417,0
+Organisation de mariage,Centre-Val de Loire,2019,6,0.02681831787,0
+Organisation de mariage,Centre-Val de Loire,2019,7,0.03687518707,0
+Organisation de mariage,Centre-Val de Loire,2019,8,0.06666267585,0
+Organisation de mariage,Centre-Val de Loire,2019,9,0.08045495361,0
+Organisation de mariage,Centre-Val de Loire,2019,10,0.07949715654,0
+Organisation de mariage,Centre-Val de Loire,2019,11,0.052104160430000004,0
+Organisation de mariage,Centre-Val de Loire,2020,0,0.03831188267,0
+Organisation de mariage,Centre-Val de Loire,2020,1,0.09242741694,0
+Organisation de mariage,Centre-Val de Loire,2020,2,0.057850942829999995,0
+Organisation de mariage,Centre-Val de Loire,2020,3,0.08332834481000001,0
+Organisation de mariage,Corse,2019,0,0.0,0
+Organisation de mariage,Corse,2019,1,0.047889853339999996,0
+Organisation de mariage,Corse,2019,2,0.0,0
+Organisation de mariage,Corse,2019,3,0.0445375636,0
+Organisation de mariage,Corse,2019,4,0.041185273870000004,0
+Organisation de mariage,Corse,2019,5,0.0,0
+Organisation de mariage,Corse,2019,6,0.0,0
+Organisation de mariage,Corse,2019,7,0.0272972164,0
+Organisation de mariage,Corse,2019,8,0.057084705179999994,0
+Organisation de mariage,Corse,2019,9,0.040706375339999996,0
+Organisation de mariage,Corse,2019,10,0.0,0
+Organisation de mariage,Corse,2019,11,0.0,0
+Organisation de mariage,Corse,2020,0,0.0,0
+Organisation de mariage,Corse,2020,1,0.040706375339999996,0
+Organisation de mariage,Corse,2020,2,0.0,0
+Organisation de mariage,Corse,2020,3,0.0,0
+Organisation de mariage,Grand-Est,2019,0,0.027097675350000003,0
+Organisation de mariage,Grand-Est,2019,1,0.014366956,0
+Organisation de mariage,Grand-Est,2019,2,0.0172403472,0
+Organisation de mariage,Grand-Est,2019,3,0.007981642221999999,0
+Organisation de mariage,Grand-Est,2019,4,0.021031627259999998,0
+Organisation de mariage,Grand-Est,2019,5,0.01851740996,0
+Organisation de mariage,Grand-Est,2019,6,0.0387907812,0
+Organisation de mariage,Grand-Est,2019,7,0.047770128710000005,0
+Organisation de mariage,Grand-Est,2019,8,0.02865409558,0
+Organisation de mariage,Grand-Est,2019,9,0.019135987230000002,0
+Organisation de mariage,Grand-Est,2019,10,0.02454354984,0
+Organisation de mariage,Grand-Est,2019,11,0.027153546839999997,0
+Organisation de mariage,Grand-Est,2020,0,0.038671056569999994,0
+Organisation de mariage,Grand-Est,2020,1,0.03819215803999999,0
+Organisation de mariage,Grand-Est,2020,2,0.015659982040000003,0
+Organisation de mariage,Grand-Est,2020,3,0.037473810239999995,0
+Organisation de mariage,Hauts-de-France,2019,0,0.01322957199,0
+Organisation de mariage,Hauts-de-France,2019,1,0.007482789584999999,0
+Organisation de mariage,Hauts-de-France,2019,2,0.02097575576,0
+Organisation de mariage,Hauts-de-France,2019,3,0.01520502844,0
+Organisation de mariage,Hauts-de-France,2019,4,0.043100868,0
+Organisation de mariage,Hauts-de-France,2019,5,0.03577372045,0
+Organisation de mariage,Hauts-de-France,2019,6,0.02834480695,0
+Organisation de mariage,Hauts-de-France,2019,7,0.02900329243,0
+Organisation de mariage,Hauts-de-France,2019,8,0.03347500748,0
+Organisation de mariage,Hauts-de-France,2019,9,0.04286141874,0
+Organisation de mariage,Hauts-de-France,2019,10,0.0262196947,0
+Organisation de mariage,Hauts-de-France,2019,11,0.01776713559,0
+Organisation de mariage,Hauts-de-France,2020,0,0.0199042203,0
+Organisation de mariage,Hauts-de-France,2020,1,0.03412152051,0
+Organisation de mariage,Hauts-de-France,2020,2,0.024639329539999998,0
+Organisation de mariage,Hauts-de-France,2020,3,0.0510026938,0
+Organisation de mariage,Normandie,2019,0,0.016761448669999998,0
+Organisation de mariage,Normandie,2019,1,0.05507333134,0
+Organisation de mariage,Normandie,2019,2,0.057467824,0
+Organisation de mariage,Normandie,2019,3,0.05219994014,0
+Organisation de mariage,Normandie,2019,4,0.0531577372,0
+Organisation de mariage,Normandie,2019,5,0.0402274768,0
+Organisation de mariage,Normandie,2019,6,0.0,0
+Organisation de mariage,Normandie,2019,7,0.032086201739999994,0
+Organisation de mariage,Normandie,2019,8,0.02681831787,0
+Organisation de mariage,Normandie,2019,9,0.04932654893999999,0
+Organisation de mariage,Normandie,2019,10,0.03112840467,0
+Organisation de mariage,Normandie,2019,11,0.050954803949999995,0
+Organisation de mariage,Normandie,2020,0,0.04549536067,0
+Organisation de mariage,Normandie,2020,1,0.04501646214,0
+Organisation de mariage,Normandie,2020,2,0.009961089494,0
+Organisation de mariage,Normandie,2020,3,0.06129901227000001,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,0,0.07514716154000001,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,1,0.1327147561,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,2,0.1554664272,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,3,0.05716851243,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,4,0.0599820413,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,5,0.2175476404,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,6,0.04623366258,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,7,0.20239449269999998,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,8,0.20231866710000002,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,9,0.0783398184,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,10,0.1365259902,0
+Organisation de mariage,Nouvelle-Aquitaine,2019,11,0.1973381223,0
+Organisation de mariage,Nouvelle-Aquitaine,2020,0,0.12227875880000001,0
+Organisation de mariage,Nouvelle-Aquitaine,2020,1,0.034121520499999995,0
+Organisation de mariage,Nouvelle-Aquitaine,2020,2,0.06037314177,0
+Organisation de mariage,Nouvelle-Aquitaine,2020,3,0.041504539560000005,0
+Organisation de mariage,Nouvelle-Aquitaine,2020,4,0.6385313778,0
+Organisation de mariage,Occitanie,2019,0,0.06716551931,0
+Organisation de mariage,Occitanie,2019,1,0.0780903921,0
+Organisation de mariage,Occitanie,2019,2,0.08296917091,0
+Organisation de mariage,Occitanie,2019,3,0.07584555522999999,0
+Organisation de mariage,Occitanie,2019,4,0.03926967974,0
+Organisation de mariage,Occitanie,2019,5,0.05504938641,0
+Organisation de mariage,Occitanie,2019,6,0.02376533972,0
+Organisation de mariage,Occitanie,2019,7,0.1128703981,0
+Organisation de mariage,Occitanie,2019,8,0.08232265788,0
+Organisation de mariage,Occitanie,2019,9,0.09042202934,0
+Organisation de mariage,Occitanie,2019,10,0.05070338222,0
+Organisation de mariage,Occitanie,2019,11,0.06527387009999999,0
+Organisation de mariage,Occitanie,2020,0,0.06345405567000001,0
+Organisation de mariage,Occitanie,2020,1,0.06917090692000001,0
+Organisation de mariage,Occitanie,2020,2,0.06022149057,0
+Organisation de mariage,Occitanie,2020,3,0.0,0
+Organisation de mariage,Pays de la Loire,2019,0,0.02891349895,0
+Organisation de mariage,Pays de la Loire,2019,1,0.04106554924,0
+Organisation de mariage,Pays de la Loire,2019,2,0.02447171506,0
+Organisation de mariage,Pays de la Loire,2019,3,0.031008680039999997,0
+Organisation de mariage,Pays de la Loire,2019,4,0.07249326549,0
+Organisation de mariage,Pays de la Loire,2019,5,0.03955701886,0
+Organisation de mariage,Pays de la Loire,2019,6,0.04064651302,0
+Organisation de mariage,Pays de la Loire,2019,7,0.04064651302,0
+Organisation de mariage,Pays de la Loire,2019,8,0.04559114038,0
+Organisation de mariage,Pays de la Loire,2019,9,0.04651302005,0
+Organisation de mariage,Pays de la Loire,2019,10,0.009218796767,0
+Organisation de mariage,Pays de la Loire,2019,11,0.01475007483,0
+Organisation de mariage,Pays de la Loire,2020,0,0.052379527089999996,0
+Organisation de mariage,Pays de la Loire,2020,1,0.03478000599,0
+Organisation de mariage,Pays de la Loire,2020,2,0.03754564502,0
+Organisation de mariage,Pays de la Loire,2020,3,0.0,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,0,0.18533373239999998,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,1,0.18533373239999998,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,2,0.22757258309999998,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,3,0.1314576474,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,4,0.12930260400000002,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,5,0.1517150554,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,6,0.2995510326,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,7,0.269380425,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,8,0.462041305,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,9,0.2887758156,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,10,0.2348997306,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,11,0.0,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2020,0,0.193953906,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2020,1,0.4891948518,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2020,2,0.027584555519999998,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2020,3,0.226279557,0
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2020,4,0.2068841664,0
+Organisation de mariage,Île-de-France,2019,0,0.7821011673,0
+Organisation de mariage,Île-de-France,2019,1,0.9027237354000001,0
+Organisation de mariage,Île-de-France,2019,2,0.7750972762999999,0
+Organisation de mariage,Île-de-France,2019,3,0.9182879377,0
+Organisation de mariage,Île-de-France,2019,4,0.8754863813,0
+Organisation de mariage,Île-de-France,2019,5,0.5416342411999999,0
+Organisation de mariage,Île-de-France,2019,6,0.9027237354000001,0
+Organisation de mariage,Île-de-France,2019,7,0.8249027237000001,0
+Organisation de mariage,Île-de-France,2019,8,0.8778210117,0
+Organisation de mariage,Île-de-France,2019,9,0.7626459144,0
+Organisation de mariage,Île-de-France,2019,10,0.6186770428,0
+Organisation de mariage,Île-de-France,2019,11,0.6817120623,0
+Organisation de mariage,Île-de-France,2020,0,1.0,0
+Organisation de mariage,Île-de-France,2020,1,0.6926070039,0
+Organisation de mariage,Île-de-France,2020,2,0.6132295720000001,0
+Organisation de mariage,Île-de-France,2020,3,0.5175097276,0
+Organisation de mariage,Île-de-France,2020,4,0.45136186770000003,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,0,0.08722156319,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,1,0.08000527217,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,2,0.1141426124,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,3,0.09242783711000001,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,4,0.09608540926,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,5,0.08332674309999999,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,6,0.10547647289999999,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,7,0.1121984974,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,8,0.1717411362,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,9,0.12186964539999999,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,10,0.07252537234,0
+Wedding planner,Auvergne-Rhône-Alpes,2019,11,0.056728614739999995,0
+Wedding planner,Auvergne-Rhône-Alpes,2020,0,0.06985633319,0
+Wedding planner,Auvergne-Rhône-Alpes,2020,1,0.10195070519999999,0
+Wedding planner,Auvergne-Rhône-Alpes,2020,2,0.09903782786,0
+Wedding planner,Auvergne-Rhône-Alpes,2020,3,0.1422499011,0
+Wedding planner,Bourgogne-Franche-Comté,2019,0,0.022340846180000002,0
+Wedding planner,Bourgogne-Franche-Comté,2019,1,0.01927639384,0
+Wedding planner,Bourgogne-Franche-Comté,2019,2,0.02593910637,0
+Wedding planner,Bourgogne-Franche-Comté,2019,3,0.005931198100000001,0
+Wedding planner,Bourgogne-Franche-Comté,2019,4,0.048339264539999996,0
+Wedding planner,Bourgogne-Franche-Comté,2019,5,0.02815342033,0
+Wedding planner,Bourgogne-Franche-Comté,2019,6,0.07285488336,0
+Wedding planner,Bourgogne-Franche-Comté,2019,7,0.0173981811,0
+Wedding planner,Bourgogne-Franche-Comté,2019,8,0.04831949387,0
+Wedding planner,Bourgogne-Franche-Comté,2019,9,0.1057730328,0
+Wedding planner,Bourgogne-Franche-Comté,2019,10,0.02510873864,0
+Wedding planner,Bourgogne-Franche-Comté,2019,11,0.034559114280000004,0
+Wedding planner,Bourgogne-Franche-Comté,2020,0,0.053677342829999995,0
+Wedding planner,Bourgogne-Franche-Comté,2020,1,0.011862396200000002,0
+Wedding planner,Bourgogne-Franche-Comté,2020,2,0.02079873468,0
+Wedding planner,Bourgogne-Franche-Comté,2020,3,0.02926057731,0
+Wedding planner,Bretagne,2019,0,0.016310794780000002,0
+Wedding planner,Bretagne,2019,1,0.048190984580000006,0
+Wedding planner,Bretagne,2019,2,0.01245551601,0
+Wedding planner,Bretagne,2019,3,0.06301897982999999,0
+Wedding planner,Bretagne,2019,4,0.0637603796,0
+Wedding planner,Bretagne,2019,5,0.08362989324,0
+Wedding planner,Bretagne,2019,6,0.09267497034,0
+Wedding planner,Bretagne,2019,7,0.04374258599999999,0
+Wedding planner,Bretagne,2019,8,0.07591933571000001,0
+Wedding planner,Bretagne,2019,9,0.0496737841,0
+Wedding planner,Bretagne,2019,10,0.05486358244,0
+Wedding planner,Bretagne,2019,11,0.03380782918,0
+Wedding planner,Bretagne,2020,0,0.10898576509999999,0
+Wedding planner,Bretagne,2020,1,0.06598457887999999,0
+Wedding planner,Bretagne,2020,2,0.0581257414,0
+Wedding planner,Bretagne,2020,3,0.1290035587,0
+Wedding planner,Centre-Val de Loire,2019,0,0.10043495449999999,0
+Wedding planner,Centre-Val de Loire,2019,1,0.08778173191,0
+Wedding planner,Centre-Val de Loire,2019,2,0.07149070779,0
+Wedding planner,Centre-Val de Loire,2019,3,0.06089363385,0
+Wedding planner,Centre-Val de Loire,2019,4,0.1439304073,0
+Wedding planner,Centre-Val de Loire,2019,5,0.1271648873,0
+Wedding planner,Centre-Val de Loire,2019,6,0.044286279160000004,0
+Wedding planner,Centre-Val de Loire,2019,7,0.06089363385,0
+Wedding planner,Centre-Val de Loire,2019,8,0.11008303679999999,0
+Wedding planner,Centre-Val de Loire,2019,9,0.1328588375,0
+Wedding planner,Centre-Val de Loire,2019,10,0.1312771847,0
+Wedding planner,Centre-Val de Loire,2019,11,0.08604191380000001,0
+Wedding planner,Centre-Val de Loire,2020,0,0.06326611308999999,0
+Wedding planner,Centre-Val de Loire,2020,1,0.15262949779999999,0
+Wedding planner,Centre-Val de Loire,2020,2,0.09553183075999999,0
+Wedding planner,Centre-Val de Loire,2020,3,0.137603796,0
+Wedding planner,Corse,2019,0,0.0,0
+Wedding planner,Corse,2019,1,0.07908264136,0
+Wedding planner,Corse,2019,2,0.0,0
+Wedding planner,Corse,2019,3,0.07354685647,0
+Wedding planner,Corse,2019,4,0.06801107157000001,0
+Wedding planner,Corse,2019,5,0.0,0
+Wedding planner,Corse,2019,6,0.0,0
+Wedding planner,Corse,2019,7,0.04507710558,0
+Wedding planner,Corse,2019,8,0.0942665085,0
+Wedding planner,Corse,2019,9,0.06722024516,0
+Wedding planner,Corse,2019,10,0.0,0
+Wedding planner,Corse,2019,11,0.0,0
+Wedding planner,Corse,2020,0,0.0,0
+Wedding planner,Corse,2020,1,0.06722024516,0
+Wedding planner,Corse,2020,2,0.0,0
+Wedding planner,Corse,2020,3,0.0,0
+Wedding planner,Grand-Est,2019,0,0.04474759456999999,0
+Wedding planner,Grand-Est,2019,1,0.02372479241,0
+Wedding planner,Grand-Est,2019,2,0.028469750889999996,0
+Wedding planner,Grand-Est,2019,3,0.01318044023,0
+Wedding planner,Grand-Est,2019,4,0.03473046,0
+Wedding planner,Grand-Est,2019,5,0.03057862133,0
+Wedding planner,Grand-Est,2019,6,0.06405693951000001,0
+Wedding planner,Grand-Est,2019,7,0.07888493476,0
+Wedding planner,Grand-Est,2019,8,0.04731778041,0
+Wedding planner,Grand-Est,2019,9,0.03160010544,0
+Wedding planner,Grand-Est,2019,10,0.0405298537,0
+Wedding planner,Grand-Est,2019,11,0.044839857649999995,0
+Wedding planner,Grand-Est,2020,0,0.06385923291000001,0
+Wedding planner,Grand-Est,2020,1,0.06306840647,0
+Wedding planner,Grand-Est,2020,2,0.02586002372,0
+Wedding planner,Grand-Est,2020,3,0.06188216687000001,0
+Wedding planner,Hauts-de-France,2019,0,0.021846579680000002,0
+Wedding planner,Hauts-de-France,2019,1,0.012356662720000001,0
+Wedding planner,Hauts-de-France,2019,2,0.034638196919999996,0
+Wedding planner,Hauts-de-France,2019,3,0.02510873864,0
+Wedding planner,Hauts-de-France,2019,4,0.07117437722999999,0
+Wedding planner,Hauts-de-France,2019,5,0.0590747331,0
+Wedding planner,Hauts-de-France,2019,6,0.046807038360000004,0
+Wedding planner,Hauts-de-France,2019,7,0.047894424680000006,0
+Wedding planner,Hauts-de-France,2019,8,0.05527876631,0
+Wedding planner,Hauts-de-France,2019,9,0.07077896402,0
+Wedding planner,Hauts-de-France,2019,10,0.043297746150000004,0
+Wedding planner,Hauts-de-France,2019,11,0.029339659950000003,0
+Wedding planner,Hauts-de-France,2020,0,0.032868722819999995,0
+Wedding planner,Hauts-de-France,2020,1,0.056346381970000005,0
+Wedding planner,Hauts-de-France,2020,2,0.04068801898,0
+Wedding planner,Hauts-de-France,2020,3,0.08422301303999999,0
+Wedding planner,Normandie,2019,0,0.015816528269999998,0
+Wedding planner,Normandie,2019,1,0.07433768287999999,0
+Wedding planner,Normandie,2019,2,0.1069197311,0
+Wedding planner,Normandie,2019,3,0.07117437722,0
+Wedding planner,Normandie,2019,4,0.09252669038999999,0
+Wedding planner,Normandie,2019,5,0.05314353499,0
+Wedding planner,Normandie,2019,6,0.0,0
+Wedding planner,Normandie,2019,7,0.050612890470000005,0
+Wedding planner,Normandie,2019,8,0.05757216291,0
+Wedding planner,Normandie,2019,9,0.06563859233,0
+Wedding planner,Normandie,2019,10,0.04744958482,0
+Wedding planner,Normandie,2019,11,0.04808224595,0
+Wedding planner,Normandie,2020,0,0.07987346777000001,0
+Wedding planner,Normandie,2020,1,0.09727164887,0
+Wedding planner,Normandie,2020,2,0.021510478450000002,0
+Wedding planner,Normandie,2020,3,0.1328588375,0
+Wedding planner,Nouvelle-Aquitaine,2019,0,0.2789640174,0
+Wedding planner,Nouvelle-Aquitaine,2019,1,0.1040925267,0
+Wedding planner,Nouvelle-Aquitaine,2019,2,0.1495979966,0
+Wedding planner,Nouvelle-Aquitaine,2019,3,0.040496902599999995,0
+Wedding planner,Nouvelle-Aquitaine,2019,4,0.186107816,0
+Wedding planner,Nouvelle-Aquitaine,2019,5,0.2303413734,0
+Wedding planner,Nouvelle-Aquitaine,2019,6,0.09743640438,0
+Wedding planner,Nouvelle-Aquitaine,2019,7,0.1309806248,0
+Wedding planner,Nouvelle-Aquitaine,2019,8,0.2244365362,0
+Wedding planner,Nouvelle-Aquitaine,2019,9,0.1952023198,0
+Wedding planner,Nouvelle-Aquitaine,2019,10,0.24654013449999998,0
+Wedding planner,Nouvelle-Aquitaine,2019,11,0.3589561091,0
+Wedding planner,Nouvelle-Aquitaine,2020,0,0.128772901,0
+Wedding planner,Nouvelle-Aquitaine,2020,1,0.2759654673,0
+Wedding planner,Nouvelle-Aquitaine,2020,2,0.1765388164,0
+Wedding planner,Nouvelle-Aquitaine,2020,3,0.28726769469999996,0
+Wedding planner,Occitanie,2019,0,0.11091340449999999,0
+Wedding planner,Occitanie,2019,1,0.1289541321,0
+Wedding planner,Occitanie,2019,2,0.1370106762,0
+Wedding planner,Occitanie,2019,3,0.1252471333,0
+Wedding planner,Occitanie,2019,4,0.06484776592000001,0
+Wedding planner,Occitanie,2019,5,0.09090549626,0
+Wedding planner,Occitanie,2019,6,0.03924476077,0
+Wedding planner,Occitanie,2019,7,0.1863879004,0
+Wedding planner,Occitanie,2019,8,0.13594306050000002,0
+Wedding planner,Occitanie,2019,9,0.1493179122,0
+Wedding planner,Occitanie,2019,10,0.08372874655,0
+Wedding planner,Occitanie,2019,11,0.1077896402,0
+Wedding planner,Occitanie,2020,0,0.1047844998,0
+Wedding planner,Occitanie,2020,1,0.11422499009999999,0
+Wedding planner,Occitanie,2020,2,0.09944642153,0
+Wedding planner,Occitanie,2020,3,0.0,0
+Wedding planner,Pays de la Loire,2019,0,0.05189798339,0
+Wedding planner,Pays de la Loire,2019,1,0.08511269276000001,0
+Wedding planner,Pays de la Loire,2019,2,0.03985765125,0
+Wedding planner,Pays de la Loire,2019,3,0.07265717675,0
+Wedding planner,Pays de la Loire,2019,4,0.136318703,0
+Wedding planner,Pays de la Loire,2019,5,0.0686437327,0
+Wedding planner,Pays de la Loire,2019,6,0.09826018188999999,0
+Wedding planner,Pays de la Loire,2019,7,0.0754250692,0
+Wedding planner,Pays de la Loire,2019,8,0.1007512851,0
+Wedding planner,Pays de la Loire,2019,9,0.07680901542,0
+Wedding planner,Pays de la Loire,2019,10,0.06712139184999999,0
+Wedding planner,Pays de la Loire,2019,11,0.024357453540000004,0
+Wedding planner,Pays de la Loire,2020,0,0.07888493476,0
+Wedding planner,Pays de la Loire,2020,1,0.06435349941,0
+Wedding planner,Pays de la Loire,2020,2,0.06200079083,0
+Wedding planner,Pays de la Loire,2020,3,0.0581257414,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,0,0.1934064848,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,1,0.47182680899999996,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,2,0.3451561882,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,3,0.15940094900000001,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,4,0.2104092527,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,5,0.3400553578,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,6,0.2911724002,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,7,0.2996737841,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,8,0.3451561882,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,9,0.35918347170000003,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,10,0.2677935943,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,11,0.2533412416,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2020,0,0.2486654804,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2020,1,0.2635429023,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2020,2,0.2210359826,0
+Wedding planner,Provence-Alpes-Côte d'Azur,2020,3,0.161526295,0
+Wedding planner,Île-de-France,2019,0,1.0,0
+Wedding planner,Île-de-France,2019,1,0.7758007117,0
+Wedding planner,Île-de-France,2019,2,0.7117437722,0
+Wedding planner,Île-de-France,2019,3,0.39145907469999996,0
+Wedding planner,Île-de-France,2019,4,0.7829181495,0
+Wedding planner,Île-de-France,2019,5,0.5523131673,0
+Wedding planner,Île-de-France,2019,6,0.8434163701,0
+Wedding planner,Île-de-France,2019,7,0.6583629893,0
+Wedding planner,Île-de-France,2019,8,0.8256227758,0
+Wedding planner,Île-de-France,2019,9,0.8434163701,0
+Wedding planner,Île-de-France,2019,10,0.5622775801,0
+Wedding planner,Île-de-France,2019,11,0.5893238434,0
+Wedding planner,Île-de-France,2020,0,0.4306049822,0
+Wedding planner,Île-de-France,2020,1,0.7829181495,0
+Wedding planner,Île-de-France,2020,2,0.6946619217,0
+Wedding planner,Île-de-France,2020,3,0.512455516,0
+Couturier,Auvergne-Rhône-Alpes,2019,0,0.03447394208,1
+Couturier,Auvergne-Rhône-Alpes,2019,1,0.03358743484,1
+Couturier,Auvergne-Rhône-Alpes,2019,2,0.04151585317,1
+Couturier,Auvergne-Rhône-Alpes,2019,3,0.03983438286,1
+Couturier,Auvergne-Rhône-Alpes,2019,4,0.04205465921,1
+Couturier,Auvergne-Rhône-Alpes,2019,5,0.04273585756,1
+Couturier,Auvergne-Rhône-Alpes,2019,6,0.0359213833,1
+Couturier,Auvergne-Rhône-Alpes,2019,7,0.04009467181,1
+Couturier,Auvergne-Rhône-Alpes,2019,8,0.03849216046,1
+Couturier,Auvergne-Rhône-Alpes,2019,9,0.03362771081,1
+Couturier,Auvergne-Rhône-Alpes,2019,10,0.043773815650000006,1
+Couturier,Auvergne-Rhône-Alpes,2019,11,0.03905370117,1
+Couturier,Auvergne-Rhône-Alpes,2020,0,0.035636349680000005,1
+Couturier,Auvergne-Rhône-Alpes,2020,1,0.03777391688,1
+Couturier,Auvergne-Rhône-Alpes,2020,2,0.03729806213,1
+Couturier,Auvergne-Rhône-Alpes,2020,3,0.03696121159,1
+Couturier,Bourgogne-Franche-Comté,2019,0,0.025066226209999997,1
+Couturier,Bourgogne-Franche-Comté,2019,1,0.023106538080000003,1
+Couturier,Bourgogne-Franche-Comté,2019,2,0.0178934112,1
+Couturier,Bourgogne-Franche-Comté,2019,3,0.02600041747,1
+Couturier,Bourgogne-Franche-Comté,2019,4,0.021682476260000003,1
+Couturier,Bourgogne-Franche-Comté,2019,5,0.023280737880000003,1
+Couturier,Bourgogne-Franche-Comté,2019,6,0.024116213390000002,1
+Couturier,Bourgogne-Franche-Comté,2019,7,0.029043764710000003,1
+Couturier,Bourgogne-Franche-Comté,2019,8,0.021778605040000003,1
+Couturier,Bourgogne-Franche-Comté,2019,9,0.025586483419999997,1
+Couturier,Bourgogne-Franche-Comté,2019,10,0.02039147477,1
+Couturier,Bourgogne-Franche-Comté,2019,11,0.022910422439999998,1
+Couturier,Bourgogne-Franche-Comté,2020,0,0.023127337119999997,1
+Couturier,Bourgogne-Franche-Comté,2020,1,0.027644515539999994,1
+Couturier,Bourgogne-Franche-Comté,2020,2,0.02255980844,1
+Couturier,Bourgogne-Franche-Comté,2020,3,0.03077346265,1
+Couturier,Bretagne,2019,0,0.03749125641,1
+Couturier,Bretagne,2019,1,0.033072906160000005,1
+Couturier,Bretagne,2019,2,0.029331604429999998,1
+Couturier,Bretagne,2019,3,0.02655467616,1
+Couturier,Bretagne,2019,4,0.03006564478,1
+Couturier,Bretagne,2019,5,0.035386968399999996,1
+Couturier,Bretagne,2019,6,0.03194853151,1
+Couturier,Bretagne,2019,7,0.024595741150000003,1
+Couturier,Bretagne,2019,8,0.02989487602,1
+Couturier,Bretagne,2019,9,0.03587624529,1
+Couturier,Bretagne,2019,10,0.022466442740000002,1
+Couturier,Bretagne,2019,11,0.0338507927,1
+Couturier,Bretagne,2020,0,0.03169301753,1
+Couturier,Bretagne,2020,1,0.03580513499,1
+Couturier,Bretagne,2020,2,0.0327785205,1
+Couturier,Bretagne,2020,3,0.02178624797,1
+Couturier,Centre-Val de Loire,2019,0,0.05052875638999999,1
+Couturier,Centre-Val de Loire,2019,1,0.04591380948,1
+Couturier,Centre-Val de Loire,2019,2,0.04442060191,1
+Couturier,Centre-Val de Loire,2019,3,0.03536952116000001,1
+Couturier,Centre-Val de Loire,2019,4,0.054747913970000006,1
+Couturier,Centre-Val de Loire,2019,5,0.04496643978999999,1
+Couturier,Centre-Val de Loire,2019,6,0.056605506279999995,1
+Couturier,Centre-Val de Loire,2019,7,0.03312595284,1
+Couturier,Centre-Val de Loire,2019,8,0.04407258165,1
+Couturier,Centre-Val de Loire,2019,9,0.03976729659,1
+Couturier,Centre-Val de Loire,2019,10,0.05069474392,1
+Couturier,Centre-Val de Loire,2019,11,0.04094377043,1
+Couturier,Centre-Val de Loire,2020,0,0.0356303513,1
+Couturier,Centre-Val de Loire,2020,1,0.04139632724,1
+Couturier,Centre-Val de Loire,2020,2,0.04403473739,1
+Couturier,Centre-Val de Loire,2020,3,0.057099803539999994,1
+Couturier,Corse,2019,0,0.02362962431,1
+Couturier,Corse,2019,1,0.030261374429999998,1
+Couturier,Corse,2019,2,0.025272506150000002,1
+Couturier,Corse,2019,3,0.0318236867,1
+Couturier,Corse,2019,4,0.02368685258,1
+Couturier,Corse,2019,5,0.037281266439999995,1
+Couturier,Corse,2019,6,0.02172639694,1
+Couturier,Corse,2019,7,0.01324145832,1
+Couturier,Corse,2019,8,0.02308532134,1
+Couturier,Corse,2019,9,0.01882834168,1
+Couturier,Corse,2019,10,0.03449688865,1
+Couturier,Corse,2019,11,0.01493386631,1
+Couturier,Corse,2020,0,0.0391034108,1
+Couturier,Corse,2020,1,0.019650742,1
+Couturier,Corse,2020,2,0.043437816799999994,1
+Couturier,Corse,2020,3,0.02545860983,1
+Couturier,France,2019,0,0.7052341598,1
+Couturier,France,2019,1,0.8209366390999999,1
+Couturier,France,2019,2,0.9652892562000001,1
+Couturier,France,2019,3,0.9641873278,1
+Couturier,France,2019,4,0.9504132231,1
+Couturier,France,2019,5,0.7933884298,1
+Couturier,France,2019,6,0.7024793387999999,1
+Couturier,France,2019,7,0.7933884298,1
+Couturier,France,2019,8,0.861707989,1
+Couturier,France,2019,9,0.7961432506999999,1
+Couturier,France,2019,10,0.7796143251000001,1
+Couturier,France,2019,11,0.7493112948,1
+Couturier,France,2020,0,1.0,1
+Couturier,France,2020,1,0.867768595,1
+Couturier,France,2020,2,0.5046831956000001,1
+Couturier,France,2020,3,0.3966942149,1
+Couturier,Grand-Est,2019,0,0.03298930334,1
+Couturier,Grand-Est,2019,1,0.03601307006,1
+Couturier,Grand-Est,2019,2,0.035427205760000004,1
+Couturier,Grand-Est,2019,3,0.03987820247,1
+Couturier,Grand-Est,2019,4,0.03107573307,1
+Couturier,Grand-Est,2019,5,0.03231413313,1
+Couturier,Grand-Est,2019,6,0.031092325980000002,1
+Couturier,Grand-Est,2019,7,0.02880433583,1
+Couturier,Grand-Est,2019,8,0.03768308251,1
+Couturier,Grand-Est,2019,9,0.03608103746,1
+Couturier,Grand-Est,2019,10,0.03426099755,1
+Couturier,Grand-Est,2019,11,0.030360542089999998,1
+Couturier,Grand-Est,2020,0,0.03415115187,1
+Couturier,Grand-Est,2020,1,0.03584962724,1
+Couturier,Grand-Est,2020,2,0.03478720566,1
+Couturier,Grand-Est,2020,3,0.028521493910000004,1
+Couturier,Hauts-de-France,2019,0,0.06702265749,1
+Couturier,Hauts-de-France,2019,1,0.05456301039,1
+Couturier,Hauts-de-France,2019,2,0.0523808453,1
+Couturier,Hauts-de-France,2019,3,0.05365650514,1
+Couturier,Hauts-de-France,2019,4,0.05816754249,1
+Couturier,Hauts-de-France,2019,5,0.06103712142000001,1
+Couturier,Hauts-de-France,2019,6,0.06547355690000001,1
+Couturier,Hauts-de-France,2019,7,0.06389628237,1
+Couturier,Hauts-de-France,2019,8,0.05837164897000001,1
+Couturier,Hauts-de-France,2019,9,0.06291090194,1
+Couturier,Hauts-de-France,2019,10,0.05769066227000001,1
+Couturier,Hauts-de-France,2019,11,0.05243550753,1
+Couturier,Hauts-de-France,2020,0,0.052651941849999995,1
+Couturier,Hauts-de-France,2020,1,0.05847393433999999,1
+Couturier,Hauts-de-France,2020,2,0.06292064171,1
+Couturier,Hauts-de-France,2020,3,0.06232168517000001,1
+Couturier,Normandie,2019,0,0.02337292742,1
+Couturier,Normandie,2019,1,0.030714212169999998,1
+Couturier,Normandie,2019,2,0.02279890001,1
+Couturier,Normandie,2019,3,0.023875759139999998,1
+Couturier,Normandie,2019,4,0.02640901231,1
+Couturier,Normandie,2019,5,0.02461970425,1
+Couturier,Normandie,2019,6,0.03192236564,1
+Couturier,Normandie,2019,7,0.023020864199999998,1
+Couturier,Normandie,2019,8,0.01955086987,1
+Couturier,Normandie,2019,9,0.02269431639,1
+Couturier,Normandie,2019,10,0.021230198659999998,1
+Couturier,Normandie,2019,11,0.02786402729,1
+Couturier,Normandie,2020,0,0.018139087930000002,1
+Couturier,Normandie,2020,1,0.02246858425,1
+Couturier,Normandie,2020,2,0.02458744347,1
+Couturier,Normandie,2020,3,0.03393448297,1
+Couturier,Nouvelle-Aquitaine,2019,0,0.031585726769999996,1
+Couturier,Nouvelle-Aquitaine,2019,1,0.02824526204,1
+Couturier,Nouvelle-Aquitaine,2019,2,0.033648990889999994,1
+Couturier,Nouvelle-Aquitaine,2019,3,0.031217318210000004,1
+Couturier,Nouvelle-Aquitaine,2019,4,0.02935914727,1
+Couturier,Nouvelle-Aquitaine,2019,5,0.02961151897,1
+Couturier,Nouvelle-Aquitaine,2019,6,0.02856731919,1
+Couturier,Nouvelle-Aquitaine,2019,7,0.0304297754,1
+Couturier,Nouvelle-Aquitaine,2019,8,0.02883642473,1
+Couturier,Nouvelle-Aquitaine,2019,9,0.032860088450000005,1
+Couturier,Nouvelle-Aquitaine,2019,10,0.024136609950000002,1
+Couturier,Nouvelle-Aquitaine,2019,11,0.03090205273,1
+Couturier,Nouvelle-Aquitaine,2020,0,0.03011784409,1
+Couturier,Nouvelle-Aquitaine,2020,1,0.02896074448,1
+Couturier,Nouvelle-Aquitaine,2020,2,0.03118673225,1
+Couturier,Nouvelle-Aquitaine,2020,3,0.030639170930000004,1
+Couturier,Occitanie,2019,0,0.04265671841,1
+Couturier,Occitanie,2019,1,0.04576023842,1
+Couturier,Occitanie,2019,2,0.04532063692,1
+Couturier,Occitanie,2019,3,0.0433067899,1
+Couturier,Occitanie,2019,4,0.04240677938,1
+Couturier,Occitanie,2019,5,0.04243351032,1
+Couturier,Occitanie,2019,6,0.05208753213,1
+Couturier,Occitanie,2019,7,0.04245029512,1
+Couturier,Occitanie,2019,8,0.04868100098,1
+Couturier,Occitanie,2019,9,0.04678456311,1
+Couturier,Occitanie,2019,10,0.04628707511,1
+Couturier,Occitanie,2019,11,0.06321064168,1
+Couturier,Occitanie,2020,0,0.04667216118,1
+Couturier,Occitanie,2020,1,0.047373118969999996,1
+Couturier,Occitanie,2020,2,0.03988471803,1
+Couturier,Occitanie,2020,3,0.03955923975,1
+Couturier,Pays de la Loire,2019,0,0.04296745675,1
+Couturier,Pays de la Loire,2019,1,0.04922936931,1
+Couturier,Pays de la Loire,2019,2,0.0418814303,1
+Couturier,Pays de la Loire,2019,3,0.02972389895,1
+Couturier,Pays de la Loire,2019,4,0.03787323226,1
+Couturier,Pays de la Loire,2019,5,0.03668582748,1
+Couturier,Pays de la Loire,2019,6,0.032179663389999995,1
+Couturier,Pays de la Loire,2019,7,0.03732413757,1
+Couturier,Pays de la Loire,2019,8,0.042350243110000005,1
+Couturier,Pays de la Loire,2019,9,0.0373223288,1
+Couturier,Pays de la Loire,2019,10,0.03880408533,1
+Couturier,Pays de la Loire,2019,11,0.04071070054,1
+Couturier,Pays de la Loire,2020,0,0.03805969343999999,1
+Couturier,Pays de la Loire,2020,1,0.04129992738,1
+Couturier,Pays de la Loire,2020,2,0.041860240939999994,1
+Couturier,Pays de la Loire,2020,3,0.053164023330000004,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,0,0.04409782376,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,1,0.05361992656,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,2,0.05380540402000001,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,3,0.05254798774,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,4,0.0583639172,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,5,0.04956335199,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,6,0.060050679620000005,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,7,0.06507409403,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,8,0.041715172339999995,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,9,0.04476171797,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,10,0.053468648480000006,1
+Couturier,Provence-Alpes-Côte d'Azur,2019,11,0.051449308810000004,1
+Couturier,Provence-Alpes-Côte d'Azur,2020,0,0.05378023631,1
+Couturier,Provence-Alpes-Côte d'Azur,2020,1,0.05994217847,1
+Couturier,Provence-Alpes-Côte d'Azur,2020,2,0.05025502897,1
+Couturier,Provence-Alpes-Côte d'Azur,2020,3,0.05057632531,1
+Couturier,Île-de-France,2019,0,0.1058311743,1
+Couturier,Île-de-France,2019,1,0.1094686024,1
+Couturier,Île-de-France,2019,2,0.1001363451,1
+Couturier,Île-de-France,2019,3,0.1076540925,1
+Couturier,Île-de-France,2019,4,0.11003755130000001,1
+Couturier,Île-de-France,2019,5,0.1024278423,1
+Couturier,Île-de-France,2019,6,0.09376104661000001,1
+Couturier,Île-de-France,2019,7,0.1173350249,1
+Couturier,Île-de-France,2019,8,0.10772928289999999,1
+Couturier,Île-de-France,2019,9,0.1120087807,1
+Couturier,Île-de-France,2019,10,0.1105193469,1
+Couturier,Île-de-France,2019,11,0.1040117873,1
+Couturier,Île-de-France,2020,0,0.1194876427,1
+Couturier,Île-de-France,2020,1,0.09788294127000001,1
+Couturier,Île-de-France,2020,2,0.1032767375,1
+Couturier,Île-de-France,2020,3,0.1022683049,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,0,0.03594877019,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,1,0.04075581996,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,2,0.03656737921,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,3,0.03546677831,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,4,0.03777669952,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,5,0.03775146392,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,6,0.04125350816,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,7,0.03859924444,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,8,0.03686363878,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,9,0.03458279142,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,10,0.04121906892,1
+Fleuriste,Auvergne-Rhône-Alpes,2019,11,0.05165866946000001,1
+Fleuriste,Auvergne-Rhône-Alpes,2020,0,0.037680352710000004,1
+Fleuriste,Auvergne-Rhône-Alpes,2020,1,0.04489804892,1
+Fleuriste,Auvergne-Rhône-Alpes,2020,2,0.03348569976,1
+Fleuriste,Auvergne-Rhône-Alpes,2020,3,0.049013875889999996,1
+Fleuriste,Bourgogne-Franche-Comté,2019,0,0.02123722161,1
+Fleuriste,Bourgogne-Franche-Comté,2019,1,0.02283648201,1
+Fleuriste,Bourgogne-Franche-Comté,2019,2,0.02086685247,1
+Fleuriste,Bourgogne-Franche-Comté,2019,3,0.01959722216,1
+Fleuriste,Bourgogne-Franche-Comté,2019,4,0.02174622714,1
+Fleuriste,Bourgogne-Franche-Comté,2019,5,0.01623456894,1
+Fleuriste,Bourgogne-Franche-Comté,2019,6,0.014258301689999999,1
+Fleuriste,Bourgogne-Franche-Comté,2019,7,0.01251459879,1
+Fleuriste,Bourgogne-Franche-Comté,2019,8,0.02182066491,1
+Fleuriste,Bourgogne-Franche-Comté,2019,9,0.017861324760000002,1
+Fleuriste,Bourgogne-Franche-Comté,2019,10,0.01700087403,1
+Fleuriste,Bourgogne-Franche-Comté,2019,11,0.016274807130000003,1
+Fleuriste,Bourgogne-Franche-Comté,2020,0,0.021018102169999997,1
+Fleuriste,Bourgogne-Franche-Comté,2020,1,0.01632331309,1
+Fleuriste,Bourgogne-Franche-Comté,2020,2,0.020567427,1
+Fleuriste,Bourgogne-Franche-Comté,2020,3,0.009278821809999999,1
+Fleuriste,Bretagne,2019,0,0.043610957699999994,1
+Fleuriste,Bretagne,2019,1,0.03262031854,1
+Fleuriste,Bretagne,2019,2,0.03667832393,1
+Fleuriste,Bretagne,2019,3,0.03690259872,1
+Fleuriste,Bretagne,2019,4,0.02973302329,1
+Fleuriste,Bretagne,2019,5,0.048422305260000006,1
+Fleuriste,Bretagne,2019,6,0.028238532939999998,1
+Fleuriste,Bretagne,2019,7,0.04460254039,1
+Fleuriste,Bretagne,2019,8,0.033856635010000004,1
+Fleuriste,Bretagne,2019,9,0.04015242061,1
+Fleuriste,Bretagne,2019,10,0.04768610712,1
+Fleuriste,Bretagne,2019,11,0.04465208216,1
+Fleuriste,Bretagne,2020,0,0.05077831808,1
+Fleuriste,Bretagne,2020,1,0.04266470871999999,1
+Fleuriste,Bretagne,2020,2,0.03963652644,1
+Fleuriste,Bretagne,2020,3,0.03354917288,1
+Fleuriste,Centre-Val de Loire,2019,0,0.04020141425,1
+Fleuriste,Centre-Val de Loire,2019,1,0.052481664850000005,1
+Fleuriste,Centre-Val de Loire,2019,2,0.04800208153,1
+Fleuriste,Centre-Val de Loire,2019,3,0.03722198963,1
+Fleuriste,Centre-Val de Loire,2019,4,0.04981030553,1
+Fleuriste,Centre-Val de Loire,2019,5,0.05014965066,1
+Fleuriste,Centre-Val de Loire,2019,6,0.03944764839,1
+Fleuriste,Centre-Val de Loire,2019,7,0.041234385160000005,1
+Fleuriste,Centre-Val de Loire,2019,8,0.042352613909999996,1
+Fleuriste,Centre-Val de Loire,2019,9,0.02222432997,1
+Fleuriste,Centre-Val de Loire,2019,10,0.03827105561,1
+Fleuriste,Centre-Val de Loire,2019,11,0.03385589345,1
+Fleuriste,Centre-Val de Loire,2020,0,0.042503094400000004,1
+Fleuriste,Centre-Val de Loire,2020,1,0.05482332918,1
+Fleuriste,Centre-Val de Loire,2020,2,0.05020549845,1
+Fleuriste,Centre-Val de Loire,2020,3,0.04798674263,1
+Fleuriste,Corse,2019,0,0.0016880582759999999,1
+Fleuriste,Corse,2019,1,0.002263542879,1
+Fleuriste,Corse,2019,2,0.0012647697909999999,1
+Fleuriste,Corse,2019,3,0.001204190063,1
+Fleuriste,Corse,2019,4,0.001385931797,1
+Fleuriste,Corse,2019,5,0.001582220062,1
+Fleuriste,Corse,2019,6,0.001495827212,1
+Fleuriste,Corse,2019,7,0.0013917996789999999,1
+Fleuriste,Corse,2019,8,0.001193255463,1
+Fleuriste,Corse,2019,9,0.0014804608530000001,1
+Fleuriste,Corse,2019,10,0.001952062864,1
+Fleuriste,Corse,2019,11,0.0013957503640000001,1
+Fleuriste,Corse,2020,0,0.001110876331,1
+Fleuriste,Corse,2020,1,0.0024372009469999997,1
+Fleuriste,Corse,2020,2,0.001383071583,1
+Fleuriste,Corse,2020,3,0.0,1
+Fleuriste,France,2019,0,0.7478753541,1
+Fleuriste,France,2019,1,0.8470254958,1
+Fleuriste,France,2019,2,0.9087818697,1
+Fleuriste,France,2019,3,1.0,1
+Fleuriste,France,2019,4,0.9971671388,1
+Fleuriste,France,2019,5,0.9269121813,1
+Fleuriste,France,2019,6,0.8781869687999999,1
+Fleuriste,France,2019,7,0.8328611898,1
+Fleuriste,France,2019,8,0.8158640226999999,1
+Fleuriste,France,2019,9,0.7705382436,1
+Fleuriste,France,2019,10,0.6487252125,1
+Fleuriste,France,2019,11,0.5597733711,1
+Fleuriste,France,2020,0,0.7167138809999999,1
+Fleuriste,France,2020,1,0.8753541076000001,1
+Fleuriste,France,2020,2,0.5756373938,1
+Fleuriste,France,2020,3,0.492917847,1
+Fleuriste,Grand-Est,2019,0,0.03143242506,1
+Fleuriste,Grand-Est,2019,1,0.02943509353,1
+Fleuriste,Grand-Est,2019,2,0.03348188332,1
+Fleuriste,Grand-Est,2019,3,0.028473268280000002,1
+Fleuriste,Grand-Est,2019,4,0.02856073863,1
+Fleuriste,Grand-Est,2019,5,0.030627344060000006,1
+Fleuriste,Grand-Est,2019,6,0.04052317373,1
+Fleuriste,Grand-Est,2019,7,0.029564918080000002,1
+Fleuriste,Grand-Est,2019,8,0.033647152379999996,1
+Fleuriste,Grand-Est,2019,9,0.02601740614,1
+Fleuriste,Grand-Est,2019,10,0.028515167739999996,1
+Fleuriste,Grand-Est,2019,11,0.02988536143,1
+Fleuriste,Grand-Est,2020,0,0.032027584260000005,1
+Fleuriste,Grand-Est,2020,1,0.03113288401,1
+Fleuriste,Grand-Est,2020,2,0.028032171669999998,1
+Fleuriste,Grand-Est,2020,3,0.05560368591,1
+Fleuriste,Hauts-de-France,2019,0,0.0555304319,1
+Fleuriste,Hauts-de-France,2019,1,0.04790939859,1
+Fleuriste,Hauts-de-France,2019,2,0.057458269699999995,1
+Fleuriste,Hauts-de-France,2019,3,0.05595383507,1
+Fleuriste,Hauts-de-France,2019,4,0.05345618017,1
+Fleuriste,Hauts-de-France,2019,5,0.05721654631,1
+Fleuriste,Hauts-de-France,2019,6,0.05137111723,1
+Fleuriste,Hauts-de-France,2019,7,0.06464677544,1
+Fleuriste,Hauts-de-France,2019,8,0.05747314938999999,1
+Fleuriste,Hauts-de-France,2019,9,0.057563801379999995,1
+Fleuriste,Hauts-de-France,2019,10,0.05588941892000001,1
+Fleuriste,Hauts-de-France,2019,11,0.04604485015,1
+Fleuriste,Hauts-de-France,2020,0,0.05235876774,1
+Fleuriste,Hauts-de-France,2020,1,0.048632199810000006,1
+Fleuriste,Hauts-de-France,2020,2,0.045390680509999996,1
+Fleuriste,Hauts-de-France,2020,3,0.06485654087,1
+Fleuriste,Normandie,2019,0,0.027956027819999996,1
+Fleuriste,Normandie,2019,1,0.029954669239999995,1
+Fleuriste,Normandie,2019,2,0.021249611749999998,1
+Fleuriste,Normandie,2019,3,0.027269078210000006,1
+Fleuriste,Normandie,2019,4,0.02283249801,1
+Fleuriste,Normandie,2019,5,0.02530844171,1
+Fleuriste,Normandie,2019,6,0.020941580959999997,1
+Fleuriste,Normandie,2019,7,0.0341362068,1
+Fleuriste,Normandie,2019,8,0.03247245867,1
+Fleuriste,Normandie,2019,9,0.029133147289999998,1
+Fleuriste,Normandie,2019,10,0.01847156085,1
+Fleuriste,Normandie,2019,11,0.03597934272,1
+Fleuriste,Normandie,2020,0,0.01897612901,1
+Fleuriste,Normandie,2020,1,0.030615625389999998,1
+Fleuriste,Normandie,2020,2,0.02891772167,1
+Fleuriste,Normandie,2020,3,0.02520515775,1
+Fleuriste,Nouvelle-Aquitaine,2019,0,0.04398236767,1
+Fleuriste,Nouvelle-Aquitaine,2019,1,0.05674820973999999,1
+Fleuriste,Nouvelle-Aquitaine,2019,2,0.04576469637,1
+Fleuriste,Nouvelle-Aquitaine,2019,3,0.05189239116,1
+Fleuriste,Nouvelle-Aquitaine,2019,4,0.05713951242,1
+Fleuriste,Nouvelle-Aquitaine,2019,5,0.044106301550000004,1
+Fleuriste,Nouvelle-Aquitaine,2019,6,0.0532584804,1
+Fleuriste,Nouvelle-Aquitaine,2019,7,0.05071099454,1
+Fleuriste,Nouvelle-Aquitaine,2019,8,0.044176968930000005,1
+Fleuriste,Nouvelle-Aquitaine,2019,9,0.06307343806,1
+Fleuriste,Nouvelle-Aquitaine,2019,10,0.050330908849999995,1
+Fleuriste,Nouvelle-Aquitaine,2019,11,0.04132574262,1
+Fleuriste,Nouvelle-Aquitaine,2020,0,0.05062805461,1
+Fleuriste,Nouvelle-Aquitaine,2020,1,0.04384679682,1
+Fleuriste,Nouvelle-Aquitaine,2020,2,0.06094543347,1
+Fleuriste,Nouvelle-Aquitaine,2020,3,0.02714401604,1
+Fleuriste,Occitanie,2019,0,0.03320683615,1
+Fleuriste,Occitanie,2019,1,0.029925301919999998,1
+Fleuriste,Occitanie,2019,2,0.034640639269999995,1
+Fleuriste,Occitanie,2019,3,0.026244006030000003,1
+Fleuriste,Occitanie,2019,4,0.03528715537,1
+Fleuriste,Occitanie,2019,5,0.033026631529999996,1
+Fleuriste,Occitanie,2019,6,0.03594060478,1
+Fleuriste,Occitanie,2019,7,0.03043865899,1
+Fleuriste,Occitanie,2019,8,0.029974577230000004,1
+Fleuriste,Occitanie,2019,9,0.02871223195,1
+Fleuriste,Occitanie,2019,10,0.03842044819,1
+Fleuriste,Occitanie,2019,11,0.03228120073,1
+Fleuriste,Occitanie,2020,0,0.03527971497,1
+Fleuriste,Occitanie,2020,1,0.03712852005,1
+Fleuriste,Occitanie,2020,2,0.029580443480000003,1
+Fleuriste,Occitanie,2020,3,0.02349134551,1
+Fleuriste,Pays de la Loire,2019,0,0.04110951161,1
+Fleuriste,Pays de la Loire,2019,1,0.038010351789999994,1
+Fleuriste,Pays de la Loire,2019,2,0.05214401768,1
+Fleuriste,Pays de la Loire,2019,3,0.05375694352000001,1
+Fleuriste,Pays de la Loire,2019,4,0.04694687888,1
+Fleuriste,Pays de la Loire,2019,5,0.05057440772,1
+Fleuriste,Pays de la Loire,2019,6,0.049573247980000006,1
+Fleuriste,Pays de la Loire,2019,7,0.04491801498,1
+Fleuriste,Pays de la Loire,2019,8,0.0491661026,1
+Fleuriste,Pays de la Loire,2019,9,0.04229473455,1
+Fleuriste,Pays de la Loire,2019,10,0.037135672110000004,1
+Fleuriste,Pays de la Loire,2019,11,0.04429419745,1
+Fleuriste,Pays de la Loire,2020,0,0.0592735704,1
+Fleuriste,Pays de la Loire,2020,1,0.05105342659,1
+Fleuriste,Pays de la Loire,2020,2,0.04658646114,1
+Fleuriste,Pays de la Loire,2020,3,0.02684972505,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,0,0.039783578050000004,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,1,0.04045461665,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,2,0.039270732180000004,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,3,0.04136112322,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,4,0.032646393430000004,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,5,0.0416474301,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,6,0.03317188615,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,7,0.03810747522,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,8,0.035026025360000004,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,9,0.03157735912,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,10,0.036113162989999996,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2019,11,0.02515929502,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2020,0,0.03514555116,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2020,1,0.029721072230000003,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2020,2,0.02793228317,1
+Fleuriste,Provence-Alpes-Côte d'Azur,2020,3,0.046117129289999996,1
+Fleuriste,Île-de-France,2019,0,0.1303648966,1
+Fleuriste,Île-de-France,2019,1,0.1106922167,1
+Fleuriste,Île-de-France,2019,2,0.1057672983,1
+Fleuriste,Île-de-France,2019,3,0.1255983185,1
+Fleuriste,Île-de-France,2019,4,0.1044651294,1
+Fleuriste,Île-de-France,2019,5,0.11256062189999999,1
+Fleuriste,Île-de-France,2019,6,0.09636579152000001,1
+Fleuriste,Île-de-France,2019,7,0.1113439743,1
+Fleuriste,Île-de-France,2019,8,0.1252918236,1
+Fleuriste,Île-de-France,2019,9,0.1236620242,1
+Fleuriste,Île-de-France,2019,10,0.11221041640000001,1
+Fleuriste,Île-de-France,2019,11,0.13539971480000002,1
+Fleuriste,Île-de-France,2020,0,0.1019644941,1
+Fleuriste,Île-de-France,2020,1,0.10862431189999999,1
+Fleuriste,Île-de-France,2020,2,0.1262052819,1
+Fleuriste,Île-de-France,2020,3,0.10559853179999999,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,0,0.03168762257,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,1,0.023055562930000002,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,2,0.02153245758,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,3,0.0270641171,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,4,0.01985488073,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,5,0.027259669289999996,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,6,0.03192672,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,7,0.04607192127,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,8,0.02866575083,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,9,0.03783759533,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,10,0.03135729336,1
+Maquilleur,Auvergne-Rhône-Alpes,2019,11,0.03523512767,1
+Maquilleur,Auvergne-Rhône-Alpes,2020,0,0.027644003880000004,1
+Maquilleur,Auvergne-Rhône-Alpes,2020,1,0.02741306151,1
+Maquilleur,Auvergne-Rhône-Alpes,2020,2,0.03132560172,1
+Maquilleur,Auvergne-Rhône-Alpes,2020,3,0.024828917340000003,1
+Maquilleur,Bourgogne-Franche-Comté,2019,0,0.01613629047,1
+Maquilleur,Bourgogne-Franche-Comté,2019,1,0.01209454623,1
+Maquilleur,Bourgogne-Franche-Comté,2019,2,0.01615352082,1
+Maquilleur,Bourgogne-Franche-Comté,2019,3,0.0328494292,1
+Maquilleur,Bourgogne-Franche-Comté,2019,4,0.033000740210000004,1
+Maquilleur,Bourgogne-Franche-Comté,2019,5,0.01502387414,1
+Maquilleur,Bourgogne-Franche-Comté,2019,6,0.01285122314,1
+Maquilleur,Bourgogne-Franche-Comté,2019,7,0.0158096749,1
+Maquilleur,Bourgogne-Franche-Comté,2019,8,0.04527311277,1
+Maquilleur,Bourgogne-Franche-Comté,2019,9,0.02992373262,1
+Maquilleur,Bourgogne-Franche-Comté,2019,10,0.03221056207,1
+Maquilleur,Bourgogne-Franche-Comté,2019,11,0.02890032007,1
+Maquilleur,Bourgogne-Franche-Comté,2020,0,0.012605254479999998,1
+Maquilleur,Bourgogne-Franche-Comté,2020,1,0.019061036809999998,1
+Maquilleur,Bourgogne-Franche-Comté,2020,2,0.0429800729,1
+Maquilleur,Bourgogne-Franche-Comté,2020,3,0.009092927299,1
+Maquilleur,Bretagne,2019,0,0.03450897663,1
+Maquilleur,Bretagne,2019,1,0.06362736523,1
+Maquilleur,Bretagne,2019,2,0.05305596061000001,1
+Maquilleur,Bretagne,2019,3,0.030545769110000003,1
+Maquilleur,Bretagne,2019,4,0.030620586800000002,1
+Maquilleur,Bretagne,2019,5,0.07018940085,1
+Maquilleur,Bretagne,2019,6,0.009105732032,1
+Maquilleur,Bretagne,2019,7,0.038277275980000004,1
+Maquilleur,Bretagne,2019,8,0.0268904811,1
+Maquilleur,Bretagne,2019,9,0.03768506057,1
+Maquilleur,Bretagne,2019,10,0.04299518853,1
+Maquilleur,Bretagne,2019,11,0.05229775422,1
+Maquilleur,Bretagne,2020,0,0.009113921479,1
+Maquilleur,Bretagne,2020,1,0.025746843050000003,1
+Maquilleur,Bretagne,2020,2,0.1139623145,1
+Maquilleur,Bretagne,2020,3,0.03010072485,1
+Maquilleur,Centre-Val de Loire,2019,0,0.06448095913,1
+Maquilleur,Centre-Val de Loire,2019,1,0.007214665951,1
+Maquilleur,Centre-Val de Loire,2019,2,0.02101071742,1
+Maquilleur,Centre-Val de Loire,2019,3,0.02576026529,1
+Maquilleur,Centre-Val de Loire,2019,4,0.05913899431,1
+Maquilleur,Centre-Val de Loire,2019,5,0.026905936989999997,1
+Maquilleur,Centre-Val de Loire,2019,6,0.01005272816,1
+Maquilleur,Centre-Val de Loire,2019,7,0.00960411652,1
+Maquilleur,Centre-Val de Loire,2019,8,0.05016568642,1
+Maquilleur,Centre-Val de Loire,2019,9,0.04189322566,1
+Maquilleur,Centre-Val de Loire,2019,10,0.02527161637,1
+Maquilleur,Centre-Val de Loire,2019,11,0.01978017282,1
+Maquilleur,Centre-Val de Loire,2020,0,0.07309832407000001,1
+Maquilleur,Centre-Val de Loire,2020,1,0.0088585886,1
+Maquilleur,Centre-Val de Loire,2020,2,0.01997053892,1
+Maquilleur,Centre-Val de Loire,2020,3,0.006923166715000001,1
+Maquilleur,Corse,2019,0,0.011877508240000001,1
+Maquilleur,Corse,2019,1,0.006630078394,1
+Maquilleur,Corse,2019,2,0.00969211249,1
+Maquilleur,Corse,2019,3,0.008909182658,1
+Maquilleur,Corse,2019,4,0.007296820685,1
+Maquilleur,Corse,2019,5,0.01203246872,1
+Maquilleur,Corse,2019,6,0.011655337,1
+Maquilleur,Corse,2019,7,0.010787232320000001,1
+Maquilleur,Corse,2019,8,0.007618969646,1
+Maquilleur,Corse,2019,9,0.01695827725,1
+Maquilleur,Corse,2019,10,0.011465383610000001,1
+Maquilleur,Corse,2019,11,0.01237713517,1
+Maquilleur,Corse,2020,0,0.011217134129999999,1
+Maquilleur,Corse,2020,1,0.0158248889,1
+Maquilleur,Corse,2020,2,0.009431363959,1
+Maquilleur,Corse,2020,3,0.006772663090999999,1
+Maquilleur,France,2019,0,0.6220472441,1
+Maquilleur,France,2019,1,0.8661417323,1
+Maquilleur,France,2019,2,0.9039370079000001,1
+Maquilleur,France,2019,3,0.7283464567,1
+Maquilleur,France,2019,4,0.7480314961,1
+Maquilleur,France,2019,5,0.5795275591,1
+Maquilleur,France,2019,6,0.5196850394,1
+Maquilleur,France,2019,7,0.7874015748000001,1
+Maquilleur,France,2019,8,0.6015748031,1
+Maquilleur,France,2019,9,1.0,1
+Maquilleur,France,2019,10,0.7204724409000001,1
+Maquilleur,France,2019,11,0.7937007873999999,1
+Maquilleur,France,2020,0,0.9212598425,1
+Maquilleur,France,2020,1,0.9527559055,1
+Maquilleur,France,2020,2,0.7055118109999999,1
+Maquilleur,France,2020,3,0.9606299212999999,1
+Maquilleur,Grand-Est,2019,0,0.03077095002,1
+Maquilleur,Grand-Est,2019,1,0.02520617976,1
+Maquilleur,Grand-Est,2019,2,0.0317240295,1
+Maquilleur,Grand-Est,2019,3,0.01666724235,1
+Maquilleur,Grand-Est,2019,4,0.03158191397,1
+Maquilleur,Grand-Est,2019,5,0.03784935588,1
+Maquilleur,Grand-Est,2019,6,0.02022686609,1
+Maquilleur,Grand-Est,2019,7,0.02209256111,1
+Maquilleur,Grand-Est,2019,8,0.015462026640000001,1
+Maquilleur,Grand-Est,2019,9,0.027596829669999996,1
+Maquilleur,Grand-Est,2019,10,0.02767085405,1
+Maquilleur,Grand-Est,2019,11,0.01530387245,1
+Maquilleur,Grand-Est,2020,0,0.03898888871,1
+Maquilleur,Grand-Est,2020,1,0.020993794410000002,1
+Maquilleur,Grand-Est,2020,2,0.036243384360000006,1
+Maquilleur,Grand-Est,2020,3,0.036108327850000004,1
+Maquilleur,Hauts-de-France,2019,0,0.05011024421,1
+Maquilleur,Hauts-de-France,2019,1,0.04202614208000001,1
+Maquilleur,Hauts-de-France,2019,2,0.06915377963,1
+Maquilleur,Hauts-de-France,2019,3,0.043353779800000006,1
+Maquilleur,Hauts-de-France,2019,4,0.0590912175,1
+Maquilleur,Hauts-de-France,2019,5,0.04913675853999999,1
+Maquilleur,Hauts-de-France,2019,6,0.0416556888,1
+Maquilleur,Hauts-de-France,2019,7,0.028394779280000004,1
+Maquilleur,Hauts-de-France,2019,8,0.0378670261,1
+Maquilleur,Hauts-de-France,2019,9,0.0541812472,1
+Maquilleur,Hauts-de-France,2019,10,0.05446853421,1
+Maquilleur,Hauts-de-France,2019,11,0.01894340875,1
+Maquilleur,Hauts-de-France,2020,0,0.02880466568,1
+Maquilleur,Hauts-de-France,2020,1,0.06908945545,1
+Maquilleur,Hauts-de-France,2020,2,0.05302148143,1
+Maquilleur,Hauts-de-France,2020,3,0.04199678215,1
+Maquilleur,Normandie,2019,0,0.013108060890000002,1
+Maquilleur,Normandie,2019,1,0.007842028208,1
+Maquilleur,Normandie,2019,2,0.009190796326,1
+Maquilleur,Normandie,2019,3,0.008484935865,1
+Maquilleur,Normandie,2019,4,0.004343345646,1
+Maquilleur,Normandie,2019,5,0.009191469159,1
+Maquilleur,Normandie,2019,6,0.006070488021,1
+Maquilleur,Normandie,2019,7,0.01101921581,1
+Maquilleur,Normandie,2019,8,0.007843056989,1
+Maquilleur,Normandie,2019,9,0.018281740690000003,1
+Maquilleur,Normandie,2019,10,0.009952589937,1
+Maquilleur,Normandie,2019,11,0.009442650068,1
+Maquilleur,Normandie,2020,0,0.008880231185,1
+Maquilleur,Normandie,2020,1,0.009838224579999999,1
+Maquilleur,Normandie,2020,2,0.009356511864,1
+Maquilleur,Normandie,2020,3,0.00658453356,1
+Maquilleur,Nouvelle-Aquitaine,2019,0,0.05459016925,1
+Maquilleur,Nouvelle-Aquitaine,2019,1,0.03979948134,1
+Maquilleur,Nouvelle-Aquitaine,2019,2,0.02091231091,1
+Maquilleur,Nouvelle-Aquitaine,2019,3,0.05114719339,1
+Maquilleur,Nouvelle-Aquitaine,2019,4,0.04115464778,1
+Maquilleur,Nouvelle-Aquitaine,2019,5,0.03203923325,1
+Maquilleur,Nouvelle-Aquitaine,2019,6,0.01630128384,1
+Maquilleur,Nouvelle-Aquitaine,2019,7,0.03733387646,1
+Maquilleur,Nouvelle-Aquitaine,2019,8,0.04649314386,1
+Maquilleur,Nouvelle-Aquitaine,2019,9,0.03418274264,1
+Maquilleur,Nouvelle-Aquitaine,2019,10,0.023344794959999998,1
+Maquilleur,Nouvelle-Aquitaine,2019,11,0.0580834354,1
+Maquilleur,Nouvelle-Aquitaine,2020,0,0.0166979505,1
+Maquilleur,Nouvelle-Aquitaine,2020,1,0.04812217538,1
+Maquilleur,Nouvelle-Aquitaine,2020,2,0.03343892587,1
+Maquilleur,Nouvelle-Aquitaine,2020,3,0.060527540879999994,1
+Maquilleur,Occitanie,2019,0,0.03006828662,1
+Maquilleur,Occitanie,2019,1,0.09795406142000002,1
+Maquilleur,Occitanie,2019,2,0.08622638008,1
+Maquilleur,Occitanie,2019,3,0.08960092275,1
+Maquilleur,Occitanie,2019,4,0.036484103430000005,1
+Maquilleur,Occitanie,2019,5,0.05506525614,1
+Maquilleur,Occitanie,2019,6,0.1070834087,1
+Maquilleur,Occitanie,2019,7,0.028417977630000004,1
+Maquilleur,Occitanie,2019,8,0.048402865989999995,1
+Maquilleur,Occitanie,2019,9,0.05702108568,1
+Maquilleur,Occitanie,2019,10,0.07786906367,1
+Maquilleur,Occitanie,2019,11,0.07693580732000001,1
+Maquilleur,Occitanie,2020,0,0.04870105734,1
+Maquilleur,Occitanie,2020,1,0.06890943684999999,1
+Maquilleur,Occitanie,2020,2,0.023578409900000003,1
+Maquilleur,Occitanie,2020,3,0.042893532910000004,1
+Maquilleur,Pays de la Loire,2019,0,0.02378711785,1
+Maquilleur,Pays de la Loire,2019,1,0.054452192229999995,1
+Maquilleur,Pays de la Loire,2019,2,0.04381503267,1
+Maquilleur,Pays de la Loire,2019,3,0.018862012430000002,1
+Maquilleur,Pays de la Loire,2019,4,0.031193908430000004,1
+Maquilleur,Pays de la Loire,2019,5,0.027624542760000002,1
+Maquilleur,Pays de la Loire,2019,6,0.040138066800000004,1
+Maquilleur,Pays de la Loire,2019,7,0.025784965,1
+Maquilleur,Pays de la Loire,2019,8,0.036615871769999996,1
+Maquilleur,Pays de la Loire,2019,9,0.047819650070000004,1
+Maquilleur,Pays de la Loire,2019,10,0.03449169568,1
+Maquilleur,Pays de la Loire,2019,11,0.04504579897,1
+Maquilleur,Pays de la Loire,2020,0,0.03889541259,1
+Maquilleur,Pays de la Loire,2020,1,0.027203737579999998,1
+Maquilleur,Pays de la Loire,2020,2,0.01450633599,1
+Maquilleur,Pays de la Loire,2020,3,0.04861267063,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,0,0.01273354487,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,1,0.05040285403,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,2,0.04561977086,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,3,0.04573380431,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,4,0.056550360310000006,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,5,0.050887315610000004,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,6,0.08243722732999999,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,7,0.09499723949,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,8,0.08836510874,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,9,0.05401525347999999,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,10,0.08973255087000001,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2019,11,0.04555715478999999,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2020,0,0.09945858927000001,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2020,1,0.025788707830000004,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2020,2,0.04401303181,1
+Maquilleur,Provence-Alpes-Côte d'Azur,2020,3,0.07901440272,1
+Maquilleur,Île-de-France,2019,0,0.1456974344,1
+Maquilleur,Île-de-France,2019,1,0.1023170808,1
+Maquilleur,Île-de-France,2019,2,0.1101781523,1
+Maquilleur,Île-de-France,2019,3,0.1061635175,1
+Maquilleur,Île-de-France,2019,4,0.12946644699999998,1
+Maquilleur,Île-de-France,2019,5,0.13683590810000001,1
+Maquilleur,Île-de-France,2019,6,0.169779409,1
+Maquilleur,Île-de-France,2019,7,0.14192749970000001,1
+Maquilleur,Île-de-France,2019,8,0.1209474083,1
+Maquilleur,Île-de-France,2019,9,0.1011215792,1
+Maquilleur,Île-de-France,2019,10,0.08057616812999999,1
+Maquilleur,Île-de-France,2019,11,0.11012744869999999,1
+Maquilleur,Île-de-France,2020,0,0.13501690449999998,1
+Maquilleur,Île-de-France,2020,1,0.103221815,1
+Maquilleur,Île-de-France,2020,2,0.09778677679,1
+Maquilleur,Île-de-France,2020,3,0.1338478898,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,0,0.008901515237,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,1,0.02955505062,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,2,0.019035928230000002,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,3,0.03552159815,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,4,0.03629266203,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,5,0.01070231616,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,6,0.01928227558,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,7,0.03323562051,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,8,0.0249221548,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,9,0.04095294074,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,10,0.02394844542,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2019,11,0.029168950719999996,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2020,0,0.01580226813,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2020,1,0.01521182231,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2020,2,0.021139591269999997,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2020,3,0.03114145193,1
+Organisation de mariage,Auvergne-Rhône-Alpes,2020,4,0.1327265418,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,0,0.003905766891,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,1,0.0038593090659999997,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,2,0.004190823192,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,3,0.0,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,4,0.0102073112,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,5,0.004766970515,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,6,0.012051422240000002,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,7,0.0028805659269999996,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,8,0.005602426206000001,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,9,0.01889563478,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,10,0.006107334475,1
+Organisation de mariage,Bourgogne-Franche-Comté,2019,11,0.0073175140659999995,1
+Organisation de mariage,Bourgogne-Franche-Comté,2020,0,0.008125135292,1
+Organisation de mariage,Bourgogne-Franche-Comté,2020,1,0.001662830778,1
+Organisation de mariage,Bourgogne-Franche-Comté,2020,2,0.0072517989190000005,1
+Organisation de mariage,Bourgogne-Franche-Comté,2020,3,0.008220454609999999,1
+Organisation de mariage,Bretagne,2019,0,0.003996598679,1
+Organisation de mariage,Bretagne,2019,1,0.01029149084,1
+Organisation de mariage,Bretagne,2019,2,0.0026270831949999998,1
+Organisation de mariage,Bretagne,2019,3,0.015134515500000001,1
+Organisation de mariage,Bretagne,2019,4,0.01436120676,1
+Organisation de mariage,Bretagne,2019,5,0.01976890714,1
+Organisation de mariage,Bretagne,2019,6,0.02152039686,1
+Organisation de mariage,Bretagne,2019,7,0.007725154077,1
+Organisation de mariage,Bretagne,2019,8,0.01295007773,1
+Organisation de mariage,Bretagne,2019,9,0.009968563229000001,1
+Organisation de mariage,Bretagne,2019,10,0.01423441736,1
+Organisation de mariage,Bretagne,2019,11,0.008644524389,1
+Organisation de mariage,Bretagne,2020,0,0.02394776717,1
+Organisation de mariage,Bretagne,2020,1,0.01644354881,1
+Organisation de mariage,Bretagne,2020,2,0.02161752986,1
+Organisation de mariage,Bretagne,2020,3,0.03865835411,1
+Organisation de mariage,Centre-Val de Loire,2019,0,0.02307127419,1
+Organisation de mariage,Centre-Val de Loire,2019,1,0.017574699750000002,1
+Organisation de mariage,Centre-Val de Loire,2019,2,0.014136209569999999,1
+Organisation de mariage,Centre-Val de Loire,2019,3,0.013710090519999999,1
+Organisation de mariage,Centre-Val de Loire,2019,4,0.030392321269999998,1
+Organisation de mariage,Centre-Val de Loire,2019,5,0.028181208050000003,1
+Organisation de mariage,Centre-Val de Loire,2019,6,0.009641137792,1
+Organisation de mariage,Centre-Val de Loire,2019,7,0.010081980749999999,1
+Organisation de mariage,Centre-Val de Loire,2019,8,0.01760401192,1
+Organisation de mariage,Centre-Val de Loire,2019,9,0.02499580033,1
+Organisation de mariage,Centre-Val de Loire,2019,10,0.03193126056,1
+Organisation de mariage,Centre-Val de Loire,2019,11,0.020625531880000002,1
+Organisation de mariage,Centre-Val de Loire,2020,0,0.01303279846,1
+Organisation de mariage,Centre-Val de Loire,2020,1,0.03565848224,1
+Organisation de mariage,Centre-Val de Loire,2020,2,0.03330864294,1
+Organisation de mariage,Centre-Val de Loire,2020,3,0.03865835411,1
+Organisation de mariage,Corse,2019,0,0.0,1
+Organisation de mariage,Corse,2019,1,0.01583306283,1
+Organisation de mariage,Corse,2019,2,0.0,1
+Organisation de mariage,Corse,2019,3,0.01655894049,1
+Organisation de mariage,Corse,2019,4,0.01436120676,1
+Organisation de mariage,Corse,2019,5,0.0,1
+Organisation de mariage,Corse,2019,6,0.0,1
+Organisation de mariage,Corse,2019,7,0.0074632844480000005,1
+Organisation de mariage,Corse,2019,8,0.01507469986,1
+Organisation de mariage,Corse,2019,9,0.01264668469,1
+Organisation de mariage,Corse,2019,10,0.0,1
+Organisation de mariage,Corse,2019,11,0.0,1
+Organisation de mariage,Corse,2020,0,0.0,1
+Organisation de mariage,Corse,2020,1,0.01570451291,1
+Organisation de mariage,Corse,2020,2,0.0,1
+Organisation de mariage,Corse,2020,3,0.0,1
+Organisation de mariage,France,2019,0,0.9932024169,1
+Organisation de mariage,France,2019,1,0.8043806647,1
+Organisation de mariage,France,2019,2,1.0,1
+Organisation de mariage,France,2019,3,0.7703927492,1
+Organisation de mariage,France,2019,4,0.7892749245,1
+Organisation de mariage,France,2019,5,0.8247734139,1
+Organisation de mariage,France,2019,6,0.8648036254000001,1
+Organisation de mariage,France,2019,7,0.9780966767,1
+Organisation de mariage,France,2019,8,0.9516616314,1
+Organisation de mariage,France,2019,9,0.8421450151000001,1
+Organisation de mariage,France,2019,10,0.6344410876,1
+Organisation de mariage,France,2019,11,0.6072507553000001,1
+Organisation de mariage,France,2020,0,0.7024169184000001,1
+Organisation de mariage,France,2020,1,0.6042296073,1
+Organisation de mariage,France,2020,2,0.419939577,1
+Organisation de mariage,France,2020,3,0.6080060423,1
+Organisation de mariage,France,2020,4,0.5891238671,1
+Organisation de mariage,Grand-Est,2019,0,0.01027913069,1
+Organisation de mariage,Grand-Est,2019,1,0.00474991885,1
+Organisation de mariage,Grand-Est,2019,2,0.005629463989,1
+Organisation de mariage,Grand-Est,2019,3,0.0029675520600000002,1
+Organisation de mariage,Grand-Est,2019,4,0.007333678257000001,1
+Organisation de mariage,Grand-Est,2019,5,0.006776575732,1
+Organisation de mariage,Grand-Est,2019,6,0.01394521717,1
+Organisation de mariage,Grand-Est,2019,7,0.01306074778,1
+Organisation de mariage,Grand-Est,2019,8,0.00756685857,1
+Organisation de mariage,Grand-Est,2019,9,0.005945181677,1
+Organisation de mariage,Grand-Est,2019,10,0.009858295806,1
+Organisation de mariage,Grand-Est,2019,11,0.010748783619999999,1
+Organisation de mariage,Grand-Est,2020,0,0.013154980949999999,1
+Organisation de mariage,Grand-Est,2020,1,0.014734528290000002,1
+Organisation de mariage,Grand-Est,2020,2,0.009016495234,1
+Organisation de mariage,Grand-Est,2020,3,0.017385150630000002,1
+Organisation de mariage,Hauts-de-France,2019,0,0.005018456296,1
+Organisation de mariage,Hauts-de-France,2019,1,0.002473916068,1
+Organisation de mariage,Hauts-de-France,2019,2,0.006849181188,1
+Organisation de mariage,Hauts-de-France,2019,3,0.005653186674,1
+Organisation de mariage,Hauts-de-France,2019,4,0.01502916986,1
+Organisation de mariage,Hauts-de-France,2019,5,0.013091643290000001,1
+Organisation de mariage,Hauts-de-France,2019,6,0.01018990791,1
+Organisation de mariage,Hauts-de-France,2019,7,0.007929739726,1
+Organisation de mariage,Hauts-de-France,2019,8,0.008839945638999999,1
+Organisation de mariage,Hauts-de-France,2019,9,0.01331621506,1
+Organisation de mariage,Hauts-de-France,2019,10,0.010531545279999999,1
+Organisation de mariage,Hauts-de-France,2019,11,0.007033154709,1
+Organisation de mariage,Hauts-de-France,2020,0,0.006770946075,1
+Organisation de mariage,Hauts-de-France,2020,1,0.013164077,1
+Organisation de mariage,Hauts-de-France,2020,2,0.014186503969999998,1
+Organisation de mariage,Hauts-de-France,2020,3,0.023661578819999998,1
+Organisation de mariage,Normandie,2019,0,0.006358225171000001,1
+Organisation de mariage,Normandie,2019,1,0.01820802226,1
+Organisation de mariage,Normandie,2019,2,0.01876487996,1
+Organisation de mariage,Normandie,2019,3,0.01940779047,1
+Organisation de mariage,Normandie,2019,4,0.01853597616,1
+Organisation de mariage,Normandie,2019,5,0.01472152659,1
+Organisation de mariage,Normandie,2019,6,0.0,1
+Organisation de mariage,Normandie,2019,7,0.008772632596,1
+Organisation de mariage,Normandie,2019,8,0.007082073759999999,1
+Organisation de mariage,Normandie,2019,9,0.01532480616,1
+Organisation de mariage,Normandie,2019,10,0.012503204440000002,1
+Organisation de mariage,Normandie,2019,11,0.020170556909999998,1
+Organisation de mariage,Normandie,2020,0,0.015476448169999999,1
+Organisation de mariage,Normandie,2020,1,0.01736734368,1
+Organisation de mariage,Normandie,2020,2,0.0057352630229999995,1
+Organisation de mariage,Normandie,2020,3,0.028438329460000005,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,0,0.028506042850000003,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,1,0.04387737538,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,2,0.05076421277,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,3,0.02125509163,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,4,0.02091559472,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,5,0.07961308111000001,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,6,0.01662091984,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,7,0.05533632613,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,8,0.05342750168,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,9,0.02433866868,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,10,0.054837772289999996,1
+Organisation de mariage,Nouvelle-Aquitaine,2019,11,0.07811667435,1
+Organisation de mariage,Nouvelle-Aquitaine,2020,0,0.04159634842,1
+Organisation de mariage,Nouvelle-Aquitaine,2020,1,0.01316407699,1
+Organisation de mariage,Nouvelle-Aquitaine,2020,2,0.03476084095,1
+Organisation de mariage,Nouvelle-Aquitaine,2020,3,0.019255118909999997,1
+Organisation de mariage,Nouvelle-Aquitaine,2020,4,0.2936427916,1
+Organisation de mariage,Occitanie,2019,0,0.025478316580000004,1
+Organisation de mariage,Occitanie,2019,1,0.02581778809,1
+Organisation de mariage,Occitanie,2019,2,0.02709179545,1
+Organisation de mariage,Occitanie,2019,3,0.028199163450000002,1
+Organisation de mariage,Occitanie,2019,4,0.013693243649999999,1
+Organisation de mariage,Occitanie,2019,5,0.020145708119999998,1
+Organisation de mariage,Occitanie,2019,6,0.008543597553,1
+Organisation de mariage,Occitanie,2019,7,0.030859699180000002,1
+Organisation de mariage,Occitanie,2019,8,0.02173943713,1
+Organisation de mariage,Occitanie,2019,9,0.028092378280000004,1
+Organisation de mariage,Occitanie,2019,10,0.02036579646,1
+Organisation de mariage,Occitanie,2019,11,0.02583878672,1
+Organisation de mariage,Occitanie,2020,0,0.021585572459999997,1
+Organisation de mariage,Occitanie,2020,1,0.026686124500000002,1
+Organisation de mariage,Occitanie,2020,2,0.03467352525,1
+Organisation de mariage,Occitanie,2020,3,0.0,1
+Organisation de mariage,Pays de la Loire,2019,0,0.01096793842,1
+Organisation de mariage,Pays de la Loire,2019,1,0.013576851380000001,1
+Organisation de mariage,Pays de la Loire,2019,2,0.007990711384000001,1
+Organisation de mariage,Pays de la Loire,2019,3,0.011528939750000002,1
+Organisation de mariage,Pays de la Loire,2019,4,0.02527822875,1
+Organisation de mariage,Pays de la Loire,2019,5,0.01447616781,1
+Organisation de mariage,Pays de la Loire,2019,6,0.01461234947,1
+Organisation de mariage,Pays de la Loire,2019,7,0.011113092409999999,1
+Organisation de mariage,Pays de la Loire,2019,8,0.012039525390000002,1
+Organisation de mariage,Pays de la Loire,2019,9,0.014450697069999999,1
+Organisation de mariage,Pays de la Loire,2019,10,0.003702872083,1
+Organisation de mariage,Pays de la Loire,2019,11,0.005838845420999999,1
+Organisation de mariage,Pays de la Loire,2020,0,0.01781827915,1
+Organisation de mariage,Pays de la Loire,2020,1,0.01341812059,1
+Organisation de mariage,Pays de la Loire,2020,2,0.02161752986,1
+Organisation de mariage,Pays de la Loire,2020,3,0.0,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,0,0.07030380403,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,1,0.061273953170000006,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,2,0.07430892466,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,3,0.048875582419999994,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,4,0.045087509580000004,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,5,0.05552118599999999,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,6,0.1076880659,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,7,0.07365083337,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,8,0.1220140136,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,9,0.08971706906,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,10,0.09435110425000001,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2019,11,0.0,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2020,0,0.06597854221,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2020,1,0.1887312933,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2020,2,0.015882266830000002,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2020,3,0.1049774271,1
+Organisation de mariage,Provence-Alpes-Côte d'Azur,2020,4,0.09514026447,1
+Organisation de mariage,Île-de-France,2019,0,0.2966793281,1
+Organisation de mariage,Île-de-France,2019,1,0.2984532344,1
+Organisation de mariage,Île-de-France,2019,2,0.2530913185,1
+Organisation de mariage,Île-de-France,2019,3,0.34141686450000003,1
+Organisation de mariage,Île-de-France,2019,4,0.3052800128,1
+Organisation de mariage,Île-de-France,2019,5,0.1982148402,1
+Organisation de mariage,Île-de-France,2019,6,0.32452758460000003,1
+Organisation de mariage,Île-de-France,2019,7,0.2255352186,1
+Organisation de mariage,Île-de-France,2019,8,0.23181145,1
+Organisation de mariage,Île-de-France,2019,9,0.23693935730000001,1
+Organisation de mariage,Île-de-France,2019,10,0.2485011882,1
+Organisation de mariage,Île-de-France,2019,11,0.26985702780000004,1
+Organisation de mariage,Île-de-France,2020,0,0.3401764036,1
+Organisation de mariage,Île-de-France,2020,1,0.26720766809999996,1
+Organisation de mariage,Île-de-France,2020,2,0.35307712979999994,1
+Organisation de mariage,Île-de-France,2020,3,0.24008726390000001,1
+Organisation de mariage,Île-de-France,2020,4,0.2075687483,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,0,0.0240593599,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,1,0.023187743599999998,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,2,0.03522689242,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,3,0.040497822210000006,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,4,0.02607733951,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,5,0.0246808269,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,6,0.031545951860000004,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,7,0.0319696632,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,8,0.03886477861,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,9,0.028624427189999996,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,10,0.02253574724,1
+Wedding planner,Auvergne-Rhône-Alpes,2019,11,0.01703593889,1
+Wedding planner,Auvergne-Rhône-Alpes,2020,0,0.024113172000000002,1
+Wedding planner,Auvergne-Rhône-Alpes,2020,1,0.02564335881,1
+Wedding planner,Auvergne-Rhône-Alpes,2020,2,0.033545615550000005,1
+Wedding planner,Auvergne-Rhône-Alpes,2020,3,0.04063710886000001,1
+Wedding planner,Bourgogne-Franche-Comté,2019,0,0.006162540994,1
+Wedding planner,Bourgogne-Franche-Comté,2019,1,0.005586832787999999,1
+Wedding planner,Bourgogne-Franche-Comté,2019,2,0.008005372321000001,1
+Wedding planner,Bourgogne-Franche-Comté,2019,3,0.0025987907300000002,1
+Wedding planner,Bourgogne-Franche-Comté,2019,4,0.013119155379999999,1
+Wedding planner,Bourgogne-Franche-Comté,2019,5,0.008338855782,1
+Wedding planner,Bourgogne-Franche-Comté,2019,6,0.0217894719,1
+Wedding planner,Bourgogne-Franche-Comté,2019,7,0.00495741033,1
+Wedding planner,Bourgogne-Franche-Comté,2019,8,0.0109346338,1
+Wedding planner,Bourgogne-Franche-Comté,2019,9,0.02484369644,1
+Wedding planner,Bourgogne-Franche-Comté,2019,10,0.0078020169900000005,1
+Wedding planner,Bourgogne-Franche-Comté,2019,11,0.010378306640000001,1
+Wedding planner,Bourgogne-Franche-Comté,2020,0,0.018528470380000002,1
+Wedding planner,Bourgogne-Franche-Comté,2020,1,0.002983713372,1
+Wedding planner,Bourgogne-Franche-Comté,2020,2,0.00704484713,1
+Wedding planner,Bourgogne-Franche-Comté,2020,3,0.00835898834,1
+Wedding planner,Bretagne,2019,0,0.004499200283,1
+Wedding planner,Bretagne,2019,1,0.01396708197,1
+Wedding planner,Bretagne,2019,2,0.003844043111,1
+Wedding planner,Bretagne,2019,3,0.027612151510000002,1
+Wedding planner,Bretagne,2019,4,0.017304407390000002,1
+Wedding planner,Bretagne,2019,5,0.02477061795,1
+Wedding planner,Bretagne,2019,6,0.0277172726,1
+Wedding planner,Bretagne,2019,7,0.01246394358,1
+Wedding planner,Bretagne,2019,8,0.01718043935,1
+Wedding planner,Bretagne,2019,9,0.01166724996,1
+Wedding planner,Bretagne,2019,10,0.01704771429,1
+Wedding planner,Bretagne,2019,11,0.01015269128,1
+Wedding planner,Bretagne,2020,0,0.03761996057,1
+Wedding planner,Bretagne,2020,1,0.016596905630000002,1
+Wedding planner,Bretagne,2020,2,0.019688070880000002,1
+Wedding planner,Bretagne,2020,3,0.03685297225,1
+Wedding planner,Centre-Val de Loire,2019,0,0.02770416659,1
+Wedding planner,Centre-Val de Loire,2019,1,0.025441577000000003,1
+Wedding planner,Centre-Val de Loire,2019,2,0.02206358712,1
+Wedding planner,Centre-Val de Loire,2019,3,0.02668091816,1
+Wedding planner,Centre-Val de Loire,2019,4,0.039062352189999996,1
+Wedding planner,Centre-Val de Loire,2019,5,0.03766539353,1
+Wedding planner,Centre-Val de Loire,2019,6,0.01324516067,1
+Wedding planner,Centre-Val de Loire,2019,7,0.01735093615,1
+Wedding planner,Centre-Val de Loire,2019,8,0.02491163706,1
+Wedding planner,Centre-Val de Loire,2019,9,0.0312055402,1
+Wedding planner,Centre-Val de Loire,2019,10,0.04079164789,1
+Wedding planner,Centre-Val de Loire,2019,11,0.02583889617,1
+Wedding planner,Centre-Val de Loire,2020,0,0.02183834446,1
+Wedding planner,Centre-Val de Loire,2020,1,0.03839044538,1
+Wedding planner,Centre-Val de Loire,2020,2,0.03235808111,1
+Wedding planner,Centre-Val de Loire,2020,3,0.039309837060000005,1
+Wedding planner,Corse,2019,0,0.0,1
+Wedding planner,Corse,2019,1,0.022920339640000002,1
+Wedding planner,Corse,2019,2,0.0,1
+Wedding planner,Corse,2019,3,0.03222500505,1
+Wedding planner,Corse,2019,4,0.018458034550000002,1
+Wedding planner,Corse,2019,5,0.0,1
+Wedding planner,Corse,2019,6,0.0,1
+Wedding planner,Corse,2019,7,0.01284419949,1
+Wedding planner,Corse,2019,8,0.02133237886,1
+Wedding planner,Corse,2019,9,0.01578851736,1
+Wedding planner,Corse,2019,10,0.0,1
+Wedding planner,Corse,2019,11,0.0,1
+Wedding planner,Corse,2020,0,0.0,1
+Wedding planner,Corse,2020,1,0.016907709099999998,1
+Wedding planner,Corse,2020,2,0.0,1
+Wedding planner,Corse,2020,3,0.0,1
+Wedding planner,France,2019,0,0.7043973941,1
+Wedding planner,France,2019,1,0.8835504886,1
+Wedding planner,France,2019,2,0.680781759,1
+Wedding planner,France,2019,3,0.6392508143,1
+Wedding planner,France,2019,4,0.8672638436,1
+Wedding planner,France,2019,5,0.7622149837000001,1
+Wedding planner,France,2019,6,0.8550488598999999,1
+Wedding planner,France,2019,7,0.8061889251000001,1
+Wedding planner,France,2019,8,1.0,1
+Wedding planner,France,2019,9,0.9649837134,1
+Wedding planner,France,2019,10,0.7043973941,1
+Wedding planner,France,2019,11,0.5700325733,1
+Wedding planner,France,2020,0,0.7166123779000001,1
+Wedding planner,France,2020,1,0.7939739414,1
+Wedding planner,France,2020,2,0.5732899023,1
+Wedding planner,France,2020,3,0.6677524429999999,1
+Wedding planner,Grand-Est,2019,0,0.01234326058,1
+Wedding planner,Grand-Est,2019,1,0.006876101892,1
+Wedding planner,Grand-Est,2019,2,0.008786384253,1
+Wedding planner,Grand-Est,2019,3,0.00577509051,1
+Wedding planner,Grand-Est,2019,4,0.009425759890000001,1
+Wedding planner,Grand-Est,2019,5,0.009057184183,1
+Wedding planner,Grand-Est,2019,6,0.01915817882,1
+Wedding planner,Grand-Est,2019,7,0.02247734911,1
+Wedding planner,Grand-Est,2019,8,0.010707947439999999,1
+Wedding planner,Grand-Est,2019,9,0.007422151053,1
+Wedding planner,Grand-Est,2019,10,0.01259380696,1
+Wedding planner,Grand-Est,2019,11,0.013465674750000002,1
+Wedding planner,Grand-Est,2020,0,0.02204307893,1
+Wedding planner,Grand-Est,2020,1,0.015863409430000003,1
+Wedding planner,Grand-Est,2020,2,0.008759182552,1
+Wedding planner,Grand-Est,2020,3,0.01767813075,1
+Wedding planner,Hauts-de-France,2019,0,0.006026201591000001,1
+Wedding planner,Hauts-de-France,2019,1,0.0035813030690000002,1
+Wedding planner,Hauts-de-France,2019,2,0.010690100840000001,1
+Wedding planner,Hauts-de-France,2019,3,0.01100154742,1
+Wedding planner,Hauts-de-France,2019,4,0.01931654779,1
+Wedding planner,Hauts-de-France,2019,5,0.017497542890000002,1
+Wedding planner,Hauts-de-France,2019,6,0.013999070480000002,1
+Wedding planner,Hauts-de-France,2019,7,0.01364696196,1
+Wedding planner,Hauts-de-France,2019,8,0.012509507409999999,1
+Wedding planner,Hauts-de-France,2019,9,0.01662438005,1
+Wedding planner,Hauts-de-France,2019,10,0.013453871809999999,1
+Wedding planner,Hauts-de-France,2019,11,0.008810873601,1
+Wedding planner,Hauts-de-France,2020,0,0.0113457024,1
+Wedding planner,Hauts-de-France,2020,1,0.01417263852,1
+Wedding planner,Hauts-de-France,2020,2,0.013781649619999998,1
+Wedding planner,Hauts-de-France,2020,3,0.024060331310000002,1
+Wedding planner,Normandie,2019,0,0.00436286088,1
+Wedding planner,Normandie,2019,1,0.02154511926,1
+Wedding planner,Normandie,2019,2,0.03299775419,1
+Wedding planner,Normandie,2019,3,0.03118548876,1
+Wedding planner,Normandie,2019,4,0.02511151212,1
+Wedding planner,Normandie,2019,5,0.01574076148,1
+Wedding planner,Normandie,2019,6,0.0,1
+Wedding planner,Normandie,2019,7,0.014421557319999999,1
+Wedding planner,Normandie,2019,8,0.013028499840000003,1
+Wedding planner,Normandie,2019,9,0.015417022839999999,1
+Wedding planner,Normandie,2019,10,0.014743969119999997,1
+Wedding planner,Normandie,2019,11,0.014439383149999999,1
+Wedding planner,Normandie,2020,0,0.027570909879999998,1
+Wedding planner,Normandie,2020,1,0.02446644965,1
+Wedding planner,Normandie,2020,2,0.0072859255489999995,1
+Wedding planner,Normandie,2020,3,0.03795432544,1
+Wedding planner,Nouvelle-Aquitaine,2019,0,0.07694995879,1
+Wedding planner,Nouvelle-Aquitaine,2019,1,0.03016889705,1
+Wedding planner,Nouvelle-Aquitaine,2019,2,0.046169195030000006,1
+Wedding planner,Nouvelle-Aquitaine,2019,3,0.01774396559,1
+Wedding planner,Nouvelle-Aquitaine,2019,4,0.05050919533,1
+Wedding planner,Nouvelle-Aquitaine,2019,5,0.06822558222,1
+Wedding planner,Nouvelle-Aquitaine,2019,6,0.029141324469999997,1
+Wedding planner,Nouvelle-Aquitaine,2019,7,0.03732141299,1
+Wedding planner,Nouvelle-Aquitaine,2019,8,0.050789673839999994,1
+Wedding planner,Nouvelle-Aquitaine,2019,9,0.0458486161,1
+Wedding planner,Nouvelle-Aquitaine,2019,10,0.0766072062,1
+Wedding planner,Nouvelle-Aquitaine,2019,11,0.1077966449,1
+Wedding planner,Nouvelle-Aquitaine,2020,0,0.04445013028,1
+Wedding planner,Nouvelle-Aquitaine,2020,1,0.06941277634,1
+Wedding planner,Nouvelle-Aquitaine,2020,2,0.05979637672,1
+Wedding planner,Nouvelle-Aquitaine,2020,3,0.08206493282,1
+Wedding planner,Occitanie,2019,0,0.03059456192,1
+Wedding planner,Occitanie,2019,1,0.03737447883,1
+Wedding planner,Occitanie,2019,2,0.04228447422,1
+Wedding planner,Occitanie,2019,3,0.05487779757999999,1
+Wedding planner,Occitanie,2019,4,0.01759952132,1
+Wedding planner,Occitanie,2019,5,0.026925603149999998,1
+Wedding planner,Occitanie,2019,6,0.01173734104,1
+Wedding planner,Occitanie,2019,7,0.053109074869999995,1
+Wedding planner,Occitanie,2019,8,0.030763724219999997,1
+Wedding planner,Occitanie,2019,9,0.03507140512,1
+Wedding planner,Occitanie,2019,10,0.026016962169999998,1
+Wedding planner,Occitanie,2019,11,0.03236986717,1
+Wedding planner,Occitanie,2020,0,0.036169758010000004,1
+Wedding planner,Occitanie,2020,1,0.02873067334,1
+Wedding planner,Occitanie,2020,2,0.03368401242,1
+Wedding planner,Occitanie,2020,3,0.0,1
+Wedding planner,Pays de la Loire,2019,0,0.01431563726,1
+Wedding planner,Pays de la Loire,2019,1,0.02466801554,1
+Wedding planner,Pays de la Loire,2019,2,0.012300937949999998,1
+Wedding planner,Pays de la Loire,2019,3,0.031835186439999996,1
+Wedding planner,Pays de la Loire,2019,4,0.03699655472,1
+Wedding planner,Pays de la Loire,2019,5,0.020331816909999998,1
+Wedding planner,Pays de la Loire,2019,6,0.02938770023,1
+Wedding planner,Pays de la Loire,2019,7,0.02149150046,1
+Wedding planner,Pays de la Loire,2019,8,0.022799874730000003,1
+Wedding planner,Pays de la Loire,2019,9,0.01804070293,1
+Wedding planner,Pays de la Loire,2019,10,0.02085657298,1
+Wedding planner,Pays de la Loire,2019,11,0.007314687518,1
+Wedding planner,Pays de la Loire,2020,0,0.027229685739999995,1
+Wedding planner,Pays de la Loire,2020,1,0.01618664504,1
+Wedding planner,Pays de la Loire,2020,2,0.02100060893,1
+Wedding planner,Pays de la Loire,2020,3,0.01660501738,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,0,0.0533496082,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,1,0.1367484764,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,2,0.1065227058,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,3,0.06984250087,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,4,0.05710454438999999,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,5,0.1007221344,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,6,0.08708397487,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,7,0.08538857621,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,8,0.07810836204,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,9,0.08436408506000001,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,10,0.08321127569,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2019,11,0.07607987488,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2020,0,0.08583493044,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2020,1,0.0662881654,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2020,2,0.07486824231,1
+Wedding planner,Provence-Alpes-Côte d'Azur,2020,3,0.04614387483,1
+Wedding planner,Île-de-France,2019,0,0.27584187920000003,1
+Wedding planner,Île-de-France,2019,1,0.2248485319,1
+Wedding planner,Île-de-France,2019,2,0.21965960629999998,1
+Wedding planner,Île-de-France,2019,3,0.1715201882,1
+Wedding planner,Île-de-France,2019,4,0.21248202559999999,1
+Wedding planner,Île-de-France,2019,5,0.1635914853,1
+Wedding planner,Île-de-France,2019,6,0.25224935449999997,1
+Wedding planner,Île-de-France,2019,7,0.1875929136,1
+Wedding planner,Île-de-France,2019,8,0.186837278,1
+Wedding planner,Île-de-France,2019,9,0.1980994561,1
+Wedding planner,Île-de-France,2019,10,0.174716034,1
+Wedding planner,Île-de-France,2019,11,0.1769774395,1
+Wedding planner,Île-de-France,2020,0,0.14863723199999998,1
+Wedding planner,Île-de-France,2020,1,0.1969250825,1
+Wedding planner,Île-de-France,2020,2,0.2352925368,1
+Wedding planner,Île-de-France,2020,3,0.1463952553,1

@@ -1,0 +1,127 @@
+Year,ticket_geo_region_name,Spend_type,Distribution
+2018,Abruzzo,premium,0.285046729
+2018,Abruzzo,standard,0.714953271
+2018,Valle d'Aosta,premium,NA
+2018,Valle d'Aosta,standard,NA
+2018,Puglia,premium,0.2596566524
+2018,Puglia,standard,0.7403433476
+2018,Basilicata,premium,NA
+2018,Basilicata,standard,NA
+2018,Calabria,premium,0.2844827586
+2018,Calabria,standard,0.7155172414
+2018,Campania,premium,0.2887537994
+2018,Campania,standard,0.7112462006
+2018,Emilia-Romagna,premium,0.1907968575
+2018,Emilia-Romagna,standard,0.8092031425
+2018,Friuli Venezia Giulia,premium,0.2431192661
+2018,Friuli Venezia Giulia,standard,0.7568807339
+2018,Italia,premium,0.2165275283
+2018,Italia,standard,0.7834724717
+2018,Lazio,premium,0.1933404941
+2018,Lazio,standard,0.8066595059
+2018,Liguria,premium,0.1762820513
+2018,Liguria,standard,0.8237179487
+2018,Lombardia,premium,0.2009162304
+2018,Lombardia,standard,0.7990837696
+2018,Marche,premium,0.2442396313
+2018,Marche,standard,0.7557603687
+2018,Molise,premium,NA
+2018,Molise,standard,NA
+2018,Piemonte,premium,0.1731984829
+2018,Piemonte,standard,0.8268015171
+2018,Sardegna,premium,0.2214285714
+2018,Sardegna,standard,0.7785714286
+2018,Sicilia,premium,0.2728551336
+2018,Sicilia,standard,0.7271448664
+2018,Trentino-Alto Adige,premium,0.1916666667
+2018,Trentino-Alto Adige,standard,0.8083333333
+2018,Toscana,premium,0.2109375
+2018,Toscana,standard,0.7890625
+2018,Umbria,premium,0.1890243902
+2018,Umbria,standard,0.8109756098
+2018,Veneto,premium,0.1862068966
+2018,Veneto,standard,0.8137931034
+2019,Abruzzo,premium,0.2135678392
+2019,Abruzzo,standard,0.7864321608
+2019,Valle d'Aosta,premium,NA
+2019,Valle d'Aosta,standard,NA
+2019,Puglia,premium,0.181200453
+2019,Puglia,standard,0.818799547
+2019,Basilicata,premium,NA
+2019,Basilicata,standard,NA
+2019,Calabria,premium,0.1911111111
+2019,Calabria,standard,0.8088888889
+2019,Campania,premium,0.2184557439
+2019,Campania,standard,0.7815442561
+2019,Emilia-Romagna,premium,0.141536684
+2019,Emilia-Romagna,standard,0.858463316
+2019,Friuli Venezia Giulia,premium,0.1300578035
+2019,Friuli Venezia Giulia,standard,0.8699421965
+2019,Italia,premium,0.1672539088
+2019,Italia,standard,0.8327460912
+2019,Lazio,premium,0.1810699588
+2019,Lazio,standard,0.8189300412
+2019,Liguria,premium,0.1552706553
+2019,Liguria,standard,0.8447293447
+2019,Lombardia,premium,0.1501367989
+2019,Lombardia,standard,0.8498632011
+2019,Marche,premium,0.1516587678
+2019,Marche,standard,0.8483412322
+2019,Molise,premium,NA
+2019,Molise,standard,NA
+2019,Piemonte,premium,0.1365606936
+2019,Piemonte,standard,0.8634393064
+2019,Sardegna,premium,0.1718309859
+2019,Sardegna,standard,0.8281690141
+2019,Sicilia,premium,0.1875808538
+2019,Sicilia,standard,0.8124191462
+2019,Trentino-Alto Adige,premium,0.1294964029
+2019,Trentino-Alto Adige,standard,0.8705035971
+2019,Toscana,premium,0.1592115239
+2019,Toscana,standard,0.8407884761
+2019,Umbria,premium,0.1715328467
+2019,Umbria,standard,0.8284671533
+2019,Veneto,premium,0.1694545455
+2019,Veneto,standard,0.8305454545
+2020,Abruzzo,premium,NA
+2020,Abruzzo,standard,NA
+2020,Valle d'Aosta,premium,#N/A
+2020,Valle d'Aosta,standard,NA
+2020,Puglia,premium,0.2010869565
+2020,Puglia,standard,0.7989130435
+2020,Basilicata,premium,#N/A
+2020,Basilicata,standard,NA
+2020,Calabria,premium,NA
+2020,Calabria,standard,NA
+2020,Campania,premium,0.1388888889
+2020,Campania,standard,0.8611111111
+2020,Emilia-Romagna,premium,0.1410891089
+2020,Emilia-Romagna,standard,0.8589108911
+2020,Friuli Venezia Giulia,premium,NA
+2020,Friuli Venezia Giulia,standard,NA
+2020,Italia,premium,0.1316964286
+2020,Italia,standard,0.8683035714
+2020,Lazio,premium,0.1591591592
+2020,Lazio,standard,0.8408408408
+2020,Liguria,premium,0.06832298137
+2020,Liguria,standard,0.9316770186
+2020,Lombardia,premium,0.125739645
+2020,Lombardia,standard,0.874260355
+2020,Marche,premium,NA
+2020,Marche,standard,NA
+2020,Molise,premium,NA
+2020,Molise,standard,NA
+2020,Piemonte,premium,0.1234177215
+2020,Piemonte,standard,0.8765822785
+2020,Sardegna,premium,0.1162790698
+2020,Sardegna,standard,0.8837209302
+2020,Sicilia,premium,0.1568123393
+2020,Sicilia,standard,0.8431876607
+2020,Trentino-Alto Adige,premium,NA
+2020,Trentino-Alto Adige,standard,NA
+2020,Toscana,premium,0.09638554217
+2020,Toscana,standard,0.9036144578
+2020,Umbria,premium,NA
+2020,Umbria,standard,NA
+2020,Veneto,premium,0.109929078
+2020,Veneto,standard,0.890070922

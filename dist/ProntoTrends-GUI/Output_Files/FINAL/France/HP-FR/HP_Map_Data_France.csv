@@ -1,0 +1,757 @@
+ticket_taxonomy_tag_name,ticket_geo_region_name,Score
+Barbecue,Alsace,0.305801671133533
+Barbecue,Aquitaine,3.6669556991959644
+Barbecue,Auvergne,0.6868910610121393
+Barbecue,Basse Normandie,1.5814441116191078
+Barbecue,Bourgogne,1.0182169320510799
+Barbecue,Bretagne,1.4529087182721112
+Barbecue,Centre-Val de Loire,2.0221109884912503
+Barbecue,Champagne-Ardenne,0.5077723474696516
+Barbecue,Corse,0.0
+Barbecue,Franche-Comté,0.22722686425981398
+Barbecue,Languedoc-Roussillon,1.1119817121236009
+Barbecue,Limousin,0.4924483682799936
+Barbecue,Lorraine,0.8478795522623364
+Barbecue,Midi-Pyrénées,2.6744758000945925
+Barbecue,Nord-Pas-de-Calais,2.044710704713858
+Barbecue,Pays de la Loire,1.3252404225130066
+Barbecue,Picardie,1.1098849125019707
+Barbecue,Poitou-Charentes,1.4351883966577328
+Barbecue,Provence-Alpes-Côte d'Azur,2.016466971464607
+Barbecue,Rhône-Alpes,5.183067948920069
+Barbecue,Île-de-France,10.0
+Coach de développement personnel,Alsace,0.5995936754703647
+Coach de développement personnel,Aquitaine,0.43727585902305455
+Coach de développement personnel,Auvergne,0.0
+Coach de développement personnel,Basse Normandie,0.0
+Coach de développement personnel,Bourgogne,0.16237081529900188
+Coach de développement personnel,Bretagne,0.26488826075435035
+Coach de développement personnel,Centre-Val de Loire,0.27554102994435115
+Coach de développement personnel,Champagne-Ardenne,0.0
+Coach de développement personnel,Corse,0.0
+Coach de développement personnel,Franche-Comté,0.0
+Coach de développement personnel,Languedoc-Roussillon,0.24884727497570885
+Coach de développement personnel,Limousin,0.682563377793481
+Coach de développement personnel,Lorraine,0.2827665400582987
+Coach de développement personnel,Midi-Pyrénées,0.4088684745163854
+Coach de développement personnel,Nord-Pas-de-Calais,0.21301121809027473
+Coach de développement personnel,Pays de la Loire,0.4327002914936843
+Coach de développement personnel,Picardie,0.0
+Coach de développement personnel,Poitou-Charentes,0.5019521243706386
+Coach de développement personnel,Provence-Alpes-Côte d'Azur,0.40231428319053086
+Coach de développement personnel,Rhône-Alpes,2.28501015811324
+Coach de développement personnel,Île-de-France,10.0
+Cours - collège - matières scientifiques,Alsace,1.2283197414986922
+Cours - collège - matières scientifiques,Aquitaine,2.342560393906755
+Cours - collège - matières scientifiques,Auvergne,1.0355900907831976
+Cours - collège - matières scientifiques,Basse Normandie,1.1941067856593326
+Cours - collège - matières scientifiques,Bourgogne,1.8887521157101095
+Cours - collège - matières scientifiques,Bretagne,1.520964763809817
+Cours - collège - matières scientifiques,Centre-Val de Loire,1.3730343129712266
+Cours - collège - matières scientifiques,Champagne-Ardenne,0.9465071549469152
+Cours - collège - matières scientifiques,Corse,1.2297891983382059
+Cours - collège - matières scientifiques,Franche-Comté,1.3432835820895526
+Cours - collège - matières scientifiques,Languedoc-Roussillon,1.8410140021541779
+Cours - collège - matières scientifiques,Limousin,1.9460301584859212
+Cours - collège - matières scientifiques,Lorraine,1.6266502538852132
+Cours - collège - matières scientifiques,Midi-Pyrénées,2.0803354362209574
+Cours - collège - matières scientifiques,Nord-Pas-de-Calais,2.760724726881059
+Cours - collège - matières scientifiques,Pays de la Loire,2.2993614402215727
+Cours - collège - matières scientifiques,Picardie,1.888736728727497
+Cours - collège - matières scientifiques,Poitou-Charentes,1.068687490383136
+Cours - collège - matières scientifiques,Provence-Alpes-Côte d'Azur,4.347438067394984
+Cours - collège - matières scientifiques,Rhône-Alpes,8.565202338821358
+Cours - collège - matières scientifiques,Île-de-France,10.0
+Cours d'anglais,Alsace,0.7447432432432435
+Cours d'anglais,Aquitaine,2.495594594594595
+Cours d'anglais,Auvergne,0.3896824324324326
+Cours d'anglais,Basse Normandie,0.6189864864864867
+Cours d'anglais,Bourgogne,0.48243243243243256
+Cours d'anglais,Bretagne,1.8313513513513515
+Cours d'anglais,Centre-Val de Loire,1.4046824324324327
+Cours d'anglais,Champagne-Ardenne,0.5400000000000001
+Cours d'anglais,Corse,0.08239864864864867
+Cours d'anglais,Franche-Comté,0.388810810810811
+Cours d'anglais,Languedoc-Roussillon,1.6651013513513515
+Cours d'anglais,Limousin,0.893918918918919
+Cours d'anglais,Lorraine,0.7372229729729731
+Cours d'anglais,Midi-Pyrénées,1.6283513513513517
+Cours d'anglais,Nord-Pas-de-Calais,1.5653513513513517
+Cours d'anglais,Pays de la Loire,1.6489594594594599
+Cours d'anglais,Picardie,0.4453175675675677
+Cours d'anglais,Poitou-Charentes,0.4614324324324326
+Cours d'anglais,Provence-Alpes-Côte d'Azur,2.4426216216216226
+Cours d'anglais,Rhône-Alpes,4.260662162162164
+Cours d'anglais,Île-de-France,10.0
+Cours de calligraphie,Alsace,1.5649327149111827
+Cours de calligraphie,Aquitaine,4.060462613846628
+Cours de calligraphie,Auvergne,1.9328233748967714
+Cours de calligraphie,Basse Normandie,1.3054305955731769
+Cours de calligraphie,Bourgogne,1.708604179396834
+Cours de calligraphie,Bretagne,5.0406470451155325
+Cours de calligraphie,Centre-Val de Loire,2.525808457377519
+Cours de calligraphie,Champagne-Ardenne,1.581035817725118
+Cours de calligraphie,Corse,0.37288965589081463
+Cours de calligraphie,Franche-Comté,2.1219583177170636
+Cours de calligraphie,Languedoc-Roussillon,4.194452886477152
+Cours de calligraphie,Limousin,2.7312559131517085
+Cours de calligraphie,Lorraine,1.7601727687349582
+Cours de calligraphie,Midi-Pyrénées,5.229239669368236
+Cours de calligraphie,Nord-Pas-de-Calais,3.711236303771423
+Cours de calligraphie,Pays de la Loire,4.539351386993161
+Cours de calligraphie,Picardie,0.683933517113104
+Cours de calligraphie,Poitou-Charentes,2.8483269203715262
+Cours de calligraphie,Provence-Alpes-Côte d'Azur,7.155920346826146
+Cours de calligraphie,Rhône-Alpes,10.0
+Cours de calligraphie,Île-de-France,6.55183115743669
+Cours de création vidéo,Alsace,1.025690930323083
+Cours de création vidéo,Aquitaine,1.892500324380433
+Cours de création vidéo,Auvergne,2.8472297910990014
+Cours de création vidéo,Basse Normandie,0.5151291034124821
+Cours de création vidéo,Bourgogne,1.6374205267938238
+Cours de création vidéo,Bretagne,1.986012715712988
+Cours de création vidéo,Centre-Val de Loire,1.377838328792007
+Cours de création vidéo,Champagne-Ardenne,1.2612689762553522
+Cours de création vidéo,Corse,0.0
+Cours de création vidéo,Franche-Comté,0.385558583106267
+Cours de création vidéo,Languedoc-Roussillon,1.418411833398209
+Cours de création vidéo,Limousin,0.0
+Cours de création vidéo,Lorraine,0.5873880887504866
+Cours de création vidéo,Midi-Pyrénées,0.8840794083300894
+Cours de création vidéo,Nord-Pas-de-Calais,1.3060464512780587
+Cours de création vidéo,Pays de la Loire,1.6712598936032181
+Cours de création vidéo,Picardie,1.4992993382639161
+Cours de création vidéo,Poitou-Charentes,1.4323342415985465
+Cours de création vidéo,Provence-Alpes-Côte d'Azur,4.621331257298559
+Cours de création vidéo,Rhône-Alpes,3.7809134553003765
+Cours de création vidéo,Île-de-France,10.0
+Cours de cuisine,Alsace,1.7072247802427796
+Cours de cuisine,Aquitaine,2.0524068647969864
+Cours de cuisine,Auvergne,1.7285475094181666
+Cours de cuisine,Basse Normandie,1.148430305567183
+Cours de cuisine,Bourgogne,1.9459857681038093
+Cours de cuisine,Bretagne,1.7020343239849312
+Cours de cuisine,Centre-Val de Loire,2.5934868145667647
+Cours de cuisine,Champagne-Ardenne,1.3821850146504813
+Cours de cuisine,Corse,0.0
+Cours de cuisine,Franche-Comté,1.1388698200083716
+Cours de cuisine,Languedoc-Roussillon,1.705818334030975
+Cours de cuisine,Limousin,5.578903306822939
+Cours de cuisine,Lorraine,1.6157722896609463
+Cours de cuisine,Midi-Pyrénées,1.9611552951025535
+Cours de cuisine,Nord-Pas-de-Calais,1.6468982838007533
+Cours de cuisine,Pays de la Loire,2.401105064880703
+Cours de cuisine,Picardie,0.9309334449560485
+Cours de cuisine,Poitou-Charentes,1.0593553788195897
+Cours de cuisine,Provence-Alpes-Côte d'Azur,6.192632900795312
+Cours de cuisine,Rhône-Alpes,8.140326496442025
+Cours de cuisine,Île-de-France,10.0
+Cours de dessin,Alsace,1.5649327149111827
+Cours de dessin,Aquitaine,4.060462613846628
+Cours de dessin,Auvergne,1.9328233748967714
+Cours de dessin,Basse Normandie,1.3054305955731769
+Cours de dessin,Bourgogne,1.708604179396834
+Cours de dessin,Bretagne,5.0406470451155325
+Cours de dessin,Centre-Val de Loire,2.525808457377519
+Cours de dessin,Champagne-Ardenne,1.581035817725118
+Cours de dessin,Corse,0.37288965589081463
+Cours de dessin,Franche-Comté,2.1219583177170636
+Cours de dessin,Languedoc-Roussillon,4.194452886477152
+Cours de dessin,Limousin,2.7312559131517085
+Cours de dessin,Lorraine,1.7601727687349582
+Cours de dessin,Midi-Pyrénées,5.229239669368236
+Cours de dessin,Nord-Pas-de-Calais,3.711236303771423
+Cours de dessin,Pays de la Loire,4.539351386993161
+Cours de dessin,Picardie,0.683933517113104
+Cours de dessin,Poitou-Charentes,2.8483269203715262
+Cours de dessin,Provence-Alpes-Côte d'Azur,7.155920346826146
+Cours de dessin,Rhône-Alpes,10.0
+Cours de dessin,Île-de-France,6.55183115743669
+Cours de guitare,Alsace,2.7684852066353605
+Cours de guitare,Aquitaine,4.997698344964195
+Cours de guitare,Auvergne,3.314243757315522
+Cours de guitare,Basse Normandie,3.2271359422138755
+Cours de guitare,Bourgogne,4.012995791078201
+Cours de guitare,Bretagne,5.40988481579785
+Cours de guitare,Centre-Val de Loire,4.65432692124789
+Cours de guitare,Champagne-Ardenne,2.6766155652750627
+Cours de guitare,Corse,3.043662966687506
+Cours de guitare,Franche-Comté,2.2836602782529742
+Cours de guitare,Languedoc-Roussillon,4.668187576642577
+Cours de guitare,Limousin,3.0890873652453905
+Cours de guitare,Lorraine,3.7970333378563295
+Cours de guitare,Midi-Pyrénées,4.88927961367703
+Cours de guitare,Nord-Pas-de-Calais,3.892726389648005
+Cours de guitare,Pays de la Loire,5.264398659333496
+Cours de guitare,Picardie,2.6554821872190306
+Cours de guitare,Poitou-Charentes,3.926128920580854
+Cours de guitare,Provence-Alpes-Côte d'Azur,5.425894950688784
+Cours de guitare,Rhône-Alpes,10.0
+Cours de guitare,Île-de-France,8.688589243979239
+Cours de jardinage,Alsace,2.4854085603112837
+Cours de jardinage,Aquitaine,5.882723735408561
+Cours de jardinage,Auvergne,3.222655642023346
+Cours de jardinage,Basse Normandie,3.0668968871595332
+Cours de jardinage,Bourgogne,3.246964980544748
+Cours de jardinage,Bretagne,7.001089494163425
+Cours de jardinage,Centre-Val de Loire,5.1849027237354095
+Cours de jardinage,Champagne-Ardenne,2.414552529182879
+Cours de jardinage,Corse,0.06552529182879377
+Cours de jardinage,Franche-Comté,2.232684824902724
+Cours de jardinage,Languedoc-Roussillon,3.592159533073931
+Cours de jardinage,Limousin,1.888540856031129
+Cours de jardinage,Lorraine,4.033073929961089
+Cours de jardinage,Midi-Pyrénées,4.304124513618677
+Cours de jardinage,Nord-Pas-de-Calais,5.177684824902721
+Cours de jardinage,Pays de la Loire,5.8195136186770435
+Cours de jardinage,Picardie,4.50954280155642
+Cours de jardinage,Poitou-Charentes,4.981867704280155
+Cours de jardinage,Provence-Alpes-Côte d'Azur,5.79284046692607
+Cours de jardinage,Rhône-Alpes,9.186284046692608
+Cours de jardinage,Île-de-France,10.0
+Couturier pour robe de mariée,Alsace,3.538027711845495
+Couturier pour robe de mariée,Aquitaine,4.196188653008079
+Couturier pour robe de mariée,Auvergne,2.3837055971436105
+Couturier pour robe de mariée,Basse Normandie,2.3763285585451004
+Couturier pour robe de mariée,Bourgogne,2.4133735873739526
+Couturier pour robe de mariée,Bretagne,3.0734218209113218
+Couturier pour robe de mariée,Centre-Val de Loire,4.341387215223257
+Couturier pour robe de mariée,Champagne-Ardenne,2.7660390651078974
+Couturier pour robe de mariée,Corse,3.210948262984049
+Couturier pour robe de mariée,Franche-Comté,2.5776110567054507
+Couturier pour robe de mariée,Languedoc-Roussillon,4.694698183834572
+Couturier pour robe de mariée,Limousin,2.5646643539650658
+Couturier pour robe de mariée,Lorraine,3.831646143130532
+Couturier pour robe de mariée,Midi-Pyrénées,3.748457737867999
+Couturier pour robe de mariée,Nord-Pas-de-Calais,6.124577280319475
+Couturier pour robe de mariée,Pays de la Loire,4.122221545993684
+Couturier pour robe de mariée,Picardie,4.4330161821489185
+Couturier pour robe de mariée,Poitou-Charentes,2.3806994539147177
+Couturier pour robe de mariée,Provence-Alpes-Côte d'Azur,4.545159463910605
+Couturier pour robe de mariée,Rhône-Alpes,10.0
+Couturier pour robe de mariée,Île-de-France,9.95961686120532
+Cérémonies,Alsace,0.0
+Cérémonies,Aquitaine,4.315760869565218
+Cérémonies,Auvergne,3.0998641304347823
+Cérémonies,Basse Normandie,10.0
+Cérémonies,Bourgogne,3.4296875
+Cérémonies,Bretagne,7.980910326086956
+Cérémonies,Centre-Val de Loire,2.2074728260869567
+Cérémonies,Champagne-Ardenne,6.40421195652174
+Cérémonies,Corse,0.0
+Cérémonies,Franche-Comté,4.167730978260869
+Cérémonies,Languedoc-Roussillon,1.7103940217391305
+Cérémonies,Limousin,0.0
+Cérémonies,Lorraine,0.0
+Cérémonies,Midi-Pyrénées,3.363586956521739
+Cérémonies,Nord-Pas-de-Calais,3.0945652173913043
+Cérémonies,Pays de la Loire,8.692934782608695
+Cérémonies,Picardie,1.4714673913043481
+Cérémonies,Poitou-Charentes,6.007201086956522
+Cérémonies,Provence-Alpes-Côte d'Azur,3.2883831521739126
+Cérémonies,Rhône-Alpes,4.143138586956522
+Cérémonies,Île-de-France,9.870855978260868
+Fleuriste,Alsace,4.0068960521550165
+Fleuriste,Aquitaine,5.158739587106121
+Fleuriste,Auvergne,2.8135892792466493
+Fleuriste,Basse Normandie,2.8479681274900392
+Fleuriste,Bourgogne,2.379572618616444
+Fleuriste,Bretagne,4.1065338645418334
+Fleuriste,Centre-Val de Loire,4.429699384281056
+Fleuriste,Champagne-Ardenne,2.7932053603766756
+Fleuriste,Corse,0.26333936979355305
+Fleuriste,Franche-Comté,1.8546975733429918
+Fleuriste,Languedoc-Roussillon,3.284027526258602
+Fleuriste,Limousin,6.324186888808402
+Fleuriste,Lorraine,3.332162260050706
+Fleuriste,Midi-Pyrénées,3.337834118073162
+Fleuriste,Nord-Pas-de-Calais,6.083592901122782
+Fleuriste,Pays de la Loire,4.874320898225281
+Fleuriste,Picardie,4.621803694313655
+Fleuriste,Poitou-Charentes,3.026012314378849
+Fleuriste,Provence-Alpes-Côte d'Azur,3.5437305324157915
+Fleuriste,Rhône-Alpes,9.151582759869614
+Fleuriste,Île-de-France,10.0
+Fleuriste Mariage,Alsace,3.441176470588236
+Fleuriste Mariage,Aquitaine,4.360540423065778
+Fleuriste Mariage,Auvergne,2.3679802955665026
+Fleuriste Mariage,Basse Normandie,2.3417705013039702
+Fleuriste Mariage,Bourgogne,1.6489785569400175
+Fleuriste Mariage,Bretagne,3.333120834540713
+Fleuriste Mariage,Centre-Val de Loire,3.6550854824688495
+Fleuriste Mariage,Champagne-Ardenne,2.2277021153288903
+Fleuriste Mariage,Corse,0.13167922341350333
+Fleuriste Mariage,Franche-Comté,1.588872790495509
+Fleuriste Mariage,Languedoc-Roussillon,2.710982323964069
+Fleuriste Mariage,Limousin,5.947841205447697
+Fleuriste Mariage,Lorraine,2.389452332657201
+Fleuriste Mariage,Midi-Pyrénées,2.8851419878296145
+Fleuriste Mariage,Nord-Pas-de-Calais,5.418255578093307
+Fleuriste Mariage,Pays de la Loire,4.019378441031586
+Fleuriste Mariage,Picardie,4.177361634308897
+Fleuriste Mariage,Poitou-Charentes,2.8385902636916835
+Fleuriste Mariage,Provence-Alpes-Côte d'Azur,3.182418139669662
+Fleuriste Mariage,Rhône-Alpes,7.698913358446829
+Fleuriste Mariage,Île-de-France,10.0
+Fleuriste pour évènements,Alsace,3.649208373977639
+Fleuriste pour évènements,Aquitaine,4.960268627598109
+Fleuriste pour évènements,Auvergne,2.452735049148345
+Fleuriste pour évènements,Basse Normandie,2.5188789675095666
+Fleuriste pour évènements,Bourgogne,1.7079987994297285
+Fleuriste pour évènements,Bretagne,3.4978839948975757
+Fleuriste pour évènements,Centre-Val de Loire,3.871951677046597
+Fleuriste pour évènements,Champagne-Ardenne,2.3715314774517893
+Fleuriste pour évènements,Corse,0.13639228633600958
+Fleuriste pour évènements,Franche-Comté,1.7172957154648452
+Fleuriste pour évènements,Languedoc-Roussillon,2.8851504464620685
+Fleuriste pour évènements,Limousin,5.736917535829519
+Fleuriste pour évènements,Lorraine,2.8534178734899074
+Fleuriste pour évènements,Midi-Pyrénées,3.058902978914984
+Fleuriste pour évènements,Nord-Pas-de-Calais,5.289660088542057
+Fleuriste pour évènements,Pays de la Loire,4.279342687776694
+Fleuriste pour évènements,Picardie,4.41893899602311
+Fleuriste pour évènements,Poitou-Charentes,3.002746304494634
+Fleuriste pour évènements,Provence-Alpes-Côte d'Azur,3.4079387709161852
+Fleuriste pour évènements,Rhône-Alpes,8.218361221580247
+Fleuriste pour évènements,Île-de-France,10.0
+Homme femme à tout faire,Alsace,1.8101224362473678
+Homme femme à tout faire,Aquitaine,5.84732121968338
+Homme femme à tout faire,Auvergne,2.36236450128675
+Homme femme à tout faire,Basse Normandie,3.2828511268813845
+Homme femme à tout faire,Bourgogne,3.303314357014739
+Homme femme à tout faire,Bretagne,3.5116587382047877
+Homme femme à tout faire,Centre-Val de Loire,2.9714107463152137
+Homme femme à tout faire,Champagne-Ardenne,2.388380254230679
+Homme femme à tout faire,Corse,1.0512750526397876
+Homme femme à tout faire,Franche-Comté,3.218217265850425
+Homme femme à tout faire,Languedoc-Roussillon,3.336520315058878
+Homme femme à tout faire,Limousin,10.0
+Homme femme à tout faire,Lorraine,2.133666068782656
+Homme femme à tout faire,Midi-Pyrénées,2.7345394993371275
+Homme femme à tout faire,Nord-Pas-de-Calais,2.5451922327068544
+Homme femme à tout faire,Pays de la Loire,4.9719332449504785
+Homme femme à tout faire,Picardie,2.571137799266942
+Homme femme à tout faire,Poitou-Charentes,3.4894096545270212
+Homme femme à tout faire,Provence-Alpes-Côte d'Azur,5.228885596194338
+Homme femme à tout faire,Rhône-Alpes,8.927731420104498
+Homme femme à tout faire,Île-de-France,6.608484753957732
+Installation climatisation,Alsace,3.127897513187641
+Installation climatisation,Aquitaine,3.9899020346646563
+Installation climatisation,Auvergne,1.4106103993971362
+Installation climatisation,Basse Normandie,0.11945742275810094
+Installation climatisation,Bourgogne,2.070233609645818
+Installation climatisation,Bretagne,0.4057573474001507
+Installation climatisation,Centre-Val de Loire,3.419140919366993
+Installation climatisation,Champagne-Ardenne,0.5187038432554635
+Installation climatisation,Corse,1.5347249434815367
+Installation climatisation,Franche-Comté,1.2012810851544835
+Installation climatisation,Languedoc-Roussillon,7.172584777694046
+Installation climatisation,Limousin,5.842878673700075
+Installation climatisation,Lorraine,3.4888922381311223
+Installation climatisation,Midi-Pyrénées,4.619442351168048
+Installation climatisation,Nord-Pas-de-Calais,0.9369856819894495
+Installation climatisation,Pays de la Loire,2.0246571213262996
+Installation climatisation,Picardie,0.4567445365486058
+Installation climatisation,Poitou-Charentes,0.9768198944988694
+Installation climatisation,Provence-Alpes-Côte d'Azur,10.0
+Installation climatisation,Rhône-Alpes,4.910881688018086
+Installation climatisation,Île-de-France,4.5062547098718895
+Installation de moustiquaires,Alsace,3.7062306368330473
+Installation de moustiquaires,Aquitaine,3.8341824440619634
+Installation de moustiquaires,Auvergne,3.613080895008607
+Installation de moustiquaires,Basse Normandie,0.0
+Installation de moustiquaires,Bourgogne,2.303752151462995
+Installation de moustiquaires,Bretagne,1.1246127366609295
+Installation de moustiquaires,Centre-Val de Loire,1.1721170395869194
+Installation de moustiquaires,Champagne-Ardenne,1.2006884681583478
+Installation de moustiquaires,Corse,10.0
+Installation de moustiquaires,Franche-Comté,2.7613425129087785
+Installation de moustiquaires,Languedoc-Roussillon,6.7613080895008615
+Installation de moustiquaires,Limousin,2.631807228915663
+Installation de moustiquaires,Lorraine,1.4618244406196215
+Installation de moustiquaires,Midi-Pyrénées,9.856351118760756
+Installation de moustiquaires,Nord-Pas-de-Calais,0.8240963855421688
+Installation de moustiquaires,Pays de la Loire,1.1214457831325304
+Installation de moustiquaires,Picardie,1.4265060240963858
+Installation de moustiquaires,Poitou-Charentes,2.273666092943201
+Installation de moustiquaires,Provence-Alpes-Côte d'Azur,6.073459552495699
+Installation de moustiquaires,Rhône-Alpes,8.01053356282272
+Installation de moustiquaires,Île-de-France,1.6396557659208264
+Installation de poêle à granulés de bois,Alsace,0.305801671133533
+Installation de poêle à granulés de bois,Aquitaine,3.6669556991959644
+Installation de poêle à granulés de bois,Auvergne,0.6868910610121393
+Installation de poêle à granulés de bois,Basse Normandie,1.5814441116191078
+Installation de poêle à granulés de bois,Bourgogne,1.0182169320510799
+Installation de poêle à granulés de bois,Bretagne,1.4529087182721112
+Installation de poêle à granulés de bois,Centre-Val de Loire,2.0221109884912503
+Installation de poêle à granulés de bois,Champagne-Ardenne,0.5077723474696516
+Installation de poêle à granulés de bois,Corse,0.0
+Installation de poêle à granulés de bois,Franche-Comté,0.22722686425981398
+Installation de poêle à granulés de bois,Languedoc-Roussillon,1.1119817121236009
+Installation de poêle à granulés de bois,Limousin,0.4924483682799936
+Installation de poêle à granulés de bois,Lorraine,0.8478795522623364
+Installation de poêle à granulés de bois,Midi-Pyrénées,2.6744758000945925
+Installation de poêle à granulés de bois,Nord-Pas-de-Calais,2.044710704713858
+Installation de poêle à granulés de bois,Pays de la Loire,1.3252404225130066
+Installation de poêle à granulés de bois,Picardie,1.1098849125019707
+Installation de poêle à granulés de bois,Poitou-Charentes,1.4351883966577328
+Installation de poêle à granulés de bois,Provence-Alpes-Côte d'Azur,2.016466971464607
+Installation de poêle à granulés de bois,Rhône-Alpes,5.183067948920069
+Installation de poêle à granulés de bois,Île-de-France,10.0
+Installation ou remplacement de panneaux solaires,Alsace,2.701006510618601
+Installation ou remplacement de panneaux solaires,Aquitaine,5.637035835438276
+Installation ou remplacement de panneaux solaires,Auvergne,1.541347508501476
+Installation ou remplacement de panneaux solaires,Basse Normandie,1.4875370110574155
+Installation ou remplacement de panneaux solaires,Bourgogne,1.493633474217487
+Installation ou remplacement de panneaux solaires,Bretagne,3.5629964888888086
+Installation ou remplacement de panneaux solaires,Centre-Val de Loire,3.1256673577179974
+Installation ou remplacement de panneaux solaires,Champagne-Ardenne,0.9786427704325098
+Installation ou remplacement de panneaux solaires,Corse,0.178140317289415
+Installation ou remplacement de panneaux solaires,Franche-Comté,2.0616384512131423
+Installation ou remplacement de panneaux solaires,Languedoc-Roussillon,4.616163470777086
+Installation ou remplacement de panneaux solaires,Limousin,2.953605677672981
+Installation ou remplacement de panneaux solaires,Lorraine,2.302098169694398
+Installation ou remplacement de panneaux solaires,Midi-Pyrénées,4.955248038703627
+Installation ou remplacement de panneaux solaires,Nord-Pas-de-Calais,2.798490501460833
+Installation ou remplacement de panneaux solaires,Pays de la Loire,4.978754479504059
+Installation ou remplacement de panneaux solaires,Picardie,1.384396262975038
+Installation ou remplacement de panneaux solaires,Poitou-Charentes,3.5138088455758743
+Installation ou remplacement de panneaux solaires,Provence-Alpes-Côte d'Azur,4.769549533168977
+Installation ou remplacement de panneaux solaires,Rhône-Alpes,10.0
+Installation ou remplacement de panneaux solaires,Île-de-France,5.035797409656773
+Kinésithérapeute,Alsace,5.9750729927007304
+Kinésithérapeute,Aquitaine,6.45733576642336
+Kinésithérapeute,Auvergne,3.7544525547445264
+Kinésithérapeute,Basse Normandie,3.078147810218978
+Kinésithérapeute,Bourgogne,2.398220802919708
+Kinésithérapeute,Bretagne,6.756569343065694
+Kinésithérapeute,Centre-Val de Loire,3.462335766423357
+Kinésithérapeute,Champagne-Ardenne,2.5839233576642333
+Kinésithérapeute,Corse,1.5044251824817514
+Kinésithérapeute,Franche-Comté,3.3401003649635035
+Kinésithérapeute,Languedoc-Roussillon,6.431204379562043
+Kinésithérapeute,Limousin,10.0
+Kinésithérapeute,Lorraine,3.1740328467153276
+Kinésithérapeute,Midi-Pyrénées,7.252016423357666
+Kinésithérapeute,Nord-Pas-de-Calais,3.5951642335766425
+Kinésithérapeute,Pays de la Loire,5.348540145985402
+Kinésithérapeute,Picardie,2.909397810218979
+Kinésithérapeute,Poitou-Charentes,4.694206204379562
+Kinésithérapeute,Provence-Alpes-Côte d'Azur,6.295164233576644
+Kinésithérapeute,Rhône-Alpes,9.983613138686136
+Kinésithérapeute,Île-de-France,6.478193430656935
+Livraison de courses,Alsace,4.497213779128673
+Livraison de courses,Aquitaine,8.90045592705167
+Livraison de courses,Auvergne,3.927659574468085
+Livraison de courses,Basse Normandie,0.9377912867274569
+Livraison de courses,Bourgogne,8.377456940222899
+Livraison de courses,Bretagne,6.133434650455928
+Livraison de courses,Centre-Val de Loire,7.328875379939208
+Livraison de courses,Champagne-Ardenne,4.168591691995948
+Livraison de courses,Corse,0.0
+Livraison de courses,Franche-Comté,2.368794326241135
+Livraison de courses,Languedoc-Roussillon,4.056737588652482
+Livraison de courses,Limousin,3.5870314083080035
+Livraison de courses,Lorraine,1.9931610942249236
+Livraison de courses,Midi-Pyrénées,5.544376899696049
+Livraison de courses,Nord-Pas-de-Calais,5.7223910840932115
+Livraison de courses,Pays de la Loire,3.7025329280648425
+Livraison de courses,Picardie,5.933130699088146
+Livraison de courses,Poitou-Charentes,2.5146909827760893
+Livraison de courses,Provence-Alpes-Côte d'Azur,10.0
+Livraison de courses,Rhône-Alpes,7.684194528875381
+Livraison de courses,Île-de-France,5.182370820668693
+Make-up,Alsace,2.159719023491479
+Make-up,Aquitaine,4.228065607914607
+Make-up,Auvergne,0.6974345623135001
+Make-up,Basse Normandie,0.9350029038912144
+Make-up,Bourgogne,2.261405283079326
+Make-up,Bretagne,3.895845432880059
+Make-up,Centre-Val de Loire,2.335905112851221
+Make-up,Champagne-Ardenne,1.2389101395870465
+Make-up,Corse,1.0078505196963934
+Make-up,Franche-Comté,1.0446748643181862
+Make-up,Languedoc-Roussillon,8.331163759437647
+Make-up,Limousin,1.1569252798750325
+Make-up,Lorraine,2.721459255402239
+Make-up,Midi-Pyrénées,3.3574990487252925
+Make-up,Nord-Pas-de-Calais,5.923825426070936
+Make-up,Pays de la Loire,3.17487933831334
+Make-up,Picardie,2.052262531792602
+Make-up,Poitou-Charentes,2.7576577614002766
+Make-up,Provence-Alpes-Côte d'Azur,5.674103298419883
+Make-up,Rhône-Alpes,7.137752087797647
+Make-up,Île-de-France,10.0
+Organisation de mariage,Alsace,0.9191157730189567
+Organisation de mariage,Aquitaine,1.2718550529278836
+Organisation de mariage,Auvergne,0.5757972221120934
+Organisation de mariage,Basse Normandie,0.7512417804611438
+Organisation de mariage,Bourgogne,1.0928800811051138
+Organisation de mariage,Bretagne,1.267890417476113
+Organisation de mariage,Centre-Val de Loire,0.9116490429181228
+Organisation de mariage,Champagne-Ardenne,0.8761844348412163
+Organisation de mariage,Corse,1.152878230941903
+Organisation de mariage,Franche-Comté,0.42055342535063434
+Organisation de mariage,Languedoc-Roussillon,0.8504898212704579
+Organisation de mariage,Limousin,5.412671352488186
+Organisation de mariage,Lorraine,0.9007651746421919
+Organisation de mariage,Midi-Pyrénées,1.3151262170014897
+Organisation de mariage,Nord-Pas-de-Calais,1.377427631243593
+Organisation de mariage,Pays de la Loire,1.141616778337232
+Organisation de mariage,Picardie,1.2886197971239401
+Organisation de mariage,Poitou-Charentes,0.6903563074518155
+Organisation de mariage,Provence-Alpes-Côte d'Azur,3.966447856548162
+Organisation de mariage,Rhône-Alpes,4.110751147384379
+Organisation de mariage,Île-de-France,10.0
+Paysagisme et jardins,Alsace,2.3244757563199334
+Paysagisme et jardins,Aquitaine,3.464111065064235
+Paysagisme et jardins,Auvergne,0.5437546622461665
+Paysagisme et jardins,Basse Normandie,1.400638209697472
+Paysagisme et jardins,Bourgogne,1.145793617903025
+Paysagisme et jardins,Bretagne,6.0195938665561535
+Paysagisme et jardins,Centre-Val de Loire,2.9827600497306257
+Paysagisme et jardins,Champagne-Ardenne,0.39801077496891835
+Paysagisme et jardins,Corse,0.13261500207210938
+Paysagisme et jardins,Franche-Comté,0.9225859925404061
+Paysagisme et jardins,Languedoc-Roussillon,1.2991628677994196
+Paysagisme et jardins,Limousin,3.602403646912556
+Paysagisme et jardins,Lorraine,2.7451305428926642
+Paysagisme et jardins,Midi-Pyrénées,1.8990965602983834
+Paysagisme et jardins,Nord-Pas-de-Calais,1.3753833402403646
+Paysagisme et jardins,Pays de la Loire,4.580978035640281
+Paysagisme et jardins,Picardie,2.1594695399917114
+Paysagisme et jardins,Poitou-Charentes,1.6952175714877744
+Paysagisme et jardins,Provence-Alpes-Côte d'Azur,2.6976212184003314
+Paysagisme et jardins,Rhône-Alpes,7.589092416079569
+Paysagisme et jardins,Île-de-France,10.0
+Peintre d'intérieur,Alsace,4.158131605864304
+Peintre d'intérieur,Aquitaine,4.624786907603138
+Peintre d'intérieur,Auvergne,3.2455051710421645
+Peintre d'intérieur,Basse Normandie,3.630685305148313
+Peintre d'intérieur,Bourgogne,3.4030003409478358
+Peintre d'intérieur,Bretagne,5.194590294351632
+Peintre d'intérieur,Centre-Val de Loire,2.913660643254916
+Peintre d'intérieur,Champagne-Ardenne,2.84691442209342
+Peintre d'intérieur,Corse,3.3683145812024105
+Peintre d'intérieur,Franche-Comté,3.7343789066939426
+Peintre d'intérieur,Languedoc-Roussillon,4.361086487100808
+Peintre d'intérieur,Limousin,10.0
+Peintre d'intérieur,Lorraine,3.185543811796796
+Peintre d'intérieur,Midi-Pyrénées,5.359086259802251
+Peintre d'intérieur,Nord-Pas-de-Calais,4.283214001591091
+Peintre d'intérieur,Pays de la Loire,5.058847596317765
+Peintre d'intérieur,Picardie,3.232458233890215
+Peintre d'intérieur,Poitou-Charentes,2.8420047732696907
+Peintre d'intérieur,Provence-Alpes-Côte d'Azur,5.303113990226162
+Peintre d'intérieur,Rhône-Alpes,8.416047278099786
+Peintre d'intérieur,Île-de-France,8.618649846573476
+Piscine enterrée,Alsace,4.693487016310274
+Piscine enterrée,Aquitaine,5.269353151910282
+Piscine enterrée,Auvergne,4.458814890634388
+Piscine enterrée,Basse Normandie,2.4177477136690335
+Piscine enterrée,Bourgogne,3.9346520994192398
+Piscine enterrée,Bretagne,3.6897265303397786
+Piscine enterrée,Centre-Val de Loire,3.6679557642242058
+Piscine enterrée,Champagne-Ardenne,2.2340757882557134
+Piscine enterrée,Corse,1.8852718008055003
+Piscine enterrée,Franche-Comté,2.6969493335706805
+Piscine enterrée,Languedoc-Roussillon,6.455308070581428
+Piscine enterrée,Limousin,7.631116352551123
+Piscine enterrée,Lorraine,4.871854208851606
+Piscine enterrée,Midi-Pyrénées,5.383858837142031
+Piscine enterrée,Nord-Pas-de-Calais,3.464462295009012
+Piscine enterrée,Pays de la Loire,4.860746311831068
+Piscine enterrée,Picardie,3.1379364055094454
+Piscine enterrée,Poitou-Charentes,4.864039518479784
+Piscine enterrée,Provence-Alpes-Côte d'Azur,6.923237133130105
+Piscine enterrée,Rhône-Alpes,10.0
+Piscine enterrée,Île-de-France,4.42477025433346
+Psychologue,Alsace,3.273419836275548
+Psychologue,Aquitaine,5.969059419724899
+Psychologue,Auvergne,2.075758757030685
+Psychologue,Basse Normandie,2.2704237901653954
+Psychologue,Bourgogne,2.2481984741326504
+Psychologue,Bretagne,4.587625995433536
+Psychologue,Centre-Val de Loire,2.6277273486662587
+Psychologue,Champagne-Ardenne,2.185236954947932
+Psychologue,Corse,0.6028401180598096
+Psychologue,Franche-Comté,1.4780865400679402
+Psychologue,Languedoc-Roussillon,5.447736258840564
+Psychologue,Limousin,2.768012474244028
+Psychologue,Lorraine,2.8680403185387315
+Psychologue,Midi-Pyrénées,7.54976889235396
+Psychologue,Nord-Pas-de-Calais,5.577824803697723
+Psychologue,Pays de la Loire,6.840324107590355
+Psychologue,Picardie,3.1593250542963753
+Psychologue,Poitou-Charentes,2.244389374617141
+Psychologue,Provence-Alpes-Côte d'Azur,6.605479757197751
+Psychologue,Rhône-Alpes,9.995350002784427
+Psychologue,Île-de-France,10.0
+Rénovation d'habitation,Alsace,NA
+Rénovation d'habitation,Aquitaine,NA
+Rénovation d'habitation,Auvergne,NA
+Rénovation d'habitation,Basse Normandie,NA
+Rénovation d'habitation,Bourgogne,NA
+Rénovation d'habitation,Bretagne,NA
+Rénovation d'habitation,Centre-Val de Loire,NA
+Rénovation d'habitation,Champagne-Ardenne,NA
+Rénovation d'habitation,Corse,NA
+Rénovation d'habitation,Franche-Comté,NA
+Rénovation d'habitation,Languedoc-Roussillon,NA
+Rénovation d'habitation,Limousin,NA
+Rénovation d'habitation,Lorraine,NA
+Rénovation d'habitation,Midi-Pyrénées,NA
+Rénovation d'habitation,Nord-Pas-de-Calais,NA
+Rénovation d'habitation,Pays de la Loire,NA
+Rénovation d'habitation,Picardie,NA
+Rénovation d'habitation,Poitou-Charentes,NA
+Rénovation d'habitation,Provence-Alpes-Côte d'Azur,NA
+Rénovation d'habitation,Rhône-Alpes,NA
+Rénovation d'habitation,Île-de-France,NA
+Réparation ou restauration de meubles,Alsace,2.526608085613138
+Réparation ou restauration de meubles,Aquitaine,2.259610548483501
+Réparation ou restauration de meubles,Auvergne,0.9684775307696549
+Réparation ou restauration de meubles,Basse Normandie,0.0
+Réparation ou restauration de meubles,Bourgogne,0.0
+Réparation ou restauration de meubles,Bretagne,1.397054290229316
+Réparation ou restauration de meubles,Centre-Val de Loire,0.9459904535380642
+Réparation ou restauration de meubles,Champagne-Ardenne,0.0
+Réparation ou restauration de meubles,Corse,0.0
+Réparation ou restauration de meubles,Franche-Comté,0.0
+Réparation ou restauration de meubles,Languedoc-Roussillon,2.715038760193006
+Réparation ou restauration de meubles,Limousin,2.74355321779367
+Réparation ou restauration de meubles,Lorraine,0.8879637351262424
+Réparation ou restauration de meubles,Midi-Pyrénées,2.6931114262258378
+Réparation ou restauration de meubles,Nord-Pas-de-Calais,1.9318119132836
+Réparation ou restauration de meubles,Pays de la Loire,2.626315396671393
+Réparation ou restauration de meubles,Picardie,0.0
+Réparation ou restauration de meubles,Poitou-Charentes,0.0
+Réparation ou restauration de meubles,Provence-Alpes-Côte d'Azur,5.736151627149332
+Réparation ou restauration de meubles,Rhône-Alpes,5.955927924536871
+Réparation ou restauration de meubles,Île-de-France,10.0
+Tentes,Alsace,3.7945512321973363
+Tentes,Aquitaine,6.600913163035709
+Tentes,Auvergne,4.865684397782399
+Tentes,Basse Normandie,5.1006854618851865
+Tentes,Bourgogne,5.582075455275958
+Tentes,Bretagne,3.825834169547794
+Tentes,Centre-Val de Loire,4.668013968665401
+Tentes,Champagne-Ardenne,4.599299320602659
+Tentes,Corse,4.671787462454579
+Tentes,Franche-Comté,5.973210440224097
+Tentes,Languedoc-Roussillon,6.705369311051001
+Tentes,Limousin,6.105535412161545
+Tentes,Lorraine,5.091700952863334
+Tentes,Midi-Pyrénées,5.243067468608968
+Tentes,Nord-Pas-de-Calais,4.850511808171749
+Tentes,Pays de la Loire,4.359733002853144
+Tentes,Picardie,5.492859280688977
+Tentes,Poitou-Charentes,5.800848249958026
+Tentes,Provence-Alpes-Côte d'Azur,5.345423487640405
+Tentes,Rhône-Alpes,10.0
+Tentes,Île-de-France,5.272564734791332
+Traiteur,Alsace,1.7294083818848602
+Traiteur,Aquitaine,2.290904869696442
+Traiteur,Auvergne,0.1764733745495933
+Traiteur,Basse Normandie,0.8402299517720391
+Traiteur,Bourgogne,0.41891411366694614
+Traiteur,Bretagne,1.8186391162187783
+Traiteur,Centre-Val de Loire,1.1811147070263117
+Traiteur,Champagne-Ardenne,1.0000380273036042
+Traiteur,Corse,0.14208201488668865
+Traiteur,Franche-Comté,0.2631556123963672
+Traiteur,Languedoc-Roussillon,0.9070112340660594
+Traiteur,Limousin,8.703582505572333
+Traiteur,Lorraine,0.8380817426912522
+Traiteur,Midi-Pyrénées,0.546212180345488
+Traiteur,Nord-Pas-de-Calais,2.829338131445045
+Traiteur,Pays de la Loire,2.134572623143417
+Traiteur,Picardie,1.2088879815707678
+Traiteur,Poitou-Charentes,0.3539874963557167
+Traiteur,Provence-Alpes-Côte d'Azur,3.1302275033474034
+Traiteur,Rhône-Alpes,5.907321456805985
+Traiteur,Île-de-France,10.0
+Vidéo mariage,Alsace,1.025690930323083
+Vidéo mariage,Aquitaine,1.892500324380433
+Vidéo mariage,Auvergne,2.8472297910990014
+Vidéo mariage,Basse Normandie,0.5151291034124821
+Vidéo mariage,Bourgogne,1.6374205267938238
+Vidéo mariage,Bretagne,1.986012715712988
+Vidéo mariage,Centre-Val de Loire,1.377838328792007
+Vidéo mariage,Champagne-Ardenne,1.2612689762553522
+Vidéo mariage,Corse,0.0
+Vidéo mariage,Franche-Comté,0.385558583106267
+Vidéo mariage,Languedoc-Roussillon,1.418411833398209
+Vidéo mariage,Limousin,0.0
+Vidéo mariage,Lorraine,0.5873880887504866
+Vidéo mariage,Midi-Pyrénées,0.8840794083300894
+Vidéo mariage,Nord-Pas-de-Calais,1.3060464512780587
+Vidéo mariage,Pays de la Loire,1.6712598936032181
+Vidéo mariage,Picardie,1.4992993382639161
+Vidéo mariage,Poitou-Charentes,1.4323342415985465
+Vidéo mariage,Provence-Alpes-Côte d'Azur,4.621331257298559
+Vidéo mariage,Rhône-Alpes,3.7809134553003765
+Vidéo mariage,Île-de-France,10.0
+Wedding planner,Alsace,0.4658579289644822
+Wedding planner,Aquitaine,1.8204935801233948
+Wedding planner,Auvergne,0.15221731235988367
+Wedding planner,Basse Normandie,0.80040020010005
+Wedding planner,Bourgogne,0.6204954329016361
+Wedding planner,Bretagne,0.747422322272247
+Wedding planner,Centre-Val de Loire,1.3554925610953625
+Wedding planner,Champagne-Ardenne,0.3263668871472774
+Wedding planner,Corse,0.5004354028866286
+Wedding planner,Franche-Comté,0.44313823578455896
+Wedding planner,Languedoc-Roussillon,1.4034100383525094
+Wedding planner,Limousin,4.327395179071017
+Wedding planner,Lorraine,0.9039705037704036
+Wedding planner,Midi-Pyrénées,1.7835306542159968
+Wedding planner,Nord-Pas-de-Calais,0.7076454894113725
+Wedding planner,Pays de la Loire,1.051011616919571
+Wedding planner,Picardie,0.5049978693050229
+Wedding planner,Poitou-Charentes,1.7351268226705943
+Wedding planner,Provence-Alpes-Côte d'Azur,4.1428121468141486
+Wedding planner,Rhône-Alpes,4.042924239897727
+Wedding planner,Île-de-France,10.0
+Wedding planner LT,Alsace,0.33676544450025114
+Wedding planner LT,Aquitaine,1.0299681901891848
+Wedding planner LT,Auvergne,0.09431728492501976
+Wedding planner LT,Basse Normandie,0.6389108129439622
+Wedding planner LT,Bourgogne,0.4405419626414102
+Wedding planner LT,Bretagne,0.5145775035277798
+Wedding planner LT,Centre-Val de Loire,0.9623783214943437
+Wedding planner LT,Champagne-Ardenne,0.21065030733539025
+Wedding planner LT,Corse,0.3230011241060965
+Wedding planner LT,Franche-Comté,0.20377412642606013
+Wedding planner LT,Languedoc-Roussillon,0.9662050656525794
+Wedding planner LT,Limousin,4.425868790509675
+Wedding planner LT,Lorraine,0.6418047882136281
+Wedding planner LT,Midi-Pyrénées,1.1972088684795865
+Wedding planner LT,Nord-Pas-de-Calais,0.438473129080864
+Wedding planner LT,Pays de la Loire,0.558477434168042
+Wedding planner LT,Picardie,0.33525866398794574
+Wedding planner LT,Poitou-Charentes,1.2543110664657628
+Wedding planner LT,Provence-Alpes-Côte d'Azur,3.3165195761880844
+Wedding planner LT,Rhône-Alpes,3.429695534667911
+Wedding planner LT,Île-de-France,10.0
+Yoga,Alsace,3.551702089455498
+Yoga,Aquitaine,7.020281426137682
+Yoga,Auvergne,1.8244232574367423
+Yoga,Basse Normandie,1.1719738807114046
+Yoga,Bourgogne,1.602018069782821
+Yoga,Bretagne,3.989476081405992
+Yoga,Centre-Val de Loire,1.7128922017310668
+Yoga,Champagne-Ardenne,0.9007373604219495
+Yoga,Corse,1.8760355673120577
+Yoga,Franche-Comté,1.0840920802731637
+Yoga,Languedoc-Roussillon,5.110428883623769
+Yoga,Limousin,3.2825750243426755
+Yoga,Lorraine,1.6981917078703845
+Yoga,Midi-Pyrénées,5.257492215453475
+Yoga,Nord-Pas-de-Calais,3.0535349067387236
+Yoga,Pays de la Loire,6.110091662761619
+Yoga,Picardie,1.2459215983392966
+Yoga,Poitou-Charentes,1.3823062695343582
+Yoga,Provence-Alpes-Côte d'Azur,6.988946162908335
+Yoga,Rhône-Alpes,10.0
+Yoga,Île-de-France,9.274303624321364

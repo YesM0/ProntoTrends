@@ -1,0 +1,493 @@
+Year,ticket_geo_region_name,Prof_type,Distribution
+2018,Abruzzo,Certificazione energetica,0.48
+2018,Abruzzo,Costruzione o sostituzione tetto,0.06
+2018,Abruzzo,Installazione o sostituzione doppi vetri,0.02
+2018,Abruzzo,Installazione o sostituzione finestre,0.34
+2018,Abruzzo,Installazione o sostituzione pannelli fotovoltaici,0.04
+2018,Abruzzo,Rifacimento facciata,0.01
+2018,Abruzzo,Riparazione o manutenzione tetto,0.03
+2018,Abruzzo,Riqualificazione energetica,0.01
+2018,Valle d'Aosta,Certificazione energetica,0.55
+2018,Valle d'Aosta,Costruzione o sostituzione tetto,0.07
+2018,Valle d'Aosta,Installazione o sostituzione doppi vetri,0.0
+2018,Valle d'Aosta,Installazione o sostituzione finestre,0.25
+2018,Valle d'Aosta,Installazione o sostituzione pannelli fotovoltaici,0.0
+2018,Valle d'Aosta,Riparazione o manutenzione tetto,0.14
+2018,Valle d'Aosta,Riqualificazione energetica,0.0
+2018,Puglia,Certificazione energetica,0.43
+2018,Puglia,Costruzione o sostituzione tetto,0.11
+2018,Puglia,Installazione o sostituzione doppi vetri,0.0
+2018,Puglia,Installazione o sostituzione finestre,0.29
+2018,Puglia,Installazione o sostituzione pannelli fotovoltaici,0.09
+2018,Puglia,Rifacimento facciata,0.02
+2018,Puglia,Riparazione o manutenzione tetto,0.03
+2018,Puglia,Riqualificazione energetica,0.01
+2018,Basilicata,Certificazione energetica,0.31
+2018,Basilicata,Costruzione o sostituzione tetto,0.16
+2018,Basilicata,Installazione o sostituzione doppi vetri,0.0
+2018,Basilicata,Installazione o sostituzione finestre,0.35
+2018,Basilicata,Installazione o sostituzione pannelli fotovoltaici,0.08
+2018,Basilicata,Rifacimento facciata,0.04
+2018,Basilicata,Riparazione o manutenzione tetto,0.06
+2018,Basilicata,Riqualificazione energetica,0.0
+2018,Calabria,Certificazione energetica,0.34
+2018,Calabria,Costruzione o sostituzione tetto,0.14
+2018,Calabria,Installazione o sostituzione doppi vetri,0.01
+2018,Calabria,Installazione o sostituzione finestre,0.32
+2018,Calabria,Installazione o sostituzione pannelli fotovoltaici,0.11
+2018,Calabria,Rifacimento facciata,0.02
+2018,Calabria,Riparazione o manutenzione tetto,0.04
+2018,Calabria,Riqualificazione energetica,0.01
+2018,Campania,Certificazione energetica,0.45
+2018,Campania,Costruzione o sostituzione tetto,0.08
+2018,Campania,Installazione o sostituzione doppi vetri,0.01
+2018,Campania,Installazione o sostituzione finestre,0.32
+2018,Campania,Installazione o sostituzione pannelli fotovoltaici,0.08
+2018,Campania,Rifacimento facciata,0.01
+2018,Campania,Riparazione o manutenzione tetto,0.05
+2018,Campania,Riqualificazione energetica,0.01
+2018,Emilia-Romagna,Certificazione energetica,0.57
+2018,Emilia-Romagna,Costruzione o sostituzione tetto,0.01
+2018,Emilia-Romagna,Installazione o sostituzione doppi vetri,0.02
+2018,Emilia-Romagna,Installazione o sostituzione finestre,0.31
+2018,Emilia-Romagna,Installazione o sostituzione pannelli fotovoltaici,0.03
+2018,Emilia-Romagna,Rifacimento facciata,0.01
+2018,Emilia-Romagna,Riparazione o manutenzione tetto,0.04
+2018,Emilia-Romagna,Riqualificazione energetica,0.01
+2018,Friuli Venezia Giulia,Certificazione energetica,0.59
+2018,Friuli Venezia Giulia,Costruzione o sostituzione tetto,0.01
+2018,Friuli Venezia Giulia,Installazione o sostituzione doppi vetri,0.0
+2018,Friuli Venezia Giulia,Installazione o sostituzione finestre,0.3
+2018,Friuli Venezia Giulia,Installazione o sostituzione pannelli fotovoltaici,0.05
+2018,Friuli Venezia Giulia,Rifacimento facciata,0.01
+2018,Friuli Venezia Giulia,Riparazione o manutenzione tetto,0.03
+2018,Friuli Venezia Giulia,Riqualificazione energetica,0.01
+2018,Italia,Certificazione energetica,0.48
+2018,Italia,Costruzione o sostituzione tetto,0.04
+2018,Italia,Installazione o sostituzione doppi vetri,0.01
+2018,Italia,Installazione o sostituzione finestre,0.35
+2018,Italia,Installazione o sostituzione pannelli fotovoltaici,0.05
+2018,Italia,Rifacimento facciata,0.01
+2018,Italia,Riparazione o manutenzione tetto,0.04
+2018,Italia,Riqualificazione energetica,0.01
+2018,Lazio,Certificazione energetica,0.4
+2018,Lazio,Costruzione o sostituzione tetto,0.05
+2018,Lazio,Installazione o sostituzione doppi vetri,0.01
+2018,Lazio,Installazione o sostituzione finestre,0.43
+2018,Lazio,Installazione o sostituzione pannelli fotovoltaici,0.05
+2018,Lazio,Rifacimento facciata,0.01
+2018,Lazio,Riparazione o manutenzione tetto,0.04
+2018,Lazio,Riqualificazione energetica,0.0
+2018,Liguria,Certificazione energetica,0.56
+2018,Liguria,Costruzione o sostituzione tetto,0.03
+2018,Liguria,Installazione o sostituzione doppi vetri,0.01
+2018,Liguria,Installazione o sostituzione finestre,0.33
+2018,Liguria,Installazione o sostituzione pannelli fotovoltaici,0.04
+2018,Liguria,Rifacimento facciata,0.01
+2018,Liguria,Riparazione o manutenzione tetto,0.02
+2018,Liguria,Riqualificazione energetica,0.0
+2018,Lombardia,Certificazione energetica,0.5
+2018,Lombardia,Costruzione o sostituzione tetto,0.02
+2018,Lombardia,Installazione o sostituzione doppi vetri,0.01
+2018,Lombardia,Installazione o sostituzione finestre,0.38
+2018,Lombardia,Installazione o sostituzione pannelli fotovoltaici,0.03
+2018,Lombardia,Rifacimento facciata,0.01
+2018,Lombardia,Riparazione o manutenzione tetto,0.04
+2018,Lombardia,Riqualificazione energetica,0.01
+2018,Marche,Certificazione energetica,0.37
+2018,Marche,Costruzione o sostituzione tetto,0.06
+2018,Marche,Installazione o sostituzione doppi vetri,0.01
+2018,Marche,Installazione o sostituzione finestre,0.38
+2018,Marche,Installazione o sostituzione pannelli fotovoltaici,0.09
+2018,Marche,Rifacimento facciata,0.02
+2018,Marche,Riparazione o manutenzione tetto,0.06
+2018,Marche,Riqualificazione energetica,0.01
+2018,Molise,Certificazione energetica,0.37
+2018,Molise,Costruzione o sostituzione tetto,0.03
+2018,Molise,Installazione o sostituzione finestre,0.49
+2018,Molise,Installazione o sostituzione pannelli fotovoltaici,0.06
+2018,Molise,Riparazione o manutenzione tetto,0.06
+2018,Piemonte,Certificazione energetica,0.52
+2018,Piemonte,Costruzione o sostituzione tetto,0.03
+2018,Piemonte,Installazione o sostituzione doppi vetri,0.01
+2018,Piemonte,Installazione o sostituzione finestre,0.33
+2018,Piemonte,Installazione o sostituzione pannelli fotovoltaici,0.04
+2018,Piemonte,Rifacimento facciata,0.01
+2018,Piemonte,Riparazione o manutenzione tetto,0.05
+2018,Piemonte,Riqualificazione energetica,0.01
+2018,Sardegna,Certificazione energetica,0.45
+2018,Sardegna,Costruzione o sostituzione tetto,0.09
+2018,Sardegna,Installazione o sostituzione doppi vetri,0.01
+2018,Sardegna,Installazione o sostituzione finestre,0.29
+2018,Sardegna,Installazione o sostituzione pannelli fotovoltaici,0.07
+2018,Sardegna,Rifacimento facciata,0.03
+2018,Sardegna,Riparazione o manutenzione tetto,0.07
+2018,Sardegna,Riqualificazione energetica,0.0
+2018,Sicilia,Certificazione energetica,0.38
+2018,Sicilia,Costruzione o sostituzione tetto,0.12
+2018,Sicilia,Installazione o sostituzione doppi vetri,0.01
+2018,Sicilia,Installazione o sostituzione finestre,0.27
+2018,Sicilia,Installazione o sostituzione pannelli fotovoltaici,0.13
+2018,Sicilia,Rifacimento facciata,0.05
+2018,Sicilia,Riparazione o manutenzione tetto,0.05
+2018,Sicilia,Riqualificazione energetica,0.0
+2018,Trentino-Alto Adige,Certificazione energetica,0.6
+2018,Trentino-Alto Adige,Costruzione o sostituzione tetto,0.02
+2018,Trentino-Alto Adige,Installazione o sostituzione doppi vetri,0.01
+2018,Trentino-Alto Adige,Installazione o sostituzione finestre,0.29
+2018,Trentino-Alto Adige,Installazione o sostituzione pannelli fotovoltaici,0.05
+2018,Trentino-Alto Adige,Rifacimento facciata,0.01
+2018,Trentino-Alto Adige,Riparazione o manutenzione tetto,0.02
+2018,Trentino-Alto Adige,Riqualificazione energetica,0.0
+2018,Toscana,Certificazione energetica,0.34
+2018,Toscana,Costruzione o sostituzione tetto,0.02
+2018,Toscana,Installazione o sostituzione doppi vetri,0.02
+2018,Toscana,Installazione o sostituzione finestre,0.47
+2018,Toscana,Installazione o sostituzione pannelli fotovoltaici,0.06
+2018,Toscana,Rifacimento facciata,0.01
+2018,Toscana,Riparazione o manutenzione tetto,0.06
+2018,Toscana,Riqualificazione energetica,0.01
+2018,Umbria,Certificazione energetica,0.37
+2018,Umbria,Costruzione o sostituzione tetto,0.05
+2018,Umbria,Installazione o sostituzione doppi vetri,0.01
+2018,Umbria,Installazione o sostituzione finestre,0.39
+2018,Umbria,Installazione o sostituzione pannelli fotovoltaici,0.1
+2018,Umbria,Rifacimento facciata,0.01
+2018,Umbria,Riparazione o manutenzione tetto,0.07
+2018,Umbria,Riqualificazione energetica,0.01
+2018,Veneto,Certificazione energetica,0.49
+2018,Veneto,Costruzione o sostituzione tetto,0.03
+2018,Veneto,Installazione o sostituzione doppi vetri,0.01
+2018,Veneto,Installazione o sostituzione finestre,0.35
+2018,Veneto,Installazione o sostituzione pannelli fotovoltaici,0.06
+2018,Veneto,Rifacimento facciata,0.01
+2018,Veneto,Riparazione o manutenzione tetto,0.04
+2018,Veneto,Riqualificazione energetica,0.01
+2019,Abruzzo,Certificazione energetica,0.38
+2019,Abruzzo,Costruzione o sostituzione tetto,0.14
+2019,Abruzzo,Installazione o sostituzione doppi vetri,0.03
+2019,Abruzzo,Installazione o sostituzione finestre,0.22
+2019,Abruzzo,Installazione o sostituzione pannelli fotovoltaici,0.08
+2019,Abruzzo,Rifacimento facciata,0.01
+2019,Abruzzo,Riparazione o manutenzione tetto,0.13
+2019,Abruzzo,Riqualificazione energetica,0.0
+2019,Valle d'Aosta,Certificazione energetica,0.57
+2019,Valle d'Aosta,Costruzione o sostituzione tetto,0.16
+2019,Valle d'Aosta,Installazione o sostituzione doppi vetri,0.04
+2019,Valle d'Aosta,Installazione o sostituzione finestre,0.16
+2019,Valle d'Aosta,Installazione o sostituzione pannelli fotovoltaici,0.02
+2019,Valle d'Aosta,Riparazione o manutenzione tetto,0.04
+2019,Valle d'Aosta,Riqualificazione energetica,0.02
+2019,Puglia,Certificazione energetica,0.34
+2019,Puglia,Costruzione o sostituzione tetto,0.12
+2019,Puglia,Installazione o sostituzione doppi vetri,0.0
+2019,Puglia,Installazione o sostituzione finestre,0.31
+2019,Puglia,Installazione o sostituzione pannelli fotovoltaici,0.13
+2019,Puglia,Rifacimento facciata,0.04
+2019,Puglia,Riparazione o manutenzione tetto,0.05
+2019,Puglia,Riqualificazione energetica,0.01
+2019,Basilicata,Certificazione energetica,0.31
+2019,Basilicata,Costruzione o sostituzione tetto,0.15
+2019,Basilicata,Installazione o sostituzione doppi vetri,0.01
+2019,Basilicata,Installazione o sostituzione finestre,0.26
+2019,Basilicata,Installazione o sostituzione pannelli fotovoltaici,0.19
+2019,Basilicata,Rifacimento facciata,0.0
+2019,Basilicata,Riparazione o manutenzione tetto,0.07
+2019,Basilicata,Riqualificazione energetica,0.0
+2019,Calabria,Certificazione energetica,0.3
+2019,Calabria,Costruzione o sostituzione tetto,0.15
+2019,Calabria,Installazione o sostituzione doppi vetri,0.01
+2019,Calabria,Installazione o sostituzione finestre,0.34
+2019,Calabria,Installazione o sostituzione pannelli fotovoltaici,0.14
+2019,Calabria,Rifacimento facciata,0.02
+2019,Calabria,Riparazione o manutenzione tetto,0.04
+2019,Calabria,Riqualificazione energetica,0.0
+2019,Campania,Certificazione energetica,0.43
+2019,Campania,Costruzione o sostituzione tetto,0.08
+2019,Campania,Installazione o sostituzione doppi vetri,0.01
+2019,Campania,Installazione o sostituzione finestre,0.28
+2019,Campania,Installazione o sostituzione pannelli fotovoltaici,0.1
+2019,Campania,Rifacimento facciata,0.03
+2019,Campania,Riparazione o manutenzione tetto,0.07
+2019,Campania,Riqualificazione energetica,0.0
+2019,Emilia-Romagna,Certificazione energetica,0.51
+2019,Emilia-Romagna,Costruzione o sostituzione tetto,0.03
+2019,Emilia-Romagna,Installazione o sostituzione doppi vetri,0.04
+2019,Emilia-Romagna,Installazione o sostituzione finestre,0.27
+2019,Emilia-Romagna,Installazione o sostituzione pannelli fotovoltaici,0.06
+2019,Emilia-Romagna,Rifacimento facciata,0.01
+2019,Emilia-Romagna,Riparazione o manutenzione tetto,0.07
+2019,Emilia-Romagna,Riqualificazione energetica,0.01
+2019,Friuli Venezia Giulia,Certificazione energetica,0.5
+2019,Friuli Venezia Giulia,Costruzione o sostituzione tetto,0.06
+2019,Friuli Venezia Giulia,Installazione o sostituzione doppi vetri,0.02
+2019,Friuli Venezia Giulia,Installazione o sostituzione finestre,0.28
+2019,Friuli Venezia Giulia,Installazione o sostituzione pannelli fotovoltaici,0.08
+2019,Friuli Venezia Giulia,Rifacimento facciata,0.0
+2019,Friuli Venezia Giulia,Riparazione o manutenzione tetto,0.06
+2019,Friuli Venezia Giulia,Riqualificazione energetica,0.0
+2019,Italia,Certificazione energetica,0.44
+2019,Italia,Costruzione o sostituzione tetto,0.06
+2019,Italia,Installazione o sostituzione doppi vetri,0.03
+2019,Italia,Installazione o sostituzione finestre,0.29
+2019,Italia,Installazione o sostituzione pannelli fotovoltaici,0.08
+2019,Italia,Rifacimento facciata,0.02
+2019,Italia,Riparazione o manutenzione tetto,0.07
+2019,Italia,Riqualificazione energetica,0.01
+2019,Lazio,Certificazione energetica,0.4
+2019,Lazio,Costruzione o sostituzione tetto,0.06
+2019,Lazio,Installazione o sostituzione doppi vetri,0.03
+2019,Lazio,Installazione o sostituzione finestre,0.33
+2019,Lazio,Installazione o sostituzione pannelli fotovoltaici,0.07
+2019,Lazio,Rifacimento facciata,0.02
+2019,Lazio,Riparazione o manutenzione tetto,0.08
+2019,Lazio,Riqualificazione energetica,0.0
+2019,Liguria,Certificazione energetica,0.47
+2019,Liguria,Costruzione o sostituzione tetto,0.04
+2019,Liguria,Installazione o sostituzione doppi vetri,0.02
+2019,Liguria,Installazione o sostituzione finestre,0.34
+2019,Liguria,Installazione o sostituzione pannelli fotovoltaici,0.08
+2019,Liguria,Rifacimento facciata,0.01
+2019,Liguria,Riparazione o manutenzione tetto,0.03
+2019,Liguria,Riqualificazione energetica,0.01
+2019,Lombardia,Certificazione energetica,0.49
+2019,Lombardia,Costruzione o sostituzione tetto,0.05
+2019,Lombardia,Installazione o sostituzione doppi vetri,0.03
+2019,Lombardia,Installazione o sostituzione finestre,0.29
+2019,Lombardia,Installazione o sostituzione pannelli fotovoltaici,0.05
+2019,Lombardia,Rifacimento facciata,0.01
+2019,Lombardia,Riparazione o manutenzione tetto,0.07
+2019,Lombardia,Riqualificazione energetica,0.0
+2019,Marche,Certificazione energetica,0.38
+2019,Marche,Costruzione o sostituzione tetto,0.06
+2019,Marche,Installazione o sostituzione doppi vetri,0.04
+2019,Marche,Installazione o sostituzione finestre,0.33
+2019,Marche,Installazione o sostituzione pannelli fotovoltaici,0.11
+2019,Marche,Rifacimento facciata,0.01
+2019,Marche,Riparazione o manutenzione tetto,0.06
+2019,Marche,Riqualificazione energetica,0.01
+2019,Molise,Certificazione energetica,0.47
+2019,Molise,Costruzione o sostituzione tetto,0.07
+2019,Molise,Installazione o sostituzione finestre,0.27
+2019,Molise,Installazione o sostituzione pannelli fotovoltaici,0.07
+2019,Molise,Riparazione o manutenzione tetto,0.11
+2019,Piemonte,Certificazione energetica,0.47
+2019,Piemonte,Costruzione o sostituzione tetto,0.06
+2019,Piemonte,Installazione o sostituzione doppi vetri,0.03
+2019,Piemonte,Installazione o sostituzione finestre,0.25
+2019,Piemonte,Installazione o sostituzione pannelli fotovoltaici,0.06
+2019,Piemonte,Rifacimento facciata,0.02
+2019,Piemonte,Riparazione o manutenzione tetto,0.1
+2019,Piemonte,Riqualificazione energetica,0.01
+2019,Sardegna,Certificazione energetica,0.35
+2019,Sardegna,Costruzione o sostituzione tetto,0.1
+2019,Sardegna,Installazione o sostituzione doppi vetri,0.02
+2019,Sardegna,Installazione o sostituzione finestre,0.3
+2019,Sardegna,Installazione o sostituzione pannelli fotovoltaici,0.13
+2019,Sardegna,Rifacimento facciata,0.05
+2019,Sardegna,Riparazione o manutenzione tetto,0.06
+2019,Sardegna,Riqualificazione energetica,0.01
+2019,Sicilia,Certificazione energetica,0.37
+2019,Sicilia,Costruzione o sostituzione tetto,0.11
+2019,Sicilia,Installazione o sostituzione doppi vetri,0.01
+2019,Sicilia,Installazione o sostituzione finestre,0.25
+2019,Sicilia,Installazione o sostituzione pannelli fotovoltaici,0.16
+2019,Sicilia,Rifacimento facciata,0.03
+2019,Sicilia,Riparazione o manutenzione tetto,0.06
+2019,Sicilia,Riqualificazione energetica,0.01
+2019,Trentino-Alto Adige,Certificazione energetica,0.54
+2019,Trentino-Alto Adige,Costruzione o sostituzione tetto,0.05
+2019,Trentino-Alto Adige,Installazione o sostituzione doppi vetri,0.01
+2019,Trentino-Alto Adige,Installazione o sostituzione finestre,0.27
+2019,Trentino-Alto Adige,Installazione o sostituzione pannelli fotovoltaici,0.05
+2019,Trentino-Alto Adige,Rifacimento facciata,0.01
+2019,Trentino-Alto Adige,Riparazione o manutenzione tetto,0.06
+2019,Trentino-Alto Adige,Riqualificazione energetica,0.0
+2019,Toscana,Certificazione energetica,0.34
+2019,Toscana,Costruzione o sostituzione tetto,0.05
+2019,Toscana,Installazione o sostituzione doppi vetri,0.04
+2019,Toscana,Installazione o sostituzione finestre,0.36
+2019,Toscana,Installazione o sostituzione pannelli fotovoltaici,0.1
+2019,Toscana,Rifacimento facciata,0.02
+2019,Toscana,Riparazione o manutenzione tetto,0.09
+2019,Toscana,Riqualificazione energetica,0.01
+2019,Umbria,Certificazione energetica,0.31
+2019,Umbria,Costruzione o sostituzione tetto,0.07
+2019,Umbria,Installazione o sostituzione doppi vetri,0.06
+2019,Umbria,Installazione o sostituzione finestre,0.32
+2019,Umbria,Installazione o sostituzione pannelli fotovoltaici,0.12
+2019,Umbria,Rifacimento facciata,0.02
+2019,Umbria,Riparazione o manutenzione tetto,0.1
+2019,Umbria,Riqualificazione energetica,0.01
+2019,Veneto,Certificazione energetica,0.41
+2019,Veneto,Costruzione o sostituzione tetto,0.06
+2019,Veneto,Installazione o sostituzione doppi vetri,0.03
+2019,Veneto,Installazione o sostituzione finestre,0.3
+2019,Veneto,Installazione o sostituzione pannelli fotovoltaici,0.1
+2019,Veneto,Rifacimento facciata,0.01
+2019,Veneto,Riparazione o manutenzione tetto,0.09
+2019,Veneto,Riqualificazione energetica,0.01
+2020,Abruzzo,Certificazione energetica,0.22
+2020,Abruzzo,Costruzione o sostituzione tetto,0.08
+2020,Abruzzo,Installazione o sostituzione doppi vetri,0.02
+2020,Abruzzo,Installazione o sostituzione finestre,0.31
+2020,Abruzzo,Installazione o sostituzione pannelli fotovoltaici,0.26
+2020,Abruzzo,Rifacimento facciata,0.02
+2020,Abruzzo,Riparazione o manutenzione tetto,0.07
+2020,Abruzzo,Riqualificazione energetica,0.02
+2020,Valle d'Aosta,Certificazione energetica,0.49
+2020,Valle d'Aosta,Costruzione o sostituzione tetto,0.06
+2020,Valle d'Aosta,Installazione o sostituzione doppi vetri,0.0
+2020,Valle d'Aosta,Installazione o sostituzione finestre,0.2
+2020,Valle d'Aosta,Installazione o sostituzione pannelli fotovoltaici,0.17
+2020,Valle d'Aosta,Riparazione o manutenzione tetto,0.09
+2020,Valle d'Aosta,Riqualificazione energetica,0.0
+2020,Puglia,Certificazione energetica,0.21
+2020,Puglia,Costruzione o sostituzione tetto,0.02
+2020,Puglia,Installazione o sostituzione doppi vetri,0.01
+2020,Puglia,Installazione o sostituzione finestre,0.42
+2020,Puglia,Installazione o sostituzione pannelli fotovoltaici,0.26
+2020,Puglia,Rifacimento facciata,0.03
+2020,Puglia,Riparazione o manutenzione tetto,0.02
+2020,Puglia,Riqualificazione energetica,0.02
+2020,Basilicata,Certificazione energetica,0.24
+2020,Basilicata,Costruzione o sostituzione tetto,0.0
+2020,Basilicata,Installazione o sostituzione doppi vetri,0.02
+2020,Basilicata,Installazione o sostituzione finestre,0.39
+2020,Basilicata,Installazione o sostituzione pannelli fotovoltaici,0.31
+2020,Basilicata,Rifacimento facciata,0.02
+2020,Basilicata,Riparazione o manutenzione tetto,0.0
+2020,Basilicata,Riqualificazione energetica,0.01
+2020,Calabria,Certificazione energetica,0.16
+2020,Calabria,Costruzione o sostituzione tetto,0.05
+2020,Calabria,Installazione o sostituzione doppi vetri,0.0
+2020,Calabria,Installazione o sostituzione finestre,0.47
+2020,Calabria,Installazione o sostituzione pannelli fotovoltaici,0.25
+2020,Calabria,Rifacimento facciata,0.03
+2020,Calabria,Riparazione o manutenzione tetto,0.02
+2020,Calabria,Riqualificazione energetica,0.01
+2020,Campania,Certificazione energetica,0.21
+2020,Campania,Costruzione o sostituzione tetto,0.03
+2020,Campania,Installazione o sostituzione doppi vetri,0.02
+2020,Campania,Installazione o sostituzione finestre,0.41
+2020,Campania,Installazione o sostituzione pannelli fotovoltaici,0.27
+2020,Campania,Rifacimento facciata,0.03
+2020,Campania,Riparazione o manutenzione tetto,0.04
+2020,Campania,Riqualificazione energetica,0.01
+2020,Emilia-Romagna,Certificazione energetica,0.37
+2020,Emilia-Romagna,Costruzione o sostituzione tetto,0.02
+2020,Emilia-Romagna,Installazione o sostituzione doppi vetri,0.02
+2020,Emilia-Romagna,Installazione o sostituzione finestre,0.24
+2020,Emilia-Romagna,Installazione o sostituzione pannelli fotovoltaici,0.24
+2020,Emilia-Romagna,Rifacimento facciata,0.03
+2020,Emilia-Romagna,Riparazione o manutenzione tetto,0.06
+2020,Emilia-Romagna,Riqualificazione energetica,0.03
+2020,Friuli Venezia Giulia,Certificazione energetica,0.3
+2020,Friuli Venezia Giulia,Costruzione o sostituzione tetto,0.03
+2020,Friuli Venezia Giulia,Installazione o sostituzione doppi vetri,0.02
+2020,Friuli Venezia Giulia,Installazione o sostituzione finestre,0.33
+2020,Friuli Venezia Giulia,Installazione o sostituzione pannelli fotovoltaici,0.24
+2020,Friuli Venezia Giulia,Rifacimento facciata,0.02
+2020,Friuli Venezia Giulia,Riparazione o manutenzione tetto,0.05
+2020,Friuli Venezia Giulia,Riqualificazione energetica,0.02
+2020,Italia,Certificazione energetica,0.29
+2020,Italia,Costruzione o sostituzione tetto,0.04
+2020,Italia,Installazione o sostituzione doppi vetri,0.01
+2020,Italia,Installazione o sostituzione finestre,0.32
+2020,Italia,Installazione o sostituzione pannelli fotovoltaici,0.24
+2020,Italia,Rifacimento facciata,0.03
+2020,Italia,Riparazione o manutenzione tetto,0.05
+2020,Italia,Riqualificazione energetica,0.02
+2020,Lazio,Certificazione energetica,0.23
+2020,Lazio,Costruzione o sostituzione tetto,0.04
+2020,Lazio,Installazione o sostituzione doppi vetri,0.02
+2020,Lazio,Installazione o sostituzione finestre,0.33
+2020,Lazio,Installazione o sostituzione pannelli fotovoltaici,0.3
+2020,Lazio,Rifacimento facciata,0.02
+2020,Lazio,Riparazione o manutenzione tetto,0.04
+2020,Lazio,Riqualificazione energetica,0.02
+2020,Liguria,Certificazione energetica,0.36
+2020,Liguria,Costruzione o sostituzione tetto,0.03
+2020,Liguria,Installazione o sostituzione doppi vetri,0.01
+2020,Liguria,Installazione o sostituzione finestre,0.37
+2020,Liguria,Installazione o sostituzione pannelli fotovoltaici,0.16
+2020,Liguria,Rifacimento facciata,0.02
+2020,Liguria,Riparazione o manutenzione tetto,0.04
+2020,Liguria,Riqualificazione energetica,0.01
+2020,Lombardia,Certificazione energetica,0.39
+2020,Lombardia,Costruzione o sostituzione tetto,0.05
+2020,Lombardia,Installazione o sostituzione doppi vetri,0.02
+2020,Lombardia,Installazione o sostituzione finestre,0.31
+2020,Lombardia,Installazione o sostituzione pannelli fotovoltaici,0.13
+2020,Lombardia,Rifacimento facciata,0.02
+2020,Lombardia,Riparazione o manutenzione tetto,0.06
+2020,Lombardia,Riqualificazione energetica,0.02
+2020,Marche,Certificazione energetica,0.26
+2020,Marche,Costruzione o sostituzione tetto,0.03
+2020,Marche,Installazione o sostituzione doppi vetri,0.02
+2020,Marche,Installazione o sostituzione finestre,0.37
+2020,Marche,Installazione o sostituzione pannelli fotovoltaici,0.28
+2020,Marche,Rifacimento facciata,0.01
+2020,Marche,Riparazione o manutenzione tetto,0.02
+2020,Marche,Riqualificazione energetica,0.01
+2020,Molise,Certificazione energetica,0.17
+2020,Molise,Costruzione o sostituzione tetto,0.02
+2020,Molise,Installazione o sostituzione finestre,0.33
+2020,Molise,Installazione o sostituzione pannelli fotovoltaici,0.43
+2020,Molise,Riparazione o manutenzione tetto,0.06
+2020,Piemonte,Certificazione energetica,0.32
+2020,Piemonte,Costruzione o sostituzione tetto,0.06
+2020,Piemonte,Installazione o sostituzione doppi vetri,0.01
+2020,Piemonte,Installazione o sostituzione finestre,0.29
+2020,Piemonte,Installazione o sostituzione pannelli fotovoltaici,0.17
+2020,Piemonte,Rifacimento facciata,0.02
+2020,Piemonte,Riparazione o manutenzione tetto,0.08
+2020,Piemonte,Riqualificazione energetica,0.03
+2020,Sardegna,Certificazione energetica,0.21
+2020,Sardegna,Costruzione o sostituzione tetto,0.05
+2020,Sardegna,Installazione o sostituzione doppi vetri,0.01
+2020,Sardegna,Installazione o sostituzione finestre,0.31
+2020,Sardegna,Installazione o sostituzione pannelli fotovoltaici,0.29
+2020,Sardegna,Rifacimento facciata,0.06
+2020,Sardegna,Riparazione o manutenzione tetto,0.05
+2020,Sardegna,Riqualificazione energetica,0.01
+2020,Sicilia,Certificazione energetica,0.15
+2020,Sicilia,Costruzione o sostituzione tetto,0.05
+2020,Sicilia,Installazione o sostituzione doppi vetri,0.01
+2020,Sicilia,Installazione o sostituzione finestre,0.29
+2020,Sicilia,Installazione o sostituzione pannelli fotovoltaici,0.39
+2020,Sicilia,Rifacimento facciata,0.05
+2020,Sicilia,Riparazione o manutenzione tetto,0.05
+2020,Sicilia,Riqualificazione energetica,0.02
+2020,Trentino-Alto Adige,Certificazione energetica,0.34
+2020,Trentino-Alto Adige,Costruzione o sostituzione tetto,0.06
+2020,Trentino-Alto Adige,Installazione o sostituzione doppi vetri,0.01
+2020,Trentino-Alto Adige,Installazione o sostituzione finestre,0.32
+2020,Trentino-Alto Adige,Installazione o sostituzione pannelli fotovoltaici,0.18
+2020,Trentino-Alto Adige,Rifacimento facciata,0.02
+2020,Trentino-Alto Adige,Riparazione o manutenzione tetto,0.05
+2020,Trentino-Alto Adige,Riqualificazione energetica,0.01
+2020,Toscana,Certificazione energetica,0.17
+2020,Toscana,Costruzione o sostituzione tetto,0.04
+2020,Toscana,Installazione o sostituzione doppi vetri,0.01
+2020,Toscana,Installazione o sostituzione finestre,0.4
+2020,Toscana,Installazione o sostituzione pannelli fotovoltaici,0.26
+2020,Toscana,Rifacimento facciata,0.03
+2020,Toscana,Riparazione o manutenzione tetto,0.06
+2020,Toscana,Riqualificazione energetica,0.02
+2020,Umbria,Certificazione energetica,0.12
+2020,Umbria,Costruzione o sostituzione tetto,0.03
+2020,Umbria,Installazione o sostituzione doppi vetri,0.02
+2020,Umbria,Installazione o sostituzione finestre,0.32
+2020,Umbria,Installazione o sostituzione pannelli fotovoltaici,0.41
+2020,Umbria,Rifacimento facciata,0.03
+2020,Umbria,Riparazione o manutenzione tetto,0.04
+2020,Umbria,Riqualificazione energetica,0.03
+2020,Veneto,Certificazione energetica,0.28
+2020,Veneto,Costruzione o sostituzione tetto,0.04
+2020,Veneto,Installazione o sostituzione doppi vetri,0.01
+2020,Veneto,Installazione o sostituzione finestre,0.26
+2020,Veneto,Installazione o sostituzione pannelli fotovoltaici,0.29
+2020,Veneto,Rifacimento facciata,0.02
+2020,Veneto,Riparazione o manutenzione tetto,0.07
+2020,Veneto,Riqualificazione energetica,0.03

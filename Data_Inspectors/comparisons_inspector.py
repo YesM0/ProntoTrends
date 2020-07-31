@@ -1,13 +1,13 @@
 if __name__ == '__main__':
     import sys
     sys.path.append('../')
+    from matplotlib import pyplot as plt
 
 import json
 import os
 from typing import Union, List
 
 import pandas as pd
-from matplotlib import pyplot as plt
 from pandas.core import resample
 
 from utils.misc_utils import deduplicateColumns, lcol
