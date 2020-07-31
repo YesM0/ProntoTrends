@@ -20,6 +20,7 @@ import InputSetup from "./pages/InputSetup";
 import DatabaseCredsSetup from "./pages/DatabaseCredsSetup";
 import LoggingTest from "./pages/LoggingTest";
 import Scraper from "./pages/Scraper";
+import FinalCsvInspection from "./pages/FinalCsvInspection";
 
 
 export const eel = window.eel
@@ -92,6 +93,10 @@ const navItems = [
             {
                 title: 'Comparison Inspection',
                 link: '/Inspect-Comparison'
+            },
+            {
+                title: 'Final CSV Inspection',
+                link: '/Inspect-FinalCSVs'
             }
         ]
     },
@@ -163,6 +168,9 @@ export class App extends Component {
                                 </Route>
                                 <Route exact path={'/DataPipeline-Scraping'}>
                                     <Scraper/>
+                                </Route>
+                                <Route exact path={'/Inspect-FinalCSVs'}>
+                                    <FinalCsvInspection/>
                                 </Route>
                                 <Route>
                                     <div>

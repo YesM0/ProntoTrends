@@ -2,6 +2,7 @@ import os
 import sys
 from typing import List, Dict, Union
 import pandas as pd
+import random
 
 sys.path.extend(["../", "./"])
 
@@ -51,7 +52,9 @@ def get_available_tags(country: Country) -> List[Dict[str, Union[int, str, bool]
 
 
 def get_keywords_from_db(country: Country, search_items: List[Union[str, int]]) -> Union[List[
-    Dict[str, Union[str, int, List[str]]]], None]:
+                                                                                             Dict[str, Union[
+                                                                                                 str, int, List[
+                                                                                                     str]]]], None]:
     search_keywords = [item for item in search_items if isinstance(item, str)]
     search_tag_ids = [item for item in search_items if isinstance(item, int) or isinstance(item, float)]
     df = selectTagsFromDB(country.Shortcode, search_keywords, search_tag_ids, called_through_api=True)
@@ -98,8 +101,50 @@ def get_scraping_input_file(country: Country, campaign_short_code: str, scraping
                 return ""
 
 
+def get_csv(filename: Union[Filepath, str]):
+    if os.path.exists(filename):
+        return filename
+    else:
+        for root, dirs, files in os.walk(FS.cwd):
+            if filename in files:
+                return os.path.join(root, filename)
+
+
+def get_available_options(filepath: Filepath, columns: List[str] = ('Year', 'ticket_geo_region_name')) -> Dict[
+    str, List[Union[str, int]]]:
+    df: pd.DataFrame = pd.read_csv(filepath)
+    vals: Dict[str, List[Union[str, int]]] = {}
+    for col in columns:
+        vals[col] = df[col].unique().tolist()
+    return vals
+
+
+def get_data_for_options(filepath: Filepath, year: int, region: str):
+    available_colors = [
+        "#f7f8f9", "#e9ecef", "#bec8d0", "#7d92a2", "#274964", "#f2fdf7", "#e5faef", "#b2f2d0", "#66e6a2", "#00d664",
+        "#f6fcfc", "#ecf8f9", "#c8ebef", "#91d9e0", "#48bfcc", "#fef7f4", "#feeee9", "#fdcebe", "#fc9d7e", "#f95c28",
+        "rgba(39,73,100,.6)", "#fdf5f2", "#fcebe6", "#f6c4b4", "#ed8b6a", "#e13d06", "hsla(0,0%,100%,0)", "#fff",
+        "#fefcf4", "#fef8e9", "#fcebbf", "#fad880", "#f7be2c", "#48bfcc", "#91d9e0", "#f7f8f9", "#e9ecef", "#bec8d0",
+        "#7d92a2", "#f2fdf7", "#e5faef", "#b2f2d0", "#66e6a2", "#f6fcfc", "#ecf8f9", "#c8ebef", "#fef7f4", "#feeee9",
+        "#fdcebe", "#fc9d7e", "#fdf5f2", "#fcebe6", "#f6c4b4", "#ed8b6a", "#48bfcc", "#fefcf4", "#fef8e9", "#fcebbf",
+        "#fad880"]
+    df: pd.DataFrame = pd.read_csv(filepath)
+    query = df.query('Year == @year & ticket_geo_region_name == @region').fillna(0)
+    # print(query)
+    labels = query[query.columns[2]].tolist()
+    data = query['Distribution'].tolist()
+    chosen_colors = random.choices(available_colors, k=len(data))
+    final = {
+        'labels': labels,
+        'datasets': [{
+            'data': data,
+            'backgroundColor': chosen_colors,
+            'hoverBackgroundColor': chosen_colors,
+        }]
+    }
+    return final
+
+
 if __name__ == '__main__':
-    country = Country(short_name='DE')
-    print(get_available_category_overviews(country, 'Wed'))
-    print(get_available_comparisons(country))
-    print(get_available_tags(country))
+    path = "/Users/chris/PycharmProjects/ProntoTrends/Output_Files/FINAL/Italy/Summer/Overview_Homecare.csv"
+    get_data_for_options(path, 2020, 'Italia')

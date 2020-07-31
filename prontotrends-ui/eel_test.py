@@ -14,7 +14,7 @@ from utils.Countries import Country
 from utils.sql_utils import get_sql_login_data, create_credentials_file_api
 from utils.Filesys import generic_FileServer as FS
 from api.api_resolvers import get_available_comparisons, get_available_tags, get_available_category_overviews, \
-    get_keywords_from_db, get_scraping_input_file
+    get_keywords_from_db, get_scraping_input_file, get_data_for_options, get_csv, get_available_options
 from Datapipeline.finalCSVgenerator import api_start
 from Input_Set_Up.prepareKeywordsFile import api_file_creation
 from Datapipeline.mainProxy import api_access as scraper_api_access
@@ -172,6 +172,35 @@ def scrape(settings_dict):
         scraper_api_access(chosen_action, country, file, deduplicateKeywords, prefix)
     else:
         eel.notification("Invalid action chosen", {'type': 'error'})
+
+
+@eel.expose
+def get_final_category_overviews(country_short_name: Country_Shortcode, campaign_name: str):
+    return get_available_category_overviews(country=Country(short_name=country_short_name), campaign_name=campaign_name)
+
+
+@eel.expose
+def get_available_campaigns(country_short_name: Country_Shortcode):
+    country = Country(short_name=country_short_name)
+    return [x for x in os.listdir(os.path.join(FS.Final, country.Full_name)) if os.path.isdir(os.path.join(FS.Final, country.Full_name, x)) and not x.startswith(".")]
+
+
+@eel.expose
+def get_available_options_from_file(filepath):
+    print("Called get_available_options")
+    csv_path = get_csv(filepath)
+    print(f'Got csv path: {csv_path}')
+    options = get_available_options(csv_path)
+    for col, opts in options.items():
+        options[col] = [{'value': x, 'label': x} for x in opts]
+    options['full_csv_path'] = csv_path
+    print("Got options")
+    return options
+
+
+@eel.expose
+def get_data_for_chosen_options(filepath, year, region):
+    return get_data_for_options(filepath, year, region)
 
 
 def start_eel(develop):
