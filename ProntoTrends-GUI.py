@@ -157,7 +157,7 @@ def get_scraping_file(country_short_name: Country_Shortcode, campaign_short_code
 
 
 @eel.expose
-def scrape(settings_dict):
+def scrape(settings_dict: Dict[str, Union[bool, str, Filepath]]):
     actions = {
         "Individual - All Regions": 'Individual Keywords ("Keywords_CC.csv) - All Regions',
         "Individual - CC only": 'Individual Keywords ("Keywords_CC.csv) - Only Country',
@@ -188,7 +188,7 @@ def get_available_campaigns(country_short_name: Country_Shortcode):
 
 
 @eel.expose
-def get_available_options_from_file(filepath):
+def get_available_options_from_file(filepath: Filepath):
     print("Called get_available_options")
     csv_path = get_csv(filepath)
     print(f'Got csv path: {csv_path}')
