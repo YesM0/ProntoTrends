@@ -23,7 +23,7 @@ def readMergeInfo(country_short_code, prefix=""):
     country_short_code = country_short_code.upper()
     if len(prefix) > 0:
         prefix = prefix + "_"
-    csv = pd.read_csv(os.path.join(FS.Inputs, f"{prefix}Tag_Keyword_{country_short_code}.csv"))
+    csv = pd.read_csv(os.path.join(FS.Inputs, f"{prefix}Tag_Keyword_{country_short_code}.csv"), encoding = 'latin1')
     csv.rename(axis='columns', mapper={'tag': 'tag_name'}, inplace=True)
     return csv
 
@@ -61,7 +61,10 @@ def remap(value, maximum):
     if pd.isna(value) or pd.isna(maximum) or isinstance(maximum, str):
         return 0
     else:
-        v = round((value / maximum) * 100)
+        if maximum != 0:
+            v = round((value / maximum) * 100)
+        else:
+            v = 0
     return v
 
 
